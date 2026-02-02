@@ -1,0 +1,906 @@
+
+--✄--COPY BELOW INTO "AVpos" NOTECARD--✄--
+
+"CS >> THE SUPER SMASH COUCH <<" AVsitter 2.2
+SWAP 0
+TEXT ☢ CTRL+S ☢ => RESYNC => 👉👌
+AMENU 0
+
+SITTER 0|Omega ♀|F
+
+TOMENU Together
+TOMENU For Him
+TOMENU For Her
+TOMENU Front
+TOMENU Rodeo
+TOMENU Sitting
+TOMENU Sitting Back
+TOMENU Dogging
+TOMENU Behind
+TOMENU Me ♀
+BUTTON SWAP|90030|0|1
+BUTTON [ADJUST]|99
+BUTTON [INM API]|-99998
+BUTTON [Textures]|-1864098
+BUTTON [FACES]|-31450010
+TOMENU Cleaning
+
+MENU Me ♀
+POSE Sit Down ♀|SitDownF
+POSE Lay Down ♀|LayDownF
+POSE Charming|Assured1F
+POSE FlipChill ♀|FlipChillF
+POSE Laptop|LapTopF
+POSE Sexy ♀|SexyF
+POSE I don't care|IdontCare
+POSE Cogitate|CogitateF
+POSE Confident|ConfidentF
+POSE Lay ♀|LayF
+POSE Lay Smoke|SmokeLF
+POSE Sit Smoke|SmokingSF
+POSE Charming B|Assured2F
+POSE Smokey ♀|GCS01F
+POSE Princess|Diva8F
+POSE Twist ♀|BStoolF4
+POSE Drink ♀|DrinkingF
+POSE Tired ♀|TiredF
+POSE Nightmare ♀|NightmareF
+
+MENU Cleaning
+POSE Cleaning ♀|Wash
+
+MENU Together
+SYNC Me & You|MeYouF
+SYNC Intimacy|IntimacyF
+SYNC Tender Love|TenderLF
+SYNC Lap Hug|LapHugF
+SYNC Again !|AgainF
+SYNC Tender Bond|TBondF
+SYNC Twist Love|TwistLoveF
+SYNC Warm Nestle|WarmNF
+SYNC Go With|GoWithF
+SYNC Smile ☺|SmileF
+SYNC In Sync|SyncF
+SYNC Hugging|HuggingF
+SYNC Quiet Ties|QuietTiesF
+SYNC Loving|LovingF
+SYNC Side Kiss|SideKissF
+SYNC Sit with Me|SWMF
+SYNC Not Smile Ø|NotSmileF
+SYNC Tell me|TellmeF
+SYNC Lovers|LoversF
+SYNC Your Abs|YourAbsF
+SYNC Let me Kiss|LetmeKissF
+SYNC ErotiKiss|ErotiKissF
+SYNC Love me|LoveMeF
+SYNC Care me|CareMeF
+SYNC Kiss me Silly|SillyF
+SYNC Lay on You|LayonyouF
+SYNC Heaven|HeavenF
+SYNC Breathe|BreatheF
+SYNC Nap Time|NapF
+SYNC Relax|RelaxF
+SYNC Sleeping|SleepingAF
+SYNC Kiss Laying|KLayF
+SYNC Tangling|TangF
+
+MENU For Him
+SYNC Lay Caring|LayCareF
+SYNC Teaser A|TeaserAF
+SYNC Teaser B|TeaserBF
+SYNC Boob Tease|BoobTF
+SYNC HandJob|HandJobAF
+SYNC BlowJob|BlowJobAF
+SYNC Provocate|ProvocF
+SYNC Boobing|BoobingF
+SYNC Wild Boobs|WildBoobsF
+SYNC Luv Ur Boobs|LoveBoobsF
+SYNC MasturBoobs|MBoobsF
+SYNC Comfy Lick|ComLickF
+SYNC Pet Gag|PGagF
+SYNC Stroke|StrokeAF
+SYNC Caring HJ|CaringHJF
+SYNC Kneeling HJ|KHJF
+SYNC Kneeling BJ|BJKF
+SYNC Throat Fuck|TFF
+SYNC Degradation|DegradationF
+SYNC Acrobat BJ|AcroF
+SYNC Gag Her|GagKF
+SYNC FootJob Ride|FootJobRF
+SYNC Tease|TizF
+
+MENU For Her
+SYNC Tongued|TonguedF
+SYNC Tongued B|RevTonguedF
+SYNC Open Up|OpenUpF
+SYNC Pussy Play A|PussyPlayAF
+SYNC Pussy Play B|PussyPlayBF
+SYNC Spread Lick|SpreadLickF
+SYNC ThighJob|ThighJobF
+SYNC Eat Me|EatMeF
+SYNC Sit Face|SitFaceF
+SYNC RoseBud|RoseBudF
+SYNC On Cunt|OnCuntF
+SYNC Boobies|BoobiesF
+SYNC Spank A|SpankAF
+
+MENU Front
+SYNC Seduction|SeductionF
+SYNC Turn and Burn|BurnF
+SYNC Press and Burn|PressBurnF
+SYNC Mission A|MissAF
+SYNC Mission B|MissBF
+SYNC Mission C|MissCF
+SYNC Lovin U|LovinUF
+SYNC Tower|TowF
+SYNC Tumble A|TumbleAF
+SYNC Tumble Rev|TumbleRF
+SYNC Stand Stuff|StandStuffF
+SYNC Suspended|SuspendedF
+SYNC ButterFly|BFlyF
+SYNC Spread|SprF
+SYNC Front Smash|FrontSF
+SYNC Destroyer|DestroyerF
+SYNC Face 2 Face|Face2FaceF
+SYNC Edge Mission|EdgeMF
+
+MENU Rodeo
+SYNC Erotic Rodeo|Ero2F
+SYNC Erotic Touch|EroticTAF
+SYNC Rodeo Classic|RodClassicF
+SYNC Crunches|RodClassicBF
+SYNC Front Slide|FrontSlAF
+SYNC Slow Ride|SlowRideF
+SYNC Ride Him A|RideHAF
+SYNC Ride Him B|RideHBF
+SYNC Rodeo Drive A|RodeoDAF
+SYNC Rodeo Drive B|RodeoDBF
+SYNC Rodeo Drive C|RodeoDCF
+SYNC Rodeo Stuff B|RodeoSBF
+SYNC Rodeo Smash|RodSmashF
+SYNC Bunny B|BunnyBF
+SYNC Bunny C|BunnyCF
+SYNC Rabbits|RabbitBF
+SYNC Big Bang|BBangF
+SYNC Rev Tease|RevTeaseF
+SYNC Rev Ride|RevRideF
+
+MENU Sitting
+SYNC True Love|TrueLF
+SYNC AutoRun|AutoRunF
+SYNC AutoPlay|AutoPlayF
+SYNC AutoSmash|AutoSmashF
+SYNC AutoRide|AutoRideF
+SYNC Pump Him|PumpHimF
+SYNC Pump Harder|PumpHarderF
+SYNC Bang|BangF
+SYNC Lewd Ride|LewdF
+SYNC Lewd Ride B|LewdBF
+SYNC Boink|BoinkF
+SYNC Lap Ride|LapAF
+SYNC Caught A|CaughtAF
+SYNC Caught B|CaughtBF
+SYNC Trapped|TrappedF
+SYNC Sit Riders|SRF
+
+MENU Sitting Back
+SYNC Rear Pump|RearPumpF
+SYNC Rear Stroke|RearStrokeF
+SYNC Plug In|PlugInF
+SYNC Plug Stuff|PStuffF
+SYNC Force2Ride|FRideF
+SYNC Grind A|GrindAF
+SYNC Grind B|GrindBF
+SYNC Twisted|TwistedF
+SYNC Twist Again|Twisted2F
+SYNC Pole Slide|PoleSF
+SYNC AutoLoad|AutoLoadF
+SYNC AutoExec|AutoExecF
+SYNC ButtFuck|ButtFF
+SYNC SexDoll|SexDollF
+SYNC Ultimatum|UltimatumF
+
+MENU Dogging
+SYNC Back Up A|BackUpAF
+SYNC Back Up B|BackUpBF
+SYNC Back Up C|BackUpCF
+SYNC Slow Dog|SlowDogF
+SYNC Doggy A|DogAF
+SYNC Doggy B|DogBF
+SYNC Doggy C|DogCF
+SYNC Quickie|QuickieF
+SYNC Quickie B|QuickieBF
+SYNC Dog Recover|DogRecF
+SYNC Lock Dog|LockDF
+SYNC Lock Wild|LockDWildF
+SYNC ♂ Doggie ♀|DogDogF
+SYNC Dom Smash|DomSmashF
+SYNC Piggy Dog|PDogF
+SYNC Wide Impact|WideImpactF
+SYNC Wide Stuff|WideStuffF
+SYNC BackDoor|BDoorF
+SYNC Butt Hunt|ButtHuntF
+SYNC Back 2 Smash|Back2SmashF
+
+MENU Behind
+SYNC Deep Dog|DeepDF
+SYNC Stuff A|StuffAF
+SYNC Stuff B|StuffBF
+SYNC Stuff C|StuffCF
+SYNC Stuff D|StuffDF
+SYNC Reward|RewardF
+SYNC Pull Her|PullHerF
+SYNC Flexy Dog|FlexyDF
+SYNC Flexy Pound|FlexyDAF
+SYNC Anal Gape|AGapeF
+SYNC Stand Fuck A|StandFuckF
+SYNC Stand Side|StandSideF
+SYNC Squat Back|SquatBackF
+SYNC Back Fill|BackFillF
+SYNC MotherFucker|WFuckF
+SYNC Rude Behind|RudeBehindF
+SYNC Heavy Behind|HeavyBehindF
+SYNC Ass Feed|AssFeedF
+SYNC Bend Over|BovF
+SYNC Blast Her|BlastF
+SYNC Sex Machina|SMachinaF
+SYNC Smash Hammer|SmashHF
+SYNC Smash Hard|SmashHBF
+SYNC That Ass|ThatAssF
+SYNC Fissure|FissureF
+SYNC Fracture|FractureF
+{Sit Down ♀}<1.115,-0.656,0.586><-7,0,-90>
+{Lay Down ♀}<1.115,-0.656,0.586><-7,0,-90>
+{Charming}<1.01,-0.313,0.631><0,0,-90>
+{FlipChill ♀}<0.991,0.153,1.054><-2,0,90>
+{Laptop}<0.418,0.119,0.879><0,0,0>
+{Sexy ♀}<0.548,-0.097,1.08><0,0,-88>
+{I don't care}<0.346,0.322,1.015><0,0,160>
+{Cogitate}<0.522,0.053,0.422><0,0,180>
+{Confident}<0.698,-0.327,0.607><0,0,-90>
+{Lay ♀}<0.642,0.551,1.006><0,0,-95>
+{Lay Smoke}<0.375,-0.02,0.597><0,7,180>
+{Sit Smoke}<1.084,-0.328,-0.034><-7,0,-90>
+{Charming B}<1.229,-0.775,0.522><0,0,-90>
+{Smokey ♀}<0.456,0.007,0.33><18.2,-9.5,-176.2>
+{Princess}<1.337,0.247,0.46><3.2,0,-90>
+{Twist ♀}<2.108,-0.753,0.578><1.5,0,-50.2>
+{Drink ♀}<1.684,-0.457,0.245><-7,0,-90>
+{Tired ♀}<0.435,-0.06,0.525><0,0,-90>
+{Nightmare ♀}<0.435,-0.06,0.525><0,0,-90>
+{Cleaning ♀}<-2.981,0.343,0><0,0,-90>
+{Me & You}<0,-0.408,0.446><-5,0,90>
+{Intimacy}<-0.501,-0.86,0.548><-2,0,0>
+{Tender Love}<-0.206,-0.449,0.451><0,0,90>
+{Lap Hug}<0,-1.076,0.76><0,0,90>
+{Again !}<-0.109,-0.896,0.813><0,0,90>
+{Tender Bond}<-0.205,-0.885,0.506><0,0,-90>
+{Twist Love}<0.084,-0.471,0.449><0,0,-90>
+{Warm Nestle}<-0.221,-0.201,1.061><0,0,-95.6>
+{Go With}<0,-0.938,0.67><2,0,-90>
+{Smile ☺}<-0.308,0.13,0.593><2,0,-90>
+{In Sync}<0,-0.789,0.547><2,0,-90>
+{Hugging}<1.611,-1.136,0.505><0,0,76>
+{Quiet Ties}<1.673,-0.723,0.453><0,0,-90>
+{Loving}<1.87,-0.896,0.379><0,0,102>
+{Side Kiss}<1.852,-0.996,0.693><0,0,112.5>
+{Sit with Me}<1.247,-0.756,0.827><0,0,11.5>
+{Not Smile Ø}<-0.357,-1.236,0.481><2,0,-90>
+{Tell me}<-0.549,0.056,0.769><0,0,0>
+{Lovers}<-0.565,0.044,0.944><0,0,0>
+{Your Abs}<-0.485,-0.19,0.859><0,0,180>
+{Let me Kiss}<-0.686,-0.292,0.943><0,0,180>
+{ErotiKiss}<-0.791,-0.333,0.895><0,-5,180>
+{Love me}<-0.587,-0.439,0.732><0,-4,0>
+{Care me}<-0.35,-0.2,0.894><0,0,180>
+{Kiss me Silly}<-1.035,0.099,0.199><0,0,180>
+{Lay on You}<-0.567,0.06,0.918><0,0,180>
+{Heaven}<-0.616,-0.33,0.858><0,0,180>
+{Breathe}<-0.564,0.101,0.436><0,0,180>
+{Nap Time}<0.046,-0.549,0.644><-13,0,180>
+{Relax}<-0.578,-0.273,0.962><0,0,180>
+{Sleeping}<0.087,0.06,0.922><0,0,180>
+{Kiss Laying}<0.57,-0.092,0.912><0,0,56>
+{Tangling}<0.435,-0.06,0.525><0,0,-90>
+{Lay Caring}<-0.629,-0.182,0.45><0,0,-179>
+{Teaser A}<-0.564,-0.027,1.135><0,0,180>
+{Teaser B}<-0.525,-0.027,1.117><0,-2,180>
+{Boob Tease}<-0.613,-0.027,0.714><0,-2,180>
+{HandJob}<0.034,-0.043,0.55><0,0,0>
+{BlowJob}<0,-0.043,0.55><0,0,0>
+{Provocate}<-0.245,0.275,1.034><0,0,180>
+{Boobing}<0.68,0,0.971><0,0,180>
+{Wild Boobs}<0.68,0,0.971><0,0,180>
+{Luv Ur Boobs}<0.084,-1.237,0.61><0,0,90>
+{MasturBoobs}<0.084,-1.197,0.483><0,0,90>
+{Comfy Lick}<0,-1.239,0.54><-2,0,90>
+{Pet Gag}<0,-1.402,0.451><-2,0,90>
+{Stroke}<0,-0.739,0.429><0,0,-90>
+{Caring HJ}<0,-0.854,0.541><0,0,-90>
+{Kneeling HJ}<1.703,-0.667,0.497><0,0,90>
+{Kneeling BJ}<1.77,-0.764,0.497><0,0,90>
+{Throat Fuck}<1.907,-0.775,0.497><0,0,-90>
+{Degradation}<1.597,-0.969,0.603><0,0,90>
+{Acrobat BJ}<-0.968,-0.2,0.872><0,0,0>
+{Gag Her}<1.556,-0.969,0.603><0,0,90>
+{FootJob Ride}<0,-0.898,1.109><0,0,-90>
+{Tease}<-0.939,-0.733,0.444><-5.4,-4.5,-50.2>
+{Tongued}<-0.482,-0.999,0.381><0,0,-90>
+{Tongued B}<-0.602,-0.974,0.381><0,0,-118>
+{Open Up}<0.644,-0.031,0.914><0,0,180>
+{Pussy Play A}<-0.176,-0.328,1.061><0,0,-79>
+{Pussy Play B}<-0.176,-0.328,1.061><0,0,-79>
+{Spread Lick}<0.372,-1.378,0.531><0,0,90>
+{ThighJob}<-0.318,0,0.35><0,0,180>
+{Eat Me}<-0.085,-0.06,0.438><0,0,180>
+{Sit Face}<-0.388,0,1.069><0,0,0>
+{RoseBud}<0.778,-0.879,0.307><-6,0,90>
+{On Cunt}<0.778,-0.439,0.443><0,0,-90>
+{Boobies}<1.392,0,0.813><0,0,180>
+{Spank A}<0.01,-1.077,0.576><0,0,0>
+{Seduction}<0.774,0.027,1.008><0,0,180>
+{Turn and Burn}<0.442,0.273,0.895><0,0,180>
+{Press and Burn}<0.442,0.273,0.895><0,0,180>
+{Mission A}<0.376,0.047,0.542><0,0,180>
+{Mission B}<0.376,0.047,0.542><0,0,180>
+{Mission C}<0.376,0.047,0.542><0,0,180>
+{Lovin U}<0.481,0.022,0.954><0,0,180>
+{Tower}<0.481,0.022,0.954><0,0,180>
+{Tumble A}<-0.206,0.294,1.114><0,0,-90>
+{Tumble Rev}<-0.726,-1.377,0.597><0,0,180>
+{Stand Stuff}<0,-1.225,0.459><0,0,180>
+{Suspended}<0,-1.225,0.434><0,0,180>
+{ButterFly}<0.79,0.076,0.525><0,0,180>
+{Spread}<0,-0.597,0.485><0,0,-90>
+{Front Smash}<0,-1.206,0.413><0,0,-90>
+{Destroyer}<0.025,-0.763,1.113><0,0,-156>
+{Face 2 Face}<0,0.273,1.089><-1,0,-90>
+{Edge Mission}<0,-1.007,0.508><-5,0,-90>
+{Erotic Rodeo}<0.892,-0.044,0.925><0,-1,0>
+{Erotic Touch}<0.341,-0.044,0.983><0,0,0>
+{Rodeo Classic}<0.845,-0.044,0.945><0,0,0>
+{Crunches}<0.845,-0.044,0.898><0,0,0>
+{Front Slide}<0.384,-0.029,1.145><0,0,0>
+{Slow Ride}<0.145,-0.224,1.002><0,0,0>
+{Ride Him A}<0.316,0.003,0.977><0,0,0>
+{Ride Him B}<0,-0.21,0.977><0,0,0>
+{Rodeo Drive A}<0.831,0.043,0.913><0,0,0>
+{Rodeo Drive B}<0.67,0.018,0.977><0,0,0>
+{Rodeo Drive C}<0.804,-0.237,0.977><0,0,0>
+{Rodeo Stuff B}<0.213,-0.247,0.92><0,0,0>
+{Rodeo Smash}<0.473,0.035,0.968><0,0,0>
+{Bunny B}<0.689,-0.22,0.92><0,0,0>
+{Bunny C}<0.346,-0.301,0.92><0,0,0>
+{Rabbits}<-0.63,-0.296,0.552><0,0,0>
+{Big Bang}<0.322,0.008,0.442><0,0,0>
+{Rev Tease}<-0.822,0.076,0.96><0,0,0>
+{Rev Ride}<-0.822,0.076,0.965><0,0,0>
+{True Love}<-0.206,-0.434,0.478><0,0,90>
+{AutoRun}<-0.206,-0.678,0.476><0,0,90>
+{AutoPlay}<-0.206,-0.627,0.402><0,0,90>
+{AutoSmash}<-0.206,-0.543,0.402><0,0,90>
+{AutoRide}<-0.206,-0.455,0.451><-3,0,90>
+{Pump Him}<-0.206,-0.725,0.496><-3,0,90>
+{Pump Harder}<-0.206,-0.725,0.453><0,0,90>
+{Bang}<-0.206,-1.349,0.421><0,0,90>
+{Lewd Ride}<-0.206,-0.697,0.424><0,0,90>
+{Lewd Ride B}<-0.206,-0.697,0.378><0,0,90>
+{Boink}<-0.206,-0.267,0.563><-7,0,90>
+{Lap Ride}<-0.206,-0.703,0.485><0,0,90>
+{Caught A}<-0.206,-0.997,0.472><0,0,90>
+{Caught B}<-0.206,-1.05,0.481><0,0,90>
+{Trapped}<-0.206,-0.981,0.426><0,0,90>
+{Sit Riders}<0.011,-1.388,0.448><0,0,90>
+{Rear Pump}<-0.206,-0.581,0.522><0,0,-90>
+{Rear Stroke}<-0.206,-0.508,0.575><0,0,-90>
+{Plug In}<0.009,-0.526,0.607><0,0,-90>
+{Plug Stuff}<0.009,-0.784,0.509><0,0,-90>
+{Force2Ride}<0.009,-0.678,0.486><0,0,-90>
+{Grind A}<0.009,-0.727,1.112><0,0,-90>
+{Grind B}<0.009,-0.931,1.073><0,0,-90>
+{Twisted}<0.084,-0.471,0.449><0,0,-90>
+{Twist Again}<0.084,-0.471,0.449><0,0,-90>
+{Pole Slide}<0.024,-0.268,0.459><0,0,-45>
+{AutoLoad}<-0.206,0.044,0.543><0,0,-90>
+{AutoExec}<-0.206,0.044,0.543><0,0,-90>
+{ButtFuck}<0.009,-0.493,0.122><0,0,-90>
+{SexDoll}<0.009,-0.493,0.122><0,0,-90>
+{Ultimatum}<0.495,-0.47,0.48><0,0,-34>
+{Back Up A}<0.621,0.05,0.642><0,0,0>
+{Back Up B}<0.621,0.035,0.642><0,0,0>
+{Back Up C}<0.621,-0.076,0.556><0,0,0>
+{Slow Dog}<0.796,0.096,0.62><0,0,0>
+{Doggy A}<0.796,-0.006,0.47><0,0,0>
+{Doggy B}<0.796,-0.006,0.62><0,0,0>
+{Doggy C}<0.796,-0.006,0.62><0,0,0>
+{Quickie}<1.152,0.029,0.405><0,0,0>
+{Quickie B}<-0.622,-0.235,0.607><0,0,0>
+{Dog Recover}<0.796,-0.006,0.62><0,0,0>
+{Lock Dog}<0.916,-0.002,0.697><0,0,0>
+{Lock Wild}<0.916,-0.002,0.697><0,0,0>
+{♂ Doggie ♀}<0.78,0.096,1.101><0,0,0>
+{Dom Smash}<-0.322,-0.225,0.679><0,0,0>
+{Piggy Dog}<0.966,-0.165,1.074><0,0,0>
+{Wide Impact}<0.363,-0.006,1.067><0,0,0>
+{Wide Stuff}<0.363,-0.006,1.067><0,0,0>
+{BackDoor}<0.01,0.03,0.994><0,0,0>
+{Butt Hunt}<0.278,0,0.978><0,0,0>
+{Back 2 Smash}<-1.435,-0.208,0.514><0,0,0>
+{Deep Dog}<-0.206,-0.194,0.62><0,0,90>
+{Stuff A}<-0.206,-0.125,0.594><0,0,90>
+{Stuff B}<-0.206,-0.134,0.594><0,0,90>
+{Stuff C}<-0.206,-0.3,1.048><0,0,90>
+{Stuff D}<-0.206,-0.694,0.98><0,0,90>
+{Reward}<0,-0.662,0.247><0,0,90>
+{Pull Her}<-0.206,-0.156,0.582><0,0,90>
+{Flexy Dog}<-0.037,-0.064,1.104><0,0,90>
+{Flexy Pound}<-0.037,0.691,1.082><-3,0,90>
+{Anal Gape}<-0.037,-0.108,1.044><0,0,-90>
+{Stand Fuck A}<0.333,-1.225,0.514><0,0,0>
+{Stand Side}<0.308,-1.225,0.491><0,0,180>
+{Squat Back}<1.303,-0.225,0.768><0,0,0>
+{Back Fill}<-3,0.661,0.425><0,0,90>
+{MotherFucker}<-3,0.824,0.525><0,0,90>
+{Rude Behind}<-0.5,0.096,0.748><0,0,0>
+{Heavy Behind}<-0.5,0.096,0.748><0,0,0>
+{Ass Feed}<1.084,-0.965,0.454><0,0,90>
+{Bend Over}<1.844,-0.959,0.425><0,0,90>
+{Blast Her}<0,-0.96,0.46><7,0,90>
+{Sex Machina}<1.361,-1.391,0.425><0,0,104>
+{Smash Hammer}<1.562,-0.284,0.363><0,0,180>
+{Smash Hard}<1.562,-0.284,0.363><0,0,180>
+{That Ass}<-0.597,-0.333,0.565><0,0,174.4>
+{Fissure}<0.505,-0.519,0.425><0,0,90>
+{Fracture}<0.505,-0.519,0.425><0,0,90>
+PROP Cleaning ♀|Machine|G22|<-3.000000, 0.293560, 0.271885>|<90.000010, 0.000000, 0.000000>
+PROP Sleeping|ZZZM|G55|<-1.118668, 0.087181, 0.426306>|<0.000000, 0.000000, 0.000000>
+PROP Nap Time|ZZZ|G55|<0.108734, 0.087181, 0.363237>|<0.000000, 0.000000, 0.000000>
+PROP Relax|ZZZM|G55|<-1.041306, 0.087181, 0.363237>|<0.000000, 0.000000, 0.000000>
+PROP Heaven|ZZZ|G55|<-0.990341, -0.006733, 0.363237>|<0.000000, 0.000000, 0.000000>
+PROP Breathe|ZZZ|G55|<-0.990341, -0.006733, 0.363237>|<0.000000, 0.000000, 0.000000>
+PROP Tangling|ZZZ|G55|<1.060669, -0.177731, 0.363237>|<0.000000, 0.000000, 0.000000>
+PROP Tired ♀|ZZZ|G55|<1.060669, -0.177731, 0.363237>|<0.000000, 0.000000, 0.000000>
+PROP Laptop|LapTop|G1|<1.316544, 0.125237, 0.080429>|<-0.000977, -2.000869, -90.000050>
+PROP1 Cig|CigCig|G22|<-0.326080, -0.505005, 0.246094>|<130.017200, 1.531992, 88.714130>|right hand
+PROP1 Smoke ♀|CigCig|G22|<-0.326080, -0.505005, 0.246094>|<130.017200, 1.531992, 88.714130>|right hand
+PROP1 Smokey ♀|CigCig|G22|<-0.326080, -0.505005, 0.246094>|<130.017200, 1.531992, 88.714130>|right hand
+PROP1 Drink ♀|CS Drink|G22|<-0.000000, -0.000000, 0.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 Nightmare ♀|Nightmare|G22|<-0.000000, -0.000000, 0.000000>|<0.000000, 0.000000, 0.000000>|left foot
+
+SITTER 1|Sigma ♂|M
+
+TOMENU Together
+TOMENU For Him
+TOMENU For Her
+TOMENU Front
+TOMENU Rodeo
+TOMENU Sitting
+TOMENU Sitting Back
+TOMENU Dogging
+TOMENU Behind
+TOMENU Me ♂
+BUTTON SWAP|90030|0|1
+BUTTON [ADJUST]|99
+BUTTON [Textures]|-1864098
+BUTTON [FACES]|-31450010
+TOMENU Cleaning
+
+MENU Me ♂
+POSE Lay A ♂|LayMAM
+POSE Alpha ♂|AlphaM
+POSE Wait ♂|ManWM
+POSE Smoke|SmokyM
+POSE Tired ♂|TiredM
+POSE I don't care ♂|IdontcareM
+POSE Boss|BossM
+POSE Daily Routine|DailyRoutine
+
+MENU Cleaning
+POSE Cleaning ♂|Wash
+
+MENU Together
+SYNC Me & You|MeYouM
+SYNC Intimacy|IntimacyM
+SYNC Tender Love|TenderLM
+SYNC Lap Hug|LapHugM
+SYNC Again !|AgainM
+SYNC Tender Bond|TBondM
+SYNC Twist Love|TwistLoveM
+SYNC Warm Nestle|WarmNM
+SYNC Go With|GoWithM
+SYNC Smile ☺|SmileM
+SYNC In Sync|SyncM
+SYNC Hugging|HuggingM
+SYNC Quiet Ties|QuietTiesM
+SYNC Loving|LovingM
+SYNC Side Kiss|SideKissM
+SYNC Sit with Me|SWMM
+SYNC Not Smile Ø|NotSmileM
+SYNC Tell me|TellmeM
+SYNC Lovers|LoversM
+SYNC Your Abs|YourAbsM
+SYNC Let me Kiss|LetmeKissM
+SYNC ErotiKiss|ErotiKissM
+SYNC Love me|LoveMeM
+SYNC Care me|CareMeM
+SYNC Kiss me Silly|SillyM
+SYNC Lay on You|LayonyouM
+SYNC Breathe|BreatheM
+SYNC Nap Time|NapM
+SYNC Heaven|HeavenM
+SYNC Relax|RelaxM
+SYNC Sleeping|SleepingAM
+SYNC Kiss Laying|KLayM
+SYNC Tangling|TangM
+
+MENU For Him
+SYNC Lay Caring|LayCareM
+SYNC Teaser A|TeaserAM
+SYNC Teaser B|TeaserBM
+SYNC Boob Tease|BoobTM
+SYNC HandJob|HandJobAM
+SYNC BlowJob|BlowJobAM
+SYNC Provocate|ProvocM
+SYNC Boobing|BoobingM
+SYNC Wild Boobs|WildBoobsM
+SYNC Luv Ur Boobs|LoveBoobsM
+SYNC MasturBoobs|MBoobsM
+SYNC Comfy Lick|ComLickM
+SYNC Pet Gag|PGagM
+SYNC Stroke|StrokeAM
+SYNC Caring HJ|CaringHJM
+SYNC Kneeling HJ|KHJM
+SYNC Kneeling BJ|BJKM
+SYNC Throat Fuck|TFM
+SYNC Degradation|DegradationM
+SYNC Acrobat BJ|AcroM
+SYNC Gag Her|GagKM
+SYNC FootJob Ride|FootJobRM
+SYNC Tease|TizM
+
+MENU For Her
+SYNC Tongued|TonguedM
+SYNC Tongued B|RevTonguedM
+SYNC Open Up|OpenUpM
+SYNC Pussy Play A|PussyPlayAM
+SYNC Pussy Play B|PussyPlayBM
+SYNC Spread Lick|SpreadLickM
+SYNC ThighJob|ThighJobM
+SYNC Eat Me|EatMeM
+SYNC Sit Face|SitFaceM
+SYNC RoseBud|RoseBudM
+SYNC On Cunt|OnCuntM
+SYNC Boobies|BoobiesM
+SYNC Spank A|SpankAM
+
+MENU Front
+SYNC Seduction|SeductionM
+SYNC Turn and Burn|BurnM
+SYNC Press and Burn|PressBurnM
+SYNC Mission A|MissAM
+SYNC Mission B|MissBM
+SYNC Mission C|MissCM
+SYNC Lovin U|LovinUM
+SYNC Tower|TowM
+SYNC Tumble A|TumbleAM
+SYNC Tumble Rev|TumbleRM
+SYNC Stand Stuff|StandStuffM
+SYNC Suspended|SuspendedM
+SYNC ButterFly|BFlyM
+SYNC Spread|SprM
+SYNC Front Smash|FrontSM
+SYNC Destroyer|DestroyerM
+SYNC Face 2 Face|Face2FaceM
+SYNC Edge Mission|EdgeMM
+
+MENU Rodeo
+SYNC Erotic Rodeo|Ero2M
+SYNC Erotic Touch|EroticTAM
+SYNC Rodeo Classic|RodClassicM
+SYNC Crunches|RodClassicBM
+SYNC Front Slide|FrontSlAM
+SYNC Slow Ride|SlowRideM
+SYNC Ride Him A|RideHAM
+SYNC Ride Him B|RideHBM
+SYNC Rodeo Drive A|RodeoDAM
+SYNC Rodeo Drive B|RodeoDBM
+SYNC Rodeo Drive C|RodeoDCM
+SYNC Rodeo Stuff B|RodeoSBM
+SYNC Rodeo Smash|RodSmashM
+SYNC Bunny B|BunnyBM
+SYNC Bunny C|BunnyCM
+SYNC Rabbits|RabbitBM
+SYNC Big Bang|BBangM
+SYNC Rev Tease|RevTeaseM
+SYNC Rev Ride|RevRideM
+
+MENU Sitting
+SYNC True Love|TrueLM
+SYNC AutoRun|AutoRunM
+SYNC AutoPlay|AutoPlayM
+SYNC AutoSmash|AutoSmashM
+SYNC AutoRide|AutoRideM
+SYNC Pump Him|PumpHimM
+SYNC Pump Harder|PumpHarderM
+SYNC Bang|BangM
+SYNC Lewd Ride|LewdM
+SYNC Lewd Ride B|LewdBM
+SYNC Boink|BoinkM
+SYNC Lap Ride|LapAM
+SYNC Caught A|CaughtAM
+SYNC Caught B|CaughtBM
+SYNC Trapped|TrappedM
+SYNC Sit Riders|SRM
+
+MENU Sitting Back
+SYNC Rear Pump|RearPumpM
+SYNC Rear Stroke|RearStrokeM
+SYNC Plug In|PlugInM
+SYNC Plug Stuff|PStuffM
+SYNC Force2Ride|FRideM
+SYNC Grind A|GrindAM
+SYNC Grind B|GrindBM
+SYNC Twisted|TwistedM
+SYNC Twist Again|Twisted2M
+SYNC Pole Slide|PoleSM
+SYNC AutoLoad|AutoLoadM
+SYNC AutoExec|AutoExecM
+SYNC ButtFuck|ButtFM
+SYNC SexDoll|SexDollM
+SYNC Ultimatum|UltimatumM
+
+MENU Dogging
+SYNC Back Up A|BackUpAM
+SYNC Back Up B|BackUpBM
+SYNC Back Up C|BackUpCM
+SYNC Slow Dog|SlowDogM
+SYNC Doggy A|DogAM
+SYNC Doggy B|DogBM
+SYNC Doggy C|DogCM
+SYNC Quickie|QuickieM
+SYNC Quickie B|QuickieBM
+SYNC Dog Recover|DogRecM
+SYNC Lock Dog|LockDM
+SYNC Lock Wild|LockDWildM
+SYNC ♂ Doggie ♀|DogDogM
+SYNC Dom Smash|DomSmashM
+SYNC Piggy Dog|PDogM
+SYNC Wide Impact|WideImpactM
+SYNC Wide Stuff|WideStuffM
+SYNC BackDoor|BDoorM
+SYNC Butt Hunt|ButtHuntM
+SYNC Back 2 Smash|Back2SmashM
+
+MENU Behind
+SYNC Deep Dog|DeepDM
+SYNC Stuff A|StuffAM
+SYNC Stuff B|StuffBM
+SYNC Stuff C|StuffCM
+SYNC Stuff D|StuffDM
+SYNC Reward|RewardM
+SYNC Pull Her|PullHerM
+SYNC Flexy Dog|FlexyDM
+SYNC Flexy Pound|FlexyDAM
+SYNC Anal Gape|AGapeM
+SYNC Stand Fuck A|StandFuckM
+SYNC Stand Side|StandSideM
+SYNC Squat Back|SquatBackM
+SYNC Back Fill|BackFillM
+SYNC MotherFucker|WFuckM
+SYNC Rude Behind|RudeBehindM
+SYNC Heavy Behind|HeavyBehindM
+SYNC Ass Feed|AssFeedM
+SYNC Bend Over|BovM
+SYNC Blast Her|BlastM
+SYNC Sex Machina|SmachinaM
+SYNC Smash Hammer|SmashHM
+SYNC Smash Hard|SmashHBM
+SYNC That Ass|ThatAssM
+SYNC Fissure|FissureM
+SYNC Fracture|FractureM
+{Lay A ♂}<-0.603,0.021,0.955><0.2,1,-7>
+{Alpha ♂}<-0.47,-0.288,0.607><0,-3,4>
+{Wait ♂}<-0.916,-0.377,0.487><-3,0.2,-90>
+{Smoke}<-0.842,-0.891,0.505><-3,0.2,-90>
+{Tired ♂}<0.435,-0.122,0.335><0,0,-90>
+{I don't care ♂}<-0.775,-0.698,0.563><1,0,-90>
+{Boss}<-1.118,-0.897,0.591><4.7,1.4,-47>
+{Daily Routine}<0,0.021,0.642><0.1,1,0>
+{Cleaning ♂}<3,0.259,0><0,0,-90>
+{Me & You}<0,-0.364,0.391><-5,0,-90>
+{Intimacy}<-0.498,-0.817,0.417><-2,0,-90>
+{Tender Love}<-0.206,-0.762,0.35><0,0,-90>
+{Lap Hug}<0,-0.527,0.746><0,0,-90>
+{Again !}<-0.109,-0.365,0.757><0,0,-90>
+{Tender Bond}<-0.214,-0.86,0.454><0,0,-90>
+{Twist Love}<0.084,-0.444,0.34><0,0,-90>
+{Warm Nestle}<-0.19,0.113,0.971><0,0,-95.6>
+{Go With}<0,-0.005,0.139><2,0,-90>
+{Smile ☺}<-0.363,-0.817,0.443><2,0,-90>
+{In Sync}<0,-0.789,0.415><2,0,-90>
+{Hugging}<1.711,-0.738,0.464><0,0,-104>
+{Quiet Ties}<1.663,-0.796,0.39><0,0,-90>
+{Loving}<1.87,-0.896,0.426><0,0,-78>
+{Side Kiss}<1.755,-0.762,0.372><0,0,-67.5>
+{Sit with Me}<1.945,-1.009,0.912><0,0,-67.5>
+{Not Smile Ø}<-0.363,-1.225,0.443><2,0,-90>
+{Tell me}<-0.249,0.071,0.704><0,0,180>
+{Lovers}<0.371,0.021,0.824><0,0,180>
+{Your Abs}<-0.531,0.233,0.827><0,0,0>
+{Let me Kiss}<-0.736,0.072,0.827><0,0,0>
+{ErotiKiss}<-0.875,0.083,0.811><0,-5,0>
+{Love me}<-0.521,-0.439,0.601><0,-4,0>
+{Care me}<-0.102,-0.208,0.884><0,0,0>
+{Kiss me Silly}<-1.308,0.16,-0.069><0,0,0>
+{Lay on You}<-0.287,0.06,0.875><0,0,0>
+{Breathe}<-0.956,0.104,0.393><0,0,0>
+{Nap Time}<0.055,-0.567,0.537><-13,0,-90>
+{Heaven}<-0.665,0.086,0.815><0,0,0>
+{Relax}<-1.49,-0.846,0.575><0,0,-90>
+{Sleeping}<-0.322,0.06,0.922><0,0,0>
+{Kiss Laying}<0.943,-0.261,0.82><0,0,-124>
+{Tangling}<0.435,-0.122,0.335><0,0,-90>
+{Lay Caring}<-0.349,-0.177,0.407><0,0,1>
+{Teaser A}<-0.568,-0.027,0.988><0,0,0>
+{Teaser B}<-0.568,-0.027,0.988><0,0,0>
+{Boob Tease}<-1.183,-0.027,0.525><0,0,0>
+{HandJob}<0,-0.043,0.405><0,0,180>
+{BlowJob}<0,-0.043,0.405><0,0,180>
+{Provocate}<-0.263,0.275,0.988><0,0,0>
+{Boobing}<0.588,0,0.979><0,0,0>
+{Wild Boobs}<0.588,0,0.979><0,0,0>
+{Luv Ur Boobs}<0.084,-0.952,0.605><0,0,-90>
+{MasturBoobs}<0.084,-0.746,0.352><0,0,-90>
+{Comfy Lick}<0.025,-0.787,0.431><-2,0,-90>
+{Pet Gag}<0,-0.844,0.402><-2,0,-90>
+{Stroke}<0,-0.971,0.405><0,0,90>
+{Caring HJ}<0,-1.288,0.477><0,0,90>
+{Kneeling HJ}<1.703,-0.502,0.584><0,0,-90>
+{Kneeling BJ}<1.77,-0.649,0.365><0,0,-90>
+{Throat Fuck}<1.886,-0.89,0.343><0,0,90>
+{Degradation}<1.597,-0.784,0.316><0,0,-90>
+{Acrobat BJ}<-0.784,-0.632,0.818><0,0,-90>
+{Gag Her}<1.556,-0.859,0.379><0,0,-90>
+{FootJob Ride}<0,-0.559,0.964><0,0,-90>
+{Tease}<-1.118,-0.897,0.591><4.7,1.4,-47>
+{Tongued}<-0.5,-0.466,0.312><0,0,-90>
+{Tongued B}<-0.38,-0.519,0.342><0,0,-118>
+{Open Up}<0.099,-0.031,0.782><0,0,0>
+{Pussy Play A}<-0.236,-0.018,0.971><0,0,-79>
+{Pussy Play B}<-0.236,-0.018,0.971><0,0,-79>
+{Spread Lick}<0.372,-0.833,0.399><0,0,-90>
+{ThighJob}<-0.318,0,0.323><0,0,0>
+{Eat Me}<0.237,-0.06,0.346><0,0,0>
+{Sit Face}<-0.418,0,1.052><0,0,0>
+{RoseBud}<0.778,-1.194,0.229><-6,0,90>
+{On Cunt}<0.778,-0.975,0.351><0,0,90>
+{Boobies}<0.861,0,0.796><0,0,0>
+{Spank A}<-0.061,-1.077,0.502><0,0,-90>
+{Seduction}<0.804,0.027,0.933><0,0,0>
+{Turn and Burn}<0.413,0.273,0.909><0,0,0>
+{Press and Burn}<0.413,0.273,0.909><0,0,0>
+{Mission A}<0.344,0.047,0.469><0,0,0>
+{Mission B}<0.344,0.047,0.469><0,0,0>
+{Mission C}<0.344,0.047,0.469><0,0,0>
+{Lovin U}<-0.455,0.045,0.834><0,0,0>
+{Tower}<-0.455,0.045,0.834><0,0,0>
+{Tumble A}<-0.206,0.294,1.041><0,0,90>
+{Tumble Rev}<-0.2,-1.377,0.524><0,0,0>
+{Stand Stuff}<0,-1.225,0.421><0,0,0>
+{Suspended}<0,-1.225,0.396><0,0,0>
+{ButterFly}<0.21,0.076,0.421><0,0,0>
+{Spread}<0,-0.914,0.403><0,0,90>
+{Front Smash}<0,-1.687,0.346><0,0,90>
+{Destroyer}<-0.416,-0.86,1.059><0,0,114>
+{Face 2 Face}<0,-0.232,0.993><-1,0,90>
+{Edge Mission}<0,-1.548,0.398><-5,0,90>
+{Erotic Rodeo}<0.557,-0.044,0.951><0,0,180>
+{Erotic Touch}<0.418,-0.044,0.868><0,0,180>
+{Rodeo Classic}<0.557,-0.044,0.951><0,0,180>
+{Crunches}<0.557,-0.044,0.904><0,0,180>
+{Front Slide}<0.396,-0.029,0.992><0,0,180>
+{Slow Ride}<0.145,-0.224,0.929><0,0,180>
+{Ride Him A}<0.316,0.003,0.904><0,0,180>
+{Ride Him B}<0,-0.21,0.904><0,0,180>
+{Rodeo Drive A}<0.844,0.043,0.904><0,0,180>
+{Rodeo Drive B}<0.67,0.018,0.904><0,0,180>
+{Rodeo Drive C}<0.804,-0.237,0.904><0,0,180>
+{Rodeo Stuff B}<0.213,-0.247,0.904><0,0,180>
+{Rodeo Smash}<0.213,0.035,0.993><0,0,180>
+{Bunny B}<0.689,-0.22,0.904><0,0,180>
+{Bunny C}<0.346,-0.301,0.904><0,0,180>
+{Rabbits}<-0.31,-0.296,0.34><0,0,180>
+{Big Bang}<0.401,0.008,0.306><0,0,180>
+{Rev Tease}<-0.911,0.076,1.022><0,0,0>
+{Rev Ride}<-0.911,0.076,1.027><0,0,0>
+{True Love}<-0.206,-0.755,0.361><0,0,-90>
+{AutoRun}<-0.206,-0.188,0.398><0,0,-90>
+{AutoPlay}<-0.206,-0.193,0.386><0,0,-90>
+{AutoSmash}<-0.206,-0.193,0.386><0,0,-90>
+{AutoRide}<-0.206,-0.001,0.389><-3,0,-90>
+{Pump Him}<-0.206,-0.72,0.382><0,0,-90>
+{Pump Harder}<-0.206,-0.72,0.382><0,0,-90>
+{Bang}<-0.206,-1.289,0.3><0,0,-90>
+{Lewd Ride}<-0.206,-0.532,0.324><0,0,-90>
+{Lewd Ride B}<-0.206,-0.532,0.327><0,0,-90>
+{Boink}<-0.206,0.034,0.468><-10,0,-90>
+{Lap Ride}<-0.206,-0.698,0.354><0,0,-90>
+{Caught A}<-0.206,-0.959,0.386><0,0,-90>
+{Caught B}<-0.206,-0.99,0.444><0,0,-90>
+{Trapped}<-0.206,-0.959,0.386><0,0,-90>
+{Sit Riders}<0,-0.805,0.382><0,0,-90>
+{Rear Pump}<-0.206,-0.529,0.451><0,0,-90>
+{Rear Stroke}<-0.206,-0.456,0.514><0,0,-90>
+{Plug In}<0.016,-0.485,0.535><0,0,-90>
+{Plug Stuff}<0.016,-0.846,0.392><0,0,-90>
+{Force2Ride}<0.016,-0.741,0.392><0,0,-90>
+{Grind A}<0.016,-0.343,1.015><0,0,-90>
+{Grind B}<0.016,-0.547,0.976><0,0,-90>
+{Twisted}<0.084,-0.444,0.34><0,0,-90>
+{Twist Again}<0.084,-0.444,0.34><0,0,-90>
+{Pole Slide}<0,-0.234,0.387><0,0,-45>
+{AutoLoad}<-0.206,-0.151,0.465><0,0,-90>
+{AutoExec}<-0.206,-0.151,0.465><0,0,-90>
+{ButtFuck}<0.016,-0.284,-0.118><0,0,-90>
+{SexDoll}<0.016,-0.284,-0.118><0,0,-90>
+{Ultimatum}<0.534,-0.497,0.48><0,0,-34>
+{Back Up A}<0.378,0.05,0.568><0,0,0>
+{Back Up B}<0.378,0.035,0.568><0,0,0>
+{Back Up C}<0.378,-0.076,0.482><0,0,0>
+{Slow Dog}<0.204,0.096,0.53><0,0,0>
+{Doggy A}<0.36,-0.006,0.468><0,0,0>
+{Doggy B}<0.204,-0.006,0.53><0,0,0>
+{Doggy C}<0.204,-0.006,0.53><0,0,0>
+{Quickie}<0.647,0.029,0.385><0,0,0>
+{Quickie B}<-0.54,-0.235,0.703><0,0,0>
+{Dog Recover}<0.204,-0.006,0.53><0,0,0>
+{Lock Dog}<0.475,-0.002,0.576><0,0,0>
+{Lock Wild}<0.475,-0.002,0.576><0,0,0>
+{♂ Doggie ♀}<0.42,0.096,1.019><0,0,0>
+{Dom Smash}<-0.336,-0.225,0.76><0,0,0>
+{Piggy Dog}<1,-0.165,1.173><0,0,0>
+{Wide Impact}<0.367,-0.006,1.106><0,0,0>
+{Wide Stuff}<0.367,-0.006,1.106><0,0,0>
+{BackDoor}<-0.062,0.026,1.01><0,0,0>
+{Butt Hunt}<0.215,0,1.039><0,0,0>
+{Back 2 Smash}<-1.32,-0.208,0.619><0,0,0>
+{Deep Dog}<-0.206,-0.745,0.53><0,0,90>
+{Stuff A}<-0.206,-0.655,0.53><0,0,90>
+{Stuff B}<-0.206,-0.664,0.53><0,0,90>
+{Stuff C}<-0.206,-0.867,0.955><0,0,90>
+{Stuff D}<-0.206,-1.319,0.955><0,0,90>
+{Reward}<0,-1.069,0.227><0,0,90>
+{Pull Her}<-0.206,-0.655,0.489><0,0,90>
+{Flexy Dog}<-0.037,-0.412,1.077><0,0,90>
+{Flexy Pound}<-0.037,0.375,1.05><-3,0,90>
+{Anal Gape}<-0.037,-0.15,0.375><0,0,-90>
+{Stand Fuck A}<0,-1.225,0.421><0,0,0>
+{Stand Side}<0,-1.225,0.421><0,0,0>
+{Squat Back}<0.711,-0.225,0.678><0,0,0>
+{Back Fill}<-3,0.279,0.421><0,0,90>
+{MotherFucker}<-3,0.279,0.416><0,0,90>
+{Rude Behind}<-0.5,0.096,0.8><0,0,0>
+{Heavy Behind}<-0.5,0.096,0.8><0,0,0>
+{Ass Feed}<1.084,-1.19,0.347><0,0,90>
+{Bend Over}<1.844,-1.341,0.421><0,0,90>
+{Blast Her}<0,-1.511,0.299><7,0,90>
+{Sex Machina}<1.453,-1.762,0.421><0,0,104>
+{Smash Hammer}<1.468,-0.284,0.37><0,0,180>
+{Smash Hard}<1.468,-0.284,0.37><0,0,180>
+{That Ass}<-0.278,-0.355,0.552><0,0,174.4>
+{Fissure}<0.515,-1.345,0.386><0,0,90>
+{Fracture}<0.515,-1.345,0.386><0,0,90>
+PROP Cleaning|Machine|G23|<2.904724, 1.150520, 0.229733>|<90.000010, -0.000003, 0.000000>
+PROP Tired ♂|ZZZ|G54|<1.060669, -0.177731, 0.363237>|<0.000000, 0.000000, 0.000000>
+PROP1 Smoke|CigCig2|G27|<-0.326080, -0.505005, 0.246094>|<130.017200, 1.531992, 88.714130>|right hand
+PROP1 Boss|Glass|G1|<-0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|left hand
+PROP1 Boss|Cigar|G1|<-0.000000, -0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 Tease|Glass|G1|<-0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|left hand
+PROP1 Tease|Cigar|G1|<-0.000000, -0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP Cleaning ♂|Machine|G21|<3.000000, 0.293560, 0.271885>|<90.000010, 0.000000, 0.000000>
+
+--✄--COPY ABOVE INTO "AVpos" NOTECARD--✄--
+
+
+
+end

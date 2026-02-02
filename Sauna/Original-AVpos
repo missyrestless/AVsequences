@@ -1,0 +1,561 @@
+
+--✄--COPY BELOW INTO "AVpos" NOTECARD--✄--
+
+"DAD "OUTDOOR SAUNA" ADULT C/M V.1.0" AVsitter 2.2
+ADJUST [INM SETUP]|-99999
+SWAP 2
+SITTER 0
+
+BUTTON ToggleFace|88888
+TOMENU Single
+TOMENU Cuddles
+TOMENU Adult
+
+MENU Single
+POSE Sauna 1|[RNP] Sauna #1_Male
+POSE Sauna 2|[RNP] Sauna #2_Male
+POSE Sauna 3|[RNP] Sauna #3_Male
+POSE Sauna 4|[RNP] Sauna #4_Male
+POSE Sauna 5|[RNP] Sauna #5_Male
+POSE Sauna 6|[RNP] Sauna #6_Male
+POSE Sauna 7|[RNP] Sauna #7_Female_Mirror
+POSE Sauna 8|[RNP] Sauna #8_Female_Mirror
+POSE Sauna 9|[RNP] Sauna #9_Female_Mirror
+POSE Sauna 10|[RNP] Sauna #10_Female_Mirror
+POSE Sauna 11|[RNP] Sauna #11_Female_Mirror
+POSE Cuddly|BL8F
+POSE Soft|BL9F
+POSE Tale|BL10F
+POSE Relax|BL11F
+POSE Lazy|BL12F
+POSE Enjoy|BL13M
+POSE Presence|BL14M
+POSE *Presence|BL14MM
+POSE What if..|BL15M
+POSE *What if..|BL15MM
+
+MENU Cuddles
+TOMENU Cuddles I
+TOMENU Cuddles II
+TOMENU Cuddles III
+
+MENU Cuddles I
+SYNC Cuddle 1|KBKb-AC F5
+SYNC Cuddle 2|KBKb-AC F6
+SYNC Cuddle 3|DBc F4
+SYNC Cuddle 4|KBKb-MAC F1
+SYNC Cuddle 5|KBKb-MAC F2
+SYNC Cuddle 6|KBKb-MAC F3
+SYNC Cuddle 7|KBKb-MAC F4
+SYNC Cuddle 8|KBKb-MAC F5
+SYNC Cuddle 9|KBKb-MAC F6
+SYNC Cuddle 10|KbkB-LCuddF1
+SYNC Cuddle 11|KbkB-LCuddF2
+SYNC Cuddle 12|KbkB-LCuddF3
+SYNC Cuddle 13|KbkB-LCuddF4
+SYNC Cuddle 14|KbkB-LCuddF5
+SYNC Cuddle 15|KbkB-LCuddF6
+
+MENU Cuddles II
+SYNC Koala mood|HD couple 11 F(60)
+SYNC See you soon|HD couple 15 F
+SYNC Deep kiss|HD couple 16 F
+SYNC NeverForgetsV2|F NeverForgetsV2
+SYNC Secret|Couple125F
+SYNC All yours|Couple131F
+SYNC Well ...|Couple121F
+SYNC Shy?Me?|Couple117F
+SYNC My world|Couple130F
+
+MENU Cuddles III
+SYNC Kiss|Couple127F
+SYNC Kiss 1|DBk F1
+SYNC Kiss 2|DBk F3
+SYNC Kiss 3|DBk F4
+SYNC KissOfLove|Couple128F
+SYNC Fun|DBFun F1
+SYNC Teasing|BL17F
+SYNC Relaxed|BL18F
+SYNC Away|BL19F
+SYNC Whispers|BL20F
+
+MENU Adult
+TOMENU For play
+TOMENU Sex
+TOMENU Clean
+
+MENU For play
+TOMENU For Him
+TOMENU For Her
+
+MENU For Him|V
+SYNC EroticKisses|Sex103F
+SYNC Boob|KBKb-MAA F3
+SYNC GettingHard|Sex123F
+SYNC Hj|KBKb-MAA F1
+SYNC BJ|Sex105F
+SYNC BJ 2|KBKb-AA F2
+SYNC BJ 3|KBKb-MAA F2
+SYNC BJ 4|KbkB-LAdtF2
+SYNC 69|DBbj F5
+
+MENU For Her|V
+SYNC Fingering|Sex106F
+SYNC Fingering 2|KBKb-MAA F6
+SYNC Fingering 3|KbkB-LAdtF1
+SYNC Grab&Rub|Sex124F
+SYNC yummy|[RNP] Sex #59_Chair_Lick_Female_30 seconds
+SYNC Sweet Cream|Hassock7F1
+SYNC ClitHill|Sex121F
+SYNC Lick|Sex109F
+SYNC Lick 1|DBlk F1
+SYNC Lick 2|DBlk F2
+SYNC Lick 3|DBlk F6
+SYNC Lick 4|KBKb-MAA F7
+
+MENU Sex
+TOMENU Front
+TOMENU Riding
+TOMENU Behind
+
+MENU Front|V
+SYNC Deep|Sex104F
+SYNC Non stop|[RNP] Sex #90_Low ottoman_Female_30 seconds
+SYNC High|Sex108F
+SYNC Swing|Sex139F
+SYNC Front 1|BTantra F5
+SYNC Front 2|BTantra F6
+SYNC Front 3|BTantra F7
+
+MENU Behind|V
+SYNC Gentle Push|[RNP] Sex #89_Low Ottoman_Female_30 seconds
+SYNC Behind|Sex110F
+SYNC Push hard|[RNP] Sex #95_Low Ottoman_Female_30 seconds
+SYNC backdoor|[RNP] Tantra Chair #6_Female
+SYNC Bended Knee|Hassack1F1
+SYNC Wings|Sex148F
+SYNC HiddenTreasure|Sex140F
+SYNC Puller|Sex143F
+SYNC Doggy|KBKb-MAA F8
+SYNC Back 1|BTantra F1
+SYNC Back 3|KbkB-LAdtF5
+SYNC Back 4|KbkB-LAdtF7
+SYNC Back 5|KbkB-LAdtF8
+
+MENU Riding|V
+SYNC Frog|[RNP] Sex #94_Low ottoman_Female_30 seconds
+SYNC arched seat|[RNP] Sex #58_Chair_Female_30.6 seconds
+SYNC holding back|[RNP] Sex #61_Female_Chair_35.05 seconds
+SYNC candle|[RNP] Sex #63_Couch_Female_53 seconds
+SYNC exercise|[RNP] Sex #64_Couch_Female_33_seconds
+SYNC happy|[RNP] Sex #66_Couch_Female_30 seconds
+SYNC wave|[RNP] Sex #67_Couch_Female_34 seconds
+SYNC Spin|Sex144F
+SYNC Ride 1|KbkB-LAdtF4
+SYNC Ride 2|KbkB-LAdtF6
+SYNC Ride 3|KBKb-MAA F4
+SYNC Ride 4|KBKb-MAA F5
+SYNC Ride 5|KbkB-LAdtF3
+SYNC Ride 6|KbkB-LAdtF4
+SYNC Ride 7|KbkB-LAdtF6
+
+MENU Clean
+POSE Single F|[RNP] Shower #3_Female_49 seconds
+SYNC Couple|BShowerC F2
+{Sauna 1}<-2.226,-0.993,0.615><0,0,47>
+{Sauna 2}<-1.901,-0.085,0.535><0,0,68>
+{Sauna 3}<1.97,0.084,0.563><-1.5,-0.7,-111.2>
+{Sauna 4}<1.816,0.855,0.549><0,0,-105>
+{Sauna 5}<-1.901,0.48,0.535><0,0,56>
+{Sauna 6}<1.815,-1.181,0.535><0,0,98>
+{Sauna 7}<-1.713,0.677,0.608><0,0,-61>
+{Sauna 8}<1.655,-0.613,0.589><0,0,82>
+{Sauna 9}<-1.713,-1.059,0.509><0,5,-45.4>
+{Sauna 10}<1.161,-0.993,0.556><0,0,9.6>
+{Sauna 11}<1.294,-0.993,0.535><0,0,14>
+{Cuddly}<0,0.062,1.024><0,0,-87>
+{Soft}<0,0.049,0.983><-6,0,-90>
+{Tale}<0,0.09,1.028><0,0,-90>
+{Relax}<0,-0.572,1.1><-4,0,90>
+{Lazy}<0,-0.623,1.075><2,0,91>
+{Enjoy}<0,0.091,1.032><0,0,-90>
+{Presence}<1.512,-0.84,1.053><0,0,48>
+{*Presence}<0.193,0.069,0.749><0,0,0>
+{What if..}<0.246,0.09,1.074><-3,0,-90>
+{*What if..}<-0.213,0.09,1.037><0,0,-83>
+{Cuddle 1}<1.874,-0.527,0.63><0,0,178.9>
+{Cuddle 2}<0.153,0.786,0.599><0,0,6>
+{Cuddle 3}<0.01,-0.413,0.727><0,0,90>
+{Cuddle 4}<0.447,-0.85,0.561><0,0,86>
+{Cuddle 5}<1.911,-0.291,0.546><0,7,180>
+{Cuddle 6}<0.227,-0.978,0.561><3.9,-0.9,92.1>
+{Cuddle 7}<0.494,-0.58,0.671><3.8,5.2,110.7>
+{Cuddle 8}<-1.723,1.061,0.6><-0.4,-0.9,-1>
+{Cuddle 9}<-0.253,-0.504,0.597><0,-1,-88.1>
+{Cuddle 10}<0,0.009,0.365><0,0,-90>
+{Cuddle 11}<-0.006,0.213,0.476><-1,0,-90>
+{Cuddle 12}<-0.006,0.216,0.449><-1,0,-90>
+{Cuddle 13}<-0.038,0.166,0.453><0,0,-90>
+{Cuddle 14}<-0.058,0.17,0.455><0,0,-90>
+{Cuddle 15}<-0.006,0.179,0.462><0,0,-90>
+{Koala mood}<-0.178,-0.312,1.111><0,-3,180>
+{See you soon}<-0.385,-0.114,0.996><-1.8,-0.9,117>
+{Deep kiss}<-0.383,0.192,0.969><-1.5,2.6,134.1>
+{NeverForgetsV2}<-0.055,-0.897,0.693><-2,-0.5,91.5>
+{Secret}<0.004,0.026,0.926><-3.7,3.6,-7.4>
+{All yours}<-0.101,0.068,0.959><0,0,-3>
+{Well ...}<-0.046,0.328,0.984><0,0,-89>
+{Shy?Me?}<-0.181,0.4,0.992><-1.6,0.7,-42.4>
+{My world}<0.007,-0.268,0.95><2.3,-2.9,61.6>
+{Kiss 1}<-0.006,0.322,0.732><0,0,90>
+{Kiss 2}<-0.068,-0.498,0.73><0,0,90>
+{Kiss 3}<-0.131,-0.438,0.805><-6,0,90>
+{Kiss}<-0.093,0.447,0.956><-8,0,-5>
+{KissOfLove}<0.13,-0.739,0.981><-2.2,-4,177.5>
+{Fun}<-0.17,-0.293,0.805><0,0,-93>
+{Teasing}<0.177,0.451,1.021><-5,0,-90>
+{Relaxed}<0.177,-0.04,1.004><-9,0,-90>
+{Away}<0.114,0.034,1.042><-7,0,-90>
+{Whispers}<0.283,-0.033,0.991><-9,0,-90>
+{EroticKisses}<-0.051,-0.112,1.117><0.2,-3,-165>
+{Boob}<1.99,-0.179,0.638><-3,9,-180>
+{GettingHard}<0.152,0.075,0.971><0,0,81>
+{Hj}<-0.041,-1.091,0.571><-2,0,180>
+{BJ}<1.945,0.489,1.015><0.3,-2.9,-175>
+{BJ 2}<-1.651,-0.126,0.757><0,0,-7>
+{BJ 3}<-0.248,-0.553,0.631><0,0,180>
+{BJ 4}<-0.006,0.266,0.442><0,0,-90>
+{69}<0.036,-0.182,0.762><0,0,90>
+{Fingering}<1.961,0.146,1.03><0,0,170>
+{Fingering 2}<-1.828,0.692,0.579><0,0,0>
+{Fingering 3}<-0.074,0.137,0.354><-4,0,-90>
+{Grab&Rub}<1.728,-0.609,0.968><0,0,47>
+{yummy}<-0.217,0.298,1.025><-0.5,1,179>
+{Sweet Cream}<-1.188,0.117,0.953><-0.8,-9,-5.1>
+{ClitHill}<-0.105,-0.596,0.946><-1,0,180>
+{Lick}<1.268,0.475,0.723><-4,0,173>
+{Lick 1}<-0.087,-0.704,0.806><-3,0,90>
+{Lick 2}<0.319,0.271,0.689><0,0,-177.9>
+{Lick 3}<-0.048,-0.799,0.774><-3,0,90>
+{Lick 4}<-1.889,0.86,0.568><0,0,0>
+{Deep}<-0.129,0.097,1.052><0,-4,180>
+{Non stop}<-0.235,0.117,1.066><-0.4,-7,174>
+{High}<1.05,-0.083,0.692><-7.9,-1,94.9>
+{Swing}<-0.142,-0.149,0.973><-2,0.2,-174>
+{Front 1}<-0.468,0.098,0.585><1.7,15.9,173.8>
+{Front 2}<-0.099,0.416,0.4><-4.9,-3.2,-87.6>
+{Front 3}<1.399,0.513,0.639><0,0,0>
+{Gentle Push}<-0.303,0,0.927><0,0,177>
+{Behind}<-0.255,0.401,0.961><5.2,-0.5,-11.3>
+{Push hard}<0.001,0.039,1.569><5,0,87>
+{backdoor}<0.392,0.21,0.698><3.1,-8.1,-178.2>
+{Bended Knee}<-0.996,0.007,0.925><0,4,-173>
+{Wings}<-0.004,-0.312,0.904><0,0,180>
+{HiddenTreasure}<0.01,-0.394,0.936><0,0,180>
+{Puller}<-0.063,0.288,0.834><-16,0,0>
+{Doggy}<-0.059,0.317,0.648><0,0,-102>
+{Back 1}<-0.287,0.277,0.967><-1.6,-14.9,173.8>
+{Back 3}<-0.006,0.158,0.417><-2,0,-90>
+{Back 4}<-0.006,0.068,0.509><0,0,-90>
+{Back 5}<-0.006,0.228,0.521><0,0,-90>
+{Frog}<0.157,0.283,0.971><-0.2,-5,175>
+{arched seat}<1.947,0.219,1.081><0,0,-175>
+{holding back}<-0.021,0.158,1.032><0,0,177>
+{candle}<-1.658,-0.177,0.978><-0.1,-3,-1>
+{exercise}<0.2,0.242,1.045><0,0,0>
+{happy}<0.256,0.23,0.953><-0.3,-5,-3>
+{wave}<1.877,0.86,0.97><0.1,2,177>
+{Spin}<-0.021,0.501,0.936><0,0,0>
+{Ride 1}<-0.051,0.334,0.5><0,0,-90>
+{Ride 2}<-0.018,0.337,0.506><0,0,-90>
+{Ride 3}<1.865,-0.138,0.61><0,0,180>
+{Ride 4}<1.905,0.031,0.588><0,0,180>
+{Ride 5}<-0.006,0.263,0.498><-4,0,-90>
+{Ride 6}<-0.006,0.247,0.458><-2,0,-90>
+{Ride 7}<-0.006,0.26,0.438><0,0,-90>
+{Single F}<2.351,5.186,0.835><0,0,180>
+{Couple}<1.879,5.226,0.939><0,0,0>
+PROP Single F|Shower|G1|<2.114380, 5.233337, -0.294190>|<90.000010, -0.000003, 0.000003>
+PROP Couple|Shower|G1|<2.114380, 5.233337, -0.294190>|<90.000010, 0.000000, 0.000000>
+CAMERA Sauna 1|<-0.16908, 1.18098, 1.48193>|<-0.96659, 0.58402, 1.39465>
+
+SITTER 1
+
+BUTTON ToggleFace|88888
+TOMENU Cuddles
+TOMENU Single
+TOMENU Adult
+
+MENU Cuddles
+TOMENU Cuddles I
+TOMENU Cuddles II
+TOMENU Cuddles III
+
+MENU Cuddles I
+SYNC Cuddle 1|KBKb-AC M5
+SYNC Cuddle 2|KBKb-AC M6
+SYNC Cuddle 3|DBc M4
+SYNC Cuddle 4|KBKb-MAC M1
+SYNC Cuddle 5|KBKb-MAC M2
+SYNC Cuddle 6|KBKb-MAC M3
+SYNC Cuddle 7|KBKb-MAC M4
+SYNC Cuddle 8|KBKb-MAC M5
+SYNC Cuddle 9|KBKb-MAC M6
+SYNC Cuddle 10|KbkB-LCuddM1
+SYNC Cuddle 11|KbkB-LCuddM2
+SYNC Cuddle 12|KbkB-LCuddM3
+SYNC Cuddle 13|KbkB-LCuddM4
+SYNC Cuddle 14|KbkB-LCuddM5
+SYNC Cuddle 15|KbkB-LCuddM6
+
+MENU Cuddles II
+SYNC Koala mood|HD couple 11 M(60)
+SYNC See you soon|HD couple 15 M
+SYNC Deep kiss|HD couple 16 M
+SYNC NeverForgetsV2|M NeverForgetsV2
+SYNC Secret|Couple125M
+SYNC All yours|Couple131M
+SYNC Well ...|Couple121M
+SYNC Shy?Me?|Couple117M
+SYNC My world|Couple130M
+
+MENU Cuddles III
+SYNC Kiss|Couple127M
+SYNC Kiss 1|DBk M1
+SYNC Kiss 2|DBk M3
+SYNC Kiss 3|DBk M4
+SYNC KissOfLove|Couple128M
+SYNC Fun|DBFun M1
+SYNC Teasing|BL17M
+SYNC Relaxed|BL18M
+SYNC Away|BL19M
+SYNC Whispers|BL20M
+
+MENU Single
+POSE Sauna 1|[RNP] Sauna #1_Male
+POSE Sauna 2|[RNP] Sauna #2_Male
+POSE Sauna 3|[RNP] Sauna #3_Male
+POSE Sauna 4|[RNP] Sauna #4_Male
+POSE Sauna 5|[RNP] Sauna #5_Male
+POSE Sauna 6|[RNP] Sauna #6_Male
+POSE Sauna 7|[RNP] Sauna #7_Female_Mirror
+POSE Sauna 8|[RNP] Sauna #8_Female_Mirror
+POSE Sauna 9|[RNP] Sauna #9_Female_Mirror
+POSE Sauna 10|[RNP] Sauna #10_Female_Mirror
+POSE Sauna 11|[RNP] Sauna #11_Female_Mirror
+POSE Cuddly|BL8F
+POSE Soft|BL9F
+POSE Tale|BL10F
+POSE Relax|BL11F
+POSE Lazy|BL12F
+POSE Enjoy|BL13M
+POSE Presence|BL14M
+POSE *Presence|BL14MM
+POSE What if..|BL15M
+POSE *What if..|BL15MM
+
+MENU Adult
+TOMENU For play
+TOMENU Sex
+TOMENU Clean
+
+MENU For play
+TOMENU For Him
+TOMENU For Her
+
+MENU For Him|V
+SYNC EroticKisses|Sex103M
+SYNC Boob|KBKb-MAA M3
+SYNC GettingHard|Sex123M
+SYNC Hj|KBKb-MAA M1
+SYNC BJ|Sex105M
+SYNC BJ 2|KBKb-AA M2
+SYNC BJ 3|KBKb-MAA M2
+SYNC BJ 4|KbkB-LAdtM2
+SYNC 69|DBbj M5
+
+MENU For Her|V
+SYNC Fingering|Sex106M
+SYNC Fingering 2|KBKb-MAA M6
+SYNC Fingering 3|KbkB-LAdtM1
+SYNC Grab&Rub|Sex124M
+SYNC yummy|[RNP] Sex #59_Chair_Lick_Male_30 seconds
+SYNC Sweet Cream|Hassock7M1
+SYNC ClitHill|Sex121M
+SYNC Lick|Sex109M
+SYNC Lick 1|DBlk M1
+SYNC Lick 2|DBlk M2
+SYNC Lick 3|DBlk M6
+SYNC Lick 4|KBKb-MAA M7
+
+MENU Sex
+TOMENU Front
+TOMENU Riding
+TOMENU Behind
+
+MENU Front|V
+SYNC Deep|Sex104M
+SYNC Non stop|[RNP] Sex #90_Low ottoman_Male_30 seconds
+SYNC High|Sex108M
+SYNC Swing|Sex139M
+SYNC Front 1|BTantra M5
+SYNC Front 2|BTantra M6
+SYNC Front 3|BTantra M7
+
+MENU Behind|V
+SYNC Gentle Push|[RNP] Sex #89_Low Ottoman_Male_30 seconds
+SYNC Push hard|[RNP] Sex #95_Low Ottoman_Male_30 seconds
+SYNC Behind|Sex110M
+SYNC backdoor|[RNP] Tantra Chair #6_Male
+SYNC Bended Knee|Hassack1M1
+SYNC Wings|Sex148M
+SYNC HiddenTreasure|Sex140M
+SYNC Puller|Sex143M
+SYNC Doggy|KBKb-MAA M8
+SYNC Back 1|BTantra M1
+SYNC Back 3|KbkB-LAdtM5
+SYNC Back 4|KbkB-LAdtM7
+SYNC Back 5|KbkB-LAdtM8
+
+MENU Riding|V
+SYNC Frog|[RNP] Sex #94_Low ottoman_Male_30 seconds
+SYNC arched seat|[RNP] Sex #58_Chair_Male_30.6 seconds
+SYNC holding back|[RNP] Sex #61_Male_Chair_35.05 seconds
+SYNC candle|[RNP] Sex #63_Couch_Male_53 seconds
+SYNC exercise|[RNP] Sex #64_Couch_Male_33_seconds
+SYNC happy|[RNP] Sex #66_Couch_Male_30 seconds
+SYNC wave|[RNP] Sex #67_Couch_Male_34 seconds
+SYNC Spin|Sex144M
+SYNC Ride 1|KbkB-LAdtM4
+SYNC Ride 2|KbkB-LAdtM6
+SYNC Ride 3|KBKb-MAA M4
+SYNC Ride 4|KBKb-MAA M5
+SYNC Ride 5|KbkB-LAdtM3
+SYNC Ride 6|KbkB-LAdtM4
+SYNC Ride 7|KbkB-LAdtM6
+
+MENU Clean
+POSE Single M|[RNP] Shower #4_Male_50 Seconds
+SYNC Couple|BShowerS M2
+
+{Cuddle 1}<1.865,0.544,0.61><0,0,180>
+{Cuddle 2}<0.269,-0.316,0.599><0,0,6>
+{Cuddle 3}<0.01,-0.047,0.727><0,0,-90>
+{Cuddle 4}<1.165,-0.9,0.561><0,0,86>
+{Cuddle 5}<1.911,0.429,0.546><0,7,180>
+{Cuddle 6}<0.947,-0.953,0.573><3.9,-0.9,92.1>
+{Cuddle 7}<1.165,-0.321,0.627><3.8,5.2,110.7>
+{Cuddle 8}<-1.735,0.342,0.604><-0.4,-0.9,-1>
+{Cuddle 9}<-0.972,-0.527,0.584><0,-1,-88.1>
+{Cuddle 10}<-0.006,0.581,0.528><0,0,-90>
+{Cuddle 11}<-0.006,0.566,0.469><-1,0,-90>
+{Cuddle 12}<-0.006,0.569,0.443><-1,0,-90>
+{Cuddle 13}<-0.038,0.519,0.453><0,0,-90>
+{Cuddle 14}<-0.058,0.523,0.455><0,0,-90>
+{Cuddle 15}<-0.006,0.532,0.462><0,0,-90>
+{Koala mood}<-0.198,-0.155,0.859><0,-3,180>
+{See you soon}<-0.385,-0.103,1.02><-1.8,-0.9,117>
+{Deep kiss}<-0.385,0.203,0.993><-1.4,2.6,134.1>
+{NeverForgetsV2}<-0.056,-0.983,0.549><-4.9,-0.4,92>
+{Secret}<-0.005,0.031,0.969><-3.7,3.6,-7.4>
+{All yours}<-0.114,0.068,1.001><0,0,-3>
+{Well ...}<-0.055,0.315,1.005><0,0,-89>
+{Shy?Me?}<-0.19,0.409,0.963><-1.6,0.7,-42.4>
+{My world}<-0.002,-0.28,0.991><2.3,-2.9,61.6>
+{Kiss 1}<-0.006,0.688,0.732><0,0,-90>
+{Kiss 2}<-0.068,-0.132,0.73><0,0,-90>
+{Kiss 3}<-0.131,-0.074,0.767><-6,0,-90>
+{Kiss}<-0.107,0.454,0.998><-8,0,-5>
+{KissOfLove}<0.128,-0.74,0.998><-2.2,-4.1,-179.5>
+{Fun}<-0.189,-0.659,0.805><0,0,87>
+{Teasing}<0.177,0.458,1.054><-5,0,-90>
+{Relaxed}<0.177,-0.031,1.036><-9,0,-90>
+{Away}<0.114,0.042,1.074><-7,0,-90>
+{Whispers}<0.283,-0.024,1.023><-9,0,-90>
+{Sauna 1}<-1.901,-0.993,0.535><0,0,47>
+{Sauna 2}<-1.901,-0.085,0.535><0,0,68>
+{Sauna 3}<-1.901,0.084,0.563><0,0,79>
+{Sauna 4}<-1.061,-0.958,0.549><0,0,180>
+{Sauna 5}<-1.901,-0.511,0.535><0,0,56>
+{Sauna 6}<-1.634,-1.181,0.535><0,0,98>
+{Sauna 7}<-1.713,0.677,0.608><0,0,-61>
+{Sauna 8}<1.803,-0.613,0.589><0,0,82>
+{Sauna 9}<-1.713,-1.059,0.509><0,5,-45.4>
+{Sauna 10}<1.161,-0.993,0.556><0,0,9.6>
+{Sauna 11}<1.294,-0.993,0.535><0,0,14>
+{Cuddly}<0.193,0.069,0.749><0,0,0>
+{Soft}<0.193,0.069,0.749><0,0,0>
+{Tale}<0.193,0.069,0.749><0,0,0>
+{Relax}<0.193,0.069,0.749><0,0,0>
+{Lazy}<0.193,0.069,0.749><0,0,0>
+{Enjoy}<0.193,0.069,0.749><0,0,0>
+{Presence}<0.193,0.069,0.749><0,0,0>
+{*Presence}<0.193,0.069,0.749><0,0,0>
+{What if..}<0.193,0.069,0.749><0,0,0>
+{*What if..}<0.193,0.069,0.749><0,0,0>
+{EroticKisses}<-0.054,-0.11,1.159><0.2,-3,-165>
+{Boob}<2.052,0.57,0.519><-3,9,-180>
+{GettingHard}<0.15,0.061,1.013><0,0,81>
+{Hj}<-0.041,-0.311,0.544><-2,0,180>
+{BJ}<1.943,0.491,1.056><0.3,-2.9,-175>
+{BJ 2}<-1.713,-1.229,0.689><0,0,-7>
+{BJ 3}<-0.188,0.183,0.612><0,0,180>
+{BJ 4}<-0.006,0.619,0.442><0,0,-90>
+{69}<0.036,0.293,0.756><0,0,-90>
+{Fingering}<1.961,0.148,1.073><0,0,170>
+{Fingering 2}<-1.83,0.101,0.624><-4,-8,0>
+{Fingering 3}<-0.006,0.521,0.388><-4,0,-90>
+{Grab&Rub}<1.719,-0.618,1.01><0,0,47>
+{yummy}<-0.204,0.298,1.067><-0.5,1,179>
+{Sweet Cream}<-1.146,0.141,1.048><-0.8,-9,-5.1>
+{ClitHill}<-0.091,-0.595,0.988><-1,0,180>
+{Lick}<1.268,0.477,0.766><0,0,173>
+{Lick 1}<-0.087,-0.338,0.787><-3,0,-90>
+{Lick 2}<-0.047,0.257,0.689><0,0,2.1>
+{Lick 3}<-0.048,-0.433,0.755><-3,0,-90>
+{Lick 4}<-1.889,0.139,0.568><0,0,0>
+{Deep}<-0.108,0.099,1.081><0,-4,180>
+{Non stop}<-0.246,0.108,1.064><-0.4,-7,177>
+{High}<1.05,-0.076,0.733><-7.9,-1,94.9>
+{Swing}<-0.128,-0.145,1.015><-2,0.2,-174>
+{Front 1}<-0.753,0.07,0.86><1.7,15.9,-6.2>
+{Front 2}<-0.046,0.003,0.848><-4.9,-3.2,92.4>
+{Front 3}<1.99,0.571,0.992><0,0,180>
+{Gentle Push}<-0.312,-0.009,0.927><0,0,180>
+{Push hard}<-0.007,0.047,1.571><5,0,90>
+{Behind}<-0.248,0.382,1.166><5.2,-0.5,-11.3>
+{backdoor}<0.382,0.217,0.563><3.1,-8.1,-178.2>
+{Bended Knee}<-0.971,-0.012,1.114><0,4,179>
+{Wings}<0.009,-0.313,0.946><0,0,180>
+{HiddenTreasure}<0.023,-0.394,0.978><0,0,180>
+{Puller}<-0.076,0.299,0.875><-16,0,0>
+{Doggy}<-0.764,0.467,0.648><0,0,-102>
+{Back 1}<-0.096,0.267,0.807><-1.6,-14.9,173.8>
+{Back 3}<-0.006,0.511,0.405><-2,0,-90>
+{Back 4}<-0.006,0.421,0.509><0,0,-90>
+{Back 5}<-0.006,0.581,0.521><0,0,-90>
+{Frog}<0.147,0.274,0.969><-0.2,-5,178>
+{arched seat}<1.96,0.22,1.123><0,0,-175>
+{holding back}<-0.006,0.158,1.056><0,0,177>
+{candle}<-1.672,-0.176,1.02><-0.1,-3,-1>
+{exercise}<0.185,0.242,1.069><0,0,0>
+{happy}<0.239,0.231,0.994><-0.3,-5,-3>
+{wave}<1.891,0.859,1.012><0.1,2,177>
+{Spin}<-0.034,0.501,0.978><0,0,0>
+{Ride 1}<-0.051,0.687,0.5><0,0,-90>
+{Ride 2}<-0.018,0.69,0.506><0,0,-90>
+{Ride 3}<1.865,0.544,0.61><0,0,180>
+{Ride 4}<1.905,0.751,0.588><0,0,180>
+{Ride 5}<-0.006,0.615,0.473><-4,0,-90>
+{Ride 6}<-0.006,0.6,0.445><-2,0,-90>
+{Ride 7}<-0.006,0.613,0.438><0,0,-90>
+{Single M}<2.351,5.186,1.1><0,0,180>
+{Couple}<2.326,5.226,1.087><0,0,180>
+PROP Single M|Shower|G1|<2.114380, 5.233337, -0.294190>|<90.000010, -0.000003, 0.000003>
+PROP Couple|Shower|G1|<2.114380, 5.233337, -0.294190>|<90.000010, 0.000000, 0.000000>
+
+--✄--COPY ABOVE INTO "AVpos" NOTECARD--✄--
+
+
+
+end

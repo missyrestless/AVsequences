@@ -1,0 +1,26 @@
+POSE dance1|1beat baby
+POSE dance2|boogie
+POSE dance3|1red
+POSE dance4|1breathless
+POSE dance5|1crimson breeze
+POSE twerk|1bootypop
+POSE sit bored|onside_f04
+POSE meditate|Meditation
+POSE peacock|Peacock Pose
+POSE sleep1|bellysleep
+POSE sleep2|Sleep
+
+{sit bored}<-2.464,-2.394,0.056><-88.8,88.6,-6.1>
+{meditate}<-1.672,-1.83,0.024><0,90,-87.9>
+{peacock}<-1.666,-1.936,0.523><-0.8,87.2,-1>
+{sleep1}<-1.668,-1.961,-0.627><-16.6,87.8,-164.3>
+{sleep2}<-2.008,-1.99,0.206><-173.1,86.5,137.1>
+{dance1}<-1.638,-2.031,-0.005><0,90,-95>
+{dance2}<-1.691,-2.132,-0.034><0,90,-95>
+{twerk}<-1.638,-1.971,-0.805><0,90,-175>
+{dance4}<-1.689,-2.005,0.073><0,90,-91>
+{dance5}<-1.627,-2.08,0.418><0,90,-76>
+{dance3}<-1.684,-2.57,-0.106><0,90,-90>
+
+ANIM sleep1|express_smile|1|express_disdain|1
+ANIM sleep2|express_smile|1|express_disdain|1

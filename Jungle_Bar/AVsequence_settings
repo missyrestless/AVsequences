@@ -1,0 +1,22 @@
+SEQUENCE Sequence
+PLAY bartender1
+WAIT 60
+PLAY shake
+WAIT 60
+PLAY clean
+WAIT 60
+PLAY prepare
+WAIT 60
+PLAY prepare2
+WAIT 60
+PLAY bar stand Fe1
+WAIT 60
+PLAY bar stand M1
+WAIT 60
+PLAY drink Fe
+WAIT 60
+PLAY drink M
+WAIT 60
+PLAY chill
+WAIT 60
+LOOP

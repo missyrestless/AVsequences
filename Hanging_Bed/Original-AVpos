@@ -1,0 +1,383 @@
+SWAP 1
+
+SITTER 0|Female seat|F
+
+TOMENU >SINGLE<
+TOMENU >COUPLE<
+
+MENU >SINGLE<
+POSE sit1 ♀|sing1Fe AF02MIR
+POSE sit2 ♀|sing1Fe DMsf02
+POSE sit3 ♀|singFe Sit151
+POSE sit crossleg ♀|sing2Fe Sit3fem
+POSE sit crossleg2 ♀|2fe Flat SurfSit3
+POSE bored ♀|2fe Flat SurfSit5
+POSE knees ♀|2fe Flat SurfSit8
+POSE lay1 ♀|sing1Fe sin03
+POSE lay2 ♀|2fe Sunbath14
+POSE chill1 ♀|singFe Bed2
+POSE chill2 ♀|2fe Flat SurfSit7
+POSE chill3 ♀|2fe Sunbath11
+POSE edge lay ♀|2fe Sit139
+POSE sit top ♀|sing3 onside_f03b
+POSE enjoy view ♀|2fe Sit149
+POSE enjoy view2 ♀|2fe Sit153
+
+POSE mast1 ♀|singA Fe Mast4
+POSE mast2 ♀|singA Fe Mast8
+POSE mast3 ♀|singA Fe Mast9
+
+MENU >COUPLE<
+TOMENU >sit/lay
+TOMENU >kiss/msg
+TOMENU >sex
+
+MENU >sit/lay
+SYNC chill1|coup Chill11 Fe
+SYNC chill2|Couple121F
+SYNC lay couple1|coup Caress38 Fe
+SYNC lay couple2|coup Back2 Fe
+SYNC lay couple3|coup h&k-02 Fe
+SYNC lay couple4|coup Laura Fe
+SYNC in love|Couple122F
+SYNC in love 2|Couple130F
+SYNC caress him1|coup Caress17 Fe
+SYNC caress her1|coup Caress26 Fe
+SYNC hug him|coup Sit12 Fe
+SYNC hug her|Couple125F
+SYNC spoon|coup h&k-07 Fe
+
+MENU >kiss/msg
+SYNC kiss1|coup h&k-01 Fe
+SYNC kiss2|coup h&k-03 Fe
+SYNC gentle1|coup5 Lotion3 Fe
+SYNC gentle2|coup5 Lotion4 Fe
+SYNC massage her1|coup msg1 Fe get
+SYNC massage her2|coup msg2 Fe get
+SYNC massage him1|coup msg3 Fe give
+SYNC massage him2|coup msg5 Fe give
+
+MENU >sex
+SYNC intimate1|coupA Couple34 Fe
+SYNC intimate2|coupA loveda Fe
+SYNC intimate3|coupA Sex124 Fe
+SYNC intimate4|coupA Sex163 Fe Breasts
+SYNC eat her1|coupA HC-5 Fe
+SYNC eat her2|coupA Sex59Lick Fe
+SYNC jerk him|coupA Sex123Jerk Fe
+SYNC bj1|4Sensual BJ-F::1
+SYNC bj2|4Blow Him F::1
+SYNC rub and jerk|coupA Sex120 Fe
+SYNC gentle|4Gentle Love F::1
+SYNC make love|4Make Love-F::1
+SYNC the spot|coupA ero-02 Fe
+SYNC hump|4SpreadMissionary-1F::1
+SYNC side1|coupA Sex147 Fe
+SYNC side2|coupA Sex160 Fe
+SYNC doggy|coupA Sex143 Fe
+SYNC leopard|6Leopard-F
+SYNC starfish|6Starfish-F
+SYNC slow ride|coupA Sex145 Fe
+SYNC sway|6SwayerHug-F
+SYNC ride him1|coupA Sex63 Fe
+SYNC ride him2|coupA Sex127 Fe
+SYNC eager rider|6EagerRide-F
+SYNC jerk him2|5Cockstroker-F
+SYNC pound tits|5PoundTits-F
+SYNC spray tits|5BlastTits-F
+SYNC cum on her|5CumOnHer-F
+SYNC spray ass|5SprayAss3-F
+
+{sit top ♀}<-0.872,0.013,3.618><-3.1,-11.1,-80.5>
+{sit1 ♀}<0.441,0.423,-0.734><-0.3,2,122>
+{sit2 ♀}<-0.32,0.279,-0.248><-2,-0.2,-151>
+{sit3 ♀}<0.514,0.529,-1.309><-4.4,6.2,-173.7>
+{sit crossleg ♀}<0.524,0.292,-0.256><-0.2,-3.6,-176.9>
+{sit crossleg2 ♀}<0.201,0.647,-0.921><1.8,3.8,136.1>
+{bored ♀}<-0.775,0.75,-0.922><-2.9,1,-134.8>
+{knees ♀}<-0.274,0.076,-0.912><0.8,1.2,-144.8>
+{lay1 ♀}<-0.16,0.441,-0.444><-4.6,2.9,-68.9>
+{lay2 ♀}<-0.593,0.543,-0.87><-2.6,-0.3,18.1>
+{chill1 ♀}<0.614,0.837,-1.261><1.4,2.1,130.1>
+{chill2 ♀}<0.28,0.355,-0.893><1.4,-0.5,139.2>
+{chill3 ♀}<0.296,0.429,-0.893><-0.4,-0.1,-148.9>
+{edge lay ♀}<-1.179,0.216,-1.243><1.5,0.3,172.2>
+{enjoy view ♀}<1.732,-0.09,3.303><4.9,-7.2,-140.8>
+{enjoy view2 ♀}<-0.703,0.181,3.355><2.9,-3.5,-138>
+
+{chill1}<0.468,0.025,-0.237><1.6,-2.3,-150.3>
+{chill2}<0.342,0.107,-0.864><-0.2,-1,-147.9>
+{lay couple1}<0.651,0.052,-0.225><-0.4,-3.1,-174.2>
+{lay couple2}<-0.957,0.019,-0.221><-0.8,7.2,-178.5>
+{lay couple3}<-0.084,0.069,-0.299><-0.2,1.6,-114.9>
+{lay couple4}<0.424,0.13,-0.281><-0.3,-0.1,-166.9>
+{in love}<0.462,-0.079,-0.853><-0.6,-0.8,-171.9>
+{in love 2}<-0.017,-0.152,-0.885><0.5,0.6,16>
+{caress him1}<0.763,0.253,-0.307><-6.2,-0.5,159.9>
+{caress her1}<-0.396,-0.048,-0.318><-4.2,-4.4,-174.3>
+{hug him}<0.702,0.119,-0.407><-0.6,2.4,-172.9>
+{hug her}<0.308,0.292,-0.852><1.6,0.2,-77.7>
+{spoon}<0.113,-0.284,-0.359><1,-0.3,-109.9>
+{kiss1}<0.123,0.108,-0.384><0.7,-1.3,82.1>
+{kiss2}<0.159,0.026,-0.34><1.4,-2.9,-179>
+{gentle1}<-0.083,-0.298,-0.893><1,-0.1,-51>
+{gentle2}<-0.199,0.038,-0.867><0.5,0.9,13>
+{massage her1}<0.054,0.128,-0.248><0.6,-0.1,61.2>
+{massage her2}<-0.103,-0.2,-0.269><1.7,-2.4,-87.9>
+{massage him1}<-0.874,-0.03,-0.224><0.4,6.7,179.3>
+{massage him2}<-0.057,-0.177,-0.103><-2.3,-2.1,-89.9>
+
+
+{mast1 ♀}<-1.244,0.12,-1.279><2.4,-1.3,-164.6>
+{mast2 ♀}<-0.268,0.411,-0.918><0.4,-0.3,-126.9>
+{mast3 ♀}<-0.317,-0.246,-0.959><3.1,3.2,101.2>
+
+{intimate1}<-1.259,-0.228,-1.227><-4.4,-0.4,-169.9>
+{intimate2}<0.128,0.112,-0.3><0.1,-0.6,-150.8>
+{intimate3}<-0.423,0.172,-0.893><-1.5,0.3,80.9>
+{intimate4}<-0.561,-0.066,-0.897><0.1,-0.5,-133.1>
+{eat her1}<0.708,0.096,-0.213><0.2,0.8,2.1>
+{eat her2}<-0.904,0.023,-0.777><-0.6,6.3,179.3>
+{jerk him}<-0.074,-0.083,-0.876><-3.1,3.1,82.8>
+{bj1}<-0.103,0.071,-1.301><0.1,-6,-0.9>
+{bj2}<0.056,-0.181,-1.055><1.9,-0.6,75.1>
+{rub and jerk}<0.074,-0.083,-0.924><1.6,0.6,138.2>
+{gentle}<0.13,-0.173,-1.297><-1,-0.1,91.1>
+{make love}<0.094,-0.057,-1.284><-1,-0.2,95.1>
+{the spot}<-0.083,-0.262,-0.585><-0.6,-1.2,177.1>
+{hump}<-0.005,-0.001,-1.286><0.6,4.9,170.1>
+{side1}<-0.006,-0.102,-0.868><0.4,0.3,-5.1>
+{side2}<-0.333,-0.459,-0.871><-0.2,-2.6,-125.1>
+{doggy}<-1.257,-0.017,-0.945><0.8,-3.4,86.9>
+{leopard}<-0.917,-0.088,-0.951><0.1,6.5,-176.1>
+{starfish}<-0.126,0.19,-1.11><6.5,0.2,-90.1>
+{slow ride}<-0.289,0.037,-0.841><0.2,-0.3,-168>
+{sway}<-0.128,0.055,-0.882><-0.6,7.5,3>
+{ride him1}<-1.179,-0.008,-0.868><-0.3,4.3,-176.8>
+{ride him2}<-0.151,-0.35,-0.901><0.3,0.5,-90.1>
+{eager rider}<-0.866,0.033,-0.98><0.1,-1.5,-176.1>
+{jerk him2}<-0.101,-0.194,-1.058><-0.6,-0.5,84.9>
+{pound tits}<-0.054,-0.147,-0.9><1.5,-0.6,90.9>
+{spray tits}<0.056,-0.179,-0.91><2.4,-0.5,79.9>
+{cum on her}<0.02,0.026,-1.297><1.5,-0.6,90.9>
+{spray ass}<-0.315,-0.06,-1.269><-3,0.2,-115.6>
+
+ANIM chill1 ♀|express_disdain|-12|none|8
+ANIM spoon|express_smile|1|express_disdain|1
+ANIM kiss1|express_kiss|-1
+ANIM kiss2|express_kiss|-1
+ANIM massage her1|express_smile|1|express_disdain|1
+
+ANIM mast1 ♀|none|29|express_disdain|-3|express_worry_emote|4|express_afraid_emote|1|express_sad_emote|3|express_smile|1|none|10
+ANIM mast2 ♀|none|8|express_surprise_emote|-2|express_toothsmile|2|express_bored_emote|-12|express_sad_emote|1|none|24
+ANIM mast3 ♀|none|12|express_bored_emote|-2|none|11|express_smile|5|none|2
+ANIM bj1|express_open_mouth|-1
+ANIM bj2|express_surprise_emote|-1
+ANIM eat her1|express_bored_emote|-9|express_surprise_emote|1
+ANIM edge ride|express_surprise_emote|2|express_bored_emote|-4|none|7
+ANIM doggy|express_smile|-2|express_surprise_emote|-4|express_afraid_emote|-2|none|6
+ANIM intimate1|express_surprise_emote|-1
+ANIM intimate2|express_surprise_emote|-1
+ANIM eat her2|express_surprise_emote|-1
+ANIM hump|express_surprise_emote|-1
+ANIM side1|express_surprise_emote|-1
+ANIM side2|express_surprise_emote|-1
+ANIM ride him1|express_surprise_emote|-1
+ANIM ride him2|express_surprise_emote|-1
+ANIM eager rider|express_surprise_emote|-1
+ANIM sway|express_surprise_emote|-1
+ANIM leopard|express_surprise_emote|-1
+
+SITTER 1|Male seat|M
+
+TOMENU >SINGLE<
+TOMENU >COUPLE<
+
+MENU >SINGLE<
+POSE sit ♂|sing1M DMsm01MIR
+POSE crossleg ♂|2m Sit127
+POSE tired sit ♂|sing3 tiredsit1
+POSE sit side ♂|sing2M ground06
+POSE chill1 ♂|singM Flat SurLay7
+POSE chill2 ♂|3m Flat SurfLay5
+POSE chill3 ♂|2m Flat SurfSit13
+POSE lay1 ♂|2m CouchLay12
+POSE lay2 ♂|2m Flat SurfLay6
+POSE think ♂|2m Sit83
+POSE sit top ♂|3m Sit159
+POSE enjoy view ♂|onside_m02b
+POSE enjoy view2 ♂|3m Flat SurfLay8
+POSE sleep1 ♂|sing1M sin-01
+POSE sleep2 ♂|sing1M sleep1
+POSE sleep3 ♂|singM Sleep7
+
+POSE jerk1 ♂|singA M Mast17
+POSE jerk2 ♂|singA M Mast15
+POSE jerk3 ♂|singA M Mast16
+
+MENU >COUPLE<
+TOMENU >sit/lay
+TOMENU >kiss/msg
+TOMENU >sex
+
+MENU >sit/lay
+SYNC chill1|coup Chill11 M
+SYNC chill2|Couple121M
+SYNC lay couple1|coup Caress38 M
+SYNC lay couple2|coup Back2 M
+SYNC lay couple3|coup h&k-02 M
+SYNC lay couple4|coup Laura M
+SYNC in love|Couple122M
+SYNC in love 2|Couple130M
+SYNC caress him1|coup Caress17 M
+SYNC caress her1|coup Caress26 M
+SYNC hug him|coup Sit12 M
+SYNC hug her|Couple125M
+SYNC spoon|coup h&k-07 M
+
+MENU >kiss/msg
+SYNC kiss1|coup h&k-01 M
+SYNC kiss2|coup h&k-03 M
+SYNC gentle1|coup5 Lotion3 M
+SYNC gentle2|coup5 Lotion4 M
+SYNC massage her1|coup msg1 M
+SYNC massage her2|coup msg2 M
+SYNC massage him1|coup msg3 M get
+SYNC massage him2|coup msg5 M
+
+MENU >sex
+SYNC intimate1|coupA Couple34 M
+SYNC intimate2|coupA loveda M
+SYNC intimate3|coupA Sex124 M
+SYNC intimate4|coupA Sex163 M Breasts
+SYNC eat her1|coupA HC-5 M
+SYNC eat her2|coupA Sex59Lick M
+SYNC jerk him|coupA Sex123Jerk M
+SYNC bj1|4Sensual BJ-M::1
+SYNC bj2|4Blow Him M::1
+SYNC rub and jerk|coupA Sex120 M
+SYNC gentle|4Gentle Love M::1
+SYNC make love|4Make Love-M::1
+SYNC the spot|coupA ero-02 M
+SYNC hump|4SpreadMissionary-1M::1
+SYNC side1|coupA Sex147 M
+SYNC side2|coupA Sex160 M
+SYNC doggy|coupA Sex143 M
+SYNC leopard|6Leopard-M
+SYNC starfish|6Starfish-M
+SYNC slow ride|coupA Sex145 M
+SYNC sway|6SwayerHug-M
+SYNC ride him1|coupA Sex63 M
+SYNC ride him2|coupA Sex127 M
+SYNC eager rider|6EagerRide-M
+SYNC jerk him2|5Cockstroker-M
+SYNC pound tits|5PoundTits-M
+SYNC spray tits|5BlastTits-M
+SYNC cum on her|5CumOnHer-M
+SYNC spray ass|5SprayAss3-M
+
+{sit ♂}<0.502,-0.381,-0.14><-1.4,0.3,-143>
+{crossleg ♂}<0.368,-0.464,-1.274><1.3,3.6,169.1>
+{tired sit ♂}<0.463,-0.615,-0.292><1.4,4.4,160.5>
+{sit side ♂}<0.209,-1.225,-0.169><-1.6,-3.8,141.2>
+{sit top ♂}<-0.816,0.157,3.356><-1.7,0.3,163.4>
+{chill1 ♂}<0.248,-0.653,-0.845><0,-0.4,-22.4>
+{chill2 ♂}<-0.208,-0.313,-0.853><-0.8,1.1,-19.9>
+{chill3 ♂}<0.448,-0.493,-0.795><1.7,-3.8,-150.8>
+{lay1 ♂}<0.329,-0.583,-0.773><0.8,-1,78.1>
+{lay2 ♂}<0.048,-0.71,-0.83><-0.7,-0.4,19.1>
+{think ♂}<-1.152,-0.013,-1.216><0.9,1.5,-93.8>
+{enjoy view ♂}<0.374,-0.317,4><-2.2,0.7,-94.9>
+{enjoy view2 ♂}<0.942,-0.06,3.916><1.6,10.4,-178.2>
+{sleep1 ♂}<-0.346,-0.608,-0.361><-0,-1.6,-36.8>
+{sleep2 ♂}<-0.045,-0.187,-1.337><0.7,-1.6,178.2>
+{sleep3 ♂}<-0.733,-0.676,-0.959><-1,-1.8,136.3>
+
+{chill1}<0.487,0.044,-0.209><1.2,-0.1,-167.7>
+{chill2}<0.356,0.011,-0.848><0.2,0.3,-145>
+{lay couple1}<0.696,0.05,-0.255><0.4,-0.9,-169.8>
+{lay couple2}<-0.904,0.015,-0.264><-0.1,2.4,-178.4>
+{lay couple3}<-0.053,-0.062,-0.296><0.3,2.5,-109.8>
+{lay couple4}<0.729,0.115,-0.307><0.3,0.7,-178.8>
+{in love}<0.413,-0.184,-0.837><0.3,0.1,-174.9>
+{in love 2}<-0.017,-0.146,-0.868><-0.3,-0.7,17>
+{caress him1}<0.59,0.249,-0.272><-2.3,-2.6,174.2>
+{caress her1}<-0.63,0.03,-0.291><-2.4,-0.6,-167.8>
+{hug him}<0.365,0.128,-0.278><-0.4,0.2,-170.8>
+{hug her}<0.373,0.246,-0.838><0.6,1.1,-80.5>
+{spoon}<0.221,-0.131,-0.305><0.3,0.4,-96.8>
+{kiss1}<0.12,0.045,-0.236><-0.8,-2.1,81.2>
+{kiss2}<0.185,0.052,-0.347><1.4,0.9,-178.8>
+{gentle1}<-0.037,-0.321,-0.806><-0.2,0.2,-48>
+{gentle2}<-0.162,0.033,-0.833><-0.3,-0.2,16>
+{massage her1}<-0.009,0.075,-0.162><-1.8,-6.8,-120.8>
+{massage her2}<-0.086,-0.732,-0.214><-1.5,-1.2,-89.7>
+{massage him1}<-0.927,0.012,-0.251><-1.2,2.5,-179.7>
+{massage him2}<-0.01,-0.156,-1.31><-1.6,-1.8,-88.7>
+
+
+{jerk1 ♂}<-0.2,-0.278,-0.943><0.6,1.2,138.3>
+{jerk2 ♂}<-0.069,-0.531,-0.942><0.2,-0,126.1>
+{jerk3 ♂}<0.055,-0.459,-0.935><-0.6,0.6,142.3>
+
+{intimate1}<-1.226,-0.239,-1.25><-4.2,0,-169.7>
+{intimate2}<0.07,0.116,-0.26><-0.8,0.9,-142.6>
+{intimate3}<-0.389,0.181,-0.844><-0.3,1.2,81.4>
+{intimate4}<-0.522,-0.043,-0.849><-1.4,-0.6,-132.6>
+{eat her1}<-0.002,0.033,-0.273><-0.5,3.5,5.4>
+{eat her2}<-0.907,0.029,-0.805><-0.3,8.3,179.5>
+{jerk him}<-0.079,-0.116,-0.868><-1.3,3.2,83.5>
+{bj1}<0.572,0.058,-1.25><0.2,-2,178.1>
+{bj2}<0.154,0.191,-0.322><-2.9,0.8,-105.9>
+{rub and jerk}<0.071,-0.09,-0.888><0.9,-0.3,138.4>
+{gentle}<0.141,-0.01,-1.118><-1,0.1,-89.9>
+{make love}<0.09,0.092,-1.004><-1,-0.1,-85.9>
+{the spot}<0.31,0.02,-0.172><-0.4,-0.9,177.3>
+{hump}<-0.369,0.08,-1.086><-0.3,-2,-10.9>
+{side1}<-0.004,-0.091,-0.89><1.5,-0.7,-4.6>
+{side2}<-0.322,-0.471,-0.852><-1.7,-2.9,-124.8>
+{doggy}<-1.235,-0.027,-0.894><1.7,-2.4,87.5>
+{leopard}<-0.585,-0.066,-1.105><-1,-0.6,-175.6>
+{starfish}<-0.136,-0.245,-1.347><4.5,1.2,90.4>
+{slow ride}<-0.459,0.063,-0.837><-0,-1,-174>
+{sway}<0.196,0.048,-1.035><-1.1,-1.6,-176.6>
+{ride him1}<-1.205,-0.011,-0.823><-0.1,1.4,-176.6>
+{ride him2}<-0.184,-0.334,-0.844><1.4,-0.6,-89.6>
+{eager rider}<-0.491,0.055,-1.111><-1,-0.6,-175.6>
+{jerk him2}<-0.104,0.224,-0.27><-0.5,-1,-92.6>
+{pound tits}<-0.047,0.162,-0.5><-0.4,-1.1,-86.6>
+{spray tits}<0.026,0.134,-0.5><2.6,-1.1,-87.6>
+{cum on her}<-0.015,0.334,-0.856><-0.4,-1.1,-86.6>
+{spray ass}<-0.373,0.432,-0.979><-0.4,-1.1,-85.1>
+
+ANIM tired sit ♂|express_bored_emote|-6|none|8|express_bored_emote|-8|none|8
+ANIM sleep1 ♂|express_smile|1|express_disdain|1
+ANIM sleep2 ♂|express_smile|1|express_disdain|1
+ANIM sleep3 ♂|express_smile|1|express_disdain|1
+ANIM sleep4 ♂|express_smile|1|express_disdain|1
+ANIM spoon|express_smile|1|express_disdain|1
+ANIM kiss1|express_kiss|-1
+ANIM kiss2|express_kiss|-1
+ANIM massage him1|express_smile|1|express_disdain|1
+ANIM massage him2|express_smile|1|express_disdain|1
+
+
+ANIM jerk2 ♂|none|10|express_disdain|-3|none|-7|express_disdain|-14
+ANIM jerk3 ♂|none|8|express_surprise_emote|-3|none|-7|express_disdain|-1|none|19
+ANIM intimate2|express_kiss|-1
+ANIM intimate4|express_kiss|-1
+ANIM bj1|none|2|express_smile|1|express_bored_emote|-8
+ANIM eat her1|express_tongue_out|-8|express_kiss|-3
+ANIM eat her2|express_tongue_out|-9|express_kiss|-2
+ANIM jerk him|express_surprise_emote|-1
+ANIM bj1|express_surprise_emote|-1
+ANIM bj2|express_surprise_emote|-1
+ANIM hump|express_surprise_emote|-1
+ANIM doggy|express_surprise_emote|-1
+ANIM slow ride|express_surprise_emote|-1
+ANIM eager rider|express_surprise_emote|-1
+ANIM jerk him2|express_surprise_emote|-1
+ANIM spray tits|express_surprise_emote|-1
+ANIM pound tits|express_surprise_emote|-1
+ANIM cum on her|express_surprise_emote|-1
+ANIM spray ass|express_surprise_emote|-1

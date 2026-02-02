@@ -1,0 +1,61 @@
+SEQUENCE SEQ-FEMALE
+PLAY rest Fe
+WAIT 60
+PLAY sit Fe
+WAIT 60
+PLAY sit sideways Fe
+WAIT 60
+PLAY relax Fe
+WAIT 60
+PLAY lay Fe
+WAIT 60
+PLAY bored Fe
+WAIT 60
+PLAY stretch Fe
+WAIT 60
+PLAY caress leg Fe
+WAIT 60
+PLAY think Fe
+WAIT 60
+PLAY leg up Fe
+WAIT 60
+PLAY enjoy Fe
+WAIT 60
+PLAY legs up Fe
+WAIT 60
+PLAY contemplate Fe
+WAIT 60
+PLAY stand Fe
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-MALE
+PLAY watch M
+WAIT 60
+PLAY observe M
+WAIT 60
+PLAY reserved M
+WAIT 60
+PLAY relax M
+WAIT 60
+PLAY contemplate m
+WAIT 60
+PLAY cross arms M
+WAIT 60
+PLAY legs wide M
+WAIT 60
+PLAY crossleg M
+WAIT 60
+PLAY crossleg chill M
+WAIT 60
+PLAY tired M
+WAIT 60
+PLAY nervous M
+WAIT 60
+PLAY nap M
+WAIT 60
+PLAY sleep M
+WAIT 60
+PLAY stand M
+WAIT 60
+LOOP

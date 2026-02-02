@@ -1,0 +1,1228 @@
+SWAP 0
+TEXT Use SOLO Menu alone, anims will overlap\n 
+
+SITTER 0|Female|F
+TOMENU SOLO
+TOMENU Couples
+TOMENU Spanking
+TOMENU Feet
+TOMENU Adult
+TOMENU Clean
+BUTTON [ SWAP ]|90030|0|1
+ADJUST [Aeros Toggle]|-7279992|[INM API]|-99998|-> Ankle HUD|99
+
+MENU SOLO
+TOMENU Lay F
+TOMENU Sit F
+TOMENU Solo Adult F
+BUTTON [ SWAP ]|90030|0|1
+
+MENU Lay F
+SEQUENCE SEQ-LAY-F
+POSE Sexy side|L20|F
+POSE Calmness|L36
+POSE Inspire|L37
+POSE Stretching|L13
+POSE What if|L24
+POSE Wait here|G15
+POSE Belly lay|L6
+POSE Internet|C7
+POSE Sleep|L21
+POSE Sun on back|G22
+POSE Slow tune|C6
+POSE on Phone|L25
+POSE Catch sun|G21
+POSE Still|L40
+POSE Daydream|L1
+POSE Pause|L38
+POSE Alluring|L41
+POSE Tummy text|L44
+POSE Oh?|L32
+
+MENU Sit F
+SEQUENCE SEQ-SIT-F
+POSE Siren|SEbento-Fgrd04
+POSE Selfie|L33
+POSE Contemplate|C1
+POSE Relaxing|C2
+POSE Gaze|G3
+POSE Read|G7
+POSE Puppy|SEbento-Fgrd03
+POSE Sun lotion|G23
+POSE Sun Oil|G26
+POSE Beauty|G35
+POSE Comfy|G8
+POSE Nice day|S84
+
+MENU Solo Adult F
+SEQUENCE SEQ-SOLO-AF
+POSE Reveal|ML20F
+POSE Enjoy|ML18F
+POSE Pleasure|ML9F
+POSE Flick bean|fmast1
+POSE Vibrator|MS2F
+POSE GrindHand|ML21F
+POSE Backhand|fmast8
+POSE Venus|fmast14
+POSE Bridge rub|fmast6
+POSE Air play|fmast5
+
+MENU Couples
+TOMENU Cuddles
+TOMENU Kisses
+TOMENU Warmer
+TOMENU FF Cuddles
+TOMENU MM Cuddles
+BUTTON [ SWAP ]|90030|0|1
+
+MENU Cuddles
+SEQUENCE SEQ-CUDDLE-F
+SYNC Moment|G15F
+SYNC Zen|C24F
+SYNC Flirt|L25F
+SYNC Serenity|G36F
+SYNC Leg rub|L17F
+SYNC Legs|L24F
+SYNC Dreams|L5F
+SYNC Crazy Love|G21F
+SYNC Stay|G19F
+SYNC Sun Lotion|G29F
+SYNC Rub cream|G27F
+
+MENU Kisses
+SEQUENCE SEQ-KISS-F
+SYNC Soft kiss|G14F
+SYNC InLove|G38F
+SYNC Long Kiss|C7F
+SYNC Baby|C8F
+SYNC Hotty kiss|S41F
+SYNC Smoochy|L68F
+SYNC Kissy|L46F
+SYNC Grind Kiss|G26F
+SYNC Love knee|S39F
+SYNC We are|G18F
+
+MENU Warmer
+SEQUENCE SEQ-WARM-F
+SYNC Breathless|L20F
+SYNC I see you|G20F
+SYNC Sit on|G32F
+SYNC Hunger|G8F
+SYNC Persuade|L8F
+SYNC Trust me|L4F
+SYNC Feel me|L30F
+SYNC Deep kiss|G4F
+SYNC Get close|L50F
+
+MENU FF Cuddles
+SEQUENCE SEQ-FF-CUDDLE-F
+SYNC KissMe|L79F1
+SYNC YourEyes|L78F1
+SYNC Nuzzle|L26F
+SYNC CuteLay|L74F1
+SYNC Ensnare|L75F1
+SYNC Exciting|L77F1
+SYNC Craving|L76F1
+SYNC Faith|L37F
+SYNC Now|G6F
+
+MENU MM Cuddles
+SEQUENCE SEQ-MM-CUDDLE-F
+SYNC Quiet|L84M1
+SYNC Trap|L83M1
+SYNC Rest close|L80M1
+SYNC Spoony|L82M1
+SYNC LipKiss|L81M1
+
+MENU Spanking
+SEQUENCE SEQ-SPANK-F
+SYNC Spanking|Dom42F
+SYNC Spank more|Dom43F
+SYNC TouchSlap|Dom44F
+SYNC That ass!|Dom45F
+
+MENU Feet
+SEQUENCE SEQ-FEET-F
+SYNC FootTease|ff f9
+SYNC Leg&Foot|ff f
+SYNC Smother|ff f4
+SYNC SmellSole|ff f3
+SYNC FeetFun|ff f11
+
+MENU Adult
+TOMENU Warm him
+TOMENU Warm her
+TOMENU Breastplay
+TOMENU Lick
+TOMENU BJ
+TOMENU Ride
+TOMENU Front
+TOMENU Behind
+TOMENU Anal
+TOMENU Finish
+TOMENU FF
+TOMENU MM
+BUTTON [ SWAP ]|90030|0|1
+
+MENU Warm him
+SEQUENCE SEQ-WARMHIM-F
+SYNC All Mine|L10F
+SYNC Seduce him|L15F
+SYNC Work Pole|AL50PF-
+SYNC Milk it|AS76YF
+SYNC Milking|AC76PF
+SYNC Work Cock|AC75PF
+
+MENU Warm her
+SEQUENCE SEQ-WARMHER-F
+SYNC Capture|AL3PF
+SYNC Warm her|AL162PF
+SYNC Coax|AD38PF
+SYNC Tease|AS83PF
+SYNC Creamy|AC71PF
+SYNC HeavyPet|AS82PF-
+SYNC Diddled|AD39PF
+SYNC Jerk nRub|AL120PF
+
+MENU Breastplay
+SEQUENCE SEQ-BREAST-F
+SYNC Starving|L12F
+SYNC Boob nRub|AL124PF
+SYNC Attention|AS86PF-
+SYNC Lick boobs|AS85PF-
+SYNC Nurture|AD37PF
+SYNC Breastfuck|AL56PF-
+SYNC Touchie|AD34FF
+
+MENU Lick
+SEQUENCE SEQ-LICK-F
+SYNC Queened|AL77OF
+SYNC Dessert|AL78OF
+SYNC Sipping|AD7OF
+SYNC Just eat|AC14OF
+SYNC LapNectar|AS93OF
+SYNC Clit drum|AS60OF
+SYNC Forced Lick|AC18OF
+SYNC JuicyMeal|AD6OF
+SYNC Faceglide|AL79OF
+SYNC 69Top|AL80OF
+SYNC BumLick|AD52OF-
+
+MENU BJ
+SEQUENCE SEQ-BJ-F
+SYNC Lick Tip|AC20BF-
+SYNC SideBJ|AC94BF
+SYNC DownLow|AL96BF
+SYNC Open more|AD14BF
+SYNC BigMeal|AD12BF
+SYNC GoodBlow|AS94BF
+SYNC Edged|AC24BF-
+SYNC Rough BJ|AC22BF
+SYNC Suck this|AU136BF
+SYNC Suck nRub|AL122BF
+SYNC Hot Suck|AL41BF
+SYNC Take Cock|AL40BF
+SYNC DeepThroat|AL39BF
+SYNC 6-9|AL38BF
+SYNC 69ers|AD11BF
+
+MENU Ride
+SEQUENCE SEQ-RIDE-F
+SYNC Rev Grind|AC10RF
+SYNC Sit Fuck|AL144RF
+SYNC Ride me|AC50RF
+SYNC Cowgirl|AC48RF
+SYNC Rev Bounce|AC46RF
+SYNC Stallion|AS35RF
+SYNC Inside you|AS31RF
+SYNC Ride more|AS30RF
+SYNC Bronco|AS36RF
+SYNC Slow rev|AD48RF-
+SYNC Frog ride|AD51RF
+SYNC the Mill|AL145RF
+SYNC Rev Rodeo|AL127RF
+
+MENU Front
+SEQUENCE SEQ-FRONT-F
+SYNC Side lift|AL139ZF
+SYNC Drive leg|AL147ZF
+SYNC Oh yes|AD33FF
+SYNC SpreadUp|AD36FF
+SYNC Harder|AL99FF
+SYNC Spider|AC54FF
+SYNC Wide apart|AS57FF
+SYNC Dig in|AS56FF
+SYNC Rocket|AS59FF
+SYNC Hold&Ride|AU46RF
+SYNC StretchLeg|stf15
+SYNC Hammer|stf16
+SYNC Breed me|AD30FF
+SYNC Lift-up|AL98FF
+SYNC Pin down|AL86FF
+SYNC Cum inside|AD35FF
+SYNC Front her|AL126FF
+SYNC Make love|AD31FF
+SYNC FoldFuck|AD43FF
+SYNC HardMission|AD44FF
+SYNC on mission|AL46FF
+
+MENU Behind
+SEQUENCE SEQ-BEHIND-F
+SYNC Pound hard|AC42DF
+SYNC Hips|AS68DF
+SYNC Squat|AL60DF
+SYNC Doggy|AL161DF
+SYNC Dog pound|AD16DF
+SYNC Horsie|AD17DF
+SYNC Yoga dog|AD24DF
+SYNC Rutting|AD18DF
+SYNC My bitch|AD19DF
+SYNC Slide|AC35DF
+SYNC Get low|AC36DF
+SYNC Hounds|si f2
+SYNC Breed|AD23DF
+SYNC Pin bitch|AD26DF
+SYNC Coaxing|AD28DF
+SYNC Hard mount|AD29DF
+
+MENU Anal
+SEQUENCE SEQ-ANAL-F
+SYNC Get deep|AL54ZF-
+SYNC Butt up|AL74DF
+SYNC Analwork|AL149DF
+SYNC Anal Lift|AD73DF
+SYNC Plug ass|AD74DF
+
+MENU Finish
+SEQUENCE SEQ-FIN-F
+SYNC Sticky back|AC32YF
+SYNC Drenched|AC31YF
+SYNC StickyFace|AC28YF
+SYNC Spray|AS74YF
+SYNC Cumming|AC34YF
+SYNC Give Milk|AC33YF
+SYNC Cumshot|AC27YF
+SYNC CreamyCunt|AC29YF
+SYNC Drink this|AC30YF
+
+MENU FF
+SEQUENCE SEQ-FF-F
+SYNC Seduce|L15M
+SYNC Grope|AL65PF1
+SYNC Tickle|AL63PF1
+SYNC Rub Leg|AL217FF1
+SYNC Stretch|AL64PF1
+SYNC Fingers|AC79PF1-
+SYNC Rub her|AC88PF1-
+SYNC Tribbing|AL216ZF1
+SYNC Clit hump|AL225ZF1
+SYNC 2sided Toy|AL232ZF1
+SYNC Toyed|AL231ZF1
+SYNC Ride face|AL69OF1
+SYNC Facesit|AL30OF1
+SYNC On Mouth|AL70OF1
+SYNC Nectar|AL62OF1
+SYNC BothLick|AL66OF1
+SYNC Lick n Rub|AL214OF1
+
+MENU MM
+SEQUENCE SEQ-MM-F
+SYNC Handling|AL89PM1
+SYNC Suck rod|AL90OM1
+SYNC Suck Dick|AC59BM2
+SYNC Rise up|AC60BM2
+SYNC Hard mouth|AL91OM1
+SYNC Rim Jerk|AC62ZM1
+SYNC Grasp|AL32FM2
+SYNC Hard dog|AL33DM2
+SYNC Ride Rod|AC65RM2
+SYNC Rev Riding|AC66RM2
+SYNC HoundDog|AC67DM2
+SYNC Mutual|AC70YM2
+BUTTON [ SWAP ]|90030|0|1
+
+MENU Clean
+POSE Clean Solo|L18
+SYNC Clean both|G13F
+
+{Sexy side}<-0.271,0.037,0.717><0.5,0.9,-114>
+{Calmness}<-0.271,-0.1,0.603><-0.8,0.6,-31.6>
+{Inspire}<-0.371,-0.121,0.584><1,0.3,-156>
+{Stretching}<0.103,-0.13,0.729><0.3,-0.5,-166>
+{What if}<0.086,-0.149,0.323><0,-4,-157>
+{Wait here}<0.372,-0.043,0.749><0.1,1.2,-178.4>
+{Belly lay}<-0.31,-0.013,0.189><-3,-1,51.9>
+{Internet}<-0.834,0.425,0.253><0,0,53.1>
+{Sleep}<-0.015,-0.025,0.61><-1.8,-1,107.4>
+{Sun on back}<0.16,0.044,0.13><0,0,0>
+{Slow tune}<0.5, -0.063, 0.25><-2.015, -0.43, -106.15>
+{on Phone}<0.158,0.18,0.316><-0.1,1,-156.1>
+{Catch sun}<0.145,-0.028,0.186><0,0,180>
+{Still}<-0.095,0.038,0.598><0.5,0.9,-0>
+{Daydream}<-0.224,-0.252,0.202><0,0,47>
+{Pause}<-0.324,-0.058,0.609><-0.8,0.7,-36.5>
+{Alluring}<-0.111,0.037,0.596><0.8,0.6,-138>
+{Tummy text}<-0.475,0.037,0.58><1,0,-174>
+{Oh?}<0.098,-0.015,0.32><0,0,-137>
+
+{Siren}<-0.054,0.02,1.1><0,0,139>
+{Selfie}<0.169,0.013,0.268><-1.9,-0.6,180>
+{Contemplate}<-0.887,-0.301,0.229><-1,6.7,-176.9>
+{Relaxing}<-0.804,0.169,0.119><-1.4,-2.7,154>
+{Gaze}<-0.152,0.113,0.209><0,0,170>
+{Read}<0.117,0.066,0.212><0,0,-132.6>
+{Puppy}<-0.097,-0.088,1.084><0,0,150>
+{Sun lotion}<0.284,-0.073,0.211><0,0,163>
+{Sun Oil}<0,0,0.218><0,0,-139>
+{Beauty}<0.214,0,0.311><0,-4,180>
+{Comfy}<-0.086,0.249,0.278><0,0,-166>
+{Nice day}<0.53,0.024,0.044><0,2,180>
+
+{Reveal}<0.322,0.008,1.129><0.6,6,174>
+{Enjoy}<-0.214,0.085,1.093><0.9,-2.9,-163>
+{Pleasure}<-0.309,-0.017,0.582><0,0,150>
+{Flick bean}<-1.174,-0.001,0.554><0,9,180>
+{Vibrator}<-0.857,0.318,0.593><-0.2,10.4,140>
+{GrindHand}<-0.49,-0.014,1.218><0,0,26>
+{Backhand}<-0.415,-0.02,1.148><0,0,-15>
+{Venus}<0.153,-0.114,1.125><0,0,164>
+{Bridge rub}<-0.15,0.008,1.192><-0.3,2.2,-174.6>
+{Air play}<-0.315,0.008,1.16><-0.3,3.2,-174.6>
+
+{Moment}<0.323,-0.663,0.266><0,2,180>
+{Zen}<-0.07,0.2,0.732><0,0,90>
+{Flirt}<-0.051,-0.294,0.715><0,0,-168>
+{Serenity}<0.076,-0.003,0.198><0,-2,180>
+{Leg rub}<-0.568,0.071,0.603><0,0,0>
+{Legs}<-0.07,-0.179,0.75><0,0,180>
+{Dreams}<-0.077,-0.181,0.259><0.2,-2,7>
+{Crazy Love}<0.039,-0.019,0.409><-0,-1,-0>
+{Stay}<0.042,0.321,0.149><0,0,0>
+{Sun Lotion}<-0.325,-0.202,0.122><0,0,180>
+{Rub cream}<0.156,0.447,0.44><-10,-0,-90>
+
+{Soft kiss}<-0.11,0.468,0.831><0,0,90>
+{InLove}<-0.074,0.02,0.11><0,0,180>
+{Long Kiss}<0.12,-0.252,0.771><0,0,-178>
+{Baby}<-0.219,0.043,1.112><-0.1,-1.6,90>
+{Hotty kiss}<-0.041,0.028,0.412><0,0,1>
+{Smoochy}<-0.484,-0.38,0.288><0,0,0>
+{Kissy}<0.1,0.291,0.65><0,0,-90>
+{Grind Kiss}<-0.124,-0.287,0.226><0,0,180>
+{Love knee}<0.035,0.008,0.379><0,0,1>
+{We are}<-0.025,0.119,0.207><0,0,0>
+
+{Breathless}<0.281,0.134,0.614><0,0,67.5>
+{I see you}<0.078,-0.107,0.193><0,0,0>
+{Sit on}<0.042,0.128,0.514><0,0,0>
+{Hunger}<0.118,-0.339,0.231><0,-1,0>
+{Persuade}<0.027,-0.166,0.267><0,0,0>
+{Trust me}<-0.007,-0.232,0.28><0,0,0>
+{Feel me}<0.234,-0.598,0.329><0,0,180>
+{Deep kiss}<-0.289,-0.307,0.258><0,0,0>
+{Get close}<-0.221,0.136,0.604><0,0,-90>
+
+{KissMe}<-0.204,-0.264,0.334><0,0,180>
+{YourEyes}<-0.417,-0.014,0.344><0,0,90>
+{Nuzzle}<-0.56,-0.28,0.799><0,0,-90>
+{CuteLay}<0.623,-0.065,0.332><0,0,0>
+{Ensnare}<0.675,-0.085,0.348><0,0,0>
+{Exciting}<0.508,-0.263,0.38><0,0,0>
+{Craving}<0.566,-0.21,0.354><0,0,0>
+{Faith}<0.085,0.168,0.604><0,0,-24>
+{Now}<0.517,0.057,0.197><0.2,0,180>
+
+{Quiet}<0.079,0.167,0.292><0,0,180>
+{Trap}<0.34,0.202,0.297><0,0,180>
+{Rest close}<0.372,0.224,0.346><0,0,180>
+{Spoony}<0.472,0.287,0.32><0,0,0>
+{LipKiss}<0.649,0.417,0.374><0,0,0>
+
+{Spanking}<-1.927,0.063,0.693><0,0,0>
+{Spank more}<-0.256,-0.189,1.16><0,0,0>
+{TouchSlap}<-0.298,-0.137,1.168><-2,-1,-0>
+{That ass!}<0.046,0.038,1.193><0,0,0>
+
+{FootTease}<0.218,0.009,1.108><0,0,180>
+{Leg&Foot}<-0.033,0.015,1.123><0,0,180>
+{Smother}<-0.071,0.035,1.109><0,0,180>
+{SmellSole}<-0.007,0.032,1.107><0,0,180>
+{FeetFun}<-0.148,0.045,1.158><0,0,180>
+
+{All Mine}<-0.363,-0.337,0.214><-0.2,-4,0>
+{Seduce him}<-0.015,-0.267,0.265><4,0,0>
+{Work Pole}<-1.0508, -0.0746, 0.398><0,0,0>
+{Milk it}<-1.158,-0.007,0.616><0,0,0>
+{Milking}<-0.656,0.116,0.696><0,0,0>
+{Work Cock}<-0.654,0.151,0.691><2.7,-1,0.1>
+
+{Capture}<0.396,-0.429,0.295><0,1,180>
+{Warm her}<0.087,0.186,0.599><0,0,90>
+{Coax}<0.055,-0.09,1.244><0,0,8>
+{Tease}<0.524,-0.075,1.11><0,0,0>
+{Creamy}<-0.804, -0.358, 0.6731><0.132, 2.04, 165>
+{HeavyPet}<-1.224,-0.014,0.7><0,0,180>
+{Diddled}<0.23,-0.105,1.237><0,0,180>
+{Jerk nRub}<0.125,-0.041,0.6><0,0,-90>
+
+{Starving}<-0.267,-0.36,0.269><0,0,0>
+{Boob nRub}<-0.336,0.194,0.644><0,0,90>
+{Attention}<-1.343,-0.007,0.654><0,-5,180>
+{Lick boobs}<-1.026,0.051,0.663><0,0,0>
+{Nurture}<0.425,0.206,1.203><0,-1,180>
+{Breastfuck}<-0.364,-0.026,0.376><0,0,0>
+{Touchie}<0.268,0.107,1.146><0,0,-180>
+
+{Queened}<0.11,0.088,1.245><0,1,0>
+{Dessert}<-0.035,0.044,1.188><0,0,0>
+{Sipping}<-0.384,0.048,1.187><0,0,0>
+{Just eat}<-0.709,0.128,0.629><0,0,0>
+{LapNectar}<-0.966,0.05,0.647><0,0,180>
+{Clit drum}<-0.674,-0.007,0.679><0,0,180>
+{Forced Lick}<-0.808,0.211,0.683><0,0,-90>
+{JuicyMeal}<0.687,-0.003,1.278><0,0,180>
+{Faceglide}<0.493,0.03,1.241><-0.4,-1.9,-179.9>
+{69Top}<0.444,-0.002,1.218><0,-2,180>
+{BumLick}<0.17,-0.358,0.305><0,0,180>
+
+{Lick Tip}<-0.665,0.152,0.693><0,0,0>
+{SideBJ}<-0.5542, -0.0982, 0.604><0,0,0>
+{DownLow}<-0.785,0.045,1.148><0,0,-1.2>
+{Open more}<-0.364,0.081,1.256><0,2,-19>
+{BigMeal}<-0.605,0.028,1.087><0,0,0>
+{GoodBlow}<-1.485,-0.007,0.608><0,0,0>
+{Edged}<-0.537,-0.213,0.686><0,0,180>
+{Rough BJ}<-0.776,-0.301,0.678><0,0,180>
+{Suck this}<-1.384,-0.102,0.702><0,0,180>
+{Suck nRub}<0.071,0.478,0.613><0,0,36.5>
+{Hot Suck}<-0.434,-0.211,0.393><0,0,5.6>
+{Take Cock}<-0.267,0.009,0.381><0,0,0>
+{DeepThroat}<-0.205,0.032,0.376><0,0,0>
+{6-9}<0.13,0.021,0.376><0,0,180>
+{69ers}<0.349,-0.002,1.233><0,-2,180>
+
+{Rev Grind}<-0.315,-0.514,0.76><0,0,-90>
+{Sit Fuck}<-0.409,-0.008,0.629><0,0,90>
+{Ride me}<-0.692,0.094,0.658><0,0,0>
+{Cowgirl}<-0.607,-0.017,0.651><5.6,2.8,180>
+{Rev Bounce}<-0.756,0.14,0.686><0,-2,180>
+{Stallion}<-0.949,0.006,0.723><0,12,180>
+{Inside you}<-0.947,0.011,0.725><0,5,180>
+{Ride more}<-0.978,0.01,0.753><0,7,180>
+{Bronco}<-0.871,0.048,0.737><0,7,180>
+{Slow rev}<-0.444,-0.009,0.419><0,2,0>
+{Frog ride}<0.398,-0.802,0.287><0,0,180>
+{the Mill}<-0.362,0.043,0.594><-2,-2,179.9>
+{Rev Rodeo}<-0.274,0.101,0.615><0,0,180>
+
+{Side lift}<-0.534,-0.001,0.625><0,0,90>
+{Drive leg}<-0.346,-0.128,0.551><0,0,90>
+{Oh yes}<-0.287, 0, 1.18><0, -5, 180>
+{SpreadUp}<-0.261,0.038,1.201><0,0,180>
+{Harder}<-0.294,0.061,1.174><0,-2,180>
+{Spider}<-0.749,-0.077,0.685><0,0,0>
+{Wide apart}<-1.055,0.057,0.679><0,0,180>
+{Dig in}<-1.144,0.091,0.667><0,0,180>
+{Rocket}<-0.944,0.043,0.657><0,0,180>
+{Hold&Ride}<-1.505,-0,0.745><0,0,180>
+{StretchLeg}<-0.122,-0.004,1.211><0,0,0>
+{Hammer}<-0.026,-0.009,1.196><0,0,0>
+{Breed me}<-0.04,0.01,1.17><0,-4,180>
+{Lift-up}<0.01,0.025,1.187><0,0,180>
+{Pin down}<-0.057,0.044,1.247><0.8,-4.4,-178.5>
+{Cum inside}<0.076,0.036,1.171><0,0,180>
+{Front her}<0.122,-0.028,0.585><0,0,90>
+{Make love}<0.036,0.047,1.206><0,0,180>
+{FoldFuck}<-0.583,-0,0.402><0,0,0>
+{HardMission}<-0.624,0.034,0.401><0,0,0>
+{on mission}<-0.635,0.017,0.376><0,0,0>
+
+{Pound hard}<-0.811,-0.358,0.719><0,0,0>
+{Hips}<0.742,0.069,1.12><0,9,0>
+{Squat}<-0.22,-0.012,0.139><0,0,0>
+{Doggy}<-0.17,0.011,0.572><0,-4,-90>
+{Dog pound}<-0.261,0.012,1.192><0,0,0>
+{Horsie}<-0.171,-0,1.175><0,0,0>
+{Yoga dog}<-0.177,-0.006,1.13><0,0,0>
+{Rutting}<-0.338,0.017,1.128><0,0,0>
+{My bitch}<-0.11,0.056,1.173><0,0,0>
+{Slide}<0.115,-0.203,0.716><0,3,0>
+{Get low}<0.225,-0.217,0.695><0,3,0>
+{Hounds}<-0.199,0.026,1.227><0,0,0>
+{Breed}<0.048,0.021,1.196><0,0,0>
+{Pin bitch}<0.038,-0.012,1.179><0,0,0>
+{Coaxing}<0.088,0.038,1.219><0,0,0>
+{Hard mount}<0.092,0.039,1.205><0,0,0>
+
+{Get deep}<-0.253,-0.083,0.423><0,0,0>
+{Butt up}<0.048,-0.014,1.163><0,0,0>
+{Analwork}<0.038,-0.01,0.6><0,0,90>
+{Anal Lift}<-0.456,0.076,0.565><0,-5,0>
+{Plug ass}<-0.491,-0.036,0.612><0,0,0>
+
+{Drenched}<-0.055,-0.038,0.675><0,0,180>
+{StickyFace}<-0.729,0.11,0.696><0,0,90>
+{Sticky back}<-0.808,-0.338,0.726><0,0,1>
+{Spray}<-1.086,-0.442,0.595><0,0,-140.6>
+{Cumming}<-0.711,-0.345,0.679><0,0,180>
+{Give Milk}<-0.424,-0.383,0.671><1.2,16.2,5.4>
+{Cumshot}<-0.802,-0.475,0.685><0,0,0>
+{CreamyCunt}<-0.687,0.122,0.658><0,0,172>
+{Drink this}<-0.902,0.158,0.684><0,0,0>
+
+{Seduce}<-0.009,0.157,0.19><0,3,-179.9>
+{Grope}<-0.315,-0.1,0.4><0,-1,180>
+{Tickle}<0.188,-0.276,0.342><0,0,180>
+{Rub Leg}<0.031,0.066,0.624><0,0,90>
+{Stretch}<-1.132,0.114,0.337><0,0,180>
+{Fingers}<-0.871,0.179,0.681><0,0,90>
+{Rub her}<-0.675,0.108,0.717><0,0,0>
+{Tribbing}<-0.224,0.136,0.576><0.3,-0.9,90>
+{Clit hump}<-0.137,-0.153,0.617><0,0,90>
+{2sided Toy}<-0.096,-0.075,0.619><0,0,90>
+{Toyed}<-0.074,-0.014,0.636><0,0,90>
+{Ride face}<0.08,-0.286,0.348><0,0,0>
+{Facesit}<0.385,0.04,1.15><0,0,0>
+{On Mouth}<0.469,-0.097,0.356><0,0,180>
+{Nectar}<0.32,-0.283,0.358><0,0,180>
+{BothLick}<-0.296,0.229,0.384><0,0,0>
+{Lick n Rub}<-0.35,-0.044,0.585><0,0,180>
+
+{Handling}<0.449,-0.285,0.322><0,0,0>
+{Suck rod}<0.169,-0.425,0.337><0,0,0>
+{Suck Dick}<-0.888,0.099,0.688><0,0,90>
+{Rise up}<-0.668,0.201,0.682><0,0,90>
+{Hard mouth}<-0.647,0.05,0.336><0,0,-180>
+{Rim Jerk}<-0.028,0.085,0.726><0,0,180>
+{Grasp}<-0.251,0.026,0.694><0,0,90>
+{Hard dog}<-0.184,0.128,0.703><0,0,90>
+{Ride Rod}<-0.793,0.169,0.694><0,0,0>
+{Rev Riding}<0.154,-0.006,0.693><-0.5,-3,-179.8>
+{HoundDog}<-0.511,0.288,0.644><0,0,0>
+{Mutual}<-0.538,0.069,0.707><0,0,90>
+{Clean Solo}<-0.12,0.12,1.154><0,0,-150.9>
+{Clean both}<-0.597,0.056,1.152><0,0,-172>
+
+PROP Internet|LaptopS|G1|<-0.79610, 0.31559, 0.05396>|<0.00000, 0.00000, 52.99999>|
+PROP1 on Phone|Lalou-Phone|G1|<-0.75461, -0.11560, -0.06055>|<-1.18099, 7.23195, -99.09387>|right hand
+PROP1 Tummy text|Lalou-Phone10|G1|<-1.03571, 0.11990, -0.06055>|<0.00000, 0.00000, 0.00000>|right hand
+PROP1 Selfie|Lalou-Phone6|G1|<-0.14746, -0.11560, -0.06055>|<0,0,0>|right hand
+PROP Read|MagazineS|G1|<-0.00000, -0.33309, 0.08447>|<0.73606, 5.33382, -124.12190>|
+PROP Sun lotion|SunLotion|G1|<0.03223, 0.41492, 0.19531>|<0.00002, -2.96353, 15.10407>|
+PROP Sun Oil|SunLotion|G1|<0.14566, -0.42362, 0.18555>|<0,0,0>|
+PROP1 Vibrator|Lalou VibratorL2|G1|<-0.73949, 0.32400, -0.11157>|<0,0,0>|left hand
+PROP1 Backhand|VibratorRB|G0|<-0.42287, -0.03759, -0.06055>|<0,0,0>|right hand
+PROP Sun Lotion|SunLotion|G1|<-0.59753, -0.49572, 0.18701>|<0,0, 25>|
+PROP Rub cream|SunLotion|G1|<-0.41820, 0.29546, 0.18701>|<0,0, 25>|
+PROP1 Clean Solo|WipeR|G1|<-0.39, 0, 0>|<0, 0, 0>|right hand
+PROP1 Clean both|WipeR|G1|<-0.39, 0, 0>|<0, 0, 0>|right hand
+
+-------
+
+SITTER 1|Male
+TOMENU SOLO
+TOMENU Couples
+TOMENU Spanking
+TOMENU Feet
+TOMENU Adult
+TOMENU Clean
+BUTTON [ SWAP ]|90030|0|1
+ADJUST [Aeros Toggle]|-7279992|[INM API]|-99998|-> Ankle HUD|99
+
+MENU SOLO
+TOMENU Lay M
+TOMENU Sit M
+TOMENU Solo Adult M
+BUTTON [ SWAP ]|90030|0|1
+
+MENU Lay M
+SEQUENCE SEQ-LAY-M
+POSE Recline|L8
+POSE Lay watch|L9R
+POSE On back|C10
+POSE Resting|L3
+POSE Skylook|L29
+POSE Internet|C8
+POSE Alone|C25
+POSE Lounge read|C30
+POSE Lounge|C31
+POSE Visualize|S90
+POSE Peaceful|S91
+POSE Slow day|G34
+POSE Ouch|L35
+POSE Hang out|C9
+POSE Hot sun|G29|M
+POSE Slow read|L39
+POSE Peace|L42
+POSE Belly Text|L45
+
+MENU Sit M
+SEQUENCE SEQ-SIT-M
+POSE Presence|G12
+POSE Whatever|G13
+POSE Here|L7
+POSE Sun Cream|G25
+POSE Guy sit|S32
+POSE Cool man|L16R
+POSE Assume|S94
+POSE Esteem|S92
+POSE Self|SEbento-Msit10
+POSE Drifting|C27
+POSE Phone call|L43
+
+MENU Solo Adult M
+SEQUENCE SEQ-SOLO-AM
+POSE Beat one|AS79YM
+POSE Jacking off|jm1p
+POSE Wank|AC28YM
+POSE Stroke|MS6M
+POSE Jack|AL61YM
+POSE HandFuck|AC92YM
+POSE Wack off|mmast4
+POSE KneelJerk|jm4p
+POSE Toss off|mmast7
+
+MENU Couples
+TOMENU Cuddles
+TOMENU Kisses
+TOMENU Warmer
+TOMENU FF Cuddles
+TOMENU MM Cuddles
+BUTTON [ SWAP ]|90030|0|1
+
+MENU Cuddles
+SEQUENCE SEQ-CUDDLE-M
+SYNC Moment|G15M
+SYNC Zen|C24M
+SYNC Flirt|L25M
+SYNC Serenity|G36M
+SYNC Leg rub|L17M
+SYNC Legs|L24M
+SYNC Dreams|L5M
+SYNC Crazy Love|G21M
+SYNC Stay|G19M
+SYNC Sun Lotion|G29M
+SYNC Rub cream|G27M
+
+MENU Kisses
+SEQUENCE SEQ-KISS-M
+SYNC Soft kiss|G14M
+SYNC InLove|G38M
+SYNC Long Kiss|C7M
+SYNC Baby|C8M
+SYNC Hotty kiss|S41M
+SYNC Smoochy|L68M
+SYNC Kissy|L46M
+SYNC Grind Kiss|G26M
+SYNC Love knee|S39M
+SYNC We are|G18M
+
+MENU Warmer
+SEQUENCE SEQ-WARM-M
+SYNC Breathless|L20M
+SYNC I see you|G20M
+SYNC Sit on|G32M
+SYNC Hunger|G8M
+SYNC Persuade|L8M
+SYNC Trust me|L4M
+SYNC Feel me|L30M
+SYNC Deep kiss|G4M
+SYNC Get close|L50M
+
+MENU FF Cuddles
+SEQUENCE SEQ-FF-CUDDLE-M
+SYNC KissMe|L79F2
+SYNC YourEyes|L78F2
+SYNC Nuzzle|L26M
+SYNC CuteLay|L74F2
+SYNC Ensnare|L75F2
+SYNC Exciting|L77F2
+SYNC Craving|L76F2
+SYNC Faith|L37M
+SYNC Now|G6M
+
+MENU MM Cuddles
+SEQUENCE SEQ-MM-CUDDLE-M
+SYNC Quiet|L84M2
+SYNC Trap|L83M2
+SYNC Rest close|L80M2
+SYNC Spoony|L82M2
+SYNC LipKiss|L81M2
+
+MENU Spanking
+SEQUENCE SEQ-SPANK-M
+SYNC Spanking|Dom42M
+SYNC Spank more|Dom43M
+SYNC TouchSlap|Dom44M
+SYNC That ass!|Dom45M
+
+MENU Feet
+SEQUENCE SEQ-FEET-M
+SYNC FootTease|ff m9
+SYNC Leg&Foot|ff m
+SYNC Smother|ff m4
+SYNC SmellSole|ff m3
+SYNC FeetFun|ff m11
+
+MENU Adult
+TOMENU Warm him
+TOMENU Warm her
+TOMENU Breastplay
+TOMENU Lick
+TOMENU BJ
+TOMENU Ride
+TOMENU Front
+TOMENU Behind
+TOMENU Anal
+TOMENU Finish
+TOMENU FF
+TOMENU MM
+BUTTON [ SWAP ]|90030|0|1
+
+MENU Warm him
+SEQUENCE SEQ-WARMHIM-M
+SYNC All Mine|L10M
+SYNC Seduce him|L15M
+SYNC Work Pole|AL50PM-
+SYNC Milk it|AS76YM
+SYNC Milking|AC76PM
+SYNC Work Cock|AC75PM
+
+MENU Warm her
+SEQUENCE SEQ-WARMHER-M
+SYNC Capture|AL3PM
+SYNC Warm her|AL162PM
+SYNC Coax|AD38PM
+SYNC Tease|AS83PM
+SYNC Creamy|AC71PM
+SYNC HeavyPet|AS82PM-
+SYNC Diddled|AD39PM
+SYNC Jerk nRub|AL120PM
+
+MENU Breastplay
+SEQUENCE SEQ-BREAST-M
+SYNC Starving|L12M
+SYNC Boob nRub|AL124PM
+SYNC Attention|AS86PM-
+SYNC Lick boobs|AS85PM-
+SYNC Nurture|AD37PM
+SYNC Breastfuck|AL56PM-
+SYNC Touchie|AD34FM
+
+MENU Lick
+SEQUENCE SEQ-LICK-M
+SYNC Queened|AL77OM
+SYNC Dessert|AL78OM
+SYNC Sipping|AD7OM
+SYNC Just eat|AC14OM
+SYNC LapNectar|AS93OM
+SYNC Clit drum|AS60OM
+SYNC Forced Lick|AC18OM
+SYNC JuicyMeal|AD6OM
+SYNC Faceglide|AL79OM
+SYNC 69Top|AL80OM
+SYNC BumLick|AD52OM-
+
+MENU BJ
+SEQUENCE SEQ-BJ-M
+SYNC Lick Tip|AC20BM-
+SYNC SideBJ|AC94BM
+SYNC DownLow|AL96BM
+SYNC Open more|AD14BM
+SYNC BigMeal|AD12BM
+SYNC GoodBlow|AS94BM
+SYNC Edged|AC24BM-
+SYNC Rough BJ|AC22BM
+SYNC Suck this|AU136BM
+SYNC Suck nRub|AL122BM
+SYNC Hot Suck|AL41BM
+SYNC Take Cock|AL40BM
+SYNC DeepThroat|AL39BM
+SYNC 6-9|AL38BM
+SYNC 69ers|AD11BM
+
+MENU Ride
+SEQUENCE SEQ-RIDE-M
+SYNC Rev Grind|AC10RM
+SYNC Sit Fuck|AL144RM
+SYNC Ride me|AC50RM
+SYNC Cowgirl|AC48RM
+SYNC Rev Bounce|AC46RM
+SYNC Stallion|AS35RM
+SYNC Inside you|AS31RM
+SYNC Ride more|AS30RM
+SYNC Bronco|AS36RM
+SYNC Slow rev|AD48RM-
+SYNC Frog ride|AD51RM
+SYNC the Mill|AL145RM
+SYNC Rev Rodeo|AL127RM
+
+MENU Front
+SEQUENCE SEQ-FRONT-M
+SYNC Side lift|AL139ZM
+SYNC Drive leg|AL147ZM
+SYNC Oh yes|AD33FM
+SYNC SpreadUp|AD36FM
+SYNC Harder|AL99FM
+SYNC Spider|AC54FM
+SYNC Wide apart|AS57FM
+SYNC Dig in|AS56FM
+SYNC Rocket|AS59FM
+SYNC Hold&Ride|AU46RM
+SYNC StretchLeg|stm15
+SYNC Hammer|stm16
+SYNC Breed me|AD30FM
+SYNC Lift-up|AL98FM
+SYNC Pin down|AL86FM
+SYNC Cum inside|AD35FM
+SYNC Front her|AL126FM
+SYNC Make love|AD31FM
+SYNC FoldFuck|AD43FM
+SYNC HardMission|AD44FM
+SYNC on mission|AL46FM
+
+MENU Behind
+SEQUENCE SEQ-BEHIND-M
+SYNC Pound hard|AC42DM
+SYNC Hips|AS68DM
+SYNC Squat|AL60DM
+SYNC Doggy|AL161DM
+SYNC Dog pound|AD16DM
+SYNC Horsie|AD17DM
+SYNC Yoga dog|AD24DM
+SYNC Rutting|AD18DM
+SYNC My bitch|AD19DM
+SYNC Slide|AC35DM
+SYNC Get low|AC36DM
+SYNC Hounds|si m2
+SYNC Breed|AD23DM
+SYNC Pin bitch|AD26DM
+SYNC Coaxing|AD28DM
+SYNC Hard mount|AD29DM
+
+MENU Anal
+SEQUENCE SEQ-ANAL-M
+SYNC Get deep|AL54ZM-
+SYNC Butt up|AL74DM
+SYNC Analwork|AL149DM
+SYNC Anal Lift|AD73DM
+SYNC Plug ass|AD74DM
+
+MENU Finish
+SEQUENCE SEQ-FIN-M
+SYNC Sticky back|AC32YM
+SYNC Drenched|AC31YM
+SYNC StickyFace|AC28YM
+SYNC Spray|AS74YM
+SYNC Cumming|AC34YM
+SYNC Give Milk|AC33YM
+SYNC Cumshot|AC27YM
+SYNC CreamyCunt|AC29YM
+SYNC Drink this|AC30YM
+
+MENU FF
+SEQUENCE SEQ-FF-M
+SYNC Seduce|L15F
+SYNC Grope|AL65PF2
+SYNC Tickle|AL63PF2
+SYNC Rub Leg|AL217FF2
+SYNC Stretch|AL64PF2
+SYNC Fingers|AC79PF2-
+SYNC Rub her|AC88PF2-
+SYNC Tribbing|AL216ZF2
+SYNC Clit hump|AL225ZF2
+SYNC 2sided Toy|AL232ZF2
+SYNC Toyed|AL231ZF2
+SYNC Ride face|AL69OF2
+SYNC Facesit|AL30OF2
+SYNC On Mouth|AL70OF2
+SYNC Nectar|AL62OF2
+SYNC BothLick|AL66OF2
+SYNC Lick n Rub|AL214OF2
+
+MENU MM
+SEQUENCE SEQ-MM-M
+SYNC Handling|AL89PM2
+SYNC Suck rod|AL90OM2
+SYNC Suck Dick|AC59BM1
+SYNC Rise up|AC60BM1
+SYNC Hard mouth|AL91OM2
+SYNC Rim Jerk|AC62ZM2
+SYNC Grasp|AL32FM1
+SYNC Hard dog|AL33DM1
+SYNC Ride Rod|AC65RM1
+SYNC Rev Riding|AC66RM1
+SYNC HoundDog|AC67DM1
+SYNC Mutual|AC70YM1
+BUTTON [ SWAP ]|90030|0|1
+
+MENU Clean
+POSE Clean Solo.|L19
+SYNC Clean both|G13M
+
+{Recline}<-0.011,-0.024,0.637><2,-0,162.9>
+{Lay watch}<-0.41,-0.087,0.657><0,0,28.1>
+{On back}<0.253,-0.009,0.222><-0.4,0.9,-166>
+{Resting}<-0.171,0.084,0.268><-3.1,-2.8,-116.1>
+{Skylook}<-0.374,0.147,0.188><0.5,0.1,34.4>
+{Internet}<-0.467,-0.092,0.244><1.8,0.9,90>
+{Alone}<-0.405,-0.07,0.248><1.5,4.1,90.4>
+{Lounge read}<0.447,0.006,0.154><0.9,-4.9,-179.9>
+{Lounge}<0.439,0.011,0.167><-0.2,-4,-180>
+{Visualize}<0.496,-0,0.07><0,0,180>
+{Peaceful}<0.544,-0,0.06><0,0,180>
+{Slow day}<-0.382,-0.002,0.423><0,0,180>
+{Ouch}<0.203,0.216,0.282><0,0,150>
+{Hang out}<0.239,0.304,0.256><-0.3,0.9,-171.6>
+{Hot sun}<-0.112,0.019,0.154><0,0,180>
+{Slow read}<-0.178,0.143,0.606><0.5,0.9,-31>
+{Peace}<0.002,-0.023,0.662><3.1,-2.6,157.8>
+{Belly Text}<-0.628,-0.022,0.621><-1,-0.1,123.6>
+
+{Presence}<0.376,0.067,0.718><0,3,-166.1>
+{Whatever}<0.295,0.12,0.22><-1.7,1.6,179.4>
+{Here}<-0.131,0.003,0.659><0,-4,180>
+{Sun Cream}<0.153,-0.013,0.215><0,0,180>
+{Guy sit}<-0.67,-0.081,0.841><0,0,-136>
+{Cool man}<-0.019,0.007,0.717><7,6,-180>
+{Assume}<0.617,0,0.1><0,0,180>
+{Esteem}<0.461,0.186,0.06><0,0,168>
+{Self}<-0.511,0.561,0.658><0.6,0.8,136>
+{Drifting}<-0.409,-0,0.552><0,-4,180>
+{Phone call}<0.061,-0.015,0.602><-3.8,-0.7,-170>
+
+{Beat one}<-2.087,-1.11,0.567><0.9,1.9,-145.4>
+{Jacking off}<-1.586,0.08,0.791><0,0,0>
+{Wank}<0.167,-0.207,0.705><0,0,163.1>
+{Stroke}<-0.587,0.087,0.696><4.5,3.9,130.8>
+{Jack}<0.314,0.117,0.174><-2.5,1.8,-170.3>
+{HandFuck}<-0.279,-0.162,0.206><12.6,6.1,115.3>
+{Wack off}<-0.452,0.07,1.358><0,0,-178.3>
+{KneelJerk}<-0.409,-0.003,1.23><0,0,180>
+{Toss off}<-0.32,0.047,1.247><-6.9,-2,-5.8>
+
+{Moment}<0.371,0.428,0.304><0,2,180>
+{Zen}<0.142,0.155,0.838><0,0,90>
+{Flirt}<-0.051,-0.294,0.715><0,0,-168>
+{Serenity}<0.522,-0.003,0.213><0,-2,180>
+{Leg rub}<-0.568,0.071,0.635><0,0,0>
+{Legs}<-0.07,-0.179,0.75><0,0,180>
+{Dreams}<-0.318,0.145,0.233><0.2,-2,-173>
+{Crazy Love}<0.044,-0.045,0.146><0.1,-1,5>
+{Stay}<0.042,-0.047,0.149><0,0,0>
+{Sun Lotion}<-0.102,0.16,0.184><0,0,180>
+{Rub cream}<0.013,-0.185,0.166><0,-2,0>
+
+{Soft kiss}<0.115,0.459,0.799><0,0,90>
+{InLove}<0.389,0.02,0.124><0,0,180>
+{Long Kiss}<0.171,-0.279,0.739><0,0,180>
+{Baby}<-0.123,0.043,1.032><-0.1,-2,90>
+{Hotty kiss}<0.484,0.037,0.041><0,0,180>
+{Smoochy}<-0.484,-0.027,0.265><0,0,180>
+{Kissy}<0.088,0.245,0.646><0,0,-90>
+{Grind Kiss}<-0.124,-0.024,0.226><0,0,180>
+{Love knee}<0.446,0.015,0.068><0,0,180>
+{We are}<-0.025,-0.249,0.207><0,0,0>
+
+{Breathless}<0.255,0.123,0.629><0,0,67.5>
+{I see you}<0.078,-0.475,0.193><0,0,0>
+{Sit on}<0.147,0.128,0.198><0,0,180>
+{Hunger}<0.118,0.014,0.231><0,-1,180>
+{Persuade}<0.005,0.148,0.226><0,0,180>
+{Trust me}<-0.007,0.13,0.28><0,0,180>
+{Feel me}<0.234,0.511,0.329><0,0,180>
+{Deep kiss}<-0.275,0.059,0.231><0,0,180>
+{Get close}<-0.221,0.149,0.646><0,0,-90>
+
+{KissMe}<-0.204,0.241,0.334><0,0,180>
+{YourEyes}<0.079,-0.014,0.344><0,0,-90>
+{Nuzzle}<-0.471,-0.075,0.809><0,0,-90>
+{CuteLay}<0.623,0.441,0.332><0,0,0>
+{Ensnare}<0.675,0.421,0.348><0,0,0>
+{Exciting}<0.508,0.243,0.38><0,0,0>
+{Craving}<0.566,0.296,0.354><0,0,180>
+{Faith}<0.192,0.076,0.646><0,0,-44>
+{Now}<-0.347,0.059,0.187><0.2,0,180>
+
+{Quiet}<0.079,-0.339,0.292><0,0,180>
+{Trap}<0.34,-0.304,0.297><0,0,0>
+{Rest close}<0.372,-0.282,0.346><0,0,0>
+{Spoony}<0.472,-0.219,0.32><0,0,0>
+{LipKiss}<0.649,-0.089,0.374><0,0,0>
+
+{Spanking}<-1.586,0.286,0.841><0,0,180>
+{Spank more}<0.012,0.153,1.26><-3,0,-90>
+{TouchSlap}<-0.092,0.235,1.251><-4,-1,-90>
+{That ass!}<-0.603,0.038,1.321><0,0,0>
+
+{FootTease}<0.241,0.009,1.135><0,0,180>
+{Leg&Foot}<-0.096,0.015,1.15><0,0,180>
+{Smother}<-0.069,0.035,1.136><0,0,180>
+{SmellSole}<0.042,0.032,1.134><0,0,180>
+{FeetFun}<-0.146,0.045,1.185><0,0,180>
+
+{All Mine}<-0.363,0.016,0.213><-0.2,-4,180>
+{Seduce him}<0.136,0.147,0.203><0,0,180>
+{Work Pole}<-0.682,-0.059,0.376><0,0,180>
+{Milk it}<-0.767,-0.064,0.619><0,0,180>
+{Milking}<-0.122,0.062,0.749><0,0,101>
+{Work Cock}<-0.194,0.151,0.699><2.7,-1,-179.9>
+
+{Capture}<0.396,0.68,0.295><0,1,180>
+{Warm her}<0.036,0.173,0.676><0,0,90>
+{Coax}<-0.337,0.015,1.283><0,0,7.9>
+{Tease}<1.057,-0.107,1.027><0,0,0>
+{Creamy}<-0.629, 0.071, 0.658><0.1328, 2.034, -15.01>
+{HeavyPet}<-0.86,-0.078,0.645><0,0,180>
+{Diddled}<0.125,0.242,1.313><0,0,-70>
+{Jerk nRub}<0.125,-0.028,0.646><0,0,-90>
+
+{Starving}<-0.267,-0.007,0.27><0,0,180>
+{Boob nRub}<-0.313,0.181,0.686><0,0,90>
+{Attention}<-0.922,-0.074,0.691><0,-5,0>
+{Lick boobs}<-0.603,-0.016,0.663><0,0,180>
+{Nurture}<-0.001,-0.044,1.22><0,-1,-0.1>
+{Breastfuck}<0.002,-0.026,0.376><0,0,180>
+{Touchie}<0.082,-0.167,1.162><0,-3,0>
+
+{Queened}<-0.411,0.088,1.323><0,1,180>
+{Dessert}<0.111,0.044,1.295><0,0,180>
+{Sipping}<0.192,0.048,1.284><0,0,180>
+{Just eat}<-0.243,0.128,0.664><0,0,180>
+{LapNectar}<-1.773,0.05,0.767><0,0,0>
+{Clit drum}<-0.243,-0.064,0.666><0,0,0>
+{Forced Lick}<-0.355,0.211,0.703><0,0,90>
+{JuicyMeal}<-0.104,-0.003,1.361><0,0,0>
+{Faceglide}<-0.123,0.029,1.338><-0.4,-1.9,-179.9>
+{69Top}<-0.151,-0.017,1.316><0,-2,180>
+{BumLick}<0.199,0.751,0.328><0,0,180>
+
+{Lick Tip}<-0.219,0.152,0.702><0,0,180>
+{SideBJ}<0.167,0.093,0.734><0,0,180>
+{DownLow}<0.124,0.026,1.259><0.4,-0.2,180>
+{Open more}<0.414,-0.034,1.308><0,2,180>
+{BigMeal}<0.108,0.065,1.165><0,0,180>
+{GoodBlow}<-0.703,-0.008,0.801><0,0,180>
+{Edged}<-0.99,-0.213,0.686><0,0,0>
+{Rough BJ}<-0.807,0.152,0.696><0,0,0>
+{Suck this}<-1.335,-0.102,0.718><0,0,180>
+{Suck nRub}<0.061,0.471,0.655><0,0,36.5>
+{Hot Suck}<-0.069,-0.175,0.393><0,0,-174.4>
+{Take Cock}<0.099,0.009,0.381><0,0,180>
+{DeepThroat}<0.161,0.032,0.376><0,0,180>
+{6-9}<-0.236,0.021,0.376><0,0,0>
+{69ers}<-0.223,-0.002,1.311><0,-4,180>
+
+{Rev Grind}<-0.34,-0.546,0.77><0,0,-90>
+{Sit Fuck}<-0.409,-0.01,0.671><0,0,90>
+{Ride me}<-0.24,0.094,0.658><0,0,180>
+{Cowgirl}<-0.151,-0.018,0.667><5.6,2.8,90>
+{Rev Bounce}<-0.303,0.14,0.702><0,-2,180>
+{Stallion}<-1.014,0.006,0.764><0,5,180>
+{Inside you}<-1.018,0.011,0.757><0,-2,180>
+{Ride more}<-1.047,0.01,0.788><0,0,180>
+{Bronco}<-0.94,0.048,0.773><0,0,180>
+{Slow rev}<-0.077,-0.009,0.407><0,2,180>
+{Frog ride}<0.398,0.307,0.287><0,0,180>
+{the Mill}<-0.302,0.047,0.649><-2,0,180>
+{Rev Rodeo}<-0.261,0.118,0.656><0,0,180>
+
+{Side lift}<-0.534,-0.014,0.667><0,0,90>
+{Drive leg}<-0.346,-0.146,0.593><0,0,90>
+{Oh yes}<-0.859,0,1.276><0,0,0>
+{SpreadUp}<-0.418,0.038,1.289><0,0,0>
+{Harder}<-0.456,0.056,1.31><-0.4,-1.8,1.2>
+{Spider}<-0.296,-0.077,0.685><0,0,180>
+{Wide apart}<-0.624,-0.01,0.659><0,0,0>
+{Dig in}<-0.668,0.023,0.681><0,0,0>
+{Rocket}<-0.522,-0.014,0.657><0,0,0>
+{Hold&Ride}<-1.505,-0,0.786><0,0,180>
+{StretchLeg}<-0.062,-0.015,1.258><0,0,0>
+{Hammer}<0.034,-0.02,1.256><0,0,0>
+{Breed me}<-0.196,0.01,1.27><0,-4,0>
+{Lift-up}<-0.048, 0.027, 1.288><-0.4, 0.2, 1.2>
+{Pin down}<-0.107, 0.042, 1.3330><0.7, -2.4, 1.5>
+{Cum inside}<0.003,-0.2,1.17><0,0,0>
+{Front her}<0.218, -0.0376, 0.6481><0, 0, 90>
+{Make love}<0.012589, 0.367333, 1.311279><0,0, 180>
+{FoldFuck}<-0.221619, 0, 0.344482><0, 1, 180>
+{HardMission}<-0.2284, 0.04, 0.45><0, 0, 180>
+{on mission}<-0.269,0.017,0.376><0,0,180>
+
+{Pound hard}<-0.811,0.095,0.671><0,0,0>
+{Hips}<1.098,0.012,1.115><0,0,0>
+{Squat}<-0.58,-0.012,0.136><0,0,0>
+{Doggy}<-0.137,0.03,0.64><0,0,-90>
+{Dog pound}<-0.429,0.017,1.274><0,0,0>
+{Horsie}<-0.396, 0, 1.198><0, -4, 0>
+{Yoga dog}<-0.448,-0.006,1.332><0,0,0>
+{Rutting}<-0.601,0.017,1.33><0,0,0>
+{My bitch}<-0.753,0.056,1.346><0,0,0>
+{Slide}<-0.303,-0.203,0.698><0,0,0>
+{Get low}<-0.228,-0.217,0.695><0,0,0>
+{Hounds}<-0.158,0.015,1.307><0,0,0>
+{Breed}<-0.179,0.021,1.29><0,0,0>
+{Pin bitch}<-0.059,-0.012,1.272><0,0,0>
+{Coaxing}<-0.272,0.187,1.397><0,0,0>
+{Hard mount}<-0.059,0.039,1.367><0,0,0>
+
+{Get deep}<0.113,-0.083,0.423><0,0,-180>
+{Butt up}<0.032,-0.014,1.243><0,0,0>
+{Analwork}<0.038,-0.023,0.642><0,0,90>
+{Anal Lift}<-0.513,0.076,0.612><0,5,0>
+{Plug ass}<-0.52,-0.026,0.647><0,0,0>
+
+{Drenched}<-0.508,-0.038,0.675><0,0,0>
+{StickyFace}<-0.276,0.11,0.696><0,0,0>
+{Sticky back}<-0.816,0.114,0.726><0,0,1>
+{Spray}<-0.767,-0.219,0.582><0,0,39.4>
+{Cumming}<-0.711,0.108,0.679><0,0,0>
+{Give Milk}<-1.019,-0.393,0.928><0,0,0>
+{Cumshot}<-0.802,-0.022,0.649><0,0,180>
+{CreamyCunt}<-0.238,0.059,0.658><0,0,82>
+{Drink this}<-0.449,0.158,0.684><0,0,90>
+
+{Seduce}<-0.122,-0.259,0.294><-14,0,0>
+{Grope}<-0.315,-0.606,0.4><0,-1,0>
+{Tickle}<0.188,0.23,0.342><0,0,0>
+{Rub Leg}<0.025,0.071,0.624><0,0,90>
+{Stretch}<-1.132,-0.392,0.337><0,0,0>
+{Fingers}<-0.418,0.179,0.681><0,0,180>
+{Rub her}<-0.222,0.108,0.717><0,0,180>
+{Tribbing}<-0.232,0.187,0.592><0,0,90>
+{Clit hump}<-0.142,-0.148,0.617><0,0,90>
+{2sided Toy}<-0.132,-0.078,0.635><0,3,90>
+{Toyed}<-0.103,-0.009,0.636><0,0,90>
+{Ride face}<0.046,0.228,0.322><0,0,180>
+{Facesit}<0.343,0.049,1.12><0,0,0>
+{On Mouth}<0.469,0.409,0.356><0,0,0>
+{Nectar}<0.32,0.223,0.358><0,0,0>
+{BothLick}<-0.296,-0.277,0.384><0,0,0>
+{Lick n Rub}<-0.401,-0.053,0.603><0,0,180>
+
+{Handling}<0.37,0.221,0.322><0,0,180>
+{Suck rod}<0.136,0.081,0.337><0,0,180>
+{Suck Dick}<-0.435,0.099,0.688><0,0,90>
+{Rise up}<-0.215,0.201,0.682><0,0,180>
+{Hard mouth}<-0.647,-0.456,0.337><0,0,0>
+{Rim Jerk}<-0.481,0.085,0.726><0,0,0>
+{Grasp}<-0.251,0.026,0.694><0,0,90>
+{Hard dog}<-0.184,0.128,0.703><0,0,90>
+{Ride Rod}<-0.34,0.169,0.694><0,0,90>
+{Rev Riding}<-0.298,-0.008,0.67><-0.5,-3,-179.8>
+{HoundDog}<-0.058,0.288,0.644><0,0,0>
+{Mutual}<-0.085,0.069,0.707><0,0,0>
+
+{Clean Solo.}<-0.557,-0.201,1.225><1.9,1.7,119.7>
+{Clean both}<-0.647,0.084,1.2><0,0,143>
+
+PROP Internet|LaptopS|G1|<0.10883, 0.00000, 0.36963>|<0.00000, 15.00000, 89.99753>|
+PROP1 Lounge read|Lalou Open Book5M|G2|<0.29620, 0.06391, 0.55908>|<0.00000, 43.00000, 89.99752>|right hand
+PROP Slow read|MagazineS|G2|<-0.29663, -0.31808, 0.07764>|<4.78683, 5.11343, -133.21510>
+PROP1 Belly Text|Lalou-Phone11|G2|<-0.84248, 0.5, -0.06>|<0,0, 57|right hand
+PROP Sun Cream|SunLotion|G1|<0.15305, 0.41492, 0.17676>|<0,0, 25>|
+PROP1 Phone call|Lalou-Phone12|G2|<-0.03685, -0.23534, -0.06055>|<0,0,0>|right hand
+PROP1 Diddled|VibratorR12|G2|<0,0, 0>|<0, 0, 0>|right hand
+PROP1 2sided Toy|Lalou DD2|G2|<0, 0, 0>|<0,0,0>|Pelvic
+PROP1 Toyed|Lalou DD2|G2|<0, 0, 0>|<0,0,0>|Pelvic
+PROP1 Clean Solo.|WipeR|G2|<-0.39, 0, 0>|<0, 0, 0>|right hand

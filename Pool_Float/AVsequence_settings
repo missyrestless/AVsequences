@@ -1,0 +1,882 @@
+SEQUENCE SEQ-SOLO-F
+PLAY Float arms
+WAIT 60
+PLAY Hang float
+WAIT 60
+PLAY Take dip
+WAIT 60
+PLAY Drift off
+WAIT 60
+PLAY Side float
+WAIT 60
+PLAY Best day
+WAIT 60
+PLAY HangingOn
+WAIT 60
+PLAY Tread tube
+WAIT 60
+PLAY Hang &Float
+WAIT 60
+PLAY Look
+WAIT 60
+PLAY SunFloat
+WAIT 60
+PLAY Wade
+WAIT 60
+PLAY LazyFloat
+WAIT 60
+PLAY DriftOff
+WAIT 60
+PLAY Reach
+WAIT 60
+PLAY Very chill
+WAIT 60
+PLAY Dreamer
+WAIT 60
+PLAY Queenfloat
+WAIT 60
+PLAY TummyFun
+WAIT 60
+PLAY SheFloats
+WAIT 60
+PLAY ComfyFloat
+WAIT 60
+PLAY Just float
+WAIT 60
+PLAY Holiday
+WAIT 60
+PLAY Tube drink
+WAIT 60
+PLAY Tube read
+WAIT 60
+PLAY Not today
+WAIT 60
+PLAY Daydream
+WAIT 60
+PLAY Belly lay
+WAIT 60
+PLAY Kitten
+WAIT 60
+PLAY on Phone
+WAIT 60
+PLAY Give in
+WAIT 60
+PLAY I will
+WAIT 60
+PLAY Tired
+WAIT 60
+PLAY Meh
+WAIT 60
+PLAY Tubing
+WAIT 60
+PLAY JustChill
+WAIT 60
+PLAY Contemplate
+WAIT 60
+PLAY EdgeSit
+WAIT 60
+PLAY EdgeSwing
+WAIT 60
+PLAY Float nDrink
+WAIT 60
+PLAY Texting
+WAIT 60
+PLAY Sit float
+WAIT 60
+PLAY Drift
+WAIT 60
+PLAY Float
+WAIT 60
+PLAY Slow Float 
+WAIT 60
+PLAY Treading
+WAIT 60
+PLAY Swim away
+WAIT 60
+PLAY Dive
+WAIT 60
+PLAY Canonball
+WAIT 60
+PLAY Hop in
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-TUBE-F
+PLAY Float arms
+WAIT 60
+PLAY Hang float
+WAIT 60
+PLAY Take dip
+WAIT 60
+PLAY Drift off
+WAIT 60
+PLAY Side float
+WAIT 60
+PLAY Best day
+WAIT 60
+PLAY HangingOn
+WAIT 60
+PLAY Tread tube
+WAIT 60
+PLAY Hang &Float
+WAIT 60
+PLAY Look
+WAIT 60
+PLAY SunFloat
+WAIT 60
+PLAY Wade
+WAIT 60
+PLAY LazyFloat
+WAIT 60
+PLAY DriftOff
+WAIT 60
+PLAY Reach
+WAIT 60
+PLAY Very chill
+WAIT 60
+PLAY Dreamer
+WAIT 60
+PLAY Queenfloat
+WAIT 60
+PLAY TummyFun
+WAIT 60
+PLAY SheFloats
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-LAY-F
+PLAY ComfyFloat
+WAIT 60
+PLAY Just float
+WAIT 60
+PLAY Holiday
+WAIT 60
+PLAY Tube drink
+WAIT 60
+PLAY Tube read
+WAIT 60
+PLAY Not today
+WAIT 60
+PLAY Daydream
+WAIT 60
+PLAY Belly lay
+WAIT 60
+PLAY Kitten
+WAIT 60
+PLAY on Phone
+WAIT 60
+PLAY Give in
+WAIT 60
+PLAY I will
+WAIT 60
+PLAY Tired
+WAIT 60
+PLAY Meh
+WAIT 60
+PLAY Tubing
+WAIT 60
+PLAY JustChill
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-SIT-F
+PLAY Contemplate
+WAIT 60
+PLAY EdgeSit
+WAIT 60
+PLAY EdgeSwing
+WAIT 60
+PLAY Float nDrink
+WAIT 60
+PLAY Texting
+WAIT 60
+PLAY Sit float
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-SWIM-F
+PLAY Drift
+WAIT 60
+PLAY Float
+WAIT 60
+PLAY Slow Float 
+WAIT 60
+PLAY Treading
+WAIT 60
+PLAY Swim away
+WAIT 60
+PLAY Dive
+WAIT 60
+PLAY Canonball
+WAIT 60
+PLAY Hop in
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-ADULT-F
+PLAY Pleasure
+WAIT 60
+PLAY Rub 2
+WAIT 60
+PLAY Rub 3
+WAIT 60
+PLAY Enjoy
+WAIT 60
+PLAY GrindHand
+WAIT 60
+PLAY Air play
+WAIT 60
+PLAY Fold rub
+WAIT 60
+PLAY Backhand
+WAIT 60
+PLAY Diddle
+WAIT 60
+PLAY Vibrator
+WAIT 60
+PLAY Knitting
+WAIT 60
+PLAY ClitRub
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-CUDDLE-F
+PLAY ShareTube
+WAIT 60
+PLAY LoveFloat
+WAIT 60
+PLAY HangTube
+WAIT 60
+PLAY Soak feet
+WAIT 60
+PLAY FloatAway
+WAIT 60
+PLAY PoolLove
+WAIT 60
+PLAY Kiss&Float
+WAIT 60
+PLAY EnjoyLife
+WAIT 60
+PLAY KeepFloat
+WAIT 60
+PLAY Come up
+WAIT 60
+PLAY FunSun
+WAIT 60
+PLAY Refreshed
+WAIT 60
+PLAY Cool feet
+WAIT 60
+PLAY She floats
+WAIT 60
+PLAY Wet love
+WAIT 60
+PLAY Summer
+WAIT 60
+PLAY Waterkiss
+WAIT 60
+PLAY LoveBraid
+WAIT 60
+PLAY Float Lap
+WAIT 60
+PLAY Enjoy it
+WAIT 60
+PLAY Pleasant
+WAIT 60
+PLAY Kissy
+WAIT 60
+PLAY On top
+WAIT 60
+PLAY You & me
+WAIT 60
+PLAY Leg tease
+WAIT 60
+PLAY Moment
+WAIT 60
+PLAY Secrets
+WAIT 60
+PLAY Smooch
+WAIT 60
+PLAY Sit belly
+WAIT 60
+PLAY Baby
+WAIT 60
+PLAY Predator
+WAIT 60
+PLAY Needy
+WAIT 60
+PLAY Smoochy
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-FOREPLAY-F
+PLAY All Mine
+WAIT 60
+PLAY Tube HJ
+WAIT 60
+PLAY Warm her
+WAIT 60
+PLAY Fingers in
+WAIT 60
+PLAY Ass up
+WAIT 60
+PLAY Hard Prep
+WAIT 60
+PLAY Lick boobs
+WAIT 60
+PLAY Love me
+WAIT 60
+PLAY Breastfuck
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-LICK-F
+PLAY Tube Lick
+WAIT 60
+PLAY Queened
+WAIT 60
+PLAY Dessert
+WAIT 60
+PLAY Sipping
+WAIT 60
+PLAY Rim her
+WAIT 60
+PLAY Her taste
+WAIT 60
+PLAY Eat her
+WAIT 60
+PLAY Tongue deep
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-BJ-F
+PLAY Tube BJ
+WAIT 60
+PLAY 6-9
+WAIT 60
+PLAY DeepThroat
+WAIT 60
+PLAY DownLow
+WAIT 60
+PLAY 69ers
+WAIT 60
+PLAY Open more
+WAIT 60
+PLAY Action BJ
+WAIT 60
+PLAY DeepDive
+WAIT 60
+PLAY Taste him
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-RIDE-F
+PLAY Tube Ride
+WAIT 60
+PLAY Tube Rev
+WAIT 60
+PLAY GrindRide
+WAIT 60
+PLAY Slow rev
+WAIT 60
+PLAY Frog ride
+WAIT 60
+PLAY BopBop
+WAIT 60
+PLAY Twisted
+WAIT 60
+PLAY Good Ride
+WAIT 60
+PLAY Ride more
+WAIT 60
+PLAY Inside you
+WAIT 60
+PLAY Deep
+WAIT 60
+PLAY Stallion
+WAIT 60
+PLAY Mount
+WAIT 60
+PLAY Giddy Up
+WAIT 60
+PLAY Cowgirl
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-FACE-F
+PLAY TubeFront
+WAIT 60
+PLAY Front her
+WAIT 60
+PLAY Lift-up
+WAIT 60
+PLAY Harder
+WAIT 60
+PLAY Dig deep
+WAIT 60
+PLAY Breed me
+WAIT 60
+PLAY Oh yes
+WAIT 60
+PLAY Cum inside
+WAIT 60
+PLAY SpreadUp
+WAIT 60
+PLAY Clasped
+WAIT 60
+PLAY Take side
+WAIT 60
+PLAY Side lift
+WAIT 60
+PLAY Drive leg
+WAIT 60
+PLAY HardSide
+WAIT 60
+PLAY Spider
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-BEHIND-F
+PLAY Tube Back
+WAIT 60
+PLAY Tube Doggy
+WAIT 60
+PLAY Plunge
+WAIT 60
+PLAY Frog
+WAIT 60
+PLAY Doggy
+WAIT 60
+PLAY Held down
+WAIT 60
+PLAY My bitch
+WAIT 60
+PLAY Breed
+WAIT 60
+PLAY LilDog
+WAIT 60
+PLAY Impact
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-FF-F
+PLAY SweetRub
+WAIT 60
+PLAY Stretch
+WAIT 60
+PLAY Lick n Rub
+WAIT 60
+PLAY Tribbing
+WAIT 60
+PLAY Clit hump
+WAIT 60
+PLAY 2sided Toy
+WAIT 60
+PLAY Toyed
+WAIT 60
+PLAY BothLick
+WAIT 60
+PLAY Trib
+WAIT 60
+PLAY Lick both
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-SOLO-M
+PLAY Tread Tube
+WAIT 60
+PLAY Vacation
+WAIT 60
+PLAY Tube float
+WAIT 60
+PLAY In tube
+WAIT 60
+PLAY Hold float
+WAIT 60
+PLAY So chilled
+WAIT 60
+PLAY Boat
+WAIT 60
+PLAY Tummyfloat
+WAIT 60
+PLAY Lay float
+WAIT 60
+PLAY Lay watch
+WAIT 60
+PLAY I Float
+WAIT 60
+PLAY Float man
+WAIT 60
+PLAY Tube Drink
+WAIT 60
+PLAY Tube Read
+WAIT 60
+PLAY Lazy
+WAIT 60
+PLAY Laid back
+WAIT 60
+PLAY Wide sit
+WAIT 60
+PLAY Boss lean
+WAIT 60
+PLAY Presence
+WAIT 60
+PLAY At ease
+WAIT 60
+PLAY Sit Dangle
+WAIT 60
+PLAY Cool pool
+WAIT 60
+PLAY ChillTube
+WAIT 60
+PLAY Drift
+WAIT 60
+PLAY Float
+WAIT 60
+PLAY Slow Float 
+WAIT 60
+PLAY Treading
+WAIT 60
+PLAY Swim away
+WAIT 60
+PLAY Dive
+WAIT 60
+PLAY Canonball
+WAIT 60
+PLAY Hop in
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-TUBE-M
+PLAY Tread Tube
+WAIT 60
+PLAY Vacation
+WAIT 60
+PLAY Tube float
+WAIT 60
+PLAY In tube
+WAIT 60
+PLAY Hold float
+WAIT 60
+PLAY So chilled
+WAIT 60
+PLAY Boat
+WAIT 60
+PLAY Tummyfloat
+WAIT 60
+PLAY Lay float
+WAIT 60
+PLAY Lay watch
+WAIT 60
+PLAY I Float
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-CHILL-M
+PLAY Float man
+WAIT 60
+PLAY Tube Drink
+WAIT 60
+PLAY Tube Read
+WAIT 60
+PLAY Lazy
+WAIT 60
+PLAY Laid back
+WAIT 60
+PLAY Wide sit
+WAIT 60
+PLAY Boss lean
+WAIT 60
+PLAY Presence
+WAIT 60
+PLAY At ease
+WAIT 60
+PLAY Sit Dangle
+WAIT 60
+PLAY Cool pool
+WAIT 60
+PLAY ChillTube
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-SWIM-M
+PLAY Drift
+WAIT 60
+PLAY Float
+WAIT 60
+PLAY Slow Float 
+WAIT 60
+PLAY Treading
+WAIT 60
+PLAY Swim away
+WAIT 60
+PLAY Dive
+WAIT 60
+PLAY Canonball
+WAIT 60
+PLAY Hop in
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-ADULT-M
+PLAY Jerk off
+WAIT 60
+PLAY HandFuck
+WAIT 60
+PLAY Wanking
+WAIT 60
+PLAY Wack off
+WAIT 60
+PLAY Flute
+WAIT 60
+PLAY KneelJerk
+WAIT 60
+PLAY Stroke
+WAIT 60
+PLAY Jerkin'
+WAIT 60
+PLAY Jerking
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-CUDDLE-M
+PLAY ShareTube
+WAIT 60
+PLAY LoveFloat
+WAIT 60
+PLAY HangTube
+WAIT 60
+PLAY Soak feet
+WAIT 60
+PLAY FloatAway
+WAIT 60
+PLAY PoolLove
+WAIT 60
+PLAY Kiss&Float
+WAIT 60
+PLAY EnjoyLife
+WAIT 60
+PLAY KeepFloat
+WAIT 60
+PLAY Come up
+WAIT 60
+PLAY FunSun
+WAIT 60
+PLAY Refreshed
+WAIT 60
+PLAY Cool feet
+WAIT 60
+PLAY She floats
+WAIT 60
+PLAY Wet love
+WAIT 60
+PLAY Summer
+WAIT 60
+PLAY Waterkiss
+WAIT 60
+PLAY LoveBraid
+WAIT 60
+PLAY Float Lap
+WAIT 60
+PLAY Enjoy it
+WAIT 60
+PLAY Pleasant
+WAIT 60
+PLAY Kissy
+WAIT 60
+PLAY On top
+WAIT 60
+PLAY You & me
+WAIT 60
+PLAY Leg tease
+WAIT 60
+PLAY Moment
+WAIT 60
+PLAY Secrets
+WAIT 60
+PLAY Smooch
+WAIT 60
+PLAY Sit belly
+WAIT 60
+PLAY Baby
+WAIT 60
+PLAY Predator
+WAIT 60
+PLAY Needy
+WAIT 60
+PLAY Smoochy
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-FOREPLAY-M
+PLAY All Mine
+WAIT 60
+PLAY Tube HJ
+WAIT 60
+PLAY Warm her
+WAIT 60
+PLAY Fingers in
+WAIT 60
+PLAY Ass up
+WAIT 60
+PLAY Hard Prep
+WAIT 60
+PLAY Lick boobs
+WAIT 60
+PLAY Love me
+WAIT 60
+PLAY Breastfuck
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-LICK-M
+PLAY Tube Lick
+WAIT 60
+PLAY Queened
+WAIT 60
+PLAY Dessert
+WAIT 60
+PLAY Sipping
+WAIT 60
+PLAY Rim her
+WAIT 60
+PLAY Her taste
+WAIT 60
+PLAY Eat her
+WAIT 60
+PLAY Tongue deep
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-BJ-M
+PLAY Tube BJ
+WAIT 60
+PLAY 6-9
+WAIT 60
+PLAY DeepThroat
+WAIT 60
+PLAY DownLow
+WAIT 60
+PLAY 69ers
+WAIT 60
+PLAY Open more
+WAIT 60
+PLAY Action BJ
+WAIT 60
+PLAY DeepDive
+WAIT 60
+PLAY Taste him
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-RIDE-M
+PLAY Tube Ride
+WAIT 60
+PLAY Tube Rev
+WAIT 60
+PLAY GrindRide
+WAIT 60
+PLAY Slow rev
+WAIT 60
+PLAY Frog ride
+WAIT 60
+PLAY BopBop
+WAIT 60
+PLAY Twisted
+WAIT 60
+PLAY Good Ride
+WAIT 60
+PLAY Ride more
+WAIT 60
+PLAY Inside you
+WAIT 60
+PLAY Deep
+WAIT 60
+PLAY Stallion
+WAIT 60
+PLAY Mount
+WAIT 60
+PLAY Giddy Up
+WAIT 60
+PLAY Cowgirl
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-FACE-M
+PLAY TubeFront
+WAIT 60
+PLAY Front her
+WAIT 60
+PLAY Lift-up
+WAIT 60
+PLAY Harder
+WAIT 60
+PLAY Dig deep
+WAIT 60
+PLAY Breed me
+WAIT 60
+PLAY Oh yes
+WAIT 60
+PLAY Cum inside
+WAIT 60
+PLAY SpreadUp
+WAIT 60
+PLAY Clasped
+WAIT 60
+PLAY Take side
+WAIT 60
+PLAY Side lift
+WAIT 60
+PLAY Drive leg
+WAIT 60
+PLAY HardSide
+WAIT 60
+PLAY Spider
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-BEHIND-M
+PLAY Tube Back
+WAIT 60
+PLAY Tube Doggy
+WAIT 60
+PLAY Plunge
+WAIT 60
+PLAY Frog
+WAIT 60
+PLAY Doggy
+WAIT 60
+PLAY Held down
+WAIT 60
+PLAY My bitch
+WAIT 60
+PLAY Breed
+WAIT 60
+PLAY LilDog
+WAIT 60
+PLAY Impact
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-FF-M
+PLAY SweetRub
+WAIT 60
+PLAY Stretch
+WAIT 60
+PLAY Lick n Rub
+WAIT 60
+PLAY Tribbing
+WAIT 60
+PLAY Clit hump
+WAIT 60
+PLAY 2sided Toy
+WAIT 60
+PLAY Toyed
+WAIT 60
+PLAY BothLick
+WAIT 60
+PLAY Trib
+WAIT 60
+PLAY Lick both
+WAIT 60
+LOOP

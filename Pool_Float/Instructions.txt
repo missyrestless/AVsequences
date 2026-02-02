@@ -1,0 +1,57 @@
+AVsitter Sequence for Lalou Pool Float
+======================================
+
+This folder contains the 'AVpos' and '[AV]sequence_settings' notecards for use with the 'AVsitter2' plugin '[AV]sequence' to provide animation sequences for the Lalou Pool Float dialog menus.
+
+This 'AVsitter' customization allows greater freedom of personal interaction in the pool float, eliminating the need to navigate dialog menus during moments of intimacy.
+
+Menus
+=====
+
+Sequences are configured for the following menus, both male and female:
+
+- Solo PG
+- Lay
+- Sit
+- Chill
+- Swim
+- Tube
+- Cuddle
+- Foreplay
+- Solo Adult
+- Female/Female
+- Lick
+- BJ
+- Ride
+- Front
+- Behind
+
+Setup
+=====
+
+To configure a Lalou Pool Float with AVsitter sequences:
+
+- Right click the float and select 'Edit'
+
+- Copy the '[AV]sequence_settings' notecard into the Contents tab
+
+- Copy the '[AV]sequence' plugin script into the Contents tab
+
+- Replace the 'AVpos' notecard in the Contents tab with the 'AVpos' notecard found in this folder
+
+- Close the 'Edit' window
+
+- Right click the float and select 'More' -> 'More' -> 'Scripts' -> 'Reset Scripts'
+
+- Wait for the scripts to reset (this takes a few minutes)
+
+Sit on the float, select Male or Female, and click one of the main menu entries, e.g. click 'Cuddles' or 'Adult' then 'Foreplay'.
+
+You should see a menu entry of the form 'SEQ-...'. Click this menu entry and your avatar will cycle through all the animations in that submenu. Cycle times are currently set to 60 seconds with menu arrows to step to the next animation, previous animation, or pause animation sequencing.
+
+Auto Play Sequence
+==================
+
+If you wish to automatically play a sequence when an avatar sits on the float then drag & drop the 'autoplay' script into the Contents of the object.
+
+The 'autoplay' script detects the gender of the sitter and plays the appropriate sequence. In addition, it detects the number of sitters currently on the object and plays the couples animation sequence if more than 1 sitter is seated.

@@ -1,0 +1,336 @@
+"CHEZ MOI OCEANA LOUNGER (ADULT)" AVsitter 2.2
+
+SITTER 0
+
+TOMENU *SINGLE F
+TOMENU *SINGLE M
+TOMENU *LOVE
+TOMENU *SEX
+
+MENU *SINGLE F
+SEQUENCE SEQ-FEMALE
+POSE Lounger|KbkB-LSingF1
+POSE Read|KbkB-LSingF2
+POSE Drink|KbkB-LSingF3
+POSE Charm|KbkB-LSingF6
+POSE Leg Hug|G_Sit_Leg_Hug (Mirror) 29.7
+POSE Curl Up|SEmotion-bento-sit02
+POSE Side Sit|[RNP] Sauna #7_Female
+POSE CrissCross|SEmotion-bento-sit06
+POSE Flat Legs|[RNP] Flat Surface Sit #4 - Female - 31 seconds
+POSE Side Read|F CouchRead
+POSE Sit&Drink|chair1
+POSE Chill|z-chaise-3
+POSE Blogging|mychair2
+POSE Check Phone|KBKb-RS M5
+POSE Texting|LuvBTs F5
+POSE Selfie|SingBenBed Pt3 F4
+POSE Hot Tea|[RNP] Sit #30_Hot tea
+POSE Sunscreen|BeachTs F3
+POSE Smooth|MiAmorHammS F2
+POSE Yummy|SugarCouchS F1
+
+MENU *SINGLE M
+SEQUENCE SEQ-MALE
+POSE Stretch|[RNP] Couch Lay #12 - Male - 39 seconds
+POSE Tranquil|M LoungerSing3
+POSE Drinking|M LoungerSing7
+POSE Drinking 2|MiAmorHammS M4
+POSE Reading|KbkB-LSingM3
+POSE Reading 2|M LoungerSing8
+POSE Chillin'|KbkB-LSingM6
+POSE Rock Sit|SEbento-Mgrd02
+POSE Take 5|SEbento-Mgrd04
+POSE Scan|M GrdSitSingles4
+POSE Message|Huddled Up 3 (Check Phone) 25.5
+POSE Sitting|[RNP] Sit #95_MaleGround
+POSE Coy|[RNP] Flat Surface Sit #10 - Male - 36 seconds
+POSE At Ease|[Polymorph] Ground Sit M03
+POSE Criss Crossed|[Polymorph] Ground Sit M05
+POSE Calm|[Polymorph] Ground Sit M09
+POSE Notebook|z-lt-legsout
+POSE Eat Apple|SingBenBed Pt3 M5
+POSE Sunblocker|BeachTs M1
+POSE Music|SugarCouchS M7
+
+MENU *LOVE
+SEQUENCE SEQ-LOVE-F
+SYNC Joyful|KbkB-LCuddF4
+SYNC Entice|KbkB-LCuddF5
+SYNC Flirt|KbkB-LCuddF6
+SYNC Sweet Lips|F LoversLounger2
+SYNC Lap Hug|[RNP] Couple #131 - Floor_Bed  - Female - 42 seconds
+SYNC Acrobat|coupleSwP02-F
+SYNC Ardor|BBathTC F5
+SYNC Squeeze|F SweetKiss4
+SYNC Moneky Hug|F TB3
+SYNC Hot!|KbkB-StCuddF3
+SYNC My All|KbkB-StCuddF4
+SYNC Stand kiss|Stand_Kiss_4 F (Update)
+SYNC Hold Her|F EndlessLove2
+SYNC Sexy|F ChairCudd4
+SYNC Piggy Front|[Polymorph] Chair Cuddles F06
+SYNC Comfort Me|[Polymorph] Chair Cuddles F07
+SYNC Shiver|[Polymorph] Chair Cuddles F09
+SYNC Perch|[Polymorph] Chair Cuddles F10
+SYNC Soft Lips|cplChaise2-f
+SYNC Lust|KissesLoungerC F3
+SYNC Cuddle|LuvBTc F2
+SYNC Peaceful|[RNP] Beach Lounger #20 - Couple - Female - 35 seconds
+
+MENU *SEX
+SEQUENCE SEQ-SEX-F
+SYNC Boobs|KBedA F11
+SYNC Delicious|BBathTA F1
+SYNC Blowjob|KbkB-LAdtF2
+SYNC Lick St|F SBathTAdt2
+SYNC Hand Job|F SBathTAdt3
+SYNC Touch Her|F BathTAdt4
+SYNC Hot Body|F BathTAdt3
+SYNC The Frog|BBathTA F4
+SYNC Sit Tight|KbkB-LAdtF6
+SYNC Doggy|KbkB-LAdtF7
+SYNC The Bridge|F DCA6
+SYNC Drill|[RNP] Sex #38_Female
+SYNC Leg Rest|[RNP] Sex #39_Female
+SYNC Lap Sex|[RNP] Sex #104_Lazy Bag_Female_40 seconds
+SYNC The Hugger|The Hugger-F::1
+SYNC Bendy|[RNP] Sex #130 - Stand - Female- 31 seconds
+SYNC Acrobat Sex|[RNP] Sex #132 - Stand - Female - 29 seconds
+SYNC Suspended|[RNP] Sex #133 - Stand - Female - 34 seconds
+SYNC Erotic Front|[RNP] Sex #138 - Stand - Female - 30 seconds
+SYNC Balance|KbkB-StAtF6
+SYNC Cowgirl Sit|[Plm] T Ride F01
+SYNC Moan|[RNP] Flat surface sex #23 -  Female - Medium - 35 seconds
+SYNC Cradle|KBedA F2
+SYNC Sweet Ride|KBedA F27
+SYNC The Visitor|BenBeanBagA F7
+SYNC Waterfall|KBedA F25
+SYNC Side Sex|KbkB-LAdtF5
+SYNC Riding|KbkB-LAdtF4
+{Lounger}<-0.231,-0.034,0.507><0,-2,180>
+{Read}<-0.329,-0.014,0.489><0,-3,180>
+{Drink}<-0.374,-0.034,0.494><0,0,180>
+{Charm}<-0.192,0.001,0.524><0,0,180>
+{Leg Hug}<0.182,-0.071,1.649><0,0,180>
+{Curl Up}<-0.403,-0.052,1.128><0,0,180>
+{Side Sit}<-0.861,-0.134,0.714><0,0,-92>
+{CrissCross}<-0.309,-0.035,1.108><0,0,180>
+{Flat Legs}<0.166,-0.049,1.023><0,0,180>
+{Side Read}<-0.087,-0.097,0.624><0,0,88>
+{Sit&Drink}<-0.11,-0.149,0.618><0,0,180>
+{Chill}<0.114,-0.081,0.617><0,0,180>
+{Blogging}<0.017,-0.057,0.587><0.1,6.9,179.6>
+{Check Phone}<0.156,-0.036,0.68><0,6,180>
+{Texting}<0.019,-0.044,0.86><0,3,180>
+{Selfie}<-0.025,-0.096,0.734><0,-4,174>
+{Hot Tea}<0.132,0.001,0.651><0,0,-158>
+{Sunscreen}<0.028,-0.119,0.872><0,2,180>
+{Smooth}<0.195,0.017,0.904><0,5,180>
+{Yummy}<-0.114,-0.023,0.802><0,3,180>
+{Stretch}<0.083,0.099,1.15><0,0,-104>
+{Tranquil}<-0.05,-0.037,0.67><0,-4,180>
+{Drinking}<0.001,-0.031,0.691><0,-6,180>
+{Drinking 2}<-0.068,0.012,0.867><0.2,-7.6,178.2>
+{Reading}<0.077,-0.017,0.575><0,-4,180>
+{Reading 2}<0.045,-0.04,0.777><0,-7,-180>
+{Chillin'}<0.12,-0.021,0.565><0,-5.8,180>
+{Rock Sit}<0.079,-0.013,1.703><0,0,180>
+{Take 5}<0.103,-0.033,1.792><0,-3,180>
+{Scan}<0.13,-0.023,0.653><0,0,180>
+{Message}<0.141,-0.099,1.655><0,0,180>
+{Sitting}<0.096,-0.027,0.624><0,4,180>
+{Coy}<0.094,-0.051,1.079><0,0,180>
+{At Ease}<0.174,-0.026,1.656><0,2,180>
+{Criss Crossed}<0.254,-0.071,1.609><0,5,180>
+{Calm}<0.152,-0.007,0.656><0,0,180>
+{Notebook}<0.166,-0.02,0.65><0,0,180>
+{Eat Apple}<0.122,0.003,0.735><0,0,180>
+{Sunblocker}<-0.112,-0.01,0.842><0,0,180>
+{Music}<-0.097,-0.047,0.837><6,2,179.8>
+{Joyful}<-0.302,0.016,0.56><0,-3,180>
+{Entice}<-0.28,-0.039,0.528><0,-3,180>
+{Flirt}<-0.299,-0.011,0.522><0,0,-180>
+{Sweet Lips}<0.386,-0.05,0.629><0,0.1,166>
+{Lap Hug}<-0.466,0.105,1.049><0,0,-90>
+{Acrobat}<-0.579,-0.053,0.884><0,0,90.1>
+{Ardor}<-0.272,-0.027,0.62><0,0,-180>
+{Squeeze}<-0.055,-0.018,0.813><0,0,-90>
+{Moneky Hug}<-0.727,-0.381,0.74><0,0,0>
+{Hot!}<-0.218,0.401,1.266><0,0,90>
+{My All}<-0.151,-1.204,1.271><0,0,90>
+{Stand kiss}<-0.534,-1.058,1.267><0,0,90>
+{Hold Her}<-1.439,0.632,1.34><0,0,-146>
+{Sexy}<-1.087,-0.026,0.828><0,0,180>
+{Piggy Front}<-1.571,-0.031,1.204><0,0,-178>
+{Comfort Me}<-0.951,0.039,1.162><0,0,-178>
+{Shiver}<-1.543,-0.118,1.186><0,0,-178>
+{Perch}<-1.547,-0.092,1.161><0,0,-178>
+{Soft Lips}<0.298,0.013,0.708><0,-6,-178>
+{Lust}<-0.234,-0.023,0.916><0,0,180>
+{Cuddle}<0.115,-0.043,1.293><0,7,0>
+{Peaceful}<-0.406,-0.133,1.17><0,0,-171>
+{Lick St}<-0.169,0.009,1.459><0,0,0>
+{Hand Job}<-1.569,-0.468,0.96><0,0,-141>
+{Touch Her}<-0.748,-0.043,1.498><0,0,0>
+{Hot Body}<-0.9,-0.019,1.36><0,0,0>
+{The Frog}<-0.194,-0.073,0.55><0,0,180>
+{Sit Tight}<-0.179,-0.005,0.543><0,0,180>
+{Doggy}<-0.138,-0.076,0.553><0,0,180>
+{The Bridge}<-0.736,-0.029,0.872><0,0,180>
+{Drill}<-1.742,-0.022,1.101><0,6,0>
+{Leg Rest}<-1.733,-0.071,1.133><0,7,0>
+{Lap Sex}<-0.837,0.011,1.28><0,-2,180>
+{The Hugger}<-0.683,-0.001,1.164><0,0,0>
+{Bendy}<-1.799,-0.025,1.165><0,0,0>
+{Acrobat Sex}<-1.665,0.32,1.182><0,0,-90>
+{Suspended}<-1.491,0.049,1.352><0,0,180>
+{Erotic Front}<-1.514,0.653,1.355><0,0,-45>
+{Balance}<-1.262,-0.265,1.28><0,0,180>
+{Cowgirl Sit}<-1.152,0.002,1.106><0,1,180>
+{Boobs}<0.001,0.016,1.653><0,-0,-180>
+{Delicious}<-0.37,-0.016,0.623><0,-0,-180>
+{Blowjob}<-0.25,-0.036,0.553><0,0,180>
+{Moan}<-0.419,-0.062,1.085><0,0,180>
+{Cradle}<-0.243,-0.049,1.52><0,5,2.9>
+{Sweet Ride}<-0.565,-0.042,1.586><0,0,180>
+{The Visitor}<-0.565,-0.042,0.603><0,0,180>
+{Waterfall}<-0.445,-0.049,1.481><0,0,-0>
+{Side Sex}<-0.352,0.047,0.54><0,0,-179.4>
+{Riding}<-0.202,-0.015,0.579><0,0,-179.4>
+PROP1 Side Read|*wear* Book RH (Side)|G1|<0.078613, -0.011688, 0.533081>|<0.000001, 0.000000, 0.000000>|Right Hand
+PROP1 Check Phone|*wear* Phone RH|G1|<-0.189133, -0.144287, -0.042236>|<0.000006, -0.000001, 0.000000>|Right Hand
+PROP1 Reading 2|*wear* Book M LH|G1|<0.061188, -0.110260, 0.513184>|<0.000000, 0.000001, 0.000000>|Left Hand
+PROP1 Texting|*wear* Phone Texting Bath RH|G1|<0.000000, -0.168213, 0.570351>|<0.000000, 0.000001, 0.000003>|Right Hand
+PROP1 Message|*wear* Phone LH|G1|<0.190842, -0.595795, -0.043579>|<-0.000001, -0.000001, -0.000003>|Left Hand
+PROP1 Read|*wear* Book RH|G1|<0.000000, -0.186493, 0.452515>|<-0.000003, 0.000001, 0.000000>|Right Hand
+PROP1 Drink|*wear* CHEZ MOI Tea Cup|G1|<0.469330, 0.221191, 0.523193>|<0.000003, 0.000002, -0.000010>|Right Hand
+PROP1 Reading|*wear* Book M RH|G1|<-0.187927, -0.100601, 0.546433>|<-0.000002, 0.000001, 0.000000>|Right Hand
+PROP1 Drinking|*wear* CHEZ MOI Tea Cup|G1|<0.000000, 0.000000, -0.242554>|<0.000003, 0.000002, -0.000010>|Right Hand
+PROP1 Sweet Read|*wear* Book RH|G1|<0.000000, -0.182007, 0.057610>|<-90.000000, 0.000000, 0.000000>|Right Hand
+PROP1 Selfie|*wear* Phone RH Selfie|G1|<0.000000, 0.000000, 0.506836>|<-0.000001, 0.000000, -0.000003>
+PROP1 Sit&Drink|*wear* CHEZ MOI Tea Cup LH|G1|<0.402344, 0.000000, 0.581055>|<-0.000006, 0.000004, 0.000003>
+PROP Blogging|CHEZ MOI Notebook|G1|<-0.183350, -0.052399, 0.924561>|<0.258768, 27.903750, 89.527020>
+PROP Browse|CHEZ MOI Notebook|G1|<0.219925, 0.209763, 0.756469>|<0.000000, 0.000000, 40.999970>
+PROP1 Hot Tea|*wear* CHEZ MOI Hot Tea|G1|<0.467499, 0.000000, 0.608643>|<0.000000, 0.000002, 0.000000>
+PROP Notebook|CHEZ MOI Notebook|G1|<-0.271759, 0.000000, 0.780273>|<0.000000, 0.000000, 90.000000>
+PROP1 Eat Apple|*wear* Apple RH|G1|<0.000000, 0.000000, 0.554077>|<-0.000004, 0.000001, -0.000003>
+PROP1 Sunscreen|*wear* CM Sunscreen RH|G1|<0.000000, 0.000000, 0.421753>|<0.000001, 0.000001, 0.000000>
+PROP1 Smooth|*wear* CM Smooth RH|G1|<0.000000, 0.000000, 0.483887>|<-0.000001, -0.000001, -0.000003>
+PROP1 Yummy|*wear* CM Cake|G1|<0.000000, 0.000000, 0.445190>|<0.000000, 0.000000, -0.000010>
+PROP1 Yummy|*wear* Fork Dessert RH|G1|<0.000000, 0.000000, 0.508911>|<0.000000, 0.000000, 0.000003>
+PROP1 Sunblocker|*wear* CM Sunscreen RH|G1|<0.000000, 0.000000, 0.519775>|<0.000001, 0.000001, 0.000000>
+PROP1 Music|*wear* Headphone CM|G1|<0.000000, 0.000000, 0.452393>|<-0.000008, -0.000003, -0.000003>
+PROP1 Drinking 2|*wear* CM Soda Cola M RH|G1|<0.000000, 0.000000, 0.452393>|<-0.000008, -0.000003, -0.000003>
+
+SITTER 1
+
+TOMENU *LOVE
+TOMENU *SEX
+
+MENU *LOVE
+SEQUENCE SEQ-LOVE-M
+SYNC Joyful|KbkB-LCuddM4
+SYNC Entice|KbkB-LCuddM5
+SYNC Flirt|KbkB-LCuddM6
+SYNC Sweet Lips|M LoversLounger2
+SYNC Lap Hug|[RNP] Couple #131 - Floor_Bed  - Male - 42 seconds
+SYNC Acrobat|coupleSwP02-M
+SYNC Ardor|BBathTC M5
+SYNC Squeeze|M SweetKiss4
+SYNC Moneky Hug|M TB3
+SYNC Hot!|KbkB-StCuddM3
+SYNC My All|KbkB-StCuddM4
+SYNC Stand kiss|Stand_Kiss_4 M (Update)
+SYNC Hold Her|M EndlessLove2
+SYNC Sexy|M ChairCudd4
+SYNC Piggy Front|[Polymorph] Chair Cuddles M06
+SYNC Comfort Me|[Polymorph] Chair Cuddles M07
+SYNC Shiver|[Polymorph] Chair Cuddles M09
+SYNC Perch|[Polymorph] Chair Cuddles M10
+SYNC Soft Lips|cplChaise2-m
+SYNC Lust|KissesLoungerC M3
+SYNC Cuddle|LuvBTc M2
+SYNC Peaceful|[RNP] Beach Lounger #20 - Couple - Male - 35 seconds
+
+MENU *SEX
+SEQUENCE SEQ-SEX-M
+SYNC Boobs|KBedA M11
+SYNC Delicious|BBathTA M1
+SYNC Blowjob|KbkB-LAdtM2
+SYNC Lick St|M SBathTAdt2
+SYNC Hand Job|M SBathTAdt3
+SYNC Touch Her|M BathTAdt4
+SYNC Hot Body|M BathTAdt3
+SYNC The Frog|BBathTA M4
+SYNC Sit Tight|KbkB-LAdtM6
+SYNC Doggy|KbkB-LAdtM7
+SYNC The Bridge|M DCA6
+SYNC Drill|[RNP] Sex #38_Male
+SYNC Leg Rest|[RNP] Sex #39_Male
+SYNC Lap Sex|[RNP] Sex #104_Lazy Bag_Male_40 seconds
+SYNC The Hugger|The Hugger-M::1
+SYNC Bendy|[RNP] Sex #130 - Stand - Male - 31 seconds
+SYNC Acrobat Sex|[RNP] Sex #132 - Stand - Male - 29 seconds
+SYNC Suspended|[RNP] Sex #133 - Stand - Male - 34 seconds
+SYNC Erotic Front|[RNP] Sex #138 - Stand - Male - 30 seconds
+SYNC Balance|KbkB-StAtM6
+SYNC Cowgirl Sit|[Plm] T Ride M01
+SYNC Moan|[RNP] Flat surface sex #23 -  Male - Medium - 35 seconds
+SYNC Cradle|KBedA M2
+SYNC Sweet Ride|KBedA M27
+SYNC The Visitor|BenBeanBagA M7
+SYNC Waterfall|KBedA M25
+SYNC Side Sex|KbkB-LAdtM5
+SYNC Riding|KbkB-LAdtM4
+
+{Joyful}<0.107,-0.001,0.559><0,-3,180>
+{Entice}<0.1,-0.001,0.562><0,-3,180>
+{Flirt}<0.068,0.007,0.524><0,0,-180>
+{Sweet Lips}<0.361,-0.383,0.577><0,0,166>
+{Lap Hug}<-0.448,0.099,1.045><0,0,-90>
+{Acrobat}<-0.744,-0.048,0.587><0,0,90.1>
+{Ardor}<0.191,-0.042,0.633><0,-2,-180>
+{Squeeze}<0.178,-0.035,0.661><0,0,180>
+{Moneky Hug}<-0.74,-0.022,0.714><0,0,180>
+{Hot!}<-0.204,0.895,1.347><0,0,-90>
+{My All}<-0.137,-0.71,1.341><0,0,-90>
+{Stand kiss}<-0.537,-0.712,1.335><0,0,-90>
+{Hold Her}<-1.447,0.537,1.34><0,0,-146>
+{Sexy}<-0.847,0.008,0.712><0,0,180>
+{Piggy Front}<-1.433,-0.009,1.269><0,0,-178>
+{Comfort Me}<-1.412,-0.009,1.246><0,6,-178>
+{Shiver}<-1.391,-0.117,1.256><0,0,-178>
+{Perch}<-1.426,-0.051,1.232><0,0,-178>
+{Soft Lips}<0.132,-0.001,0.665><0,-6,-178>
+{Lust}<0.087,-0.012,0.906><0,0,180>
+{Cuddle}<0.198,0.006,0.953><0,0,180>
+{Peaceful}<-0.431,-0.173,1.165><0,0,-171>
+{Lick St}<0.133,0.011,1.448><0,0,180>
+{Hand Job}<-1.768,-0.629,0.923><0,0,39>
+{Touch Her}<-0.446,-0.043,1.467><0,0,180>
+{Hot Body}<-0.525,-0.019,1.362><0,0,180>
+{The Frog}<0.257,-0.069,0.631><0,0,180>
+{Sit Tight}<0.194,0,0.551><0,0,180>
+{Doggy}<0.177,-0.071,0.503><0,0,180>
+{The Bridge}<-0.283,-0.008,0.844><0,4,180>
+{Drill}<-1.768,-0.03,1.204><0,0,0>
+{Leg Rest}<-1.748,-0.079,1.214><0,0,0>
+{Lap Sex}<-0.798,0.019,1.258><0,-2,180>
+{The Hugger}<-0.414,-0.028,0.945><0,0,180>
+{Bendy}<-1.839,-0.03,1.327><0,0,0>
+{Acrobat Sex}<-1.671,0.301,1.344><0,0,-90>
+{Suspended}<-1.485,0.069,1.341><0,0,180>
+{Erotic Front}<-1.503,0.642,1.344><0,0,-45>
+{Balance}<-1.757,-0.275,1.323><0,0,0>
+{Cowgirl Sit}<-1.116,0.002,1.213><0,10,180>
+{Boobs}<0.111,-0.001,1.595><0,-0,-180>
+{Delicious}<0.111,-0.001,0.579><0,-0,-180>
+{Blowjob}<0.121,-0.021,0.554><0,-2,-180>
+{Moan}<-0.421,-0.065,1.029><0,0,180>
+{Cradle}<-0.279,-0.041,1.496><0,0,2.9>
+{Sweet Ride}<-0.468,-0.05,1.591><0,0,180>
+{The Visitor}<-0.256,-0.05,0.585><0,0,180>
+{Waterfall}<-0.353,-0.041,1.601><0,0,-0>
+{Side Sex}<0.088,0.043,0.551><0,0,-179.4>
+{Riding}<0.129,-0.019,0.551><0,0,-179.4>

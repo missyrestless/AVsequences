@@ -1,0 +1,13 @@
+Backup/
+Bak/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store

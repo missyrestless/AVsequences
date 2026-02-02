@@ -1,0 +1,295 @@
+SEQUENCE SEQ-FEMALE
+PLAY Lounger
+WAIT 60
+PLAY Read
+WAIT 60
+PLAY Drink
+WAIT 60
+PLAY Charm
+WAIT 60
+PLAY Leg Hug
+WAIT 60
+PLAY Side Sit
+WAIT 60
+PLAY CrissCross
+WAIT 60
+PLAY Flat Legs
+WAIT 60
+PLAY Side Read
+WAIT 60
+PLAY Sit&Drink
+WAIT 60
+PLAY Chill
+WAIT 60
+PLAY Blogging
+WAIT 60
+PLAY Check Phone
+WAIT 60
+PLAY Texting
+WAIT 60
+PLAY Selfie
+WAIT 60
+PLAY Hot Tea
+WAIT 60
+PLAY Sunscreen
+WAIT 60
+PLAY Smooth
+WAIT 60
+PLAY Yummy
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-MALE
+PLAY Stretch
+WAIT 60
+PLAY Tranquil
+WAIT 60
+PLAY Drinking
+WAIT 60
+PLAY Drinking 2
+WAIT 60
+PLAY Reading
+WAIT 60
+PLAY Reading 2
+WAIT 60
+PLAY Chillin'
+WAIT 60
+PLAY Rock Sit
+WAIT 60
+PLAY Take 5
+WAIT 60
+PLAY Scan
+WAIT 60
+PLAY Message
+WAIT 60
+PLAY Sitting
+WAIT 60
+PLAY Coy
+WAIT 60
+PLAY At Ease
+WAIT 60
+PLAY Criss Crossed
+WAIT 60
+PLAY Calm
+WAIT 60
+PLAY Notebook
+WAIT 60
+PLAY Eat Apple
+WAIT 60
+PLAY Sunblocker
+WAIT 60
+PLAY Music
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-LOVE-F
+PLAY Joyful
+WAIT 60
+PLAY Entice
+WAIT 60
+PLAY Flirt
+WAIT 60
+PLAY Sweet Lips
+WAIT 60
+PLAY Lap Hug
+WAIT 60
+PLAY Acrobat
+WAIT 60
+PLAY Ardor
+WAIT 60
+PLAY Squeeze
+WAIT 60
+PLAY Moneky Hug
+WAIT 60
+PLAY Hot!
+WAIT 60
+PLAY My All
+WAIT 60
+PLAY Stand kiss
+WAIT 60
+PLAY Hold Her
+WAIT 60
+PLAY Sexy
+WAIT 60
+PLAY Piggy Front
+WAIT 60
+PLAY Comfort Me
+WAIT 60
+PLAY Shiver
+WAIT 60
+PLAY Perch
+WAIT 60
+PLAY Soft Lips
+WAIT 60
+PLAY Lust
+WAIT 60
+PLAY Cuddle
+WAIT 60
+PLAY Peaceful
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-SEX-F
+PLAY Boobs
+WAIT 60
+PLAY Delicious
+WAIT 60
+PLAY Blowjob
+WAIT 60
+PLAY Lick St
+WAIT 60
+PLAY Hand Job
+WAIT 60
+PLAY Touch Her
+WAIT 60
+PLAY Hot Body
+WAIT 60
+PLAY The Frog
+WAIT 60
+PLAY Sit Tight
+WAIT 60
+PLAY Doggy
+WAIT 60
+PLAY The Bridge
+WAIT 60
+PLAY Drill
+WAIT 60
+PLAY Leg Rest
+WAIT 60
+PLAY Lap Sex
+WAIT 60
+PLAY The Hugger
+WAIT 60
+PLAY Bendy
+WAIT 60
+PLAY Acrobat Sex
+WAIT 60
+PLAY Suspended
+WAIT 60
+PLAY Erotic Front
+WAIT 60
+PLAY Balance
+WAIT 60
+PLAY Cowgirl Sit
+WAIT 60
+PLAY Moan
+WAIT 60
+PLAY Cradle
+WAIT 60
+PLAY Sweet Ride
+WAIT 60
+PLAY The Visitor
+WAIT 60
+PLAY Waterfall
+WAIT 60
+PLAY Side Sex
+WAIT 60
+PLAY Riding
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-LOVE-M
+PLAY Joyful
+WAIT 60
+PLAY Entice
+WAIT 60
+PLAY Flirt
+WAIT 60
+PLAY Sweet Lips
+WAIT 60
+PLAY Lap Hug
+WAIT 60
+PLAY Acrobat
+WAIT 60
+PLAY Ardor
+WAIT 60
+PLAY Squeeze
+WAIT 60
+PLAY Moneky Hug
+WAIT 60
+PLAY Hot!
+WAIT 60
+PLAY My All
+WAIT 60
+PLAY Stand kiss
+WAIT 60
+PLAY Hold Her
+WAIT 60
+PLAY Sexy
+WAIT 60
+PLAY Piggy Front
+WAIT 60
+PLAY Comfort Me
+WAIT 60
+PLAY Shiver
+WAIT 60
+PLAY Perch
+WAIT 60
+PLAY Soft Lips
+WAIT 60
+PLAY Lust
+WAIT 60
+PLAY Cuddle
+WAIT 60
+PLAY Peaceful
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-SEX-M
+PLAY Boobs
+WAIT 60
+PLAY Delicious
+WAIT 60
+PLAY Blowjob
+WAIT 60
+PLAY Lick St
+WAIT 60
+PLAY Hand Job
+WAIT 60
+PLAY Touch Her
+WAIT 60
+PLAY Hot Body
+WAIT 60
+PLAY The Frog
+WAIT 60
+PLAY Sit Tight
+WAIT 60
+PLAY Doggy
+WAIT 60
+PLAY The Bridge
+WAIT 60
+PLAY Drill
+WAIT 60
+PLAY Leg Rest
+WAIT 60
+PLAY Lap Sex
+WAIT 60
+PLAY The Hugger
+WAIT 60
+PLAY Bendy
+WAIT 60
+PLAY Acrobat Sex
+WAIT 60
+PLAY Suspended
+WAIT 60
+PLAY Erotic Front
+WAIT 60
+PLAY Balance
+WAIT 60
+PLAY Cowgirl Sit
+WAIT 60
+PLAY Moan
+WAIT 60
+PLAY Cradle
+WAIT 60
+PLAY Sweet Ride
+WAIT 60
+PLAY The Visitor
+WAIT 60
+PLAY Waterfall
+WAIT 60
+PLAY Side Sex
+WAIT 60
+PLAY Riding
+WAIT 60
+LOOP

@@ -1,0 +1,642 @@
+
+--✄--COPY BELOW INTO "AVpos" NOTECARD--✄--
+
+"DAD "OUTDOOR JACUZZI HOT TUB" A" AVsitter 2.1
+SWAP 2
+ADJUST [INM SETUP]|-99999
+
+SITTER 0
+
+TOMENU SINGLE
+TOMENU CUDDLE
+TOMENU WASH
+TOMENU ADULT
+
+MENU SINGLE
+TOMENU #Females
+TOMENU #Males
+
+MENU #Females
+POSE Soaking|[RNP] Bathtub #4_Female
+POSE Caress|[RNP] Bathtub #5_Female
+POSE Body wash|[RNP] Bathtub #10- Bathing _Female _58 seconds
+POSE Lather|[RNP] Bathtub V1
+POSE Massage|[RNP] Bathtub V2
+POSE Clean Up|[RNP] Bathtub V3
+POSE Talking F|z-takingabath1-f
+POSE Relax F|bath
+POSE Bath Sponge|EBDesign - P4 Lady Hip bath sponge 02
+POSE Wash Hair|EBDesign - P4 Lady Hip bath wash hair 01
+POSE 1#Female|F GrdSitSingles1
+POSE 2#Female|F GrdSitSingles2
+POSE 3#Female|F GrdSitSingles3
+POSE 4#Female|F GrdSitSingles4
+POSE 5#Female|F GrdSitSingles5
+POSE 6#Female|F GrdSitSingles6
+POSE 7#Female|F GrdSitSingles7
+POSE 8#Female|F GrdSitSingles8
+POSE sit 1- F|[RNP] Flat Surface Sit #2 - Female - 45 seconds
+POSE sit 2- F|[RNP] Flat Surface Sit #4 - Female - 31 seconds
+POSE sit 3- F|[RNP] Flat Surface Sit #5 - Female - 50 seconds
+POSE Calm|[RNP] Sit #136_Deep seat sofa_Female
+POSE Listening|[RNP] Sit #137_Deep seat sofa_Female
+
+MENU #Males
+POSE End of Day|[RNP] Bathtub #7_Male
+POSE Interesting|[RNP] Bathtub #8_Male
+POSE Open|[RNP] Bathtub #9_Male
+POSE Lather M|[RNP] Bathtub V1
+POSE Massage M|[RNP] Bathtub V2
+POSE Clean Up M|[RNP] Bathtub V3
+POSE Talking M|z-takingabath-m
+POSE Relax M|bath
+POSE 1#Male|M GrdSitSingles1
+POSE 2#Male|M GrdSitSingles2
+POSE 3#Male|M GrdSitSingles3
+POSE 4#Male|M GrdSitSingles4
+POSE 5#Male|M GrdSitSingles5
+POSE 6#Male|M GrdSitSingles6
+POSE 7#Male|M GrdSitSingles7
+POSE 8#Male|M GrdSitSingles8
+POSE sit 1- M|[RNP] Flat Surface Sit #9 - Male - 45 seconds
+POSE sit 2- M|[RNP] Flat Surface Sit #10 - Male - 36 seconds
+POSE sit 3- M|[RNP] Flat Surface Sit #13 - Male - 35 seconds
+
+MENU CUDDLE
+TOMENU Couples I
+TOMENU Couples II
+SEQUENCE CHEERS-SEQ
+
+MENU HIDDEN
+SYNC Seq69a|F69A
+SYNC Seq69b|F69B
+SYNC Seq69c|F69C
+SYNC Seq69d|F69D
+
+MENU Couples I
+SYNC FinallyFoundYou|F FinallyFoundYou
+SYNC ForLovingMe|F ForLovingMe
+SYNC HugsAndKisses|F HugsAndKisses
+SYNC INeedYou|F INeedYou
+SYNC JustLikeThis|F JustLikeThis
+SYNC LoveAgain|F LoveAgain
+SYNC LoveOfMyLifeV2|F LoveOfMyLifeV2
+SYNC Naughty|F Naughty
+SYNC NeverForgetsV2|F NeverForgetsV2
+SYNC TheSafestPlace|F TheSafestPlace
+SYNC SayForever|F SayForever
+SYNC SharingIsCaring|F SharingIsCaring
+SYNC SweetSurrender|F SweetSurrender
+SYNC TakeMyBreathAway|F TakeMyBreathAway
+SYNC Thankyou|F Thankyou
+SYNC AlmostParadise|F AlmostParadise
+SYNC Frog in Love|[RNP] Couple #70_Female
+
+MENU Couples II
+SYNC Pleasant|Couple124F
+SYNC Secret|Couple125F
+SYNC Kiss|Couple127F
+SYNC My world|Couple130F
+SYNC All yours|Couple131F
+SYNC Seducing|Couple129F
+SYNC Teasing|Couple135F
+SYNC KissOfLove|Couple128F
+SYNC KissOfPassion|Couple132F
+SYNC NeckKiss|Couple133F
+
+MENU WASH
+SYNC My arms|bc-1coup-fm
+SYNC We are one|bc-2coup-fm
+SYNC Kissing|bc-3coup-fm
+SYNC Prelude|bc-4coup-fm
+SYNC Entwine|bc-5coup-fm
+SYNC Whisperbath|whisperbathF
+SYNC Washing back|washingbackF
+SYNC Washingback|washingbackF
+SYNC Looking|lookingF
+SYNC Wash Up|MFshowerF1
+SYNC Wash Down|MFshowerF2
+SYNC One thing|cs-shower2-fm
+SYNC One thing inverted|cs-shower3-fm
+SYNC Back to back|cs-shower5-fm
+SYNC BackKiss|BackKissF
+SYNC LookAtMe|BathtubEyesF
+
+MENU ADULT
+TOMENU Start
+TOMENU Fucks I
+TOMENU Fucks II
+
+MENU Start
+SYNC Cunnilingus|[RNP] Sex #71_Female_Bathtub_Cunnilingus_40 seconds
+SYNC BJ Under|[RNP] Sex #72_Bathtub_Female_Underwater BJ_42 seconds
+SYNC Grab&Rub|Sex124F
+SYNC Fingering|[RNP] Sex #73_Female_Bathtub_Fingering_35 seconds
+SYNC GettingHard|Sex123F
+SYNC Grab&Rub|Sex124F
+SYNC Rub&Hard|Sex125F
+SYNC Hand job|[RNP] Sex #55_Chair_Jerk_Female_28 seconds
+SYNC Bj|bj 3 fem5
+SYNC Lick her|HC-41 fem4
+SYNC lick 2|DBlk F2
+
+MENU Fucks I
+SYNC Spin|Sex144F
+SYNC Levitation|Sex153F
+SYNC Mill|Sex145F
+SYNC Deeper|Sex142F
+SYNC Deep|Sex127F
+SYNC Puller|Sex143F
+SYNC Doggy|Sex161F
+SYNC In Front|[RNP] Sex #70_Female_Bathtub_30 seconds
+SYNC Back|[RNP] Sex #74_Female_Bathtub_31 seconds
+SYNC Arch|[RNP] Sex #75_Female_Bathtub_30 seconds
+SYNC Up and down|[Polymorph] Bath Tub Sex F01
+SYNC Pull|[Polymorph] Bath Tub Sex F04
+SYNC Held|[Polymorph] Bath Tub Sex F02
+SYNC Monkey|[Polymorph] Bath Tub Sex F03
+SYNC Bounce|[Polymorph] Bath Tub Sex F05
+SYNC Scissor|[Polymorph] Bath Tub Sex F06
+SYNC Sit Down|[Polymorph] Bath Tub Sex F07
+SYNC Cowgirl Back|[Polymorph] Bath Tub Sex F08
+SYNC Sideways|[Polymorph] Bath Tub Sex F09
+SYNC Harder|[Polymorph] Bath Tub Sex F10
+
+MENU Fucks II
+SYNC backdoor|[RNP] Sex #61_Female_Chair_35.05 seconds
+SYNC grab my ass|[RNP] Sex #62_Female_Chair_32.95 seconds
+SYNC updown ass|[RNP] Sex #63_Couch_Female_53 seconds
+SYNC on your knee|[RNP] Sex #64_Couch_Female_33_seconds
+SYNC pelvis dance|[RNP] Sex #66_Couch_Female_30 seconds
+SYNC slowly inout|[RNP] Sex #67_Couch_Female_34 seconds
+SYNC galloping|[RNP] Sex #142 - Floor Bed - Female - 34 seconds
+SYNC doggieblock|[RNP] Sex #143 - Floor Bed - Female - 37 seconds
+SYNC sexy openess|[RNP] Sex #144 - Floor Bed - Female - 48 seconds
+SYNC cradle|HC-6 fem1-7
+SYNC Bridge 1|HC-14 fem12
+SYNC Quicky 1|HC-19 fem9
+SYNC Lap 3|HC-34 fem3
+SYNC Intrude|HC-42 fem4
+{Soaking}<-0.951,-0.66,0.612><0,0,180>
+{Caress}<-0.076,1.251,0.624><0,0,-45>
+{Body wash}<0.451,1.34,1.595><0,0,-161>
+{Lather}<1.401,-0.061,0.601><0,0,180>
+{Massage}<-0.003,1.145,0.588><0,0,-90>
+{Clean Up}<-0.003,1.247,0.588><0,0,-90>
+{Talking F}<-0.003,1.129,0.698><17,0,-90>
+{Relax F}<-0.003,1.131,1.158><0,0,-90>
+{Bath Sponge}<-0.003,1.313,0.594><0,0,-158>
+{Wash Hair}<-0.034,1.31,0.698><0,0,-155>
+{1#Female}<1.882,2.48,1.157><0,0,-133>
+{2#Female}<1.882,2.48,1.157><0,0,-138>
+{3#Female}<2.642,0.479,1.157><0,0,180>
+{4#Female}<1.717,2.332,1.157><0,0,180>
+{5#Female}<2.519,0.472,1.157><0,0,132>
+{6#Female}<1.882,2.48,1.157><0,0,-139>
+{7#Female}<1.882,2.287,1.157><0,0,-119>
+{8#Female}<-0.109,1.25,0.775><0,0,-117>
+{sit 1- F}<0.12,1.424,0.961><0,0,-114>
+{sit 2- F}<0.311,1.391,1.084><-0.9,1.8,-147>
+{sit 3- F}<0.267,1.457,1.017><-0.8,1.8,-148>
+{Calm}<-0.081,1.202,0.679><0,0,-96>
+{Listening}<0.109,1.178,0.669><0,0,-74>
+{End of Day}<0.2,-1.364,0.6><0,0,139>
+{Interesting}<-0.548,-0.834,0.572><0,0,-139>
+{Open}<0.145,-1.332,0.6><0,0,171>
+{Lather M}<-0.069,-1.385,0.648><-15,0,98>
+{Massage M}<0.405,-1.274,0.688><0,0,155>
+{Clean Up M}<0.405,-1.274,0.688><0,0,147>
+{Talking M}<0.097,-1.274,0.688><0,0,82>
+{Relax M}<-0.021,-1.21,1.132><-10,0,90>
+{1#Male}<0.441,3.725,1.031><0,0,-78>
+{2#Male}<1.925,2.341,1.031><0,0,-135>
+{3#Male}<2.024,2.204,1.031><0,0,-159>
+{4#Male}<2.373,0.442,1.031><0,0,-162>
+{5#Male}<2.627,0.722,1.031><1.1,2.8,-177>
+{6#Male}<2.627,0.472,1.031><0,0,169>
+{7#Male}<1.627,3.058,1.031><0,0,-125>
+{8#Male}<0.414,-1.393,0.637><0,0,159>
+{sit 1- M}<1.837,2.26,1.498><0,0,-139>
+{sit 2- M}<1.837,2.26,1.498><0,0,-119>
+{sit 3- M}<1.837,2.26,1.498><0,0,-168>
+{Seq69a}<0.032,1.312,0.655><19,0,-90>
+{Seq69b}<0.032,1.312,0.655><19,-0,-79>
+{Seq69c}<0.032,1.312,0.655><19,0,-90>
+{Seq69d}<0.032,1.312,0.655><19,0,-90>
+{FinallyFoundYou}<-0.072,1.319,0.696><7,-0.2,-91>
+{ForLovingMe}<0.14,-0.046,0.781><-8.1,1.5,31.4>
+{HugsAndKisses}<2.574,0.59,1.159><0,0,175.9>
+{INeedYou}<0.055,-0.08,0.65><0.2,0,-169.5>
+{JustLikeThis}<1.352,2.468,1.137><1,0.1,-90>
+{LoveAgain}<1.241,2.657,1.04><1.2,4.2,-108>
+{LoveOfMyLifeV2}<0.097,-0.056,0.421><8.5,3.2,-128.3>
+{Naughty}<0.01,0.025,0.725><2.7,2.7,-136>
+{NeverForgetsV2}<-0.039,1.296,0.723><2,-0.4,-110.5>
+{TheSafestPlace}<1.013,-0.041,0.355><-0.6,-8.1,-176.9>
+{SayForever}<0.726,0.267,0.257><-4,-3.2,161.4>
+{SharingIsCaring}<2.196,0.388,1.133><-1.7,-2.7,170>
+{SweetSurrender}<0.855,2.827,1.084><-4.5,4.2,-157.5>
+{TakeMyBreathAway}<0.199,-0.082,0.63><0,0,159.5>
+{Thankyou}<0.451,0.056,0.3><1.3,-5.9,173.9>
+{AlmostParadise}<-0.219,-0.064,0.602><2,-4.7,-178.1>
+{Frog in Love}<-0.055,1.411,0.69><17,0,-67>
+{Pleasant}<0.336,0.17,0.621><0,0,-73>
+{Secret}<0.344,-0.353,0.682><0,0,-146>
+{Kiss}<0.028,1.422,0.995><-2.6,1.6,-44>
+{My world}<0.786,2.26,1.458><0,0,93>
+{All yours}<-0.064,-0.155,0.695><3,0,0>
+{Seducing}<0.226,0.126,0.787><0,0,-111>
+{Teasing}<0.095,0.184,0.733><0,0,-70>
+{KissOfLove}<0.158,0.058,0.703><0,0,-64>
+{KissOfPassion}<0.34,2.446,1.49><0,0,105>
+{NeckKiss}<1.399,1.625,1.524><0.6,0.8,55>
+{My arms}<0.698,0.381,1.249><0,0,180>
+{We are one}<-0.486,0.175,1.166><28,0,-90>
+{Kissing}<-0.209,0.486,1.593><0,0,-78>
+{Prelude}<0.712,0.782,1.313><0,0,166>
+{Entwine}<-0.425,0.092,1.078><0,0,-90>
+{Whisperbath}<0.111,-0.637,1.437><-16,0,-5>
+{Washing back}<0.001,0.543,1.208><0,0,0>
+{Washingback}<-0.859,-0.32,1.222><0,0,134>
+{Looking}<-0.19,-0.103,1.097><0,0,-90>
+{Wash Up}<-0.201,0.198,1.424><0,0,-123>
+{Wash Down}<-0.215,-0.119,1.308><0,0,39>
+{One thing}<0.166,-0.121,1.838><0,0,-156>
+{One thing inverted}<-0.065,-0.013,1.847><0,0,-165>
+{Back to back}<-0.02,-0.08,1.961><0,0,28>
+{BackKiss}<0.679,-0.121,0.291><0,0,180>
+{LookAtMe}<1.594,0,1.3><0,0,180>
+{Cunnilingus}<-0.07,1.045,1.027><8,0,-90>
+{BJ Under}<0.063,1.079,1.069><0,0,-90>
+{Grab&Rub}<-0.062,-0.108,0.706><0,0,121>
+{Fingering}<0.874,-0.082,0.762><0,0,180>
+{GettingHard}<0.182,-0.157,0.643><0,0,126>
+{Rub&Hard}<0.029,-0.107,0.758><0,0,79>
+{Hand job}<-0.106,1.386,1.15><-6,-0.6,-84.1>
+{Bj}<0.038,-0.067,1.25><0,0,90>
+{Lick her}<-0.3,-0.052,1.191><0,0,0>
+{lick 2}<0.084,1.121,0.927><0,0,90>
+{Spin}<-0.054,0.254,0.712><0,0,10>
+{Levitation}<0.845,2.659,1.497><0,0,0>
+{Mill}<0.599,2.816,1.469><0,0,-171>
+{Deeper}<0.883,2.526,1.457><0,0,180>
+{Deep}<0.859,2.409,1.47><0,0,180>
+{Puller}<0.067,0.946,0.666><0,0,0>
+{Doggy}<0.012,0.198,0.76><0,0,24>
+{In Front}<0.006,1.083,1.121><13,0,-90>
+{Back}<0.374,-0.352,0.628><0,0,180>
+{Arch}<0.374,-0.341,0.941><0,0,180>
+{Up and down}<1.627,-0.003,1.284><0,0,180>
+{Pull}<1.359,0.26,1.246><0,0,180>
+{Held}<-1.078,-0.139,1.288><0,0,180>
+{Monkey}<-0.006,-0.769,1.363><-12,0,90>
+{Bounce}<-0.815,-0.154,1.165><0,0,180>
+{Scissor}<0,-0.807,1.267><0,0,0>
+{Sit Down}<0.141,-0.845,1.056><14,0,90>
+{Cowgirl Back}<0.863,-0.211,1.094><0,0,180>
+{Sideways}<0.937,-0.008,1.199><0,0,90>
+{Harder}<-1.36,-0.103,1.284><0,0,180>
+{backdoor}<-0.015,1.367,1.191><-6,0,-90>
+{grab my ass}<-0.014,1.354,1.161><0,0,-90>
+{updown ass}<-0.056,-1.184,1.212><0,0,89>
+{on your knee}<-0.024,-1.247,1.18><5,0,90>
+{pelvis dance}<-0.129,-1.239,1.209><0,0,90>
+{slowly inout}<-0.032,-1.153,1.143><6,0,90>
+{galloping}<1.18,2.128,1.485><-1.2,-1.6,144>
+{doggieblock}<0.094,0.894,0.649><0,0,0>
+{sexy openess}<-0.069,0.105,0.651><0,0,0>
+{cradle}<0.069,0.042,1.362><6,-3.6,59.2>
+{Bridge 1}<-0.149,0.334,1.399><0,0,-89>
+{Quicky 1}<-0.068,-0.008,1.353><0,0,90>
+{Lap 3}<-0.048,1.317,1.24><0,0,90>
+{Intrude}<-0.072,1.009,1.27><0,0,-90>
+PROP1 Massage|DaD "Sponge R"|G2|<-1.049482, 1.093275, 0.897215>|<125.999900, -0.000018, -0.000115>|Right Hand
+PROP1 Clean Up|DaD "Sponge R"|G2|<-1.049482, 1.093275, 0.897215>|<125.999900, -0.000018, -0.000115>|Right Hand
+PROP1 Bath Sponge|DaD "Sponge L"|G1|<-1.049482, 1.093275, 0.897215>|<125.999900, -0.000018, -0.000115>|Left Hand
+PROP1 Massage M|DaD "Sponge R"|G2|<-1.049482, 1.093275, 0.897215>|<125.999900, -0.000018, -0.000115>|Right Hand
+PROP1 Clean Up M|DaD "Sponge R"|G2|<-1.049482, 1.093275, 0.897215>|<125.999900, -0.000018, -0.000115>|Right Hand
+PROP1 CheersProp|Red Vine|G2|<-1.049480, 1.197190, 0.977290>|<0.000000, 0.000000, -0.000010>|Right Hand
+
+SITTER 1
+
+TOMENU CUDDLE
+TOMENU WASH
+TOMENU SINGLE
+TOMENU ADULT
+
+MENU CUDDLE
+TOMENU Couples I
+TOMENU Couples II
+SEQUENCE CHEERS-SEQ
+
+MENU HIDDEN
+SYNC Seq69a|M69A
+SYNC Seq69b|M69B
+SYNC Seq69c|M69C
+SYNC Seq69d|M69D
+
+MENU Couples I
+SYNC FinallyFoundYou|M FinallyFoundYou
+SYNC ForLovingMe|M ForLovingMe
+SYNC HugsAndKisses|M HugsAndKisses
+SYNC INeedYou|M INeedYou
+SYNC JustLikeThis|M JustLikeThis
+SYNC LoveAgain|M LoveAgain
+SYNC LoveOfMyLifeV2|M LoveOfMyLifeV2
+SYNC Naughty|M Naughty
+SYNC NeverForgetsV2|M NeverForgetsV2
+SYNC TheSafestPlace|M TheSafestPlace
+SYNC SayForever|M SayForever
+SYNC SharingIsCaring|M SharingIsCaring
+SYNC SweetSurrender|M SweetSurrender
+SYNC TakeMyBreathAway|M TakeMyBreathAway
+SYNC Thankyou|M Thankyou
+SYNC AlmostParadise|M AlmostParadise
+
+MENU Couples II
+SYNC Frog in Love|[RNP] Couple #70_Male
+SYNC Caress me|[RNP] Couple #71_Male
+SYNC Little Boy|[RNP] Couple #73_Male
+SYNC My arms|bc-1coup-ml
+SYNC We are one|bc-2coup-ml
+SYNC Kissing|bc-3coup-ml
+SYNC Prelude|bc-4coup-ml
+SYNC Entwine|bc-5coup-ml
+SYNC Whisperbath|whisperbathM
+SYNC Pleasant|Couple124M
+SYNC Secret|Couple125M
+SYNC Kiss|Couple127M
+SYNC My world|Couple130M
+SYNC All yours|Couple131M
+SYNC Seducing|Couple129M
+SYNC Teasing|Couple135M
+SYNC KissOfLove|Couple128M
+SYNC KissOfPassion|Couple132M
+SYNC NeckKiss|Couple133M
+
+MENU WASH
+SYNC Washingback|washingbackM
+SYNC Looking|lookingM
+SYNC Wash Up|MFshowerM1
+SYNC Wash Down|MFshowerM2
+SYNC One thing|cs-shower2-m
+SYNC One thing inverted|cs-shower3-m
+SYNC Back to back|cs-shower5-m
+SYNC BackKiss|BackKissM
+SYNC LookAtMe|BathtubEyesM
+
+MENU SINGLE
+TOMENU #Males
+TOMENU #Females
+
+MENU #Males
+POSE End of Day|[RNP] Bathtub #7_Male
+POSE Interesting|[RNP] Bathtub #8_Male
+POSE Open|[RNP] Bathtub #9_Male
+POSE Lather M|[RNP] Bathtub V1
+POSE Massage M|[RNP] Bathtub V2
+POSE Clean Up M|[RNP] Bathtub V3
+POSE Talking M|z-takingabath-m
+POSE Relax M|bath
+POSE 1#Male|M GrdSitSingles1
+POSE 2#Male|M GrdSitSingles2
+POSE 3#Male|M GrdSitSingles3
+POSE 4#Male|M GrdSitSingles4
+POSE 5#Male|M GrdSitSingles5
+POSE 6#Male|M GrdSitSingles6
+POSE 7#Male|M GrdSitSingles7
+POSE 8#Male|M GrdSitSingles8
+POSE sit 1- M|[RNP] Flat Surface Sit #9 - Male - 45 seconds
+POSE sit 2- M|[RNP] Flat Surface Sit #10 - Male - 36 seconds
+POSE sit 3- M|[RNP] Flat Surface Sit #13 - Male - 35 seconds
+
+MENU #Females
+POSE Soaking|[RNP] Bathtub #4_Female
+POSE Caress|[RNP] Bathtub #5_Female
+POSE Body wash|[RNP] Bathtub #10- Bathing _Female _58 seconds
+POSE Lather|[RNP] Bathtub V1
+POSE Massage|[RNP] Bathtub V2
+POSE Clean Up|[RNP] Bathtub V3
+POSE Talking F|z-takingabath1-f
+POSE Relax F|bath
+POSE Bath Sponge|EBDesign - P4 Lady Hip bath sponge 02
+POSE Wash Hair|EBDesign - P4 Lady Hip bath wash hair 01
+POSE 1#Female|F GrdSitSingles1
+POSE 2#Female|F GrdSitSingles2
+POSE 3#Female|F GrdSitSingles3
+POSE 4#Female|F GrdSitSingles4
+POSE 5#Female|F GrdSitSingles5
+POSE 6#Female|F GrdSitSingles6
+POSE 7#Female|F GrdSitSingles7
+POSE 8#Female|F GrdSitSingles8
+POSE sit 1- F|[RNP] Flat Surface Sit #2 - Female - 45 seconds
+POSE sit 2- F|[RNP] Flat Surface Sit #4 - Female - 31 seconds
+POSE sit 3- F|[RNP] Flat Surface Sit #5 - Female - 50 seconds
+POSE Calm|[RNP] Sit #136_Deep seat sofa_Female
+POSE Listening|[RNP] Sit #137_Deep seat sofa_Female
+
+MENU ADULT
+TOMENU Start
+TOMENU Fucks I
+TOMENU Fucks II
+
+MENU Start
+SYNC Cunnilingus|[RNP] Sex #71_Male_Bathtub_Cunnilingus_40 seconds
+SYNC BJ Under|[RNP] Sex #72_Bathtub_Male_Underwater BJ_42 seconds
+SYNC Fingering|[RNP] Sex #73_Male_Bathtub_Fingering_35 seconds
+SYNC GettingHard|Sex123M
+SYNC Grab&Rub|Sex124M
+SYNC Rub&Hard|Sex125M
+SYNC Hand job|[RNP] Sex #55_Chair_Jerk_Male_28 seconds
+SYNC Bj|bj 3 m3
+SYNC Lick her|HC-41 m4
+SYNC Bj|bj 3 m3
+SYNC Lick her|HC-41 m4
+SYNC lick 2|DBlk M2
+
+MENU Fucks I
+SYNC Spin|Sex144M
+SYNC Levitation|Sex153M
+SYNC Mill|Sex145M
+SYNC Deeper|Sex142M
+SYNC Deep|Sex127M
+SYNC Puller|Sex143M
+SYNC Doggy|Sex161M
+SYNC In Front|[RNP] Sex #70_Male_Bathtub_30 seconds
+SYNC Back|[RNP] Sex #74_Male_Bathtub_31 seconds
+SYNC Arch|[RNP] Sex #75_Male_Bathtub_30 seconds
+SYNC Up and down|[Polymorph] Bath Tub Sex M01
+SYNC Held|[Polymorph] Bath Tub Sex M02
+SYNC Monkey|[Polymorph] Bath Tub Sex M03
+SYNC Pull|[Polymorph] Bath Tub Sex M04
+SYNC Bounce|[Polymorph] Bath Tub Sex M05
+SYNC Scissor|[Polymorph] Bath Tub Sex M06
+SYNC Sit Down|[Polymorph] Bath Tub Sex M07
+SYNC Cowgirl Back|[Polymorph] Bath Tub Sex M08
+SYNC Sideways|[Polymorph] Bath Tub Sex M09
+SYNC Harder|[Polymorph] Bath Tub Sex M10
+
+MENU Fucks II
+SYNC backdoor|[RNP] Sex #61_Male_Chair_35.05 seconds
+SYNC grab my ass|[RNP] Sex #62_Male_Chair_32.95 seconds
+SYNC updown ass|[RNP] Sex #63_Couch_Male_53 seconds
+SYNC on your knee|[RNP] Sex #64_Couch_Male_33_seconds
+SYNC pelvis dance|[RNP] Sex #66_Couch_Male_30 seconds
+SYNC slowly inout|[RNP] Sex #67_Couch_Male_34 seconds
+SYNC galloping|[RNP] Sex #142 - Floor Bed - Male - 34 seconds
+SYNC doggieblock|[RNP] Sex #143 - Floor Bed - Male - 37 seconds
+SYNC sexy openess|[RNP] Sex #144 - Floor Bed - Male - 48 seconds
+SYNC cradle|HC-6 m2-5
+
+SYNC Bridge 1|HC-14 m10
+SYNC Quicky 1|HC-19 m10
+SYNC Lap 3|HC-34 m3
+SYNC Intrude|HC-42 m4
+{Seq69a}<-0.01,1.314,0.595><14,0,-90>
+{Seq69b}<-0.01,1.314,0.595><14,0,-90>
+{Seq69c}<-0.01,1.314,0.595><14,0,-90>
+{Seq69d}<-0.01,1.314,0.595><14,0,-90>
+{FinallyFoundYou}<-0.065,1.172,0.633><1.1,0.9,-91.2>
+{ForLovingMe}<0.391,0.019,0.591><-1.3,1.6,-140.4>
+{HugsAndKisses}<2.565,0.571,1.049><0.9,13,175.8>
+{INeedYou}<0.293,-0.054,0.614><-0.6,11.1,-169.1>
+{JustLikeThis}<1.365,2.755,1.04><-2,0,-90>
+{LoveAgain}<1.432,2.823,1.098><0.3,3.1,156.1>
+{LoveOfMyLifeV2}<0.185,-0.038,0.398><2.7,-0.9,-124.9>
+{Naughty}<-0.026,0.022,0.546><-4.2,4.2,-132>
+{NeverForgetsV2}<-0.006,1.375,0.581><4.6,-1.4,-110>
+{TheSafestPlace}<1.006,-0.061,0.226><0.1,-4.1,-177>
+{SayForever}<0.69,-0.113,0.237><-0.3,-1,168.5>
+{SharingIsCaring}<2.128,0.456,1.129><2.4,4.8,168>
+{SweetSurrender}<0.856,2.792,1.2><0.4,-2,-175>
+{TakeMyBreathAway}<0.443,-0.124,0.698><-0.7,0.2,172.3>
+{Thankyou}<0.429,0.041,0.226><0.2,-3.9,177.8>
+{AlmostParadise}<0.111,-0.119,0.746><0.2,4.9,-179.7>
+{Frog in Love}<-0.046,1.331,0.666><17,0,-84>
+{Caress me}<-0.747,-0.117,0.388><0,0,0>
+{Little Boy}<-0.664,-0.117,0.388><0,0,0>
+{My arms}<0.817,0.297,1.218><0,0,180>
+{We are one}<-0.353,0.334,1.104><28,0,-90>
+{Kissing}<-0.123,0.622,1.316><9.8,2.1,-78.2>
+{Prelude}<0.728,0.681,1.142><-1.9,-7.8,165.9>
+{Entwine}<-0.349,-0.56,1.078><0,0,-90>
+{Whisperbath}<0.038,-0.586,1.35><-16,0,-5>
+{Pleasant}<0.332,0.182,0.663><0,0,-73>
+{Secret}<0.354,-0.346,0.724><0,0,-146>
+{Kiss}<0.021,1.433,1.037><-2.6,1.6,-44>
+{My world}<0.787,2.247,1.5><0,0,93>
+{All yours}<-0.077,-0.157,0.737><3,0,0>
+{Seducing}<0.231,0.139,0.829><0,0,-111>
+{Teasing}<0.091,0.196,0.775><0,0,-70>
+{KissOfLove}<0.153,0.069,0.745><0,0,-64>
+{KissOfPassion}<0.343,2.434,1.532><0,0,105>
+{NeckKiss}<1.392,1.613,1.566><0.6,0.8,55>
+{Washingback}<-0.859,-0.32,1.222><0,0,134>
+{Looking}<-0.19,-0.103,1.097><0,0,-90>
+{Wash Up}<-0.201,0.198,1.424><0,0,-123>
+{Wash Down}<-0.215,-0.119,1.308><0,0,39>
+{One thing}<0.165,-0.119,1.838><0,0,-156>
+{One thing inverted}<-0.067,-0.011,1.847><0,0,-165>
+{Back to back}<-0.109,0.067,1.961><0,0,28>
+{BackKiss}<0.679,-0.121,0.291><0,0,180>
+{LookAtMe}<1.594,0,1.3><0,0,180>
+{Soaking}<-0.951,-0.66,0.612><0,0,180>
+{Caress}<-0.076,1.251,0.624><0,0,-45>
+{Body wash}<0.451,1.34,1.595><0,0,-161>
+{Lather}<1.401,-0.061,0.601><0,0,180>
+{Massage}<-0.003,1.145,0.588><0,0,-90>
+{Clean Up}<-0.003,1.247,0.588><0,0,-90>
+{Talking F}<-0.003,1.129,0.698><17,0,-90>
+{Relax F}<-0.003,1.131,1.158><0,0,-90>
+{Bath Sponge}<-0.003,1.313,0.594><0,0,-158>
+{Wash Hair}<-0.034,1.31,0.698><0,0,-155>
+{1#Female}<1.882,2.48,1.157><0,0,-133>
+{2#Female}<1.882,2.48,1.157><0,0,-138>
+{3#Female}<2.642,0.479,1.157><0,0,180>
+{4#Female}<1.717,2.332,1.157><0,0,180>
+{5#Female}<2.519,0.472,1.157><0,0,132>
+{6#Female}<1.882,2.48,1.157><0,0,-139>
+{7#Female}<1.882,2.287,1.157><0,0,-119>
+{8#Female}<-0.109,1.25,0.775><0,0,-117>
+{sit 1- F}<0.12,1.424,0.961><0,0,-114>
+{sit 2- F}<0.311,1.391,1.084><-0.9,1.8,-147>
+{sit 3- F}<0.267,1.457,1.017><-0.8,1.8,-148>
+{Calm}<-0.081,1.202,0.679><0,0,-96>
+{Listening}<0.109,1.178,0.669><0,0,-74>
+{End of Day}<0.2,-1.364,0.6><0,0,139>
+{Interesting}<-0.548,-0.834,0.572><0,0,-139>
+{Open}<0.145,-1.332,0.6><0,0,171>
+{Lather M}<-0.069,-1.385,0.648><-15,0,98>
+{Massage M}<0.405,-1.274,0.688><0,0,155>
+{Clean Up M}<0.405,-1.274,0.688><0,0,147>
+{Talking M}<0.097,-1.274,0.688><0,0,82>
+{Relax M}<-0.021,-1.21,1.132><-10,0,90>
+{1#Male}<0.441,3.725,1.031><0,0,-78>
+{2#Male}<1.925,2.341,1.031><0,0,-135>
+{3#Male}<2.024,2.204,1.031><0,0,-159>
+{4#Male}<2.373,0.442,1.031><0,0,-162>
+{5#Male}<2.627,0.722,1.031><1.1,2.8,-177>
+{6#Male}<2.627,0.472,1.031><0,0,169>
+{7#Male}<1.627,3.058,1.031><0,0,-125>
+{8#Male}<0.414,-1.393,0.637><0,0,159>
+{sit 1- M}<1.837,2.26,1.498><0,0,-139>
+{sit 2- M}<1.837,2.26,1.498><0,0,-119>
+{sit 3- M}<1.837,2.26,1.498><0,0,-168>
+{Cunnilingus}<-0.07,1.038,1.026><8,0,-90>
+{BJ Under}<-0.014,1.011,1.069><0,0,-90>
+{Fingering}<0.866,-0.082,0.762><0,0,180>
+{GettingHard}<0.189,-0.168,0.685><0,0,126>
+{Grab&Rub}<-0.056,-0.119,0.748><0,0,121>
+{Rub&Hard}<0.026,-0.119,0.8><0,0,79>
+{Hand job}<-0.129,1.387,1.183><-6,-0.6,-84.1>
+{Bj}<0.038,0.011,1.458><0,0,90>
+{Lick her}<0.122,-0.119,1.216><0,0,180>
+{lick 2}<0.084,1.487,0.927><0,0,-90>
+{Spin}<-0.067,0.252,0.754><0,0,10>
+{Levitation}<0.832,2.659,1.539><0,0,0>
+{Mill}<0.611,2.818,1.511><0,0,-171>
+{Deeper}<0.896,2.525,1.499><0,0,180>
+{Deep}<0.872,2.408,1.512><0,0,180>
+{Puller}<0.054,0.946,0.708><0,0,0>
+{Doggy}<0,0.193,0.802><0,0,24>
+{In Front}<0.006,1.075,1.119><13,0,-90>
+{Back}<0.366,-0.352,0.628><0,0,180>
+{Arch}<0.366,-0.341,0.941><0,0,180>
+{Up and down}<1.36,-0.003,1.383><0,0,0>
+{Held}<-0.893,-0.139,1.387><0,0,180>
+{Monkey}<-0.006,-1.028,1.569><-12,0,90>
+{Pull}<1.085,0.26,1.382><0,0,0>
+{Bounce}<-1.12,-0.154,1.264><0,0,0>
+{Scissor}<0,-0.548,1.366><0,0,-90>
+{Sit Down}<0.14,-0.948,1.171><9,0,90>
+{Cowgirl Back}<0.813,-0.211,1.214><0,0,180>
+{Sideways}<1.268,-0.008,1.298><0,0,180>
+{Harder}<-1.421,-0.103,1.42><0,0,0>
+{backdoor}<-0.039,1.402,1.206><-6,0,-90>
+{grab my ass}<-0.037,1.389,1.178><0,0,-90>
+{updown ass}<-0.033,-1.219,1.23><0,0,89>
+{on your knee}<-0.001,-1.252,1.196><5,0,90>
+{pelvis dance}<-0.105,-1.242,1.226><0,0,90>
+{slowly inout}<-0.009,-1.158,1.16><6,0,90>
+{galloping}<1.147,2.153,1.499><-1.2,-1.6,144>
+{doggieblock}<0.136,0.893,0.758><0,0,0>
+{sexy openess}<-0.027,0.103,0.669><0,0,0>
+{cradle}<-0.1,-0.247,1.279><3.4,-2.1,59.1>
+{Bridge 1}<-0.152,-0.018,1.42><0,0,-89>
+{Indra}<0.12,-0.255,1.193><0,-2,0>
+{Quicky 1}<-0.059,-0.061,1.463><0,0,90>
+{Legs Up}<-0.315,0.057,1.198><0,0,0>
+{Lap 3}<-0.058,1.403,1.247><0,0,-90>
+{Intrude}<-0.075,1.129,1.364><0,0,90>
+PROP1 Massage|DaD "Sponge R"|G2|<-1.049482, 1.093275, 0.897215>|<125.999900, -0.000018, -0.000115>|Right Hand
+PROP1 Clean Up|DaD "Sponge R"|G2|<-1.049482, 1.093275, 0.897215>|<125.999900, -0.000018, -0.000115>|Right Hand
+PROP1 Bath Sponge|DaD "Sponge L"|G1|<-1.049482, 1.093275, 0.897215>|<125.999900, -0.000018, -0.000115>|Left Hand
+PROP1 Massage M|DaD "Sponge R"|G2|<-1.049482, 1.093275, 0.897215>|<125.999900, -0.000018, -0.000115>|Right Hand
+PROP1 Clean Up M|DaD "Sponge R"|G2|<-1.049482, 1.093275, 0.897215>|<125.999900, -0.000018, -0.000115>|Right Hand
+PROP1 CheersProp|Red Vine|G2|<-1.049482, 1.093275, 0.897215>|<125.999900, -0.000018, -0.000115>|Right Hand
+
+--✄--COPY ABOVE INTO "AVpos" NOTECARD--✄--
+
+
+
+end

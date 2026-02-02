@@ -1,0 +1,2542 @@
+ADJUST [INM API]|-99998|[Aeros Toggle]|-7279992
+TEXT \n                                 Nerenzo\n                          Hot Bangers Pool\n   \n    Press & hold Ctrl + s  to resync animations! \n     
+
+SITTER 0|Male|M
+TOMENU SINGLE/TALK
+TOMENU CUDDLE
+TOMENU SEX
+TOMENU FFM
+TOMENU MMF
+TOMENU MFMF
+TOMENU OPTIONS
+
+MENU OPTIONS
+BUTTON TEXTURES|215219714
+BUTTON ToggleFace|88888
+BUTTON ToggleHands|88999
+BUTTON Help/Info
+BUTTON LM2Store
+
+MENU HIDE
+SYNC on-stairs1|sS3
+
+MENU SINGLE/TALK
+TOMENU ON STAIRS
+TOMENU ON SIDE
+TOMENU JACUZZI
+TOMENU POOL
+TOMENU SWIM/FLOAT
+
+MENU ON STAIRS
+POSE on stairs1|sS3
+POSE on stairs2|sS13
+POSE on stairs3|sS25
+POSE on stairs4|sS52
+
+MENU ON SIDE
+POSE on side1|sS2
+POSE on side2|sS46
+POSE on side3|sS28
+POSE on side4|sS40
+
+MENU JACUZZI
+POSE jacuzzi1|sS6
+POSE jacuzzi2|sS14
+POSE jacuzzi3|sS15
+POSE jacuzzi4|sS18
+POSE jacuzzi5|sS33
+POSE jacuzzi6|sS20
+POSE jacuzzi7|SL1
+POSE jacuzzi8|SL2
+POSE jacuzzi9|SL6
+POSE jacuzzi10|SL17
+
+MENU POOL
+POSE pool1|1PO4
+POSE pool2|1PO5
+POSE pool3|1PO6
+POSE pool4|1PO7
+POSE pool5|1PO8
+POSE pool6|1PO9
+
+MENU SWIM/FLOAT
+POSE float1|1PO1
+POSE float2|1PO2-rot
+POSE float3|1PO3
+POSE float4|wf1
+POSE float5|wf2
+POSE float6|wf3
+POSE swim|ws2
+
+MENU CUDDLE
+TOMENU 2 ON STAIRS
+TOMENU 2 STAIRSIDE
+TOMENU 2 POOLSIDE
+TOMENU 2 WHIRLPOOL
+
+MENU 2 ON STAIRS
+SYNC lap cuddle|C1
+SYNC kiss & hug|C2
+SYNC lovers hug|C3
+SYNC claro|C4
+SYNC mima|C6
+SYNC u know|C13
+SYNC deep hug|C14
+SYNC who knows|C15
+SYNC close to ...|C17
+SYNC lovers talk|C18
+
+MENU 2 STAIRSIDE
+SYNC just us|C7
+SYNC need U now|C8
+SYNC lovers kiss|C10
+SYNC amorous|C20
+SYNC endearment|C21
+SYNC caress|C22
+SYNC lovers touch|C24
+
+MENU 2 POOLSIDE
+SYNC oh romeo|C25
+SYNC no talk|C32
+SYNC defeated|C33
+SYNC got you|C34
+SYNC one beat|C35
+SYNC 1000 years|C43
+SYNC pictures|C45
+SYNC union|C50
+SYNC your beat|C51
+SYNC our dream|C53
+
+MENU 2 WHIRLPOOL
+SYNC massage&wash|2SB15
+SYNC hair care|2SB16
+SYNC warm love|2SB17
+SYNC warm kiss|2SB18
+SYNC this moment|2SB20
+SYNC proud kiss|G1
+SYNC on you|G2
+SYNC my moon|G3
+SYNC the way|G4
+SYNC not far|G5
+SYNC bochecha|G7
+SYNC still love|G12
+SYNC like us|G14
+SYNC peace found|G15
+SYNC charming|G16
+SYNC affection|G17
+SYNC my gravity|G18
+SYNC beginning|C37
+SYNC I'm here|C41
+SYNC to remember|C48
+SYNC rare hug|C54
+
+MENU SEX
+TOMENU FOREPLAY
+TOMENU TONGUEPLAY
+TOMENU BLOWJOBS
+TOMENU FUCK
+TOMENU BUTT STUFF
+TOMENU HARD SEX
+TOMENU CUM
+
+MENU FOREPLAY
+SYNC breast play|E8
+SYNC breast lick|E2
+SYNC passenger|F8
+SYNC quake|F10
+SYNC finger front|F13
+SYNC deal|P1
+SYNC both hands|H1+
+
+MENU TONGUEPLAY
+SYNC moisten|N34
+SYNC spit & lick|N13
+SYNC lick it|N19
+SYNC eat out|N21
+SYNC high licker|N39
+SYNC nadu lick|N31
+SYNC honey dip|N3+
+
+MENU BLOWJOBS
+SYNC blow a kiss|B27
+SYNC nice lips|B8
+SYNC go(o)d girl|B20
+SYNC maid|B46
+SYNC teach you|B34+
+SYNC 45°|B2+
+SYNC lipstick|B1+
+
+MENU FUCK
+SYNC slow fun|D17
+SYNC stand behind|D25
+SYNC pussy pump|Z12
+SYNC lab dog|D31
+SYNC mr magic|V29
+SYNC paddle|D21
+SYNC lotus ride|V32
+SYNC doin' ride|R23
+SYNC flexi fuck|R29
+SYNC surge ride|R33
+SYNC butt view|R17
+SYNC overpass|R34
+SYNC starr|I7
+SYNC so intense|I11
+SYNC n-w-s|I17
+SYNC jungle|R13
+SYNC back bang|I18
+SYNC down view|I19
+SYNC loose pussy|I22
+SYNC the expat|V10
+SYNC open pussy|V12
+SYNC pace|R10b
+SYNC titty fun|T4
+
+MENU BUTT STUFF
+SYNC reverse girl|A8
+SYNC tower|A6
+SYNC doggy pump|Z17
+SYNC copafuckbana|D18
+SYNC back push|D22
+SYNC front dog|D32
+SYNC anal hungry|R30
+SYNC stiff breeze|I8
+SYNC ass plane|I9
+SYNC salsa fuck|I25
+SYNC pincer|V23
+SYNC cocklateral|V24
+SYNC side fuck|V25
+SYNC anal bot|M19
+
+MENU HARD SEX
+SYNC bride ride|R24+
+SYNC golden gate|R25+
+SYNC brookyln|R26+
+SYNC contest|R27+
+SYNC hot ride|R28+
+SYNC bridge ride|R31+
+SYNC pool fucker|R32+
+SYNC cock hostess|I2+
+SYNC I'm in|I4+
+SYNC boum boum|I16+
+SYNC hang in|I23+
+SYNC pretty fuck|I24+
+SYNC carriage|V1+
+SYNC lotus|V33+
+
+MENU CUM
+SYNC on tits&face|Z34+
+SYNC facialissimo|Z10+
+SYNC to the pool|Z1+
+SYNC spray t ass|Z32+
+SYNC ░clean░|1SB7
+
+MENU FFM
+TOMENU FFM-TALK
+TOMENU FFM-CUDDLE
+TOMENU FFM-SEX ‌
+
+MENU FFM-TALK
+TOMENU FFM-STAIRS
+TOMENU FFM-SIDE
+TOMENU FFM-JAC
+
+MENU FFM-STAIRS
+SYNC stairs1|sS52
+SYNC stairs2|sS25
+SYNC stairs3|sS13
+SYNC stairs4|sS3
+
+MENU FFM-SIDE
+SYNC side1|sS2
+SYNC side2|sS40
+SYNC side3|sS46
+SYNC side4|sS28
+
+MENU FFM-JAC
+SYNC ffm-jac1|sS14
+SYNC ffm-jac2|sS15
+SYNC ffm-jac3|sS16
+SYNC ffm-jac4|sS20
+SYNC ffm-jac5|SL1
+SYNC ffm-jac6|SL20
+SYNC ffm-jac7|SL15
+
+MENU FFM-CUDDLE
+SYNC cuddle1|W1
+SYNC cuddle2|W2
+SYNC cuddle3|W5
+SYNC cuddle4|W6
+SYNC cuddle5|W7
+SYNC cuddle6|W8
+SYNC cuddle7|W9
+SYNC cuddle8|W12
+SYNC cuddle9|W13
+SYNC cuddle10|W14
+SYNC cuddle11|W15
+SYNC cuddle12|W16
+BUTTON SWAP FF|90030|1|3
+
+MENU FFM-SEX ‌
+TOMENU FFM-FP&ORAL
+TOMENU FFM-SEX
+TOMENU FFM-CUM
+
+MENU FFM-FP&ORAL
+SYNC fingerplay|U36
+SYNC licking time|U19+
+SYNC shaft&balls|U29
+SYNC double blow|U31
+SYNC blow&lick|U21+
+BUTTON SWAP FF|90030|1|3
+
+MENU FFM-SEX
+SYNC doggy&lick|U7+
+SYNC ride&play|U12+
+SYNC fuck&dildo|U22+
+SYNC fuck&lick2|U23+
+SYNC fuck&lick3|U24+
+SYNC fuck&hold|U25+
+SYNC fuck&lick4|U26+
+SYNC ride&lick|U27
+SYNC anal&lick|U28
+SYNC doggy&lick2|U30
+SYNC fuck&finger|U34
+BUTTON SWAP FF|90030|1|3
+
+MENU FFM-CUM
+SYNC cum fun|U5
+SYNC milk on them|U32
+SYNC milk on tits|U35
+SYNC ░clean░|1SB7
+BUTTON SWAP FF|90030|1|3
+
+MENU MMF
+TOMENU MMF-TALK
+TOMENU MMF-CUDDLE
+TOMENU MMF-SEX
+
+MENU MMF-TALK
+TOMENU MMF-STAIRS
+TOMENU MMF-SIDE
+TOMENU MMF-JAC
+
+MENU MMF-STAIRS
+SYNC Stairs1|sS3
+SYNC Stairs2|sS52
+SYNC Stairs3|sS25
+SYNC Stairs4|sS6
+
+MENU MMF-SIDE
+SYNC Side1|sS2
+SYNC Side2|sS40
+SYNC Side3|sS28
+SYNC Side4|sS27
+
+MENU MMF-JAC
+SYNC mmf-jac1|SL20
+SYNC mmf-jac2|SL16
+SYNC mmf-jac3|SL13
+SYNC mmf-jac4|SL6
+SYNC mmf-jac5|SL2
+SYNC mmf-jac6|sS47
+SYNC mmf-jac7|sS51
+
+MENU MMF-CUDDLE
+SYNC Cuddle1|3E4
+SYNC Cuddle2|3E5
+SYNC Cuddle3|3E6
+SYNC Cuddle4|3E7
+SYNC Cuddle5|3E8
+SYNC Cuddle6|3E9
+SYNC Cuddle7|3E10
+SYNC Cuddle8|3E11
+SYNC Cuddle9|3E12
+BUTTON SWAP MM|90030|0|2
+
+MENU MMF-SEX
+TOMENU FP & ORAL
+TOMENU ORALFUCK
+TOMENU DOUBLEPEN
+TOMENU CUMMING
+
+MENU FP & ORAL
+SYNC wank t boys|E10+
+SYNC wank & fun|E14
+SYNC use & finger|E26
+SYNC doubleblow|E29
+SYNC double wank|E34+
+BUTTON SWAP MM|90030|0|2
+
+MENU ORALFUCK
+SYNC blow&fuck|Ex1
+SYNC blow&fuck2|E28
+SYNC wank&doggy|E4+
+SYNC fuck&blow|E6+
+SYNC blow&doggy|E7
+SYNC blow&doggy2|E9+
+SYNC blow & lick|E18
+SYNC blow&ride|E20
+SYNC fuck&use|E27
+SYNC strong fuck|E31+
+SYNC ride&blow|E37+
+SYNC blow&anal|E44+
+SYNC ride play|E45+
+BUTTON SWAP MM|90030|0|2
+
+MENU DOUBLEPEN
+SYNC double1|E2+
+SYNC double2|E3+
+SYNC double3|E5+
+SYNC double4|E17
+SYNC double5|E19
+SYNC double6|E23
+SYNC double7|E24
+BUTTON SWAP MM|90030|0|2
+
+MENU CUMMING
+SYNC wank on her|E13+
+SYNC double cum|E16
+SYNC wank on her2|E25
+SYNC ░clean░|1SB7
+BUTTON SWAP MM|90030|0|2
+
+MENU MFMF
+TOMENU MFMF-TALK
+TOMENU 4CUDDLE
+TOMENU 4SEX
+
+MENU MFMF-TALK
+TOMENU MFMF-STAIRS
+TOMENU MFMF-SIDE
+TOMENU MFMF-JAC
+
+MENU MFMF-STAIRS
+SYNC on-stairs1|sS3
+SYNC on-stairs2|sS44
+SYNC on-stairs3|sS25
+SYNC on-stairs4|sS30
+
+MENU MFMF-SIDE
+SYNC on-side1|sS2
+SYNC on-side2|sS40
+SYNC on-side3|sS26
+SYNC on-side4|sS51
+
+MENU MFMF-JAC
+SYNC 4jacuzzi1|sS14
+SYNC 4jacuzzi2|sS6
+SYNC 4jacuzzi3|sS15
+SYNC 4jacuzzi4|SL6
+SYNC 4jacuzzi5|SL7
+SYNC 4jacuzzi6|SL16
+SYNC 4jacuzzi7|SL20
+
+MENU 4CUDDLE
+TOMENU 4STAIRS
+TOMENU 4ON SIDE
+TOMENU 4-WHIRLPOOL 
+
+MENU 4STAIRS
+SYNC 4on stairs1|C2
+SYNC 4on stairs2|C15
+SYNC 4on stairs3|C17
+SYNC 4on stairs4|C5
+SYNC 4on stairs5|C1
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU 4ON SIDE
+SYNC 4on side1|C31
+SYNC 4on side2|C33
+SYNC 4on side3|C36
+SYNC 4on side4|C35
+SYNC 4on side5|C32
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU 4-WHIRLPOOL 
+SYNC 4 WP |2SB17
+SYNC 4 WP 2|2SB19
+SYNC 4 WP 3|G4
+SYNC 4 WP 4|G13
+SYNC 4 WP 5|G12
+SYNC 4 WP 6|G6
+SYNC 4 WP 7|C38
+SYNC 4 WP 8|C37
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU 4SEX
+TOMENU 4FOREPLAY
+TOMENU 4ORAL
+TOMENU ORAL&FUCK
+TOMENU DOUBLE&PLAY
+TOMENU FUCK&FUCK1
+TOMENU FUCK&FUCK2
+TOMENU 4CUM
+
+MENU 4FOREPLAY
+SYNC tits play|E2
+SYNC play&finger|P2
+SYNC finger&play|F13
+SYNC wank&finger|H2
+SYNC finger&wank|F10
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU 4ORAL
+SYNC blow blow|B5
+SYNC blow blow2|B20
+SYNC blow lick1|B38
+SYNC blow lick2|B46
+SYNC lick blow|N17
+SYNC lick blow2|N7a
+SYNC lick lick|N10
+SYNC lick lick2|N31
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU ORAL&FUCK
+SYNC lick fuck|N3
+SYNC lick fuck2|N16
+SYNC blow fuck|B27
+SYNC blow fuck2|B34
+SYNC blow fuck3|B8
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU DOUBLE&PLAY
+SYNC MMF&play1|E2+
+SYNC MMF&play2|E3+
+SYNC MMF&play3|E17
+SYNC MMF&play4|E19
+SYNC MMF&play5|E23
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU FUCK&FUCK1
+SYNC 4sex1|D21
+SYNC 4sex2|V33
+SYNC 4sex3|I2
+SYNC 4sex4|V29
+SYNC 4sex5|M19
+SYNC 4sex6|I18
+SYNC 4sex7|R25
+SYNC 4sex8|T4
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU FUCK&FUCK2
+SYNC 4sex9|Z17
+SYNC 4sex10|R29
+SYNC 4sex11|R36
+SYNC 4sex12|R31
+SYNC 4sex13|D7+
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU 4CUM
+SYNC 4cum1|Z28+
+SYNC 4cum2|Z32+
+SYNC 4cum3|Z1+
+SYNC ░clean░|1SB7
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+{on stairs1}<-1.385,-6.151,0.664><1.8,0.8,112>
+{on stairs2}<-0.337,-5.207,0.414><0,0,180>
+{on stairs3}<-2.237,-5.532,1.04><20,0,90>
+{on stairs4}<-2.514,-5.628,0.836><0,0,90>
+{on side1}<-5.483,-0.093,0.881><0,0,14>
+{on side2}<-5.638,-0.063,0.909><0.3,-3,5>
+{on side3}<-5.204,0,0.983><0,-2,0>
+{on side4}<-5.341,0,1.151><0,-5,-90>
+{jacuzzi1}<-0.497,6.51,0.484><7,-0,-90>
+{jacuzzi2}<-0.857,7.716,0.563><0,0,-73>
+{jacuzzi3}<-0.64,7.131,0.607><0,0,-90>
+{jacuzzi4}<-0.881,7.788,0.57><0,0,-77>
+{jacuzzi5}<-0.997,7.593,0.59><2.9,1.9,-44>
+{jacuzzi6}<-0.484,6.904,0.553><0,0,180>
+{jacuzzi7}<-0.727,7.691,0.8><0,0,-90>
+{jacuzzi8}<-0.586,7.809,0.411><0,0,-90>
+{jacuzzi9}<-0.696,7.805,0.469><4,0,-90>
+{jacuzzi10}<-1.067,7.651,0.622><0,0,-90>
+{pool1}<-4.576,-0.346,0.55><0,-28,0>
+{pool2}<-4.495,-0.125,0.686><5,-34,-180>
+{pool3}<-4.55,-0.297,0.465><0,-14,180>
+{pool4}<-4.713,-0.141,0.369><0,0,180>
+{pool5}<-4.798,-0.474,0.462><0,-11,0>
+{pool6}<-4.625,-0.34,0.428><0,-11,180>
+{float1}<-2.565,3.768,0.82><0,0,-57>
+{float2}<-2.679,3.421,0.786><0,0,0>
+{float3}<-2.97,3.475,0.807><0,0,0>
+{float4}<-2.602,3.731,1.238><1,0,-68>
+{float5}<-2.623,3.697,1.242><0,0,-61>
+{float6}<-2.581,3.656,0.604><0,0,-73.1>
+{swim}<-2.722,3.577,0.65><0,0,0>
+{Stairs1}<-3.034,-6.151,0.664><1.8,-0.9,62>
+{Stairs2}<-2.873,-5.628,0.836><0,0,74>
+{Stairs3}<-1.89,-5.532,1.04><20,0,90>
+{Stairs4}<-2.176,-6.188,0.672><2,0,90>
+{Side1}<-5.483,0.026,0.881><0,0,0>
+{Side2}<-5.341,0,1.151><0,-5,-90>
+{Side3}<-5.204,-0.067,0.983><0,-2,0>
+{Side4}<-5.055,-0.088,0.681><0,0,0>
+{mmf-jac1}<-1.019,7.406,0.927><0,0,-90>
+{mmf-jac2}<-1.375,7.723,0.6><0,0,-94>
+{mmf-jac3}<-0.943,7.094,0.719><4,0,-90>
+{mmf-jac4}<-0.888,7.828,0.469><4,0,-90>
+{mmf-jac5}<-0.939,7.809,0.411><0,0,-90>
+{mmf-jac6}<-1.707,7.329,0.627><0,0,-73>
+{mmf-jac7}<-0.953,6.225,0.627><0,0,-69>
+{stairs1}<-1.871,-5.628,0.836><0,0,90>
+{stairs2}<-1.707,-5.532,1.04><20,0,90>
+{stairs3}<-3.199,-5.246,0.414><0,0,0>
+{stairs4}<-2.071,-6.145,0.658><2.9,0.5,90>
+{side1}<-5.483,0.591,0.881><0,0,7>
+{side2}<-5.341,0.699,1.151><0,-5,-90>
+{side3}<-5.638,0.653,0.909><0,-3,0>
+{side4}<-5.204,0.61,0.983><0,-2,0>
+{ffm-jac1}<-0.173,7.681,0.613><3.9,1.1,-90>
+{ffm-jac2}<-0.269,7.662,0.591><0,0,-90>
+{ffm-jac3}<-0.254,7.579,0.613><0,2,-90>
+{ffm-jac4}<-0.127,6.811,0.553><0,0,180>
+{ffm-jac5}<-0.254,7.691,0.8><0,0,-90>
+{ffm-jac6}<-0.261,7.406,0.927><0,0,-90>
+{ffm-jac7}<-0.792,7.104,0.628><0,0,-90>
+{on-stairs1}<-3.468,-6.099,0.664><2.8,-0.9,62>
+{on-stairs2}<-0.497,-6.235,0.702><10,0,102>
+{on-stairs3}<-2.626,-5.532,1.04><20,0,90>
+{on-stairs4}<-0.164,-3.708,0.734><0,0,-171.3>
+{on-side1}<-5.483,-0.081,0.881><0,0,7>
+{on-side2}<-5.341,0,1.151><0,-5,-90>
+{on-side3}<-5.058,-0.182,1.348><0,0,4>
+{on-side4}<-5.015,-0.098,1.029><0,0,0>
+{4jacuzzi1}<0.612,7.681,0.613><0,0,-103>
+{4jacuzzi2}<-0.492,6.51,0.484><7,0.4,-87>
+{4jacuzzi3}<0.373,7.662,0.607><0,0,-90>
+{4jacuzzi4}<-1.224,7.805,0.469><4,0,-90>
+{4jacuzzi5}<-1.162,7.784,0.375><0,0,-90>
+{4jacuzzi6}<-1.675,7.709,0.6><0,0,-90>
+{4jacuzzi7}<-1.173,7.406,0.927><0,0,-90>
+{pussy pump}<-0.135,5.951,0.712><5,0,106.9>
+{slow fun}<-0.53,6.95,1.334><0,0,-90>
+{paddle}<-0.486,6.892,0.957><1,-0.3,-106.9>
+{stand behind}<-0.295,5.606,0.653><6,0,90>
+{lab dog}<-0.126,7.555,0.492><0,0,-105>
+{pace}<-0.131,7.848,0.885><0,0,-91.6>
+{jungle}<-0.687,7.072,0.656><-2,0,-90>
+{butt view}<-0.215,7.195,0.774><1,0,-90>
+{doin' ride}<-0.2,7.179,0.874><0,0,-90>
+{flexi fuck}<0.148,7.003,0.955><1.4,1.5,-43>
+{surge ride}<0.202,7.157,0.966><0.8,1.8,-24>
+{overpass}<0.432,7.329,0.996><0,3,0>
+{starr}<-0.472,5.389,0.704><0,0,-45>
+{so intense}<-1.184,5.654,0.68><0,0,-50>
+{n-w-s}<-0.808,5.441,0.69><0,0,-50>
+{back bang}<-0.53,7.278,1.689><0,0,-53>
+{down view}<-0.875,7.713,1.667><0,0,-51>
+{loose pussy}<-0.118,5.513,0.685><0,0,101.3>
+{the expat}<-0.788,7.132,0.613><0,0,-48>
+{open pussy}<0.242,8.591,0.844><0,0,-90>
+{mr magic}<-0.195,7.229,0.963><0,0,-90>
+{lotus ride}<-0.276,7.308,0.98><0,0,-140.6>
+{titty fun}<-0.361,7.567,1.668><0,0,-53>
+{tower}<0.179,7.185,0.751><0,0,67.5>
+{reverse girl}<-0.253,6.78,0.694><0,0,-90>
+{doggy pump}<-0.408,6.006,0.721><0,0,90>
+{copafuckbana}<-0.136,7.141,0.962><4.2,2.7,-147.5>
+{back push}<-0.347,7.04,1.018><0,0,-106.9>
+{front dog}<-0.064,7.909,0.448><0,0,-104>
+{anal hungry}<0.432,7.171,0.949><0.5,1.9,-14>
+{stiff breeze}<-1.511,5.596,0.751><0,0,33.7>
+{ass plane}<-0.855,5.507,0.69><0,0,39.4>
+{salsa fuck}<-1.002,5.601,0.712><0,0,-41>
+{pincer}<-1.583,6.752,0.729><0,0,46.5>
+{cocklateral}<-0.031,7.563,0.739><0,0,174.4>
+{side fuck}<-0.146,7.37,0.756><0,0,180>
+{anal bot}<-0.194,7.962,0.46><0,0,-90>
+{bride ride}<0.432,7.393,0.965><0,4,0>
+{golden gate}<0.432,7.221,0.988><0,4,0>
+{brookyln}<0.432,7.205,0.978><0,3,0>
+{contest}<-0.231,6.987,0.966><0,0-67.5>
+{hot ride}<-0.334,7.348,0.964><0,0,-146.7>
+{bridge ride}<0.432,7.237,0.959><0,4,0>
+{pool fucker}<-0.02,7.5,0.921><0,0,-168.7>
+{cock hostess}<-0.685,5.246,0.694><0,0,133.7>
+{I'm in}<-1.448,5.587,0.73><0,0,6>
+{boum boum}<-0.975,5.898,0.693><0,0,-52>
+{hang in}<-1.103,5.466,0.76><0,0,-59>
+{pretty fuck}<-0.77,5.505,0.707><0,0,-25>
+{carriage}<-0.168,7.59,0.609><0,0,151.9>
+{lotus}<-0.256,7.159,0.937><0,0,-139>
+{on tits&face}<0.362,7.001,0.418><0,0,164>
+{facialissimo}<-0.393,7.027,1.627><0,0,-151>
+{to the pool}<-0.683,7.593,0.548><0,-2,-90>
+{spray t ass}<0.1,5.602,0.939><7,0,90>
+{░clean░}<0.141,6.993,1.728><0,0,-118.6>
+{lap cuddle}<-3.226,-5.648,0.508><0,0,90>
+{kiss & hug}<-3.294,-5.672,0.509><0,0,65>
+{lovers hug}<-3.095,-5.67,0.491><3,0,90>
+{claro}<-2.944,-5.663,0.501><0,0,90>
+{mima}<-3.367,-5.767,0.511><0,0,90>
+{u know}<-2.579,-5.955,0.45><14,0,90>
+{deep hug}<-2.579,-5.955,0.45><14,0,90>
+{who knows}<-2.579,-5.955,0.45><14,0,90>
+{close to ...}<-2.579,-5.955,0.45><14,0,90>
+{lovers talk}<-2.579,-5.873,0.45><14,0,90>
+{just us}<-4.227,-4.442,0.992><0,-11,0>
+{need U now}<-4.266,-4.277,0.999><0,-14,0>
+{lovers kiss}<-4.227,-4.42,0.981><0,-16,0>
+{amorous}<-4.294,-4.329,0.992><0,0,0>
+{endearment}<-4.342,-4.85,1.001><0,0,1>
+{caress}<-4.342,-4.523,0.918><0,0,0>
+{lovers touch}<-4.256,-4.545,0.984><0,2,0>
+{oh romeo}<-5.464,2.1,0.952><0,-5,0>
+{no talk}<-5.173,2.008,0.959><0.6,0,0>
+{defeated}<-5.173,2.008,0.959><0.6,0,0>
+{got you}<-5.173,2.008,0.959><0.6,0,0>
+{one beat}<-5.328,2.008,0.959><0.6,0,18>
+{1000 years}<-5.529,2.076,1.359><0,0,0>
+{pictures}<-5.48,2.076,1.359><0,0,2>
+{union}<-5.351,2.14,1.287><0,0,0>
+{your beat}<-5.487,2.14,1.373><0,0,0>
+{our dream}<-5.253,2.178,1.307><0,0,0>
+{massage&wash}<-0.197,8.065,0.475><0,0,-90>
+{hair care}<-0.268,8.022,0.459><0,0,-90>
+{warm love}<-0.213,7.91,0.519><3,0,-90>
+{warm kiss}<-0.224,7.885,0.495><1,0,-90>
+{this moment}<-0.222,7.883,0.489><0,0,-90>
+{proud kiss}<-0.82,7.97,0.606><-2,0,-90>
+{on you}<-0.966,7.994,0.587><0,0,-90>
+{my moon}<-0.82,7.955,0.611><0,0,-90>
+{the way}<-0.659,7.912,0.576><0,0,-90>
+{not far}<-0.796,7.912,0.629><0,0,-90>
+{bochecha}<-0.426,7.626,0.587><0,0,-84.4>
+{still love}<-0.3,7.912,0.571><0,0,-162.8>
+{like us}<-0.206,7.778,0.4><0,0,-90>
+{peace found}<-0.169,7.777,0.401><0,0,-90>
+{charming}<-0.254,7.801,0.382><0,0,-90>
+{affection}<-0.132,7.768,0.408><0,0,-90>
+{my gravity}<-0.144,7.743,0.404><0,0,-90>
+{beginning}<-0.308,6.387,0.54><0,1.7,-98.8>
+{I'm here}<-0.308,6.387,0.54><0,1.7,-98.8>
+{to remember}<-0.411,6.633,0.981><0,0,-90>
+{rare hug}<-0.146,6.427,0.923><0,0,-95.6>
+{breast play}<-0.218,6.435,0.928><0,0,-90>
+{breast lick}<-0.267,6.624,1.018><0,0,-90>
+{passenger}<-0.19,6.683,0.482><-4,0,-90>
+{quake}<-0.207,6.517,0.774><0,0,180>
+{finger front}<-0.205,7.315,0.727><0,0,-90>
+{deal}<-0.32,7.687,0.623><0,0,-141>
+{both hands}<-0.358,7.523,1.734><0,0,-90>
+{moisten}<-0.248,6.918,0.9><0,0,-90>
+{spit & lick}<0.276,7.224,0.842><0,0,123.7>
+{lick it}<0.066,7.386,0.720><-2,0.1,176>
+{eat out}<-0.128,8.63,1.406><-2,0,90>
+{high licker}<-0.330,6.945,0.955><0,0,-69>
+{nadu lick}<-0.376,7.094,1.617><0,0,45>
+{honey dip}<0.616,6.975,0.610><0,0,64>
+{blow a kiss}<-0.027,6.747,0.692><0,0,-90>
+{nice lips}<-0.429,6.472,0.739><0,0,-164>
+{go(o)d girl}<-0.088,7.395,0.713><0,0,-90>
+{maid}<-0.265,7.847,0.53><0,0,-90>
+{teach you}<-0.111,6.487,1.012><0,0,90>
+{45°}<-0.36,7.17,0.616><0,0,-9>
+{lipstick}<-0.157,7.677,1.725><0,0,90>
+{cuddle1}<0.131,7.333,0.521><1.6,2.5,-123>
+{cuddle2}<-0.345,7.478,0.477><0,0,-90>
+{cuddle3}<-0.129,6.483,0.933><0,0,-90>
+{cuddle4}<-0.428,6.607,0.936><0,0,-95.6>
+{cuddle5}<-0.181,6.426,0.982><0,0,-90>
+{cuddle6}<-0.261,6.571,0.945><0,0,-90>
+{cuddle7}<0.2,7.261,0.693><0,0,-151.9>
+{cuddle8}<-0.177,6.722,0.685><1,0,-90>
+{cuddle9}<-3.854,6.846,0.775><0,0,-52>
+{cuddle10}<-3.893,6.797,0.845><0,0,-135>
+{cuddle11}<-3.986,7.165,0.715><0,0,-45>
+{cuddle12}<-3.709,6.954,0.774><0,0,-135>
+{licking time}<-0.055,6.381,1.061><12,0,-90>
+{shaft&balls}<-1.169,6.944,0.947><0,0,16>
+{double blow}<-0.219,7.305,1.537><0,0,-72>
+{fingerplay}<-0.570,7.296,0.876><0,0,72.5>
+{doggy&lick}<0.184,9.078,1.063><0,0,-5>
+{ride&play}<-0.121,6.759,0.713><-2,0,-90>
+{blow&lick}<-1.003,7.385,1.687><-0.5,-4,-7>
+{fuck&dildo}<-0.168,7.223,1.705><0,0,-151.9>
+{fuck&lick2}<-0.248,7.608,1.657><0,0,-39.4>
+{fuck&lick3}<-0.805,7.149,1.7><0,-4,7>
+{fuck&hold}<-0.56,7.167,1.631><0.6,-7,5>
+{fuck&lick4}<-0.845,7.261,1.713><0,-5,0>
+{ride&lick}<0.029,7.101,0.51><0,0,-90>
+{anal&lick}<0.557,9.048,1.57><0,0,-179.5>
+{doggy&lick2}<0.696,7.26,1.038><0,0,180>
+{fuck&finger}<-0.449,7.389,0.789><0,0,16>
+{cum fun}<0.432,9.169,1.628><0,0,180>
+{milk on them}<0.06,7.706,1.598><0,0,-112>
+{milk on tits}<-0.17,7.509,0.964><-0.2,0.2,99>
+{Cuddle1}<0.27,7.435,0.658><0,0,-90>
+{Cuddle2}<0.204,6.474,0.913><0,0,-90>
+{Cuddle3}<-2.61,8.676,1.384><0,0,-90>
+{Cuddle4}<0.515,6.512,0.945><0,0,-90>
+{Cuddle5}<0.341,6.5,0.966><0,0,-90>
+{Cuddle6}<-0.526,6.472,0.806><0,0,-103>
+{Cuddle7}<-0.76,6.266,0.879><0,0,-90>
+{Cuddle8}<-0.749,6.153,0.835><0,0,-100>
+{Cuddle9}<-0.525,6.401,0.828><0,0,0>
+{wank t boys}<-0.485,7.287,0.647><0,0,-90>
+{wank & fun}<0.12,7.487,1.757><4.7,1.8,-90>
+{use & finger}<-0.545,7.534,0.951><0.2,-1,11>
+{doubleblow}<-0.594,7.498,1.596><0,0,-90.1>
+{double wank}<-0.474,8.5,1.382><-15,0,-90>
+{blow&fuck}<0.403,7.407,1.033><0,0,-80>
+{blow&fuck2}<0.171,7.432,0.894><0,0,180>
+{wank&doggy}<0.082,7.261,0.973><0,0,-65>
+{fuck&blow}<-0.066,7.163,0.653><0,0,-43>
+{blow&doggy}<-0.104,7.755,0.662><0,0,9>
+{blow&doggy2}<-0.215,4.855,0.744><-2,0,108>
+{blow & lick}<-0.778,6.943,1.708><0,0,20>
+{blow&ride}<0.088,6.772,1.619><0,0,104>
+{fuck&use}<0.187,8.983,1.265><0,0,180>
+{strong fuck}<-0.542,7.368,1.683><0,0,-28>
+{ride&blow}<-0.994,8.849,1.411><-9,0,-90>
+{blow&anal}<-0.617,6.184,1.051><0,0,-175>
+{ride play}<0.071,6.163,1.074><0,0,-157>
+{double1}<-0.348,7.227,1.013><0,0,-114>
+{double2}<-0.306,7.557,0.988><0,0,-178>
+{double3}<0.042,9.601,1.099><0,0,-1>
+{double4}<-2.986,6.125,0.712><0,0,22>
+{double5}<-0.195,7.215,0.817><0,0,12>
+{double6}<-2.095,6.173,0.558><0,0,-147>
+{double7}<-0.151,8.353,0.91><-4,0,-90>
+{wank on her}<-0.234,9.183,1.545><0,0,137>
+{double cum}<-0.248,7.321,0.714><1.3,-0.4,-17.7>
+{wank on her2}<-0.653,7.482,1.586><0,0,-90>
+{4on stairs1}<-3.294,-5.67,0.509><0,0,65>
+{4on stairs2}<-1.66,-5.955,0.45><14,0,90>
+{4on stairs3}<-1.225,-5.955,0.45><14,0,90>
+{4on stairs4}<-1.409,-5.742,0.473><5.9,1.1,100>
+{4on stairs5}<-3.505,-5.648,0.508><0,0,90>
+{4on side1}<-5.173,2.008,0.959><0.6,0,0>
+{4on side2}<-5.173,0.406,0.959><0.6,0,0>
+{4on side3}<-5.267,-0.212,0.959><0.6,0,0>
+{4on side4}<-5.328,-0.205,0.959><0.6,0,18>
+{4on side5}<-5.173,0.753,0.959><0.6,0,0>
+{4 WP }<-0.634,7.91,0.519><3,0,-90>
+{4 WP 2}<-0.707,7.897,0.487><0,0,-90>
+{4 WP 3}<-1.049,7.912,0.576><0,0,-90>
+{4 WP 4}<-0.599,7.768,0.386><0,0,-103>
+{4 WP 5}<-0.655,7.912,0.571><0,0,-162.8>
+{4 WP 6}<-1.38,7.947,0.626><0,0,-92>
+{4 WP 7}<-0.913,6.387,0.54><0,1.7,-98.8>
+{4 WP 8}<-1.001,6.387,0.54><-0.6,1.6,-77.8>
+{tits play}<-0.752,6.624,1.018><0,0,-90>
+{play&finger}<-1.051,6.481,0.527><0,0,-90>
+{finger&play}<-0.688,7.315,0.766><0,0,-90>
+{wank&finger}<-0.424,7.431,0.523><0,0,174.4>
+{finger&wank}<-0.708,6.546,0.774><0,0,180>
+{blow blow}<0.225,7.166,0.401><0,0,0>
+{blow blow2}<0.315,7.484,0.725><0,0,13>
+{blow lick1}<0.663,6.618,1.632><0,0,144.1>
+{blow lick2}<0.183,7.878,0.530><0,0,-90>
+{lick blow}<0.05,7.142,0.749><0,0,129.4>
+{lick blow2}<-0.387,6.912,1.647><4.1,4.3,136.8>
+{lick lick}<-0.659,8.524,0.868><-3,0,-90>
+{lick lick2}<-0.375,6.354,1.617><0,0,140.6>
+{lick fuck}<1.116,6.963,0.655><0,0,64>
+{lick fuck2}<-0.196,8.833,1.117><0,0,180>
+{blow fuck}<0.282,6.747,0.692><0,0,-90>
+{blow fuck2}<-0.094,6.487,1.012><0,0,90>
+{blow fuck3}<-0.429,6.472,0.739><0,0,-164>
+{MMF&play1}<-0.348,7.227,1.013><0,0,-114>
+{MMF&play2}<-0.306,7.557,0.988><0,0,-178>
+{MMF&play3}<-3.717,6.854,0.712><0,0,22>
+{MMF&play4}<-0.195,7.215,0.817><0,0,12>
+{MMF&play5}<-2.839,6.888,0.558><0,0,-146>
+{4sex1}<0.045,6.892,0.965><0.7,-0.8,-137.9>
+{4sex2}<0.626,7.159,0.937><0,0,-156>
+{4sex3}<-0.79,5.291,0.682><0,0,133.7>
+{4sex4}<-1.121,7.021,0.963><0,0,37>
+{4sex5}<0.19,7.962,0.46><0,0,-90>
+{4sex6}<0.223,7.728,1.66><0,0,-129.4>
+{4sex7}<0.575,7.023,0.988><0.3,4,-5>
+{4sex8}<-0.79,7.278,1.668><0,0,-53>
+{4sex9}<-1.135,6.255,0.721><0,0,56>
+{4sex10}<0.217,6.997,0.953><1.4,1.5,-95>
+{4sex11}<0.499,6.981,0.981><0,0,-61.5>
+{4sex12}<-0.78,7.095,0.959><1.2,3.8,-17>
+{4sex13}<0.409,8.544,0.806><-4,0,-90>
+{4cum1}<-0.510,6.423,0.957><6.1,2.1,-118.7>
+{4cum2}<0.184,5.878,0.899><7,0,90>
+{4cum3}<-0.842,7.593,0.577><-1.2,-1.6,-127>
+PROP cl|cloud|G65|<-0.2,7.065,3.5>|<0,0,0>|
+
+SITTER 1|Female|F
+TOMENU SINGLE/TALK
+TOMENU CUDDLE
+TOMENU SEX
+TOMENU FFM
+TOMENU MMF
+TOMENU MFMF
+TOMENU OPTIONS
+
+MENU OPTIONS
+BUTTON TEXTURES|215219714
+BUTTON ToggleFace|88888
+BUTTON ToggleHands|88999
+BUTTON Help/Info
+BUTTON LM2Store
+
+MENU HIDE
+SYNC on-stairs1|ss6
+
+MENU SINGLE/TALK
+TOMENU ON STAIRS
+TOMENU ON SIDE
+TOMENU JACUZZI
+TOMENU POOL
+TOMENU SWIM/FLOAT
+
+MENU ON STAIRS
+POSE on stairs1|ss6
+POSE on stairs2|ss3
+POSE on stairs3|ss37
+POSE on stairs4|ss53
+
+MENU ON SIDE
+POSE on side1|ss41
+POSE on side2|ss56
+POSE on side3|ss22
+POSE on side4|ss25
+
+MENU JACUZZI
+POSE jacuzzi1|ss42
+POSE jacuzzi2|ss7
+POSE jacuzzi3|ss12
+POSE jacuzzi4|ss14
+POSE jacuzzi5|ss17
+POSE jacuzzi6|ss15
+POSE jacuzzi7|sl11
+POSE jacuzzi8|sl10
+POSE jacuzzi9|sl14
+POSE jacuzzi10|sl15
+
+MENU POOL
+POSE pool1|1PO4
+POSE pool2|1PO5
+POSE pool3|1PO6
+POSE pool4|1PO7
+POSE pool5|1PO8
+POSE pool6|1PO9
+
+MENU SWIM/FLOAT
+POSE float1|1PO1
+POSE float2|1PO2-rot
+POSE float3|1PO3
+POSE float4|wf1
+POSE float5|wf2
+POSE float6|wf3
+POSE swim|ws2
+
+MENU CUDDLE
+TOMENU 2 ON STAIRS
+TOMENU 2 STAIRSIDE
+TOMENU 2 POOLSIDE
+TOMENU 2 WHIRLPOOL
+
+MENU 2 ON STAIRS
+SYNC lap cuddle|c1
+SYNC kiss & hug|c2
+SYNC lovers hug|c3
+SYNC claro|c4
+SYNC mima|c6
+SYNC u know|c13
+SYNC deep hug|c14
+SYNC who knows|c15
+SYNC close to ...|c17
+SYNC lovers talk|c18
+
+MENU 2 STAIRSIDE
+SYNC just us|c7
+SYNC need U now|c8
+SYNC lovers kiss|c10
+SYNC amorous|c20
+SYNC endearment|c21
+SYNC caress|c22
+SYNC lovers touch|c24
+
+MENU 2 POOLSIDE
+SYNC oh romeo|c25
+SYNC no talk|c32
+SYNC defeated|c33
+SYNC got you|c34
+SYNC one beat|c35
+SYNC 1000 years|c43
+SYNC pictures|c45
+SYNC union|c50
+SYNC your beat|c51
+SYNC our dream|c53
+
+MENU 2 WHIRLPOOL
+SYNC massage&wash|2sb15
+SYNC hair care|2sb16
+SYNC warm love|2sb17
+SYNC warm kiss|2sb18
+SYNC this moment|2sb20
+SYNC proud kiss|g1
+SYNC on you|g2
+SYNC my moon|g3
+SYNC the way|g4
+SYNC not far|g5
+SYNC bochecha|g7
+SYNC still love|g12
+SYNC like us|g14
+SYNC peace found|g15
+SYNC charming|g16
+SYNC affection|g17
+SYNC my gravity|g18
+SYNC beginning|c37
+SYNC I'm here|c41
+SYNC to remember|c48
+SYNC rare hug|c54
+
+MENU SEX
+TOMENU FOREPLAY
+TOMENU TONGUEPLAY
+TOMENU BLOWJOBS
+TOMENU FUCK
+TOMENU BUTT STUFF
+TOMENU HARD SEX
+TOMENU CUM
+
+MENU FOREPLAY
+SYNC breast play|e8
+SYNC breast lick|e2
+SYNC passenger|f8
+SYNC quake|f10
+SYNC finger front|f13
+SYNC deal|p1
+SYNC both hands|h1+
+
+MENU TONGUEPLAY
+SYNC moisten|n34
+SYNC spit & lick|n13
+SYNC lick it|n19
+SYNC eat out|n21
+SYNC high licker|n39
+SYNC nadu lick|n31
+SYNC honey dip|n3+
+
+MENU BLOWJOBS
+SYNC blow a kiss|b27
+SYNC nice lips|b8
+SYNC go(o)d girl|b20
+SYNC maid|b46
+SYNC teach you|b34+
+SYNC 45°|b2+
+SYNC lipstick|b1+
+
+MENU FUCK
+SYNC slow fun|d17
+SYNC stand behind|d25
+SYNC pussy pump|z12
+SYNC lab dog|d31
+SYNC mr magic|v29
+SYNC paddle|d21
+SYNC lotus ride|v32
+SYNC doin' ride|r23
+SYNC flexi fuck|r29
+SYNC surge ride|r33
+SYNC butt view|r17
+SYNC overpass|r34
+SYNC starr|i7
+SYNC so intense|i11
+SYNC n-w-s|i17
+SYNC jungle|r13
+SYNC back bang|i18
+SYNC down view|i19
+SYNC loose pussy|i22
+SYNC the expat|v10
+SYNC open pussy|v12
+SYNC pace|r10b
+SYNC titty fun|t4
+
+MENU BUTT STUFF
+SYNC reverse girl|a8
+SYNC tower|a6
+SYNC doggy pump|z17
+SYNC copafuckbana|d18
+SYNC back push|d22
+SYNC front dog|d32
+SYNC anal hungry|r30
+SYNC stiff breeze|i8
+SYNC ass plane|i9
+SYNC salsa fuck|i25
+SYNC pincer|v23
+SYNC cocklateral|v24
+SYNC side fuck|v25
+SYNC anal bot|m19
+
+MENU HARD SEX
+SYNC bride ride|r24+
+SYNC golden gate|r25+
+SYNC brookyln|r26+
+SYNC contest|r27+
+SYNC hot ride|r28+
+SYNC bridge ride|r31+
+SYNC pool fucker|r32+
+SYNC cock hostess|i2+
+SYNC I'm in|i4+
+SYNC boum boum|i16+
+SYNC hang in|i23+
+SYNC pretty fuck|i24+
+SYNC carriage|v1+
+SYNC lotus|v33+
+
+MENU CUM
+SYNC on tits&face|z34
+SYNC facialissimo|z10
+SYNC to the pool|z1+
+SYNC spray t ass|z32
+SYNC ░clean░|1sb12
+
+MENU FFM
+TOMENU FFM-TALK
+TOMENU FFM-CUDDLE
+TOMENU FFM-SEX ‌
+
+MENU FFM-TALK
+TOMENU FFM-STAIRS
+TOMENU FFM-SIDE
+TOMENU FFM-JAC
+
+MENU FFM-STAIRS
+SYNC stairs1|ss3
+SYNC stairs2|ss34
+SYNC stairs3|ss47
+SYNC stairs4|ss6
+
+MENU FFM-SIDE
+SYNC side1|ss5
+SYNC side2|ss43
+SYNC side3|ss27
+SYNC side4|ss26
+
+MENU FFM-JAC
+SYNC ffm-jac1|ss7
+SYNC ffm-jac2|ss12
+SYNC ffm-jac3|ss16
+SYNC ffm-jac4|ss36
+SYNC ffm-jac5|sl11
+SYNC ffm-jac6|sl14
+SYNC ffm-jac7|sl15
+
+MENU FFM-CUDDLE
+SYNC cuddle1|w1
+SYNC cuddle2|w2
+SYNC cuddle3|w5
+SYNC cuddle4|w6
+SYNC cuddle5|w7
+SYNC cuddle6|w8
+SYNC cuddle7|w9
+SYNC cuddle8|w12
+SYNC cuddle9|w13
+SYNC cuddle10|w14
+SYNC cuddle11|w15
+SYNC cuddle12|w16
+BUTTON SWAP FF|90030|1|3
+
+MENU FFM-SEX ‌
+TOMENU FFM-FP&ORAL
+TOMENU FFM-SEX
+TOMENU FFM-CUM
+
+MENU FFM-FP&ORAL
+SYNC fingerplay|u36
+SYNC licking time|u19+
+SYNC shaft&balls|u29
+SYNC double blow|u31
+SYNC blow&lick|u21+
+BUTTON SWAP FF|90030|1|3
+
+MENU FFM-SEX
+SYNC doggy&lick|u7+
+SYNC ride&play|u12+
+SYNC fuck&dildo|u22+
+SYNC fuck&lick2|u23+
+SYNC fuck&lick3|u24+
+SYNC fuck&hold|u25+
+SYNC fuck&lick4|u26+
+SYNC ride&lick|u27
+SYNC anal&lick|u28
+SYNC doggy&lick2|u30
+SYNC fuck&finger|u34
+BUTTON SWAP FF|90030|1|3
+
+MENU FFM-CUM
+SYNC cum fun|u5
+SYNC milk on them|u32
+SYNC milk on tits|u35
+SYNC ░clean░|1sb12
+BUTTON SWAP FF|90030|1|3
+
+MENU MMF
+TOMENU MMF-TALK
+TOMENU MMF-CUDDLE
+TOMENU MMF-SEX
+
+MENU MMF-TALK
+TOMENU MMF-STAIRS
+TOMENU MMF-SIDE
+TOMENU MMF-JAC
+
+MENU MMF-STAIRS
+SYNC Stairs1|ss3
+SYNC Stairs2|ss6
+SYNC Stairs3|ss34
+SYNC Stairs4|ss47
+
+MENU MMF-SIDE
+SYNC Side1|ss43
+SYNC Side2|ss21
+SYNC Side3|ss39
+SYNC Side4|ss28
+
+MENU MMF-JAC
+SYNC mmf-jac1|sl21
+SYNC mmf-jac2|sl14
+SYNC mmf-jac3|sl15
+SYNC mmf-jac4|sl6
+SYNC mmf-jac5|sl1
+SYNC mmf-jac6|sl26m
+SYNC mmf-jac7|ss42
+
+MENU MMF-CUDDLE
+SYNC Cuddle1|3e4
+SYNC Cuddle2|3e5
+SYNC Cuddle3|3e6
+SYNC Cuddle4|3e7
+SYNC Cuddle5|3e8
+SYNC Cuddle6|3e9
+SYNC Cuddle7|3e10
+SYNC Cuddle8|3e11
+SYNC Cuddle9|3e12
+BUTTON SWAP MM|90030|0|2
+
+MENU MMF-SEX
+TOMENU FP & ORAL
+TOMENU ORALFUCK
+TOMENU DOUBLEPEN
+TOMENU CUMMING
+
+MENU FP & ORAL
+SYNC wank t boys|e10+
+SYNC wank & fun|e14
+SYNC use & finger|e26
+SYNC doubleblow|e29
+SYNC double wank|e34+
+BUTTON SWAP MM|90030|0|2
+
+MENU ORALFUCK
+SYNC blow&fuck|ex1
+SYNC blow&fuck2|e28
+SYNC wank&doggy|e4+
+SYNC fuck&blow|e6+
+SYNC blow&doggy|e7
+SYNC blow&doggy2|e9+
+SYNC blow & lick|e18
+SYNC blow&ride|e20
+SYNC fuck&use|e27
+SYNC strong fuck|e31+
+SYNC ride&blow|e37+
+SYNC blow&anal|e44+
+SYNC ride play|e45+
+BUTTON SWAP MM|90030|0|2
+
+MENU DOUBLEPEN
+SYNC double1|e2+
+SYNC double2|e3+
+SYNC double3|e5+
+SYNC double4|e17
+SYNC double5|e19
+SYNC double6|e23
+SYNC double7|e24
+BUTTON SWAP MM|90030|0|2
+
+MENU CUMMING
+SYNC wank on her|e13+
+SYNC double cum|e16
+SYNC wank on her2|e25
+SYNC ░clean░|1sb12
+BUTTON SWAP MM|90030|0|2
+
+MENU MFMF
+TOMENU MFMF-TALK
+TOMENU 4CUDDLE
+TOMENU 4SEX
+
+MENU MFMF-TALK
+TOMENU MFMF-STAIRS
+TOMENU MFMF-SIDE
+TOMENU MFMF-JAC
+
+MENU MFMF-STAIRS
+SYNC on-stairs1|ss6
+SYNC on-stairs2|ss56m
+SYNC on-stairs3|ss37
+SYNC on-stairs4|ss47
+
+MENU MFMF-SIDE
+SYNC on-side1|ss43
+SYNC on-side2|ss19
+SYNC on-side3|ss28
+SYNC on-side4|ss39
+
+MENU MFMF-JAC
+SYNC 4jacuzzi1|ss7
+SYNC 4jacuzzi2|ss42
+SYNC 4jacuzzi3|sl21
+SYNC 4jacuzzi4|sl20
+SYNC 4jacuzzi5|sl15
+SYNC 4jacuzzi6|sl11
+SYNC 4jacuzzi7|sl14
+
+MENU 4CUDDLE
+TOMENU 4STAIRS
+TOMENU 4ON SIDE
+TOMENU 4-WHIRLPOOL 
+
+MENU 4STAIRS
+SYNC 4on stairs1|c2
+SYNC 4on stairs2|c15
+SYNC 4on stairs3|c17
+SYNC 4on stairs4|c5
+SYNC 4on stairs5|c1
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU 4ON SIDE
+SYNC 4on side1|c31
+SYNC 4on side2|c33
+SYNC 4on side3|c36
+SYNC 4on side4|c35
+SYNC 4on side5|c32
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU 4-WHIRLPOOL 
+SYNC 4 WP |2sb17
+SYNC 4 WP 2|2sb19
+SYNC 4 WP 3|g4
+SYNC 4 WP 4|g13
+SYNC 4 WP 5|g12
+SYNC 4 WP 6|g6
+SYNC 4 WP 7|c38
+SYNC 4 WP 8|c37
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU 4SEX
+TOMENU 4FOREPLAY
+TOMENU 4ORAL
+TOMENU ORAL&FUCK
+TOMENU DOUBLE&PLAY
+TOMENU FUCK&FUCK1
+TOMENU FUCK&FUCK2
+TOMENU 4CUM
+
+MENU 4FOREPLAY
+SYNC tits play|e2
+SYNC play&finger|p2
+SYNC finger&play|f13
+SYNC wank&finger|h2
+SYNC finger&wank|f10
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU 4ORAL
+SYNC blow blow|b5
+SYNC blow blow2|b20
+SYNC blow lick1|b38
+SYNC blow lick2|b46
+SYNC lick blow|n17
+SYNC lick blow2|n7a
+SYNC lick lick|n10
+SYNC lick lick2|n31
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU ORAL&FUCK
+SYNC lick fuck|n3
+SYNC lick fuck2|n16
+SYNC blow fuck|b27
+SYNC blow fuck2|b34
+SYNC blow fuck3|b8
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU DOUBLE&PLAY
+SYNC MMF&play1|e2+
+SYNC MMF&play2|e3+
+SYNC MMF&play3|e17
+SYNC MMF&play4|e19
+SYNC MMF&play5|e23
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU FUCK&FUCK1
+SYNC 4sex1|d21
+SYNC 4sex2|v33
+SYNC 4sex3|i2
+SYNC 4sex4|v29
+SYNC 4sex5|m19
+SYNC 4sex6|i18
+SYNC 4sex7|r25
+SYNC 4sex8|t4
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU FUCK&FUCK2
+SYNC 4sex9|z17
+SYNC 4sex10|r29
+SYNC 4sex11|r36
+SYNC 4sex12|r31
+SYNC 4sex13|d7+
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU 4CUM
+SYNC 4cum1|z28+
+SYNC 4cum2|z32+
+SYNC 4cum3|z1+
+SYNC ░clean░|1sb12
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+{on stairs1}<-2.266,-5.996,0.604><10,0,90>
+{on stairs2}<-1.646,-5.624,0.409><0,0,90>
+{on stairs3}<-3.95,-5.291,0.212><0,0,95>
+{on stairs4}<-3.915,-5.645,1.428><0,-4,-70>
+{on side1}<-5.41,0.694,0.835><0,0,0>
+{on side2}<-4.899,0.626,1.321><0,0,0>
+{on side3}<-5.468,0.698,0.916><0,-5,0>
+{on side4}<-4.884,0.604,0.876><0,-5,0>
+{jacuzzi1}<0.242,6.467,0.522><0,0,-82>
+{jacuzzi2}<0.034,7.347,0.53><3.5,-2,-119.9>
+{jacuzzi3}<0.378,7.196,0.556><-1.8,-3.6,154.7>
+{jacuzzi4}<0.361,7.652,0.591><0,0,-113>
+{jacuzzi5}<0.256,7.75,0.614><6.2,-3.3,-117.8>
+{jacuzzi6}<0.067,7.81,0.581><0,0,-90>
+{jacuzzi7}<0.11,7.693,0.497><1,0,0>
+{jacuzzi8}<0.615,8.01,0.578><0,0,-90>
+{jacuzzi9}<0.151,7.556,0.798><6,0,-90>
+{jacuzzi10}<0.159,7.561,0.78><8,-0,-90>
+{pool1}<-4.692,0.729,0.533><0,-23,0>
+{pool2}<-4.58,0.769,0.602><0,-24,180>
+{pool3}<-4.785,0.661,0.417><0,0,180>
+{pool4}<-4.846,0.751,0.442><0,0,180>
+{pool5}<-4.907,0.579,0.445><0,0,0>
+{pool6}<-4.86,0.711,0.453><0,0,180>
+{float1}<0.954,3.459,0.801><0,0,-54>
+{float2}<0.948,3.511,0.801><0,0,-54>
+{float3}<1,3.655,0.785><0,0,-112.5>
+{float4}<0.995,3.678,1.241><0,0,-41>
+{float5}<1.092,3.191,1.211><-1.2,-1.6,144>
+{float6}<0.865,3.281,0.62><0,0,-13>
+{swim}<1.102,3.347,0.609><0,0,0>
+{Stairs1}<-2.091,-5.624,0.409><0,0,90>
+{Stairs2}<-2.215,-5.996,0.604><10,0,90>
+{Stairs3}<-0.366,-5.251,0.347><0,0,174.4>
+{Stairs4}<-0.44,-5.533,0.395><0,0,175>
+{Side1}<-5.556,0.664,0.951><0,-5,0>
+{Side2}<-5.331,0.708,0.918><0,-4,0>
+{Side3}<-5.513,1.061,1.153><0,0,-90>
+{Side4}<-4.775,0.836,0.983><0,-10,0>
+{mmf-jac1}<-0.268,7.51,0.918><0,0,-90>
+{mmf-jac2}<-0.184,7.556,0.798><6,0,-90>
+{mmf-jac3}<-0.224,7.551,0.77><4,0,-90>
+{mmf-jac4}<-0.2,7.552,0.331><0,-5,-90>
+{mmf-jac5}<-0.177,7.58,0.377><1,0,-90>
+{mmf-jac6}<0.241,8.087,1.404><0,0,-117.7>
+{mmf-jac7}<-0.06,6.467,0.564><0,0,-90>
+{stairs1}<-0.953,-5.624,0.409><0,0,90>
+{stairs2}<-0.366,-5.251,0.347><0,0,174.4>
+{stairs3}<-0.631,-5.137,0.202><0,0,174.4>
+{stairs4}<-2.722,-5.641,0.379><10,0,90>
+{side1}<-5.284,-0.121,0.841><0,0,0>
+{side2}<-5.556,-0.229,0.951><1.6,-4.7,19.1>
+{side3}<-4.617,-0.05,0.611><0,0,14>
+{side4}<-4.894,-0.132,0.931><0,-18,0>
+{ffm-jac1}<-0.974,7.02,0.545><2.9,2.7,-47.1>
+{ffm-jac2}<-1.251,7.3,0.556><3.7,-1.7,-113.9>
+{ffm-jac3}<-0.984,7.663,0.642><0,0,-90>
+{ffm-jac4}<-0.954,7.779,0.568><0,0,-72>
+{ffm-jac5}<-0.96,7.693,0.497><1,0.1,5>
+{ffm-jac6}<-0.782,7.556,0.823><6,0,-90>
+{ffm-jac7}<0.336,7.559,0.79><3.5,4.9,-36.2>
+{on-stairs1}<-2.175,-5.996,0.604><10,0,90>
+{on-stairs2}<-2.716,-5.53,0.93><20.9,-9.9,65.8>
+{on-stairs3}<-3.95,-5.291,0.212><0,0,95>
+{on-stairs4}<-3.54,-4.894,0.395><0,0,-5>
+{on-side1}<-5.556,0.634,0.951><0,-5,0>
+{on-side2}<-5.271,0.605,0.965><0,0,0>
+{on-side3}<-4.698,0.623,0.978><0,-10,0>
+{on-side4}<-5.513,0.906,1.153><0,0,-90>
+{4jacuzzi1}<-0.28,7.221,0.566><3.9,-1,-104>
+{4jacuzzi2}<0.83,6.467,0.51><0,0,-94>
+{4jacuzzi3}<-0.292,7.504,0.918><0,0,-90>
+{4jacuzzi4}<-0.533,7.541,0.964><0,0,-90>
+{4jacuzzi5}<-0.515,7.551,0.77><4,0,-90>
+{4jacuzzi6}<-0.448,7.686,0.497><0,0,0>
+{4jacuzzi7}<-0.502,7.556,0.823><6,0,-90>
+{breast play}<-0.285,6.012,0.927><0,0,-90>
+{breast lick}<-0.334,6.201,1.018><0,0,90>
+{passenger}<-0.19,6.479,0.497><-4,0,-90>
+{quake}<0.149,6.517,0.774><0,0,180>
+{finger front}<-0.205,6.949,0.727><0,0,90>
+{deal}<0.378,6.825,0.688><-1.3,1.6,-141>
+{both hands}<-0.314,6.742,1.592><0,0,90>
+{moisten}<-0.248,7.382,0.83><0,0,-90>
+{spit & lick}<0.073,7.528,0.842><0,0,-56.3>
+{lick it}<-0.299,7.413,0.720><-2,0.1,-4.1>
+{eat out}<-0.185,8.207,1.418><-2,0,-90>
+{high licker}<-0.330,6.945,0.955><0,0,-69>
+{nadu lick}<-0.376,7.094,1.577><0,0,45>
+{honey dip}<-0.379,7.460,0.654><4.1,-5.3,64>
+{blow a kiss}<-0.027,6.381,0.692><0,0,90>
+{nice lips}<-0.087,6.57,0.713><0,0,-164>
+{go(o)d girl}<-0.088,7.03,0.697><0,0,90>
+{maid}<-0.265,7.401,0.53><0,0,-90>
+{teach you}<0.342,6.489,1.012><0,0,-90>
+{45°}<-0.187,8.265,0.657><0,0,-9>
+{lipstick}<-0.157,7.706,1.596><0,0,-90>
+{pussy pump}<-0.241,6.3,0.742><5,0,-73.1>
+{slow fun}<-0.528,7.079,0.875><2,0,-90>
+{paddle}<-0.486,6.892,0.957><1,-0.3,-106.9>
+{stand behind}<-0.295,6.059,0.697><3,0,90>
+{lab dog}<-0.241,7.124,0.553><0,0,-105>
+{pace}<-0.108,7.64,0.816><0,0,-91.6>
+{jungle}<0.422,7.072,0.656><-2,0,-90>
+{butt view}<-0.215,6.866,0.767><1,0,90>
+{doin' ride}<-0.2,7.722,0.829><0,0,90>
+{flexi fuck}<0.148,7.003,0.955><1.4,1.5,-43>
+{surge ride}<0.206,7.155,0.998><3.7,8.2,-24.3>
+{overpass}<0.432,7.366,0.996><0,3,0>
+{starr}<-0.258,5.176,0.587><0,0,135>
+{so intense}<-1.019,5.395,0.681><0,0,130>
+{n-w-s}<-0.808,5.441,0.65><0,0,-50>
+{back bang}<-0.53,7.278,1.621><0,0,-53>
+{down view}<-0.881,7.721,1.595><0,0,-51>
+{loose pussy}<-0.118,5.513,0.645><0,0,101.3>
+{the expat}<0.036,7.874,0.613><0,0,-48>
+{open pussy}<0.242,8.327,0.885><0,0,-90>
+{mr magic}<-0.192,7.038,0.939><0,0,-90>
+{lotus ride}<-0.276,7.308,0.98><0,0,-140.6>
+{titty fun}<-0.361,7.567,1.628><0,0,-53>
+{tower}<0.319,7.523,0.751><0,0,-112.5>
+{reverse girl}<-0.253,6.414,0.694><0,0,90>
+{doggy pump}<-0.408,6.372,0.721><0,0,-90>
+{copafuckbana}<-0.136,7.141,0.934><0,0,-147.4>
+{back push}<-0.347,7.04,0.931><0,0,-106.9>
+{front dog}<-0.172,7.476,0.448><0,0,-104>
+{anal hungry}<0.432,7.171,0.949><0.5,1.9,-14>
+{stiff breeze}<-1.116,5.864,0.781><0,0,33.7>
+{ass plane}<-0.493,5.805,0.69><0,0,39.4>
+{salsa fuck}<-1.002,5.601,0.672><0,0,-41>
+{pincer}<-1.331,7.018,0.729><0,0,-133.5>
+{cocklateral}<-0.395,7.599,0.739><0,0,-5.6>
+{side fuck}<-0.512,7.37,0.756><0,0,0>
+{anal bot}<-0.194,7.516,0.46><0,0,-90>
+{bride ride}<0.432,7.393,0.965><0,4,0>
+{golden gate}<0.432,7.221,0.988><0,4,0>
+{brookyln}<0.432,7.205,0.978><0,3,0>
+{contest}<-0.231,6.987,0.966><0,0,-67.5>
+{hot ride}<-0.334,7.348,0.964><0,0,-146.7>
+{bridge ride}<0.432,7.237,0.959><0,4,0>
+{pool fucker}<-0.02,7.5,0.921><0,0,-168.7>
+{cock hostess}<-0.722,5.285,0.715><0,0,133.7>
+{I'm in}<-1.024,5.583,0.621><0,0,15>
+{boum boum}<-0.975,5.898,0.719><0,0,-52>
+{hang in}<-1.103,5.466,0.72><0,0,-59>
+{pretty fuck}<-0.77,5.505,0.667><0,0,-25>
+{carriage}<-0.691,6.612,0.609><0,0,151.9>
+{lotus}<-0.256,7.159,0.937><0,0,-139>
+{on tits&face}<-0.066,7.124,0.418><0,0,164>
+{facialissimo}<-0.713,6.85,1.627><0,0,29>
+{to the pool}<0.419,7.593,0.645><0,-6,-90>
+{spray t ass}<0.1,5.939,0.994><6.7,-0.1,90>
+{░clean░}<-0.596,7.188,1.646><0,0,-69>
+{cuddle1}<0.549,7.062,0.495><1.6,2.5,-123>
+{cuddle2}<0.154,7.478,0.477><0,0,-90>
+{cuddle3}<-0.582,6.483,0.933><0,0,-90>
+{cuddle4}<-0.879,6.651,0.936><0,0,-95.6>
+{cuddle5}<-0.634,6.426,0.982><0,0,-90>
+{cuddle6}<-0.714,6.571,0.945><0,0,-90>
+{cuddle7}<-0.014,7.66,0.693><0,0,-151.9>
+{cuddle8}<-0.807,6.722,0.685><1,0,-112.5>
+{cuddle9}<-3.765,6.265,0.8><0,0,83>
+{cuddle10}<-4.468,6.698,0.833><0,0,-32>
+{cuddle11}<-4.026,6.605,0.759><0,0,45>
+{cuddle12}<-4.035,6.629,0.795><0,0,45>
+{licking time}<0.4,6.381,1.061><12,0,0>
+{shaft&balls}<-1.608,6.818,0.539><0,0,-164>
+{double blow}<0.279,7.023,0.82><0,0,108>
+{fingerplay}<0.359,7.244,0.943><0,0,72.5>
+{doggy&lick}<0.223,9.529,1.063><0,0,175>
+{ride&play}<-0.574,6.759,0.713><-2,0,90>
+{blow&lick}<-0.096,7.159,1.766><0,0,173>
+{fuck&dildo}<-0.635,6.984,1.705><0,0,28.1>
+{fuck&lick2}<-0.034,7.416,1.657><0,0,-39.4>
+{fuck&lick3}<-0.449,7.164,1.782><0,-4,7>
+{fuck&hold}<-0.026,7.204,1.697><0.6,-7,-175>
+{fuck&lick4}<-0.466,7.258,1.746><0,-5,0>
+{ride&lick}<0.028,6.888,0.896><0,0,90>
+{anal&lick}<-0.039,9.045,0.933><0,0,-179.5>
+{doggy&lick2}<-0.444,7.26,0.532><0,0,0>
+{fuck&finger}<-0.208,7.456,0.524><0,0,-164>
+{cum fun}<-0.303,9.169,1.512><0,0,180>
+{milk on them}<0.219,7.058,0.942><0,0,158>
+{milk on tits}<0.396,7.728,0.513><-0.2,0.2,-81>
+{lap cuddle}<-3.226,-5.359,0.498><0,0,90>
+{kiss & hug}<-3.172,-5.41,0.486><0,0,65>
+{lovers hug}<-3.095,-5.379,0.455><3,0,90>
+{claro}<-2.956,-5.374,0.461><0,0,90>
+{mima}<-3.367,-5.488,0.468><0,0,90>
+{u know}<-2.579,-5.728,0.472><14,0,90>
+{deep hug}<-2.579,-5.728,0.472><14,0,90>
+{who knows}<-2.579,-5.728,0.472><14,0,90>
+{close to ...}<-2.579,-5.728,0.454><14,0,90>
+{lovers talk}<-2.579,-5.646,0.472><14,0,90>
+{just us}<-3.74,-4.442,0.974><0,-11,0>
+{need U now}<-3.778,-4.277,1.006><0,-14,0>
+{lovers kiss}<-3.74,-4.412,1.005><0,-16,0>
+{amorous}<-4.294,-3.609,0.992><0,0,0>
+{endearment}<-4.355,-4.13,1.001><0,0,1>
+{caress}<-4.342,-3.803,0.918><0,0,0>
+{lovers touch}<-4.256,-3.825,0.984><0,2,0>
+{oh romeo}<-5.227,2.1,0.957><0,3,0>
+{no talk}<-5.173,2.728,0.967><0.6,0,0>
+{defeated}<-5.173,2.728,0.967><0.6,0,0>
+{got you}<-5.173,2.728,0.967><0.6,0,0>
+{one beat}<-5.551,2.693,0.967><0.6,0,18>
+{1000 years}<-5.529,2.529,1.359><0,0,0>
+{pictures}<-5.496,2.529,1.359><0,0,-88>
+{union}<-4.866,2.14,1.287><0,0,0>
+{your beat}<-5.064,2.14,1.355><0,0,0>
+{our dream}<-4.928,2.14,1.307><0,0,0>
+{massage&wash}<-0.197,7.619,0.475><0,0,-90>
+{hair care}<-0.268,7.576,0.459><0,0,-90>
+{warm love}<-0.213,7.465,0.496><3,0,-90>
+{warm kiss}<-0.224,7.44,0.487><1,0,-90>
+{this moment}<-0.222,7.437,0.489><0,0,-90>
+{proud kiss}<0.271,7.97,0.606><-2,0,-90>
+{on you}<0.125,7.99,0.51><-9,0,-90>
+{my moon}<0.22,7.972,0.466><0,6,-90>
+{the way}<0.432,7.912,0.576><0,0,-90>
+{not far}<0.295,7.912,0.629><3,0,-90>
+{bochecha}<0.673,7.734,0.587><0,0,-84.4>
+{still love}<0.028,6.858,0.571><0,0,-162.8>
+{like us}<-0.206,7.425,0.4><0,0,-90>
+{peace found}<-0.169,7.424,0.401><0,0,-90>
+{charming}<-0.254,7.448,0.382><0,0,-90>
+{affection}<-0.132,7.415,0.408><0,0,-90>
+{my gravity}<-0.144,7.39,0.404><0,0,-90>
+{beginning}<0.273,6.297,0.522><0,1.7,-98.8>
+{I'm here}<0.273,6.297,0.522><0,1.7,-98.8>
+{to remember}<0.042,6.633,0.981><0,0,180>
+{rare hug}<-0.237,6.029,0.94><-2,0.2,-95.6>
+{Cuddle1}<-0.184,7.435,0.658><0,0,-60>
+{Cuddle2}<-0.251,6.474,0.913><0,0,-90>
+{Cuddle3}<-3.065,8.676,1.384><0,0,-90>
+{Cuddle4}<0.06,6.512,0.945><0,0,-90>
+{Cuddle5}<-0.114,6.5,0.966><0,0,-90>
+{Cuddle6}<-0.122,6.297,0.81><0,0,-50.2>
+{Cuddle7}<-0.312,6.333,0.887><0,0,34.8>
+{Cuddle8}<-0.119,6.202,0.77><0,0,-109.2>
+{Cuddle9}<-0.097,6.32,0.786><0,0,-8>
+{wank t boys}<-0.032,7.287,0.647><0,0,90>
+{wank & fun}<0.116,6.721,1.553><4.7,1.8,90>
+{use & finger}<-0.296,7.169,0.53><0.2,-1,-169>
+{doubleblow}<-0.21,6.94,0.787><0,0,89.9>
+{double wank}<-0.079,8.5,1.429><-15,0,90>
+{blow&fuck}<0.405,7.394,0.991><0,0,-80>
+{blow&fuck2}<-0.615,7.48,0.506><0,0,0>
+{wank&doggy}<0.087,7.249,0.931><0,0,-65>
+{fuck&blow}<-0.366,6.84,0.653><0,0,-43>
+{blow&doggy}<-0.036,7.303,0.716><0,0,-171>
+{blow&doggy2}<-0.391,5.397,0.764><-2,0,-72>
+{blow & lick}<-0.319,7.11,1.58><0,0,20>
+{blow&ride}<-0.208,7.278,0.824><0,0,0>
+{fuck&use}<-0.064,8.984,0.902><0,0,0>
+{strong fuck}<-0.542,7.368,1.723><0,0,-28>
+{ride&blow}<-0.541,8.939,1.414><-7,0,-90>
+{blow&anal}<0.28,6.301,0.921><0,0,-85>
+{ride play}<0.101,6.312,1.037><0,0,113>
+{double1}<-0.353,7.215,0.971><0,0,-114>
+{double2}<-0.319,7.557,0.946><0,0,-178>
+{double3}<0.034,9.113,1.099><0,0,179>
+{double4}<-2.777,6.238,0.581><0,0,22>
+{double5}<0.039,7.264,0.866><0,0,12>
+{double6}<-2.370,5.996,0.605><0,0,33>
+{double7}<-0.151,8.437,1.124><-4,0,-90>
+{wank on her}<-0.154,8.73,1.203><-8.9,-1.6,-80.1>
+{double cum}<0.1,7.21,0.714><1.3,-0.4,162.3>
+{wank on her2}<-0.28,7.235,0.899><0,0,90>
+{4on stairs1}<-3.172,-5.408,0.486><0,0,65>
+{4on stairs2}<-1.66,-5.728,0.472><14,0,90>
+{4on stairs3}<-1.225,-5.728,0.454><14,0,90>
+{4on stairs4}<-1.458,-5.46,0.503><5.9,1.1,100>
+{4on stairs5}<-3.505,-5.359,0.498><0,0,90>
+{4on side1}<-5.173,2.728,0.967><0.6,0,0>
+{4on side2}<-5.173,1.126,0.967><0.6,0,0>
+{4on side3}<-5.267,0.508,0.967><0.6,0,0>
+{4on side4}<-5.551,0.48,0.967><0.6,0,18>
+{4on side5}<-5.173,1.473,0.967><0.6,0,0>
+{4 WP }<-0.634,7.465,0.496><3,0,-90>
+{4 WP 2}<-0.707,7.451,0.487><0,0,-90>
+{4 WP 3}<0.042,7.912,0.576><0,0,-90>
+{4 WP 4}<-0.679,7.424,0.386><0,0,-103>
+{4 WP 5}<-0.327,6.858,0.571><0,0,-162.8>
+{4 WP 6}<-0.289,7.917,0.544><0,1,-92>
+{4 WP 7}<-0.332,6.297,0.522><0,1.7,-98.8>
+{4 WP 8}<-0.426,6.511,0.522><-0.6,1.6,-77.8>
+{tits play}<-0.819,6.201,1.018><0,0,90>
+{play&finger}<-0.331,6.481,0.527><0,0,-90>
+{finger&play}<-0.688,6.949,0.766><0,0,90>
+{wank&finger}<-0.868,7.474,0.523><0,0,174.4>
+{finger&wank}<-0.352,6.546,0.774><0,0,180>
+{blow blow}<0.519,7.166,0.486><0,0,0>
+{blow blow2}<0.671,7.543,0.697><0,0,-167>
+{blow lick1}<0.321,6.865,1.632><0,0,144.1>
+{blow lick2}<0.206,7.401,0.53><0,0,-90>
+{lick blow}<-0.182,7.425,0.749><0,0,-50.6>
+{lick blow2}<-0.744,7.245,1.592><0,0,-43>
+{lick lick}<-0.659,8.243,0.904><-3,0,-90>
+{lick lick2}<-0.375,6.354,1.577><0,0,140.6>
+{lick fuck}<0.124,7.447,0.655><0,0,64>
+{lick fuck2}<-0.574,8.833,1.113><-9,1,0.2>
+{blow fuck}<0.304,6.381,0.692><0,0,90>
+{blow fuck2}<0.342,6.489,0.988><0,0,-90>
+{blow fuck3}<-0.087,6.57,0.713><0,0,-164>
+{MMF&play1}<-0.353,7.215,0.971><0,0,-114>
+{MMF&play2}<-0.319,7.557,0.946><0,0,-178>
+{MMF&play3}<-3.508,6.967,0.581><0,0,22>
+{MMF&play4}<0.039,7.264,0.866><0,0,12>
+{MMF&play5}<-3.111,6.706,0.605><0,0,34>
+{4sex1}<0.045,6.892,0.965><0.7,-0.8,-137.9>
+{4sex2}<0.626,7.159,0.937><0,0,-156>
+{4sex3}<-0.827,5.33,0.703><0,0,133.7>
+{4sex4}<-0.97,7.138,0.939><0,0,37>
+{4sex5}<0.19,7.516,0.475><0,0,-90>
+{4sex6}<0.223,7.728,1.62><0,0,-129.4>
+{4sex7}<0.575,7.023,0.988><0.3,4,-5>
+{4sex8}<-0.79,7.278,1.585><0,0,-53>
+{4sex9}<-0.931,6.559,0.721><0,0,-124>
+{4sex10}<0.217,6.997,0.953><1.4,1.5,-95>
+{4sex11}<0.499,6.981,0.981><0,0,-61.5>
+{4sex12}<-0.78,7.095,0.959><1.2,3.8,-17>
+{4sex13}<0.398,8.199,0.892><-4,0,-90>
+{4cum1}<-0.113,6.208,0.92><6.1,2.1,-28.7>
+{4cum2}<0.184,6.249,1.022><6.7,-0.1,90>
+{4cum3}<0.045,6.925,0.623><-1.6,-3.8,-127>
+PROP1 fuck&dildo|dildo3|G9|<0.187,8.28,0.874>|<90,0,0>|left hand
+PROP1 fingerplay|dild2|G9|<0.187,8.28,0.874>|<90,0,0>|left hand
+
+SITTER 2|Male2|M
+TOMENU POOL
+TOMENU SWIM/FLOAT
+TOMENU MMF
+TOMENU MFMF
+TOMENU OPTIONS
+
+MENU HIDE
+SYNC on-stairs1|sS24
+
+MENU OPTIONS
+BUTTON TEXTURES|215219714
+BUTTON ToggleFace|88888
+BUTTON ToggleHands|88999
+BUTTON Help/Info
+BUTTON LM2Store
+
+MENU POOL
+POSE pool1|1PO4
+POSE pool2|1PO5
+POSE pool3|1PO6
+POSE pool4|1PO7
+POSE pool5|1PO8
+POSE pool6|1PO9
+
+MENU SWIM/FLOAT
+POSE float1|1PO1
+POSE float2|1PO2-rot
+POSE float3|1PO3
+POSE float4|wf1
+POSE float5|wf2
+POSE float6|wf3
+POSE swim|ws2
+
+MENU MMF
+TOMENU MMF-TALK
+TOMENU MMF-CUDDLE
+TOMENU MMF-SEX
+
+MENU MMF-TALK
+TOMENU MMF-STAIRS
+TOMENU MMF-SIDE
+TOMENU MMF-JAC
+
+MENU MMF-STAIRS
+SYNC Stairs1|sS24
+SYNC Stairs2|sS44
+SYNC Stairs3|sS13
+SYNC Stairs4|sS3
+
+MENU MMF-SIDE
+SYNC Side1|sS4
+SYNC Side2|sS46
+SYNC Side3|sS26
+SYNC Side4|sS30
+
+MENU MMF-JAC
+SYNC mmf-jac1|SL21
+SYNC mmf-jac2|SL17
+SYNC mmf-jac3|SL15
+SYNC mmf-jac4|SL7
+SYNC mmf-jac5|SL1
+SYNC mmf-jac6|sS48
+SYNC mmf-jac7|sS6
+
+MENU MMF-CUDDLE
+SYNC Cuddle1|3EE4
+SYNC Cuddle2|3EE5
+SYNC Cuddle3|3EE6
+SYNC Cuddle4|3EE7
+SYNC Cuddle5|3EE8
+SYNC Cuddle6|3EE9
+SYNC Cuddle7|3EE10
+SYNC Cuddle8|3EE11
+SYNC Cuddle9|3EE12
+BUTTON SWAP MM|90030|0|2
+
+MENU MMF-SEX
+TOMENU FP & ORAL
+TOMENU ORALFUCK
+TOMENU DOUBLEPEN
+TOMENU CUMMING
+
+MENU FP & ORAL
+SYNC wank t boys|EE10+
+SYNC wank & fun|EE14
+SYNC use & finger|EE26
+SYNC doubleblow|EE29
+SYNC double wank|EE34+
+BUTTON SWAP MM|90030|0|2
+
+MENU ORALFUCK
+SYNC blow&fuck|EEx1
+SYNC blow&fuck2|EE28
+SYNC wank&doggy|EE4+
+SYNC fuck&blow|EE6+
+SYNC blow&doggy|EE7
+SYNC blow&doggy2|EE9+
+SYNC blow & lick|EE18
+SYNC blow&ride|EE20
+SYNC fuck&use|EE27
+SYNC strong fuck|EE31+
+SYNC ride&blow|EE37+
+SYNC blow&anal|EE44+
+SYNC ride play|EE45+
+BUTTON SWAP MM|90030|0|2
+
+MENU DOUBLEPEN
+SYNC double1|EE2+
+SYNC double2|EE3+
+SYNC double3|EE5+
+SYNC double4|EE17
+SYNC double5|EE19
+SYNC double6|EE23
+SYNC double7|EE24
+BUTTON SWAP MM|90030|0|2
+
+MENU CUMMING
+SYNC wank on her|EE13+
+SYNC double cum|EE16
+SYNC wank on her2|EE25
+SYNC ░clean░|1SB8
+BUTTON SWAP MM|90030|0|2
+
+MENU MFMF
+TOMENU MFMF-TALK
+TOMENU 4CUDDLE
+TOMENU 4SEX
+
+MENU MFMF-TALK
+TOMENU MFMF-STAIRS
+TOMENU MFMF-SIDE
+TOMENU MFMF-JAC
+
+MENU MFMF-STAIRS
+SYNC on-stairs1|sS24
+SYNC on-stairs2|sS52
+SYNC on-stairs3|sS2
+SYNC on-stairs4|sS28
+
+MENU MFMF-SIDE
+SYNC on-side1|sS4
+SYNC on-side2|sS46
+SYNC on-side3|sS26
+SYNC on-side4|sS40
+
+MENU MFMF-JAC
+SYNC 4jacuzzi1|sS18
+SYNC 4jacuzzi2|sS44
+SYNC 4jacuzzi3|sS20
+SYNC 4jacuzzi4|SL2
+SYNC 4jacuzzi5|SL13
+SYNC 4jacuzzi6|SL17
+SYNC 4jacuzzi7|SL21
+
+MENU 4CUDDLE
+TOMENU 4STAIRS
+TOMENU 4ON SIDE
+TOMENU 4-WHIRLPOOL 
+
+MENU 4STAIRS
+SYNC 4on stairs1|C13
+SYNC 4on stairs2|C18
+SYNC 4on stairs3|C4
+SYNC 4on stairs4|C6
+SYNC 4on stairs5|C14
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU 4ON SIDE
+SYNC 4on side1|C25
+SYNC 4on side2|C45
+SYNC 4on side3|C51
+SYNC 4on side4|C52
+SYNC 4on side5|C50
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU 4-WHIRLPOOL 
+SYNC 4 WP |2SB18
+SYNC 4 WP 2|G18
+SYNC 4 WP 3|G17
+SYNC 4 WP 4|G5
+SYNC 4 WP 5|G16
+SYNC 4 WP 6|G2
+SYNC 4 WP 7|C54
+SYNC 4 WP 8|C41
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU 4SEX
+TOMENU 4FOREPLAY
+TOMENU 4ORAL
+TOMENU ORAL&FUCK
+TOMENU DOUBLE&PLAY
+TOMENU FUCK&FUCK1
+TOMENU FUCK&FUCK2
+TOMENU 4CUM
+
+MENU 4FOREPLAY
+SYNC tits play|E6
+SYNC play&finger|F8
+SYNC finger&play|P1
+SYNC wank&finger|F2
+SYNC finger&wank|H12
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU 4ORAL
+SYNC blow blow|B2
+SYNC blow blow2|B45
+SYNC blow lick1|N13
+SYNC blow lick2|N28
+SYNC lick blow|B47
+SYNC lick blow2|B1
+SYNC lick lick|N21
+SYNC lick lick2|N30
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU ORAL&FUCK
+SYNC lick fuck|V1
+SYNC lick fuck2|V12
+SYNC blow fuck|D31
+SYNC blow fuck2|D17
+SYNC blow fuck3|A6
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU DOUBLE&PLAY
+SYNC MMF&play1|EE2+
+SYNC MMF&play2|EE3+
+SYNC MMF&play3|EE17
+SYNC MMF&play4|EE19
+SYNC MMF&play5|EE23
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU FUCK&FUCK1
+SYNC 4sex1|R5
+SYNC 4sex2|D22
+SYNC 4sex3|I4
+SYNC 4sex4|R20
+SYNC 4sex5|D16
+SYNC 4sex6|V10
+SYNC 4sex7|I24
+SYNC 4sex8|D18
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU FUCK&FUCK2
+SYNC 4sex9|Z12
+SYNC 4sex10|V25
+SYNC 4sex11|R33
+SYNC 4sex12|I23
+SYNC 4sex13|D1+
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU 4CUM
+SYNC 4cum1|Z4+
+SYNC 4cum2|Z8+
+SYNC 4cum3|Z10+
+SYNC ░clean░|1SB8
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+{pool1}<-4.576,2.248,0.55><0,-28,0>
+{pool2}<-4.495,2.256,0.686><5,-34,-180>
+{pool3}<-4.55,2.225,0.465><0,-14,180>
+{pool4}<-4.713,2.315,0.369><0,0,180>
+{pool5}<-4.798,2.478,0.462><0,-11,0>
+{pool6}<-4.625,2.229,0.428><0,-11,180>
+{float1}<0.943,0.257,0.82><0,0,-127>
+{float2}<0.977,-0.187,0.786><0,0,-77>
+{float3}<0.999,-0.192,0.807><0,0,-105>
+{float4}<0.827,-0.159,1.238><0.6,0.8,-15>
+{float5}<1.097,-0.129,1.242><0,0,-61>
+{float6}<1.063,-0.023,0.604><0,0,-73.1>
+{swim}<0.994,-0.239,0.65><0,0,0>
+{Stairs1}<-1.284,-6.213,0.609><22.7,3.9,99.2>
+{Stairs2}<-1.29,-6.235,0.702><10,0.5,105>
+{Stairs3}<-3.756,-5.207,0.414><0,0,0>
+{Stairs4}<-3.611,-6.151,0.664><1.8,-0.9,62>
+{Side1}<-5.606,1.272,0.87><0,-6,0>
+{Side2}<-5.638,1.475,0.909><0,-3,0>
+{Side3}<-5.058,1.41,1.348><0,0,0>
+{Side4}<-5.058,1.903,0.668><0,0,-5.6>
+{mmf-jac1}<0.579,7.516,1.002><0,0,-90>
+{mmf-jac2}<0.237,7.723,0.622><0,0,-90>
+{mmf-jac3}<0,7.104,0.622><0,0,-90>
+{mmf-jac4}<0.497,7.784,0.375><0,0,-90>
+{mmf-jac5}<0.635,7.691,0.8><0,0,-90>
+{mmf-jac6}<0.501,7.595,0.635><0,0,-123.7>
+{mmf-jac7}<0.719,6.7,0.484><7,0,-90>
+{on-stairs1}<-0.521,-5.759,0.391><21.6,8,109.5>
+{on-stairs2}<-3.554,-5.628,0.836><0,0,63>
+{on-stairs3}<-1.799,-5.751,0.525><0,0,90>
+{on-stairs4}<-4.152,-4.531,1.009><0,-2,0>
+{on-side1}<-5.606,1.906,0.918><0,0,0>
+{on-side2}<-5.638,1.948,0.909><0,-3,0>
+{on-side3}<-5.135,1.897,1.348><0,0,-18>
+{on-side4}<-5.341,1.965,1.151><0,-5,-90>
+{4jacuzzi1}<-1.066,7.788,0.57><0,0,-87>
+{4jacuzzi2}<-1.347,6.696,0.511><-9.9,1.1,-84.1>
+{4jacuzzi3}<-0.91,6.811,0.553><0,0,180>
+{4jacuzzi4}<0.793,7.77,0.411><0,0,-90>
+{4jacuzzi5}<0.853,7.218,0.699><4,0,-90>
+{4jacuzzi6}<0.544,7.661,0.622><0,0,-90>
+{4jacuzzi7}<0.941,7.516,1.002><0,0,-90>
+{Cuddle1}<-0.637,7.435,0.658><0,0,-90>
+{Cuddle2}<-0.704,6.474,0.913><0,0,-90>
+{Cuddle3}<-3.518,8.676,1.384><0,0,-90>
+{Cuddle4}<-0.393,6.512,0.945><0,0,-90>
+{Cuddle5}<-0.567,6.5,0.966><0,0,-90>
+{Cuddle6}<0.295,6.369,0.879><0,0,-114.5>
+{Cuddle7}<0.233,6.333,0.815><0,0,-155.2>
+{Cuddle8}<0.186,6.252,0.842><0,0,-121.8>
+{Cuddle9}<0.278,6.366,0.833><0,0,-122>
+{wank t boys}<0.422,7.287,0.647><0,0,-90>
+{wank & fun}<-1.162,7.723,0.617><-0.3,1.8,-55.8>
+{use & finger}<0.436,7.344,1.012><0.2,-1,-169>
+{doubleblow}<0.17,7.498,1.596><0,0,-90.1>
+{double wank}<0.32,8.5,1.382><-15,0,-90>
+{blow&fuck}<0.403,7.407,1.033><0,0,-80>
+{blow&fuck2}<-0.91,7.437,0.796><0,0,0>
+{wank&doggy}<0.082,7.261,0.973><0,0,-65>
+{fuck&blow}<-0.685,6.499,0.653><0,0,137>
+{blow&doggy}<0.039,6.854,0.662><0,0,-171>
+{blow&doggy2}<-0.531,5.827,0.71><-2,0,-72>
+{blow & lick}<0.161,7.285,1.573><0,0,-160>
+{blow&ride}<-0.263,7.289,0.428><0,0,0>
+{fuck&use}<-0.921,9.333,1.25><0,0,-90>
+{strong fuck}<-0.542,7.368,1.723><0,0,-28>
+{ride&blow}<-0.086,8.939,1.414><-7,0,90>
+{blow&anal}<0.288,6.626,1.003><0,0,-85>
+{ride play}<0.542,6.489,1.441><0,0,-152>
+{double1}<-0.348,7.227,1.013><0,0,-114>
+{double2}<-0.306,7.557,0.988><0,0,-178>
+{double3}<0.026,8.659,1.099><0,0,179>
+{double4}<-2.509,6.317,0.652><0,0,-158>
+{double5}<0.107,7.279,0.377><0,0,-168>
+{double6}<-2.606,5.841,0.559><0,0,33>
+{double7}<-0.151,8.19,1.429><-4,0,90>
+{wank on her}<0.022,8.307,1.503><0,0,68.5>
+{double cum}<0.93,7.525,1.707><0.1,-1,-164>
+{wank on her2}<0.09,7.481,1.587><0,0,-90>
+{░clean░}<-0.860,7.354,1.729><0,0,-45>
+{4on stairs1}<-1.52,-5.955,0.45><14,0,90>
+{4on stairs2}<-2.769,-5.873,0.45><14,0,90>
+{4on stairs3}<-2.834,-5.663,0.501><0,0,90>
+{4on stairs4}<-2.753,-5.767,0.511><0,0,90>
+{4on stairs5}<-2.579,-5.955,0.45><14,0,90>
+{4on side1}<-5.464,1.164,0.952><0,-5,0>
+{4on side2}<-5.48,2.051,1.359><-2,-0.1,5>
+{4on side3}<-5.487,1.681,1.373><0,0,0>
+{4on side4}<-5.553,1.411,1.39><0,0,0>
+{4on side5}<-5.351,1.951,1.287><0,0,0>
+{4 WP }<0.282,7.885,0.495><1,0,-90>
+{4 WP 2}<0.28,7.743,0.404><0,0,-90>
+{4 WP 3}<0.181,7.768,0.408><0,0,-90>
+{4 WP 4}<-0.118,8.091,0.629><0,0,-99>
+{4 WP 5}<0.2,7.801,0.382><0,0,-90>
+{4 WP 6}<-0.137,8.033,0.587><0,0,-90>
+{4 WP 7}<0.341,6.427,0.923><0,0,-95.6>
+{4 WP 8}<0.161,6.62,0.54><0,1.7,-98.8>
+{tits play}<0.235,6.61,0.906><0,0,-90>
+{play&finger}<0.237,6.683,0.482><-4,0,-90>
+{finger&play}<-0.32,7.687,0.623><0,0,-141>
+{wank&finger}<-0.085,6.564,0.629><0,0,0>
+{finger&wank}<0.231,6.247,0.954><0,0,-90>
+{blow blow}<-0.909,6.864,0.616><0,0,-9>
+{blow blow2}<-0.703,7.007,0.882><0,0,-90>
+{blow lick1}<-0.715,7.224,0.842><0,0,123.7>
+{blow lick2}<-0.902,8.427,1.392><-4,0,90>
+{lick blow}<-1.162,7.263,1.714><-2.4,-1.8,-53>
+{lick blow2}<0.167,7.637,1.725><0,0,90>
+{lick lick}<0.5,8.63,1.406><-2,0,90>
+{lick lick2}<0.416,6.051,1.051><0,0,-90>
+{lick fuck}<-0.168,6.996,0.609><0,0,76.9>
+{lick fuck2}<-0.829,8.591,0.844><0,0,-90>
+{blow fuck}<-1.692,7.459,0.498><0,0,-13>
+{blow fuck2}<-0.726,6.72,1.34><-1.3,-1.5,-40>
+{blow fuck3}<0.963,7.319,0.751><0,0,55.5>
+{MMF&play1}<-0.348,7.227,1.013><0,0,-114>
+{MMF&play2}<-0.306,7.557,0.988><0,0,-178>
+{MMF&play3}<-3.24,7.046,0.652><0,0,-158>
+{MMF&play4}<0.107,7.279,0.377><0,0,-168>
+{MMF&play5}<-3.345,6.547,0.559><0,0,34>
+{4sex1}<-1.055,7.534,0.591><-4,0,-90>
+{4sex2}<-0.347,7.04,0.916><0,0,-35.9>
+{4sex3}<0.501,5.7,0.755><0,0,-132.8>
+{4sex4}<0.378,6.871,0.754><0,0,-90>
+{4sex5}<-0.708,7.383,1.457><0.3,-4.5,16.8>
+{4sex6}<-0.666,7.746,0.613><0,0,-155>
+{4sex7}<-1.175,7.72,1.67><0,0,-36>
+{4sex8}<0.411,7.142,0.956><-0.7,6.4,-122.5>
+{4sex9}<-0.135,5.951,0.632><5,0.7,114.9>
+{4sex10}<-0.97,7.398,0.756><0,0,-169>
+{4sex11}<-0.712,6.927,0.943><1.6,3.7,-24.1>
+{4sex12}<0.11,7.287,1.696><0,0,-153>
+{4sex13}<-0.17,6.983,0.611><17,0,90>
+{4cum1}<1.09,6.767,0.451><0,0,-157>
+{4cum2}<-0.599,6.795,0.603><0.1,-3,-89.1>
+{4cum3}<-0.246,6.913,1.627><0,0,-170>
+
+SITTER 3|Female2|F
+TOMENU POOL
+TOMENU SWIM/FLOAT
+TOMENU FFM
+TOMENU MFMF
+TOMENU OPTIONS
+
+MENU OPTIONS
+BUTTON TEXTURES|215219714
+BUTTON ToggleFace|88888
+BUTTON ToggleHands|88999
+BUTTON Help/Info
+BUTTON LM2Store
+
+MENU HIDE
+SYNC on-stairs1|ss3
+
+MENU POOL
+POSE pool1|1PO4
+POSE pool2|1PO5
+POSE pool3|1PO6
+POSE pool4|1PO7
+POSE pool5|1PO8
+POSE pool6|1PO9
+
+MENU SWIM/FLOAT
+POSE float1|1PO1
+POSE float2|1PO2-rot
+POSE float3|1PO3
+POSE float4|wf1
+POSE float5|wf2
+POSE float6|wf3
+POSE swim|ws2
+
+MENU FFM
+TOMENU FFM-TALK
+TOMENU FFM-CUDDLE
+TOMENU FFM-SEX ‌
+
+MENU FFM-TALK
+MENU FFM-TALK
+TOMENU FFM-STAIRS
+TOMENU FFM-SIDE
+TOMENU FFM-JAC
+
+MENU FFM-STAIRS
+SYNC stairs1|ss37
+SYNC stairs2|sl5
+SYNC stairs3|ss53m
+SYNC stairs4|ss3
+
+MENU FFM-SIDE
+SYNC side1|ss41
+SYNC side2|ss21
+SYNC side3|ss39
+SYNC side4|ss22
+
+MENU FFM-JAC
+SYNC ffm-jac1|ss14
+SYNC ffm-jac2|ss15
+SYNC ffm-jac3|ss17
+SYNC ffm-jac4|ss51
+SYNC ffm-jac5|sl15
+SYNC ffm-jac6|sl26m
+SYNC ffm-jac7|sl14
+
+MENU FFM-CUDDLE
+BUTTON SWAP FF|90030|1|3
+SYNC cuddle1|ww1
+SYNC cuddle2|ww2
+SYNC cuddle3|ww5
+SYNC cuddle4|ww6
+SYNC cuddle5|ww7
+SYNC cuddle6|ww8
+SYNC cuddle7|ww9
+SYNC cuddle8|ww12
+SYNC cuddle9|ww13
+SYNC cuddle10|ww14
+SYNC cuddle11|ww15
+SYNC cuddle12|ww16
+
+MENU FFM-SEX ‌
+TOMENU FFM-FP&ORAL
+TOMENU FFM-SEX
+TOMENU FFM-CUM
+
+MENU FFM-FP&ORAL
+SYNC fingerplay|uu36
+SYNC licking time|uu19+
+SYNC shaft&balls|uu29
+SYNC double blow|uu31
+SYNC blow&lick|uu21+
+BUTTON SWAP FF|90030|1|3
+
+MENU FFM-SEX
+SYNC doggy&lick|uu7+
+SYNC ride&play|uu12+
+SYNC fuck&dildo|uu22+
+SYNC fuck&lick2|uu23+
+SYNC fuck&lick3|uu24+
+SYNC fuck&hold|uu25+
+SYNC fuck&lick4|uu26+
+SYNC ride&lick|uu27
+SYNC anal&lick|uu28
+SYNC doggy&lick2|uu30
+SYNC fuck&finger|uu34
+BUTTON SWAP FF|90030|1|3
+
+MENU FFM-CUM
+SYNC cum fun|uu5
+SYNC milk on them|uu32
+SYNC milk on tits|uu35
+SYNC ░clean░|1sb11
+BUTTON SWAP FF|90030|1|3
+
+MENU MFMF
+TOMENU MFMF-TALK
+TOMENU 4CUDDLE
+TOMENU 4SEX
+
+MENU MFMF-TALK
+TOMENU MFMF-STAIRS
+TOMENU MFMF-SIDE
+TOMENU MFMF-JAC
+
+MENU MFMF-STAIRS
+SYNC on-stairs1|ss3
+SYNC on-stairs2|ss34
+SYNC on-stairs3|sl5
+SYNC on-stairs4|ss53
+
+MENU MFMF-SIDE
+SYNC on-side1|ss41
+SYNC on-side2|ss57
+SYNC on-side3|ss22
+SYNC on-side4|ss26
+
+MENU MFMF-JAC
+SYNC 4jacuzzi1|ss12
+SYNC 4jacuzzi2|ss5
+SYNC 4jacuzzi3|sl26m
+SYNC 4jacuzzi4|sl10
+SYNC 4jacuzzi5|sl11
+SYNC 4jacuzzi6|sl20
+SYNC 4jacuzzi7|sl15
+
+MENU 4CUDDLE
+TOMENU 4STAIRS
+TOMENU 4ON SIDE
+TOMENU 4-WHIRLPOOL 
+
+MENU 4STAIRS
+SYNC 4on stairs1|c13
+SYNC 4on stairs2|c18
+SYNC 4on stairs3|c4
+SYNC 4on stairs4|c6
+SYNC 4on stairs5|c14
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU 4ON SIDE
+SYNC 4on side1|c25
+SYNC 4on side2|c45
+SYNC 4on side3|c51
+SYNC 4on side4|c52
+SYNC 4on side5|c50
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU 4-WHIRLPOOL 
+SYNC 4 WP |2sb18
+SYNC 4 WP 2|g18
+SYNC 4 WP 3|g17
+SYNC 4 WP 4|g5
+SYNC 4 WP 5|g16
+SYNC 4 WP 6|g2
+SYNC 4 WP 7|c54
+SYNC 4 WP 8|c41
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU 4SEX
+TOMENU 4FOREPLAY
+TOMENU 4ORAL
+TOMENU ORAL&FUCK
+TOMENU DOUBLE&PLAY
+TOMENU FUCK&FUCK1
+TOMENU FUCK&FUCK2
+TOMENU 4CUM
+
+MENU 4FOREPLAY
+SYNC tits play|e6
+SYNC play&finger|f8
+SYNC finger&play|p1
+SYNC wank&finger|f2
+SYNC finger&wank|h12
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU 4ORAL
+SYNC blow blow|b2
+SYNC blow blow2|b45
+SYNC blow lick1|n13
+SYNC blow lick2|n28
+SYNC lick blow|b47
+SYNC lick blow2|b1
+SYNC lick lick|n21
+SYNC lick lick2|n30
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU ORAL&FUCK
+SYNC lick fuck|v1
+SYNC lick fuck2|v12
+SYNC blow fuck|d31
+SYNC blow fuck2|d17
+SYNC blow fuck3|a6
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU DOUBLE&PLAY
+SYNC MMF&play1|sp5
+SYNC MMF&play2|sp3
+SYNC MMF&play3|sp2
+SYNC MMF&play4|sp5
+SYNC MMF&play5|sp1
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU FUCK&FUCK1
+SYNC 4sex1|r5
+SYNC 4sex2|d22
+SYNC 4sex3|i4
+SYNC 4sex4|r20
+SYNC 4sex5|d16
+SYNC 4sex6|v10
+SYNC 4sex7|i24
+SYNC 4sex8|d18
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU FUCK&FUCK2
+SYNC 4sex9|z12
+SYNC 4sex10|v25
+SYNC 4sex11|r33
+SYNC 4sex12|i23
+SYNC 4sex13|d1+
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+MENU 4CUM
+SYNC 4cum1|z4+
+SYNC 4cum2|z8+
+SYNC 4cum3|z10+
+SYNC ░clean░|1sb11
+BUTTON SWAP FF|90030|1|3
+BUTTON SWAP MM|90030|0|2
+
+{pool1}<-4.692,1.271,0.533><0,-23,0>
+{pool2}<-4.58,1.447,0.602><0,-24,180>
+{pool3}<-4.785,1.338,0.417><0,0,180>
+{pool4}<-4.846,1.419,0.442><0,0,175>
+{pool5}<-4.907,1.266,0.445><0,0,0>
+{pool6}<-4.86,1.31,0.453><0,0,180>
+{float1}<-2.233,-0.032,0.801><0,0,-54>
+{float2}<-2.405,-0.011,0.801><0,0,-54>
+{float3}<-2.082,0.181,0.785><0,0,-112.5>
+{float4}<-2.008,-0.05,1.241><0,0,-41>
+{float5}<-1.818,-0.125,1.211><-1.2,-1.6,144>
+{float6}<-2.038,0.015,0.62><0,0,-13>
+{swim}<-2.405,-0.178,0.609><0,0,0>
+{stairs1}<-3.247,-5.291,0.212><0,0,95>
+{stairs2}<-3.142,-5.278,0.174><-0.1,2,3>
+{stairs3}<-0.767,-5.242,1.25><-4,4,-109.7>
+{stairs4}<-1.433,-5.624,0.409><0,0,90>
+{side1}<-5.41,1.35,0.875><0,0,0>
+{side2}<-5.331,1.472,0.952><0,0,-8>
+{side3}<-5.513,1.751,1.153><0,0,-90>
+{side4}<-5.468,1.358,0.916><0,-5,0>
+{ffm-jac1}<1.038,7.121,0.591><0,0,-164>
+{ffm-jac2}<0.83,7.706,0.581><0,0,-118.1>
+{ffm-jac3}<0.695,7.593,0.614><5.6,-4.2,-126.8>
+{ffm-jac4}<0.567,7.599,1.375><0,0,-64>
+{ffm-jac5}<0.502,7.551,0.772><3.9,-0.7,-100>
+{ffm-jac6}<1.164,6.715,1.404><0,0,136.3>
+{ffm-jac7}<-0.92,7.092,0.776><8.2,-3.4,-157.9>
+{on-stairs1}<-1.433,-5.624,0.409><0,0,90>
+{on-stairs2}<-1.48,-5.251,0.347><0,0,174.4>
+{on-stairs3}<-0.887,-5.278,0.151><0,-2,180>
+{on-stairs4}<-0.626,-5.697,1.402><0.8,3.9,98>
+{on-side1}<-5.41,1.255,0.875><0,0,0>
+{on-side2}<-4.969,1.278,1.347><0,0,0>
+{on-side3}<-5.468,1.239,0.916><0,-5,0>
+{on-side4}<-4.894,1.22,0.931><0,-18,0>
+{4jacuzzi1}<0.015,6.517,0.556><-3.9,-1.1,106.8>
+{4jacuzzi2}<0.128,6.308,0.448><0,0,-95.6>
+{4jacuzzi3}<1.342,7.466,1.404><0,0,-123.7>
+{4jacuzzi4}<0.488,7.904,0.571><0,0,-90>
+{4jacuzzi5}<0.099,7.693,0.497><1,0,0>
+{4jacuzzi6}<0.171,7.568,0.913><0,0,-90>
+{4jacuzzi7}<0.158,7.551,0.772><4,0,-90>
+{cuddle1}<-0.352,7.647,0.552><1.6,2.5,-123>
+{cuddle2}<-0.922,7.478,0.477><0,0,-90>
+{cuddle3}<0.326,6.483,0.933><0,0,-90>
+{cuddle4}<0.025,6.562,0.936><0,0,-5.6>
+{cuddle5}<0.274,6.426,0.982><0,0,0>
+{cuddle6}<0.194,6.571,0.945><0,0,-90>
+{cuddle7}<0.414,6.86,0.693><0,0,28.1>
+{cuddle8}<0.278,6.722,0.685><1,0,-67.5>
+{cuddle9}<-3.366,6.714,0.8><0,0,-164.5>
+{cuddle10}<-3.579,7.091,0.805><0,0,-135>
+{cuddle11}<-3.44,7.185,0.771><0,0,-135>
+{cuddle12}<-3.412,7.252,0.764><0,0,-135>
+{licking time}<-0.508,6.381,1.061><12,0,180>
+{shaft&balls}<-0.444,7.151,0.441><-1.6,5.8,-163.9>
+{double blow}<-0.424,6.873,0.786><0,0,108>
+{fingerplay}<-0.002,7.416,0.86><0,0,-107.5>
+{doggy&lick}<0.144,8.624,1.063><0,0,-5>
+{ride&play}<0.334,6.759,0.713><-2,0,-90>
+{blow&lick}<0.836,7.056,1.661><0.5,4,173>
+{fuck&dildo}<-0.858,7.186,1.632><0,0,-10.4>
+{fuck&lick2}<0.57,6.807,1.608><1.3,1.5,140.6>
+{fuck&lick3}<0.401,7.183,1.8><0,-4,-173>
+{fuck&hold}<-0.269,7.089,1.652><0.6,-7,-175>
+{fuck&lick4}<0.398,7.186,1.78><0,-5,180>
+{ride&lick}<0.03,7.631,0.879><0,0,-90>
+{anal&lick}<0.399,9.048,1.189><0,0,-179.5>
+{doggy&lick2}<0.342,7.261,0.887><0,0,180>
+{fuck&finger}<0.018,7.011,0.839><0,0,16>
+{cum fun}<-1.16,9.169,2.032><0,0,0>
+{milk on them}<-0.258,7.151,0.786><0,0,68>
+{milk on tits}<-0.172,7.514,0.489><-0.2,0.2,-81>
+{░clean░}<0.746,7.518,1.675><0,0,-114>
+{4on stairs1}<-1.52,-5.728,0.472><14,0,90>
+{4on stairs2}<-2.769,-5.646,0.472><14,0,90>
+{4on stairs3}<-2.846,-5.374,0.461><0,0,90>
+{4on stairs4}<-2.753,-5.488,0.468><0,0,90>
+{4on stairs5}<-2.579,-5.728,0.472><14,0,90>
+{4on side1}<-5.23,1.164,0.879><0,-5,0>
+{4on side2}<-5.52,2.502,1.343><-2,-0.1,-85>
+{4on side3}<-5.064,1.681,1.355><0,0,0>
+{4on side4}<-5.13,1.411,1.326><0,0,0>
+{4on side5}<-4.866,1.951,1.287><0,0,0>
+{4 WP }<0.282,7.44,0.487><1,0,-90>
+{4 WP 2}<0.28,7.39,0.404><0,0,-90>
+{4 WP 3}<0.181,7.415,0.408><0,0,-90>
+{4 WP 4}<0.959,7.921,0.629><3,-0.5,-99>
+{4 WP 5}<0.2,7.448,0.382><0,0,-90>
+{4 WP 6}<0.954,8.029,0.51><-9,0,-90>
+{4 WP 7}<0.25,6.029,0.94><-2,0.2,-95.6>
+{4 WP 8}<0.742,6.53,0.522><0,1.7,-98.8>
+{tits play}<0.168,6.187,0.906><0,0,90>
+{play&finger}<0.237,6.479,0.497><-4,0,-90>
+{finger&play}<0.378,6.825,0.688><-1.3,1.6,-141>
+{wank&finger}<-0.084,7.673,0.629><0,0,0>
+{finger&wank}<0.231,5.484,0.954><0,0,90>
+{blow blow}<-0.736,7.959,0.657><0,0,-9>
+{blow blow2}<-0.703,6.951,0.884><-5,-0,90>
+{blow lick1}<-0.918,7.528,0.842><0,0,-56.3>
+{blow lick2}<-0.48,8.37,1.394><-4,0,-90>
+{lick blow}<-1.06,7.128,1.35><-2.4,-1.8,127>
+{lick blow2}<0.167,7.706,1.596><0,0,-90>
+{lick lick}<0.443,8.207,1.418><-2,0,-90>
+{lick lick2}<0.416,6.038,1.009><0,0,-90>
+{lick fuck}<-1.248,7.248,0.609><0,0,76.9>
+{lick fuck2}<-0.829,8.327,0.844><0,0,-90>
+{blow fuck}<-1.258,7.359,0.563><0,0,-13>
+{blow fuck2}<-0.812,6.794,0.877><0,0,-40>
+{blow fuck3}<1.17,7.62,0.751><0,0,-124.5>
+{MMF&play1}<-1.133,7.749,1.507><0,0,-55>
+{MMF&play2}<1.032,7.401,1.503><-2,6.7,-163.5>
+{MMF&play3}<-2.093,7.333,0.926><0,0,-162>
+{MMF&play4}<1.367,7.849,1.515><0,0,-132>
+{MMF&play5}<-4.241,7.535,1.309><4.7,3.8,-46.2>
+{4sex1}<0.055,7.534,0.526><-4,0,-90>
+{4sex2}<-0.347,7.04,0.872><0,0,-35.9>
+{4sex3}<0.179,5.423,0.646><0,0,-123.7>
+{4sex4}<0.378,6.505,0.754><0,0,90>
+{4sex5}<-0.734,7.366,0.857><-0.9,-0.6,16.9>
+{4sex6}<-0.197,6.741,0.613><0,0,-155>
+{4sex7}<-1.175,7.72,1.63><0,0,-36>
+{4sex8}<0.41,7.141,0.929><-3.4,2.1,-122.3>
+{4sex9}<-0.289,6.282,0.742><4.9,0.7,-65.1>
+{4sex10}<-1.33,7.328,0.756><0,0,11>
+{4sex11}<-0.712,6.927,0.943><1.6,3.7,-24.1>
+{4sex12}<0.11,7.287,1.656><0,0,-153>
+{4sex13}<-1.261,6.93,0.678><19,0,90>
+{4cum1}<0.679,6.593,0.418><0,0,-157>
+{4cum2}<0.51,6.857,0.603><7,0,-89.1>
+{4cum3}<-0.606,6.85,1.627><0,0,10>
+PROP1 fuck&dildo|dildoRHs7|G9|<0.187,8.28,0.874>|<90,0,0>|right hand
+PROP1 MMF&play3|dildo2|G9|<0.187,8.28,0.874>|<90,0,0>|left hand

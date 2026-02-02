@@ -1,0 +1,658 @@
+
+--✄--COPY BELOW INTO "AVpos" NOTECARD--✄--
+
+"NERENZO LITTLE HANGOUT - 230 ANIMS" AVsitter 2.2
+SWAP 1
+ADJUST [INM API]|-99998|BENTOFACES|-31450010
+
+SITTER 0|Male|M
+
+TOMENU SINGLE
+TOMENU TALK
+TOMENU CUDDLE1
+TOMENU CUDDLE2
+TOMENU FOREPLAY
+TOMENU BLOWJOBS
+TOMENU TONGUEPLAY
+TOMENU SEX
+TOMENU OPTIONS
+BUTTON Light|42
+
+MENU OPTIONS
+BUTTON TEXTURES|-1864098
+BUTTON LM2Store|0
+TOMENU HELP
+
+MENU HELP
+BUTTON AdjustPoses|0
+BUTTON BentoFaces|0
+BUTTON Aeros|0
+BUTTON ITsNOTmine|0
+BUTTON Access|0
+BUTTON PhysicsCock|0
+
+MENU HIDE
+SYNC 1|sS13
+
+MENU SINGLE
+SEQUENCE SEQ-SOLO-F
+POSE singleM1|SL19
+POSE singleM2|SL17
+POSE singleM3|SL16
+POSE singleM4|SL14
+POSE singleM5|SL8
+POSE singleM6|SL7
+POSE singleM7|SL2
+POSE singleM8|sS48
+POSE singleM9|sS47
+POSE singleM10|sS18
+POSE singleM11|sS17
+POSE singleM12|sS14
+POSE singleM13|sS13
+
+MENU TALK
+SEQUENCE SEQ-TALK-F
+SYNC talk1|SL17
+SYNC talk2|SL16
+SYNC talk3|SL8
+SYNC talk4|SL7
+SYNC talk5|SL2
+SYNC talk6|sS48
+SYNC talk7|sS47
+SYNC talk8|sS17
+SYNC talk9|sS14
+SYNC talk10|sS13
+
+MENU CUDDLE1
+SEQUENCE SEQ-CUDD-F
+SYNC beginnings|L40
+SYNC magic|L39
+SYNC everything|L38
+SYNC vista|L36
+SYNC let's stay|L35
+SYNC why worry|L34
+SYNC revealed|L33
+SYNC midnight|L32
+SYNC you you|L31
+SYNC italo kiss|L25
+
+MENU CUDDLE2
+SEQUENCE SEQ-CUDD-F
+SYNC silent kiss|L23
+SYNC up on you|L15
+SYNC sugarpie|L14
+SYNC undetected|L13
+SYNC yong|L5
+SYNC savor|L1
+SYNC my gravity|G18
+SYNC affection|G17
+SYNC charming|G16
+SYNC peace found|G15
+SYNC paradise|G13
+SYNC not far|G5
+SYNC the way|G4
+SYNC my moon|G3
+
+MENU FOREPLAY
+SEQUENCE SEQ-FORE-F
+SYNC milky way|H6
+SYNC blow a kiss|B27
+SYNC boobs play|E2
+SYNC finger front|F13
+SYNC finger back|F14+
+SYNC oh ronald|F4
+SYNC deal|P1
+
+MENU BLOWJOBS
+SEQUENCE SEQ-BLOW-F
+SYNC clipped|B22
+SYNC go(o)d girl|B20+
+SYNC shaft lover|B17
+SYNC throat abuse|B11
+SYNC testing|B5+
+SYNC 45°|B2
+SYNC lipstick|B1
+SYNC 69|O3
+
+MENU TONGUEPLAY
+SEQUENCE SEQ-TONG-F
+SYNC that's it|N6
+SYNC lick it|N19
+SYNC slot|N17
+SYNC vibrate|N16
+SYNC don't stop|N15+
+SYNC lip check|N12
+SYNC honey dip|N3+
+
+MENU SEX
+TOMENU SLOW&GENTLE
+TOMENU ORDINARY 1
+TOMENU ORDINARY 2
+TOMENU ANALLY
+TOMENU HARD 1
+TOMENU HARD 2
+TOMENU CUM
+
+MENU SLOW&GENTLE
+SEQUENCE SEQ-SLOW-F
+SYNC deep venus|M3-
+SYNC mozart|M8-
+SYNC legs up|M11-
+SYNC slow gear|D11-
+SYNC petrol|D8-
+SYNC feather|R19-
+SYNC further|I7-
+SYNC slow spoon|V25-
+SYNC heat|V10-
+SYNC different|V5-
+
+MENU ORDINARY 1
+SEQUENCE SEQ-ORDY-F
+SYNC staple|M1
+SYNC cock dump|M12
+SYNC vision|M13
+SYNC tailors pick|M15
+SYNC back lance|D13
+SYNC swing fuck|D9
+SYNC intensive|R2
+SYNC cozmic|R20
+SYNC butt view|R17
+SYNC tempo|R18
+
+MENU ORDINARY 2
+SEQUENCE SEQ-ORDY-F
+SYNC throne fuck|R5
+SYNC standing|I2
+SYNC cocklateral|V24
+SYNC logger|V12
+SYNC carriage|V1
+SYNC eifel|V2
+SYNC poke poke|V3
+
+MENU ANALLY
+SEQUENCE SEQ-ANAL-F
+SYNC reverse girl|A8
+SYNC borehole|A5
+SYNC tower|A6
+SYNC take it|xm1
+
+MENU HARD 1
+SEQUENCE SEQ-HARD-F
+SYNC missione|M6+
+SYNC easy task|M7+
+SYNC chilly dog|D12+
+SYNC hybrid|D7+
+SYNC fuck yeah|D3+
+SYNC yo-yo|R3+
+SYNC jungle|R13+
+SYNC pace|R10b+
+SYNC bearfuck|R6+
+SYNC frog ride|R4+
+
+MENU HARD 2
+SEQUENCE SEQ-HARD-F
+SYNC fire|I6+
+SYNC fucktastic|V26+
+SYNC the expat|V10+
+SYNC apollo|V9+
+SYNC hard shaft|V6+
+SYNC spectral|V4+
+SYNC stuffed hard|RO1
+SYNC mission gag|RO2+
+SYNC doggy gag|RO5+
+SYNC kneeling gag|RO6+
+
+MENU CUM
+SEQUENCE SEQ-CUM-F
+SYNC on knockers|Z15
+SYNC bumbum cum|Z14
+SYNC side treat|Z13
+SYNC work for it|Z11
+{1}<-1.001,0.348,0.052><-0.8,-3.9,-21>
+{singleM1}<0.626,0.132,0.135><0,0,145>
+{singleM2}<-0.567,0.022,0.097><-3.1,-0.5,-62>
+{singleM3}<0.057,0.625,0.108><0,0,-105>
+{singleM4}<-0.032,0.025,0.208><0,0,-38>
+{singleM5}<-0.422,-0.264,0.106><0,0,-58>
+{singleM6}<-0.041,0.596,-0.101><0,0,-87>
+{singleM7}<0.594,0.705,-0.056><0,0,-98>
+{singleM8}<0.351,0.964,0.103><-1.6,1.2,-128.4>
+{singleM9}<0.164,0.855,0.125><0,0,-115>
+{singleM10}<0.792,0.738,0.063><-2.9,0.6,-114>
+{singleM11}<-0.212,0.138,0.101><-2.2,-3.4,-33.1>
+{singleM12}<-0.024,0.463,0.06><-6,-0.3,-91>
+{singleM13}<0.607,0.779,0.094><-2.8,1.1,-111>
+{talk1}<0.225,0.559,0.114><-1.4,1.5,-137.1>
+{talk2}<0.154,0.811,0.131><0,0,-124>
+{talk3}<0.066,0.008,0.114><0,0,-73.1>
+{talk4}<-0.631,0.55,-0.163><-3.9,-0.8,-81>
+{talk5}<0.66,0.67,-0.061><0,0,-107>
+{talk6}<0.569,0.922,0.124><-0.8,0.6,-133>
+{talk7}<-0.627,-0.941,0.255><-2.4,5.4,42.6>
+{talk8}<-0.398,0.109,0.154><-0.8,0.6,-61.1>
+{talk9}<-0.842,0.617,0.122><0,0,-50>
+{talk10}<-1.001,0.348,0.052><-0.8,-3.9,-21>
+{beginnings}<0.154,0.617,0.473><0,0,0>
+{magic}<0.617,0.55,0.469><-3,-0.1,-86>
+{everything}<0.278,0.648,0.485><0,0,-26>
+{vista}<-0.139,0.053,0.232><0,-2,-90>
+{let's stay}<0.22,-0.002,0.215><0.4,0.4,-110.5>
+{why worry}<0.049,-0.085,0.206><-4,0,-84>
+{revealed}<0.763,-0.549,0.245><1.7,2.5,-124>
+{midnight}<0.25,0.071,0.237><-2.4,4.4,-114.8>
+{you you}<0.163,-0.251,0.195><0,0,-90>
+{italo kiss}<-0.392,-0.225,0.056><-3.9,-1.6,-82>
+{silent kiss}<0.04,0.462,0.248><0,0,-169>
+{up on you}<-0.146,-0.035,0.086><-1.7,-3.2,-61.9>
+{sugarpie}<-0.171,-0.096,0.131><0,0,-66>
+{undetected}<-0.398,0.213,0.151><0,0,-98>
+{yong}<-0.519,-0.864,0.197><-1.9,0.5,-13>
+{savor}<-0.2,0.054,0.116><-2,0,-73>
+{my gravity}<0.264,0.581,-0.026><2,0,-90>
+{affection}<0.415,0.581,-0.091><0,0,-90>
+{charming}<-0.006,0.581,-0.083><0,0,-90>
+{peace found}<0.463,0.422,-0.052><0,0,-110>
+{paradise}<-0.651,0.665,-0.054><2.5,1.6,-57>
+{not far}<0.232,0.895,0.103><-0.8,0.6,-123.7>
+{the way}<0.13,0.716,0.125><0,0,-114.4>
+{my moon}<-0.958,0.505,0.108><-1.7,-1,-67>
+{milky way}<-0.215,0.22,-0.119><0,0,-45>
+{blow a kiss}<0.049,-0.309,0.245><-2.4,0,-53>
+{boobs play}<-0.965,0.305,0.11><-1.5,-1.3,-49>
+{finger front}<0.115,0.141,0.214><0,0,-156>
+{finger back}<0.076,-0.281,0.317><-2.2,2.1,-134>
+{oh ronald}<0.65,0.023,0.227><7.1,-3.6,153.4>
+{deal}<-0.183,0.696,0.138><0.1,2,177>
+{clipped}<0.159,-0.38,0.227><0,0,-120.6>
+{go(o)d girl}<0.043,0.053,0.228><0,0,-90>
+{shaft lover}<0.044,-0.259,0.205><0,0,-44.1>
+{throat abuse}<-0.025,-0.925,0.168><-3.1,2.4,50>
+{testing}<0.088,0.569,-0.038><2,0,-78.8>
+{45°}<0.219,0.43,0.153><0,0,152.5>
+{lipstick}<0.034,0.385,1.24><0,0,103.2>
+{69}<0.125,-0.224,0.286><1.9,-0.5,-162>
+{that's it}<-0.242,-0.294,-0.059><0,0,-131>
+{lick it}<-0.181,-0.248,0.23><0,0,42>
+{slot}<-0.17,-0.397,0.258><0,0,33.6>
+{vibrate}<0.01,-0.12,0.227><0,0,-132>
+{don't stop}<-0.077,-0.359,0.238><-1,0,-90>
+{lip check}<0.1,-0.383,0.281><0,0,38>
+{honey dip}<0.368,-0.919,0.123><0,0,13.6>
+{deep venus}<-1.178,-1.394,0.158><-1.5,-1.3,-31.6>
+{mozart}<0.153,-0.201,0.244><1.4,-0.4,121>
+{legs up}<-0.122,-0.235,0.243><-0.6,0.8,33.8>
+{slow gear}<0.194,-0.001,0.243><0.8,0.5,123>
+{petrol}<0.108,-0.044,0.267><0,0,136>
+{feather}<0.245,-0.277,0.222><0,0,-78>
+{further}<0.188,-0.709,1.248><0,0,124.9>
+{slow spoon}<0.338,-0.401,0.239><1.8,0.8,114.6>
+{heat}<-0.559,-0.229,0.132><0.3,-1.4,-62.4>
+{different}<-0.346,-0.612,0.138><-0.6,-0.8,-36>
+{staple}<0.631,0.081,0.109><0,0,143.1>
+{cock dump}<-0.064,-0.129,0.217><0,0,137>
+{vision}<-0.139,-0.412,0.284><-1,1.8,26>
+{tailors pick}<0.332,-0.391,0.221><-4,0,-90>
+{back lance}<0.4,-0.406,0.26><2.6,3.1,50.3>
+{swing fuck}<0.078,-0.373,0.254><-0.6,-0.8,-7>
+{intensive}<-0.376,0.109,1.281><0,0,-40>
+{cozmic}<0.275,-0.27,0.258><0,0,-72>
+{butt view}<0.208,-0.026,0.255><0,0,-90>
+{tempo}<0.355,-0.091,0.211><0,0,-79>
+{throne fuck}<0.3,0.536,0.144><1.5,-1.6,-147.9>
+{standing}<-0.112,-1.162,1.177><0,0,123.7>
+{cocklateral}<0.428,-0.416,0.244><1.3,1.5,138.6>
+{logger}<-0.635,-0.706,-0.016><0,0,-115>
+{carriage}<0.265,0.05,0.181><0,0,-171>
+{eifel}<-0.358,0.026,0.178><-4,0,-101>
+{poke poke}<-0.42,0.253,0.127><0,0,-122.4>
+{reverse girl}<0.29,-0.235,0.202><0,0,-71>
+{borehole}<0.149,-0.24,0.266><0,0,127>
+{tower}<-0.122,-0.094,0.287><-1.4,1.5,54.4>
+{take it}<0.236,-0.309,1.267><0.9,0.3,-72>
+{missione}<0.524,-0.565,0.173><0,0,102>
+{easy task}<-0.257,-0.655,0.025><0,3,-180>
+{chilly dog}<0.434,-0.347,0.202><-1,-0.3,105>
+{hybrid}<-0.007,1.521,0.339><0,0,-90>
+{fuck yeah}<0.006,0.291,1.23><-1.8,-0.8,-65>
+{yo-yo}<-0.364,0.122,1.247><0,0,-46>
+{jungle}<-0.472,0.087,0.16><0,-0.3,-106>
+{pace}<-0.798,0.451,0.369><0,0,-9>
+{bearfuck}<0.078,-0.463,0.209><-0.3,1.1,49.1>
+{frog ride}<-0.245,0.071,0.117><0,0,-72.6>
+{fire}<0.178,-0.719,1.222><-5.6,0,-154>
+{fucktastic}<0.374,-0.462,0.22><-0.9,2,101.6>
+{the expat}<0.068,-0.988,0.173><0,0,32.2>
+{apollo}<0.759,-0.277,0.135><2,0.4,102>
+{hard shaft}<-0.711,-0.198,0.096><-2.6,-1.4,-61.9>
+{spectral}<-0.098,0.655,1.232><0,0,-70>
+{stuffed hard}<0.027,-0.061,1.09><0,0,-38>
+{mission gag}<-0.016,-0.044,0.213><-3.1,-2.5,-51.1>
+{doggy gag}<-0.135,0.019,0.271><-4.1,-2.9,-55.1>
+{kneeling gag}<0.076,-0.403,0.273><0,0,-121>
+{on knockers}<0.035,-0.067,0.173><0,0,140.6>
+{bumbum cum}<0.436,-0.573,0.231><-1.8,-1.5,-88>
+{side treat}<0.107,-0.301,0.22><0,0,-71>
+{work for it}<0.639,-1.613,1.166><0,0,-78>
+
+SITTER 1|Female|F
+
+TOMENU SINGLE
+TOMENU TALK
+TOMENU CUDDLE1
+TOMENU CUDDLE2
+TOMENU FOREPLAY
+TOMENU BLOWJOBS
+TOMENU TONGUEPLAY
+TOMENU SEX
+TOMENU OPTIONS
+BUTTON Light|42
+
+MENU OPTIONS
+BUTTON TEXTURES|-1864098
+BUTTON LM2Store|0
+TOMENU HELP
+
+MENU HELP
+BUTTON AdjustPoses|0
+BUTTON BentoFaces|0
+BUTTON Aeros|0
+BUTTON ITsNOTmine|0
+BUTTON Access|0
+BUTTON PhysicsCock|0
+
+MENU HIDE
+SYNC 1|ss12
+
+MENU SINGLE
+SEQUENCE SEQ-SOLO-M
+POSE singleF1|sl18
+POSE singleF2|sl17
+POSE singleF3|sl15
+POSE singleF4|sl14
+POSE singleF5|sl13
+POSE singleF6|sl12
+POSE singleF7|sl10
+POSE singleF8|sl9
+POSE singleF9|sl5
+POSE singleF10|sl1
+
+MENU TALK
+SEQUENCE SEQ-TALK-M
+SYNC talk1|ss13
+SYNC talk2|sl1
+SYNC talk3|sl15
+SYNC talk4|ss17
+SYNC talk5|sl6
+SYNC talk6|sl10
+SYNC talk7|sl14
+SYNC talk8|sl5
+SYNC talk9|ss7
+SYNC talk10|ss12
+
+MENU CUDDLE1
+SEQUENCE SEQ-CUDD-M
+SYNC beginnings|l40
+SYNC magic|l39
+SYNC everything|l38
+SYNC vista|l36
+SYNC let's stay|l35
+SYNC why worry|l34
+SYNC revealed|l33
+SYNC midnight|l32
+SYNC you you|l31
+SYNC italo kiss|l25
+
+MENU CUDDLE2
+SEQUENCE SEQ-CUDD-M
+SYNC silent kiss|l23
+SYNC up on you|l15
+SYNC sugarpie|l14
+SYNC undetected|l13
+SYNC yong|l5
+SYNC savor|l1
+SYNC my gravity|g18
+SYNC affection|g17
+SYNC charming|g16
+SYNC peace found|g15
+SYNC paradise|g13
+SYNC not far|g5
+SYNC the way|g4
+SYNC my moon|g3
+
+MENU FOREPLAY
+SEQUENCE SEQ-FORE-M
+SYNC milky way|h6
+SYNC blow a kiss|b27
+SYNC boobs play|e2
+SYNC finger front|f13
+SYNC finger back|f14+
+SYNC oh ronald|f4
+SYNC deal|p1
+
+MENU BLOWJOBS
+SEQUENCE SEQ-BLOW-M
+SYNC clipped|b22
+SYNC go(o)d girl|b20+
+SYNC shaft lover|b17
+SYNC throat abuse|b11
+SYNC testing|b5+
+SYNC 45°|b2
+SYNC lipstick|b1
+SYNC 69|o3
+
+MENU TONGUEPLAY
+SEQUENCE SEQ-TONG-M
+SYNC that's it|n6
+SYNC lick it|n19
+SYNC slot|n17
+SYNC vibrate|n16
+SYNC don't stop|n15+
+SYNC lip check|n12
+SYNC honey dip|n3+
+
+MENU SEX
+TOMENU SLOW&GENTLE
+TOMENU ORDINARY 1
+TOMENU ORDINARY 2
+TOMENU ANALLY
+TOMENU HARD 1
+TOMENU HARD 2
+TOMENU CUM
+
+MENU SLOW&GENTLE
+SEQUENCE SEQ-SLOW-M
+SYNC deep venus|m3-
+SYNC mozart|m8-
+SYNC legs up|m11-
+SYNC slow gear|d11-
+SYNC petrol|d8-
+SYNC feather|r19-
+SYNC further|i7-
+SYNC slow spoon|v25-
+SYNC heat|v10-
+SYNC different|v5-
+
+MENU ORDINARY 1
+SEQUENCE SEQ-ORDY-M
+SYNC staple|m1
+SYNC cock dump|m12
+SYNC vision|m13
+SYNC tailors pick|m15
+SYNC back lance|d13
+SYNC swing fuck|d9
+SYNC intensive|r2
+SYNC cozmic|r20
+SYNC butt view|r17
+SYNC tempo|r18
+
+MENU ORDINARY 2
+SEQUENCE SEQ-ORDY-M
+SYNC throne fuck|r5
+SYNC standing|i2
+SYNC cocklateral|v24
+SYNC logger|v12
+SYNC carriage|v1
+SYNC eifel|v2
+SYNC poke poke|v3
+
+MENU ANALLY
+SEQUENCE SEQ-ANAL-M
+SYNC reverse girl|a8
+SYNC borehole|a5
+SYNC tower|a6
+SYNC take it|xf1
+
+MENU HARD 1
+SEQUENCE SEQ-HARD-M
+SYNC missione|m6+
+SYNC easy task|m7+
+SYNC chilly dog|d12+
+SYNC hybrid|d7+
+SYNC fuck yeah|d3+
+SYNC yo-yo|r3+
+SYNC jungle|r13+
+SYNC pace|r10b+
+SYNC bearfuck|r6+
+SYNC frog ride|r4+
+
+MENU HARD 2
+SEQUENCE SEQ-HARD-M
+SYNC fire|i6+
+SYNC fucktastic|v26+
+SYNC the expat|v10+
+SYNC apollo|v9+
+SYNC hard shaft|v6+
+SYNC spectral|v4+
+SYNC stuffed hard|ro1
+SYNC mission gag|ro2+
+SYNC doggy gag|ro5+
+SYNC kneeling gag|ro6+
+
+MENU CUM
+SEQUENCE SEQ-CUM-M
+SYNC on knockers|z15
+SYNC bumbum cum|z14
+SYNC side treat|z13
+SYNC work for it|z11
+{1}<0.367,-0.008,0.086><0,0,148>
+{singleF1}<-0.054,0.534,0.153><1.2,-2.7,-66>
+{singleF2}<0.82,0.211,0.133><0,0,-103>
+{singleF3}<0.483,0.464,0.221><0,0,-103>
+{singleF4}<0.497,0.314,0.252><-0.6,-1.9,-106>
+{singleF5}<-0.265,-0.376,0.07><-1.6,1.2,143>
+{singleF6}<0.728,-0.251,0.103><-0.8,-1.8,-115>
+{singleF7}<0.531,0.458,0.086><0,0,-90>
+{singleF8}<0.173,0.534,0.099><-2.5,-1.6,-57>
+{singleF9}<-0.383,0.424,-0.131><0,0,-52>
+{singleF10}<0.48,0.297,-0.131><0.7,-0.7,-135>
+{talk1}<-0.854,0.584,0.109><0,0,-40>
+{talk2}<-0.617,0.255,-0.121><-2.8,-1.1,-69>
+{talk3}<-0.408,0.39,0.249><0,0,-111>
+{talk4}<0.34,0.542,0.094><3,-5.3,-115.8>
+{talk5}<-0.351,0.252,-0.168><0,0,-66>
+{talk6}<-0.144,0.757,0.077><0,0,-52>
+{talk7}<0.231,0.23,0.264><0,0,-81>
+{talk8}<0.521,0.439,-0.12><0,-5,-105>
+{talk9}<0.335,0.377,0.064><0,0,-147.8>
+{talk10}<0.367,-0.008,0.086><0,0,148>
+{beginnings}<0.154,0.173,0.473><0,0,0>
+{magic}<0.174,0.52,0.47><-3,-0.1,-86>
+{everything}<0.084,0.248,0.485><0,0,-26>
+{vista}<-0.138,-0.311,0.21><-2,-2,89.9>
+{let's stay}<0.092,-0.346,0.213><0.4,0.4,69.5>
+{why worry}<0.087,-0.448,0.231><-4,0,96>
+{revealed}<0.559,-0.853,0.245><1.7,2.5,56>
+{midnight}<0.097,-0.261,0.262><-2.4,4.4,65.2>
+{you you}<0.163,-0.617,0.195><0,0,90>
+{italo kiss}<0.706,-0.07,0.075><-3.9,-1.6,-82>
+{silent kiss}<0.39,0.53,0.214><-0.4,2,-169>
+{up on you}<0.831,0.489,0.125><-1.7,-3.2,-61.9>
+{sugarpie}<0.843,0.355,0.131><0,0,-66>
+{undetected}<0.7,0.059,0.151><0,0,-98>
+{yong}<-0.27,0.216,0.159><-1.9,0.5,-13>
+{savor}<0.861,0.378,0.105><-2,0,-73>
+{my gravity}<0.264,0.228,-0.038><2,0,-90>
+{affection}<0.415,0.228,-0.091><0,0,-90>
+{charming}<-0.006,0.228,-0.083><0,0,-90>
+{peace found}<0.342,0.09,-0.052><0,0,-110>
+{paradise}<-0.459,0.37,-0.073><2.5,1.6,-57>
+{not far}<1.139,0.289,0.103><0.8,-0.6,-123.7>
+{the way}<1.124,0.265,0.125><0,0,-114.4>
+{my moon}<0.047,0.927,0.02><-3.8,0.5,-66.9>
+{milky way}<0.261,0.406,1.12><0,0,-135>
+{blow a kiss}<0.269,-0.601,0.257><-2.4,0,127>
+{boobs play}<-0.08,0.95,0.174><-5.3,-4.6,-49.2>
+{finger front}<-0.22,-0.008,0.214><0,0,24>
+{finger back}<-0.185,-0.572,0.358><-2.2,2.1,46>
+{oh ronald}<0.209,-0.948,0.133><2.3,4.5,153>
+{deal}<-0.227,-0.412,0.203><0.1,2,177>
+{clipped}<-0.028,-0.695,0.227><0,0,59.4>
+{go(o)d girl}<0.043,-0.313,0.228><0,0,90>
+{shaft lover}<0.345,-0.56,0.195><0,0,135.9>
+{throat abuse}<-0.873,-0.212,0.165><-3.1,2.4,50>
+{testing}<0.157,0.222,-0.013><-1.9,-0.8,-78.8>
+{45°}<-0.293,-0.554,0.168><0,0,152.5>
+{lipstick}<0.018,0.452,1.111><0,0,-76.8>
+{69}<-0.252,-0.334,0.249><1.4,1.4,16.9>
+{that's it}<0.12,0.137,0.307><0,0,50>
+{lick it}<0.091,-0.003,0.23><0,0,-138>
+{slot}<0.135,-0.194,0.296><0,0,-146.4>
+{vibrate}<-0.235,-0.392,0.227><0,0,48>
+{don't stop}<-0.077,-0.725,0.221><-2,0,90>
+{lip check}<0.389,-0.158,0.281><0,0,-142>
+{honey dip}<0.108,0.154,0.123><0,0,13.6>
+{deep venus}<-0.599,-0.453,0.167><-1.5,-1.3,-31.6>
+{mozart}<-0.035,0.113,0.223><1.4,-0.4,-59>
+{legs up}<0.183,-0.031,0.236><-0.6,0.8,-146.2>
+{slow gear}<-0.005,0.306,0.249><0.8,0.5,-57>
+{petrol}<-0.155,0.211,0.267><0,0,-44>
+{feather}<0.322,-0.635,0.222><0,0,102>
+{further}<0.016,-0.461,1.131><0,0,-55.1>
+{slow spoon}<0.186,-0.068,0.252><1.8,0.8,-65.4>
+{heat}<0.425,0.284,0.159><0.3,-1.4,-62.4>
+{different}<0.306,0.285,0.138><-0.6,-0.8,-36>
+{staple}<-0.024,-0.791,0.109><0,0,143.1>
+{cock dump}<-0.331,0.12,0.217><0,0,-43>
+{vision}<0.19,-0.252,0.271><-1,1.8,-154>
+{tailors pick}<0.332,-0.756,0.246><-4,0,90>
+{back lance}<0.633,-0.124,0.26><2.6,3.1,-129.7>
+{swing fuck}<0.441,-0.418,0.26><-0.6,-0.8,173>
+{intensive}<-0.113,-0.105,1.161><0,0,140>
+{cozmic}<0.389,-0.618,0.258><0,0,108>
+{butt view}<0.208,-0.392,0.255><0,0,90>
+{tempo}<0.424,-0.451,0.211><0,0,101>
+{throne fuck}<0.895,-0.4,0.072><1.5,-1.6,-147.9>
+{standing}<-0.142,-1.117,1.198><0,0,123.7>
+{cocklateral}<0.155,-0.174,0.257><1.3,1.5,-41.4>
+{logger}<-0.756,-0.967,-0.049><0,0,-115>
+{carriage}<0.438,-1.045,0.181><0,0,-171>
+{eifel}<0.735,-0.16,0.239><-0.1,-0.8,-101>
+{poke poke}<0.516,-0.341,0.138><0,0,-122.4>
+{reverse girl}<0.41,-0.581,0.202><0,0,109>
+{borehole}<-0.071,0.052,0.266><0,0,-53>
+{tower}<0.091,0.204,0.275><-1.4,1.5,-125.6>
+{take it}<0.328,-0.596,1.138><0.9,0.3,-72>
+{missione}<-0.556,-0.819,0.173><0,0,102>
+{easy task}<-0.439,-0.655,-0.079><0,3,0>
+{chilly dog}<0.34,0.002,0.292><2.9,0.8,-75>
+{hybrid}<0.02,1.204,0.403><0,0,-90>
+{fuck yeah}<0.104,0.025,1.118><-1.8,-0.8,-65>
+{yo-yo}<-0.125,-0.118,1.127><0,0,134>
+{jungle}<0.594,-0.218,0.164><0,-0.3,-106>
+{pace}<-0.589,0.447,0.3><0,0,-9>
+{bearfuck}<-0.76,0.263,0.254><-0.3,1.1,49.1>
+{frog ride}<0.813,0.403,0.117><0,0,-72.6>
+{fire}<-0.274,-0.939,1.244><-5.6,0,26>
+{fucktastic}<0.3,-0.104,0.217><-0.9,2,-78.4>
+{the expat}<-0.524,-0.05,0.173><0,0,32.2>
+{apollo}<-0.325,-0.507,0.135><2,0.4,102>
+{hard shaft}<0.267,0.325,0.096><-2.6,-1.4,-61.9>
+{spectral}<0.211,-0.195,1.129><0,0,110>
+{stuffed hard}<0.222,-0.215,1.059><0,0,142>
+{mission gag}<0.213,-0.327,0.238><-3.1,-2.5,128.9>
+{doggy gag}<0.074,-0.279,0.302><-4.1,-2.9,124.9>
+{kneeling gag}<-0.112,-0.716,0.273><0,0,59>
+{on knockers}<-0.248,0.165,0.173><0,0,-39.4>
+{bumbum cum}<0.449,-0.938,0.242><-1.8,-1.5,92>
+{side treat}<0.226,-0.648,0.184><0,0,109>
+{work for it}<0.715,-1.971,1.189><0,0,102>

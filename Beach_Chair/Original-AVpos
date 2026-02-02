@@ -1,0 +1,527 @@
+"NERENZO BEACH CHAIR" AVsitter 2.2
+SWAP 1
+ADJUST [BENTOFACE]|-31450010|ADJUST [INM API]
+
+SITTER 0|Male|M
+
+TOMENU SINGLE
+TOMENU ACTIVITY
+TOMENU CUDDLES
+TOMENU 4PLAY
+TOMENU ORAL
+TOMENU SEX
+TOMENU OPTIONS
+
+MENU OPTIONS
+BUTTON TEXTURES|-1864098
+TOMENU HELP
+BUTTON LM2Store
+
+MENU HELP
+BUTTON AdjustPoses
+BUTTON BentoFaces
+BUTTON Aeros
+BUTTON ITsNOTmine
+BUTTON Access
+
+
+MENU HIDE
+SYNC 1|1m
+
+MENU SINGLE
+POSE m-sit1|sS20
+POSE m-sit2|sS34|60|sS33|120
+POSE m-sit3|sS19
+POSE m-sit4|sS36|60|sS35|120
+POSE m-sit5|sS18
+POSE m-sit6|sS13|120|sS14|120
+POSE m-sit7|sS17
+POSE laptop|1503
+POSE read|1504
+POSE drink1|1505
+POSE drink2|1507
+
+MENU ACTIVITY
+SYNC sun lotion1|xm1
+SYNC sun lotion2|xm2
+SYNC strawberries|TT5
+SYNC grapes|TT6
+SYNC story time|TT10
+SYNC airplane|TT12
+SYNC cheers|1505
+SYNC cocktail|cDR1
+SYNC coco drink|cDR2
+SYNC coco feed|cDR3
+
+MENU CUDDLES
+SYNC on you|G2
+SYNC my moon|G3
+SYNC the way|G4
+SYNC bochecha|G7
+SYNC my amazon|G8
+SYNC spots|G11
+SYNC paradise|G13
+SYNC like us|G14
+SYNC peace found|G15
+SYNC charming|G16
+SYNC affection|G17
+SYNC my gravity|G18
+SYNC yong|L5
+SYNC italo kiss|L25
+SYNC ipanema|xm3
+
+MENU 4PLAY
+SYNC boobs play|E2
+SYNC caramba|Z2
+SYNC stand&rub|F11
+SYNC fingering|xm4
+SYNC some fingers|x1m
+SYNC deal|P1
+
+MENU ORAL
+SYNC 45°|B2
+SYNC cat|B15
+SYNC big john|B16
+SYNC shaft lover|B17
+SYNC clipped|B22
+SYNC blow a kiss|B27
+SYNC standlickA|N7a
+SYNC standlickB|N7b
+SYNC slot|N17
+SYNC lip check|N12
+SYNC glory clit|N4
+SYNC honey dip|N3
+
+MENU SEX
+TOMENU EYE2EYE
+TOMENU STAND'N BANG
+TOMENU FROM BEHIND
+TOMENU GIRL ON TOP
+TOMENU VARIOUS
+TOMENU BUTT STUFF
+TOMENU CUM
+
+MENU STAND'N BANG
+SYNC popeye|I2
+SYNC I'm in|I4
+SYNC thrills|I5
+SYNC fire|I6
+SYNC starr|I7
+
+MENU EYE2EYE
+SYNC easy task|M7
+SYNC mozart|M8
+SYNC hang in|M9
+SYNC legs up|M11
+SYNC cock dump|M12
+SYNC vision|M13
+SYNC bridging|M14
+SYNC tailors pick|M15
+
+MENU FROM BEHIND
+SYNC builder|D1
+SYNC chilly dog|D12
+SYNC back lance|D13
+SYNC tight rein1|x7m
+SYNC tight rein2|x8m
+SYNC local fuck|xm5
+
+MENU GIRL ON TOP
+SYNC stiff ride|R4
+SYNC duchess|R5
+SYNC bearfuck|R6
+SYNC don john|R8
+SYNC back love|R9
+SYNC pace|R10b
+SYNC jungle|R13
+SYNC laying bull|R16
+SYNC butt view|R17
+SYNC cozmic|R20
+
+MENU VARIOUS
+SYNC carriage|V1
+SYNC eifel|V2
+SYNC spectral|V4
+SYNC cuchara|V5
+SYNC the expat|V10
+
+MENU BUTT STUFF
+SYNC borehole|A5
+SYNC tower|A6
+SYNC via hole|A7
+SYNC reverse girl|A8
+
+MENU CUM
+SYNC milk man|Z1
+SYNC creamy tits|Z4
+SYNC work for it|Z11
+SYNC bumbum cum|Z14
+{1}<0.009,-0.232,0.817><0,0,-90>
+{m-sit1}<0.117,-1.254,-0.3><3,0,180>
+{m-sit2}<0.073,-0.217,-0.243><0,0,-90>
+{m-sit3}<0.117,-0.99,-0.33><5,0,180>
+{m-sit4}<0,-0.314,-0.276><2,0,-90>
+{m-sit5}<0,-0.233,-0.187><4,0,-90>
+{m-sit6}<0,-0.224,-0.215><3,0,-90>
+{m-sit7}<0,-0.859,-0.225><2,0,-90>
+{laptop}<-0.374,-0.875,-0.254><5,0,-90>
+{read}<-0.436,-0.776,-0.207><5,0,-90>
+{drink1}<0.033,-0.714,-0.087><7,0,-90>
+{drink2}<0,-0.272,-0.342><7,0,-90>
+{sun lotion1}<0.004,-0.343,-0.32><5,0,-90>
+{sun lotion2}<0.004,-0.184,-0.232><9,0,-90>
+{strawberries}<-0.307,-1.361,-0.216><0,0,-90.1>
+{grapes}<-0.065,-1.255,-0.273><0,0,-39>
+{story time}<-0.676,-1.052,-0.176><0,0,-101.3>
+{airplane}<-0.049,-1.241,-0.198><1.9,-0.5,81.6>
+{cheers}<0.626,-1.016,-0.127><0,0,-122.1>
+{cocktail}<-0.251,-0.298,-0.322><3,0,-90>
+{coco drink}<0.001,-0.338,-0.331><1.4,-2.9,-101>
+{coco feed}<-0.249,-0.31,-0.31><2,-0,-90>
+{on you}<-0.506,-0.346,-0.273><0,0,-90>
+{my moon}<-0.48,-0.368,-0.204><4,0,-90>
+{the way}<-0.46,-0.257,-0.198><5,0,-90>
+{bochecha}<0.142,-1.282,-0.349><0,0,90>
+{my amazon}<0.161,-0.502,-0.254><0,0,180>
+{spots}<-0.052,-0.133,-0.262><3,0,-135>
+{paradise}<-0.006,-0.311,-0.387><7,0,-90>
+{like us}<-0.006,-0.311,-0.387><7,0,-90>
+{peace found}<-0.006,-0.311,-0.387><7,0,-90>
+{charming}<-0.006,-0.311,-0.387><7,0,-90>
+{affection}<-0.006,-0.311,-0.387><7,0,-90>
+{my gravity}<-0.006,-0.311,-0.387><7,0,-90>
+{yong}<-0.362,-0.758,-0.258><7,0,-90>
+{italo kiss}<-0.631,-1.049,-0.313><4,0,-94>
+{ipanema}<0.004,-0.466,-0.289><6,0,-90>
+{boobs play}<-0.414,-0.279,-0.18><3,0,-90>
+{caramba}<0.041,-2.137,-0.357><4,0,0>
+{stand&rub}<-0.175,-1.391,0.803><0,0,48>
+{fingering}<0.004,-0.379,-0.229><8,0,-90>
+{some fingers}<0.064,-0.969,-0.134><5,-2,-90>
+{deal}<0.068,-1.949,-0.269><0,0,-23>
+{45°}<-0.354,-1.239,-0.256><0,0,-89>
+{cat}<-0.057,-1.161,-0.144><4,0,-90>
+{big john}<0.059,-1.156,-0.19><0,0,-90>
+{shaft lover}<-0.06,-1.092,-0.207><0,0,168.7>
+{clipped}<0.078,-1.518,-0.205><-0.8,1.1,159.1>
+{blow a kiss}<0.141,-1.405,-0.218><5,0,-90>
+{standlickA}<0.004,-0.613,0.848><0,0,-90>
+{standlickB}<0.004,-0.613,0.848><0,0,-90>
+{slot}<0.037,-0.923,-0.146><5,0,-90>
+{lip check}<0.004,-1.421,-0.178><0,0,50.6>
+{glory clit}<-0.168,0.129,-0.232><-0.2,-2,174.4>
+{honey dip}<-0.597,-1.048,-0.284><-0.9,0.4,-118.1>
+{popeye}<-0.193,-1.52,0.79><0,0,51>
+{I'm in}<-0.007,-0.993,0.822><0,0,-114>
+{thrills}<0.069,-1.224,0.875><0,0,-112.5>
+{fire}<0.324,-1.15,0.812><0,0,-115>
+{starr}<0.152,-1.099,0.804><0,0,-123.7>
+{easy task}<0.03,-1.057,-0.414><2,0,90>
+{mozart}<-0.016,-1.222,-0.175><4,0,-90>
+{hang in}<0.009,-1.324,-0.182><4,0,-90>
+{legs up}<-0.087,-1.169,-0.156><1,0,-90>
+{cock dump}<-0.063,-1.566,-0.212><0,0,-40>
+{vision}<-0.04,-1.49,-0.177><1,0,-90>
+{bridging}<-0.052,-1.013,-0.117><0,0,-90>
+{tailors pick}<-0.084,-1.37,-0.148><3,0,-90>
+{builder}<0.387,-1.345,-0.267><5,-1,90.1>
+{chilly dog}<0.007,-1.292,-0.135><4.8,-3.2,-93.8>
+{back lance}<0.292,-1.308,-0.12><0.3,-1.9,-40>
+{tight rein1}<0.006,-1.013,-0.093><3,0,-90>
+{tight rein2}<0.006,-0.833,-0.093><3,0,-90>
+{local fuck}<0.004,-1.834,-0.528><8,0,90>
+{stiff ride}<-0.272,-1.185,-0.291><0,0,-90>
+{duchess}<-0.303,-1.151,-0.3><0,0,-90>
+{bearfuck}<-0.115,-1.501,-0.225><2.6,3.1,-40.1>
+{don john}<-0.006,-0.324,-0.379><6,0,-90>
+{back love}<-0.006,-0.348,-0.35><7,0,-90>
+{pace}<0.007,-0.278,0.044><3,0,-90>
+{jungle}<-0.492,-1.533,-0.305><0,0,-90>
+{laying bull}<-0.083,-1.515,-0.146><0,0,-97>
+{butt view}<0.05,-1.263,-0.164><3,0,-90>
+{cozmic}<0.029,-1.76,-0.16><0,0,-90>
+{carriage}<0.45,-1.608,-0.285><-3,0,90>
+{eifel}<-0.432,-1.868,-0.24><-1.7,-3.6,-25.1>
+{spectral}<-0.019,-1.941,0.794><6,0,90>
+{cuchara}<-0.173,-1.927,-0.242><0,0,-9>
+{the expat}<-0.557,-0.961,-0.279><0,0,-90>
+{borehole}<-0.012,-1.316,-0.158><6,0,-90>
+{tower}<-0.197,-1.115,-0.103><4.8,-1.5,-107.9>
+{via hole}<-0.12,-1.15,-0.144><0,0,-116>
+{reverse girl}<-0.008,-1.292,-0.148><7,0,-90>
+{milk man}<-0.857,-1.316,-0.262><0,0,-64>
+{creamy tits}<0.004,-1.6,-0.444><0,0,90>
+{work for it}<-0.878,-1.669,0.715><0,0,-156>
+{bumbum cum}<-0.05,-1.407,-0.189><0,0,157.5>
+PROP strawberries|strawberries1|G1|<0.096451, -1.300629, -0.532105>|<0.000000, 0.000000, -0.000007>
+PROP grapes|grapes|G2|<-0.915955, -1.328338, -0.549622>|<0.000000, 0.000000, -174.000000>
+PROP1 cheers|Nerenzo beer1-right|G3|<-0.215955, -0.328338, -0.549622>|<0.000000, 0.000000, -174.000000>|right hand
+PROP laptop|laptop-male|G1|<0.018722, -0.679344, -0.029480>|<0.000000, -2.000000, -0.000007>
+PROP read|tablet-M|G1|<0.080048, -0.442772, -0.039856>|<-54.331990, 2.598193, 178.414000>
+PROP1 drink1|Coconut-m-rh|G1|<-0.563461, -0.312454, -0.496033>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 drink2|Nerenzo beer1-left 1|G1|<0.445984, -0.681343, -0.385193>|<0.000003, -0.000002, 0.000010>|left hand
+PROP sun lotion1|Nerenzo sun lotion|G1|<-0.365738, -0.357643, -0.420044>|<-95.264750, 16.607930, 92.368960>
+PROP sun lotion2|Nerenzo sun lotion|G1|<-0.365738, -0.357643, -0.420044>|<-95.264750, 16.607930, 92.368960>
+PROP tablet|tablet|G1|<0.293319, -1.391266, -0.259583>|<13.000180, -56.670640, -84.631780>
+PROP1 cocktail|cocktail red love|G10|<-0.563461, -0.312454, -0.496033>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 coco drink|Nerenzo coconut drinkM|G10|<-0.563461, -0.312454, -0.496033>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 coco feed|Nerenzo coconut drink|G10|<-0.563461, -0.312454, -0.496033>|<0.000000, 0.000000, 0.000000>|left hand
+PROP1 coco feed|spoon|G10|<-0.563461, -0.312454, -0.496033>|<0.000000, 0.000000, 0.000000>|right hand
+
+SITTER 1|Female|F
+
+TOMENU SINGLE
+TOMENU ACTIVITY
+TOMENU CUDDLES
+TOMENU 4PLAY
+TOMENU ORAL
+TOMENU SEX
+TOMENU OPTIONS
+
+MENU OPTIONS
+BUTTON TEXTURES|-1864098
+TOMENU HELP
+BUTTON LM2Store
+
+MENU HELP
+BUTTON AdjustPoses
+BUTTON BentoFaces
+BUTTON Aeros
+BUTTON ITsNOTmine
+BUTTON Access
+
+MENU HIDE
+SYNC 1|1f
+
+MENU SINGLE
+POSE f-sit1|ss2
+POSE f-sit2|ss35|60|ss36|120
+POSE f-sit3|ss13
+POSE f-sit4|ss34
+POSE f-sit5|ss5
+POSE f-sit6|ss47
+POSE f-sit7|ss31
+POSE f-sit8|ss12
+POSE laptop|1605
+POSE reading|1606
+POSE drink|xsf1
+
+MENU ACTIVITY
+SYNC sun lotion1|xf1
+SYNC sun lotion2|xf2
+SYNC strawberries|tt5
+SYNC grapes|tt6
+SYNC story time|tt10
+SYNC airplane|tt12
+SYNC cheers|xsf1
+SYNC cocktail|cdr1
+SYNC coco drink|cdr2
+SYNC coco feed|cdr3
+
+MENU CUDDLES
+SYNC on you|g2
+SYNC my moon|g3
+SYNC the way|g4
+SYNC bochecha|g7
+SYNC my amazon|g8
+SYNC spots|g11
+SYNC paradise|g13
+SYNC like us|g14
+SYNC peace found|g15
+SYNC charming|g16
+SYNC affection|g17
+SYNC my gravity|g18
+SYNC yong|l5
+SYNC italo kiss|l25
+SYNC ipanema|xf3
+
+MENU 4PLAY
+SYNC boobs play|e2
+SYNC caramba|z2
+SYNC stand&rub|f11
+SYNC fingering|xf4
+SYNC some fingers|x1f
+SYNC deal|p1
+
+MENU ORAL
+SYNC 45°|b2
+SYNC cat|b15
+SYNC big john|b16
+SYNC shaft lover|b17
+SYNC clipped|b22
+SYNC blow a kiss|b27
+SYNC standlickA|n7a
+SYNC standlickB|n7b
+SYNC slot|n17
+SYNC lip check|n12
+SYNC glory clit|n4
+SYNC honey dip|n3
+
+MENU SEX
+TOMENU EYE2EYE
+TOMENU STAND'N BANG
+TOMENU FROM BEHIND
+TOMENU GIRL ON TOP
+TOMENU VARIOUS
+TOMENU BUTT STUFF
+TOMENU CUM
+
+MENU EYE2EYE
+SYNC easy task|m7
+SYNC mozart|m8
+SYNC hang in|m9
+SYNC legs up|m11
+SYNC cock dump|m12
+SYNC vision|m13
+SYNC bridging|m14
+SYNC tailors pick|m15
+
+MENU STAND'N BANG
+SYNC popeye|i2
+SYNC I'm in|i4
+SYNC thrills|i5
+SYNC fire|i6
+SYNC starr|i7
+
+MENU FROM BEHIND
+SYNC builder|d1
+SYNC chilly dog|d12
+SYNC back lance|d13
+SYNC tight rein1|x7f
+SYNC tight rein2|x8f
+SYNC local fuck|xf5
+
+MENU GIRL ON TOP
+SYNC stiff ride|r4
+SYNC duchess|r5
+SYNC bearfuck|r6
+SYNC don john|r8
+SYNC back love|r9
+SYNC pace|r10b
+SYNC jungle|r13
+SYNC laying bull|r16
+SYNC butt view|r17
+SYNC cozmic|r20
+
+MENU VARIOUS
+SYNC carriage|v1
+SYNC eifel|v2
+SYNC spectral|v4
+SYNC cuchara|v5
+SYNC the expat|v10
+
+MENU BUTT STUFF
+SYNC borehole|a5
+SYNC tower|a6
+SYNC via hole|a7
+SYNC reverse girl|a8
+
+MENU CUM
+SYNC milk man|z1
+SYNC creamy tits|z4
+SYNC work for it|z11
+SYNC bumbum cum|z14
+{1}<0.062,-0.559,0.74><0,0,-90>
+{f-sit1}<0,-0.223,-0.281><-21,0,-90>
+{f-sit2}<0.184,-0.275,-0.193><0,0,-129.4>
+{f-sit3}<0,-0.386,-0.189><9,0,-87>
+{f-sit4}<0,-0.648,-0.265><3,0,-88>
+{f-sit5}<0,-0.299,-0.312><-26,0,-108>
+{f-sit6}<0.26,-0.168,-0.16><7,0,-90>
+{f-sit7}<0.013,-0.306,-0.219><0,0,-90>
+{f-sit8}<0.327,-1.031,-0.333><0,0,134.6>
+{laptop}<0.191,-1.218,-0.365><0,0,-101.3>
+{reading}<0,-0.3,-0.261><7,0,0>
+{drink}<0,-0.25,0.588><5,0,-90>
+{sun lotion1}<0.004,-0.787,-0.359><5,0,-90>
+{sun lotion2}<0.004,-0.625,-0.302><9,0,-90>
+{strawberries}<-0.307,-1.727,-0.216><0,0,89.9>
+{grapes}<0.219,-1.485,-0.273><0,0,141>
+{story time}<-0.747,-1.411,-0.176><0,0,78.8>
+{airplane}<0.004,-0.879,-0.186><1.9,-0.5,-98.4>
+{cheers}<0,-0.25,0.588><5,0,-90>
+{cocktail}<0.244,-0.298,-0.322><3,0,-90>
+{coco drink}<0.558,-0.468,-0.333><0,0,-104>
+{coco feed}<0.246,-0.31,-0.31><2,-0,-90>
+{on you}<0.585,-0.346,-0.346><0,0,-90>
+{my moon}<0.611,-0.368,-0.273><4,1,-90.1>
+{the way}<0.631,-0.257,-0.198><5,0,-90>
+{bochecha}<-0.962,-1.282,-0.349><0,0,90>
+{my amazon}<0.161,-1.606,-0.197><-2,0,180>
+{spots}<0.729,-0.912,-0.303><3,0,-135>
+{paradise}<-0.006,-0.662,-0.43><7,0,-90>
+{like us}<-0.006,-0.662,-0.43><7,0,-90>
+{peace found}<-0.006,-0.662,-0.43><7,0,-90>
+{charming}<-0.006,-0.662,-0.43><7,0,-90>
+{affection}<-0.006,-0.662,-0.43><7,0,-90>
+{my gravity}<-0.006,-0.662,-0.43><7,0,-90>
+{yong}<0.747,-0.758,-0.258><7,0,-90>
+{italo kiss}<0.475,-1.127,-0.319><4,0,-94>
+{ipanema}<0.004,-0.909,-0.336><6,0,-90>
+{boobs play}<0.677,-0.378,-0.124><-2,0,-90>
+{caramba}<0.041,-1.036,-0.28><4,0,0>
+{stand&rub}<0.162,-1.017,0.803><0,0,-132>
+{fingering}<0.004,-0.821,-0.291><8,0,-90>
+{some fingers}<0.064,-1.334,-0.166><5,-2,90>
+{deal}<0.501,-0.928,-0.204><-0.8,-1.8,-23>
+{45°}<0.754,-1.22,-0.216><0,0,-89>
+{cat}<-0.057,-1.511,-0.112><4,0,90>
+{big john}<0.059,-1.522,-0.146><-3,0,90>
+{shaft lover}<-0.419,-1.021,-0.183><0,0,-11.3>
+{clipped}<-0.264,-1.388,-0.201><-0.8,1.1,-20.8>
+{blow a kiss}<0.141,-1.77,-0.25><5,0,90>
+{standlickA}<0.004,-1.06,0.7><0,0,90>
+{standlickB}<0.004,-1.06,0.7><0,0,90>
+{slot}<0.037,-1.287,-0.177><5,0,90>
+{lip check}<0.236,-1.138,-0.178><0,0,-129.4>
+{glory clit}<-0.269,-0.975,-0.299><5.7,-3.5,175>
+{honey dip}<0.376,-1.569,-0.282><-0.9,0.4,-118.1>
+{easy task}<0.03,-0.877,-0.521><2,0,-90>
+{mozart}<-0.016,-1.588,-0.2><4,0,90>
+{hang in}<0.009,-1.689,-0.208><4,0,90>
+{legs up}<-0.087,-1.535,-0.162><1,0,90>
+{cock dump}<0.217,-1.801,-0.212><0,0,140>
+{vision}<-0.04,-1.856,-0.183><1,0,90>
+{bridging}<-0.052,-1.379,-0.117><0,0,90>
+{tailors pick}<-0.084,-1.736,-0.167><3,0,90>
+{popeye}<-0.159,-1.478,0.811><0,0,51>
+{I'm in}<-0.222,-1.358,0.713><0,0,-105>
+{thrills}<-0.123,-1.689,0.944><0,0,67.5>
+{fire}<0.112,-1.606,0.812><0,0,65>
+{starr}<-0.017,-1.352,0.798><3.3,-2.2,56.3>
+{builder}<-0.705,-1.383,-0.209><7,-1,90.1>
+{chilly dog}<-0.022,-1.662,-0.083><4.8,-3.2,86.2>
+{back lance}<0.571,-1.543,-0.059><-0.1,2.3,140>
+{tight rein1}<0.006,-1.379,-0.112><3,0,90>
+{tight rein2}<0.006,-1.199,-0.112><3,0,90>
+{local fuck}<0.004,-1.387,-0.504><15,0,90>
+{stiff ride}<0.837,-1.185,-0.291><0,0,-90>
+{duchess}<0.806,-1.147,-0.365><0,0,-90>
+{bearfuck}<0.599,-0.653,-0.192><2.6,3.1,-40.1>
+{don john}<-0.006,-0.685,-0.321><6,0,-90>
+{back love}<-0.006,-0.624,-0.308><7,0,-90>
+{pace}<0.036,-0.481,-0.036><3,0,-90>
+{jungle}<0.617,-1.533,-0.248><0,0,-90>
+{laying bull}<-0.128,-1.878,-0.146><0,0,83>
+{butt view}<0.05,-1.629,-0.183><3,0,90>
+{cozmic}<0.029,-2.126,-0.16><0,0,90>
+{carriage}<-0.659,-1.608,-0.285><-3,0,90>
+{eifel}<0.013,-0.852,-0.194><0,0,-25>
+{spectral}<-0.019,-1.031,0.787><6,0,-90>
+{cuchara}<0.001,-0.831,-0.242><0,0,-9>
+{the expat}<0.553,-0.961,-0.279><0,0,-90>
+{borehole}<-0.012,-1.68,-0.196><6,0,90>
+{tower}<-0.309,-1.461,-0.135><4.8,-1.5,72.1>
+{via hole}<-0.28,-1.479,-0.144><0,0,64>
+{reverse girl}<-0.008,-1.655,-0.219><7,0,90>
+{milk man}<0.14,-0.83,-0.262><0,0,-64>
+{creamy tits}<0.004,-1.115,-0.446><7,0,90>
+{work for it}<-1.212,-1.818,0.715><0,0,24>
+{bumbum cum}<-0.387,-1.265,-0.197><5.9,-1.4,-22.4>
+PROP1 cheers|Nerenzo beer1-left|G4|<-0.215955, -0.328338, -0.549622>|<0.000000, 0.000000, -174.000000>|left hand
+PROP1 drink|Nerenzo beer1-left|G4|<-0.215955, -0.328338, -0.549622>|<0.000000, 0.000000, -174.000000>|left hand
+PROP reading|tablet|G1|<-0.010970, -0.442260, -0.077880>|<-67.999990, -0.000010, -180.000000>
+PROP laptop|laptop-female|G1|<0.134290, -1.185970, -0.397340>|<0.000000, 90.000000, 89.000710>
+PROP story time|tablet|G1|<0.298630, -1.367360, -0.284970>|<-10.250460, -56.577560, -98.583040>
+PROP1 cocktail|F1 blue curacao|G10|<-0.563461, -0.312454, -0.496033>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 coco drink|Nerenzo coconut drinkF|G10|<-0.563461, -0.312454, -0.496033>|<0.000000, 0.000000, 0.000000>|right hand

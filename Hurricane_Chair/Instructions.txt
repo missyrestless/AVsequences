@@ -1,0 +1,62 @@
+AVsitter Sequence for Good Moaning Hurricane Chair 
+==================================================
+
+This folder contains the 'AVpos' and '[AV]sequence_settings' notecards for use with the 'AVsitter2' plugin '[AV]sequence' to provide animation sequences for the Good Moaning Hurricane Chair dialog menus.
+
+This 'AVsitter' customization allows greater freedom of personal interaction in the chair, eliminating the need to navigate dialog menus during moments of intimacy.
+
+IMPORTANT NOTE
+--------------------
+
+This product does NOT contain the Good Moaning Hurricane Chair. You have to purchase the chair from Good Moaning. This product only contains the notecards and scripts used to provide sequenced animations for the chair. This customization of the Good Moaning Hurricane Chair works with the version available on the Second Life Marketplace at https://marketplace.secondlife.com/p/Good-Moaning-Hurricane-Chair-100-exclusive-anims/27064324
+
+In order to deploy this customization it will be necessary to edit the chair object. Detailed instructions are provided below but if you are not comfortable editing Second Life objects then this may be viewed as an opportunity to learn or as something not for you.
+
+Missy Restless and the Truth & Beauty Lab are not affiliated with Good Moaning products in any way other than as an extremely satisfied customer.
+
+Menus
+-----
+
+Sequences are configured for Sitter 0 and Sitter 1 menus, both male and female:
+
+- King
+- Queen
+- Cuddle
+- Foreplay
+- Boy on Top
+- Girl on Top
+- Doggie Style
+- Anal
+
+Setup
+-----
+
+To configure a Good Moaning Hurricane Chair with AVsitter sequences:
+
+- Right click the chair and select 'Edit'
+
+- Drag and Drop the '[AV]sequence_settings' notecard into the Contents tab
+
+- Drag and Drop the '[AV]sequence' plugin script into the Contents tab
+
+- Replace the 'AVpos' notecard in the Contents tab with the 'AVpos' notecard found in this folder
+  - Drag and Drop the original 'AVpos' notecard from the Contents tab into your inventory as a backup
+  - Delete the 'AVpos' notecard from the Contents tab (you can ignore and close the Warning window)
+  - Drag and Drop the new 'AVpos' notecard with sequences into the Contents tab
+
+- Close the 'Edit' window
+
+- Right click the chair and select 'More' -> 'More' -> 'Scripts' -> 'Reset Scripts'
+
+- Wait for the scripts to reset (this takes a few minutes)
+
+Sit on the chair, select one of the first two sitters (Male or Female). Click one of the main submenus, for example, 'King' or 'Queen'. Click the button with a label beginning with 'SEQ_'.
+
+Menu entries of the form 'SEQ_...' indicate sequenced animations. Clicking any of these menu entries will cycle seated avatars through all the animations in that submenu. Cycle times are currently set to 60 seconds with menu arrows to step to the next animation, previous animation, or pause animation sequencing.
+
+Auto Play Sequence
+------------------
+
+If you wish to automatically play a sequence when an avatar sits on the towel then drag & drop the 'autoplay' script into the Contents of the object.
+
+The 'autoplay' script detects the gender of the sitter and plays the appropriate sequence. In addition, it detects the number of sitters currently on the object and plays the couples animation sequence if more than 1 sitter is seated.

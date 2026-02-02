@@ -1,0 +1,374 @@
+# <--Use this symbol at the beginning of the line to leave a comment, note, or description for yourself
+#
+# Start each pattern with the menu name of a (not animation name), followed by a vertical line |
+# Format each vibrate command in the pattern like so:
+# COMMAND|LEVEL|SECONDS|
+#
+# Example line:
+# name|COMMAND|LEVEL|SECONDS
+#
+# Different patterns (up to 4) may be specified for each sitter for a single pose. 
+# Insert the SITTER # between the name and commands. Use 0, 1, 2, 3 to designate sitters
+# SECONDS is only used with SITTER 0
+# Note: Pattern will default to that used by SITTER 0 if none is specified, or for any sitters after the 4th
+#
+# Example lines:
+# name|0|COMMAND|LEVEL|SECONDS
+# name|1|COMMAND|LEVEL
+# name|2|COMMAND|LEVEL
+# name|3|COMMAND|LEVEL
+#
+# Commands:
+# Levels are 0 - 20 unless specified
+# v for normal vibrate (this will vibrate both motors on Edge)
+# v1 for internal vibrate with Edge
+# v2 for external vibrate with Edge
+# r for rotation with Nora
+# a for suction with Max; use 0 - 3 for automatic suction, use 4 for manual suction, and 5 for manual release
+# p to start default pattern, use 0, 1, 2, 3, or 4 for LEVEL to indicate which pattern to play
+#
+# All patterns will loop until is changed or a sitter stands up
+# Switching to a without a designated pattern will also stop all vibration
+# The max length per line is 255 characters, the pattern may be clipped short if a line is too long
+# DO NOT EMBED ITEMS IN THIS NOTECARD (e.g., other notecards, scripts, objects, calling cards, etc)
+#
+# You may remove these instructions if you wish ( doing so will also reduce the time it takes for patterns to index )
+# 
+# Use the example patterns below to get started:
+# This first example will alternate between maximum & minimum vibration level every 3 seconds
+Example1|v|20|3|v|0|3
+# This is a long pattern that changes intensity every 3 seconds
+Example2|v|5|3|v|10|3|v|6|3|v|12|3|v|7|3|v|14|3|v|8|3|v|16|3|v|9|3|v|18|3|v|10|3|v|20|3
+# This is an example of having each sitter vibrate at a different level with the same pose
+Example3|0|v|1|3|v|5|3|v|9|3|v|13|3|v|17|3
+Example3|1|v|2|v|6|v|10|v|14|v|18
+Example3|2|v|3|v|7|v|11|v|15|v|19
+Example3|3|v|4|v|8|v|12|v|16|v|20
+# Using the default patterns, changing every 10 seconds
+Example4|p|1|10|p|2|10|p|3|10|p|4|10
+# Nora & Max example, assumes SITTER 0 & 1 are female & male respectively
+# Starts rotation & suction for both, then vibrates both right after
+Example5|0|r|10|1|v|10|10
+Example5|1|a|3|v|10
+# Edge example, equivalent to using normal vibrate at level 10 for 10 seconds
+Example6|v1|10|1|v2|10|9
+
+☼01|v|1
+☼02|v|2
+☼03|v|3
+☼04|v|4
+☼05|v|5
+☼06|v|6
+☼07|v|7
+☼08|v|8
+☼09|v|9
+☼10|v|10
+
+
+1OC|v|1
+2OC|v|2
+3OC|v|3
+4OC|v|4
+5OC|v|5
+6OC|v|6
+
+1OA|v|11|3|v|0|3
+2OA|v|12|3|v|0|3
+3OA|v|13|3|v|0|3
+4OA|v|14|3|v|0|3
+
+5OA|v|15|3|v|0|3
+6OA|v|16|3|v|0|3
+7OA|v|17|3|v|0|3
+8OA|v|18|3|v|0|3
+
+♥gloomy 1|1|1|v|0|1
+♥gloomy 2|2|1|v|0|1
+♥gloomy 3|3|1|v|0|1
+♥gloomy 4|3|1|v|0|1
+♥gloomy 5|5|1|v|0|1
+♥gloomy 6|6|1|v|0|1
+♥gloomy 7|7|1|v|0|1
+
+•01|1|1|v|0|1
+•02|2|2|v|0|1
+•03|3|3|v|0|1
+•04|4|4|v|0|1
+•05|5|5|v|0|1
+•06|6|6|v|0|1
+•07|7|7|v|0|1
+
+➴ 1|v|1
+➴ 2|v|2
+➴ 3|v|3
+➴ 4|v|4
+➴ 5|v|5
+➴ 6|v|6
+➴ 7|v|7
+➴ 8|v|8
+➴ 9|v|9
+➴ 10|v|10
+➴ 11|v|11
+➴ 12|v|12
+➴ 13|v|13
+➴ 14|v|14
+➴ 15|v|15
+➴ 16|v|16
+➴ 17|v|17
+
+1 Sit ♀|v|1
+2 Sit ♀|v|2
+3 Sit ♀|v|3
+4 Sit ♀|v|4
+5 Sit ♀|v|5
+6 Sit ♀|v|6
+7 Sit ♀|v|7
+8 Sit ♀|v|8
+9 Sit ♀|v|9
+10 Sit ♀|v|10
+
+bored|v|1
+bored2|v|2
+clapping-m|v|3
+Cool guy|v|4
+crossed-legs-m|v|5
+hands-on-lap-m|v|6
+interested|v|7
+relaxed|v|8
+standing-ovation-m|v|9
+standing-yelling-m|v|10
+watching|v|11
+
+
+Crossed legs|v|1
+Prim Sitting|v|2
+heartfelt-f|v|3
+clapping1|v|4
+clapping2|v|5
+clapping3|v|6
+stand-ovation1|v|7
+stand-ovation2|v|8
+standing-yelling|v|9
+whispered-aside|v|10
+
+1cFF|v|1|1|v1|1|1|v2|1|1
+2cFF|v|2|2|v1|2|2|v2|2|2
+3cFF|v|3|3|v1|3|3|v2|3|3
+4cFF|v|4|4|v1|4|4|v2|4|4
+5cFF|v|5|5|v1|5|5|v2|5|5
+6cFF|v|6|6|v1|6|6|v2|6|6
+
+1aFF|v|7|7|v1|7|7|v2|7|7
+2aFF|v|8|8|v1|8|8|v2|8|8
+3aFF|v|9|9|v1|9|9|v2|9|9
+4aFF|v|10|10|v1|10|10|v2|10|10
+5aFF|v|11|11|v1|11|11|v2|11|11
+6aFF|v|12|12|v1|12|12|v2|12|12
+7aFF|v|13|13|v1|13|13|v2|13|13
+8aFF|v|14|14|v1|14|14|v2|14|14
+9aFF|v|15|15|v1|15|15|v2|15|15
+10aFF|v|16|16|v1|16|16|v2|16|16
+11aFF|v|17|17|v1|17|17|v2|17|17
+12aFF|v|18|18|v1|18|18|v2|18|18
+
+
+
+♥01|v|1
+♥02|v|2
+♥03|v|3
+♥04|v|4
+♥05|v|5
+♥06|v|6
+♥07|v|7
+♥08|v|8
+♥09|v|9
+♥10|v|10
+♥11|v|11
+♥11s|v|11
+♥12|v|12
+♥13|v|13
+♥14|v|14
+♥15|v|15
+
+FF Lick 1|v|1|1|v|2|2|v|3|3|v|4|4|v|5|5|v|6|6|v|7|7|v|8|8|v|9|9|v|10|10|v|11|11|v|12|12
+FF FingerLick|v|2|2|v|4|4|v|6|6|v|8|8|v|10|10|v|12|12|v|14|14|v|15|15|v|16|16|v|18|18|v|20|20|v|0|1
+FF Kiss|v|2|1|v|4|1|v|6|1|v|8|1|v|10|1|v|12|1|v|14|1|v|15|1|v|16|1|v|18|1|v|20|1|v|0|1
+FF Lick 2|v|2|1|v|4|1|v|8|1|v|16|1|v|8|1|v|4|1|v|2|1|v|4|1|v|8|1|v|16|1|v|8|1|v|4|1
+FF Lick 3|v|2|1|v|4|2|v|8|4|v|16|8|v|8|16|v|4|8|v|2|4|v|4|2|v|8|4|v|16|8|v|8|16|v|16|8
+FF Lick 4|v|9|9|v|0|3
+FF Rim|v|10|10|v|0|3
+FF Vibe|v|12|12|v|0|2
+FF StrapOn1|v|13|13|v|0|2
+FF StrapOn2|v|14|14|v|0|2
+
+
+
+X01|v|13|3|v|0|2
+X02|v|14|3|v|0|1
+X03|v|15|3|v|0|3
+X04|v|16|3|v|0|2
+X05|v|17|3|v|0|1
+X06|v|18|3|v|0|3
+X07|v|19|3|v|0|2
+X08|v|20|3|v|0|1
+X09|v|19|3|v|0|1
+X10|v|18|3|v|0|1
+
+
+Hug-ff|v|4
+Kiss 1|v|6
+Kiss 2|v|8
+Kiss Breast|v|10
+Kiss Navel|v|12
+Finger 1|v|14
+Finger 2|v|16
+Lick 1|v|18
+Lick 2|v|20
+
+♀ 01|0|v|0|3|v|0|3|v|3|3|v|7|3|v|11|3
+♀ 02|0|v|0|3|v|1|3|v|4|3|v|8|3|v|12|3
+♀ 03|0|v|0|3|v|2|3|v|5|3|v|9|3|v|13|3
+♀ 04|0|v|0|3|v|3|3|v|6|3|v|10|3|v|14|3
+♀ 05|0|v|0|3|v|4|3|v|7|3|v|11|3|v|15|3
+♀ 06|0|v|0|3|v|5|3|v|8|3|v|12|3|v|16|3
+♀ 07|0|v|1|3|v|6|3|v|9|3|v|13|3|v|17|3
+♀ 08|0|v|2|3|v|7|3|v|10|3|v|14|3|v|18|3
+♀ 09|0|v|3|3|v|8|3|v|11|3|v|15|3|v|19|3
+♀ 10|0|v|4|3|v|9|3|v|12|3|v|16|3|v|20|3
+
+
+▪1|3|v|6|v|2|v|1|v|6|v|10
+▪2|3|v|5|v|1|v|2|v|7|v|11
+▪3|3|v|4|v|0|v|3|v|8|v|12
+▪4|3|v|3|v|1|v|4|v|9|v|13
+▪5|3|v|2|v|2|v|5|v|10|v|14
+▪6|3|v|1|v|3|v|6|v|11|v|15
+▪7|3|v|0|v|4|v|7|v|12|v|16
+▪8|3|v|1|v|5|v|9|v|13|v|17
+▪9|3|v|2|v|6|v|10|v|14|v|18
+▪10|3|v|3|v|7|v|11|v|15|v|19
+▪11|3|v|4|v|8|v|12|v|16|v|20
+
+
+1Tantra|v|1|1|v|0|3
+2Tantra|v|2|2|v|0|3
+3Tantra|v|3|3|v|0|3
+4Tantra|v|4|4|v|0|3
+
+5Tantra|v|5|5|v|0|3
+6Tantra|v|6|6|v|0|3
+7Tantra|v|7|7|v|0|3
+8Tantra|v|8|8|v|0|3
+
+1Tease ffm|v|5|3|v|2|2|v|1|1|v|2|2
+2Tease ffm|v|6|3|v|3|2|v|1|1|v|3|2
+3Tease ffm|v|8|3|v|4|2|v|1|1|v|4|2
+4Tease ffm|v|11|3|v|5|2|v|1|1|v|5|2
+
+1Lust ffm|v|13|13|v1|13|13|v2|13|13
+2Lust ffm|v|14|14|v1|14|14|v2|14|14
+3Lust ffm|v|15|15|v1|15|15|v2|15|15
+
+4Lust ffm|v|16|16|v1|16|16|v2|16|16
+5Lust ffm|v|17|17|v1|17|17|v2|17|17
+6Lust ffm|v|18|18|v1|18|18|v2|18|18
+
+1Tease|v|1|1|v1|1|1|v2|1|1
+2Tease|v|2|2|v1|2|2|v2|2|2
+3Tease|v|3|3|v1|3|3|v2|3|3
+4Tease|v|4|4|v1|4|4|v2|4|4
+5Tease|v|5|5|v1|5|5|v2|5|5
+6Tease|v|6|6|v1|6|6|v2|6|6
+
+7Tease|v|7|2|v|2|2
+8Tease|v|8|2|v|2|2
+9Tease|v|9|2|v|2|2
+10Tease|v|10|2|v|2|2
+11Tease|v|11|2|v|2|2
+12Tease|v|12|2|v|2|2
+
+1Lust|v|11|4|v|2|2
+2Lust|v|12|4|v|2|2
+3Lust|v|13|4|v|2|2
+4Lust|v|14|4|v|2|2
+
+5Lust|v|15|4|v|2|2
+6Lust|v|16|4|v|2|2
+7Lust|v|17|4|v|2|2
+8Lust|v|18|4|v|2|2
+
+1Tease mmf|v|2|3|v|0|3
+2Tease mmf|v|4|3|v|0|3
+3Tease mmf|v|6|3|v|0|3
+4Tease mmf|v|8|3|v|0|3
+
+1Lust mmf|v|10|3|v|0|3
+2Lust mmf|v|12|3|v|0|3
+3Lust mmf|v|14|3|v|0|3
+
+4Lust mmf|v|16|3|v|0|3
+5Lust mmf|v|18|3|v|0|3
+6Lust mmf|v|20|3|v|0|3
+
+1TeaseC|v|1|1|v|0|3
+2TeaseC|v|2|2|v|0|3
+3TeaseC|v|3|3|v|0|3
+4TeaseC|v|4|4|v|0|3
+5TeaseC|v|5|5|v|0|3
+6TeaseC|v|6|6|v|0|3
+
+7TeaseC|v|7|7|v|0|3
+8TeaseC|v|8|8|v|0|3
+9TeaseC|v|9|9|v|0|3
+10TeaseC|v|10|10|v|0|3
+11TeaseC|v|11|11|v|0|3
+12TeaseC|v|12|12|v|0|3
+
+1LustC|v|10|10|v|0|3
+2LustC|v|12|12|v|0|2
+3LustC|v|13|13|v|0|2
+4LustC|v|14|14|v|0|2
+
+5LustC|v|15|15|v|0|2
+6LustC|v|16|16|v|0|2
+7LustC|v|17|17|v|0|2
+8LustC|v|18|18|v|0|2
+
+
+1TeaseCFFM|0|v|2|3|v|0|3
+2TeaseCFFM|0|v|4|3|v|0|3
+3TeaseCFFM|0|v|6|3|v|0|3
+4TeaseCFFM|0|v|8|3|v|0|3
+
+
+
+1LustCFFM|0|v|15|3|v|0|3
+2LustCFFM|0|v|16|3|v|0|3
+3LustCFFM|0|v|17|3|v|0|3
+
+
+4LustCFFM|0|v|18|3|v|0|3
+5LustCFFM|0|v|19|3|v|0|3
+6LustCFFM|0|v|20|3|v|0|3
+
+
+•01|p|1|10|p|3|5|v|13|6|v|15|3|v|12|5|v|10|4|v|6|1|p|1|10|p|3|8|
+•02|p|2|6|v|12|4|v|14|6|v|8|9|v|11|7|v|6|3|v|11|1|p|1|8|v|12|3|p|1|9|
+•03|p|3|10|p|1|7|v|12|4|v|6|2|v|15|10|p|2|7|v|13|9|v|7|3|
+•04|p|1|10|v|8|9|v|10|9|v|12|2|v|15|7|v|6|3|
+•05|p|2|6|v|6|10|v|11|4|v|6|8|v|8|5|p|3|6|
+•06|p|1|8|v|7|2|v|10|4|v|6|2|v|10|4|p|3|5|v|8|6
+•07|1|a|1|v|10|a|5|v|1|a|2|v|15|a|10|v|1|a|3|v|20|a|5|v|1
+
+
+4-1|v|4|4|v|0|1|v|4|4
+4-2|v|6|4|v|0|1|v|4|4
+4-3|v|10|4|v|0|1|v|4|4
+4-4|v|14|4|v|0|1|v|4|4
+4-5|v|18|4|v|0|1|v|4|4
+
+❶|v|4|4|v|0|1|v|6|4|v|0|1|v|8|4|v|0|1|v|10|4|v|0|1|v|12|4|v|0|1
+❷|v|8|4|v|0|1|v|10|4|v|0|1|v|12|4|v|0|1|v|14|4|v|0|1|v|16|4|v|0|1
+❸|v|12|4|v|0|1|v|14|4|v|0|1|v|16|4|v|0|1|v|18|4|v|0|1|v|20|4|v|0|1
+➍|v|20|4|v|0|1|v|16|4|v|0|1|v|12|4|v|0|1|v|8|4|v|0|1|v|4|4|v|0|1
+

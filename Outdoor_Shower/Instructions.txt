@@ -1,0 +1,72 @@
+AVsitter Sequence for Lalou 3some Outdoor Shower (Adult w. GloryHole) v1.2
+================================================
+
+This folder contains the 'AVpos' and '[AV]sequence_settings' notecards for use with the 'AVsitter2' plugin '[AV]sequence' to provide animation sequences for the Lalou 3some Outdoor Shower dialog menus.
+
+This 'AVsitter' customization allows greater freedom of personal interaction in the shower, eliminating the need to navigate dialog menus during moments of intimacy.
+
+**[Note:]** Currently this customization is for the Lalou 3some Outdoor Shower with GloryHole. Adjustments to the notecards will be necessary to enable animation sequences in the outdoor shower without glory hole.
+
+IMPORTANT NOTE
+--------------------
+
+This product does NOT contain the Lalou 3some Outdoor Shower. You have to purchase the shower from Lalou. This product only contains the notecards and scripts used to provide sequenced animations for the shower. This customization of the Lalou 3some Outdoor Shower only works with the glory hole version available on the Second Life Marketplace at https://marketplace.secondlife.com/p/Lalou-3some-Outdoor-Shower-Adult-441-anims/24299120
+
+In order to deploy this customization it will be necessary to edit the shower object. Detailed instructions are provided below but if you are not comfortable editing Second Life objects then this may be viewed as an opportunity to learn or as something not for you.
+
+Missy Restless and the Truth & Beauty Lab are not affiliated with Lalou products in any way other than as an extremely satisfied customer.
+
+Menus
+-----
+
+Sequences are configured for the following menus:
+
+- Solo Male and Female Adult and PG Menus
+- Cuddles Duo Male and Female Menus
+- Shower Duo Male and Female Menus
+- Solo Stand and Sit Menus for Male and Female
+- Foreplay Male and Female Menus
+- Glory Hole Male and Female Menus
+- Blow Job Male and Female Menus
+- Front and Behind Male and Female Menus
+- Lick Male and Female Menus
+- Wall Cock Male and Female Menus
+- Finish Male and Female Menus
+- Male/Male, Female/Female, Male/Male/Female, and Male/Female/Female Menus
+- Variations of these for PG, Adult, Straight and Bi-Sexual partners
+- Variations of these for a 3rd person in the shower
+
+Setup
+-----
+
+To configure a Lalou 3some Outdoor Shower with AVsitter sequences:
+
+- Right click the shower and select 'Edit'
+
+- Drag and Drop the '[AV]sequence_settings' notecard into the Contents tab
+
+- Drag and Drop the '[AV]sequence' plugin script into the Contents tab
+
+- Replace the 'AVpos' notecard in the Contents tab with the 'AVpos' notecard found in this folder
+  - Drag and Drop the original 'AVpos' notecard from the Contents tab into your inventory as a backup
+  - Delete the 'AVpos' notecard from the Contents tab (you can ignore and close the Warning window)
+  - Drag and Drop the new 'AVpos' notecard with sequences into the Contents tab
+
+- Close the 'Edit' window
+
+- Right click the shower and select 'More' -> 'More' -> 'Scripts' -> 'Reset Scripts'
+
+- Wait for the scripts to reset (this takes a few minutes)
+
+- If a Stack Heap collision occurs, wait a few minutes and reset the scripts again
+
+Sit on the shower and click one of the main menu entries, e.g. click 'Female' then 'Shower duo' or 'Male' then 'Adult' then 'Foreplay'.
+
+Once your reach a menu dialog with animations you should see a menu entry of the form 'SEQ ...'. Click this menu entry and your avatar will cycle through all the animations in that submenu. Cycle times are currently set to 60 seconds with menu arrows to step to the next animation, previous animation, or pause animation sequencing.
+
+Auto Play Sequence
+------------------------
+
+If you wish to automatically play a sequence when an avatar sits on the shower then drag & drop the 'autoplay' script into the Contents of the object.
+
+The 'autoplay' script detects the gender of the sitter and plays the appropriate sequence. In addition, it detects the number of sitters currently on the object and plays the couples animation sequence if more than 1 sitter is seated.

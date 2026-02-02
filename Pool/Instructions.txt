@@ -1,0 +1,46 @@
+AVsitter Sequence for Trompe Loeil Pool
+=======================================
+
+This folder contains the 'AVpos' and '[AV]sequence_settings' notecards for use with the 'AVsitter2' plugin '[AV]sequence' to provide animation sequences for the Trompe Loeil Pool dialog menus.
+
+This 'AVsitter' customization allows greater freedom of personal interaction in the sauna, eliminating the need to navigate dialog menus during moments of intimacy.
+
+Menus
+=====
+
+Sequences are configured for the following menus:
+
+- Solo Sit Menus
+- Solo Swim Menus
+- Couples Cuddle Menus
+- Couples Adult Menus
+
+Setup
+=====
+
+To configure a Trompe Loeil Pool with AVsitter sequences:
+
+- Right click the pool and select 'Edit'
+
+- Copy the '[AV]sequence_settings' notecard into the Contents tab
+
+- Copy the '[AV]sequence' plugin script into the Contents tab
+
+- Replace the 'AVpos' notecard in the Contents tab with the 'AVpos' notecard found in this folder
+
+- Close the 'Edit' window
+
+- Right click the pool and select 'More' -> 'More' -> 'Scripts' -> 'Reset Scripts'
+
+- Wait for the scripts to reset (this takes a few minutes)
+
+Sit on the pool and click one of the main menu entries, e.g. click 'SOLO SIT' or 'COUPLES'.
+
+You should see a menu entry of the form 'SEQ ...'. Click this menu entry and your avatar will cycle through all the animations in that submenu. Cycle times are currently set to 60 seconds with menu arrows to step to the next animation, previous animation, or pause animation sequencing.
+
+Auto Play Sequence
+==================
+
+If you wish to automatically play a sequence when an avatar sits on the pool then drag & drop the 'autoplay' script into the Contents of the object.
+
+The 'autoplay' script detects the gender of the sitter and plays the appropriate sequence. In addition, it detects the number of sitters currently on the object and plays the couples animation sequence if more than 1 sitter is seated.

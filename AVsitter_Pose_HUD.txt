@@ -1,0 +1,37 @@
+"AVsitter POSE HUD SET" Instructions
+
+The "AVsitter POSE HUD SET" provides a fast, user-friendly tool to adjust your pose without having to navigate through the main AVsitter menu. It includes an HUD, a script to place in your furniture, a visual guide, and this detailed instruction file.
+
+
+THE "AVsitter POSE HUD SET" CONTAINS:
+------------------------------------------------
+
+- AVsitter pose HUD -> to wear on yr avi
+
+- AVsitter pose SCRIPT -> to be placed inside your furniture
+
+- AVsitter POSE HUD SET ADV -> a visual guide of the button functions
+
+- Detailed Instructions -> This file
+
+
+HOW TO USE THE SET
+--------------------------
+
+Attach the HUD
+
+First, wear the "AVsitter Pose HUD" on your avatar. This HUD provides the controls to adjust your avatar's position. You can move and resize the HUD by right-clicking it, selecting Edit, and then using the white handles to adjust its position and size.
+
+Add the Script
+
+Next, right-click on your furniture and select Edit. Go to the Contents tab, where you'll see all the existing AVsitter files. Drag and drop the "AVsitter Pose Script" into the same prim where the AVsitter files are located, which is usually the ROOT prim. The script will automatically compile once you add it.
+
+Get to Work
+
+Once the script has compiled, sit on the furniture. Use the HUD to instantly adjust the position of either SITTER 0 or SITTER 1. The HUD allows you to seamlessly switch between controlling the two sitters.
+
+For detailed instructions on each button's function, refer to the enclosed "AVsitter POSE HUD SET ADV".
+
+You can also watch a demonstration video on Primfeed: https://www.primfeed.com/nik.emoto/posts/d1f751f6-6baa-4385-8cd2-bbf03132061b
+
+For any questions, please contact Nik Emoto in-world by sending a notecard.

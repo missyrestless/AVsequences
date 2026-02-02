@@ -1,0 +1,36 @@
+
+--✄--COPY BELOW INTO "AVpos" NOTECARD--✄--
+
+"PARAGON_CHERRYBOOMBOOM MONKEYBAR DANCE  C/M" AVsitter 2.2
+
+TOMENU DANCE
+SEQUENCE Sequence
+TOMENU POSES
+
+MENU DANCE
+POSE Dance 01|Barre Dance 01
+POSE Dance 02|Barre Dance 02
+POSE Dance 03a|Barre Dance 3a
+POSE Dance 03|Barre Dance 03
+
+MENU POSES
+POSE Pose 01|Barre Pose 01
+POSE Pose 02|Barre Pose 02
+POSE Pose 03|Barre Pose 03
+POSE Pose 04|Barre Pose 04
+POSE Pose 05|Barre Pose 05
+{Dance 01}<-0.603,-0.885,1.07><0,0,-90>
+{Dance 02}<0.043,-0.2,1.063><0,0,180>
+{Dance 03a}<0.149,0.055,1.151><0,0,180>
+{Dance 03}<0.259,0.179,0.977><0,0,180>
+{Pose 01}<-0.009,0.109,1.062><0,0,0>
+{Pose 02}<-0.014,0.298,1.062><0,0,0>
+{Pose 03}<0.043,0.196,1.146><-0.6,2.2,-1.3>
+{Pose 04}<-0.871,0.017,1.084><-8,0,0>
+{Pose 05}<-1.513,0.017,1.058><0,-4,0>
+
+--✄--COPY ABOVE INTO "AVpos" NOTECARD--✄--
+
+
+
+end

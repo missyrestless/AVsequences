@@ -1,0 +1,572 @@
+DEBUG 1
+
+SEQUENCE SEQ-CUDDLE-F1
+PLAY FinallyFoundYou
+WAIT 60
+PLAY ForLovingMe
+WAIT 60
+PLAY HugsAndKisses
+WAIT 60
+PLAY INeedYou
+WAIT 60
+PLAY JustLikeThis
+WAIT 60
+PLAY LoveAgain
+WAIT 60
+PLAY LoveOfMyLifeV2
+WAIT 60
+PLAY Naughty
+WAIT 60
+PLAY NeverForgetsV2
+WAIT 60
+PLAY TheSafestPlace
+WAIT 60
+PLAY SayForever
+WAIT 60
+PLAY SharingIsCaring
+WAIT 60
+PLAY SweetSurrender
+WAIT 60
+PLAY TakeMyBreathAway
+WAIT 60
+PLAY Thankyou
+WAIT 60
+PLAY AlmostParadise
+WAIT 60
+PLAY Frog in Love
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-CUDDLE-F2
+PLAY Pleasant
+WAIT 60
+PLAY Secret
+WAIT 60
+PLAY Kiss
+WAIT 60
+PLAY My world
+WAIT 60
+PLAY All yours
+WAIT 60
+PLAY Seducing
+WAIT 60
+PLAY Teasing
+WAIT 60
+PLAY KissOfLove
+WAIT 60
+PLAY KissOfPassion
+WAIT 60
+PLAY NeckKiss
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-CUDDLE-M1
+PLAY FinallyFoundYou
+WAIT 60
+PLAY ForLovingMe
+WAIT 60
+PLAY HugsAndKisses
+WAIT 60
+PLAY INeedYou
+WAIT 60
+PLAY JustLikeThis
+WAIT 60
+PLAY LoveAgain
+WAIT 60
+PLAY LoveOfMyLifeV2
+WAIT 60
+PLAY Naughty
+WAIT 60
+PLAY NeverForgetsV2
+WAIT 60
+PLAY TheSafestPlace
+WAIT 60
+PLAY SayForever
+WAIT 60
+PLAY SharingIsCaring
+WAIT 60
+PLAY SweetSurrender
+WAIT 60
+PLAY TakeMyBreathAway
+WAIT 60
+PLAY Thankyou
+WAIT 60
+PLAY AlmostParadise
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-CUDDLE-M2
+PLAY Frog in Love
+WAIT 60
+PLAY Caress me
+WAIT 60
+PLAY Little Boy
+WAIT 60
+PLAY My arms
+WAIT 60
+PLAY We are one
+WAIT 60
+PLAY Kissing
+WAIT 60
+PLAY Prelude
+WAIT 60
+PLAY Entwine
+WAIT 60
+PLAY Whisperbath
+WAIT 60
+PLAY Pleasant
+WAIT 60
+PLAY Secret
+WAIT 60
+PLAY Kiss
+WAIT 60
+PLAY My world
+WAIT 60
+PLAY All yours
+WAIT 60
+PLAY Seducing
+WAIT 60
+PLAY Teasing
+WAIT 60
+PLAY KissOfLove
+WAIT 60
+PLAY KissOfPassion
+WAIT 60
+PLAY NeckKiss
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-SOLO-F1
+PLAY Soaking
+WAIT 60
+PLAY Caress
+WAIT 60
+PLAY Body wash
+WAIT 60
+PLAY Lather
+WAIT 60
+PLAY Massage
+WAIT 60
+PLAY Clean Up
+WAIT 60
+PLAY Talking F
+WAIT 60
+PLAY Relax F
+WAIT 60
+PLAY Bath Sponge
+WAIT 60
+PLAY Wash Hair
+WAIT 60
+PLAY 1#Female
+WAIT 60
+PLAY 2#Female
+WAIT 60
+PLAY 3#Female
+WAIT 60
+PLAY 4#Female
+WAIT 60
+PLAY 5#Female
+WAIT 60
+PLAY 6#Female
+WAIT 60
+PLAY 7#Female
+WAIT 60
+PLAY 8#Female
+WAIT 60
+PLAY sit 1- F
+WAIT 60
+PLAY sit 2- F
+WAIT 60
+PLAY sit 3- F
+WAIT 60
+PLAY Calm
+WAIT 60
+PLAY Listening
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-SOLO-M1
+PLAY End of Day
+WAIT 60
+PLAY Interesting
+WAIT 60
+PLAY Open
+WAIT 60
+PLAY Lather M
+WAIT 60
+PLAY Massage M
+WAIT 60
+PLAY Clean Up M
+WAIT 60
+PLAY Talking M
+WAIT 60
+PLAY Relax M
+WAIT 60
+PLAY 1#Male
+WAIT 60
+PLAY 2#Male
+WAIT 60
+PLAY 3#Male
+WAIT 60
+PLAY 4#Male
+WAIT 60
+PLAY 5#Male
+WAIT 60
+PLAY 6#Male
+WAIT 60
+PLAY 7#Male
+WAIT 60
+PLAY 8#Male
+WAIT 60
+PLAY sit 1- M
+WAIT 60
+PLAY sit 2- M
+WAIT 60
+PLAY sit 3- M
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-WASH-1
+PLAY My arms
+WAIT 60
+PLAY We are one
+WAIT 60
+PLAY Kissing
+WAIT 60
+PLAY Prelude
+WAIT 60
+PLAY Entwine
+WAIT 60
+PLAY Whisperbath
+WAIT 60
+PLAY Washing back
+WAIT 60
+PLAY Washingback
+WAIT 60
+PLAY Looking
+WAIT 60
+PLAY Wash Up
+WAIT 60
+PLAY Wash Down
+WAIT 60
+PLAY One thing
+WAIT 60
+PLAY One thing inverted
+WAIT 60
+PLAY Back to back
+WAIT 60
+PLAY BackKiss
+WAIT 60
+PLAY LookAtMe
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-ADULT-11
+PLAY Cunnilingus
+WAIT 60
+PLAY BJ Under
+WAIT 60
+PLAY Grab&Rub
+WAIT 60
+PLAY Fingering
+WAIT 60
+PLAY GettingHard
+WAIT 60
+PLAY Grab&Rub
+WAIT 60
+PLAY Rub&Hard
+WAIT 60
+PLAY Hand job
+WAIT 60
+PLAY Bj
+WAIT 60
+PLAY Lick her
+WAIT 60
+PLAY lick 2
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-ADULT-12
+PLAY Spin
+WAIT 60
+PLAY Levitation
+WAIT 60
+PLAY Mill
+WAIT 60
+PLAY Deeper
+WAIT 60
+PLAY Deep
+WAIT 60
+PLAY Puller
+WAIT 60
+PLAY Doggy
+WAIT 60
+PLAY In Front
+WAIT 60
+PLAY Back
+WAIT 60
+PLAY Arch
+WAIT 60
+PLAY Up and down
+WAIT 60
+PLAY Pull
+WAIT 60
+PLAY Held
+WAIT 60
+PLAY Monkey
+WAIT 60
+PLAY Bounce
+WAIT 60
+PLAY Scissor
+WAIT 60
+PLAY Sit Down
+WAIT 60
+PLAY Cowgirl Back
+WAIT 60
+PLAY Sideways
+WAIT 60
+PLAY Harder
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-ADULT-13
+PLAY backdoor
+WAIT 60
+PLAY grab my ass
+WAIT 60
+PLAY updown ass
+WAIT 60
+PLAY on your knee
+WAIT 60
+PLAY pelvis dance
+WAIT 60
+PLAY slowly inout
+WAIT 60
+PLAY galloping
+WAIT 60
+PLAY doggieblock
+WAIT 60
+PLAY sexy openess
+WAIT 60
+PLAY cradle
+WAIT 60
+PLAY Bridge 1
+WAIT 60
+PLAY Quicky 1
+WAIT 60
+PLAY Lap 3
+WAIT 60
+PLAY Intrude
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-WASH-2
+PLAY Washingback
+WAIT 60
+PLAY Looking
+WAIT 60
+PLAY Wash Up
+WAIT 60
+PLAY Wash Down
+WAIT 60
+PLAY One thing
+WAIT 60
+PLAY One thing inverted
+WAIT 60
+PLAY Back to back
+WAIT 60
+PLAY BackKiss
+WAIT 60
+PLAY LookAtMe
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-SOLO-M2
+PLAY End of Day
+WAIT 60
+PLAY Interesting
+WAIT 60
+PLAY Open
+WAIT 60
+PLAY Lather M
+WAIT 60
+PLAY Massage M
+WAIT 60
+PLAY Clean Up M
+WAIT 60
+PLAY Talking M
+WAIT 60
+PLAY Relax M
+WAIT 60
+PLAY 1#Male
+WAIT 60
+PLAY 2#Male
+WAIT 60
+PLAY 3#Male
+WAIT 60
+PLAY 4#Male
+WAIT 60
+PLAY 5#Male
+WAIT 60
+PLAY 6#Male
+WAIT 60
+PLAY 7#Male
+WAIT 60
+PLAY 8#Male
+WAIT 60
+PLAY sit 1- M
+WAIT 60
+PLAY sit 2- M
+WAIT 60
+PLAY sit 3- M
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-SOLO-F2
+PLAY Soaking
+WAIT 60
+PLAY Caress
+WAIT 60
+PLAY Body wash
+WAIT 60
+PLAY Lather
+WAIT 60
+PLAY Massage
+WAIT 60
+PLAY Clean Up
+WAIT 60
+PLAY Talking F
+WAIT 60
+PLAY Relax F
+WAIT 60
+PLAY Bath Sponge
+WAIT 60
+PLAY Wash Hair
+WAIT 60
+PLAY 1#Female
+WAIT 60
+PLAY 2#Female
+WAIT 60
+PLAY 3#Female
+WAIT 60
+PLAY 4#Female
+WAIT 60
+PLAY 5#Female
+WAIT 60
+PLAY 6#Female
+WAIT 60
+PLAY 7#Female
+WAIT 60
+PLAY 8#Female
+WAIT 60
+PLAY sit 1- F
+WAIT 60
+PLAY sit 2- F
+WAIT 60
+PLAY sit 3- F
+WAIT 60
+PLAY Calm
+WAIT 60
+PLAY Listening
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-ADULT-21
+PLAY Cunnilingus
+WAIT 60
+PLAY BJ Under
+WAIT 60
+PLAY Fingering
+WAIT 60
+PLAY GettingHard
+WAIT 60
+PLAY Grab&Rub
+WAIT 60
+PLAY Rub&Hard
+WAIT 60
+PLAY Hand job
+WAIT 60
+PLAY Bj
+WAIT 60
+PLAY Lick her
+WAIT 60
+PLAY Bj
+WAIT 60
+PLAY Lick her
+WAIT 60
+PLAY lick 2
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-ADULT-22
+PLAY Spin
+WAIT 60
+PLAY Levitation
+WAIT 60
+PLAY Mill
+WAIT 60
+PLAY Deeper
+WAIT 60
+PLAY Deep
+WAIT 60
+PLAY Puller
+WAIT 60
+PLAY Doggy
+WAIT 60
+PLAY In Front
+WAIT 60
+PLAY Back
+WAIT 60
+PLAY Arch
+WAIT 60
+PLAY Up and down
+WAIT 60
+PLAY Held
+WAIT 60
+PLAY Monkey
+WAIT 60
+PLAY Pull
+WAIT 60
+PLAY Bounce
+WAIT 60
+PLAY Scissor
+WAIT 60
+PLAY Sit Down
+WAIT 60
+PLAY Cowgirl Back
+WAIT 60
+PLAY Sideways
+WAIT 60
+PLAY Harder
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-ADULT-23
+PLAY backdoor
+WAIT 60
+PLAY grab my ass
+WAIT 60
+PLAY updown ass
+WAIT 60
+PLAY on your knee
+WAIT 60
+PLAY pelvis dance
+WAIT 60
+PLAY slowly inout
+WAIT 60
+PLAY galloping
+WAIT 60
+PLAY doggieblock
+WAIT 60
+PLAY sexy openess
+WAIT 60
+PLAY cradle
+WAIT 60
+PLAY Bridge 1
+WAIT 60
+PLAY Quicky 1
+WAIT 60
+PLAY Lap 3
+WAIT 60
+PLAY Intrude
+LOOP

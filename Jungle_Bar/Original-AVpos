@@ -1,0 +1,23 @@
+POSE bartender1|barman
+POSE bartender2|bartender2
+POSE shake|Bartender_Shaker
+POSE clean|Dusting
+POSE prepare|Food beating
+POSE prepare2|Sandwich
+POSE bar stand Fe1|BarTable3Fe
+POSE bar stand M1|BarTable11M
+POSE drink Fe|Coffee10
+POSE drink M|Coffee13M
+POSE chill|stand at_bar4.2
+
+{bartender1}<0.586,0.802,-0.369><0,0,176>
+{bartender2}<0.47,0.846,-0.426><-0.2,-0.1,174>
+{shake}<0.47,0.923,-0.384><-0.2,-0.2,-163>
+{clean}<1.5,0.803,-0.384><0.2,0.2,-2>
+{prepare}<1.499,0.828,-0.329><0.2,0.2,-2>
+{prepare2}<1.576,1.028,-0.396><0.2,0.2,-2>
+{bar stand Fe1}<0.419,0.888,-0.488><2.5,-3.4,-140.9>
+{bar stand M1}<0.481,1.268,-0.501><-0.2,-0.2,-180>
+{drink Fe}<0.68,1.449,-0.5><-1.1,4.7,-164.9>
+{drink M}<1.746,0.825,-0.609><0,0,176>
+{chill}<1.56,0.473,-0.458><0,0,-178>

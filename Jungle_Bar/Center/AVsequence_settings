@@ -1,0 +1,22 @@
+SEQUENCE Sequence
+PLAY dance1
+WAIT 60
+PLAY dance2
+WAIT 60
+PLAY dance3
+WAIT 60
+PLAY dance4
+WAIT 60
+PLAY dance5
+WAIT 60
+PLAY twerk
+WAIT 60
+PLAY sit bored
+WAIT 60
+PLAY meditate
+WAIT 60
+PLAY peacock
+WAIT 60
+PLAY sleep2
+WAIT 60
+LOOP

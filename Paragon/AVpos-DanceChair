@@ -1,0 +1,25 @@
+
+--✄--COPY BELOW INTO "AVpos" NOTECARD--✄--
+
+"OBJECT" AVsitter 2.1
+SWAP 2
+
+POSE Sit|sit
+SEQUENCE Sequence
+POSE Kayla 1|Kayla_01 Chair Dance_Paragon
+POSE Kayla 2|Kayla_02 Chair Dance_Paragon
+POSE Kayla 3|Kayla_03 Chair Dance_Paragon
+POSE kayla 4|Kayla_04 Chair Dance_Paragon
+POSE Kayla 5|Kayla_05 Chair Dance_Paragon
+{Sit}<0,-0.274,0.64><0,0,-90>
+{Kayla 1}<0.001,-0,0.635><0,0,-90>
+{Kayla 2}<0.09,-0.372,0.691><0,0,-90>
+{Kayla 3}<0.015,-0.365,0.691><0,0,-90>
+{kayla 4}<0.015,-0.456,0.691><0,0,-90>
+{Kayla 5}<0.015,-0.007,0.586><0,0,-90>
+
+--✄--COPY ABOVE INTO "AVpos" NOTECARD--✄--
+
+
+
+end
