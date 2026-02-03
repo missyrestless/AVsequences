@@ -1,0 +1,1257 @@
+ADJUST [INM API]|-99998|FACES|-31450010|Texture|-31400100|PervShield|-2342342
+SELECT 1
+
+SITTER 0|Girl|F
+
+TOMENU Stands
+TOMENU Sits
+TOMENU Couple
+TOMENU 3Somes
+BUTTON LovenseHUD
+TOMENU Sequences
+TOMENU Swaps
+BUTTON Get HUD
+BUTTON Texture|-31400100
+
+MENU Stands
+TOMENU Swaps
+POSE SheStands|KBKb-BSS F1
+POSE SheRubs|mast f
+{SheStands}<-0.004,-0.351,0.658><0,0,-90>
+{SheRubs}<-0.004,-0.351,0.658><0,0,-90>
+
+MENU Sits
+TOMENU She Sits
+TOMENU He Sits
+TOMENU Sequences
+TOMENU Swaps
+
+MENU She Sits|V
+TOMENU Swaps
+SEQUENCE SEQSheSits
+SYNC LookNSexy|KBKb-BSS F1
+SYNC It'sCasual|KBKb-BSS F2
+SYNC SweetNSexy|KBKb-BSS F3
+SYNC Ready4Fun|KBKb-BSS F4
+SYNC OnTheStool|KBKb-BSS2 F1
+SYNC HangingOut|KBKb-BSS2 F2
+SYNC LookAtPorn|KBKb-BSS2 F3
+SYNC Sexting|KBKb-BSS2 F4
+SYNC OnThePhone|KBKb-BSS2 F5
+SYNC BarGirl|KBKb-BSS2 F6
+SYNC Sexy Lean|sit 1 F
+SYNC Crossed|sit 2 F
+SYNC Turned|sit 3 F
+SYNC TequilaTime|KBKb-BSS F5
+SYNC Cocktails|KBKb-BSS F6
+SYNC Stand&Drink|drink 1 F
+SYNC SexyDrinker|drink 2 F
+SYNC SexyBuzz|drink 3 F
+SYNC ♥RubIt|ldk-female-masturbation-sitting-v2
+SYNC ♥GetOff|ldk-female-masturbation-sitting-v3
+
+MENU He Sits|V
+TOMENU Swaps
+SEQUENCE SEQHeSits
+SYNC Chilling-|KbkB-StSingF1
+SYNC It'sCasual-|KbkB-StSingF2
+SYNC Relaxing-|KbkB-StSingF3
+SYNC LeanOnStool-|KbkB-StSingF4
+SYNC OnTheStool-|KbkB-StSingF1
+SYNC HangingOut-|KbkB-StSingF2
+SYNC LookAtPorn-|KbkB-StSingF3
+SYNC TalkOnPhone-|KbkB-StSingF4
+SYNC Sexting-|KbkB-StSingF5
+SYNC BarGuy-|KbkB-StSingF6
+SYNC NoStress-|KbkB-StSingF1
+SYNC Crossed-|KbkB-StSingF2
+SYNC FunTimes-|KbkB-StSingF3
+SYNC HaveABeer-|KbkB-StSingF5
+SYNC BeerTime-|KbkB-StSingF5
+SYNC Cold Beer-|KbkB-StSingF5
+SYNC Leftie-|KbkB-StSingF5
+SYNC Chilled-|KbkB-StSingF5
+
+MENU Couple
+TOMENU Swaps
+TOMENU Straight
+TOMENU Lesbian
+
+MENU Straight
+TOMENU Swaps
+TOMENU Cuddles
+TOMENU Foreplay
+TOMENU Oral for Him
+TOMENU Oral for Her
+TOMENU Fucking
+TOMENU Cumshots
+
+MENU Cuddles
+TOMENU Swaps
+SEQUENCE SEQCuddles
+SYNC Together|KBKb-BSC F1
+SYNC First Kiss|KBKb-BSC F2
+SYNC Cheers|KBKb-BSC F3
+SYNC TenderKiss|KBKb-BSC F4
+SYNC OnHisLap|KBKb-BSC F5
+SYNC LickTheSalt|KBKb-BSC F6
+SYNC BarKiss|KBKb-BSC2 F1
+SYNC HotAtTheBar|KBKb-BSC2 F2
+SYNC KissHerNeck|KBKb-BSC2 F3
+SYNC TwoAtBar|KBKb-BSC2 F4
+SYNC DrapeOnHim|KBKb-BSC2 F5
+SYNC Possessive|KBKb-BSC2 F6
+SYNC SweetEmbrace|SILCud F1
+SYNC HoldHerClose|SILCud F2
+SYNC GentleHug|SILCud F3
+SYNC KneelHug|SILCud F6
+SYNC On Lap 1|F DC1
+SYNC On Lap 2|F DC2
+SYNC Dance 4 Him|F DC8
+SYNC EroticKiss|Sex103F
+SYNC Bad Girl|F DC6
+
+MENU Foreplay|V
+TOMENU Swaps
+SEQUENCE SEQForeplay
+SYNC FingerAtBar|KBKb-BSA2 F3
+SYNC OpenHerUp|KBKb-BSA F3
+SYNC 2 or 3 In?|KBKb-PA F2
+SYNC 4 Fingers|KBKb-PA F1
+SYNC Finger|ThroneAdult F1
+SYNC Hand Job|DoubleHandjob-1F
+
+MENU Oral for Him
+TOMENU Swaps
+SEQUENCE SEQOralForHim
+SYNC LovelyCock|WA17
+SYNC JustTheTip|WA19
+SYNC TakesItIn|WA21
+SYNC CockHungry|WA23
+SYNC PullHerHead|WA25
+SYNC TakeItDeep|WA27
+SYNC PleasureHim|WA29
+SYNC WorkHisCock|WA31
+SYNC SausageTime|PyBKitchenA F1
+SYNC BarCockSuck|KBKb-BSA F1
+SYNC BarBlowjob|KBKb-BSA2 F1
+SYNC BarSlutBJ|KBKb-BSA2 F4
+SYNC Kneel BJ|KneelingBJ-1F
+SYNC Throat Love|SittingBJ-1F
+SYNC Facefuck|Facefuck-1F
+SYNC OnHerKnees|BlowHim-1F
+SYNC CumInMouth|WA33
+
+MENU Oral for Her|V
+TOMENU Swaps
+SEQUENCE SEQOralForHer
+SYNC CleanHerUp|KBKb-BSA F6
+SYNC BarEatPussy|KBKb-BSA2 F2
+SYNC AssSnack|KBKb-BSA F2
+SYNC Lick Down|Sex_59F
+SYNC Chair Back|Sex109F
+SYNC Stand Lick|Sex137F
+SYNC Face Time|F 1ChairAdt1
+SYNC Eat on Bar|F SideBedAdultA4
+SYNC eat pussy|EatPussy-1F
+SYNC snack|AfternoonSnack-1F
+SYNC tonguework|IntenseTonguework-1F
+SYNC maul her|MaulHer-1F
+SYNC rimjob|Rimjob-1F
+
+MENU Fucking|V
+TOMENU Swaps
+SEQUENCE SEQFucking
+SYNC PumpHerHard|KBKb-BSA F4
+SYNC BangOnStool|KBKb-BSA2 F5
+SYNC SheLuvsCock|KBKb-BSA F7
+SYNC WantsItDeep|KBKb-BSA F8
+SYNC BarSlutFuck|KBKb-BSA2 F7
+SYNC FuckThatAss|KBKb-BSA F5
+SYNC BarAssFuck|KBKb-BSA2 F6
+SYNC StickItInHer|SILAdt F1
+SYNC FlyingDog|SILAdt F2
+SYNC RamALama|SILAdt F3
+SYNC LegLifter|SILAdt F4
+SYNC DeepInside|SILAdt F5
+SYNC YogaFuck|SILAdt F6
+SYNC Stand&Bounce|SILAdt F7
+SYNC BothLegsUp|SILAdt F8
+SYNC Deep Fuck|KBKb-PCA F7
+SYNC Missionary|BedsideMissionary-1F
+SYNC Slow Ride|[RNP] Simple Chair Sex #1 - Female - 46 seconds
+SYNC HotStraddle|[RNP] Simple Chair Sex #2 - Female - 46 seconds
+SYNC ReverseRide|[RNP] Simple Chair Sex #3 - Female - 46 seconds
+SYNC ReverseAnal|[RNP] Simple Chair Sex #4 - Female - 46 seconds
+SYNC Cowgirl|KBKb-PCA F4
+SYNC RockinHorse|KBKb-PCA F5
+SYNC SeatedDog|[RNP] Simple Chair Sex #5 - Female - 46 seconds
+SYNC ButtFucking|[RNP] Simple Chair Sex #7 - Female - 44 seconds
+SYNC AnalWhore|[RNP] Simple Chair Sex #8 - Female - 44 seconds
+SYNC Facing|F DCA9
+SYNC Anal|BedsideAnal-1F
+SYNC Flying|Sex133F
+SYNC Riding|TheUnderthruster-1F
+SYNC Straddle|F DCA6
+SYNC Chair Doggy|ChairDoggy-1F
+
+MENU Cumshots|V
+TOMENU Swaps
+SEQUENCE SEQCumshots
+SYNC BarFacial|KBKb-BSA2 F8
+SYNC Facial|shvor2f
+
+MENU Lesbian|V
+TOMENU Swaps
+SYNC Hug-ff|ldk-ff-romance2-hug-f1
+SYNC Kiss 1|ldk-ff-romance2-kiss1-f1
+SYNC Kiss 2|ldk-ff-romance2-kiss2-f1
+SYNC Kiss Breast|ldk-ff-romance2-kiss-breast-f1
+SYNC Kiss Navel|ldk-ff-romance2-kiss-navel-f1
+SYNC Finger 1|ldk-ff-romance2-finger-pussy1-f1
+SYNC Finger 2|ldk-ff-romance2-finger-pussy2-f1
+SYNC Lick 1|ldk-ff-romance2-lick-pussy1-f1
+SYNC Lick 2|ldk-ff-romance2-lick-pussy2-f1
+
+MENU 3Somes
+TOMENU Swaps
+TOMENU FMF Cuddles
+TOMENU FMF Sex
+TOMENU MFM Sex
+
+MENU FMF Cuddles
+TOMENU Swaps
+SEQUENCE SEQfmfCuddles
+SYNC HugMyGirls|SILffmCud Fa1
+SYNC BackAndFront|SILffmCud Fa2
+SYNC Kisses4All|SILffmCud Fa3
+SYNC SqueezeHim|SILffmCud Fa4
+
+MENU FMF Sex|V
+TOMENU Swaps
+SEQUENCE SEQfmf
+SYNC EatHerSuckHim|SILffmAdt Fa1
+SYNC Dildo&Dick|SILffmAdt Fa2
+SYNC LickAndAnal|SILffmAdt Fa3
+SYNC SuckHerDick|SILffmAdt Fa4
+SYNC LetsUseHer|SILffmAdt Fa5
+SYNC StrapTight|SILffmAdt Fa6
+SYNC 69For3|FMF 01 F1
+SYNC KissAndFinger|FMF 02 F1
+SYNC TwoGirlsRide|FMF 03 F1
+SYNC EatAndFuck|FMF 04 F1
+SYNC TwoCanSuck1|FMF 05 F1
+SYNC Les69&Fuck|FMF 08 F1
+SYNC EatWhileFuck|FMF 09 F1
+SYNC FingerRide|FMF 10 F1
+SYNC LickThemBoth|FMF 11 F1
+SYNC Tripod|[G Star] 015_F1
+SYNC WeClaimHer|[G Star] 016_F1
+SYNC TwinSucker|[G Star] 017_F1
+SYNC ShareHisCum|FMF 12 F1
+
+MENU MFM Sex|V
+TOMENU Swaps
+SEQUENCE SEQmfm
+SYNC TwoHandJob|MFM 01 F
+SYNC KissAndFuck|MFM 02 F
+SYNC FuckAndSuck|MFM 03 F
+SYNC ForcedByTwo|MFM 04 F
+SYNC Serve2Men|MFM 05 F
+SYNC AssLickNBlow|MFM 06 F
+SYNC DoublePen|MFM 07 F
+SYNC TwoInOne|MFM 08 F
+SYNC StandingDP|MFM 09 F
+SYNC DesktopDP|MFM 10 F
+SYNC ScreamingDP|MFM 11 F
+SYNC FlipHerOver|[G Star] 025_F
+SYNC TwiceAsHard|[G Star] 026_F
+SYNC DPTheBitch|[G Star] 027_F
+SYNC DuoDoHer|[G Star] 028_F
+SYNC SheWantsCum|MFM 12 F
+
+MENU Sequences
+TOMENU Swaps
+SEQUENCE SEQSheSits
+SEQUENCE SEQHeSits
+SEQUENCE SEQCuddles
+SEQUENCE SEQForeplay
+SEQUENCE SEQOralForHer
+SEQUENCE SEQOralForHim
+SEQUENCE SEQFucking
+SEQUENCE SEQCumshots
+
+MENU Swaps
+BUTTON Girl<>Guest|90030|0|2
+BUTTON Guy<>Guest|90030|1|2
+BUTTON GenderSwap|90030|0|1
+{LookNSexy}<-0.004,-0.351,0.658><0,0,-90>
+{It'sCasual}<-0.004,-0.351,0.632><0,0,-90>
+{SweetNSexy}<-0.004,-0.351,0.699><0,0,-90>
+{Ready4Fun}<-0.004,-0.416,0.717><0,0,-90>
+{OnTheStool}<0,-0.408,0.609><0,0,-90>
+{HangingOut}<0,-0.408,0.677><0,0,-90>
+{LookAtPorn}<0,-0.408,0.613><0,0,-90>
+{Sexting}<0,-0.408,0.592><0,0,-90>
+{OnThePhone}<0,-0.408,0.596><0,0,-90>
+{BarGirl}<0,-0.408,0.583><0,0,-90>
+{Sexy Lean}<-0.012,-0.227,0.734><0,0,-90.2>
+{Crossed}<0.015,-0.263,0.654><0,0,-90>
+{Turned}<0.023,-0.211,0.695><0,0,-80>
+{TequilaTime}<-0.004,-0.351,0.655><0,0,-90>
+{Cocktails}<-0.004,-0.351,0.734><0,0,-90>
+{Stand&Drink}<-0.001,-0.236,0.728><-5.6,0.5,-90>
+{SexyDrinker}<-0.007,-0.276,0.663><0,0,-90>
+{SexyBuzz}<0.128,-0.214,0.691><0,0,-60>
+{♥RubIt}<0,0,1.075><0,0,-121.6>
+{♥GetOff}<0,0,1.075><0,0,-121.6>
+{Chilling-}<0.842,-0.474,0.865><0,0,180>
+{It'sCasual-}<0.842,-0.474,0.865><0,0,180>
+{Relaxing-}<0.842,-0.474,0.865><0,0,180>
+{LeanOnStool-}<0.842,-0.474,0.865><0,0,180>
+{OnTheStool-}<0.842,-0.474,0.865><0,0,180>
+{HangingOut-}<0.842,-0.474,0.865><0,0,180>
+{LookAtPorn-}<0.842,-0.474,0.865><0,0,180>
+{TalkOnPhone-}<0.842,-0.474,0.865><0,0,180>
+{Sexting-}<0.842,-0.474,0.865><0,0,180>
+{BarGuy-}<0.842,-0.474,0.865><0,0,180>
+{NoStress-}<0.842,-0.474,0.865><0,0,180>
+{Crossed-}<0.842,-0.474,0.865><0,0,180>
+{FunTimes-}<0.842,-0.474,0.865><0,0,180>
+{HaveABeer-}<0.842,-0.474,0.865><0,0,180>
+{BeerTime-}<0.842,-0.474,0.865><0,0,180>
+{Cold Beer-}<0.842,-0.474,0.865><0,0,180>
+{Leftie-}<0.842,-0.474,0.865><0,0,180>
+{Chilled-}<0.842,-0.474,0.865><0,0,180>
+{Together}<0.006,-0.462,0.664><0,0,-90>
+{First Kiss}<0.006,-0.462,0.664><0,0,-90>
+{Cheers}<0.006,-0.462,0.664><0,0,-90>
+{TenderKiss}<0.006,-0.462,0.664><0,0,-90>
+{OnHisLap}<0.006,-0.462,0.664><0,0,-90>
+{LickTheSalt}<0.006,-0.462,0.664><0,0,-90>
+{BarKiss}<0,-0.408,0.595><0,0,-90>
+{HotAtTheBar}<0,-0.408,0.603><0,0,-90>
+{KissHerNeck}<0,-0.408,0.603><0,0,-90>
+{TwoAtBar}<0,-0.408,0.595><0,0,-90>
+{DrapeOnHim}<0,-0.408,0.595><0,0,-90>
+{Possessive}<0,-0.408,0.595><0,0,-90>
+{SweetEmbrace}<-0.017,-0.804,0.819><0,0,90>
+{HoldHerClose}<-0.006,-0.82,0.846><0,0,90>
+{GentleHug}<0,-0.801,0.851><0,0,90>
+{KneelHug}<0.014,0.175,0.824><0,0,-90>
+{On Lap 1}<-0.069,-0.193,0.922><0,0,-102>
+{On Lap 2}<0.009,-0.261,0.931><0,0,-85>
+{Dance 4 Him}<-0.099,0.062,0.656><0,0,98>
+{EroticKiss}<-0.067,0.087,1.35><0,0,-90>
+{Bad Girl}<0.009,0.24,0.95><0,0,-85>
+{FingerAtBar}<0,0.403,0.596><0,0,90>
+{OpenHerUp}<-0.002,0.483,0.693><0,0,90>
+{2 or 3 In?}<0.018,0.177,0.767><0,0,-90>
+{4 Fingers}<0.018,0.102,0.755><0,0,-90>
+{Finger}<0.089,-0.131,0.941><-8.7,-5,-60.2>
+{Hand Job}<-0.002,0.856,0.114><-0.1,0,-90>
+{LovelyCock}<0,0.953,0.718><0,0,-90>
+{JustTheTip}<0,0.953,0.718><0,0,-90>
+{TakesItIn}<0,0.953,0.718><0,0,-90>
+{CockHungry}<0,0.953,0.718><0,0,-90>
+{PullHerHead}<0,0.953,0.718><0,0,-90>
+{TakeItDeep}<0,0.953,0.718><0,0,-90>
+{PleasureHim}<0,0.953,0.718><0,0,-90>
+{WorkHisCock}<0,0.953,0.718><0,0,-90>
+{SausageTime}<-0.02,0.91,0.64><0,0,-90>
+{BarCockSuck}<0.022,0.536,0.633><0,0,90>
+{BarBlowjob}<0,0.33,0.688><0,0,90>
+{BarSlutBJ}<0,0.407,0.564><0,0,90>
+{Kneel BJ}<-0.012,0.779,0.068><0,0,-90>
+{Throat Love}<0.037,0.112,0.687><0,0,90>
+{Facefuck}<-0.001,0.832,0.009><0,0,-90>
+{OnHerKnees}<0.016,0.804,-0.03><0,0,-90>
+{CumInMouth}<0,0.953,0.718><0,0,-90>
+{CleanHerUp}<0.022,0.536,0.697><3,0,90>
+{BarEatPussy}<0,0.405,0.592><0,0,90>
+{AssSnack}<0.022,0.462,0.682><0,0,90>
+{Lick Down}<-0.149,0.21,1.2><0,0,-90>
+{Chair Back}<-0.003,-0.114,0.436><7,0,-90>
+{Stand Lick}<0.109,0.193,0.792><0,0,90>
+{Face Time}<-0.033,0.427,0.574><0,0,-180>
+{Eat on Bar}<0.019,-0.314,1.343><4,0,90>
+{eat pussy}<0.061,1.12,-0.27><0,0,90>
+{snack}<-0.019,0.556,-0.055><0,0,90>
+{tonguework}<-0.046,0.977,-0.309><6,0,90>
+{maul her}<0.045,1.069,-0.307><7.3,1.7,90.1>
+{rimjob}<0.012,0.947,0.106><0,0,-90>
+{PumpHerHard}<0.022,0.536,0.691><0,0,90>
+{BangOnStool}<-0.057,0.619,0.626><0,0,90>
+{SheLuvsCock}<0.022,0.425,0.696><3,0,90>
+{WantsItDeep}<0.022,0.479,0.682><4,0,90>
+{BarSlutFuck}<0,0.493,0.564><0,0,90>
+{FuckThatAss}<0.022,0.504,0.709><5,0,90>
+{BarAssFuck}<0,0.432,0.599><0,0,90>
+{StickItInHer}<-0.004,0.695,0.891><0,0,90>
+{FlyingDog}<-0.011,1.098,0.832><0,0,90>
+{RamALama}<-0.011,0.779,0.881><0,0,90>
+{LegLifter}<0.066,0.677,0.85><0,0,-90>
+{DeepInside}<0.017,0.65,0.835><0,0,90>
+{YogaFuck}<0.066,1.193,0.876><0,0,-90>
+{Stand&Bounce}<0.014,0.835,0.757><0,0,-90>
+{BothLegsUp}<0.013,0.779,0.745><0,0,-90>
+{Deep Fuck}<0.012,0.145,0.718><-16,0,90>
+{Missionary}<-0.015,0.319,0.584><0,0,90>
+{Slow Ride}<-0.022,-0.025,1.155><0,0,-90>
+{HotStraddle}<0.007,-0.036,1.151><0,0,-90>
+{ReverseRide}<-0.106,-0.049,1.167><-3.6,-8.8,-104.2>
+{ReverseAnal}<-0.019,-0.067,1.156><0.1,0.3,-106>
+{Cowgirl}<0.018,0.239,0.754><0,0,-90>
+{RockinHorse}<0.018,0.214,0.803><0,0,-90>
+{SeatedDog}<-0.017,-0.075,1.158><0,0,-90>
+{ButtFucking}<-0.037,0.291,0.676><9.4,-1.8,90.4>
+{AnalWhore}<-0.022,0.824,0.785><0,0,-90>
+{Facing}<-0.063,0.142,0.984><0,0,90>
+{Anal}<0.017,0.327,0.686><0,0,90>
+{Flying}<0.002,0.268,0.868><0,0,90>
+{Riding}<-0.004,-0.13,1.05><0,0,-90>
+{Straddle}<-0.005,-0.494,1.009><0,0,90>
+{Chair Doggy}<-0.009,0.273,0.664><0,0,-90>
+{BarFacial}<0,0.42,0.564><0,0,90>
+{Facial}<0.021,0.919,0.756><0,0,90>
+{Hug-ff}<0.007,0.508,0.762><0,0,90>
+{Kiss 1}<0.007,0.476,0.762><0,0,90>
+{Kiss 2}<0.007,0.483,0.762><0,0,90>
+{Kiss Breast}<0.007,0.615,0.762><0,0,90>
+{Kiss Navel}<0.007,0.574,0.762><0,0,90>
+{Finger 1}<0.007,0.467,0.762><0,0,90>
+{Finger 2}<0.007,0.505,0.762><0,0,90>
+{Lick 1}<0.007,0.562,0.762><0,0,90>
+{Lick 2}<0.007,0.436,0.762><0,0,90>
+{HugMyGirls}<0.325,0.871,0.868><0,0,-135>
+{BackAndFront}<0.259,0.362,0.83><0,0,103>
+{Kisses4All}<0.449,0.82,0.888><0,0,180>
+{SqueezeHim}<0.274,0.613,0.884><0,0,180>
+{EatHerSuckHim}<-0.033,1.22,0.846><0,0,-90>
+{Dildo&Dick}<0.013,0.781,0.837><0,0,-90>
+{LickAndAnal}<0.011,0.805,0.842><0,0,90>
+{SuckHerDick}<0.032,-0.239,0.946><0,0,90>
+{LetsUseHer}<0.004,0.911,0.868><0,0,-90>
+{StrapTight}<0.014,-0.049,0.91><0,0,90>
+{69For3}<0.001,0.57,0.063><0,0,90>
+{KissAndFinger}<-0.128,0.648,-0.152><0,0,0>
+{TwoGirlsRide}<0.014,1.305,0.033><0,0,-90>
+{EatAndFuck}<0.005,0.648,0.6><-5,0,-90>
+{TwoCanSuck1}<0.037,0.918,-0.161><0,0,90>
+{Les69&Fuck}<-0.051,1.219,-0.21><0,0,90>
+{EatWhileFuck}<-0.027,0.744,-0.265><0,0,-90>
+{FingerRide}<-0.159,1.121,-0.04><0,0,90>
+{LickThemBoth}<0.12,0.756,-0.2><0,0,0>
+{Tripod}<-0.057,0.731,0.803><0,0,-90>
+{WeClaimHer}<0,1.727,0.74><0,0,-90>
+{TwinSucker}<0,1.291,0.807><0,0,-90>
+{ShareHisCum}<0.055,1.07,0.128><0,0,90>
+{TwoHandJob}<0.052,0.866,-0.208><-5,-0.5,95.6>
+{KissAndFuck}<0.013,0.514,1.131><0,0,-85>
+{FuckAndSuck}<-0.014,0.718,0.986><0,0,-90>
+{ForcedByTwo}<-0.015,1.338,0.155><0,0,-90>
+{Serve2Men}<0.294,1.06,-0.207><0,0,180>
+{AssLickNBlow}<0.038,1.531,-0.008><0,0,-90>
+{DoublePen}<0.013,1.017,0.014><0,0,-90>
+{TwoInOne}<0.004,1.005,0.096><0,0,-90>
+{StandingDP}<0.042,0.697,0.951><0,0,0>
+{DesktopDP}<-0.005,1.161,0.083><0,0,-90>
+{ScreamingDP}<0.04,0.995,0.125><0,0,-90>
+{FlipHerOver}<0,0.882,0.801><0,0,-90>
+{TwiceAsHard}<0,0.891,0.853><0,0,90>
+{DPTheBitch}<0,0.296,0.863><0,0,90>
+{DuoDoHer}<0,1.54,0.958><0,0,90>
+{SheWantsCum}<-0.015,1.465,0.181><0,0,90>
+PROP1 LovenseHUD|! Debauchery Lovense Hud v3.0|G6|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|HUD bottom left
+PROP1 TequilaTime|Debauchery Tequila Sunsrise v2.01|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 Cocktails|Debauchery Tequila Sunsrise v2.01|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 Stand&Drink|Debauchery Tequila Sunsrise v2.01|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 SexyDrinker|Debauchery Tequila Sunsrise v2.01|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 SexyBuzz|Debauchery Tequila Sunsrise v2.01|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 HaveABeer-|Debauchery Tequila Sunsrise v2.01|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 BeerTime-|Debauchery Tequila Sunsrise v2.01|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 Cold Beer-|Debauchery Tequila Sunsrise v2.01|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 Leftie-|Debauchery Tequila Sunsrise v2.01|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 Chilled-|Debauchery Tequila Sunsrise v2.01|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP LookAtPorn|Debauchery Magazine|G1|<0.041672, -0.429733, 1.156982>|<-49.677850, 17.933110, -104.644100>
+PROP Sexting|*phone2|G1|<0.000000, -0.269577, 0.733887>|<0.000000, 0.000000, 180.000000>
+PROP OnThePhone|*phone1|G1|<-0.104828, -0.186890, 1.375488>|<-90.000070, 83.000110, 90.000050>
+PROP1 Sexting-|Debauchery Beer Pint - for AVsitter v1.02|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 Cheers|Debauchery Tequila Sunsrise v2.01|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+ANIM EatHerSuckHim|express_open_mouth|3|[Black Tulip] Rest Head (P0)|1
+ANIM Dildo&Dick|express_open_mouth|3|[Black Tulip] Rest Head (P0)|1
+ANIM LickAndAnal|express_open_mouth|3|[Black Tulip] Rest Head (P0)|1
+ANIM SuckHerDick|express_open_mouth|3|[Black Tulip] Rest Head (P0)|1
+ANIM LetsUseHer|express_open_mouth|3|[Black Tulip] Rest Head (P0)|1
+ANIM StrapTight|express_open_mouth|3|[Black Tulip] Rest Head (P0)|1
+ANIM StickItInHer|express_open_mouth|3|[Black Tulip] Rest Head (P0)|1
+ANIM FlyingDog|express_open_mouth|3|[Black Tulip] Rest Head (P0)|1
+ANIM RamALama|express_open_mouth|3|[Black Tulip] Rest Head (P0)|1
+ANIM LegLifter|express_open_mouth|3|[Black Tulip] Rest Head (P0)|1
+ANIM DeepInside|express_open_mouth|3|[Black Tulip] Rest Head (P0)|1
+ANIM YogaFuck|express_open_mouth|3|[Black Tulip] Rest Head (P0)|1
+ANIM Stand&Bounce|express_open_mouth|3|[Black Tulip] Rest Head (P0)|1
+ANIM BothLegsUp|express_open_mouth|3|[Black Tulip] Rest Head (P0)|1
+ANIM OpenHerUp|express_cry_emote|5
+ANIM CleanHerUp|express_cry_emote|5
+ANIM AssSnack|express_cry_emote|5
+ANIM BarBlowJob|express_open_mouth|1
+ANIM SheLuvsCock|express_cry_emote|5
+ANIM WantsItDeep|express_cry_emote|5
+ANIM PumpHerHard|express_cry_emote|5
+ANIM FuckThatAss|express_cry_emote|5
+ANIM Fast Suck|express_open_mouth|1|express_cry_emote|2
+ANIM Kneel BJ|express_open_mouth|1|express_cry_emote|2
+ANIM Throat Love|express_open_mouth|1|express_cry_emote|2
+ANIM Facefuck|express_open_mouth|1|express_cry_emote|2
+ANIM OnHerKnees|express_open_mouth|1|express_cry_emote|2
+ANIM Shaft Work|express_open_mouth|1|express_cry_emote|2
+ANIM SmoothSuck|express_open_mouth|1|express_cry_emote|2
+ANIM PowerSuck|express_open_mouth|1|express_cry_emote|2
+ANIM FuckHerFace|express_open_mouth|1|express_cry_emote|2
+ANIM Looking Up|express_open_mouth|1|express_cry_emote|2
+ANIM StandNSuck|express_open_mouth|1|express_cry_emote|2
+ANIM Rub Balls|express_open_mouth|1|express_cry_emote|2
+ANIM TripleThreat|express_open_mouth|1|express_cry_emote|2
+ANIM TonsilFuck|express_open_mouth|1|express_cry_emote|2
+ANIM HoldUrBreath|express_open_mouth|1|express_cry_emote|2
+ANIM Facial|express_open_mouth|1|express_cry_emote|2
+ANIM SheWantsIt|express_open_mouth|1|express_cry_emote|2
+ANIM First1Then2|express_open_mouth|3|express_cry_emote|5
+ANIM 2 or 3 In?|express_open_mouth|3|express_cry_emote|5
+ANIM 4 Fingers|express_open_mouth|3|express_cry_emote|5
+ANIM BentFinger|express_open_mouth|3|express_cry_emote|5
+ANIM Diddle|express_open_mouth|3|express_cry_emote|5
+ANIM Finger|express_open_mouth|3|express_cry_emote|5
+ANIM Lick Down|express_open_mouth|3|express_cry_emote|5
+ANIM Chair Back|express_open_mouth|3|express_cry_emote|5
+ANIM Stand Lick|express_open_mouth|3|express_cry_emote|5
+ANIM Face Time|express_open_mouth|3|express_cry_emote|5
+ANIM Eat on Bar|express_open_mouth|3|express_cry_emote|5
+ANIM eat pussy|express_open_mouth|3|express_cry_emote|5
+ANIM snack|express_open_mouth|3|express_cry_emote|5
+ANIM tonguework|express_open_mouth|3|express_cry_emote|5
+ANIM maul her|express_open_mouth|3|express_cry_emote|5
+ANIM rimjob|express_open_mouth|3|express_cry_emote|5
+ANIM Deep Fuck|express_open_mouth|3|express_cry_emote|5
+ANIM Missionary|express_open_mouth|3|express_cry_emote|5
+ANIM Slow Ride|express_open_mouth|3|express_cry_emote|5
+ANIM HotStraddle|express_open_mouth|3|express_cry_emote|5
+ANIM ReverseRide|express_open_mouth|3|express_cry_emote|5
+ANIM ReverseAnal|express_open_mouth|3|express_cry_emote|5
+ANIM Cowgirl|express_open_mouth|3|express_cry_emote|5
+ANIM RockinHorse|express_open_mouth|3|express_cry_emote|5
+ANIM SeatedDog|express_open_mouth|3|express_cry_emote|5
+ANIM ButtFucking|express_open_mouth|3|express_cry_emote|5
+ANIM AnalWhore|express_open_mouth|3|express_cry_emote|5
+ANIM Facing|express_open_mouth|3|express_cry_emote|5
+ANIM Anal|express_open_mouth|3|express_cry_emote|5
+ANIM Flying|express_open_mouth|3|express_cry_emote|5
+ANIM Riding|express_open_mouth|3|express_cry_emote|5
+ANIM Straddle|express_open_mouth|3|express_cry_emote|5
+ANIM Chair Doggy|express_open_mouth|3|express_cry_emote|5
+
+SITTER 1|Guy|M
+
+TOMENU Stands
+TOMENU Sits
+TOMENU Couple
+TOMENU 3Somes
+BUTTON LovenseHUD
+TOMENU Swaps
+TOMENU Sequences
+BUTTON Get HUD
+BUTTON Texture|-31400100
+
+MENU Stands
+TOMENU Swaps
+POSE HeStands|KbkB-StSingM1
+POSE HeJacks|MsingMasterbate5
+{HeStands}<-0.738,-0.367,0.852><0,0,0>
+{HeJacks}<-0.738,-0.367,0.776><0,0,26>
+
+MENU Sits
+TOMENU He Sits
+TOMENU She Sits
+TOMENU Sequences
+TOMENU Swaps
+
+MENU He Sits|V
+TOMENU Swaps
+SEQUENCE SEQHeSits
+SYNC Chilling-|KBKb-BSS M1
+SYNC It'sCasual-|KBKb-BSS M2
+SYNC Relaxing-|KBKb-BSS M3
+SYNC LeanOnStool-|KBKb-BSS M4
+SYNC OnTheStool-|KBKb-BSS2 M1
+SYNC HangingOut-|KBKb-BSS2 M2
+SYNC LookAtPorn-|KBKb-BSS2 M3
+SYNC TalkOnPhone-|KBKb-BSS2 M4
+SYNC Sexting-|KBKb-BSS2 M5
+SYNC BarGuy-|KBKb-BSS2 M6
+SYNC NoStress-|sit 1 M
+SYNC Crossed-|sit 2 M
+SYNC FunTimes-|sit 3 M
+SYNC HaveABeer-|KBKb-BSS M5
+SYNC BeerTime-|KBKb-BSS M6
+SYNC Cold Beer-|drink 1 M
+SYNC Leftie-|drink 2 M
+SYNC Chilled-|drink 3 M
+
+MENU She Sits|V
+TOMENU Swaps
+SEQUENCE SEQSheSits
+SYNC LookNSexy|KbkB-StSingM1
+SYNC It'sCasual|KbkB-StSingM2
+SYNC SweetNSexy|KbkB-StSingM5
+SYNC Ready4Fun|KbkB-StSingM4
+SYNC OnTheStool|KbkB-StSingM1
+SYNC HangingOut|KbkB-StSingM2
+SYNC LookAtPorn|KbkB-StSingM6
+SYNC Sexting|KbkB-StSingM4
+SYNC OnThePhone|KbkB-StSingM5
+SYNC BarGirl|KbkB-StSingM6
+SYNC Sexy Lean|KbkB-StSingM1
+SYNC Crossed|KbkB-StSingM2
+SYNC Turned|KbkB-StSingM5
+SYNC TequilaTime|KbkB-StSingM3
+SYNC Cocktails|KbkB-StSingM3
+SYNC Stand&Drink|KbkB-StSingM3
+SYNC SexyDrinker|KbkB-StSingM3
+SYNC SexyBuzz|KbkB-StSingM3
+SYNC ♥RubIt|MsingMasterbate5
+SYNC ♥GetOff|MsingMasterbate5
+
+MENU Couple
+BUTTON LovenseHUD
+TOMENU Swaps
+TOMENU Cuddles
+TOMENU Foreplay
+TOMENU Oral for Him
+TOMENU Oral for Her
+TOMENU Fucking
+TOMENU Cumshots
+
+MENU Cuddles
+TOMENU Swaps
+SEQUENCE SEQCuddles
+SYNC Together|KBKb-BSC M1
+SYNC First Kiss|KBKb-BSC M2
+SYNC Cheers|KBKb-BSC M3
+SYNC TenderKiss|KBKb-BSC M4
+SYNC OnHisLap|KBKb-BSC M5
+SYNC LickTheSalt|KBKb-BSC M6
+SYNC BarKiss|KBKb-BSC2 M1
+SYNC HotAtTheBar|KBKb-BSC2 M2
+SYNC KissHerNeck|KBKb-BSC2 M3
+SYNC TwoAtBar|KBKb-BSC2 M4
+SYNC DrapeOnHim|KBKb-BSC2 M5
+SYNC Possessive|KBKb-BSC2 M6
+SYNC SweetEmbrace|SILCud M1
+SYNC HoldHerClose|SILCud M2
+SYNC GentleHug|SILCud M3
+SYNC KneelHug|SILCud M6
+SYNC On Lap 1|M DC1
+SYNC On Lap 2|M DC2
+SYNC Dance 4 Him|M DC8
+SYNC EroticKiss|Sex103M
+SYNC Bad Girl|M DC6
+
+MENU Foreplay|V
+TOMENU Swaps
+SEQUENCE SEQForeplay
+SYNC FingerAtBar|KBKb-BSA2 M3
+SYNC OpenHerUp|KBKb-BSA M3
+SYNC 2 or 3 In?|KBKb-PA M2
+SYNC 4 Fingers|KBKb-PA M1
+SYNC Finger|ThroneAdult M1
+SYNC Hand Job|DoubleHandjob-1M
+
+MENU Oral for Him
+TOMENU Swaps
+SEQUENCE SEQOralForHim
+SYNC LovelyCock|WA18
+SYNC JustTheTip|WA20
+SYNC TakesItIn|WA22
+SYNC CockHungry|WA24
+SYNC PullHerHead|WA26
+SYNC TakeItDeep|WA28
+SYNC PleasureHim|WA30
+SYNC WorkHisCock|WA32
+SYNC SausageTime|PyBKitchenA M1
+SYNC BarCockSuck|KBKb-BSA M1
+SYNC BarBlowjob|KBKb-BSA2 M1
+SYNC BarSlutBJ|KBKb-BSA2 M4
+SYNC Kneel BJ|KneelingBJ-1M
+SYNC OnHerKnees|BlowHim-1M
+SYNC Throat Love|SittingBJ-1M
+SYNC Facefuck|Facefuck-1M
+SYNC CumInMouth|WA34
+
+MENU Oral for Her|V
+TOMENU Swaps
+SEQUENCE SEQOralForHer
+SYNC CleanHerUp|KBKb-BSA M6
+SYNC BarEatPussy|KBKb-BSA2 M2
+SYNC AssSnack|KBKb-BSA M2
+SYNC Lick Down|Sex_59M
+SYNC Chair Back|Sex109M
+SYNC Face Time|M 1ChairAdt1
+SYNC Stand Lick|Sex137M
+SYNC Eat on Bar|M SideBedAdultA4
+SYNC eat pussy|EatPussy-1M
+SYNC snack|AfternoonSnack-1M
+SYNC tonguework|IntenseTonguework-1M
+SYNC maul her|MaulHer-1M
+SYNC rimjob|Rimjob-1M
+
+MENU Fucking|V
+TOMENU Swaps
+SEQUENCE SEQFucking
+SYNC PumpHerHard|KBKb-BSA M4
+SYNC BangOnStool|KBKb-BSA2 M5
+SYNC SheLuvsCock|KBKb-BSA M7
+SYNC WantsItDeep|KBKb-BSA M8
+SYNC BarSlutFuck|KBKb-BSA2 M7
+SYNC FuckThatAss|KBKb-BSA M5
+SYNC BarAssFuck|KBKb-BSA2 M6
+SYNC StickItInHer|SILAdt M1
+SYNC FlyingDog|SILAdt M2
+SYNC RamALama|SILAdt M3
+SYNC LegLifter|SILAdt M4
+SYNC DeepInside|SILAdt M5
+SYNC YogaFuck|SILAdt M6
+SYNC Stand&Bounce|SILAdt M7
+SYNC BothLegsUp|SILAdt M8
+SYNC Deep Fuck|KBKb-PCA M7
+SYNC Slow Ride|[RNP] Simple Chair Sex #1 - Male - 46 seconds
+SYNC HotStraddle|[RNP] Simple Chair Sex #2 - Male - 46 seconds
+SYNC ReverseRide|[RNP] Simple Chair Sex #3 - Male - 46 seconds
+SYNC ReverseAnal|[RNP] Simple Chair Sex #4 - Male - 46 seconds
+SYNC Cowgirl|KBKb-PCA M4
+SYNC RockinHorse|KBKb-PCA M5
+SYNC SeatedDog|[RNP] Simple Chair Sex #5 - Male - 46 seconds
+SYNC ButtFucking|[RNP] Simple Chair Sex #7 -Male - 44 seconds
+SYNC AnalWhore|[RNP] Simple Chair Sex #8 - Male - 44 seconds
+SYNC Missionary|BedsideMissionary-1M
+SYNC Facing|M DCA8
+SYNC Anal|BedsideAnal-1M
+SYNC Flying|Sex133M
+SYNC Riding|TheUnderthruster-1M
+SYNC Straddle|M DCA6
+SYNC Chair Doggy|ChairDoggy-1M
+
+MENU Cumshots|V
+TOMENU Swaps
+SEQUENCE SEQCumshots
+SYNC BarFacial|KBKb-BSA2 M8
+SYNC Facial|shvor2m
+
+MENU 3Somes
+TOMENU Swaps
+TOMENU FMF Cuddles
+TOMENU FMF Sex
+TOMENU MFM Sex
+
+MENU FMF Cuddles
+TOMENU Swaps
+SEQUENCE SEQfmfCuddles
+SYNC HugMyGirls|SILffmCud M1
+SYNC BackAndFront|SILffmCud M2
+SYNC Kisses4All|SILffmCud M3
+SYNC SqueezeHim|SILffmCud M4
+
+MENU FMF Sex|V
+TOMENU Swaps
+SEQUENCE SEQfmf
+SYNC EatHerSuckHim|SILffmAdt M1
+SYNC Dildo&Dick|SILffmAdt M2
+SYNC LickAndAnal|SILffmAdt M3
+SYNC SuckHerDick|SILffmAdt M4
+SYNC LetsUseHer|SILffmAdt M5
+SYNC StrapTight|SILffmAdt M6
+SYNC 69For3|FMF 01 M
+SYNC KissAndFinger|FMF 02 M
+SYNC TwoGirlsRide|FMF 03 M
+SYNC EatAndFuck|FMF 04 M
+SYNC TwoCanSuck1|FMF 05 M
+SYNC Les69&Fuck|FMF 08 M
+SYNC EatWhileFuck|FMF 09 M
+SYNC FingerRide|FMF 10 M
+SYNC LickThemBoth|FMF 11 M
+SYNC Tripod|[G Star] 015_M
+SYNC WeClaimHer|[G Star] 016_M
+SYNC TwinSucker|[G Star] 017_M
+SYNC ShareHisCum|FMF 12 M
+
+MENU MFM Sex|V
+TOMENU Swaps
+SEQUENCE SEQmfm
+SYNC TwoHandJob|MFM 01 M1
+SYNC KissAndFuck|MFM 02 M1
+SYNC FuckAndSuck|MFM 03 M1
+SYNC ForcedByTwo|MFM 04 M1
+SYNC Serve2Men|MFM 05 M1
+SYNC AssLickNBlow|MFM 06 M1
+SYNC DoublePen|MFM 07 M1
+SYNC TwoInOne|MFM 08 M1
+SYNC StandingDP|MFM 09 M1
+SYNC DesktopDP|MFM 10 M1
+SYNC ScreamingDP|MFM 11 M1
+SYNC FlipHerOver|[G Star] 025_M1
+SYNC TwiceAsHard|[G Star] 026_M1
+SYNC DPTheBitch|[G Star] 027_M1
+SYNC DuoDoHer|[G Star] 028_M1
+SYNC SheWantsCum|MFM 12 M1
+
+MENU Sequences
+TOMENU Swaps
+SEQUENCE SEQSheSits
+SEQUENCE SEQHeSits
+SEQUENCE SEQCuddles
+SEQUENCE SEQForeplay
+SEQUENCE SEQOralForHer
+SEQUENCE SEQOralForHim
+SEQUENCE SEQFucking
+SEQUENCE SEQCumshots
+
+MENU Swaps
+BUTTON Girl<>Guest|90030|0|2
+BUTTON Guy<>Guest|90030|1|2
+BUTTON GenderSwap|90030|0|1
+{Chilling-}<-0.006,-0.012,0.794><0,0,-90>
+{It'sCasual-}<-0.006,0.008,0.782><0,0,-90>
+{Relaxing-}<-0.006,0.008,0.782><0,0,-90>
+{LeanOnStool-}<-0.006,0.008,0.807><0,0,-90>
+{OnTheStool-}<0,0.067,0.805><0,0,-90>
+{HangingOut-}<0,0.067,0.805><0,0,-90>
+{LookAtPorn-}<0,0.067,0.805><0,0,-90>
+{TalkOnPhone-}<0,0.067,0.805><0,0,-90>
+{Sexting-}<0,0.038,0.783><0,0,-90>
+{BarGuy-}<0,0.045,0.788><0,0,-90>
+{NoStress-}<-0.041,-0.213,0.736><0,0,-90>
+{Crossed-}<0.044,-0.331,0.764><0,0,-90>
+{FunTimes-}<-0.031,-0.268,0.76><0,0,-90>
+{HaveABeer-}<-0.006,0.008,0.782><0,0,-90>
+{BeerTime-}<-0.006,0.008,0.804><0,0,-90>
+{Cold Beer-}<-0.011,-0.26,0.719><0,0,-90>
+{Leftie-}<-0.008,-0.346,0.75><0,0,-90>
+{Chilled-}<0.028,-0.26,0.736><0,0,-90>
+{LookNSexy}<-0.738,-0.367,0.852><0,0,0>
+{It'sCasual}<-0.738,-0.367,0.852><0,0,0>
+{SweetNSexy}<-0.738,-0.367,0.852><0,0,-5.6>
+{Ready4Fun}<-0.738,-0.367,0.852><0,0,0>
+{OnTheStool}<-0.738,-0.367,0.852><0,0,0>
+{HangingOut}<-0.738,-0.367,0.852><0,0,0>
+{LookAtPorn}<-0.738,-0.367,0.847><0,0,-5.6>
+{Sexting}<-0.738,-0.367,0.852><0,0,0>
+{OnThePhone}<-0.738,-0.367,0.852><0,0,-5.6>
+{BarGirl}<-0.738,-0.367,0.852><0,0,0>
+{Sexy Lean}<-0.738,-0.367,0.852><0,0,0>
+{Crossed}<-0.738,-0.367,0.852><0,0,0>
+{Turned}<-0.738,-0.367,0.852><0,0,0>
+{TequilaTime}<-0.738,-0.367,0.852><0,0,-5.6>
+{Cocktails}<-0.738,-0.367,0.852><0,0,0>
+{Stand&Drink}<-0.738,-0.367,0.852><0,0,0>
+{SexyDrinker}<-0.738,-0.367,0.852><0,0,0>
+{SexyBuzz}<-0.738,-0.367,0.852><0,0,0>
+{♥RubIt}<-0.738,-0.367,0.776><0,0,26>
+{♥GetOff}<-0.738,-0.367,0.776><0,0,26>
+{Together}<0.006,0.013,0.775><0,0,-90>
+{First Kiss}<0.006,0.013,0.775><0,0,-90>
+{Cheers}<0.006,0.013,0.775><0,0,-90>
+{TenderKiss}<0.006,0.013,0.775><0,0,-90>
+{OnHisLap}<0.006,0.013,0.775><0,0,-90>
+{LickTheSalt}<0.006,0.013,0.775><0,0,-90>
+{BarKiss}<0,0.067,0.805><0,0,-90>
+{HotAtTheBar}<0,0.067,0.813><0,0,-90>
+{KissHerNeck}<0,0.067,0.813><0,0,-90>
+{TwoAtBar}<0,0.067,0.805><0,0,-90>
+{DrapeOnHim}<0,0.067,0.805><0,0,-90>
+{Possessive}<0,0.067,0.805><0,0,-90>
+{SweetEmbrace}<-0.017,-0.316,0.825><0,0,-90>
+{HoldHerClose}<-0.006,-0.283,0.857><0,0,-90>
+{GentleHug}<0,-0.346,0.822><0,0,-90>
+{KneelHug}<0.014,-0.318,0.841><0,0,90>
+{On Lap 1}<-0.003,0.117,0.922><0,0,-102>
+{On Lap 2}<-0.019,0.055,0.931><0,0,-85>
+{Dance 4 Him}<-0.021,-0.023,0.91><2,-0.2,90>
+{EroticKiss}<-0.064,0.086,1.334><0,0,-90>
+{Bad Girl}<-0.019,0.556,0.95><0,0,-85>
+{FingerAtBar}<0,-0.072,0.805><0,0,90>
+{OpenHerUp}<0,0,0.819><0,0,90>
+{2 or 3 In?}<0.018,0.411,0.767><0,0,-90>
+{4 Fingers}<0.018,0.336,0.755><0,0,-90>
+{Finger}<-0.079,0.101,0.749><-8.7,-5,-60.2>
+{Hand Job}<0.003,0.293,0.781><0.1,0,90>
+{LovelyCock}<0,0.393,0.864><0,0,90>
+{JustTheTip}<0,0.393,0.864><0,0,90>
+{TakesItIn}<0,0.393,0.864><0,0,90>
+{CockHungry}<0,0.393,0.864><0,0,90>
+{PullHerHead}<0,0.393,0.864><0,0,90>
+{TakeItDeep}<0,0.393,0.864><0,0,90>
+{PleasureHim}<0,0.393,0.864><0,0,90>
+{WorkHisCock}<0,0.393,0.864><0,0,90>
+{SausageTime}<-0.009,0.49,0.769><0,0,90>
+{BarCockSuck}<0.022,0.061,0.767><0,0,90>
+{BarBlowjob}<0,-0.145,0.903><0,0,90>
+{BarSlutBJ}<0,-0.068,0.779><0,0,90>
+{Kneel BJ}<-0.013,0.339,0.754><0,0,90>
+{OnHerKnees}<0.016,0.389,0.753><0,0,90>
+{Throat Love}<0.043,0.947,0.946><-2,0,-90.3>
+{Facefuck}<0,0.475,0.72><0,0,90>
+{CumInMouth}<0,0.393,0.864><0,0,90>
+{CleanHerUp}<0.022,0.061,0.808><0,0,90>
+{BarEatPussy}<0,-0.07,0.805><0,0,90>
+{AssSnack}<0.022,-0.013,0.892><0,0,90>
+{Lick Down}<-0.149,0.215,1.265><0,0,-90>
+{Chair Back}<0.007,-0.117,0.463><7,0,-90>
+{Face Time}<0.314,0.427,0.607><0,0,-180>
+{Stand Lick}<0.111,0.181,0.834><0,0,90>
+{Eat on Bar}<0.014,-0.042,1.484><4,0,-90>
+{eat pussy}<0.061,2.035,0.011><0,0,-90>
+{snack}<-0.011,1.32,-0.295><0,0,90>
+{tonguework}<-0.046,1.865,-0.046><0,0,-90>
+{maul her}<0.058,1.95,-0.031><1.3,1.7,-90>
+{rimjob}<0.009,1.819,0.168><0,0,-90>
+{PumpHerHard}<0.022,0.061,0.846><0,0,90>
+{BangOnStool}<-0.057,0.144,0.838><0,0,90>
+{SheLuvsCock}<0.022,-0.055,0.782><3,0,90>
+{WantsItDeep}<0.022,-0.002,0.76><4,0,90>
+{BarSlutFuck}<0,0.018,0.828><0,0,90>
+{FuckThatAss}<0.022,0.021,0.778><5,0,90>
+{BarAssFuck}<0,-0.043,0.841><0,0,90>
+{StickItInHer}<0,0.305,0.832><0,0,90>
+{FlyingDog}<0,0.624,0.811><0,0,90>
+{RamALama}<0,0.305,0.822><0,0,90>
+{LegLifter}<0,0.354,0.829><0,0,90>
+{DeepInside}<0,0.305,0.814><0,0,90>
+{YogaFuck}<0,0.719,0.815><0,0,90>
+{Stand&Bounce}<0,0.36,0.783><0,0,90>
+{BothLegsUp}<0,0.305,0.798><0,0,90>
+{Deep Fuck}<0.012,-0.08,0.782><-16,0,90>
+{Slow Ride}<-0.022,-0.012,1.197><0,0,-90>
+{HotStraddle}<0.007,-0.022,1.193><0,0,-90>
+{ReverseRide}<-0.109,-0.034,1.208><-3.6,-8.8,-104.2>
+{ReverseAnal}<-0.014,-0.055,1.198><0.1,0.3,-106>
+{Cowgirl}<0.018,0.473,0.78><0,0,-90>
+{RockinHorse}<0.018,0.448,0.803><0,0,-90>
+{SeatedDog}<-0.017,-0.082,1.187><0,0,-90>
+{ButtFucking}<-0.038,0.271,0.717><9.4,-1.8,90.4>
+{AnalWhore}<-0.022,0.837,0.827><0,0,-90>
+{Missionary}<-0.015,0.696,0.738><-0.1,0,-90>
+{Facing}<-0.002,-0.271,0.419><0,0,95.6>
+{Anal}<0.018,0.699,0.779><0,0,-90.2>
+{Flying}<-0.009,0.284,0.838><0,0,90>
+{Riding}<-0.004,0.158,0.751><0,0,-90>
+{Straddle}<-0.004,-0.811,1.009><0,0,90>
+{Chair Doggy}<-0.009,0.672,0.746><0,0,-90>
+{BarFacial}<0,-0.055,0.805><0,0,90>
+{Facial}<0.021,0.855,0.831><0,0,90>
+{HugMyGirls}<0.037,0.358,0.843><0,0,90>
+{BackAndFront}<-0.217,0.699,0.842><0,0,0>
+{Kisses4All}<0.025,0.452,0.844><0,0,90>
+{SqueezeHim}<-0.186,0.613,0.863><0,0,0>
+{EatHerSuckHim}<-0.147,0.339,0.889><0,0,90>
+{Dildo&Dick}<0.004,0.256,0.837><0,0,90>
+{LickAndAnal}<-0.002,0.518,0.842><0,0,90>
+{SuckHerDick}<0.003,-0.599,0.89><0,0,90>
+{LetsUseHer}<-0.005,0.372,0.868><0,0,90>
+{StrapTight}<0.011,-0.429,0.91><0,0,90>
+{69For3}<0.001,0.57,0.063><0,0,90>
+{KissAndFinger}<-0.088,0.688,-0.081><0,0,0>
+{TwoGirlsRide}<0.014,1.201,0.033><0,0,-90>
+{EatAndFuck}<0.005,0.659,0.727><-5,0,-90>
+{TwoCanSuck1}<0.037,0.918,-0.161><0,0,90>
+{Les69&Fuck}<-0.051,1.219,-0.21><0,0,90>
+{EatWhileFuck}<-0.027,0.744,-0.265><0,0,-90>
+{FingerRide}<-0.159,1.121,-0.04><0,0,90>
+{LickThemBoth}<0.12,0.756,-0.156><0,0,0>
+{Tripod}<-0.057,0.38,0.834><0,0,90>
+{WeClaimHer}<0,1.042,0.847><0,0,90>
+{TwinSucker}<0,0.294,0.902><0,0,90>
+{ShareHisCum}<0.055,1.07,0.128><0,0,90>
+{TwoHandJob}<0.06,0.867,-0.185><-5,-0.5,95.6>
+{KissAndFuck}<0.002,0.399,1.144><0,0,-90>
+{FuckAndSuck}<-0.014,0.683,1.089><0,0,-90>
+{ForcedByTwo}<-0.015,1.305,0.155><0,0,-90>
+{Serve2Men}<0.355,1.06,-0.207><0,0,180>
+{AssLickNBlow}<0.038,1.516,0.024><0,0,-90>
+{DoublePen}<0.013,1.017,0.074><0,0,-90>
+{TwoInOne}<0.004,1.005,0.096><0,0,-90>
+{StandingDP}<0.042,0.697,1.084><0,0,0>
+{DesktopDP}<-0.005,1.254,0.083><0,0,-90>
+{ScreamingDP}<0.04,0.995,0.125><0,0,-90>
+{FlipHerOver}<0,0.405,0.837><0,0,90>
+{TwiceAsHard}<0,0.439,0.875><0,0,90>
+{DPTheBitch}<0,0.492,0.886><0,0,90>
+{DuoDoHer}<0,0.342,0.858><0,0,90>
+{SheWantsCum}<-0.016,1.441,0.292><0,0,90>
+PROP1 LovenseHUD|! Debauchery Lovense Hud v3.0|G6|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|HUD bottom left
+PROP1 HaveABeer-|Debauchery Beer Pint - for AVsitter v1.02|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 BeerTime-|Debauchery Beer Pint - for AVsitter v1.02|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 Cold Beer-|Debauchery Beer Pint - for AVsitter v1.02|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, -0.000003>|right hand
+PROP1 Leftie-|Debauchery Beer Pint LH - for AVsitter v1.02|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|left hand
+PROP1 Chilled-|Debauchery Beer Pint - for AVsitter v1.02|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, -0.000003>|right hand
+PROP1 TequilaTime|Debauchery Beer Pint - for AVsitter v1.02|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 Cocktails|Debauchery Beer Pint - for AVsitter v1.02|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 Stand&Drink|Debauchery Beer Pint - for AVsitter v1.02|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 SexyDrinker|Debauchery Beer Pint - for AVsitter v1.02|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 SexyBuzz|Debauchery Beer Pint - for AVsitter v1.02|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP LookAtPorn-|Debauchery Magazine|G1|<-0.137772, -0.585739, 1.127686>|<-18.333000, 18.382120, -82.021580>
+PROP TalkOnPhone-|*phone1|G1|<-0.156326, -0.284699, 1.484375>|<0.000000, 90.000000, 0.000001>
+PROP Sexting-|*phone2|G1|<0.000000, -0.401459, 1.053711>|<-56.999970, -0.000003, -180.000000>
+PROP1 Cheers|Debauchery Beer Pint - for AVsitter v1.02|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 DrapeOnHim|Debauchery Beer Pint - for AVsitter v1.02|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+ANIM EatHerSuckHim|express_open_mouth|6|[Black Tulip] Rest Head (P0)|1
+ANIM Dildo&Dick|express_open_mouth|6|[Black Tulip] Rest Head (P0)|1
+ANIM LickAndAnal|express_open_mouth|6|[Black Tulip] Rest Head (P0)|1
+ANIM SuckHerDick|express_open_mouth|6|[Black Tulip] Rest Head (P0)|1
+ANIM LetsUseHer|express_open_mouth|6|[Black Tulip] Rest Head (P0)|1
+ANIM StrapTight|express_open_mouth|6|[Black Tulip] Rest Head (P0)|1
+ANIM StickItInHer|express_open_mouth|6|[Black Tulip] Rest Head (P0)|1
+ANIM FlyingDog|express_open_mouth|6|[Black Tulip] Rest Head (P0)|1
+ANIM RamALama|express_open_mouth|6|[Black Tulip] Rest Head (P0)|1
+ANIM LegLifter|express_open_mouth|6|[Black Tulip] Rest Head (P0)|1
+ANIM DeepInside|express_open_mouth|6|[Black Tulip] Rest Head (P0)|1
+ANIM YogaFuck|express_open_mouth|6|[Black Tulip] Rest Head (P0)|1
+ANIM Stand&Bounce|express_open_mouth|6|[Black Tulip] Rest Head (P0)|1
+ANIM BothLegsUp|express_open_mouth|6|[Black Tulip] Rest Head (P0)|1
+ANIM OpenHerUp|express_surprise_emote|1
+ANIM CleanHerUp|express_tongue_out|1
+ANIM AssSnack|express_tongue_out|1
+ANIM BarBlowJob|express_surprise_emote|1
+ANIM PumpHerHard|express_surprise_emote|1
+ANIM FuckThatAss|express_surprise_emote|1
+ANIM SheLuvsCock|express_surprise_emote|1
+ANIM WantsItDeep|express_surprise_emote|1
+ANIM Kneel BJ|express_open_mouth|7|express_cry_emote|3
+ANIM Throat Love|express_open_mouth|7|express_cry_emote|3
+ANIM Facefuck|express_open_mouth|7|express_cry_emote|3
+ANIM OnHerKnees|express_open_mouth|7|express_cry_emote|3
+ANIM Shaft Work|express_open_mouth|7|express_cry_emote|3
+ANIM SmoothSuck|express_open_mouth|7|express_cry_emote|3
+ANIM PowerSuck|express_open_mouth|7|express_cry_emote|3
+ANIM FuckHerFace|express_open_mouth|7|express_cry_emote|3
+ANIM Looking Up|express_open_mouth|7|express_cry_emote|3
+ANIM StandNSuck|express_open_mouth|7|express_cry_emote|3
+ANIM Rub Balls|express_open_mouth|7|express_cry_emote|3
+ANIM TripleThreat|express_open_mouth|7|express_cry_emote|3
+ANIM TonsilFuck|express_open_mouth|7|express_cry_emote|3
+ANIM HoldUrBreath|express_open_mouth|7|express_cry_emote|3
+ANIM Facial|express_open_mouth|7|express_cry_emote|3
+ANIM SheWantsIt|express_open_mouth|7|express_cry_emote|3
+ANIM First1Then2|express_open_mouth|7|express_cry_emote|3
+ANIM 2 or 3 In?|express_open_mouth|7|express_cry_emote|3
+ANIM 4 Fingers|express_open_mouth|7|express_cry_emote|3
+ANIM BentFinger|express_open_mouth|7|express_cry_emote|3
+ANIM Diddle|express_open_mouth|7|express_cry_emote|3
+ANIM Finger|express_open_mouth|7|express_cry_emote|3
+ANIM Lick Down|express_surprise_emote|1|express_tongue_out|1
+ANIM Chair Back|express_surprise_emote|1|express_tongue_out|1
+ANIM Stand Lick|express_surprise_emote|1|express_tongue_out|1
+ANIM Face Time|express_surprise_emote|1|express_tongue_out|1
+ANIM Eat on Bar|express_surprise_emote|1|express_tongue_out|1
+ANIM eat pussy|express_surprise_emote|1|express_tongue_out|1
+ANIM snack|express_surprise_emote|1|express_tongue_out|1
+ANIM tonguework|express_surprise_emote|1|express_tongue_out|1
+ANIM maul her|express_surprise_emote|1|express_tongue_out|1
+ANIM rimjob|express_surprise_emote|1|express_tongue_out|1
+ANIM Deep Fuck|express_open_mouth|7|express_cry_emote|3
+ANIM Missionary|express_open_mouth|7|express_cry_emote|3
+ANIM Slow Ride|express_open_mouth|7|express_cry_emote|3
+ANIM HotStraddle|express_open_mouth|7|express_cry_emote|3
+ANIM ReverseRide|express_open_mouth|7|express_cry_emote|3
+ANIM ReverseAnal|express_open_mouth|7|express_cry_emote|3
+ANIM Cowgirl|express_open_mouth|7|express_cry_emote|3
+ANIM RockinHorse|express_open_mouth|7|express_cry_emote|3
+ANIM SeatedDog|express_open_mouth|7|express_cry_emote|3
+ANIM ButtFucking|express_open_mouth|7|express_cry_emote|3
+ANIM AnalWhore|express_open_mouth|7|express_cry_emote|3
+ANIM Facing|express_open_mouth|7|express_cry_emote|3
+ANIM Anal|express_open_mouth|7|express_cry_emote|3
+ANIM Flying|express_open_mouth|7|express_cry_emote|3
+ANIM Riding|express_open_mouth|7|express_cry_emote|3
+ANIM Straddle|express_open_mouth|7|express_cry_emote|3
+ANIM Chair Doggy|express_open_mouth|7|express_cry_emote|3
+
+SITTER 2|Guy or Girl
+
+TOMENU Stands
+TOMENU Lesbian
+TOMENU 3Somes
+BUTTON LovenseHUD
+TOMENU Swaps
+
+MENU Stands
+TOMENU Swaps
+TOMENU FGuestSits
+TOMENU MGuestSits
+TOMENU Sequences
+
+
+MENU FGuestSits
+TOMENU Swaps
+SEQUENCE SEQSheSits
+POSE StandingBy|KbkB-StSingF1
+POSE WaitingForIt|KbkB-StSingF2
+POSE MyTurnYet?|KbkB-StSingF3
+POSE IWantSome|KbkB-StSingF4
+POSE Drinking|KbkB-StSingF5
+POSE Anxious|KbkB-StSingF6
+POSE Masturbate|mast f
+
+MENU MGuestSits
+TOMENU Swaps
+SEQUENCE SEQHeSits
+POSE StandingBy+|KbkB-StSingM1
+POSE WaitingForIt+|KbkB-StSingM2
+POSE Drinking+|KbkB-StSingM3
+POSE MyTurnYet?+|KbkB-StSingM4
+POSE IWantSome+|KbkB-StSingM5
+POSE Anxious+|KbkB-StSingM6
+POSE Masturbate+|mast m
+
+MENU Lesbian|V
+TOMENU Swaps
+SYNC Hug-ff|ldk-ff-romance2-hug-f2
+SYNC Kiss 1|ldk-ff-romance2-kiss1-f2
+SYNC Kiss 2|ldk-ff-romance2-kiss2-f2
+SYNC Kiss Breast|ldk-ff-romance2-kiss-breast-f2
+SYNC Kiss Navel|ldk-ff-romance2-kiss-navel-f2
+SYNC Finger 1|ldk-ff-romance2-finger-pussy1-f2
+SYNC Finger 2|ldk-ff-romance2-finger-pussy2-f2
+SYNC Lick 1|ldk-ff-romance2-lick-pussy1-f2
+SYNC Lick 2|ldk-ff-romance2-lick-pussy2-f2
+
+MENU 3Somes
+TOMENU FMF Cuddles
+TOMENU FMF Sex
+TOMENU MFM Sex
+
+MENU FMF Cuddles
+TOMENU Swaps
+SYNC HugMyGirls|SILffmCud Fb1
+SYNC BackAndFront|SILffmCud Fb2
+SYNC Kisses4All|SILffmCud Fb3
+SYNC SqueezeHim|SILffmCud Fb4
+
+MENU FMF Sex|V
+TOMENU Swaps
+SEQUENCE SEQfmf
+SYNC EatHerSuckHim|SILffmAdt Fb1
+SYNC Dildo&Dick|SILffmAdt Fb2
+SYNC LickAndAnal|SILffmAdt Fb3
+SYNC SuckHerDick|SILffmAdt Fb4
+SYNC LetsUseHer|SILffmAdt Fb5
+SYNC StrapTight|SILffmAdt Fb6
+SYNC 69For3|FMF 01 F2
+SYNC KissAndFinger|FMF 02 F2
+SYNC TwoGirlsRide|FMF 03 F2
+SYNC EatAndFuck|FMF 04 F2
+SYNC TwoCanSuck1|FMF 05 F2
+SYNC Les69&Fuck|FMF 08 F2
+SYNC EatWhileFuck|FMF 09 F2
+SYNC FingerRide|FMF 10 F2
+SYNC LickThemBoth|FMF 11 F2
+SYNC Tripod|[G Star] 015_F2
+SYNC WeClaimHer|[G Star] 016_F2
+SYNC TwinSucker|[G Star] 017_F2
+SYNC ShareHisCum|FMF 12 F2
+
+MENU MFM Sex|V
+TOMENU Swaps
+SEQUENCE SEQmfm
+SYNC TwoHandJob|MFM 01 M2
+SYNC KissAndFuck|MFM 02 M2
+SYNC FuckAndSuck|MFM 03 M2
+SYNC ForcedByTwo|MFM 04 M2
+SYNC Serve2Men|MFM 05 M2
+SYNC AssLickNBlow|MFM 06 M2
+SYNC DoublePen|MFM 07 M2
+SYNC TwoInOne|MFM 08 M2
+SYNC StandingDP|MFM 09 M2
+SYNC DesktopDP|MFM 10 M2
+SYNC ScreamingDP|MFM 11 M2
+SYNC FlipHerOver|[G Star] 025_M2
+SYNC TwiceAsHard|[G Star] 026_M2
+SYNC DPTheBitch|[G Star] 027_M2
+SYNC DuoDoHer|[G Star] 028_M2
+SYNC SheWantsCum|MFM 12 M2
+
+MENU Swaps
+BUTTON Girl<>Guest|90030|0|2
+BUTTON Guy<>Guest|90030|1|2
+BUTTON GenderSwap|90030|0|1
+{StandingBy}<-0.671,0.451,0.883><0,0,-45>
+{WaitingForIt}<-0.671,0.451,0.883><0,0,-45>
+{MyTurnYet?}<-0.671,0.451,1.015><0,0,-45>
+{IWantSome}<-0.671,0.451,1.015><0,0,-45>
+{Drinking}<-0.671,0.451,1.015><0,0,-45>
+{Anxious}<-0.671,0.451,1.015><0,0,-45>
+{Masturbate}<-0.671,0.451,0.787><0,0,-45>
+{StandingBy+}<-0.671,0.451,0.883><0,0,-45>
+{WaitingForIt+}<-0.671,0.451,0.883><0,0,-45>
+{Drinking+}<-0.671,0.451,0.883><0,0,-45>
+{MyTurnYet?+}<-0.671,0.451,0.883><0,0,-45>
+{IWantSome+}<-0.671,0.451,0.883><0,0,-45>
+{Anxious+}<-0.671,0.451,0.883><0,0,-45>
+{Masturbate+}<-0.671,0.451,0.936><0,0,-45>
+{Hug-ff}<0.006,0.495,0.771><0,0,90>
+{Kiss 1}<0.006,0.463,0.771><0,0,-90>
+{Kiss 2}<0.006,0.47,0.771><0,0,90>
+{Kiss Breast}<0.006,0.602,0.771><0,0,90>
+{Kiss Navel}<0.006,0.561,0.771><0,0,90>
+{Finger 1}<0.006,0.454,0.771><0,0,90>
+{Finger 2}<0.006,0.492,0.771><0,0,90>
+{Lick 1}<0.006,0.549,0.771><0,0,90>
+{Lick 2}<0.006,0.423,0.771><0,0,90>
+{HugMyGirls}<-0.266,0.763,0.928><0,0,-22.5>
+{BackAndFront}<-0.647,0.713,0.848><0,0,0>
+{Kisses4All}<-0.376,0.824,0.929><0,0,0>
+{SqueezeHim}<-0.607,0.613,0.884><0,0,0>
+{EatHerSuckHim}<-0.044,2.113,0.846><0,0,-90>
+{Dildo&Dick}<0.296,0.882,0.764><0,0,-128.5>
+{LickAndAnal}<0.098,1.63,0.842><0,0,-90>
+{SuckHerDick}<0.116,0.676,0.906><0,0,-90>
+{LetsUseHer}<0.027,0.656,0.853><0,0,-90>
+{StrapTight}<0.086,0.883,0.868><0,0,-90>
+{69For3}<0.001,0.57,0.063><0,0,90>
+{KissAndFinger}<-0.177,0.648,-0.158><0,0,0>
+{TwoGirlsRide}<0.014,1.289,0.033><0,0,-90>
+{EatAndFuck}<0.005,0.659,0.727><-5,0,-90>
+{TwoCanSuck1}<0.03,0.902,-0.286><0,0,90>
+{Les69&Fuck}<-0.051,1.256,-0.21><0,0,90>
+{EatWhileFuck}<-0.027,0.744,-0.265><0,0,-90>
+{FingerRide}<-0.159,1.121,-0.04><0,0,90>
+{LickThemBoth}<0.12,0.756,-0.222><0,0,0>
+{Tripod}<-0.057,1.108,0.752><0,0,-90>
+{WeClaimHer}<0,0.921,0.74><0,0,90>
+{TwinSucker}<-0.024,1.256,0.832><0,0,-90>
+{ShareHisCum}<0.055,1.07,0.128><0,0,90>
+{TwoHandJob}<-0.067,0.934,-0.185><-5,-0.5,95.6>
+{KissAndFuck}<-0.013,0.813,1.058><0,0,-85>
+{FuckAndSuck}<-0.014,0.999,0.938><0,0,-90>
+{ForcedByTwo}<-0.014,1.741,0.102><0,0,-90>
+{Serve2Men}<0.355,1.06,-0.207><0,0,180>
+{AssLickNBlow}<-0.007,1.753,0.133><-9,0,-90>
+{DoublePen}<0.013,1.017,0.074><0,0,-90>
+{TwoInOne}<0.004,1.005,0.096><0,0,-90>
+{StandingDP}<0.042,0.697,1.084><0,0,0>
+{DesktopDP}<-0.005,1.161,0.14><0,0,-90>
+{ScreamingDP}<0.04,0.995,0.125><0,0,-90>
+{FlipHerOver}<0,1.256,0.866><0,0,-90>
+{TwiceAsHard}<0,1.888,0.906><0,0,-90>
+{DPTheBitch}<0,0.986,0.915><0,0,-90>
+{DuoDoHer}<0,1.719,0.904><0,0,-90>
+{SheWantsCum}<0.039,1.465,0.215><0,0,90>
+PROP1 LovenseHUD|! Debauchery Lovense Hud v3.0|G6|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|HUD bottom left
+PROP1 Drinking|Debauchery Tequila Sunsrise v2.01|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 Drinking+|Debauchery Beer Pint - for AVsitter v1.02|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 Dildo&Dick|Debauchery Dildo RH|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+ANIM EatHerSuckHim|express_open_mouth|2|[Black Tulip] Rest Head (P0)|1
+ANIM Dildo&Dick|express_open_mouth|2|[Black Tulip] Rest Head (P0)|1
+ANIM LickAndAnal|express_open_mouth|2|[Black Tulip] Rest Head (P0)|1
+ANIM SuckHerDick|express_open_mouth|2|[Black Tulip] Rest Head (P0)|1
+ANIM LetsUseHer|express_open_mouth|2|[Black Tulip] Rest Head (P0)|1
+ANIM StrapTight|express_open_mouth|2|[Black Tulip] Rest Head (P0)|1

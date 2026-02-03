@@ -1,75 +1,36 @@
-# AVsitter Sequence for Chez Moi Oceana Lounger
+# AVsitter Autoplay for Debauchery Round Swingers Bar Stool
 
-This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
-with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
-the Chez Moi Oceana Lounger dialog menus.
+This folder contains an `autoplay.lsl` LSL script to enable automatic
+play of animations sequences for the Debauchery Round Swingers Bar Stool.
 
-This `AVsitter` customization allows greater freedom of personal interaction in the
-lounger, eliminating the need to navigate dialog menus during moments of intimacy.
+Debauchery did a good job of configuring AVsitter animation sequences so no
+custom notecards for sequences are provided here. Just the `autoplay` script.
 
-## Menus
+### Auto Play Sequence
 
-Sequences are configured for the following menus, both male and female:
+If you wish to automatically play a sequence when an avatar sits on the stool
+then download the `autoplay.sl` script and copy it into the Contents of the object.
 
-- Solo
-- Cuddles &amp; Kisses
-- Sex
+The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
+In addition, it detects the number of sitters currently on the object and plays the couples
+animation sequence if only 1 sitter is already seated.
 
-## Download the script and customized notecards
+## Download the autoplay script
 
-Download the `[AV]sequence` plugin script:
-
-```bash
-wget -q -O '[AV]sequence' https://raw.githubusercontent.com/AVsitter/AVsitter/refs/heads/master/AVsitter2/Plugins/AVsequence/%5BAV%5Dsequence.lsl
-```
-
-Download the customized `[AV]sequence_settings` notecard:
+Download the `autoplay` LSL script:
 
 ```bash
-wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Oceana_Lounger/AVsequence_settings
-```
-
-Download the customized `AVpos` notecard:
-
-```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Oceana_Lounger/AVpos
+wget -q -O autoplay https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Bar_Stool/autoplay.lsl
 ```
 
 ## Setup
 
-To configure a Chez Moi Oceana Lounger with AVsitter sequences:
+To configure a Debauchery Round Swingers Bar Stool with automatic sequence play:
 
-- Right click the lounger and select `Edit`
-- Copy the `[AV]sequence_settings` notecard into the Contents tab
-- Copy the `[AV]sequence` plugin script into the Contents tab
-- Drag the original `AVpos` notecard in the Contents tab into your inventory as a backup
-- Delete the original `AVpos` notecard in the Contents tab
-  - You have to delete the notecard because they made it No Modify (sheesh)
-  - Ignore and close the warning window that pops up, this is expected and ok
-- Drag the `AVpos` notecard found in this folder into the Contents tab
+- Right click the stool and select `Edit`
+- Drag and Drop the `autoplay` script into the Contents tab
 - Close the `Edit` window
-- Optionally, right click the lounger and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
 - Wait for the scripts to reset (this takes a few minutes)
-
-Sit on the lounger and click one of the main menu entries, e.g. click `SINGLE F` or `LOVE`.
-
-You should see a menu entry of the form `SEQ-...`. Click this menu entry and your
-avatar will cycle through all the animations in that submenu. Cycle times are currently
-set to 60 seconds with menu arrows to step to the next animation, previous animation,
-or pause animation sequencing.
-
-### Auto Play Sequence
-
-If you wish to automatically play a sequence when an avatar sits on the lounger
-then download the `autoplay.sl` script and copy it into the Contents of the object.
-
-```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Oceana_Lounger/autoplay.lsl
-```
-
-The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
-In addition, it detects the number of sitters currently on the object and plays the couples
-animation sequence if more than 1 sitter is seated.
 
 ## Second Life Marketplace Listings
 
