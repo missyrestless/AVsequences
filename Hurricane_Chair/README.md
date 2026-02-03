@@ -7,6 +7,11 @@ the Good Moaning Hurricane Chair dialog menus.
 This `AVsitter` customization allows greater freedom of personal interaction in the
 chair, eliminating the need to navigate dialog menus during moments of intimacy.
 
+The notecards and scripts for this customization of the Good Moaning Hurricane Chair
+are available on the Second Life Marketplace at:
+
+[https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Good-Moaning-Hurricane-Chair/27951429](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Good-Moaning-Hurricane-Chair/27951429)
+
 ## Menus
 
 Sequences are configured for Sitter 0 and Sitter 1 menus, both male and female:
@@ -21,6 +26,10 @@ Sequences are configured for Sitter 0 and Sitter 1 menus, both male and female:
 - Anal
 
 ## Download the script and customized notecards
+
+Purchase the packaged product for this customization of the Good Moaning Hurricane Chair at
+[https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Good-Moaning-Hurricane-Chair/27951429](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Good-Moaning-Hurricane-Chair/27951429)
+or download them and upload to Second Life as follows:
 
 Download the `[AV]sequence` plugin script:
 
@@ -80,10 +89,11 @@ animation sequence if more than 1 sitter is seated.
 
 The following custom sequenced animations are available on the Second Life Marketplace:
 
-- [Nerenzo Orgy Towel Sequenced Customization Marketplace Listing](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Orgy-Towel/27945140)
-- [Nerenzo Hot Bangers Pool Sequenced Customization Marketplace Listing](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Hot-Bangers-Pool/27942775)
 - [Cuming Soon Super Smash Couch Sequenced Customization Marketplace Listing](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Cuming-Soon-Super-Smash-Couch/27943028)
+- [Good Moaning Hurricane Chair Sequenced Customization Marketplace Listing](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Good-Moaning-Hurricane-Chair/27951429)
 - [Lalou 3some Outdoor Shower Sequenced Customization Marketplace Listing](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Lalou-3some-Outdoor-Shower/27944763)
+- [Nerenzo Hot Bangers Pool Sequenced Customization Marketplace Listing](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Hot-Bangers-Pool/27942775)
+- [Nerenzo Orgy Towel Sequenced Customization Marketplace Listing](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Orgy-Towel/27945140)
 
 ## Currently Supported Products
 

@@ -49,14 +49,14 @@ default {
     changed(integer change) {
         if (change & CHANGED_LINK) {
             llSleep(1);
-	    // Use female poses for ambiguous or undefined gender
+            // Use female poses for ambiguous or undefined gender
             if (GetAvatarGender(AV_KEY) == "male") {
                 COUPLES_POSE = COUPLES_POSE_M;
                 SINGLES_POSE = SINGLES_POSE_M;
-	    } else {
+            } else {
                 COUPLES_POSE = COUPLES_POSE_F;
                 SINGLES_POSE = SINGLES_POSE_F;
-	    }
+            }
             integer avatar_count = llGetNumberOfPrims() - llGetObjectPrimCount(llGetKey());
             if (avatar_count>1) { // more than one avatar sitting
                 if (!IS_SYNC) { // initial avatar had not selected a SYNC pose 
