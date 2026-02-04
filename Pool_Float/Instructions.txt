@@ -1,7 +1,7 @@
-AVsitter Sequence for Lalou Pool Float
-======================================
+AVsitter Sequence for Lalou Pool Float (Adult 3some)
+====================================================
 
-This folder contains the 'AVpos' and '[AV]sequence_settings' notecards for use with the 'AVsitter2' plugin '[AV]sequence' to provide animation sequences for the adult version of the Lalou Pool Float dialog menus.
+This folder contains the 'AVpos' and '[AV]sequence_settings' notecards for use with the 'AVsitter2' plugin '[AV]sequence' to provide animation sequences for the adult version of the Lalou Pool Float (Adult 3some) dialog menus.
 
 This 'AVsitter' customization allows greater freedom of personal interaction in the pool float, eliminating the need to navigate dialog menus during moments of intimacy.
 
@@ -10,7 +10,7 @@ IMPORTANT NOTE
 
 This customization of the Lalou Pool Float only works with the adult version of the float available on the Second Life Marketplace at https://marketplace.secondlife.com/p/Lalou-Pool-Float-Adult-3some-441-anims-3some-PV-INM/24299030
 
-This product does NOT contain the Lalou Pool Float. You have to purchase the float from Lalou. This product only contains the notecards and scripts used to provide sequenced animations for the float.
+This product does NOT contain the Lalou Pool Float (Adult 3some). You have to purchase the float from Lalou. This product only contains the notecards and scripts used to provide sequenced animations for the float.
 
 In order to deploy this customization it will be necessary to edit the float object. Detailed instructions are provided below but if you are not comfortable editing Second Life objects then this may be viewed as an opportunity to learn or as something not for you.
 
@@ -43,7 +43,7 @@ Sequences are configured for the following menus, both male and female:
 Setup
 =====
 
-To configure a Lalou Pool Float with AVsitter sequences:
+To configure a Lalou Pool Float (Adult 3some) with AVsitter sequences:
 
 - Right click the float and select 'Edit'
 
@@ -72,3 +72,7 @@ Auto Play Sequence
 If you wish to automatically play a sequence when an avatar sits on the float then drag & drop the 'autoplay' script into the Contents of the object.
 
 The 'autoplay' script detects the gender of the sitter and plays the appropriate sequence. In addition, it detects the number of sitters currently on the object and plays the couples animation sequence if there are 2 sitters and one of the 3-way sequences if 3 are seated.
+
+The 'autoplay' script plays PG sequences. If you wish to automatically play adult sequences then drag & drop the 'autoplay-adult' script into the Contents of the object.
+
+Only add zero or one of the 'autoplay' scripts to the float Contents. Do not add both.

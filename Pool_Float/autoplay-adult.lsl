@@ -14,6 +14,7 @@
 * Modified 04-Feb-2026 by Missy Restless <missyrestless@gmail.com>
 *   - Detect stands and no sitters
 *   - Play appropriate sequence with reduced number of sitters
+*   - Save gender of 1st two sitters, play female/female sequence when apropos
 *   - Reset on inventory or owner change
 **********************************************************************/
 
@@ -21,16 +22,21 @@
  * Set these to the sequence names you want to autoplay
 **********************************************************************/
 // Couples Female Sequence
-string COUPLES_POSE_F = "SEQ-CUDDLE-F";
+string COUPLES_POSE_F = "SEQ-FACE-F";
 // Singles Female Sequence
-string SINGLES_POSE_F = "SEQ-SOLO-F";
+string SINGLES_POSE_F = "SEQ-ADULT-F";
 // Couples Male Sequence
-string COUPLES_POSE_M = "SEQ-CUDDLE-M";
+string COUPLES_POSE_M = "SEQ-FACE-M";
 // Singles Male Sequence
-string SINGLES_POSE_M = "SEQ-SOLO-M";
+string SINGLES_POSE_M = "SEQ-ADULT-M";
 // 3 Sitter Sequence
-string TRIPLES_POSE_F = "SEQ-FFMPG";
-string TRIPLES_POSE_M = "SEQ-MMFPG";
+string TRIPLES_POSE_F = "SEQ-FFM";
+string TRIPLES_POSE_M = "SEQ-MMFADULT";
+// Female/Female Couples Sequences
+string FEMALES_POSE = "SEQ-FF";
+// Gender strings
+string FEMALE = "female";
+string MALE = "male";
 
 /******************************************************************
  * DON'T EDIT BELOW THIS UNLESS YOU KNOW WHAT YOU'RE DOING!
@@ -42,17 +48,20 @@ integer STAND_MSG = 90065;
 string TRIPLES_POSE = TRIPLES_POSE_F;
 string COUPLES_POSE = COUPLES_POSE_F;
 string SINGLES_POSE = SINGLES_POSE_F;
+string SITTER_ONE = FEMALE;
+string SITTER_TWO = MALE;
+string AV_GENDER = FEMALE;
 
+// Simplified gender detection, return female for everything but male detected
 string GetAvatarGender(key avatar) {
     list details = llGetObjectDetails(avatar, [OBJECT_BODY_SHAPE_TYPE]);
-    if (details == []) return "not found";
+    if (details == []) return FEMALE;
     float gender = llList2Float(details, 0);
-    if (gender < 0.0)   return "undefined (not an avatar)"; // agent not found
-    if (gender == 0.0)  return "female";
-    string rv = " (" + (string)gender + ")";
-    if (gender < 0.5)   return "somewhat feminine" + rv;
-    if (gender == 0.5)  return "androgynous" + rv;
-    return "male"; 
+    if (gender < 0.0)   return FEMALE;
+    if (gender == 0.0)  return FEMALE;
+    if (gender < 0.5)   return FEMALE;
+    if (gender == 0.5)  return FEMALE;
+    return MALE; 
 }
 
 default {
@@ -67,18 +76,27 @@ default {
             integer avatar_count = llGetNumberOfPrims() - llGetObjectPrimCount(llGetKey());
             if (avatar_count > 0) { // at least one avatar is seated
               if (AV_KEY != NULL_KEY) {
-                if (GetAvatarGender(AV_KEY) == "male") {
+                AV_GENDER = GetAvatarGender(AV_KEY);
+                if (AV_GENDER == MALE) {
                   TRIPLES_POSE = TRIPLES_POSE_M;
                   COUPLES_POSE = COUPLES_POSE_M;
                   SINGLES_POSE = SINGLES_POSE_M;
 	        }
               }
               if (avatar_count > 2) { // more than two avatars sitting
-                llMessageLinked(LINK_SET,90000,TRIPLES_POSE,""); // play triples pose
+                llMessageLinked(LINK_SET,90000,TRIPLES_POSE,""); // play triples poses
               } else if (avatar_count > 1) { // more than one avatar sitting
-                llMessageLinked(LINK_SET,90000,COUPLES_POSE,""); // play couples pose
+                SITTER_TWO = AV_GENDER;
+                AV_GENDER = FEMALE;
+                if ((SITTER_ONE == FEMALE) && (SITTER_TWO == FEMALE)) {
+                  llMessageLinked(LINK_SET,90000,FEMALES_POSE,""); // play female/female poses
+                } else {
+                  llMessageLinked(LINK_SET,90000,COUPLES_POSE,""); // play couples poses
+                }
               } else {
-                llMessageLinked(LINK_SET,90000,SINGLES_POSE,""); // play singles pose
+                SITTER_ONE = AV_GENDER;
+                AV_GENDER = FEMALE;
+                llMessageLinked(LINK_SET,90000,SINGLES_POSE,""); // play singles poses
               }
             }
         }

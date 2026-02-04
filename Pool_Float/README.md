@@ -1,8 +1,8 @@
-# AVsitter Sequence for Lalou Pool Float
+# AVsitter Sequence for Lalou Pool Float (Adult 3some)
 
 This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
 with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
-the Lalou Pool Float dialog menus.
+the Lalou Pool Float (Adult 3some) dialog menus.
 
 This `AVsitter` customization allows greater freedom of personal interaction in the
 pool float, eliminating the need to navigate dialog menus during moments of intimacy.
@@ -51,7 +51,7 @@ wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/m
 
 ## Setup
 
-To configure a Lalou Pool Float with AVsitter sequences:
+To configure a Lalou Pool Float (Adult 3some) with AVsitter sequences:
 
 - Right click the float and select `Edit`
 - Drag and drop the `[AV]sequence_settings` notecard into the Contents tab
@@ -74,7 +74,7 @@ or pause animation sequencing.
 ### Auto Play Sequence
 
 If you wish to automatically play a sequence when an avatar sits on the pool float
-then download the `autoplay.sl` script and copy it into the Contents of the object.
+then download the `autoplay.lsl` script and copy it into the Contents of the object.
 
 ```bash
 wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Pool_Float/autoplay.lsl
@@ -83,6 +83,15 @@ wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequence
 The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
 In addition, it detects the number of sitters currently on the object and plays the couples
 animation sequence if there are 2 sitters and one of the 3-way sequences if 3 are seated.
+
+The `autoplay.lsl` plays PG sequences. If you wish to automatically play adult sequences 
+then download and copy the `autoplay-adult.lsl` script:
+
+```bash
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Pool_Float/autoplay-adult.lsl
+```
+
+Only add zero or one of the `autoplay` scripts to the float Contents. Do not add both.
 
 ## Second Life Marketplace Listings
 
