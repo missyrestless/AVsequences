@@ -8,6 +8,8 @@
 *   - Autoplay a defined sequence in the object
 * Modified 22-Jan-2026 by Missy Restless <missyrestless@gmail.com>
 *   - Detect gender of sitter and autoplay defined gender sequence
+* Modified 01-Feb-2026 by Missy Restless <missyrestless@gmail.com>
+*   - Add support for a 3rd sitter auto sequence
 **********************************************************************/
 
 /**********************************************************************

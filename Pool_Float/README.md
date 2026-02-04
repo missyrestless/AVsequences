@@ -20,12 +20,14 @@ Sequences are configured for the following menus, both male and female:
 - Cuddle
 - Foreplay
 - Solo Adult
-- Female/Female
 - Lick
 - BJ
 - Ride
 - Front
 - Behind
+- Female/Female
+- Female/Female/Male (Straight, Bi, and PG)
+- Female/Male/Male (Adult and PG)
 
 ## Download the script and customized notecards
 
@@ -52,9 +54,12 @@ wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/m
 To configure a Lalou Pool Float with AVsitter sequences:
 
 - Right click the float and select `Edit`
-- Copy the `[AV]sequence_settings` notecard into the Contents tab
-- Copy the `[AV]sequence` plugin script into the Contents tab
+- Drag and drop the `[AV]sequence_settings` notecard into the Contents tab
+- Drag and drop the `[AV]sequence` plugin script into the Contents tab
 - Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
+  - Drag and Drop the original `AVpos` notecard from the Contents tab into your inventory as a backup
+  - Delete the `AVpos` notecard from the Contents tab (you can ignore and close the Warning window)
+  - Drag and Drop the new `AVpos` notecard with sequences into the Contents tab
 - Close the `Edit` window
 - Right click the float and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
 - Wait for the scripts to reset (this takes a few minutes)
@@ -77,7 +82,7 @@ wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequence
 
 The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
 In addition, it detects the number of sitters currently on the object and plays the couples
-animation sequence if more than 1 sitter is seated.
+animation sequence if there are 2 sitters and one of the 3-way sequences if 3 are seated.
 
 ## Second Life Marketplace Listings
 
