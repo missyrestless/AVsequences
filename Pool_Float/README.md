@@ -7,6 +7,11 @@ the Lalou Pool Float (Adult 3some) dialog menus.
 This `AVsitter` customization allows greater freedom of personal interaction in the
 pool float, eliminating the need to navigate dialog menus during moments of intimacy.
 
+The notecards and scripts for this customization of the Lalou Pool Float (Adult 3some)
+are available on the Second Life Marketplace at:
+
+[https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Lalou-Pool-Float-Adult-3some/27954361](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Lalou-Pool-Float-Adult-3some/27954361)
+
 ## Menus
 
 Sequences are configured for the following menus, both male and female:
@@ -30,6 +35,10 @@ Sequences are configured for the following menus, both male and female:
 - Female/Male/Male (Adult and PG)
 
 ## Download the script and customized notecards
+
+Purchase the packaged product for this customization of the Lalou Pool Float (Adult 3some) at
+[https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Lalou-Pool-Float-Adult-3some/27954361](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Lalou-Pool-Float-Adult-3some/27954361)
+or download them and upload to Second Life as follows:
 
 Download the `[AV]sequence` plugin script:
 
@@ -100,6 +109,7 @@ The following custom sequenced animations are available on the Second Life Marke
 - [Cuming Soon Super Smash Couch Sequenced Customization Marketplace Listing](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Cuming-Soon-Super-Smash-Couch/27943028)
 - [Good Moaning Hurricane Chair Sequenced Customization Marketplace Listing](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Good-Moaning-Hurricane-Chair/27951429)
 - [Lalou 3some Outdoor Shower Sequenced Customization Marketplace Listing](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Lalou-3some-Outdoor-Shower/27944763)
+- [Lalou Pool Float (Adult 3some)](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Lalou-Pool-Float-Adult-3some/27954361)
 - [Nerenzo Hot Bangers Pool Sequenced Customization Marketplace Listing](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Hot-Bangers-Pool/27942775)
 - [Nerenzo Orgy Towel Sequenced Customization Marketplace Listing](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Orgy-Towel/27945140)
 
@@ -130,7 +140,7 @@ The following custom sequenced animations are available on the Second Life Marke
 
 - [Lalou 3some Outdoor Shower](https://github.com/missyrestless/AVsequences/tree/main/Outdoor_Shower)
 - [Lalou Miami Sun Lounger](https://github.com/missyrestless/AVsequences/tree/main/Miami_Sun_Lounger)
-- [Lalou Pool Float](https://github.com/missyrestless/AVsequences/tree/main/Pool_Float)
+- [Lalou Pool Float (Adult 3some)](https://github.com/missyrestless/AVsequences/tree/main/Pool_Float)
 
 ### Customized notecards providing sequenced animations for Headhunter furniture
 
