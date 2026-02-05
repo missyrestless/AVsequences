@@ -14,9 +14,8 @@ available on the Second Life Marketplace at:
 
 ## Menus
 
-Sequences are configured for Sitter 0 and Sitter 1 menus, both male and female.
-The 3rd and 4th sitter menus do not have sequences configured - you're on your
-own with 3-ways and 4-ways.
+Sequences are configured for all four sitters, both male and female. Sequenced animations are
+configured for solo, couples, 3-way, and 4-way, both PG and Adult.
 
 Currently configured sequenced menus include:
 
@@ -27,6 +26,10 @@ Currently configured sequenced menus include:
 - Butt Stuff Menus
 - Fuck Menus
 - Hard Sex Menus
+- 3-Way PG
+- 3-Way Sex
+- 4-Way Whirlpool
+- 4-Way Sex
 
 ## Download the script and customized notecards
 
@@ -86,7 +89,17 @@ wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequence
 
 The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
 In addition, it detects the number of sitters currently on the object and plays the couples
-animation sequence if more than 1 sitter is seated.
+animation sequence if there are 2 sitters, one of the 3-way sequences if 3 are seated, and
+a 4-way animation sequence if 4 are in the pool.
+
+The `autoplay.lsl` plays PG sequences. If you wish to automatically play adult sequences 
+then download and copy the `autoplay-adult.lsl` script:
+
+```bash
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Bangers_Pool/autoplay-adult.lsl
+```
+
+Only add zero or one of the `autoplay` scripts to the float Contents. Do not add both.
 
 ## Second Life Marketplace Listings
 

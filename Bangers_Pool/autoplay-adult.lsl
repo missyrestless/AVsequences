@@ -24,19 +24,19 @@
  * Set these to the sequence names you want to autoplay
 **********************************************************************/
 // Couples Female Sequence
-string COUPLES_POSE_F = "SEQ-CUDDLE";
+string COUPLES_POSE_F = "SEQ-FOREPLAY";
 // Singles Female Sequence
 string SINGLES_POSE_F = "SEQ-SOLO";
 // Couples Male Sequence
-string COUPLES_POSE_M = "SEQ-CUDDLE";
+string COUPLES_POSE_M = "SEQ-FOREPLAY";
 // Singles Male Sequence
 string SINGLES_POSE_M = "SEQ-SOLO";
 // 3 Sitter Sequence
-string TRIPLES_POSE_F = "SEQ-FFM-PG";
-string TRIPLES_POSE_M = "SEQ-MMF-PG";
+string TRIPLES_POSE_F = "SEQ-FFM-SEX";
+string TRIPLES_POSE_M = "SEQ-MMF-SEX";
 // 4 Sitter Sequence
-string FOURTHS_POSE_F = "SEQ-4-WHIRL";
-string FOURTHS_POSE_M = "SEQ-4-WHIRL";
+string FOURTHS_POSE_F = "SEQ-4-SEX";
+string FOURTHS_POSE_M = "SEQ-4-SEX";
 
 /******************************************************************
  * DON'T EDIT BELOW THIS UNLESS YOU KNOW WHAT YOU'RE DOING!
