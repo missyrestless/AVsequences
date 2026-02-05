@@ -8,6 +8,12 @@
 *   - Autoplay a defined sequence in the object
 * Modified 22-Jan-2026 by Missy Restless <missyrestless@gmail.com>
 *   - Detect gender of sitter and autoplay defined gender sequence
+* Modified 01-Feb-2026 by Missy Restless <missyrestless@gmail.com>
+*   - Add support for a 3rd sitter auto sequence
+* Modified 04-Feb-2026 by Missy Restless <missyrestless@gmail.com>
+*   - Detect stands and no sitters
+*   - Play appropriate sequence with reduced number of sitters
+*   - Reset on inventory or owner change
 **********************************************************************/
 
 /**********************************************************************
@@ -26,8 +32,9 @@ string SINGLES_POSE_M = "SEQ-SOLO-M";
  * DON'T EDIT BELOW THIS UNLESS YOU KNOW WHAT YOU'RE DOING!
 ******************************************************************/
 
-integer IS_SYNC;
 key AV_KEY;
+integer SIT_MSG = 90045;
+integer STAND_MSG = 90065;
 string COUPLES_POSE = COUPLES_POSE_F;
 string SINGLES_POSE = SINGLES_POSE_F;
 
@@ -48,31 +55,34 @@ default {
         if (change & CHANGED_LINK) {
             llSleep(1);
 	    // Use female poses for ambiguous or undefined gender
-            if (GetAvatarGender(AV_KEY) == "male") {
-                COUPLES_POSE = COUPLES_POSE_M;
-                SINGLES_POSE = SINGLES_POSE_M;
-	    } else {
-                COUPLES_POSE = COUPLES_POSE_F;
-                SINGLES_POSE = SINGLES_POSE_F;
-	    }
+            COUPLES_POSE = COUPLES_POSE_F;
+            SINGLES_POSE = SINGLES_POSE_F;
+            // Check if no one is sitting on the target
             integer avatar_count = llGetNumberOfPrims() - llGetObjectPrimCount(llGetKey());
-            if (avatar_count>1) { // more than one avatar sitting
-                if (!IS_SYNC) { // initial avatar had not selected a SYNC pose 
-                    llMessageLinked(LINK_SET,90000,COUPLES_POSE,""); // play couples pose
-                }
-            }
-            else if (SINGLES_POSE) {
+            if (avatar_count > 0) { // at least one avatar is seated
+              if (AV_KEY != NULL_KEY) {
+                if (GetAvatarGender(AV_KEY) == "male") {
+                  COUPLES_POSE = COUPLES_POSE_M;
+                  SINGLES_POSE = SINGLES_POSE_M;
+	        }
+              }
+              if (avatar_count > 1) { // more than one avatar sitting
+                llMessageLinked(LINK_SET,90000,COUPLES_POSE,""); // play couples pose
+              } else {
                 llMessageLinked(LINK_SET,90000,SINGLES_POSE,""); // play singles pose
+              }
             }
         }
+        if (change & (CHANGED_OWNER | CHANGED_INVENTORY)) {
+            llResetScript(); // Aborts current execution and restarts the script
+        }
     }
+
     link_message(integer sender, integer num, string msg, key id) {
-        if (num==90045) {
-            // Extract the data into a list
-            list data = llParseStringKeepNulls(msg,["|"],[]);
-            // TRUE if the pose is a SYNC pose
-            IS_SYNC = (integer)llList2String(data,6);
+        if (num == SIT_MSG) {
             AV_KEY = id;
+        } else if (num == STAND_MSG) {
+            AV_KEY = NULL_KEY;
         }
     }
 }

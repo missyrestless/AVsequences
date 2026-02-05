@@ -1,0 +1,67 @@
+AVsitter Sequence for Nerenzo Beach Chairs
+==========================================
+
+This folder contains the 'AVpos' and '[AV]sequence_settings' notecards for use with the 'AVsitter2' plugin '[AV]sequence' to provide animation sequences for the Nerenzo Beach Chairs dialog menus.
+
+This 'AVsitter' customization allows greater freedom of personal interaction in the beach chair, eliminating the need to navigate dialog menus during moments of intimacy.
+
+IMPORTANT NOTE
+--------------------
+
+This customization of the Nerenzo Beach Chair only works with the adult version of the chairs available on the Second Life Marketplace at https://marketplace.secondlife.com/p/Nerenzo-beach-chairs-adult-bento-INM-Aeros-The-physics-cock-The-V/20430864
+
+This product does NOT contain the Nerenzo Beach Chairs (Adult). You have to purchase the chairs from Nerenzo. This product only contains the notecards and scripts used to provide sequenced animations for the chairs.
+
+In order to deploy this customization it will be necessary to edit the chair objects. Detailed instructions are provided below but if you are not comfortable editing Second Life objects then this may be viewed as an opportunity to learn or as something not for you.
+
+Missy Restless and the Truth & Beauty Lab are not affiliated with Nerenzo products in any way other than as an extremely satisfied customer.
+
+Menus
+-----
+
+Sequences are configured for the following menus, both male and female:
+
+- Solo
+- Cuddle
+- Foreplay
+- Oral
+- Bang
+- Behind
+- Butt
+- Eye 2 Eye
+- Girl on Top
+- Sex
+- Various Positions
+
+Setup
+-----
+
+To configure a Nerenzo Beach Chair with AVsitter sequences:
+
+- Right click the chair and select 'Edit'
+
+- Drag and Drop the '[AV]sequence_settings' notecard into the Contents tab
+
+- Drag and Drop the '[AV]sequence' plugin script into the Contents tab
+
+- Replace the 'AVpos' notecard in the Contents tab with the 'AVpos' notecard found in this folder
+  - Drag and Drop the original 'AVpos' notecard from the Contents tab into your inventory as a backup
+  - Delete the 'AVpos' notecard from the Contents tab (you can ignore and close the Warning window)
+  - Drag and Drop the new 'AVpos' notecard with sequences into the Contents tab
+
+- Close the 'Edit' window
+
+- Right click the chair and select 'More' -> 'More' -> 'Scripts' -> 'Reset Scripts'
+
+- Wait for the scripts to reset (this takes a few minutes)
+
+Sit on the chair, select Male or Female, and click one of the main menu entries, e.g. click 'Cuddles' or 'Adult' then 'Foreplay'.
+
+You should see a menu entry of the form 'SEQ-...'. Click this menu entry and your avatar will cycle through all the animations in that submenu. Cycle times are currently set to 60 seconds with menu arrows to step to the next animation, previous animation, or pause animation sequencing.
+
+Auto Play Sequence
+------------------
+
+If you wish to automatically play a sequence when an avatar sits on the beach chair then Drag & Drop the 'autoplay.sl' script into the Contents of the object.
+
+The 'autoplay' script detects the gender of the sitter and plays the appropriate sequence. In addition, it detects the number of sitters currently on the object and plays the couples animation sequence if more than 1 sitter is seated.
