@@ -55,7 +55,7 @@ SYNC coco drink|cDR2
 SYNC coco feed|cDR3
 
 MENU CUDDLES
-SEQUENCE SEQ-CUDDLE-M
+SEQUENCE SEQ-CUDDLE
 SYNC on you|G2
 SYNC my moon|G3
 SYNC the way|G4
@@ -73,7 +73,7 @@ SYNC italo kiss|L25
 SYNC ipanema|xm3
 
 MENU 4PLAY
-SEQUENCE SEQ-FORE-M
+SEQUENCE SEQ-FORE
 SYNC boobs play|E2
 SYNC caramba|Z2
 SYNC stand&rub|F11
@@ -82,7 +82,7 @@ SYNC some fingers|x1m
 SYNC deal|P1
 
 MENU ORAL
-SEQUENCE SEQ-ORAL-M
+SEQUENCE SEQ-ORAL
 SYNC 45°|B2
 SYNC cat|B15
 SYNC big john|B16
@@ -115,7 +115,7 @@ SYNC fire|I6
 SYNC starr|I7
 
 MENU EYE2EYE
-SEQUENCE SEQ-EYE2EYE-M
+SEQUENCE SEQ-EYE2EYE
 SYNC easy task|M7
 SYNC mozart|M8
 SYNC hang in|M9
@@ -135,7 +135,7 @@ SYNC tight rein2|x8m
 SYNC local fuck|xm5
 
 MENU GIRL ON TOP
-SEQUENCE SEQ-GTOP-M
+SEQUENCE SEQ-GTOP
 SYNC stiff ride|R4
 SYNC duchess|R5
 SYNC bearfuck|R6
@@ -148,7 +148,7 @@ SYNC butt view|R17
 SYNC cozmic|R20
 
 MENU VARIOUS
-SEQUENCE SEQ-VAR-M
+SEQUENCE SEQ-VAR
 SYNC carriage|V1
 SYNC eifel|V2
 SYNC spectral|V4
@@ -156,7 +156,7 @@ SYNC cuchara|V5
 SYNC the expat|V10
 
 MENU BUTT STUFF
-SEQUENCE SEQ-BUTT-M
+SEQUENCE SEQ-BUTT
 SYNC borehole|A5
 SYNC tower|A6
 SYNC via hole|A7
@@ -331,7 +331,7 @@ SYNC coco drink|cdr2
 SYNC coco feed|cdr3
 
 MENU CUDDLES
-SEQUENCE SEQ-CUDDLE-F
+SEQUENCE SEQ-CUDDLE
 SYNC on you|g2
 SYNC my moon|g3
 SYNC the way|g4
@@ -349,7 +349,7 @@ SYNC italo kiss|l25
 SYNC ipanema|xf3
 
 MENU 4PLAY
-SEQUENCE SEQ-FORE-F
+SEQUENCE SEQ-FORE
 SYNC boobs play|e2
 SYNC caramba|z2
 SYNC stand&rub|f11
@@ -358,7 +358,7 @@ SYNC some fingers|x1f
 SYNC deal|p1
 
 MENU ORAL
-SEQUENCE SEQ-ORAL-F
+SEQUENCE SEQ-ORAL
 SYNC 45°|b2
 SYNC cat|b15
 SYNC big john|b16
@@ -383,7 +383,7 @@ TOMENU BUTT STUFF
 TOMENU CUM
 
 MENU EYE2EYE
-SEQUENCE SEQ-EYE2EYE-F
+SEQUENCE SEQ-EYE2EYE
 SYNC easy task|m7
 SYNC mozart|m8
 SYNC hang in|m9
@@ -411,7 +411,7 @@ SYNC tight rein2|x8f
 SYNC local fuck|xf5
 
 MENU GIRL ON TOP
-SEQUENCE SEQ-GTOP-F
+SEQUENCE SEQ-GTOP
 SYNC stiff ride|r4
 SYNC duchess|r5
 SYNC bearfuck|r6
@@ -424,7 +424,7 @@ SYNC butt view|r17
 SYNC cozmic|r20
 
 MENU VARIOUS
-SEQUENCE SEQ-VAR-F
+SEQUENCE SEQ-VAR
 SYNC carriage|v1
 SYNC eifel|v2
 SYNC spectral|v4
@@ -432,7 +432,7 @@ SYNC cuchara|v5
 SYNC the expat|v10
 
 MENU BUTT STUFF
-SEQUENCE SEQ-BUTT-F
+SEQUENCE SEQ-BUTT
 SYNC borehole|a5
 SYNC tower|a6
 SYNC via hole|a7
