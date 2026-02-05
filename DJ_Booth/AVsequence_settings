@@ -1,0 +1,103 @@
+DEBUG 1
+
+SEQUENCE ★SEQ Duet★
+PLAY On Desk 3
+WAIT 20
+PLAY On Desk 6
+WAIT 22
+PLAY on Desk 1
+WAIT 20
+PLAY On Desk 2
+WAIT 20
+PLAY On Desk 4
+WAIT 20
+PLAY On Desk 5
+WAIT 20
+PLAY -Two fox-
+WAIT 20
+LOOP
+
+SEQUENCE ★SEQ DJ★
+PLAY DJ PRO!
+WAIT 20
+PLAY Crazy
+WAIT 18
+PLAY Boogie
+WAIT 20
+PLAY Cool
+WAIT 20
+PLAY Cute Dance
+WAIT 20
+PLAY Chill 1
+WAIT 20
+PLAY Cool
+WAIT 20
+PLAY Shake ass
+WAIT 20
+PLAY Crazy
+WAIT 23
+PLAY Head Banging
+WAIT 10
+PLAY DJ PRO!
+WAIT 20
+PLAY Street Dance
+WAIT 20
+PLAY Cool
+WAIT 22
+PLAY Crazy Dance
+WAIT 18
+PLAY Crazy
+WAIT 23
+PLAY Cute Dance
+WAIT 20
+PLAY DJ PRO II
+WAIT 20
+PLAY Sensual Dance
+WAIT 20
+PLAY Classic
+WAIT 15
+LOOP
+
+SEQUENCE ★SEQ Single★
+PLAY on the desk 6
+WAIT 23
+PLAY  On the desk 3
+WAIT 20
+PLAY on the desk 4
+WAIT 20
+PLAY on the desk 1
+WAIT 20
+PLAY on the desk 2
+WAIT 20
+PLAY On the desk 5
+WAIT 20
+PLAY -the Fox-
+WAIT 20
+LOOP
+
+SEQUENCE ★SEQ Dance★
+PLAY on the desk 6
+WAIT 23
+PLAY  On the desk 3
+WAIT 20
+PLAY on the desk 4
+WAIT 20
+PLAY on the desk 1
+WAIT 20
+PLAY on the desk 2
+WAIT 20
+PLAY On the desk 5
+WAIT 20
+PLAY Cute
+WAIT 20
+PLAY Chill
+WAIT 20
+PLAY Shake it
+WAIT 20
+PLAY Street*
+WAIT 20
+PLAY Sensual
+WAIT 20
+PLAY -the Fox-
+WAIT 20
+LOOP

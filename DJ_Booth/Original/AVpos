@@ -1,0 +1,124 @@
+SWAP 1
+
+SITTER 0|DJ
+
+BUTTON -Give HUD-|92445
+SEQUENCE ★SEQ Duet★
+SEQUENCE ★SEQ Single★
+SEQUENCE ★SEQ DJ★
+TOMENU Dance
+TOMENU DJ Working
+TOMENU Duet Dance
+
+MENU DJ Working
+POSE DJ PRO!|DJ Anim PRO
+POSE DJ PRO II|DJ Anim PRO 2
+POSE Classic|DJ Anim #3
+POSE Cool|DJ Anim #1
+POSE Crazy|DJ Anim #2
+
+MENU Duet Dance
+SYNC on Desk 1|dance 11
+SYNC On Desk 2|Feeling it
+SYNC On Desk 3|here we go
+SYNC On Desk 4|high note
+SYNC On Desk 5|S4D_Street_155/love this techno
+SYNC On Desk 6|S4D_Street_162
+SYNC -Two fox-|the fox dance
+
+MENU Dance
+POSE on the desk 1|dance 11
+POSE on the desk 2|Feeling it
+POSE On the desk 3|here we go
+POSE on the desk 4|high note
+POSE On the desk 5|S4D_Street_155/love this techno
+POSE on the desk 6|S4D_Street_162
+POSE Head Banging|banging
+POSE Crazy Dance|going nuts
+POSE Cute Dance|hopscotch
+POSE Chill 1|S4D_CLUB_20  ok dance
+POSE Shake ass|S4D_Funky_123_japan01
+POSE Saturday Night|S4D_Funky_125_japan03
+POSE Boogie|S4D_Street_154
+POSE Street Dance|S4D_urban_184
+POSE Sensual Dance|S4D_Vocal_90
+POSE -the Fox-|the fox dance
+{DJ PRO!}<0,0.693,0.702><0,0,-90>
+{DJ PRO II}<0,0.824,0.702><0,0,-90>
+{Classic}<0,0.862,0.702><0,0,-90>
+{Cool}<0,0.846,0.796><0,0,-90>
+{Crazy}<0,1.148,0.839><0,0,-90>
+{on Desk 1}<0.641,0.236,1.935><0,0,-90>
+{On Desk 2}<0.641,0.229,1.923><0,0,-90>
+{On Desk 3}<0.641,0.444,1.891><0,0,-90>
+{On Desk 4}<0.641,0.353,1.936><0,0,-90>
+{On Desk 5}<0.434,0.255,1.894><0,0,-90>
+{On Desk 6}<0.641,0.279,1.897><0,0,-90>
+{-Two fox-}<-0.537,0.239,1.933><0,0,-90>
+{on the desk 1}<-0.008,0.335,1.938><0,0,-90>
+{on the desk 2}<-0.075,0.173,1.938><0,0,-90>
+{On the desk 3}<-0.075,0.324,1.938><0,0,-90>
+{on the desk 4}<-0.075,0.096,1.938><0,0,-90>
+{On the desk 5}<-0.075,0.178,1.938><0,0,-90>
+{on the desk 6}<-0.075,0.168,1.938><0,0,-90>
+{Head Banging}<0,1.238,0.682><0,0,-90>
+{Crazy Dance}<0,1.31,0.702><0,0,-90>
+{Cute Dance}<0,1.181,0.69><0,0,-90>
+{Chill 1}<0,1.124,0.702><0,0,-90>
+{Shake ass}<0,1.074,0.702><0,0,-90>
+{Saturday Night}<0,1.146,0.702><0,0,-90>
+{Boogie}<0,1.106,0.702><0,0,-90>
+{Street Dance}<0,1.134,0.702><0,0,-90>
+{Sensual Dance}<0,1.194,0.702><0,0,-90>
+{-the Fox-}<-0.075,0.086,1.938><0,0,-90>
+
+SITTER 1|Dancer
+
+TOMENU Dance
+TOMENU Duet Dance
+SEQUENCE ★SEQ Duet★
+SEQUENCE ★SEQ Dance★
+
+MENU Dance
+POSE on the desk 1|dance 11
+POSE on the desk 2|Feeling it
+POSE On the desk 3|here we go
+POSE on the desk 4|high note
+POSE On the desk 5|S4D_Street_155/love this techno
+POSE on the desk 6|S4D_Street_162
+POSE -the Fox-|the fox dance
+POSE Cute|hopscotch
+POSE Chill|S4D_CLUB_20  ok dance
+POSE Shake it|S4D_Funky_123_japan01
+POSE Sat. Night|S4D_Funky_125_japan03
+POSE Street*|S4D_Street_154
+POSE Sensual|S4D_Vocal_90
+
+MENU Duet Dance
+SYNC on Desk 1|dance 11
+SYNC On Desk 2|Feeling it
+SYNC On Desk 3|here we go
+SYNC On Desk 4|high note
+SYNC On Desk 5|S4D_Street_155/love this techno
+SYNC On Desk 6|S4D_Street_162
+SYNC -Two fox-|the fox dance
+{on the desk 1}<0.64,0.335,1.848><0,0,-90>
+{on the desk 2}<0.64,0.335,1.848><0,0,-90>
+{On the desk 3}<0.64,0.44,1.848><0,0,-90>
+{on the desk 4}<0.64,0.335,1.78><0,0,-90>
+{On the desk 5}<0.64,0.335,1.848><0,0,-90>
+{on the desk 6}<0.64,0.335,1.776><0,0,-90>
+{-the Fox-}<0.846,0.29,1.78><0,0,-90>
+{Cute}<0.949,0.412,1.82><0,0,180>
+{Chill}<0.904,0.335,1.848><0,0,-90>
+{Shake it}<0.862,0.335,1.848><0,0,-90>
+{Sat. Night}<0.876,0.335,1.848><0,0,-90>
+{Street*}<0.802,0.335,1.848><0,0,-90>
+{Sensual}<0.602,0.335,1.848><0,0,-90>
+{on Desk 1}<-0.749,0.179,1.935><0,0,-90>
+{On Desk 2}<-0.568,0.229,1.923><0,0,-90>
+{On Desk 3}<-0.558,0.444,1.891><0,0,-90>
+{On Desk 4}<-0.54,0.353,1.936><0,0,-90>
+{On Desk 5}<-0.754,0.255,1.894><0,0,-90>
+{On Desk 6}<-0.555,0.289,1.897><0,0,-90>
+{-Two fox-}<0.641,0.239,1.933><0,0,-90>
