@@ -51,7 +51,7 @@ or pause animation sequencing.
 ### Auto Play Sequence
 
 If you wish to automatically play a sequence when an avatar sits on the sandcastle then
-download the `autoplay.sl` script and copy it into the Contents tab of the linked prim.
+download the `autoplay.lsl` script and copy it into the Contents tab of the linked prim.
 
 ```bash
 wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Sandcastle/autoplay.lsl

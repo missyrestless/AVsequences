@@ -1,0 +1,893 @@
+SWAP 1
+TEXT \n                                 Nerenzo\n                         ~ The Beach Bed ~ \n                                 California \n   \n    Press & hold Ctrl + s  to resync animations! \n
+ADJUST [INM API]|-99998
+
+
+SITTER 0|Male1|M
+TOMENU SINGLE
+TOMENU CUDDLE
+TOMENU ADULT
+TOMENU OPTIONS
+TOMENU LoveBridge💙
+
+MENU LoveBridge💙
+BUTTON Get RelayHUD
+BUTTON Reset|90005|LBRESET
+BUTTON Vibe On|90005|LBBUZZ
+BUTTON Vibe Off|90005|LBSKIP
+BUTTON Plugin ON/OFF|90005|LBPWR
+
+MENU OPTIONS
+BUTTON TEXTURES|215219714
+BUTTON ToggleFace|88888
+BUTTON AdjustPoses
+BUTTON BentoFaces
+BUTTON LM2Store
+BUTTON Access-info
+BUTTON ITsNOTmine
+BUTTON The P/V-info
+BUTTON Lovense - info
+BUTTON Marketplace|74355
+
+MENU SINGLE
+TOMENU SIT
+TOMENU LAY
+TOMENU ACTIVITIES
+TOMENU WANK
+TOMENU CLEAN
+
+MENU SIT
+POSE sit1|sS13
+POSE sit2|sS14
+POSE sit3|sS35
+POSE sit4|sS47
+POSE sit5|sS48
+POSE sit6|SL13
+POSE sit7|SL17
+POSE sit8|SL30
+POSE sit9|sS39
+POSE sit10|sS53
+
+MENU LAY
+POSE lay1|SL24
+POSE lay2|SL26
+POSE lay3|SL28
+POSE lay4|SL33m
+POSE lay5|SL35
+POSE lay6|SL22
+POSE lay7|SL10
+POSE lay8|SL36
+POSE lay9|SL23
+POSE lay10|SL27
+
+MENU ACTIVITIES
+POSE popsicle|am2
+POSE slushy|am36
+POSE beer|am44
+POSE coco drink|am5
+POSE suncreme|am35
+POSE on phone|am49
+POSE send msg|am50
+POSE read tablet|am51
+
+MENU WANK|V
+POSE lay&wank|SP7
+POSE sit&wank|SP8
+POSE stand&wank|SP11
+POSE kneel&wank|SP13
+
+MENU CLEAN
+POSE ░clean░|CS1|29.95|CS2|29.95|CS3|29.9|CS4|29.95
+
+MENU CUDDLE
+SYNC our silence|SC11
+SYNC to us|PicnicBlanketC M2
+SYNC summer kiss|SC5
+SYNC beijo|SC6
+SYNC another day|G31
+SYNC seize this|G32
+SYNC may|G33
+SYNC no border|G26
+SYNC amore|G27
+SYNC show me|G28
+SYNC know you|G29
+SYNC close caress|G30
+SYNC u remember|G20
+SYNC good day|G21
+SYNC trust me|G22
+SYNC equal love|G24
+SYNC proud kiss|G1
+SYNC on you|G2
+SYNC the way|G4
+SYNC my home|G6
+SYNC forever|L4
+SYNC my magnet|L10
+SYNC our poetry|L12
+SYNC hand&hand|L23
+SYNC our fields|L27
+SYNC why worry|L34
+SYNC everything|L38
+SYNC magic|L39
+SYNC besides|L49
+SYNC in tune|L56
+SYNC memories|LK5
+
+MENU ADULT
+TOMENU TEASE&4PLAY
+TOMENU ORAL
+TOMENU EYE TO EYE
+TOMENU FROM BEHIND
+TOMENU GIRL ON TOP
+TOMENU VARIOUS
+TOMENU BUTTSTUFF
+TOMENU ROUGH SEX
+TOMENU CUM
+
+MENU TEASE&4PLAY
+SYNC thigh rub|TS15
+SYNC tit love|TS2
+SYNC humpty|TS8
+SYNC wanky|H9
+SYNC goodie|H15+
+SYNC finger joey|F40
+SYNC breasty|F26
+SYNC digital|F27
+SYNC viby|F38
+SYNC naught pus|F19
+SYNC hump&wank|P4
+
+MENU ORAL
+TOMENU BLOWJOBS
+TOMENU TONGUEPLAY
+TOMENU SIXTYNINE
+
+MENU BLOWJOBS
+SYNC blow day|B75+
+SYNC approved|B66
+SYNC deep dick|B53+
+SYNC cast off|B62
+SYNC mouth job|B50
+SYNC that way|B51|32.31|B51+|26.25|B51|32.31
+SYNC lollipop|B54
+SYNC spider|B61|28|B61+|20.22|B61|28
+
+MENU TONGUEPLAY
+SYNC volunteer|N74|30.33|N74+|22.74
+SYNC soft lips|N45
+SYNC pussy view|N49
+SYNC lip ride|N66+
+SYNC moisten|N34
+SYNC dream land|N41+
+SYNC pussy up|N62
+SYNC polish|N67+
+
+MENU SIXTYNINE
+SYNC all rounder|O13+
+SYNC 2 wet|O15
+SYNC tie|O14+
+SYNC u&me|O2+
+SYNC dive|O6|45.38|O6+|36.88
+
+MENU EYE TO EYE
+SYNC i care 4 U|M38
+SYNC accept wet|M31+
+SYNC do it|M25
+SYNC fuck me free|M35+
+SYNC commence|M32+
+SYNC cazzo bene|M28+
+SYNC supplier|M24+
+SYNC dump it|M22|33.85|M22+|27.5
+
+MENU FROM BEHIND
+SYNC doggyexpress|D49+
+SYNC hot rod|D50
+SYNC fat dog|D44|22.75|D44+|19.16
+SYNC too deep|D38
+SYNC paddle|D21|30|D21+|26.25
+SYNC footlong|D19
+SYNC back push|D22|31.92|D22+|27.67
+SYNC hip wave|D20+
+SYNC copafuckbana|D18|35|D18+|28
+SYNC sultra dog|D3|15|D3+|21
+
+MENU GIRL ON TOP
+SYNC rodeo night|R60+
+SYNC so sensual|R56+
+SYNC my ride|R43+
+SYNC jene|R30|35|R30+|30
+SYNC revolver|R29
+SYNC life ride|R28|32.31|R28+|26.25
+SYNC brookyln|R26
+SYNC bride ride|R24
+SYNC vasco|R34
+SYNC landing|R33
+SYNC that chick|R32|35|R32+|28
+SYNC good vibe|R27|32.69|R27+|28.12
+SYNC golden gate|R25
+SYNC butt view|R17
+SYNC sideride|R36
+SYNC roof fuck|adm2|26|adm2+|39
+
+MENU VARIOUS
+SYNC fuckery day|V48|26|V48+|19.5
+SYNC well hidden|T2
+SYNC cuff|V37
+SYNC watch it|V35|38.46|V35+|31.25
+SYNC lotus|V33|34.64|V33+|28.12
+SYNC back bang|I18
+SYNC feel it|V46|26.75|V46+|20.06
+SYNC late night|V38+
+SYNC workable|V36+
+SYNC talebate|V34|30.77|V34+|25
+SYNC lotus ride|V32+
+SYNC cock hostess|I2|33.85|I2+|27.5
+
+MENU BUTTSTUFF
+SYNC anal beauty|A19+
+SYNC deep diver|A11
+SYNC know my ass|M30|29.33|M30+|22
+SYNC tower|A6
+SYNC dick run|V28|28.92|V28+|23.5
+SYNC anal bridge|A10|26.92|A10+|21.88
+SYNC pipe|A13
+SYNC backride|R35
+
+MENU ROUGH SEX
+SYNC pro banger|adm1
+SYNC used throat|B52+
+SYNC oh hare|RO8
+SYNC rough way|RO9
+SYNC no way out|RO12
+SYNC jumper|RO13
+SYNC bongo|RO14
+SYNC ultra rider|RO15
+SYNC mister turner|RO16
+SYNC take it|RO17
+
+MENU CUM
+SYNC cum on|Z40+
+SYNC side treat|Z13+
+SYNC white flow|Z1+
+
+{sit1}<-0.804,0.578,0.41><0,0,-70>
+{sit2}<-0.788,0.505,0.411><0,0,-52>
+{sit3}<-0.852,0.435,0.341><-0.9,-2.1,-57.9>
+{sit4}<-1.245,0.595,0.409><0,0,-71>
+{sit5}<-1.084,0.531,0.4><-1,-0.2,-81>
+{sit6}<-0.517,-0.07,0.513><4.8,0.6,-90>
+{sit7}<-0.901,0.368,0.407><0,0,-78>
+{sit8}<-0.444,0.422,0.379><0.8,0.6,-86>
+{sit9}<-0.534,0.154,0.495><-0.2,-2,-80>
+{sit10}<-0.578,-0.114,0.506><0,0,-89>
+{lay1}<-0.531,-0.067,0.781><0,0,96>
+{lay2}<-0.393,0.018,0.459><0,0,-90>
+{lay3}<-0.499,-0.05,0.361><0,0,-86>
+{lay4}<-0.484,0.122,0.764><0.8,-0.6,100.6>
+{lay5}<-0.583,0.2,0.728><0,0,81.1>
+{lay6}<-0.629,-0.025,0.766><-0.3,1.7,-106.3>
+{lay7}<-0.987,0.322,0.433><0,0,-81>
+{lay8}<-0.568,-0.797,0.748><0,0,-78>
+{lay9}<-0.676,-0.357,0.758><1,0.1,-82>
+{lay10}<-0.594,-0.578,0.451><0,0,-96>
+{popsicle}<-0.401,0.771,0.468><0.6,-5.3,-62.2>
+{slushy}<-0.629,0.013,0.498><0,0,-89>
+{beer}<-0.268,0.235,0.366><0,0,-93>
+{coco drink}<-0.578,0.117,0.557><0,0,-88>
+{suncreme}<-0.46,0.45,0.491><0.7,0.8,-90>
+{on phone}<-0.649,0.377,0.623><-2.8,-2.8,-44.1>
+{send msg}<-0.491,0.235,0.684><0,0,73.7>
+{read tablet}<-0.49,-0.052,0.72><0,0,78.7>
+{lay&wank}<-0.611,0.506,1.32><0,0,-86>
+{sit&wank}<-0.63,0.504,1.392><0,0,-84.4>
+{stand&wank}<-0.658,-0.196,1.393><-5.4,-2.7,-63.2>
+{kneel&wank}<-0.419,-0.112,0.51><0,0,-54>
+{to us}<-0.337,0.926,0.349><0,0,-75>
+{summer kiss}<0.129,0.646,0.427><0,0,-110>
+{beijo}<0.014,0.248,0.594><0,0,-157.1>
+{our silence}<0.273,0.097,0.362><-3,0.3,179.6>
+{another day}<-0.354,0.828,0.352><0,0,-67.5>
+{seize this}<-0.018,0.873,0.337><0,0,-113>
+{may}<-0.256,0.997,0.373><4,0,-123.8>
+{no border}<-0.073,0.245,0.277><0,0,-134.6>
+{amore}<-0.518,0.145,0.43><0,0,-78.7>
+{show me}<-0.526,0.788,0.375><0,0,-86.7>
+{know you}<0.053,0.878,0.193><0,0,-90>
+{close caress}<0.392,0.917,0.189><0,0,-118>
+{u remember}<0.021,0.001,0.517><-3,0,-90>
+{good day}<-0.038,0.968,0.579><0,0,-90>
+{trust me}<0.027,0.938,0.506><1,2,-27>
+{equal love}<0.188,-0.094,0.616><0,0,119.2>
+{proud kiss}<-0.595,0.69,0.413><0,0,-96>
+{on you}<-0.422,0.921,0.414><0,0,-85>
+{the way}<-0.548,1.096,0.406><0,0,-91>
+{my home}<-0.853,0.935,0.409><0,0,-88>
+{forever}<-0.361,0.768,0.431><0,0,-128>
+{you}<-0.585,0.33,0.413><0,0,-93>
+{my magnet}<-0.293,0.519,0.417><0,0,-86>
+{our poetry}<0.092,-1.017,0.412><0,0,63>
+{sugarpie}<-0.53,0.218,0.201><0,0,21>
+{you and I}<0.077,0.267,0.415><0,0,-142>
+{cute belly}<-0.337,0.813,0.396><0,0,-125>
+{hand&hand}<0.093,0.509,0.566><0.5,-2.9,-149>
+{italo kiss}<-0.503,0.176,0.388><-2,0,-96>
+{our fields}<0.583,0.042,0.432><2.7,1.1,134>
+{your back}<0.235,0.081,0.432><-2,0.2,177>
+{revealed}<0.092,0.585,0.484><-1.8,4.7,-68.9>
+{why worry}<0.144,0.013,0.501><0,0,-41>
+{everything}<-0.248,0.914,0.798><2.7,-1.2,-25>
+{magic}<0.38,0.81,0.809><0,0,-9>
+{smile & hold}<0.214,-0.02,0.722><0,0,9>
+{besides}<0.449,-0.383,0.757><0,0,20>
+{daily info}<-0.075,0.881,0.267><0,0,-153>
+{in tune}<-0.12,-0.227,0.489><-1.8,3.9,-69.8>
+{now & here}<-0.169,-0.046,0.493><0,0,-97>
+{memories}<-0.124,0.069,0.53><-2,2.2,-139>
+{░clean░}<-0.603,-0.126,1.44><0,0,-45>
+{thigh rub}<0.058,-0.153,0.547><0.8,0.6,-146.3>
+{tit love}<0.24,0.574,0.292><-1.9,-1.2,-73.7>
+{humpty}<0.28,-0.393,0.653><0,0,119.5>
+{wanky}<0.083,0.212,1.232><1.8,-2.4,-102>
+{goodie}<-0.006,0.145,0.723><0,0,-62>
+{finger joey}<0.202,0.775,0.575><-4,0,-108>
+{breasty}<-0.06,0.168,0.363><-0.9,0.5,-119>
+{digital}<0.013,-0.467,0.658><1,0.3,106.9>
+{viby}<0.08,-0.029,0.907><0.1,0.1,-142>
+{naught pus}<-0.612,0.836,0.255><-1.1,-0.3,-61.9>
+{hump&wank}<0.369,0.492,1.508><0,0,-128>
+{blow day}<-0.507,0.284,0.373><0,0,-80.3>
+{approved}<0.122,-0.215,0.508><0,0,110>
+{deep dick}<-0.027,0.17,0.709><-0.1,-0.4,168.4>
+{cast off}<-0.197,0.342,0.605><2.1,2.1,117>
+{mouth job}<-0.072,-0.063,0.76><0,0,17>
+{that way}<0.011,-0.208,0.739><0,0,-34>
+{lollipop}<0,-0.272,0.768><-1.2,1.9,-32>
+{spider}<0.126,0.693,0.37><0,0,-91>
+{volunteer}<0.606,-0.557,0.615><0,0,128>
+{soft lips}<-0.598,-0.648,0.696><0.8,0.6,29>
+{pussy view}<0.319,-0.206,0.374><1.9,-2.3,-50.6>
+{lip ride}<0.467,-0.454,0.691><0.1,-0.1,-62>
+{moisten}<0.089,-0.411,0.659><0,0,-84.4>
+{dream land}<-0.349,-0.228,0.692><-0.1,-1.6,100.1>
+{pussy up}<-0.104,0.258,0.535><-0.1,1,-82>
+{polish}<0.237,-0.744,0.723><0,0,-76.6>
+{all rounder}<-0.138,-0.118,1.428><3.7,-0.2,-56.5>
+{2 wet}<0.437,-0.095,1.374><0,0,29>
+{tie}<0.349,-0.113,1.377><0,0,-22.6>
+{u&me}<-0.139,-0.089,1.019><0,0,-13>
+{dive}<-0.161,-0.703,0.693><1.8,1,-90>
+{i care 4 U}<-0.266,0.171,0.819><0,0,-146.3>
+{accept wet}<0.332,-0.112,0.688><0,0,139>
+{do it}<-0.054,0.138,0.671><0,0,125>
+{fuck me free}<-0.065,-0.24,0.704><-1,-0.1,99.3>
+{commence}<0.099,0.537,0.635><-2.8,2.9,81.1>
+{cazzo bene}<-0.237,-0.015,0.655><0,0,106.9>
+{supplier}<-0.529,-0.432,0.804><0,0,58.2>
+{dump it}<0.011,0.364,0.809><2,-0,89.9>
+{doggyexpress}<0.009,-0.32,0.929><0,0,126.7>
+{hot rod}<0.339,-0.488,0.624><0,0,-50>
+{fat dog}<0,-1.903,0.944><0,0,90>
+{too deep}<0.351,-0.081,0.697><-3.6,-2.8,157.9>
+{paddle}<0.08,-0.341,0.757><0.8,-0.6,-61.9>
+{footlong}<0.093,-0.284,0.746><7,-0.8,-95.6>
+{back push}<0.238,-0.225,0.759><0,0,-64>
+{hip wave}<0.131,0.14,0.75><0,1,32>
+{copafuckbana}<0.115,-0.164,0.762><-4.8,1.5,29.1>
+{sultra dog}<-0.007,-0.08,1.51><0,0,-47>
+{rodeo night}<0.408,0.408,0.36><1.7,-1.1,-123.7>
+{so sensual}<0.217,0.405,1.02><0,0,151.9>
+{my ride}<-0.124,0.418,0.33><0,0,-104>
+{jene}<0.136,-0.39,0.758><0,0,-72>
+{revolver}<0.055,-0.39,0.755><2.9,-0.8,-63>
+{life ride}<0.014,-0.083,0.698><3.1,-3.5,-106.7>
+{brookyln}<0.162,-0.445,0.772><2.3,0.3,-60.1>
+{bride ride}<0.131,-0.465,0.775><2.8,2.2,-57>
+{vasco}<0.302,0.062,0.795><0,2,0>
+{landing}<0.152,-0.114,0.738><3.2,1.1,-79>
+{that chick}<-0.229,-0.155,0.749><1.7,2.5,-77>
+{good vibe}<-0.299,-0.15,0.751><1.4,1.5,-73.2>
+{golden gate}<0.066,-0.703,0.77><2.9,2,-80.1>
+{butt view}<0.083,0.1,0.523><1.4,1.5,-43>
+{sideride}<0.302,-0.021,0.732><0.6,2.7,-17>
+{roof fuck}<0.003,0.892,1.724><-7,0,-90>
+{fuckery day}<0.092,0.014,0.633><0,0,-146.2>
+{well hidden}<-0.035,-0.178,0.487><0,0,-64.6>
+{cuff}<0.343,-0.245,0.738><0.1,-1.7,-131.4>
+{watch it}<0.145,0.044,0.794><-3,-4,142.9>
+{lotus}<0.059,-0.229,0.737><0.9,-3.9,-167>
+{back bang}<-0.131,-0.24,1.478><0,0,-63.6>
+{feel it}<-0.049,0.478,0.748><0,0,-69>
+{late night}<-0.192,0.089,0.705><1.1,1.5,-50>
+{workable}<0.104,-0.148,0.756><-2,0,-59>
+{talebate}<0.061,-0.063,0.775><0.2,1,-40>
+{lotus ride}<-0.003,-0.025,0.773><-2.4,-3.2,-136>
+{cock hostess}<-0.169,-0.29,1.477><0,0,127.8>
+{anal beauty}<0.43,0.447,0.337><0,0,-112.5>
+{deep diver}<0.002,-0.329,0.737><-1.8,-0.9,-64.6>
+{know my ass}<0.471,-0.35,0.784><-1,1.8,140>
+{tower}<-0.069,0.061,0.549><1.8,2.4,142>
+{dick run}<0.106,0.099,0.783><2.4,1.9,129>
+{anal bridge}<-0.037,-0.208,0.756><0.2,-2,-44>
+{pipe}<-0.133,0.25,0.698><0,0,-25>
+{backride}<-0.082,-0.264,0.734><-2.1,1.5,-76>
+{pro banger}<0,-1.611,0.647><3,0,180>
+{used throat}<0.146,-0.153,0.753><3.1,2.5,129.9>
+{oh hare}<-0.082,-0.331,1.361><-3,0,49>
+{rough way}<0.067,0.627,1.355><-1.3,-2.7,155>
+{no way out}<0.056,0.138,1.36><0,0,-134>
+{jumper}<-0.082,-0.058,1.367><-2,0,90>
+{bongo}<0.19,0.027,1.395><-2.5,3.2,-141.9>
+{ultra rider}<0.273,0.291,1.373><3.2,0.1,-114.2>
+{mister turner}<-0.082,-0.333,1.465><0,0,90>
+{take it}<-0.082,-0.02,1.343><0,0,156.2>
+{cum on}<-0.183,-0.056,0.673><0,0,90>
+{side treat}<0.062,-0.655,0.541><1.3,1.6,-39>
+{white flow}<-0.794,-0.487,0.396><0,0,-34>
+
+PROP1 popsicle|Nerenzo popsicle|G77|<0.799970, -0.401890, -0.002750>|<0.000000, 0.000000, -29.000000>|right hand
+PROP cl|cloud|G1|<0.000000, -0.120531, 2.998409>|<0.000000, 0.000000, 0.000000>
+PROP1 viby|Nerenzo VibratorRH|G77|<0.799970, -0.401890, -0.002750>|<0.000000, 0.000000, -29.000000>|right hand
+PROP1 slushy|slushi-blueberry|G1|<-0.588000, 1.164000, 0.062000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 beer|Nerenzo beer male|G1|<-0.359000, 0.984000, 0.104000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 coco drink|Nerenzo Coconut drinkM|G1|<-0.208000, 0.958000, 0.020000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 suncreme|sun lotion|G1|<-0.580000, 0.514000, 0.002000>|<0.000000, 0.000000, 113.000000>|right hand
+PROP1 on phone|mobile-male|G1|<-0.109000, 0.606000, -0.017000>|<-93.000000, 37.000000, 0.000000>|right hand
+PROP1 send msg|mobile-male2|G1|<-0.133000, 0.403000, -0.023000>|<-90.000000, 26.000000, 0.000000>|right hand
+PROP read tablet|tablet2021|G1|<-0.435928, 0.708769, 0.173195>|<0.000000, 0.000000, 0.750692>
+PROP1 to us|champagneM|G1|<-0.35139, 0.37312, 0.76593>|<0.00000, 0.00000, 0.00000>|right hand
+PROP1 venite|Nerenzo champagne LH - wear me|G1|<-0.643585, -0.703308, -0.012695>|<0.000000, 0.000000, 0.000003>|left hand
+PROP hungry lips|siPi|G1|<0.000000, 0.792149, 0.188145>|<0.000000, 0.000000, -31.000010>
+PROP insightful|siPi|G1|<0.000000, 1.084335, 0.312836>|<-131.000000, 0.000000, 0.000000>
+PROP two cool|siPi|G1|<-0.806793, 0.148411, 0.210177>|<0.000000, 0.000000, -120.001900>
+PROP grip tight|siPi|G1|<-0.397858, 0.532455, 0.187445>|<0.000000, 0.000000, 33.999990>
+PROP brut|champagne BottleRez|G1|<0.436813, 0.964943, 0.196507>|<0.000000, 0.000000, -47.000000>
+PROP soon closer|champagne BottleRez|G1|<-0.823532, 0.563728, 0.192761>|<0.000000, 0.000000, -48.000000>
+PROP1 club pillow|Nerenzo champagne LH - wear me|G1|<-0.643585, -0.703308, -0.012695>|<0.000000, 0.000000, 0.000003>|left hand
+PROP1 summer day|Nerenzo champagne RH - wear me|G1|<-0.643585, -0.703308, -0.012695>|<0.000000, 0.000000, 0.000003>|right hand
+PROP club pillow|champagne BottleRez|G1|<-0.062943, 0.805416, 0.196707>|<0.000000, 0.000000, 155.002400>
+PROP summer day|champagne BottleRez|G1|<0.083099, 0.977043, 0.200087>|<0.000000, 0.000000, 0.000000>
+PROP1 Get RelayHUD|LoveBridge2 Micro|LoveBridge|<0.000000, 0.070000, 0.250000>|<0.000000, 0.000000, 0.000000>|HUD bottom right
+
+SITTER 1|Female1|F
+TOMENU SINGLE
+TOMENU CUDDLE
+TOMENU ADULT
+TOMENU OPTIONS
+TOMENU LoveBridge💙
+
+MENU LoveBridge💙
+BUTTON Get RelayHUD
+BUTTON Reset|90005|LBRESET
+BUTTON Vibe On|90005|LBBUZZ
+BUTTON Vibe Off|90005|LBSKIP
+BUTTON Plugin ON/OFF|90005|LBPWR
+
+MENU OPTIONS
+BUTTON TEXTURES|215219714
+BUTTON ToggleFace|88888
+BUTTON AdjustPoses
+BUTTON BentoFaces
+BUTTON LM2Store
+BUTTON Access-info
+BUTTON ITsNOTmine
+BUTTON The P/V-info
+BUTTON Lovense - info
+BUTTON Marketplace|74355
+
+MENU SINGLE
+TOMENU SIT
+TOMENU LAY
+TOMENU ACTIVITIES
+TOMENU PUSSYPLAY
+TOMENU CLEAN
+
+MENU SIT
+POSE sit1|ss14
+POSE sit2|ss34
+POSE sit3|ss51m
+POSE sit4|ss60
+POSE sit5|ss64
+POSE sit6|sl10
+POSE sit7|sl6
+POSE sit8|ss15
+POSE sit9|ss36
+POSE sit10|ss68
+
+MENU LAY
+POSE lay1|sl7
+POSE lay2|sl17
+POSE lay3|sl26m
+POSE lay4|sl27
+POSE lay5|ss12
+POSE lay6|sl9
+POSE lay7|sl19
+POSE lay8|sl8
+POSE lay9|sl12
+POSE lay10|sl33
+
+MENU ACTIVITIES
+POSE popsicle|af4
+POSE slushy|af34
+POSE beer|af43
+POSE coco drink|af17
+POSE stretch|af47
+POSE suncreme|af31
+POSE selfie|af51
+POSE on phone|af45
+POSE on phone2|af54
+POSE send msg|af55
+POSE read tablet|af40
+
+MENU PUSSYPLAY|V
+POSE lay PP|sp7
+POSE watch PP|sp9
+POSE stand PP|sp11
+POSE kneel PP|sp14
+
+MENU CLEAN
+POSE ░clean░|cs1|27.36|cs2|27.36|cs3|32.37|cs4|45.48
+
+MENU CUDDLE
+SYNC our silence|sc11
+SYNC to us|PicnicBlanketC F2
+SYNC summer kiss|sc5
+SYNC beijo|sc6
+SYNC another day|g31
+SYNC seize this|g32
+SYNC may|g33
+SYNC no border|g26
+SYNC amore|g27
+SYNC show me|g28
+SYNC know you|g29
+SYNC close caress|g30
+SYNC u remember|g20
+SYNC good day|g21
+SYNC trust me|g22
+SYNC equal love|g24
+SYNC proud kiss|g1
+SYNC on you|g2
+SYNC the way|g4
+SYNC my home|g6
+SYNC forever|l4
+SYNC my magnet|l10
+SYNC our poetry|l12
+SYNC hand&hand|l23
+SYNC our fields|l27
+SYNC why worry|l34
+SYNC everything|l38
+SYNC magic|l39
+SYNC besides|l49
+SYNC in tune|l56
+SYNC memories|lk5
+
+MENU ADULT
+TOMENU TEASE&4PLAY
+TOMENU ORAL
+TOMENU EYE TO EYE
+TOMENU FROM BEHIND
+TOMENU GIRL ON TOP
+TOMENU VARIOUS
+TOMENU BUTTSTUFF
+TOMENU ROUGH SEX
+TOMENU CUM
+
+MENU TEASE&4PLAY
+SYNC thigh rub|ts15
+SYNC tit love|ts2
+SYNC humpty|ts8
+SYNC wanky|h9
+SYNC goodie|h15+
+SYNC finger joey|f40
+SYNC breasty|f26
+SYNC digital|f27
+SYNC viby|f38
+SYNC naught pus|f19
+SYNC hump&wank|p4
+
+MENU ORAL
+TOMENU BLOWJOBS
+TOMENU TONGUEPLAY
+TOMENU SIXTYNINE
+
+MENU BLOWJOBS
+SYNC blow day|b75+
+SYNC approved|b66
+SYNC deep dick|b53+
+SYNC cast off|b62
+SYNC mouth job|b50
+SYNC that way|b51|32.31|b51+|26.25|b51|32.31
+SYNC lollipop|b54
+SYNC spider|b61|28|b61+|20.22|b61|28
+
+MENU TONGUEPLAY
+SYNC volunteer|n74|30.33|n74+|22.74
+SYNC soft lips|n45
+SYNC pussy view|n49
+SYNC lip ride|n66+
+SYNC moisten|n34
+SYNC dream land|n41+
+SYNC pussy up|n62
+SYNC polish|n67+
+
+MENU SIXTYNINE
+SYNC all rounder|o13+
+SYNC 2 wet|o15
+SYNC tie|o14+
+SYNC u&me|o2+
+SYNC dive|o6|45.38|o6+|36.88
+
+MENU EYE TO EYE
+SYNC i care 4 U|m38
+SYNC accept wet|m31+
+SYNC do it|m25
+SYNC fuck me free|m35+
+SYNC commence|m32+
+SYNC cazzo bene|m28+
+SYNC supplier|m24+
+SYNC dump it|m22|33.85|m22+|27.5
+
+MENU FROM BEHIND
+SYNC doggyexpress|d49+
+SYNC hot rod|d50
+SYNC fat dog|d44|22.75|d44+|19.16
+SYNC too deep|d38
+SYNC paddle|d21|30|d21+|26.25
+SYNC footlong|d19
+SYNC back push|d22|31.92|d22+|27.67
+SYNC hip wave|d20+
+SYNC copafuckbana|d18|35|d18+|28
+SYNC sultra dog|d3|15|d3+|21
+
+MENU GIRL ON TOP
+SYNC rodeo night|r60+
+SYNC so sensual|r56+
+SYNC my ride|r43+
+SYNC jene|r30|35|r30+|30
+SYNC revolver|r29
+SYNC life ride|r28|32.31|r28+|26.25
+SYNC brookyln|r26
+SYNC bride ride|r24
+SYNC vasco|r34
+SYNC landing|r33
+SYNC that chick|r32|35|r32+|28
+SYNC good vibe|r27|32.69|r27+|28.12
+SYNC golden gate|r25
+SYNC butt view|r17
+SYNC sideride|r36
+SYNC roof fuck|adf2|26|adf2+|39
+
+MENU VARIOUS
+SYNC fuckery day|v48|26|v48+|19.5
+SYNC well hidden|t2
+SYNC cuff|v37
+SYNC watch it|v35|38.46|v35+|31.25
+SYNC lotus|v33|34.64|v33+|28.12
+SYNC back bang|i18
+SYNC feel it|v46|26.75|v46+|20.06
+SYNC late night|v38+
+SYNC workable|v36+
+SYNC talebate|v34|30.77|v34+|25
+SYNC lotus ride|v32+
+SYNC cock hostess|i2|33.85|i2+|27.5
+
+MENU BUTTSTUFF
+SYNC anal beauty|a19+
+SYNC deep diver|a11
+SYNC know my ass|m30|29.33|m30+|22
+SYNC dick run|v28|28.92|v28+|23.5
+SYNC tower|a6
+SYNC anal bridge|a10|26.92|a10+|21.88
+SYNC pipe|a13
+SYNC backride|r35
+
+MENU ROUGH SEX
+SYNC pro banger|adf1
+SYNC used throat|b52+
+SYNC oh hare|ro8
+SYNC rough way|ro9
+SYNC no way out|ro12
+SYNC jumper|ro13
+SYNC bongo|ro14
+SYNC ultra rider|ro15
+SYNC mister turner|ro16
+SYNC take it|ro17
+
+MENU CUM
+SYNC cum on|z40
+SYNC side treat|z13
+SYNC white flow|z1+
+
+{sit1}<0.737,0.605,0.371><-2.6,1.5,-120>
+{sit2}<0.846,0.342,0.416><0,0,-124>
+{sit3}<0.741,0.543,1.133><-0.5,0.9,149.1>
+{sit4}<0.618,0.475,1.207><-2.7,1.3,-115.9>
+{sit5}<0.397,0.16,2.337><23.7,3.7,-53.7>
+{sit6}<1.033,0.673,0.36><0,0,-95>
+{sit7}<0.536,0.393,0.134><1.8,-0.8,-117>
+{sit8}<0.613,0.57,0.394><2.6,-1.5,-102.4>
+{sit9}<0.739,0.685,0.365><0,0,-116>
+{sit10}<0.493,0.18,0.451><0,0,-108>
+{lay1}<0.9,0.188,0.399><0,0,-91>
+{lay2}<1.007,0.095,0.398><0,0,-96>
+{lay3}<0.561,0.508,1.154><0,0,-95>
+{lay4}<0.542,-0.5,0.438><0,0,90>
+{lay5}<0.551,-0.13,0.361><3.8,1,176.9>
+{lay6}<0.953,0.429,0.389><0,0,-88.6>
+{lay7}<-0.109,-0.375,0.411><0,0,76>
+{lay8}<0.936,0.245,0.413><-4,-0.6,-82.1>
+{lay9}<0.974,-1.16,0.34><0,0,-160>
+{lay10}<0.516,0.106,0.706><0,0,132.9>
+{popsicle}<0.297,0.782,0.501><-10.2,4.1,-111.6>
+{slushy}<0.696,0.158,0.432><0,0,-101.3>
+{beer}<0.431,0.306,0.363><2,-0.3,-97>
+{coco drink}<0.19,0.456,1.097><0,0,-9.7>
+{stretch}<0.698,0.547,0.362><-9.4,3.2,-108.4>
+{suncreme}<0.582,0.667,0.558><-2.1,-7.9,-91.1>
+{selfie}<0.796,1.05,0.446><2.9,-0.7,-104.1>
+{on phone}<0.55,-0.296,0.409><-0.8,0.6,90>
+{on phone2}<0.707,0.636,0.646><0,0,-113>
+{send msg}<0.543,-0.07,0.665><1.4,-1.6,-112>
+{read tablet}<0.48,0.166,0.483><-2.6,-4.2,86>
+{lay PP}<0.565,0.024,0.357><-0.7,1.4,-91.5>
+{watch PP}<0.694,0.363,0.272><0,0,-99.6>
+{stand PP}<0.725,-0.093,1.302><0,0,-131>
+{kneel PP}<1.345,0.651,1.481><1.9,-2.3,-136.5>
+{░clean░}<0.56,-0.126,1.294><0,0,-129>
+{to us}<0.306,1.038,0.349><0,0,-75>
+{summer kiss}<1.127,0.201,0.393><0,0,-110>
+{beijo}<0.311,0.422,0.547><0,0,-157.1>
+{our silence}<0.283,-0.595,0.352><-3,0.3,179.6>
+{another day}<0.217,1.056,0.367><0,0,-67.5>
+{seize this}<0.638,0.614,0.265><1.6,3.7,-113>
+{may}<0.375,0.631,0.339><4,0,-118.1>
+{no border}<0.435,-0.321,0.336><0,0,-144.6>
+{amore}<0.56,0.376,0.371><0,0,-78.7>
+{show me}<0.57,0.963,0.355><0,0,-86.7>
+{know you}<0.063,0.475,0.149><0,0,-90>
+{close caress}<0.059,0.62,0.109><0,0,-123>
+{u remember}<0.041,-0.37,0.502><-3,0,90>
+{good day}<-0.034,0.671,0.579><0,0,-90>
+{trust me}<0.313,0.762,0.489><1,2,153>
+{equal love}<-0.199,0.5,0.331><0,0,-60.7>
+{proud kiss}<0.491,0.576,0.413><0,0,-96>
+{on you}<0.665,1.027,0.36><-5,-0.4,-85>
+{the way}<0.542,1.077,0.406><0,0,-91>
+{my home}<0.264,0.972,0.334><0,0,-88>
+{forever}<0.513,0.086,0.431><0,0,-128>
+{you}<0.522,0.272,0.413><0,0,-93>
+{my magnet}<0.826,0.597,0.459><3,0,-86>
+{our poetry}<-0.895,-0.514,0.38><0,0,63>
+{sugarpie}<-0.928,1.253,0.201><0,0,21>
+{you and I}<0.76,-0.606,0.415><0,0,-142>
+{cute belly}<0.571,0.177,0.396><0,0,-125>
+{hand&hand}<0.398,0.692,0.584><0.5,-2.9,-149>
+{italo kiss}<0.6,0.059,0.392><-2,0,-96>
+{our fields}<-0.201,-0.743,0.386><0,0,135>
+{your back}<0.177,-1.025,0.471><-2,0.2,177>
+{revealed}<0.251,0.234,0.479><-1.8,4.7,111.1>
+{why worry}<0.42,-0.227,0.501><0,0,139>
+{everything}<-0.436,0.512,0.774><2.7,-1.2,-25>
+{magic}<0.31,0.372,0.809><0,0,-9>
+{smile & hold}<0.07,-0.041,0.673><0,0,33>
+{besides}<0.461,-0.379,0.715><0,0,20>
+{daily info}<-0.936,-0.024,0.26><0,0,-63>
+{in tune}<-0.051,-0.419,0.479><-1.8,3.9,110.2>
+{now & here}<-0.214,-0.409,0.493><0,0,83>
+{memories}<-0.4,-0.171,0.549><-2,2.2,41>
+{thigh rub}<-0.22,-0.264,0.708><0.8,0.6,-146.3>
+{tit love}<0.004,0.361,0.363><-1.9,-1.2,-32.7>
+{humpty}<-0.161,0.243,0.342><0,0,-60.5>
+{wanky}<0.138,0.443,1.076><1.8,-2.4,-102>
+{goodie}<-0.006,0.145,0.723><0,0,-62>
+{finger joey}<-0.159,0.809,0.545><-4,0,-77>
+{breasty}<0.49,0.294,0.327><-0.9,0.5,-119>
+{digital}<-0.443,0.205,0.351><1,0.3,-73.1>
+{viby}<-0.333,-0.337,0.681><0.1,0.1,-119>
+{naught pus}<-0.402,0.443,0.264><-1.1,-0.3,-61.9>
+{hump&wank}<-0.099,0.252,1.381><0,0,52>
+{blow day}<0.016,0.401,0.404><0,0,9.8>
+{approved}<-0.029,-1.025,0.521><0,0,110>
+{deep dick}<-0.027,0.17,0.709><-0.1,-0.4,168.4>
+{cast off}<0.126,-0.268,0.324><-0.5,0.8,-63>
+{mouth job}<-0.02,-0.107,0.704><1,0.3,17>
+{that way}<0.011,-0.208,0.739><0,0,-34>
+{lollipop}<0,-0.272,0.768><-1.2,1.9,-32>
+{spider}<0.11,0.069,0.274><0,0,89>
+{volunteer}<-0.356,0.616,0.3><0,0,-52>
+{soft lips}<0.647,0.093,0.349><0.8,0.6,-151>
+{pussy view}<-0.216,-0.233,0.383><1.9,-2.3,129.4>
+{lip ride}<0.467,-0.454,0.691><0.1,-0.1,-62>
+{moisten}<0.043,0.051,0.671><0,0,-84.4>
+{dream land}<-0.349,-0.228,0.692><-0.1,-1.6,100.1>
+{pussy up}<-0.136,0.296,0.448><-0.1,1,98>
+{polish}<0.237,-0.744,0.723><0,0,-76.6>
+{all rounder}<-0.166,-0.084,1.311><3.7,-0.2,-56.5>
+{2 wet}<0.444,-0.134,1.255><0,0,29>
+{tie}<0.321,-0.101,1.258><0,0,-22.6>
+{u&me}<-0.236,-0.077,0.913><0,0,-13>
+{dive}<-0.161,-0.703,0.693><1.8,1,-90>
+{i care 4 U}<-0.379,0.243,0.656><0,0,-146.3>
+{accept wet}<-0.023,0.089,0.299><0,0,-41>
+{do it}<-0.349,0.419,0.281><0,0,-55>
+{fuck me free}<-0.08,-0.153,0.476><-1,-0.1,-80.7>
+{commence}<0.005,0.014,0.652><-2.8,2.9,-98.9>
+{cazzo bene}<-0.441,0.372,0.265><0,0,-73.1>
+{supplier}<-0.1,0.275,0.359><0,0,-113.8>
+{dump it}<-0.089,0.358,0.693><-1.6,-1.2,90>
+{doggyexpress}<-0.185,-0.069,0.705><0,0,126.7>
+{hot rod}<0.152,-0.279,0.428><0,0,-50>
+{fat dog}<0.005,-1.589,0.688><-3,0,90>
+{too deep}<-0.096,0.192,0.626><-4,-1.9,141.9>
+{paddle}<0.08,-0.341,0.757><0.8,-0.6,-61.9>
+{footlong}<0.092,-0.287,0.764><7,-0.8,-95.6>
+{back push}<0.238,-0.225,0.715><0,0,-64>
+{hip wave}<0.196,0.18,0.712><0.5,0.1,32>
+{copafuckbana}<0.113,-0.164,0.734><-0.4,3.9,28.9>
+{sultra dog}<0.165,-0.3,1.388><0,0,-47>
+{rodeo night}<0.401,0.399,0.693><1.7,-1.1,56.3>
+{so sensual}<0.217,0.405,1.02><0,0,151.9>
+{my ride}<-0.137,0.365,0.609><0,0,76>
+{jene}<0.136,-0.39,0.758><0,0,-72>
+{revolver}<0.055,-0.39,0.755><2.9,-0.8,-63>
+{life ride}<0.014,-0.083,0.698><3.1,-3.5,-106.7>
+{brookyln}<0.162,-0.445,0.772><2.3,0.3,-60.1>
+{bride ride}<0.131,-0.465,0.775><2.8,2.2,-57>
+{vasco}<0.302,0.062,0.795><0,2,0>
+{landing}<0.152,-0.114,0.738><3.2,1.1,-79>
+{that chick}<-0.254,-0.098,0.74><7.1,1.2,-77.3>
+{good vibe}<-0.299,-0.15,0.751><1.4,1.5,-73.2>
+{golden gate}<0.066,-0.703,0.77><2.9,2,-80.1>
+{butt view}<0.35,-0.15,0.511><1.4,1.5,137>
+{sideride}<0.302,-0.021,0.746><-0.3,-0.2,-17>
+{roof fuck}<-0.004,0.589,1.83><-5,-0,-90>
+{fuckery day}<-0.228,-0.294,0.299><2.8,-4.2,33.8>
+{well hidden}<0.121,-0.509,0.487><0,0,115.4>
+{cuff}<0.343,-0.245,0.738><0.1,-1.7,-131.4>
+{watch it}<0.145,0.044,0.794><-3,-4,142.9>
+{lotus}<0.059,-0.229,0.737><0.9,-3.9,-167>
+{back bang}<-0.131,-0.24,1.438><0,0,-63.6>
+{feel it}<0.009,0.195,0.667><0,0,-69>
+{late night}<-0.192,0.089,0.705><1.1,1.5,-50>
+{workable}<0.115,-0.17,0.636><-1,-1.7,-59>
+{talebate}<0.09,-0.117,0.727><0,0,-40>
+{lotus ride}<0.004,-0.014,0.842><0.4,-6.1,-136>
+{cock hostess}<-0.202,-0.247,1.498><0,0,127.8>
+{anal beauty}<0.305,0.153,0.575><0,0,-112.5>
+{deep diver}<-0.002,-0.316,0.718><7.2,3.9,-65.1>
+{know my ass}<-0.16,0.144,0.38><0,0,-40>
+{dick run}<0.091,0.118,0.711><2.4,1.9,129>
+{tower}<-0.357,0.286,0.568><1.8,2.4,-38>
+{anal bridge}<-0.04,-0.204,0.741><7.2,5.2,-44.2>
+{pipe}<-0.133,0.25,0.698><0,0,-25>
+{backride}<-0.082,-0.264,0.734><-2.1,1.5,-76>
+{pro banger}<0,-1.528,0.493><-3,0,180>
+{used throat}<0.146,-0.153,0.753><3.1,2.5,129.9>
+{oh hare}<-0.082,-0.335,1.266><-3,0,49>
+{rough way}<0.072,0.625,1.261><-1.3,-2.7,155>
+{no way out}<0.056,0.138,1.265><0,0,-134>
+{jumper}<-0.082,-0.061,1.272><-2,0,90>
+{bongo}<0.18,0.02,1.225><-0.6,0.8,-142>
+{ultra rider}<0.273,0.296,1.279><3.2,0.1,-114.2>
+{mister turner}<-0.082,-0.333,1.37><0,0,90>
+{take it}<-0.082,-0.02,1.248><0,0,156.2>
+{cum on}<-0.183,0.486,0.443><-3,0,-90>
+{side treat}<0.108,-0.951,0.459><1.3,1.6,123>
+{white flow}<-0.095,0.434,0.416><3.3,-2.2,-33.9>
+
+PROP1 popsicle|Nerenzo popsicleF|G77|<0.799970, -0.401890, -0.002750>|<0.000000, 0.000000, -29.000000>|right hand
+PROP1 soon closer|Nerenzo champagne RH - wear me|G1|<-0.643585, -0.703308, -0.012695>|<0.000000, 0.000000, 0.000003>|right hand
+PROP1 brut|Nerenzo champagne RH - wear me|G1|<-0.643585, -0.703308, -0.012695>|<0.000000, 0.000000, 0.000003>|right hand
+PROP1 stuffer|Nerenzo VibratorRH|G78|<-0.348430, -0.488830, 0.007260>|<0.000000, 0.000000, -78.750020>|right hand
+PROP1 wild play|Nerenzo WandLH|G78|<-0.348430, -0.488830, 0.007260>|<0.000000, 0.000000, -78.750020>|left hand
+PROP1 slushy|slushi-strawberryF2|G1|<0.277000, 0.125000, 0.069000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 beer|Nerenzo beer female|G1|<0.556000, 0.893000, 0.069000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 coco drink|Nerenzo Coconut drinkF|G1|<1.105000, 0.304000, 0.169000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 suncreme|sun lotionF|G1|<0.561000, 1.095000, 0.003000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 selfie|selfie|G1|<0.162000, 0.802000, -0.014000>|<-90.000000, -42.000000, 0.000000>|right hand
+PROP1 on phone|onPh|G1|<0.277000, 0.124000, 0.009000>|<89.000000, -39.300000, -180.000000>|right hand
+PROP1 on phone2|onPh2|G1|<0.427000, 1.105000, -0.021000>|<-88.000000, 58.000000, 0.000000>|right hand
+PROP1 send msg|msg|G1|<0.441000, 0.243000, 0.000000>|<98.000000, -36.000000, -180.000000>|right hand
+PROP read tablet|tablet2021|G1|<0.469681, 0.662184, 0.163616>|<-2.600335, -1.299332, -0.029491>
+PROP1 to us|champagneF|G1|<-0.01120, 0.29240, 0.81345>|<0.00000, 0.00000, 0.00000>|left hand
+PROP1 summer day|Nerenzo champagne LH - wear me|G1|<-0.080124, 0.000000, 0.265635>|<0.000000, 0.000000, 0.000000>|left hand
+PROP1 Get RelayHUD|LoveBridge2 Micro|LoveBridge|<0.000000, 0.070000, 0.250000>|<0.000000, 0.000000, 0.000000>|HUD bottom right
+

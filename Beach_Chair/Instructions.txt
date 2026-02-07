@@ -62,6 +62,6 @@ You should see a menu entry of the form 'SEQ-...'. Click this menu entry and you
 Auto Play Sequence
 ------------------
 
-If you wish to automatically play a sequence when an avatar sits on the beach chair then Drag & Drop the 'autoplay.sl' script into the Contents of the object.
+If you wish to automatically play a sequence when an avatar sits on the beach chair then Drag & Drop the 'autoplay' script into the Contents of the object.
 
 The 'autoplay' script detects the gender of the sitter and plays the appropriate sequence. In addition, it detects the number of sitters currently on the object and plays the couples animation sequence if more than 1 sitter is seated.

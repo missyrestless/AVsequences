@@ -76,7 +76,7 @@ or pause animation sequencing.
 ### Auto Play Sequence
 
 If you wish to automatically play a sequence when an avatar sits on the couch
-then download the `autoplay.sl` script and copy it into the Contents of the object.
+then download the `autoplay.lsl` script and copy it into the Contents of the object.
 
 ```bash
 wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Cuming_Soon/Smash/autoplay.lsl

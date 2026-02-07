@@ -9,7 +9,7 @@ custom notecards for sequences are provided here. Just the `autoplay` script.
 ### Auto Play Sequence
 
 If you wish to automatically play a sequence when an avatar sits on the stool
-then download the `autoplay.sl` script and copy it into the Contents of the object.
+then download the `autoplay.lsl` script and copy it into the Contents of the object.
 
 The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
 In addition, it detects the number of sitters currently on the object and plays the couples
