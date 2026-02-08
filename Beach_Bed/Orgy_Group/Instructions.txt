@@ -1,0 +1,60 @@
+AVsitter Sequence for Nerenzo Beach Bed California orgy/group version
+=====================================================================
+
+This folder contains the 'AVpos' and '[AV]sequence_settings' notecards for use with the 'AVsitter2' plugin '[AV]sequence' to provide animation sequences for the Nerenzo Beach Bed California orgy/group version dialog menus.
+
+This 'AVsitter' customization allows greater freedom of personal interaction in the sauna, eliminating the need to navigate dialog menus during moments of intimacy.
+
+Menus
+-----
+
+Sequences are configured for Sitter 0 and Sitter 1 menus, both male and female:
+
+- Solo Menus
+- Couples Cuddle Menus
+- 3 & 4-way Cuddle Menus
+- Tease Play Menus
+- Behind Menu
+- Butt Menu
+- Eye2Eye Menu
+- Girl on Top Menu
+- Oral Menu
+- Rough Sex Menu
+- Various Positions Menu
+- 3 & 4-way Sex Menus
+
+## Setup
+
+To configure a Nerenzo Beach Bed California orgy/group version with AVsitter sequences:
+
+- Right click the bed and select 'Edit'
+
+- Drag and Drop the '[AV]sequence_settings' notecard into the Contents tab
+
+- Drag and Drop the '[AV]sequence' plugin script into the Contents tab
+
+- Replace the 'AVpos' notecard in the Contents tab with the 'AVpos' notecard found in this folder
+  - Drag and Drop the original 'AVpos' notecard from the Contents tab into your inventory as a backup
+  - Delete the 'AVpos' notecard from the Contents tab (you can ignore and close the Warning window)
+  - Drag and Drop the new 'AVpos' notecard with sequences into the Contents tab
+
+- Close the 'Edit' window
+
+- Right click the bed and select 'More' -> 'More' -> 'Scripts' -> 'Reset Scripts'
+
+- Wait for the scripts to reset (this takes a few minutes)
+
+Sit on the bed and select one of the first two sitters.
+
+Menu entries of the form 'SEQ_...' indicate sequenced animations. Clicking any of these menu entries will cycle seated avatars through all the animations in that submenu. Cycle times are currently set to 60 seconds with menu arrows to step to the next animation, previous animation, or pause animation sequencing.
+
+Auto Play Sequence
+------------------
+
+If you wish to automatically play a sequence when an avatar sits on the bed then Drag & Drop the 'autoplay.lsl' script into the Contents of the object.
+
+The 'autoplay' script detects the gender of the sitter and plays the appropriate sequence.  In addition, it detects the number of sitters currently on the object and plays the couples animation sequence if there are 2 sitters, one of the 3-way sequences if 3 are seated, and a 4-way sequence if 4 avatars are on the bed.
+
+The 'autoplay.lsl' plays PG sequences. If you wish to automatically play adult sequences then Drag & Drop the 'autoplay-adult.lsl' script into the Contents of the object.
+
+Only add zero or one of the 'autoplay' scripts to the bed Contents. Do not add both.
