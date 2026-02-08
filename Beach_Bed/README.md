@@ -1,16 +1,11 @@
-# AVsitter Sequence for Nerenzo Orgy Towel 
+# AVsitter Sequence for Nerenzo Beach Bed California orgy/group/lovense version
 
 This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
 with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
-the Nerenzo Orgy Towel dialog menus.
+the Nerenzo Beach Bed California orgy/group/lovense version dialog menus.
 
 This `AVsitter` customization allows greater freedom of personal interaction in the
 sauna, eliminating the need to navigate dialog menus during moments of intimacy.
-
-The notecards and scripts for this customization of the Nerenzo Orgy Towel are
-available on the Second Life Marketplace at:
-
-[https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Orgy-Towel/27945140](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Orgy-Towel/27945140)
 
 ## Menus
 
@@ -32,10 +27,6 @@ Sequences are configured for Sitter 0 and Sitter 1 menus, both male and female:
 
 ## Download the script and customized notecards
 
-Purchase the packaged product for this customization of the Nerenzo Orgy Towel at
-[https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Orgy-Towel/27945140](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Orgy-Towel/27945140)
-or download them and upload to Second Life as follows:
-
 Download the `[AV]sequence` plugin script:
 
 ```bash
@@ -56,7 +47,7 @@ wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/m
 
 ## Setup
 
-To configure a Nerenzo Orgy Towel with AVsitter sequences:
+To configure a Nerenzo Beach Bed California orgy/group/lovense version with AVsitter sequences:
 
 - Right click the towel and select `Edit`
 - Drag and Drop the `[AV]sequence_settings` notecard into the Contents tab
@@ -115,9 +106,14 @@ The following custom sequenced animations are available on the Second Life Marke
 
 ### Customized notecards providing sequenced animations for Nerenzo furniture
 
+- Nerenzo Beach Bed California
+  - [Nerenzo Beach Bed California orgy/group/lovense version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Orgy_Lovense)
+  - [Nerenzo Beach Bed California orgy/group version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Orgy_Group)
+  - [Nerenzo Beach Bed California adult/couples/lovense version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Adult_Lovense)
+  - [Nerenzo Beach Bed California adult/couples version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Adult_Couples)
 - [Nerenzo Hot Bangers Pool](https://github.com/missyrestless/AVsequences/tree/main/Bangers_Pool)
-- [Nerenzo Orgy Towel](https://github.com/missyrestless/AVsequences/tree/main/Towel)
 - [Nerenzo little hangout](https://github.com/missyrestless/AVsequences/tree/main/Hangout)
+- [Nerenzo Orgy Towel](https://github.com/missyrestless/AVsequences/tree/main/Towel)
 - [Nerenzo Waterfall Tamdi](https://github.com/missyrestless/AVsequences/tree/main/Waterfall)
 
 ### Customized notecards providing sequenced animations for DaD furniture

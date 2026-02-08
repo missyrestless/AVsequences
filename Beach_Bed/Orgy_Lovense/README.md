@@ -1,25 +1,28 @@
-# AVsitter Sequence for BabyDoll Bed
+# AVsitter Sequence for Nerenzo Beach Bed California orgy/group/lovense version
 
 This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
-with the `[AV]sequence` plugin for `AVsitter2` to provide animation sequences
-for the Cuming Soon BabyDoll Bed dialog menus.
+with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
+the Nerenzo Beach Bed California orgy/group/lovense version dialog menus.
 
 This `AVsitter` customization allows greater freedom of personal interaction in the
 sauna, eliminating the need to navigate dialog menus during moments of intimacy.
 
 ## Menus
 
-Sequences are configured for the following menus:
+Sequences are configured for Sitter 0 and Sitter 1 menus, both male and female:
 
-- Male and Female Sit Menus
-- Male and Female Foreplay Menus
-- Together Menu
-- Front Menu
-- Rodeo Menu
-- Pound Menu
-- Rev-Ride Menu
-- Sitting Menu
-- Stand Menu
+- Solo Menus
+- Couples Cuddle Menus
+- 3 & 4-way Cuddle Menus
+- Tease Play Menus
+- Behind Menu
+- Butt Menu
+- Eye2Eye Menu
+- Girl on Top Menu
+- Oral Menu
+- Rough Sex Menu
+- Various Positions Menu
+- 3 & 4-way Sex Menus
 
 ## Download the script and customized notecards
 
@@ -32,33 +35,51 @@ wget -q -O '[AV]sequence' https://raw.githubusercontent.com/AVsitter/AVsitter/re
 Download the customized `[AV]sequence_settings` notecard:
 
 ```bash
-wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Cuming_Soon/BabyDoll/AVsequence_settings
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Orgy_Lovense/AVsequence_settings
 ```
 
 Download the customized `AVpos` notecard:
 
 ```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Cuming_Soon/BabyDoll/AVpos
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Orgy_Lovense/AVpos
 ```
 
 ## Setup
 
-To configure a Cuming Soon BabyDoll bed with AVsitter sequences:
+To configure a Nerenzo Beach Bed California orgy/group/lovense version with AVsitter sequences:
 
-- Right click the couch and select `Edit`
-- Copy the `[AV]sequence` plugin script into the Contents tab
-- Copy the `[AV]sequence_settings` notecard into the Contents tab
+- Right click the bed and select `Edit`
+- Drag and Drop the `[AV]sequence_settings` notecard into the Contents tab
+- Drag and Drop the `[AV]sequence` plugin script into the Contents tab
 - Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
+  - Drag and Drop the original `AVpos` notecard from the Contents tab into your inventory as a backup
+  - Delete the `AVpos` notecard from the Contents tab (you can ignore and close the Warning window)
+  - Drag and Drop the new `AVpos` notecard with sequences into the Contents tab
 - Close the `Edit` window
-- Right click the couch and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
+- Right click the bed and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
 - Wait for the scripts to reset (this takes a few minutes)
 
-Sit on the couch and click one of the main menu entries, e.g. click `Me` or `Together`.
+Sit on the bed, select one of the first two sitters (Male1 or Female1). The main menu
+has buttons for solo and cuddle animation sequences. Click the `ADULT MF` button then any
+of the configured adult submenu buttons to view the adult sequenced animations.
 
-You should see a menu entry of the form `SEQ ...`. Click this menu entry and your
-avatar will cycle through all the animations in that submenu. Cycle times are currently
-set to 60 seconds with menu arrows to step to the next animation, previous animation,
+Menu entries of the form `SEQ-...` indicate sequenced animations. Clicking any of these menu
+entries will cycle seated avatars through all the animations in that submenu. Cycle times are
+currently set to 60 seconds with menu arrows to step to the next animation, previous animation,
 or pause animation sequencing.
+
+### Auto Play Sequence
+
+If you wish to automatically play a sequence when an avatar sits on the bed
+then download the `autoplay.lsl` script and copy it into the Contents of the object.
+
+```bash
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Orgy_Lovense/autoplay.lsl
+```
+
+The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
+In addition, it detects the number of sitters currently on the object and plays the couples
+animation sequence if more than 1 sitter is seated.
 
 ## Second Life Marketplace Listings
 

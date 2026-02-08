@@ -22,9 +22,14 @@ The following custom sequenced animations are available on the Second Life Marke
 
 ### Customized notecards providing sequenced animations for Nerenzo furniture
 
+- Nerenzo Beach Bed California
+  - [Nerenzo Beach Bed California orgy/group/lovense version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Orgy_Lovense)
+  - [Nerenzo Beach Bed California orgy/group version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Orgy_Group)
+  - [Nerenzo Beach Bed California adult/couples/lovense version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Adult_Lovense)
+  - [Nerenzo Beach Bed California adult/couples version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Adult_Couples)
 - [Nerenzo Hot Bangers Pool](https://github.com/missyrestless/AVsequences/tree/main/Bangers_Pool)
-- [Nerenzo Orgy Towel](https://github.com/missyrestless/AVsequences/tree/main/Towel)
 - [Nerenzo little hangout](https://github.com/missyrestless/AVsequences/tree/main/Hangout)
+- [Nerenzo Orgy Towel](https://github.com/missyrestless/AVsequences/tree/main/Towel)
 - [Nerenzo Waterfall Tamdi](https://github.com/missyrestless/AVsequences/tree/main/Waterfall)
 
 ### Customized notecards providing sequenced animations for DaD furniture
