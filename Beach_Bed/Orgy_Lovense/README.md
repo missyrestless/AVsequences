@@ -4,6 +4,12 @@ This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
 with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
 the Nerenzo Beach Bed California orgy/group/lovense version dialog menus.
 
+**[NOTE:]** This is specifically for the Orgy/Group version of the beach bed with
+Lovense enabled. These notecards will not work with another version of the beach bed
+or with this version's Lovense disabled bed. The version of the Nerenzo Beach Bed
+California this is compatible with is available on the Second Life Marketplace at
+[https://marketplace.secondlife.com/p/Nerenzo-The-Beach-Bed-California-orgygroup-version-The-P-The-V-Lovense-INM-cum-clean/26308686](https://marketplace.secondlife.com/p/Nerenzo-The-Beach-Bed-California-orgygroup-version-The-P-The-V-Lovense-INM-cum-clean/26308686)
+
 This `AVsitter` customization allows greater freedom of personal interaction in the
 sauna, eliminating the need to navigate dialog menus during moments of intimacy.
 

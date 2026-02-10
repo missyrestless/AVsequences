@@ -1,14 +1,14 @@
-# AVsitter Sequence for Nerenzo Beach Bed California orgy/group version
+# AVsitter Sequence for Nerenzo Beach Bed California Adult lovense version
 
 This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
 with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
-the Nerenzo Beach Bed California orgy/group version dialog menus.
+the Nerenzo Beach Bed California Adult lovense version dialog menus.
 
-**[NOTE:]** This is specifically for the Orgy/Group version of the beach bed without
-Lovense. These notecards will not work with another version of the beach bed or with this
-version's Lovense enabled bed. The version of the Nerenzo Beach Bed California this is
+**[NOTE:]** This is specifically for the Adult version of the beach bed with Lovense.
+These notecards will not work with another version of the beach bed or with the Adult
+version without Lovense enabled. The version of the Nerenzo Beach Bed California this is
 compatible with is available on the Second Life Marketplace at
-[https://marketplace.secondlife.com/p/Nerenzo-The-Beach-Bed-California-orgygroup-version-The-P-The-V-Lovense-INM-cum-clean/26308686](https://marketplace.secondlife.com/p/Nerenzo-The-Beach-Bed-California-orgygroup-version-The-P-The-V-Lovense-INM-cum-clean/26308686)
+[https://marketplace.secondlife.com/p/Nerenzo-The-Beach-Bed-California-adult-version-the-P-the-V-INM-cum-clean-lovense/26308685](https://marketplace.secondlife.com/p/Nerenzo-The-Beach-Bed-California-adult-version-the-P-the-V-INM-cum-clean-lovense/26308685)
 
 This `AVsitter` customization allows greater freedom of personal interaction in the
 sauna, eliminating the need to navigate dialog menus during moments of intimacy.
@@ -19,7 +19,6 @@ Sequences are configured for Sitter 0 and Sitter 1 menus, both male and female:
 
 - Solo Menus
 - Couples Cuddle Menus
-- 3 & 4-way Cuddle Menus
 - Tease Play Menus
 - Behind Menu
 - Butt Menu
@@ -28,7 +27,6 @@ Sequences are configured for Sitter 0 and Sitter 1 menus, both male and female:
 - Oral Menu
 - Rough Sex Menu
 - Various Positions Menu
-- 3 & 4-way Sex Menus
 
 ## Download the script and customized notecards
 
@@ -41,18 +39,18 @@ wget -q -O '[AV]sequence' https://raw.githubusercontent.com/AVsitter/AVsitter/re
 Download the customized `[AV]sequence_settings` notecard:
 
 ```bash
-wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Orgy_Group/AVsequence_settings
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Adult_Lovense/AVsequence_settings
 ```
 
 Download the customized `AVpos` notecard:
 
 ```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Orgy_Group/AVpos
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Adult_Lovense/AVpos
 ```
 
 ## Setup
 
-To configure a Nerenzo Beach Bed California orgy/group version with AVsitter sequences:
+To configure a Nerenzo Beach Bed California Adult with Lovense version with AVsitter sequences:
 
 - Right click the bed and select `Edit`
 - Drag and Drop the `[AV]sequence_settings` notecard into the Contents tab
@@ -78,7 +76,7 @@ If you wish to automatically play a sequence when an avatar sits on the bed
 then download the `autoplay.lsl` script and copy it into the Contents of the object.
 
 ```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Orgy_Group/autoplay.lsl
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Adult_Lovense/autoplay.lsl
 ```
 
 The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
@@ -90,7 +88,7 @@ The `autoplay.lsl` plays PG sequences. If you wish to automatically play adult s
 then download and copy the `autoplay-adult.lsl` script:
 
 ```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Orgy_Group/autoplay-adult.lsl
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Adult_Lovense/autoplay-adult.lsl
 ```
 
 Only add zero or one of the `autoplay` scripts to the bed Contents. Do not add both.
