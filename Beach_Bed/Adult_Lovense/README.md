@@ -4,14 +4,32 @@ This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
 with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
 the Nerenzo Beach Bed California Adult lovense version dialog menus.
 
+This `AVsitter` customization allows greater freedom of personal interaction in the
+sauna, eliminating the need to navigate dialog menus during moments of intimacy.
+
+## Version and Variant Compatibility
+
 **[NOTE:]** This is specifically for the Adult version of the beach bed with Lovense.
 These notecards will not work with another version of the beach bed or with the Adult
 version without Lovense enabled. The version of the Nerenzo Beach Bed California this is
 compatible with is available on the Second Life Marketplace at
 [https://marketplace.secondlife.com/p/Nerenzo-The-Beach-Bed-California-adult-version-the-P-the-V-INM-cum-clean-lovense/26308685](https://marketplace.secondlife.com/p/Nerenzo-The-Beach-Bed-California-adult-version-the-P-the-V-INM-cum-clean-lovense/26308685)
 
-This `AVsitter` customization allows greater freedom of personal interaction in the
-sauna, eliminating the need to navigate dialog menus during moments of intimacy.
+There are 3 different Nerenzo Beach Bed California products - A PG version, an Adult Couples
+version, and an Orgy/Group version. Notecards and scripts are provided for 2 of these versions,
+the Adult Couples and Orgy/Group versions. The PG version does not have animation sequences.
+
+Each version of the product contains 2 beds, one with Lovense support and one without Lovense.
+There are 4 different beds with notecards and scripts provided to enable animation sequences.
+You must match your product and bed with the appropriate notecards and scripts to enable the
+correct animation sequences. Here are the 4 AVsitter animation sequences for these 4 beds:
+
+- Nerenzo Beach Bed California Orgy Group Version
+  - [Nerenzo Beach Bed California orgy/group/lovense version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Orgy_Lovense)
+  - [Nerenzo Beach Bed California orgy/group version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Orgy_Group)
+- Nerenzo Beach Bed California Adult Couples Version
+  - Nerenzo Beach Bed California adult/couples/lovense version (You are HERE)
+  - [Nerenzo Beach Bed California adult/couples version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Adult_Couples)
 
 ## Menus
 
