@@ -1,44 +1,36 @@
-# AVsitter Sequence for Lalou Pool Float (Adult 3some)
+# AVsitter Sequence for Nerenzo Floor Pillow 
 
 This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
 with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
-the Lalou Pool Float (Adult 3some) dialog menus.
+the Nerenzo Floor Pillow dialog menus.
 
 This `AVsitter` customization allows greater freedom of personal interaction in the
-pool float, eliminating the need to navigate dialog menus during moments of intimacy.
+pool, eliminating the need to navigate dialog menus during moments of intimacy.
 
-The notecards and scripts for this customization of the Lalou Pool Float (Adult 3some)
-are available on the Second Life Marketplace at:
-
-[https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Lalou-Pool-Float-Adult-3some/27954361](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Lalou-Pool-Float-Adult-3some/27954361)
+**[Note:]** This customization is for the adult version of the floor pillow
+available on the Second Life Marketplace at
+https://marketplace.secondlife.com/p/Nerenzo-floor-pillow-adult-version-226-animations/12724528
 
 ## Menus
 
-Sequences are configured for the following menus, both male and female:
+Sequences are configured for each sitter, both male and female.
 
-- Solo PG
-- Lay
-- Sit
-- Chill
-- Swim
-- Tube
-- Cuddle
-- Foreplay
-- Solo Adult
-- Lick
-- BJ
-- Ride
-- Front
-- Behind
-- Female/Female
-- Female/Female/Male (Straight, Bi, and PG)
-- Female/Male/Male (Adult and PG)
+Currently configured sequenced menus include:
+
+- Solo Menus
+- Cuddle Menus
+- Kiss Menus
+- This and That Menus
+- Foreplay Menus
+- Tongue Play Menus
+- Blow Job Menus
+- Spicy Sex Menus
+- Rough Sex Menus
+- Standing Sex Menus
+- Kinky Sex Menus
+- Cum and Clean Menus
 
 ## Download the script and customized notecards
-
-Purchase the packaged product for this customization of the Lalou Pool Float (Adult 3some) at
-[https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Lalou-Pool-Float-Adult-3some/27954361](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Lalou-Pool-Float-Adult-3some/27954361)
-or download them and upload to Second Life as follows:
 
 Download the `[AV]sequence` plugin script:
 
@@ -49,58 +41,60 @@ wget -q -O '[AV]sequence' https://raw.githubusercontent.com/AVsitter/AVsitter/re
 Download the customized `[AV]sequence_settings` notecard:
 
 ```bash
-wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Pool_Float/AVsequence_settings
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Floor_Pillow/AVsequence_settings
 ```
 
-Download the customized `AVpos` notecard:
+**[Note:]** There are two pillows, each with different `AVpos` notecards. Download both notecards
+to configure both pillows.
+
+Download the customized `AVpos` notecards:
 
 ```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Pool_Float/AVpos
+wget -q -O AVpos1 https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Floor_Pillow/Pillow1/AVpos
+wget -q -O AVpos2 https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Floor_Pillow/Pillow2/AVpos
 ```
+
+**[Note:]** This downloads the two `AVpos` notecards as `AVpos1` and `AVpos2`. Below when each
+pillow is configured with sequences, these notecards are renamed to `AVpos` for each pillow.
 
 ## Setup
 
-To configure a Lalou Pool Float (Adult 3some) with AVsitter sequences:
+To configure the Nerenzo Floor Pillows with AVsitter sequences:
 
-- Right click the float and select `Edit`
-- Drag and drop the `[AV]sequence_settings` notecard into the Contents tab
-- Drag and drop the `[AV]sequence` plugin script into the Contents tab
-- Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
+- Right click the first pillow, Nerenzo floor pillow1 - adult, and select `Edit`
+- Drag and Drop the `[AV]sequence_settings` notecard into the Contents tab
+- Drag and Drop the `[AV]sequence` plugin script into the Contents tab
+- Replace the `AVpos` notecard in the Contents tab with the `AVpos1` notecard found in this folder
   - Drag and Drop the original `AVpos` notecard from the Contents tab into your inventory as a backup
   - Delete the `AVpos` notecard from the Contents tab (you can ignore and close the Warning window)
+  - Rename the `AVpos1` notecard to `AVpos`
   - Drag and Drop the new `AVpos` notecard with sequences into the Contents tab
 - Close the `Edit` window
-- Right click the float and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
+- Right click the pillow and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
 - Wait for the scripts to reset (this takes a few minutes)
+- Repeat these steps for Nerenzo floor pillow2 - adult, renaming the `AVpos2` notecard to `AVpos`
 
-Sit on the float, select Male or Female, and click one of the main menu entries, e.g. click `Cuddles` or `Adult` then `Foreplay`.
+Sit on the pillow and select one of the main menu entries.
 
-You should see a menu entry of the form `SEQ-...`. Click this menu entry and your
+You should see a menu entry of the form `SEQ_...`. Click this menu entry and your
 avatar will cycle through all the animations in that submenu. Cycle times are currently
 set to 60 seconds with menu arrows to step to the next animation, previous animation,
 or pause animation sequencing.
 
 ### Auto Play Sequence
 
-If you wish to automatically play a sequence when an avatar sits on the pool float
+If you wish to automatically play a sequence when an avatar sits on the pillow
 then download the `autoplay.lsl` script and copy it into the Contents of the object.
 
 ```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Pool_Float/autoplay.lsl
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Floor_Pillow/autoplay.lsl
 ```
+
+The same `autoplay` script can be used for both pillow1 and pillow2.
 
 The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
 In addition, it detects the number of sitters currently on the object and plays the couples
-animation sequence if there are 2 sitters and one of the 3-way sequences if 3 are seated.
-
-The `autoplay.lsl` plays PG sequences. If you wish to automatically play adult sequences 
-then download and copy the `autoplay-adult.lsl` script:
-
-```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Pool_Float/autoplay-adult.lsl
-```
-
-Only add zero or one of the `autoplay` scripts to the float Contents. Do not add both.
+animation sequence if there are 2 sitters.
 
 ## Second Life Marketplace Listings
 
