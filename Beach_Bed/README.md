@@ -4,8 +4,8 @@ This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
 with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
 the Nerenzo Beach Bed California orgy/group/lovense version dialog menus.
 
-This `AVsitter` customization allows greater freedom of personal interaction in the
-sauna, eliminating the need to navigate dialog menus during moments of intimacy.
+This `AVsitter` customization allows greater freedom of personal interaction on
+the bed, eliminating the need to navigate dialog menus during moments of intimacy.
 
 ## Menus
 
@@ -33,23 +33,76 @@ Download the `[AV]sequence` plugin script:
 wget -q -O '[AV]sequence' https://raw.githubusercontent.com/AVsitter/AVsitter/refs/heads/master/AVsitter2/Plugins/AVsequence/%5BAV%5Dsequence.lsl
 ```
 
+Currently 4 different versions of the bed are supported:
+
+- Adult Couples version
+- Adult Couples version with Lovense
+- Orgy Group version
+- Orgy Group version with Lovense
+
+Download the following for the version of the bed you wish to enhance.
+
+### Adult Couples version
+
 Download the customized `[AV]sequence_settings` notecard:
 
 ```bash
-wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Towel/AVsequence_settings
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Adult_Couples/AVsequence_settings
 ```
 
 Download the customized `AVpos` notecard:
 
 ```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Towel/AVpos
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Adult_Couples/AVpos
+```
+
+### Adult Couples version with Lovense
+
+Download the customized `[AV]sequence_settings` notecard:
+
+```bash
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Adult_Lovense/AVsequence_settings
+```
+
+Download the customized `AVpos` notecard:
+
+```bash
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Adult_Lovense/AVpos
+```
+
+### Orgy Group version
+
+Download the customized `[AV]sequence_settings` notecard:
+
+```bash
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Orgy_Group/AVsequence_settings
+```
+
+Download the customized `AVpos` notecard:
+
+```bash
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Orgy_Group/AVpos
+```
+
+### Orgy Group version with Lovense
+
+Download the customized `[AV]sequence_settings` notecard:
+
+```bash
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Orgy_Lovense/AVsequence_settings
+```
+
+Download the customized `AVpos` notecard:
+
+```bash
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Orgy_Lovense/AVpos
 ```
 
 ## Setup
 
 To configure a Nerenzo Beach Bed California orgy/group/lovense version with AVsitter sequences:
 
-- Right click the towel and select `Edit`
+- Right click the bed and select `Edit`
 - Drag and Drop the `[AV]sequence_settings` notecard into the Contents tab
 - Drag and Drop the `[AV]sequence` plugin script into the Contents tab
 - Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
@@ -57,10 +110,10 @@ To configure a Nerenzo Beach Bed California orgy/group/lovense version with AVsi
   - Delete the `AVpos` notecard from the Contents tab (you can ignore and close the Warning window)
   - Drag and Drop the new `AVpos` notecard with sequences into the Contents tab
 - Close the `Edit` window
-- Right click the towel and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
+- Right click the bed and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
 - Wait for the scripts to reset (this takes a few minutes)
 
-Sit on the towel, select one of the first two sitters (Male1 or Female1). The main menu
+Sit on the bed, select one of the first two sitters (Male1 or Female1). The main menu
 has buttons for solo and cuddle animation sequences. Click the `ADULT MF` button then any
 of the configured adult submenu buttons to view the adult sequenced animations.
 
@@ -71,16 +124,72 @@ or pause animation sequencing.
 
 ### Auto Play Sequence
 
-If you wish to automatically play a sequence when an avatar sits on the towel
-then download the `autoplay.lsl` script and copy it into the Contents of the object.
-
-```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Towel/autoplay.lsl
-```
+If you wish to automatically play a sequence when an avatar sits on the bed then download the
+`autoplay.lsl` script for the version of the bed and copy it into the Contents of the object.
+PG and Adult versions of the `autoplay` script are provided for each version of the bed.
 
 The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
 In addition, it detects the number of sitters currently on the object and plays the couples
 animation sequence if more than 1 sitter is seated.
+
+Download and install only one of these versions of the `autoplay` script. Select the version of
+the bed you are using and choose which version of the script to download for that bad, Adult or PG.
+
+#### Autoplay for Adult Couples version
+
+##### PG autoplay
+
+```bash
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Adult_Couples/autoplay.lsl
+```
+
+##### Adult autoplay
+
+```bash
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Adult_Couples/autoplay-adult.lsl
+```
+
+#### Autoplay for Adult Couples version with Lovense
+
+##### PG autoplay
+
+```bash
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Adult_Lovense/autoplay.lsl
+```
+
+##### Adult autoplay
+
+```bash
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Adult_Lovense/autoplay-adult.lsl
+```
+
+#### Autoplay for Orgy Group version
+
+##### PG autoplay
+
+```bash
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Orgy_Group/autoplay.lsl
+```
+
+##### Adult autoplay
+
+```bash
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Orgy_Group/autoplay-adult.lsl
+```
+
+#### Autoplay for Orgy Group version with Lovense
+
+##### PG autoplay
+
+```bash
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Orgy_Lovense/autoplay.lsl
+```
+
+##### Adult autoplay
+
+```bash
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Orgy_Lovense/autoplay-adult.lsl
+```
 
 ## Second Life Marketplace Listings
 
