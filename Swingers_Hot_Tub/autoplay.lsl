@@ -19,9 +19,6 @@
 * Modified 05-Feb-2026 by Missy Restless <missyrestless@gmail.com>
 *   - Add support for a 4th sitter auto sequence
 **********************************************************************/
-SEQ-SITS-F
-SEQ-SITS-M
-SEQ-CUDDLE
 
 /**********************************************************************
  * Set these to the sequence names you want to autoplay
