@@ -23,12 +23,14 @@
 /**********************************************************************
  * Set these to the sequence names you want to autoplay
 **********************************************************************/
+// Simple solo sits for all
+//
 // Couples Female Sequence
-string COUPLES_POSE_F = "SEQ-CUDDLE";
+string COUPLES_POSE_F = "SEQ-SITS-F";
 // Singles Female Sequence
 string SINGLES_POSE_F = "SEQ-SITS-F";
 // Couples Male Sequence
-string COUPLES_POSE_M = "SEQ-CUDDLE";
+string COUPLES_POSE_M = "SEQ-SITS-M";
 // Singles Male Sequence
 string SINGLES_POSE_M = "SEQ-SITS-M";
 // 3 Sitter Sequence
@@ -66,7 +68,7 @@ default {
     changed(integer change) {
         if (change & CHANGED_LINK) {
             llSleep(1);
-	    // Use female poses for ambiguous or undefined gender
+            // Use female poses for ambiguous or undefined gender
             FOURTHS_POSE = FOURTHS_POSE_F;
             TRIPLES_POSE = TRIPLES_POSE_F;
             COUPLES_POSE = COUPLES_POSE_F;
@@ -80,7 +82,7 @@ default {
                   TRIPLES_POSE = TRIPLES_POSE_M;
                   COUPLES_POSE = COUPLES_POSE_M;
                   SINGLES_POSE = SINGLES_POSE_M;
-	        }
+                }
               }
               if (avatar_count > 3) { // more than three avatars sitting
                 llMessageLinked(LINK_SET,90000,FOURTHS_POSE,""); // play triples pose
