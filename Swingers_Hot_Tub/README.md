@@ -11,27 +11,41 @@ hot tub, eliminating the need to navigate dialog menus during moments of intimac
 
 Sequences are configured for the following menus:
 
-- Male and Female Solo Menus
-- Couples cuddles
-- Wash Menus
-- Three Adult Menus
+- Male and Female Solo Sits
+- Male and Female Solo Self Pleasure
+- Couples Cuddles
+- Male/Female Sex
+- Girls Only
+- Guys Only
+- FFM 3-Way
+- MMF 3-Way
 
-## Download the script and customized notecards
+## Download the scripts and customized notecards
 
-The Debauchery Swingers Hot Tub already has the `[AV]sequence` script and the
-`[AV]sequence_settings` notecard configured. Replace the `[AV]sequence_settings`
-and the `AVpos` notecards with those downloaded here.
+Replace the `AVpos` notecard with the `AVpos` notecard downloaded here.
 
-Download the customized `[AV]sequence_settings` notecard:
+### Download the customized `[AV]sequence_settings` notecard
 
 ```bash
-wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Hot_Tub/AVsequence_settings
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Swingers_Hot_Tub/AVsequence_settings
 ```
 
-Download the customized `AVpos` notecard:
+### Download the customized `AVpos` notecard
 
 ```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Hot_Tub/AVpos
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Swingers_Hot_Tub/AVpos
+```
+
+### Download the `same_prop_for_poses` script
+
+```bash
+wget -q -O 'same_prop_for_poses' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Swingers_Hot_Tub/same_prop_for_poses.lsl
+```
+
+### Download the `autoplay` script
+
+```bash
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Swingers_Hot_Tub/autoplay.lsl
 ```
 
 ## Setup
@@ -44,22 +58,26 @@ To configure a Debauchery Swingers Hot Tub with customized AVsitter sequences:
 
 - Right click the hot tub and select `Edit`
 - Select the Contents tab in the Edit window
-- Click the `Edit linked` checkbox
-- Using `Ctrl .` (press both the Ctrl key and the Period key) locate the notecards (Link number 6)
-- Delete the `[AV]sequence_settings` and `AVpos` notecards
-- Copy the `[AV]sequence_settings` notecard into the Contents tab
-- Copy the `AVpos` notecard into the Contents tab
+- Drag and Drop the `AVpos` notecard from the Contents into your inventory as a backup
+- Delete the `AVpos` notecard
+- Drag and Drop the downloaded `[AV]sequence_settings` notecard into the Contents tab
+- Drag and Drop the downloaded `AVpos` notecard into the Contents tab
+- Drag and Drop the downloaded `autoplay` script into the Contents tab
+- Drag and Drop the downloaded `same_prop_for_poses` script into the Contents tab
 - Close the `Edit` window
 - Right click the hot tub and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
 - Wait for the scripts to reset (this takes a few minutes)
 
-Sit in the hot tub and click one of the main menu entries, e.g. click `Single` then `Females`
-or `Adult` then `Start`.
+If you copied the `autoplay` script into your Hot Tub in the steps above then a
+sequence of pose animations will automatically be played when you sit in the tub.
 
-You should see a menu entry of the form `SEQ-...`. Click this menu entry and your
-avatar will cycle through all the animations in that submenu. Cycle times are currently
-set to 60 seconds with menu arrows to step to the next animation, previous animation,
-or pause animation sequencing.
+You should see menu entries of the form `SEQ-...` in many of the Hot Tub menus.
+Clicking any of these `SEQ-...` menu entries will cycle through all the animations
+in that submenu. Cycle times are currently set to 60 seconds with menu arrows to step
+to the next animation, previous animation, or pause animation sequencing.
+
+The `same_prop_for_poses` script will rez the hot tub float for poses that use this prop.
+The float will automatically rez when needed and de-rez automatically when not in use.
 
 ## Second Life Marketplace Listings
 
@@ -121,6 +139,7 @@ The following custom sequenced animations are available on the Second Life Marke
 ### Customized autoplay scripts for Debauchery furniture
 
 - [Debauchery Round Swingers Bar Stool](https://github.com/missyrestless/AVsequences/tree/main/Bar_Stool)
+- [Debauchery Swingers Hot Tub](https://github.com/missyrestless/AVsequences/tree/main/Swingers_Hot_Tub)
 
 ### Customized notecards providing sequenced animations for Good Moaning furniture
 

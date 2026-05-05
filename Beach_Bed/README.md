@@ -251,6 +251,7 @@ The following custom sequenced animations are available on the Second Life Marke
 ### Customized autoplay scripts for Debauchery furniture
 
 - [Debauchery Round Swingers Bar Stool](https://github.com/missyrestless/AVsequences/tree/main/Bar_Stool)
+- [Debauchery Swingers Hot Tub](https://github.com/missyrestless/AVsequences/tree/main/Swingers_Hot_Tub)
 
 ### Customized notecards providing sequenced animations for Good Moaning furniture
 
