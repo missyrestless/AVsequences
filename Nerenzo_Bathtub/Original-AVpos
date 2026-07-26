@@ -1,0 +1,725 @@
+"NERENZO BATHTUB "VALENCIA" - ADULT" AVsitter 2.1
+SWAP 1
+ADJUST [SOUND]|90205|[INM API]|-99998|HANDS|-31450000
+
+TEXT \n                                 Nerenzo\n                       ~ Bathtub Valencia ~ \n    \n    Press & hold Ctrl + s  to resync animations! \n    
+SITTER 0|Male
+
+TOMENU SINGLE
+TOMENU BATHING
+TOMENU CUDDLE1
+TOMENU CUDDLE2
+TOMENU KISSES
+TOMENU FOREPLAY
+TOMENU BLOWJOB
+TOMENU TONGUEPLAY
+TOMENU SEX
+TOMENU OPTIONS
+
+MENU OPTIONS
+TOMENU WATER
+TOMENU BATHTUB
+TOMENU SURROUND
+TOMENU UNREZ
+BUTTON TEXTURES|-31400100
+BUTTON ToggleFace|88888
+BUTTON Marketplace|74355
+TOMENU HELP
+
+MENU HELP
+BUTTON AdjustPoses
+BUTTON BentoFaces
+BUTTON LM2Store
+BUTTON Access-info
+BUTTON ITsNOTmine
+BUTTON Aeros - info
+BUTTON The P/V-info
+
+MENU WATER
+BUTTON faucet-on
+BUTTON faucet-off|90200|remprop_faucet-on
+BUTTON steam on
+BUTTON steam off|90200|remprop_steam on
+SEQUENCE ♬SOUND♬
+
+MENU BATHTUB
+BUTTON bath-rack
+BUTTON bath-roses
+BUTTON bath-glass
+BUTTON bath-candle
+BUTTON bath-bowl
+BUTTON bath-book
+BUTTON strawberries
+
+MENU SURROUND
+BUTTON books
+BUTTON books-2
+BUTTON roses
+BUTTON roses-2
+BUTTON candles
+BUTTON champagne
+BUTTON rack&items
+
+MENU UNREZ
+TOMENU ҲBATHTUBҲ
+TOMENU ҲSURROUNDҲ
+
+MENU ҲBATHTUBҲ
+BUTTON rack|90200|remprop_bath-rack
+BUTTON b-roses|90200|remprop_bath-roses
+BUTTON glass|90200|remprop_bath-glass
+BUTTON candle|90200|remprop_bath-candle
+BUTTON bowl|90200|remprop_bath-bowl
+BUTTON book|90200|remprop_bath-book
+BUTTON strawberr|90200|remprop_strawberries
+
+MENU ҲSURROUNDҲ
+BUTTON Books|90200|remprop_books
+BUTTON Books-2|90200|remprop_books-2
+BUTTON Roses|90200|remprop_roses
+BUTTON Roses-2|90200|remprop_roses-2
+BUTTON Candles|90200|remprop_candles
+BUTTON Champagne|90200|remprop_champagne
+BUTTON Rack&Items|90200|remprop_rack&items
+
+MENU SINGLE
+POSE m-bath1|1bam6
+POSE m-bath2|1bam7
+POSE m-bath3|1bam8
+POSE m-bath4|1bam9
+POSE m-bath5|1bam10
+POSE m-bath6|1bam11
+POSE m-bath7|1bam12
+POSE m-bath8|1bam13
+POSE m-bath9|1bam1
+POSE m-brush|1bam2
+POSE m-hair|1bam3
+POSE m-read|1bam4
+POSE m-champagne|1bam5
+SEQUENCE ►m-bath
+
+MENU BATHING
+SYNC talk1|1ms12
+SYNC talk2|1ms28
+SYNC talk3|1ms48
+SYNC talk4|1ms51
+SYNC bathing1|2bam9
+SYNC bathing2|2bam10
+SYNC bathing3|2bam11
+SYNC bathing4|2bam12
+SYNC bathing5|csm35
+SYNC bathing6|2bam22
+SYNC foot rub|2bam24
+SYNC massage1|2bam13
+SYNC massage2|2bam14
+SYNC read|2bam15
+SYNC splash|2bam16
+SYNC wine|2bam17
+SYNC bubble|2bam18
+SYNC Champagne|htcm8
+
+MENU CUDDLE1
+SYNC adored|2bam1
+SYNC it's okay|2bam2
+SYNC ombro|2bam3
+SYNC bosom peck|2bam4
+SYNC with you|clm72
+SYNC tell me|csm11
+SYNC embrace|csm18
+SYNC don't let go|csm26
+SYNC inuit kiss|csm27
+SYNC beloved|csm32
+
+MENU CUDDLE2
+SYNC confess|csm49
+SYNC trust me|csm53
+SYNC stargazing|csm59
+SYNC unwind|2bam20
+SYNC appeal|2bam23
+SYNC closer|htcm1
+SYNC untangle|htcm2
+
+MENU KISSES
+SYNC kiss1|2bam5
+SYNC kiss2|2bam6
+SYNC kiss3|2bam7
+SYNC kiss4|2bam8
+SYNC kiss5|csm15
+SYNC kiss6|csm21
+SYNC kiss7|csm28
+SYNC kiss8|csm30
+
+MENU FOREPLAY
+SYNC pussyplay1|htam2
+SYNC pussyplay2|htam6
+SYNC cockplay1|4pwim6
+SYNC cockplay2|6mism17a
+
+MENU BLOWJOB
+SYNC ball play|4pbm16
+SYNC prayer|4pbm23
+SYNC get right|4pbm30
+SYNC radical bj|4pbm35a
+SYNC archer bj|4pbm34
+SYNC his way|4pbm28
+SYNC big dipper|4pbm42b
+
+MENU TONGUEPLAY
+SYNC 68|lick_06_m Galaxy
+SYNC stand lick|4plm11
+SYNC face ride|4plm13
+SYNC feedbag|4plm20
+SYNC central|4plm22
+SYNC jane bond|4plm23
+SYNC flexible|4plm27
+
+MENU SEX
+TOMENU STANDFUCK
+TOMENU BATHSEX1
+TOMENU BATHSEX2
+TOMENU BATHSEX3
+
+MENU STANDFUCK
+SYNC ably|6stfm1
+SYNC starfuck|6stfm5
+SYNC eye 2 eye|6stfm15a
+SYNC vane|6stfm18
+SYNC cling|6stfm21
+SYNC pulled in|6stfm23b
+SYNC plump bang|6stfm24
+SYNC bonk|6stfm25
+SYNC hard candy|rsm4
+SYNC hunch|rsm41
+
+MENU BATHSEX1
+SYNC pony ride|6rim18
+SYNC take that|htam5
+SYNC heightened|6sfm1
+SYNC nipple glaze|sexM5
+SYNC bounce|6sfm4
+SYNC sunday drive|6sfm14
+SYNC joy ride|6sfm15
+SYNC come on|6sfm23
+SYNC nest|6dom3
+SYNC tootsee roll|6dom12
+
+MENU BATHSEX2
+SYNC doggy tap|6dom4
+SYNC wide open|6dom14
+SYNC tittfuck|6tfm6
+SYNC close fuck|6mism6
+SYNC capped|6mism8
+SYNC dwarfish|6mism15
+SYNC grind|6mism17b
+SYNC flimsy|6mism17c
+SYNC clasp|6mism21
+SYNC handy|6mism24
+
+MENU BATHSEX3
+SYNC in season|rsm14
+SYNC walker|rsm17
+SYNC up the ass|rsm18
+SYNC hard grace|rsm31
+SYNC throatfuck|rsm24
+SYNC suck4cum|cumm9
+SYNC dirty hands|cumm12
+BUTTON  ‌
+SYNC ░clean░|1SB12
+BUTTON  ‌
+{m-bath1}<0.829,-0.007,0.023><0,0,180>
+{m-bath2}<0.773,-0.007,-0.128><0,0,180>
+{m-bath3}<0.773,-0.007,-0.128><0,0,180>
+{m-bath4}<0.773,-0.007,-0.128><0,0,180>
+{m-bath5}<0.773,-0.007,-0.128><0,0,180>
+{m-bath6}<0.773,-0.007,-0.128><0,0,180>
+{m-bath7}<0.773,-0.007,-0.128><0,0,180>
+{m-bath8}<0.773,-0.007,-0.128><0,0,180>
+{m-bath9}<0.593,-0.046,-0.159><0,0,180>
+{m-brush}<0.593,-0.046,-0.159><0,0,180>
+{m-hair}<0.771,-0.046,-0.134><0,0,180>
+{m-read}<0.696,-0.046,-0.101><0,0,180>
+{m-champagne}<0.696,0.176,-0.174><0,0,-174>
+
+{talk1}<-0.696,0,0.76><0,0,0>
+{talk2}<-0.999,-0.016,-0.104><0,0,0>
+{talk3}<0.717,-0.029,-0.079><0,0,180>
+{talk4}<0.705,0,-0.083><0,0,180>
+{bathing1}<0.751,0.013,-0.056><0,0,180>
+{bathing2}<0.667,0.017,-0.061><0,0,180>
+{bathing3}<0.153,0.023,-0.16><0,0,180>
+{bathing4}<0.602,-0.268,-0.118><0,0,162>
+{bathing5}<-0.217,0.187,0.069><0.6,0.8,-35>
+{bathing6}<-0.271,-0.304,0.625><0,0,0>
+{foot rub}<0.275,-0.339,0.572><0,0,0>
+{massage1}<0.282,0.006,-0.119><0,0,180>
+{massage2}<0.647,0.001,-0.112><0,0,180>
+{read}<0.726,0.008,-0.067><0,0,180>
+{splash}<-0.727,-0.016,-0.119><0,0,0>
+{wine}<0.642,0.087,-0.104><0,0,-176>
+{bubble}<0.099,0.325,-0.121><0,0,-90>
+{Champagne}<0.449,0.015,-0.127><0,0,174>
+{adored}<0.558,0.013,-0.156><0,-4,180>
+{it's okay}<0.164,-0.129,-0.023><6,0,180>
+{ombro}<0.635,0.031,-0.165><0,0,180>
+{bosom peck}<0.367,-0.175,-0.032><-1,-4.9,169>
+{with you}<0.405,-0.013,-0.077><0,2,90>
+{tell me}<-0.342,-0.027,0.285><0,0,-176>
+{embrace}<-0.124,-0.003,0.283><0,-7,0>
+{don't let go}<0.289,-0.006,-0.052><0,2,-180>
+{inuit kiss}<-0.242,-0.028,0.087><-0.7,4.8,3.6>
+{beloved}<-0.217,-0.015,0.844><-1.2,-0.5,0>
+{confess}<0.403,-0.18,-0.092><0,0,178.6>
+{trust me}<0.538,0.071,-0.149><0,0,177>
+{stargazing}<0.093,0.306,-0.057><1.1,0.1,-80>
+{unwind}<-0.016,0.358,0.599><0,0,-171>
+{appeal}<-0.083,-0.425,0.581><0,0,4>
+{closer}<-0.002,-0.489,-0.067><0,1,90>
+{untangle}<-0.039,-0.561,-0.025><0,0,74>
+{kiss1}<-0.222,0.02,-0.107><0,0,0>
+{kiss2}<0.319,0.034,-0.072><0,-3,180>
+{kiss3}<-0.345,0.008,-0.078><0,0,0>
+{kiss4}<0.645,0.12,-0.123><0,0,180>
+{kiss5}<-0.636,-0.035,-0.066><-1,0,89.9>
+{kiss6}<0.388,-0.01,-0.146><-0.1,-0.1,180>
+{kiss7}<-0.061,-0.044,-0.124><-0.5,5.8,1.6>
+{kiss8}<0.347,0.022,0.907><0,-0.3,-180>
+{pussyplay1}<0.517,0.119,-0.099><0,0,176>
+{pussyplay2}<-0.728,-0.119,-0.02><0,0,0>
+{cockplay1}<-0.445,0,1.014><0,0,0>
+{cockplay2}<-0.11,0.031,1.049><0,0,180>
+{ball play}<-0.384,0.098,0.348><-3,0,0>
+{prayer}<0.491,0.069,1.016><0,0,-177>
+{get right}<0.466,0,0.955><0,0,-1>
+{radical bj}<-0.252,0.097,0.932><0,0,-90>
+{archer bj}<0.487,-0.029,1.083><0,0,-5>
+{his way}<-0.413,0.005,1.072><0,0,0>
+{big dipper}<-0.302,0,1.024><0,0,0>
+{68}<0.256,-0.016,1.02><0,-4,-90>
+{stand lick}<0.278,-0.06,0.951><0,0,170>
+{face ride}<-0.058,0.051,0.851><0,0,24.1>
+{feedbag}<-0.192,-0.006,0.953><0,0,180>
+{central}<0.247,0.005,1.056><0,0,177>
+{jane bond}<0.015,-0.025,1.028><0,0,180>
+{flexible}<0.222,-0.002,0.969><0,0,180>
+{ably}<-0.154,-0.029,1.077><0,0,-50.6>
+{starfuck}<-0.281,0.078,1.094><0,0,-38>
+{eye 2 eye}<-0.194,0.1,1.019><0,0,-74>
+{vane}<-0.162,0.061,1.078><0,0,-58>
+{cling}<0.088,0.18,1.093><0,0,-120>
+{pulled in}<0.021,0.043,1.081><0,0,-134>
+{plump bang}<0.066,0.126,0.943><0,0,-118.1>
+{bonk}<-0.224,0.172,0.84><0,0,-88>
+{hard candy}<0.089,0.143,1.109><-4,0,-87.1>
+{hunch}<-0.16,0.375,0.976><0,0,-90>
+{pony ride}<0.101,0.012,0.99><0,0,180>
+{take that}<-0.653,-0.01,-0.019><0,3,0>
+{heightened}<-0.089,0.237,1.038><0,0,-90>
+{nipple glaze}<-0.165,0.122,0.931><0,0,-90>
+{bounce}<0.213,0.009,0.875><-1.4,6.9,0>
+{sunday drive}<-0.711,-0.024,1.008><0,2,1>
+{joy ride}<-0.261,0.078,0.286><0,0,-90>
+{come on}<-0.272,0.049,0.968><-0.1,-1,-7.4>
+{nest}<-0.132,-0.01,0.999><0,0,0>
+{tootsee roll}<-0.23,0.006,1.002><0,-6,0>
+{doggy tap}<-0.089,0.011,0.946><0,0,0>
+{wide open}<-0.163,0.014,0.98><0,7,180>
+{tittfuck}<0.107,0.003,0.828><0,0,180>
+{close fuck}<-0.09,0.068,0.965><0,0,-90>
+{capped}<-0.387,0.009,0.963><-0.3,3,-174>
+{dwarfish}<0.01,0.347,0.954><-5,0.2,-92>
+{grind}<0.09,-0.261,1.008><2,0,-90>
+{flimsy}<-0.214,-0.209,0.963><0,0,-90>
+{clasp}<-1.545,0,0.806><0,-1,180>
+{handy}<0.02,0.053,0.367><0,0,-90>
+{in season}<-0.056,0.066,0.901><0,0,-16.9>
+{walker}<-0.046,-0.105,0.977><-0.1,1,-90>
+{up the ass}<-0.284,-0.004,0.998><0,0,0>
+{hard grace}<-0.041,0.15,0.103><0,0,-90>
+{throatfuck}<0.147,0.008,1.109><0,0,0>
+{suck4cum}<-0.416,-0.045,1.075><0,0,0>
+{dirty hands}<-0.277,-0.022,0.981><-0.3,3.9,-176.7>
+{░clean░}<-0.460,-0.157,1.133><-0.2,-0.4,-78>
+PROP3 water|water 1|GROUP111|<-0.066040, -0.006119, 0.092773>|<0.000000, 0.000000, 0.000000>
+PROP m-read|book-r|GROUP23|<0.563538, -0.049477, 0.343323>|<0.000000, 23.000000, 23.000010>
+PROP read|book-r|GROUP23|<0.443588, -0.062042, 0.403931>|<-1.807217, 18.828570, 20.451240>
+PROP splash|splashes|GROUP23|<-0.385849, -0.140694, 0.038452>|<0.000000, 18.000000, -90.000000>
+PROP bubble|bubbles|GROUP23|<0.009705, 0.072014, 0.425049>|<0.000000, 0.000000, -159.100000>
+PROP bath-rack|rack|GROUP1|<-0.494293, -0.038940, 0.301270>|<0.000000, 0.000000, -90.000010>
+PROP bath-roses|roses|GROUP2|<0.000000, 0.000000, -0.282959>|<0.000000, 0.000000, 0.000000>
+PROP bath-glass|glass-champagne|GROUP3|<-0.494293, -0.298248, 0.280762>|<0.000000, 0.000000, 0.000000>
+PROP bath-candle|candle|GROUP4|<-0.492813, 0.292923, 0.364990>|<0.000000, 0.000000, 0.000000>
+PROP bath-bowl|bowl-roses|GROUP5|<-0.494614, -0.417740, 0.352478>|<0.000000, 0.000000, 0.000000>
+PROP bath-book|book|GROUP6|<-0.680450, -0.168091, 0.271423>|<0.000000, 0.000000, 0.000000>
+PROP books|books-mug|GROUP7|<-1.494705, -0.842178, -0.403809>|<0.000000, 0.000000, 0.000000>
+PROP candles|candles-ground|GROUP8|<-2.040863, 1.038803, -0.260681>|<0.000000, 0.000000, 7.999934>
+PROP Champagne|champagne|GROUP9|<0.938980, -0.928619, 0.340088>|<0.000000, 0.000000, 0.000000>
+PROP rack&items|rack-towel|GROUP10|<1.188812, 1.198227, 0.074402>|<0.000000, 0.000000, -21.999210>
+PROP steam on|water-mist|GROUP11|<-0.079849, -0.015350, -0.169434>|<0.000000, 0.000000, 0.000000>
+PROP faucet-on|water_faucet|GROUP12|<-0.010635, 0.489792, 0.644836>|<0.000000, 0.000000, 0.000000>
+PROP strawberries|strawberries|GROUP13|<-0.503281, 0.063011, 0.346802>|<0.000000, 0.000000, -6.000021>
+PROP books-2|books_ground|GROUP14|<-1.882507, -0.986923, -0.352112>|<0.000000, 0.000000, 180.000000>
+PROP roses|roses_ground|GROUP15|<-1.226074, -1.514038, -0.460754>|<0.000000, 0.000000, 180.000000>
+PROP roses-2|roses_ground2|GROUP16|<1.891556, 0.289703, -0.460754>|<0.000000, 0.000000, 77.999980>
+PROP1 m-champagne|champagne-m|G1|<0.00000, 0.67010, 0.45453>|<0.00000, 0.00000, 0.00000>|right hand
+PROP1 Champagne|champagne-m|G1|<0.00000, 0.67010, 0.45453>|<0.00000, 0.00000, 0.00000>|right hand
+PROP1 wine|Red Wine (add/wear me)-male|G1|<0.00000, 0.67010, 0.45453>|<0.00000, 0.00000, 0.00000>|right hand
+
+
+
+SITTER 1|Female
+
+TOMENU SINGLE
+TOMENU BATHING
+TOMENU CUDDLE1
+TOMENU CUDDLE2
+TOMENU KISSES
+TOMENU FOREPLAY
+TOMENU BLOWJOB
+TOMENU TONGUEPLAY
+TOMENU SEX
+TOMENU OPTIONS
+
+MENU OPTIONS
+TOMENU WATER
+TOMENU BATHTUB
+TOMENU SURROUND
+TOMENU UNREZ
+BUTTON TEXTURES|-31400100
+BUTTON ToggleFace|88888
+BUTTON Marketplace|74355
+TOMENU HELP
+
+MENU HELP
+BUTTON AdjustPoses
+BUTTON BentoFaces
+BUTTON LM2Store
+BUTTON Access-info
+BUTTON ITsNOTmine
+BUTTON Aeros - info
+BUTTON The P/V-info
+
+MENU WATER
+BUTTON faucet-on
+BUTTON faucet-off|90200|remprop_faucet-on
+BUTTON steam on
+BUTTON steam off|90200|remprop_steam on
+SEQUENCE ♬SOUND♬
+
+MENU BATHTUB
+BUTTON bath-rack
+BUTTON bath-roses
+BUTTON bath-glass
+BUTTON bath-candle
+BUTTON bath-bowl
+BUTTON bath-book
+BUTTON strawberries
+
+MENU SURROUND
+BUTTON books
+BUTTON books-2
+BUTTON roses
+BUTTON roses-2
+BUTTON candles
+BUTTON champagne
+BUTTON rack&items
+
+MENU UNREZ
+TOMENU ҲBATHTUBҲ
+TOMENU ҲSURROUNDҲ
+
+MENU ҲBATHTUBҲ
+BUTTON rack|90200|remprop_bath-rack
+BUTTON b-roses|90200|remprop_bath-roses
+BUTTON glass|90200|remprop_bath-glass
+BUTTON candle|90200|remprop_bath-candle
+BUTTON bowl|90200|remprop_bath-bowl
+BUTTON book|90200|remprop_bath-book
+BUTTON strawberr|90200|remprop_strawberries
+
+MENU ҲSURROUNDҲ
+BUTTON Books|90200|remprop_books
+BUTTON Books-2|90200|remprop_books-2
+BUTTON Roses|90200|remprop_roses
+BUTTON Roses-2|90200|remprop_roses-2
+BUTTON Candles|90200|remprop_candles
+BUTTON Champagne|90200|remprop_champagne
+BUTTON Rack&Items|90200|remprop_rack&items
+
+MENU SINGLE
+POSE f-bath1|1baf6
+POSE f-bath2|1baf7
+POSE f-bath3|1baf8
+POSE f-bath4|1baf9
+POSE f-bath5|1baf10
+POSE f-bath6|1baf11
+POSE f-bath7|1baf12
+POSE f-bath8|1baf13
+POSE f-bath9|1baf1
+POSE f-brush|1baf2
+POSE f-hair|1baf3
+POSE f-read|1baf4
+POSE f-champagne|1baf5
+SEQUENCE ►f-bath
+
+MENU BATHING
+SYNC talk1|1sf83
+SYNC talk2|1sf86
+SYNC talk3|1sf82
+SYNC talk4|1sf32
+SYNC bathing1|2baf9
+SYNC bathing2|2baf10
+SYNC bathing3|2baf11
+SYNC bathing4|2baf12
+SYNC bathing5|csf35
+SYNC bathing6|2baf22
+SYNC foot rub|2baf24
+SYNC massage1|2baf13
+SYNC massage2|2baf14
+SYNC read|2baf15
+SYNC splash|2baf16
+SYNC wine|2baf17
+SYNC bubble|2baf18
+SYNC Champagne|htcf8
+
+MENU CUDDLE1
+SYNC adored|2baf1
+SYNC it's okay|2baf2
+SYNC ombro|2baf3
+SYNC bosom peck|2baf4
+SYNC with you|clf72
+SYNC tell me|csf11
+SYNC embrace|csf18
+SYNC don't let go|csf26
+SYNC inuit kiss|csf27
+SYNC beloved|csf32
+
+MENU CUDDLE2
+SYNC confess|csf49
+SYNC trust me|csf53
+SYNC stargazing|csf59
+SYNC unwind|2baf20
+SYNC appeal|2baf23
+SYNC closer|htcf1
+SYNC untangle|htcf2
+
+MENU KISSES
+SYNC kiss1|2baf5
+SYNC kiss2|2baf6
+SYNC kiss3|2baf7
+SYNC kiss4|2baf8
+SYNC kiss5|csf15
+SYNC kiss6|csf21
+SYNC kiss7|csf28
+SYNC kiss8|csf30
+
+MENU FOREPLAY
+SYNC pussyplay1|htaf2
+SYNC pussyplay2|htaf6
+SYNC cockplay1|4pwif6
+SYNC cockplay2|6misf17a
+
+MENU BLOWJOB
+SYNC ball play|4pbf16
+SYNC prayer|4pbf23
+SYNC get right|4pbf30
+SYNC radical bj|4pbf35a
+SYNC archer bj|4pbf34
+SYNC his way|4pbf28
+SYNC big dipper|4pbf42b
+
+MENU TONGUEPLAY
+SYNC 68|lick_06_f Galaxy
+SYNC stand lick|4plf11
+SYNC face ride|4plf13
+SYNC feedbag|4plf20
+SYNC central|4plf22
+SYNC jane bond|4plf23
+SYNC flexible|4plf27
+
+MENU SEX
+TOMENU STANDFUCK
+TOMENU BATHSEX1
+TOMENU BATHSEX2
+TOMENU BATHSEX3
+
+MENU STANDFUCK
+SYNC ably|6stff1
+SYNC starfuck|6stff5
+SYNC eye 2 eye|6stff15a
+SYNC vane|6stff18
+SYNC cling|6stff21
+SYNC pulled in|6stff23b
+SYNC plump bang|6stff24
+SYNC bonk|6stff25
+SYNC hard candy|rsf4
+SYNC hunch|rsf41
+
+MENU BATHSEX1
+SYNC pony ride|6rif18
+SYNC take that|htaf5
+SYNC heightened|6sff1
+SYNC nipple glaze|sexF5
+SYNC bounce|6sff4
+SYNC sunday drive|6sff14
+SYNC joy ride|6sff15
+SYNC come on|6sff23
+SYNC nest|6dof3
+SYNC tootsee roll|6dof12
+
+MENU BATHSEX2
+SYNC doggy tap|6dof4
+SYNC wide open|6dof14
+SYNC tittfuck|6tff6
+SYNC close fuck|6misf6
+SYNC capped|6misf8
+SYNC dwarfish|6misf15
+SYNC grind|6misf17b
+SYNC flimsy|6misf17c
+SYNC clasp|6misf21
+SYNC handy|6misf24
+
+MENU BATHSEX3
+SYNC in season|rsf14
+SYNC walker|rsf17
+SYNC up the ass|rsf18
+SYNC hard grace|rsf31
+SYNC throatfuck|rsf24
+SYNC suck4cum|cumf9
+SYNC dirty hands|cumf12
+BUTTON  ‌
+SYNC ░clean░|1sb12
+BUTTON  ‌
+{f-bath1}<0.223,0.032,-0.144><0,0,180>
+{f-bath2}<0.605,0.103,-0.118><0,0,-179>
+{f-bath3}<0.605,0.103,-0.118><0,0,-179>
+{f-bath4}<0.605,0.103,-0.118><0,0,-179>
+{f-bath5}<0.605,0.103,-0.118><0,0,-179>
+{f-bath6}<0.605,0.103,-0.118><0,0,-179>
+{f-bath7}<0.605,0.103,-0.118><0,0,-179>
+{f-bath8}<0.605,0.103,-0.094><0,0,-179>
+{f-bath9}<0.593,-0.046,-0.159><0,0,180>
+{f-brush}<0.593,-0.046,-0.159><0,0,180>
+{f-hair}<0.686,-0.005,-0.159><0,0,180>
+{f-read}<0.593,-0.046,-0.149><0,0,180>
+{f-champagne}<0.543,0.093,-0.128><0.2,-2,-173>
+{talk1}<0.68,0.013,-0.131><0,0,180>
+{talk2}<0.644,0,-0.177><0,3,180>
+{talk3}<-0.959,0,-0.15><0,-1,0>
+{talk4}<-0.835,0.048,0.864><1.1,-14,5.1>
+{bathing1}<0.348,0.022,-0.066><0,0,180>
+{bathing2}<0.361,0.02,-0.097><0,0,180>
+{bathing3}<0.398,0.016,0.133><0,0,180>
+{bathing4}<0.838,-0.571,0.464><0,0,180>
+{bathing5}<-0.023,0.069,0.07><0.6,0.8,-35>
+{bathing6}<-0.134,-0.476,0.793><0,0,0>
+{foot rub}<-0.303,-0.399,0.563><0,0,0>
+{massage1}<0.527,-0.001,0.174><0,0,180>
+{massage2}<0.251,0.003,-0.108><0,0,180>
+{read}<0.49,0.008,-0.033><0,0,180>
+{splash}<0.452,-0.017,0.131><0,0,180>
+{wine}<0.405,0.074,-0.07><0,0,-176>
+{bubble}<-0.263,0.261,-0.066><0,0,-90>
+{Champagne}<0.414,-0.311,-0.127><0,0,174>
+{adored}<0.249,0.008,-0.09><0,-4,180>
+{it's okay}<0.231,-0.34,-0.017><6,0,180>
+{ombro}<0.329,0.051,-0.125><0,0,180>
+{bosom peck}<0.57,0.087,0.024><-1,-4.9,169>
+{with you}<0,-0.013,-0.079><0,2,-90>
+{tell me}<0.145,-0.007,0.314><0.7,5.1,-175.9>
+{embrace}<0.181,-0.004,0.374><0,-7,0>
+{don't let go}<0.001,0.007,0.045><0.1,-1,-180>
+{inuit kiss}<0.377,0.003,0.147><-0.6,2,3.1>
+{beloved}<0.161,0.027,0.471><-1,-2.3,-174.6>
+{confess}<0.179,-0.175,-0.131><0,0,178.6>
+{trust me}<0.315,0.063,-0.188><0,0,177>
+{stargazing}<-0.275,0.2,-0.038><4.4,-2.5,-86.9>
+{unwind}<-0.196,0.481,0.613><0,0,-171>
+{appeal}<-0.002,-0.504,0.64><0,0,4>
+{closer}<-0.341,-0.489,0.01><0,0,90>
+{untangle}<-0.365,-0.468,-0.025><0,0,74>
+{kiss1}<0.178,0.018,-0.122><0,0,180>
+{kiss2}<0.184,0.046,0.111><0,-3,0>
+{kiss3}<-0.029,0.008,0.092><0,0,180>
+{kiss4}<0.393,0.163,0.033><0,0,-90>
+{kiss5}<-0.638,-0.027,0.155><1.5,-4.2,93>
+{kiss6}<0.406,0.01,-0.018><-1,-4.1,-179.9>
+{kiss7}<0.014,-0.046,0.025><-0.5,3,1.1>
+{kiss8}<-0.053,-0.037,0.937><-0.1,1.5,5.5>
+{pussyplay1}<0.493,-0.159,-0.099><0,0,180>
+{pussyplay2}<-0.757,0.152,0.003><-0,-4,7>
+{cockplay1}<-0.005,0,0.918><0,3,180>
+{cockplay2}<-0.297,-0.001,0.965><0,0,0>
+{ball play}<0.445,0.079,0.115><-3,0,180>
+{prayer}<-0.338,0.02,0.941><0,0,3>
+{get right}<0.379,-0.003,0.833><0,0,179>
+{radical bj}<-0.462,0.174,0.9><3,0,-90>
+{archer bj}<1.188,-0.09,0.898><0,0,175>
+{his way}<-0.133,0.005,0.957><0,0,180>
+{big dipper}<0.094,0,0.919><0,0,180>
+{68}<0.184,-0.008,0.952><-0.7,-14.1,-90.1>
+{stand lick}<-0.278,0.038,0.989><0,0,-10>
+{face ride}<0.313,0.212,1.632><0,0,-155.9>
+{feedbag}<-0.929,-0.002,0.892><0,0,0>
+{central}<0.2,0.008,0.986><0,0,-3>
+{jane bond}<0.184,-0.024,0.979><0,0,0>
+{flexible}<0.057,-0.002,0.844><0,-4,0>
+{ably}<-0.062,-0.21,0.889><0,0,129.4>
+{starfuck}<-0.121,-0.047,0.928><0,0,142>
+{eye 2 eye}<-0.137,-0.1,1.157><0,0,-74>
+{vane}<-0.086,-0.061,1.078><0,0,-58>
+{cling}<-0.182,-0.287,1.146><-6.1,3.5,60.2>
+{pulled in}<-0.182,-0.167,1.261><0,0,-134>
+{plump bang}<-0.067,-0.122,1.089><0,0,61.9>
+{bonk}<-0.176,-0.136,1.016><0,0,92>
+{hard candy}<0.056,-0.111,0.944><-4,2.9,-90>
+{hunch}<-0.16,-0.039,0.892><-4,0,-90>
+{pony ride}<0.047,0.012,0.876><0,0,0>
+{take that}<-0.653,0.329,-0.019><0,3,0>
+{heightened}<-0.09,0.272,0.906><0,0,-90>
+{nipple glaze}<-0.166,-0.086,0.917><0,0,-90>
+{bounce}<0.452,0.004,0.817><-0.7,9,-179.9>
+{sunday drive}<-0.469,-0.013,0.87><0,4.9,180>
+{joy ride}<-0.261,-0.184,0.286><0,0,90>
+{come on}<0.39,-0.088,0.881><0,0,167.2>
+{nest}<0.133,-0.01,0.964><0,0,0>
+{tootsee roll}<0.138,0.018,1.018><0,0,0>
+{doggy tap}<0.181,0.011,0.922><0,0,0>
+{wide open}<-0.484,0.014,0.92><0,0,180>
+{tittfuck}<-0.187,0.021,0.355><0,0,0>
+{close fuck}<-0.085,-0.102,0.935><0,0,-86>
+{capped}<-0.693,-0.023,0.915><0,0,-174>
+{dwarfish}<-0.005,-0.072,0.946><0,0,-92>
+{grind}<0.089,-0.446,0.952><2,0,90>
+{flimsy}<-0.199,-0.396,0.879><0,0,90>
+{clasp}<-1.545,0,0.806><0,-1,180>
+{handy}<0.02,0.04,0.326><0,0,-90>
+{in season}<0.056,0.032,0.778><0,0,-16.9>
+{walker}<-0.055,-0.275,0.901><-2,-0.2,-85.3>
+{up the ass}<-0.009,-0.001,0.933><0,0,0>
+{hard grace}<-0.041,-0.133,0.242><0,0,-90>
+{throatfuck}<-0.118,0.013,0.931><0,0,180>
+{suck4cum}<-0.116,0.006,0.95><0,0,180>
+{dirty hands}<-0.024,-0.093,0.89><0.6,3.9,172.2>
+{░clean░}<0.265,0.131,1.046><0.2,-0.3,-109.6>
+
+PROP f-read|book-r|GROUP23|<0.518356, -0.015190, 0.249695>|<-3.145396, 16.560080, 16.618000>
+PROP bath-rack|rack|GROUP1|<-0.494293, -0.038940, 0.301270>|<0.000000, 0.000000, -90.000010>
+PROP bath-roses|roses|GROUP2|<0.000000, 0.000000, -0.282959>|<0.000000, 0.000000, 0.000000>
+PROP bath-glass|glass-champagne|GROUP3|<-0.494293, -0.298248, 0.280762>|<0.000000, 0.000000, 0.000000>
+PROP bath-candle|candle|GROUP4|<-0.492813, 0.292923, 0.364990>|<0.000000, 0.000000, 0.000000>
+PROP bath-bowl|bowl-roses|GROUP5|<-0.494614, -0.417740, 0.352478>|<0.000000, 0.000000, 0.000000>
+PROP bath-book|book|GROUP6|<-0.680450, -0.168091, 0.271423>|<0.000000, 0.000000, 0.000000>
+PROP books|books-mug|GROUP7|<-1.494705, -0.842178, -0.403809>|<0.000000, 0.000000, 0.000000>
+PROP candles|candles-ground|GROUP8|<-2.040863, 1.038803, -0.260681>|<0.000000, 0.000000, 7.999934>
+PROP champagne|champagne|GROUP9|<0.938980, -0.928619, 0.340088>|<0.000000, 0.000000, 0.000000>
+PROP rack&items|rack-towel|GROUP10|<1.188812, 1.198227, 0.074402>|<0.000000, 0.000000, -21.999210>
+PROP steam on|water-mist|GROUP11|<-0.079849, -0.015350, -0.169434>|<0.000000, 0.000000, 0.000000>
+PROP faucet-on|water_faucet|GROUP12|<-0.010635, 0.489792, 0.644836>|<0.000000, 0.000000, 0.000000>
+PROP strawberries|strawberries|GROUP13|<-0.503281, 0.063011, 0.346802>|<0.000000, 0.000000, -6.000021>
+PROP books-2|books_ground|GROUP14|<-1.882507, -0.986923, -0.352112>|<0.000000, 0.000000, 180.000000>
+PROP roses|roses_ground|GROUP15|<-1.226074, -1.514038, -0.460754>|<0.000000, 0.000000, 180.000000>
+PROP roses-2|roses_ground2|GROUP16|<1.891556, 0.289703, -0.460754>|<0.000000, 0.000000, 77.999980>
+PROP1 Champagne|champagne-f|G1|<0.00000, 0.67010, 0.45453>|<0.00000, 0.00000, 0.00000>|left hand
+PROP1 f-champagne|champagne-f|G1|<0.00000, 0.67010, 0.45453>|<0.00000, 0.00000, 0.00000>|left hand
+PROP1 wine|Red Wine (add/wear me)-femaleLH|G1|<0.00000, 0.67010, 0.45453>|<0.00000, 0.00000, 0.00000>|left hand
+PROP cl|cloud|G65|<-0.08873, 0.10897, 2.59778>|<0.29937, -0.28246, -152.62610>|

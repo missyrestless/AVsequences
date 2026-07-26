@@ -1,0 +1,474 @@
+SEQUENCE  ►m-bath
+PLAY m-bath2
+WAIT 120
+PLAY m-bath3
+WAIT 120
+PLAY m-bath4
+WAIT 120
+PLAY m-bath5
+WAIT 120
+PLAY m-bath6
+WAIT 12
+PLAY m-bath7
+WAIT 120
+PLAY m-bath8
+WAIT 120
+PLAY m-bath2
+WAIT 240
+LOOP
+
+
+SEQUENCE  ►f-bath
+PLAY f-bath2
+WAIT 120
+PLAY f-bath3
+WAIT 120
+PLAY f-bath4
+WAIT 120
+PLAY f-bath5
+WAIT 120
+PLAY f-bath6
+WAIT 12
+PLAY f-bath7
+WAIT 120
+PLAY f-bath8
+WAIT 120
+PLAY f-bath2
+WAIT 240
+LOOP
+
+
+SEQUENCE ♬SOUND♬
+WHISPER Press ADJUST -> [SOUND] to turn sound on/off
+WAIT 2
+SOUND Nerenzo-water1|0.7
+WAIT 8
+SOUND Nerenzo-water1|0.7
+WAIT 8
+SOUND Nerenzo-water1|0.7
+WAIT 8
+SOUND Nerenzo-water2|0.7
+WAIT 8
+SOUND Nerenzo-water2|0.7
+WAIT 8
+SOUND Nerenzo-water2|0.7
+WAIT 8
+SOUND Nerenzo-water3|0.7
+WAIT 6
+SOUND Nerenzo-water2|0.7
+WAIT 8
+SOUND Nerenzo-water2|0.7
+WAIT 8
+SOUND Nerenzo-water1|0.7
+WAIT 8
+SOUND Nerenzo-water2|0.7
+WAIT 8
+LOOP
+
+SEQUENCE ►m-bathing
+PLAY talk1
+WAIT 60
+PLAY talk2
+WAIT 60
+PLAY talk3
+WAIT 60
+PLAY talk4
+WAIT 60
+PLAY bathing1
+WAIT 60
+PLAY bathing2
+WAIT 60
+PLAY bathing3
+WAIT 60
+PLAY bathing4
+WAIT 60
+PLAY bathing5
+WAIT 60
+PLAY bathing6
+WAIT 60
+PLAY foot rub
+WAIT 60
+PLAY massage1
+WAIT 60
+PLAY massage2
+WAIT 60
+PLAY read
+WAIT 60
+PLAY splash
+WAIT 60
+PLAY wine
+WAIT 60
+PLAY bubble
+WAIT 60
+PLAY Champagne
+WAIT 60
+LOOP
+
+SEQUENCE ►m-cuddle
+PLAY adored
+WAIT 60
+PLAY it's okay
+WAIT 60
+PLAY ombro
+WAIT 60
+PLAY bosom peck
+WAIT 60
+PLAY with you
+WAIT 60
+PLAY tell me
+WAIT 60
+PLAY embrace
+WAIT 60
+PLAY don't let go
+WAIT 60
+PLAY inuit kiss
+WAIT 60
+PLAY beloved
+WAIT 60
+PLAY confess
+WAIT 60
+PLAY trust me
+WAIT 60
+PLAY stargazing
+WAIT 60
+PLAY unwind
+WAIT 60
+PLAY appeal
+WAIT 60
+PLAY closer
+WAIT 60
+PLAY untangle
+WAIT 60
+PLAY kiss1
+WAIT 60
+PLAY kiss2
+WAIT 60
+PLAY kiss3
+WAIT 60
+PLAY kiss4
+WAIT 60
+PLAY kiss5
+WAIT 60
+PLAY kiss6
+WAIT 60
+PLAY kiss7
+WAIT 60
+PLAY kiss8
+WAIT 60
+LOOP
+
+SEQUENCE ►m-foreplay
+PLAY pussyplay1
+WAIT 60
+PLAY pussyplay2
+WAIT 60
+PLAY cockplay1
+WAIT 60
+PLAY cockplay2
+WAIT 60
+PLAY ball play
+WAIT 60
+PLAY prayer
+WAIT 60
+PLAY get right
+WAIT 60
+PLAY radical bj
+WAIT 60
+PLAY archer bj
+WAIT 60
+PLAY his way
+WAIT 60
+PLAY big dipper
+WAIT 60
+PLAY 68
+WAIT 60
+PLAY stand lick
+WAIT 60
+PLAY face ride
+WAIT 60
+PLAY feedbag
+WAIT 60
+PLAY central
+WAIT 60
+PLAY jane bond
+WAIT 60
+PLAY flexible
+WAIT 60
+LOOP
+
+SEQUENCE ►m-sex
+PLAY ably
+WAIT 60
+PLAY starfuck
+WAIT 60
+PLAY eye 2 eye
+WAIT 60
+PLAY vane
+WAIT 60
+PLAY cling
+WAIT 60
+PLAY pulled in
+WAIT 60
+PLAY plump bang
+WAIT 60
+PLAY bonk
+WAIT 60
+PLAY hard candy
+WAIT 60
+PLAY hunch
+WAIT 60
+PLAY pony ride
+WAIT 60
+PLAY take that
+WAIT 60
+PLAY heightened
+WAIT 60
+PLAY nipple glaze
+WAIT 60
+PLAY bounce
+WAIT 60
+PLAY sunday drive
+WAIT 60
+PLAY joy ride
+WAIT 60
+PLAY come on
+WAIT 60
+PLAY nest
+WAIT 60
+PLAY tootsee roll
+WAIT 60
+PLAY doggy tap
+WAIT 60
+PLAY wide open
+WAIT 60
+PLAY tittfuck
+WAIT 60
+PLAY close fuck
+WAIT 60
+PLAY capped
+WAIT 60
+PLAY dwarfish
+WAIT 60
+PLAY grind
+WAIT 60
+PLAY flimsy
+WAIT 60
+PLAY clasp
+WAIT 60
+PLAY handy
+WAIT 60
+PLAY in season
+WAIT 60
+PLAY walker
+WAIT 60
+PLAY up the ass
+WAIT 60
+PLAY hard grace
+WAIT 60
+PLAY throatfuck
+WAIT 60
+PLAY suck4cum
+WAIT 60
+PLAY dirty hands
+WAIT 60
+LOOP
+
+SEQUENCE ►f-bathing
+PLAY talk1
+WAIT 60
+PLAY talk2
+WAIT 60
+PLAY talk3
+WAIT 60
+PLAY talk4
+WAIT 60
+PLAY bathing1
+WAIT 60
+PLAY bathing2
+WAIT 60
+PLAY bathing3
+WAIT 60
+PLAY bathing4
+WAIT 60
+PLAY bathing5
+WAIT 60
+PLAY bathing6
+WAIT 60
+PLAY foot rub
+WAIT 60
+PLAY massage1
+WAIT 60
+PLAY massage2
+WAIT 60
+PLAY read
+WAIT 60
+PLAY splash
+WAIT 60
+PLAY wine
+WAIT 60
+PLAY bubble
+WAIT 60
+PLAY Champagne
+WAIT 60
+LOOP
+
+SEQUENCE ►f-cuddle
+PLAY adored
+WAIT 60
+PLAY it's okay
+WAIT 60
+PLAY ombro
+WAIT 60
+PLAY bosom peck
+WAIT 60
+PLAY with you
+WAIT 60
+PLAY tell me
+WAIT 60
+PLAY embrace
+WAIT 60
+PLAY don't let go
+WAIT 60
+PLAY inuit kiss
+WAIT 60
+PLAY beloved
+WAIT 60
+PLAY confess
+WAIT 60
+PLAY trust me
+WAIT 60
+PLAY stargazing
+WAIT 60
+PLAY unwind
+WAIT 60
+PLAY appeal
+WAIT 60
+PLAY closer
+WAIT 60
+PLAY untangle
+WAIT 60
+PLAY kiss1
+WAIT 60
+PLAY kiss2
+WAIT 60
+PLAY kiss3
+WAIT 60
+PLAY kiss4
+WAIT 60
+PLAY kiss5
+WAIT 60
+PLAY kiss6
+WAIT 60
+PLAY kiss7
+WAIT 60
+PLAY kiss8
+WAIT 60
+LOOP
+
+SEQUENCE ►f-foreplay
+PLAY ball play
+WAIT 60
+PLAY prayer
+WAIT 60
+PLAY get right
+WAIT 60
+PLAY radical bj
+WAIT 60
+PLAY archer bj
+WAIT 60
+PLAY his way
+WAIT 60
+PLAY big dipper
+WAIT 60
+PLAY 68
+WAIT 60
+PLAY stand lick
+WAIT 60
+PLAY face ride
+WAIT 60
+PLAY feedbag
+WAIT 60
+PLAY central
+WAIT 60
+PLAY jane bond
+WAIT 60
+PLAY flexible
+WAIT 60
+LOOP
+
+SEQUENCE ►f-sex
+PLAY ably
+WAIT 60
+PLAY starfuck
+WAIT 60
+PLAY eye 2 eye
+WAIT 60
+PLAY vane
+WAIT 60
+PLAY cling
+WAIT 60
+PLAY pulled in
+WAIT 60
+PLAY plump bang
+WAIT 60
+PLAY bonk
+WAIT 60
+PLAY hard candy
+WAIT 60
+PLAY hunch
+WAIT 60
+PLAY pony ride
+WAIT 60
+PLAY take that
+WAIT 60
+PLAY heightened
+WAIT 60
+PLAY nipple glaze
+WAIT 60
+PLAY bounce
+WAIT 60
+PLAY sunday drive
+WAIT 60
+PLAY joy ride
+WAIT 60
+PLAY come on
+WAIT 60
+PLAY nest
+WAIT 60
+PLAY tootsee roll
+WAIT 60
+PLAY doggy tap
+WAIT 60
+PLAY wide open
+WAIT 60
+PLAY tittfuck
+WAIT 60
+PLAY close fuck
+WAIT 60
+PLAY capped
+WAIT 60
+PLAY dwarfish
+WAIT 60
+PLAY grind
+WAIT 60
+PLAY flimsy
+WAIT 60
+PLAY clasp
+WAIT 60
+PLAY handy
+WAIT 60
+PLAY in season
+WAIT 60
+PLAY walker
+WAIT 60
+PLAY up the ass
+WAIT 60
+PLAY hard grace
+WAIT 60
+PLAY throatfuck
+WAIT 60
+PLAY suck4cum
+WAIT 60
+PLAY dirty hands
+WAIT 60
+LOOP
