@@ -1,0 +1,451 @@
+
+"BLVCKNEST // DUSTBLOOM. HANGING DAYBED" AVsitter 2.2
+
+SITTER 0
+
+TOMENU Solo
+TOMENU Couple Sleep
+TOMENU Romance
+TOMENU Lesbian Sex
+TOMENU Adult
+
+
+MENU Solo
+SEQUENCE SEQ-F-Solo
+POSE Single1|SingBenBed M2
+POSE Single2|SingBenBed F6
+POSE Single3|SingBenBed F3
+POSE Single4|SingBenBed Pt2 F2
+POSE Single5|SingBenBed Pt2 F3
+POSE Single6|SingBenBed Pt2 M1
+POSE Single7|SingBenBed Pt2 M5
+
+MENU Couple Sleep
+SEQUENCE SEQ-F-Sleep
+SYNC Sleep1|DBsp F1
+SYNC Sleep2|DBsp F2
+SYNC Sleep3|DBsp F3
+SYNC Sleep4|DBsp F4
+SYNC Sleep5|DBsp F5
+SYNC Sleep6|DBsp F6
+
+MENU Romance
+SEQUENCE SEQ-F-Romance
+SYNC Kiss1|DBk F1
+SYNC Kiss2|DBk F2
+SYNC Kiss3|DBk F3
+SYNC Kiss4|DBk F4
+SYNC Kiss5|DBk F5
+SYNC Kiss6|DBk F6
+SYNC Cuddle1|DBc F1
+SYNC Cuddle2|DBc F2
+SYNC Cuddle3|DBc F3
+SYNC Cuddle4|DBc F4
+SYNC Cuddle5|DBc F5
+SYNC Cuddle6|DBc F6
+SYNC Cuddle7|Tcudd F2
+SYNC Cuddle8|Tcudd F1
+SYNC Cuddle9|Tcudd F3
+SYNC Cuddle10|Tcudd F4
+SYNC Cuddle11|Tcudd F5
+SYNC Cuddle12|Tcudd F6
+SYNC Cuddle13|KBKb-AC F1
+SYNC Cuddle14|KBKb-AC F2
+SYNC Cuddle15|KBKb-AC F3
+SYNC Cuddle16|KBKb-AC F4
+SYNC Cuddle17|KBKb-AC F5
+SYNC Cuddle18|KBKb-AC F6
+
+MENU Lesbian Sex
+SEQUENCE SEQ-Les-Sex
+SYNC Eat Her Cookie|[RNP] Sex #214 - Lesbian - Lick - Female 1 - 37 seconds
+SYNC Rub On Her|[RNP] Sex #217 - Lesbian - Female 1 - 30 seconds
+SYNC Trap Her|[RNP] Sex #218 - Lesbian - Female 1 - 30  seconds
+SYNC Deep Her|[RNP] Sex #219 - Lesbian - Female 1 - 30 seconds
+SYNC Tongue Her|[RNP] Sex #220 - Lesbian - Face Sit - Female 1 - 25 seconds
+SYNC Wet Her|[RNP] Sex #225 - Lesbian - Female 1 - 30 seconds
+SYNC Nice Ass|[RNP] Sex #227 - Lesbian - Female 1 - 30 seconds
+SYNC Above Her|[RNP] Sex #233 - Lesbian - Female 1 - Double Dildo - 34 seconds
+SYNC On Her|[RNP] Sex #234 - Lesbian - Female 1 - Double Dildo - 30 seconds
+SYNC All Hers|[RNP] Sex #235 - Lesbian - Lick - Female 1 - 30 seconds
+
+MENU Adult
+SEQUENCE SEQ-F-Adult
+SYNC Tease1|Sex120F
+SYNC Tease2|Sex124F
+SYNC Tease3|Sex125F
+SYNC Tease4|Sex162F
+SYNC Tease5|Sex163F
+SYNC Handjob1|Sex123F
+SYNC Titfuck|Sex118F
+SYNC Lick|DBlk F5
+SYNC Lick2|TAdt F2
+SYNC Lick3|Sex116F
+SYNC Lick4|Sex121F
+SYNC Suck1|TAdt F1
+SYNC Suck2|Sex119F
+SYNC Back1|DBBk F1
+SYNC Back2|DBBk F2
+SYNC Back3|DBBk F3
+SYNC Back4|DBBk F4
+SYNC Back5|TAdt F5
+SYNC Back6|TAdt F6
+SYNC Back7|Sex143F
+SYNC Back8|Sex142F
+SYNC Back9|Sex149F
+SYNC Back10|Sex150F
+SYNC Behind1|Sex161F
+SYNC Ride1|DBR F1
+SYNC Ride2|DBR F2
+SYNC Ride3|DBR F3
+SYNC Ride4|DBR F4
+SYNC Ride5|TAdt F4
+SYNC Ride6|Sex152F
+SYNC Missionary|TAdt F7
+SYNC Missionary2|TAdt F8
+SYNC Front1|Sex117F
+SYNC Front2|Sex126F
+SYNC Front3|Sex140F
+SYNC Front4|Sex139F
+SYNC Front5|Sex141F
+SYNC Front6|Sex148F
+SYNC Front7|Sex153F
+SYNC Squat1|Sex127F
+SYNC Lap1|Sex144F
+SYNC Lap2|Sex145F
+SYNC Top1|Sex146F
+SYNC Side1|Sex147F
+SYNC Side2|Sex160F
+SYNC Cum1|DBCm F5
+SYNC Cum2|DBCm F6
+SYNC Cum3|DBCm F7
+SYNC Cum4|DBCm F8
+{Humble Girl}<0.004,0,-2.776><0,0,-90>
+{Humble Girl (Wrists)}<-0.011,0,-2.776><0,0,-90>
+{Humble Girl (Arms)}<-0.083,0,-2.776><0,0,-90>
+{Humble Girl (Arms up)}<-0.03,0,-2.776><0,0,-90>
+{Knees on point}<-0.004,0,-2.776><0,0,-86>
+{Bow Down}<-0.01,0,-2.776><0,0,-90>
+{Showcase}<-0.037,0.069,-2.778><0,0,-90>
+{Humble Stand}<0.016,0.069,-2.64><0,0,-90>
+{Humble Stand (Arms up)}<0.016,0.069,-2.778><0,0,-90>
+{Humble Stand (Stretched}<0.016,-0.023,-2.778><0,0,-90>
+{Humble Bent}<-0.007,0.124,-2.778><0,0,-86>
+{Humble Kneeling}<0.009,0.069,-2.778><0,0,-86>
+{Sleep Tight}<0.044,0.01,-2.778><0,0,180>
+{Single1}<0.197,0.223,0.355><-4,0,-90>
+{Single2}<0.783,0.408,0.301><-2,0.3,-98>
+{Single3}<1.007,0.068,0.46><-1,0.2,-104>
+{Single4}<0.731,0.374,0.437><-3,0.5,-100>
+{Single5}<0.569,0.22,0.417><0,0,-90>
+{Single6}<0.199,0.879,0.367><-2.9,0.9,-108>
+{Single7}<-0.189,0.471,0.45><-2.9,0.7,-103>
+{Sleep1}<0.031,-0.347,0.581><-8.4,-3.2,-69.2>
+{Sleep2}<-0.097,-0.271,0.443><-1,4,-89.9>
+{Sleep3}<0.043,-0.699,-3.557><-1.9,-0.6,-74>
+{Sleep4}<-0.081,-0.108,0.535><-6.3,-10,-65.8>
+{Sleep5}<0.337,-0.302,0.562><-5.8,-1.3,-63.1>
+{Sleep6}<0.329,-0.074,0.529><-1.8,-0.8,-57>
+{Kiss1}<0.283,0.621,0.557><0,0,103>
+{Kiss2}<0.276,0.077,0.6><0,0,141>
+{Kiss3}<0.549,-0.406,0.523><0,0,148>
+{Kiss4}<0.217,-0.448,0.565><-3,0,119>
+{Kiss5}<0.224,-0.276,0.797><-13,0,90>
+{Kiss6}<0.214,-0.351,0.566><0,0,125>
+{Cuddle1}<-0.293,-0.671,0.578><0,0,58>
+{Cuddle2}<0.006,-0.67,0.499><2.6,5.4,63.9>
+{Cuddle3}<0.657,0.354,0.481><-3,0,145>
+{Cuddle4}<0.285,-0.31,0.579><-8.1,-3.9,115.7>
+{Cuddle5}<0.14,-0.447,0.679><-8,0,90>
+{Cuddle6}<0.019,-0.604,0.624><0,0,90>
+{Cuddle7}<-0.262,-0.241,0.713><-7,-0.3,-90>
+{Cuddle8}<-0.068,-0.431,0.713><0,0,-90>
+{Cuddle9}<-0.136,-0.466,0.789><-8.5,-3.1,-61.2>
+{Cuddle10}<-0.171,0.641,0.731><-4,0,98>
+{Cuddle11}<-0.047,-0.151,0.679><-4.8,-1.3,-75.1>
+{Cuddle12}<-0.161,0.272,0.509><-2,-0.3,98>
+{Cuddle13}<0.728,0.705,0.438><-4.9,-1.2,-76.1>
+{Cuddle14}<0.908,-0.072,0.275><-9.5,3.1,-107.7>
+{Cuddle15}<0.87,0.101,0.286><-8.5,3.1,-109.8>
+{Cuddle16}<0.734,-0.141,0.393><0,0,-121>
+{Cuddle17}<0.986,0.164,0.498><0,0,-77>
+{Cuddle18}<0.715,-0.84,0.563><0,0,-119>
+{Eat Her Cookie}<-0.004,-0.077,0.741><0,0,180>
+{Rub On Her}<-0.128,-0.273,0.788><0,0,180>
+{Trap Her}<0.068,-0.23,0.734><0,0,180>
+{Deep Her}<0.046,-0.315,0.76><0,0,180>
+{Tongue Her}<0.084,-0.286,0.764><0,0,180>
+{Wet Her}<0.322,0.112,0.875><0,0,180>
+{Nice Ass}<0.076,-0.176,0.81><0,0,180>
+{Above Her}<0.182,-0.279,0.794><0,0,180>
+{On Her}<-0.012,-0.348,0.818><0,0,180>
+{All Hers}<0.128,-0.33,0.746><0,0,180>
+{Tease1}<-0.004,-0.198,0.693><0,0,180>
+{Tease2}<-0.194,-0.283,0.865><0,0,-156>
+{Tease3}<-0.185,-0.01,0.667><0,0,180>
+{Tease4}<-0.101,-0.469,0.781><0,0,21>
+{Tease5}<0.217,-0.308,0.784><0,0,21>
+{Handjob1}<-0.302,-0.373,0.822><0,0,116>
+{Titfuck}<0.116,-0.125,0.813><0,0,180>
+{Lick}<-0.175,-0.539,0.701><0,0,101.6>
+{Lick2}<-0.016,0.26,0.781><-5,-0.3,-90>
+{Lick3}<-0.584,0.187,0.679><0,0,-138>
+{Lick4}<0.062,-0.282,0.754><0,0,180>
+{Suck1}<-0.011,-0.229,0.704><-6.9,-1,100.9>
+{Suck2}<0.062,0.134,0.732><0,0,180>
+{Back1}<0.054,-0.392,0.6><0,0,90>
+{Back2}<0.001,-0.46,0.563><0,0,63>
+{Back3}<-0.122,-0.69,0.617><0,0,64>
+{Back4}<0.164,-0.601,0.645><0,0,90>
+{Back5}<-0.016,0.156,0.731><0,0.3,90>
+{Back6}<-0.142,0.05,0.679><-0.1,-0.3,-110>
+{Back7}<0.049,0.165,0.824><0,0,0>
+{Back8}<0.008,-0.101,0.739><-4.7,1.7,-109.9>
+{Back9}<-0.102,-0.037,0.874><0,0,-163>
+{Back10}<0.14,-0.045,0.786><1,0,180>
+{Behind1}<0.002,-0.031,0.839><0,0,21>
+{Ride1}<0.076,-0.622,0.557><-2.9,0.6,77>
+{Ride2}<0.095,-0.219,0.593><-3.9,-0.7,100>
+{Ride3}<0.239,-0.393,0.615><-2,-0.2,96>
+{Ride4}<-0.057,-0.406,0.58><-3,0,90>
+{Ride5}<0.035,0.362,0.738><-5.8,1.4,79.1>
+{Ride6}<-0.045,-0.3,0.892><-3,0,-90>
+{Missionary}<0.145,-0.252,0.691><-0.1,-0.3,-107>
+{Missionary2}<0.153,-0.21,0.641><-3,0.4,-104>
+{Front1}<-0.023,0.154,0.766><-4,0,180>
+{Front2}<-0.048,0.063,0.856><2.4,-1.8,142>
+{Front3}<0.081,-0.086,0.811><2.1,1.7,156.2>
+{Front4}<0.277,-0.103,0.718><3,0,180>
+{Front5}<0.109,-0.177,0.763><3,0,180>
+{Front6}<-0.187,-0.12,0.8><0,0,-70>
+{Front7}<0.023,-0.33,0.783><0,0,180>
+{Squat1}<-0.049,-0.139,0.75><1.8,2.6,-106>
+{Lap1}<0.049,0.272,0.827><0,0,0>
+{Lap2}<-0.013,-0.495,0.746><0,0,-113>
+{Top1}<0.017,-0.559,0.806><0,0,-90>
+{Side1}<-0.187,-0.182,0.852><0,0,-90>
+{Side2}<0.308,-0.004,0.759><0,0,21>
+{Cum1}<0.04,0.326,0.587><0,0,-90>
+{Cum2}<0.002,0.605,0.576><-4,0,-90>
+{Cum3}<0.021,-0.587,0.575><-4,0.6,52>
+{Cum4}<1.304,-0.002,-0.095><2.1,-4.2,23.6>
+
+
+SITTER 1
+
+TOMENU Solo
+TOMENU Couple Sleep
+TOMENU Romance
+TOMENU Lesbian Sex
+TOMENU Adult
+
+MENU Solo
+SEQUENCE SEQ-M-Solo
+POSE Single1|SingBenBed M2
+POSE Single2|SingBenBed F6
+POSE Single3|SingBenBed F3
+POSE Single4|SingBenBed Pt2 F2
+POSE Single5|SingBenBed Pt2 F3
+POSE Single6|SingBenBed Pt2 M1
+POSE Single7|SingBenBed Pt2 M5
+POSE Single8|[RNP] Flat Surface Lay #5 - Male - 36 seconds
+POSE Single9|[RNP] Sleep #6_Male_53 seconds
+
+MENU Couple Sleep
+SEQUENCE SEQ-M-Sleep
+SYNC Sleep1|DBsp M1
+SYNC Sleep2|DBsp M2
+SYNC Sleep3|DBsp M3
+SYNC Sleep4|DBsp M4
+SYNC Sleep5|DBsp M5
+SYNC Sleep6|DBsp M6
+
+MENU Romance
+SEQUENCE SEQ-M-Romance
+SYNC Kiss1|DBk M1
+SYNC Kiss2|DBk M2
+SYNC Kiss3|DBk M3
+SYNC Kiss4|DBk M4
+SYNC Kiss5|DBk M5
+SYNC Kiss6|DBk M6
+SYNC Cuddle1|DBc M1
+SYNC Cuddle2|DBc M2
+SYNC Cuddle3|DBc M3
+SYNC Cuddle4|DBc M4
+SYNC Cuddle5|DBc M5
+SYNC Cuddle6|DBc M6
+SYNC Cuddle7|Tcudd M2
+SYNC Cuddle8|Tcudd M1
+SYNC Cuddle9|Tcudd M3
+SYNC Cuddle10|Tcudd M4
+SYNC Cuddle11|Tcudd M5
+SYNC Cuddle12|Tcudd M6
+SYNC Cuddle13|KBKb-AC M1
+SYNC Cuddle14|KBKb-AC M2
+SYNC Cuddle15|KBKb-AC M3
+SYNC Cuddle16|KBKb-AC M4
+SYNC Cuddle17|KBKb-AC M5
+SYNC Cuddle18|KBKb-AC M6
+
+MENU Lesbian Sex
+SEQUENCE SEQ-Les-Sex
+SYNC Eat Her Cookie|[RNP] Sex #214 - Lesbian - Lick - Female 2 - 37 seconds
+SYNC Rub On Her|[RNP] Sex #217 - Lesbian - Female 2 - 30 seconds
+SYNC Trap Her|[RNP] Sex #218 - Lesbian - Female 2 - 30  seconds
+SYNC Deep Her|[RNP] Sex #219 - Lesbian - Female 2 - 30 seconds
+SYNC Tongue Her|[RNP] Sex #220 - Lesbian - Face Sit - Female 2 - 25 seconds
+SYNC Wet Her|[RNP] Sex #225 - Lesbian - Female 2 - 30 seconds
+SYNC Nice Ass|[RNP] Sex #227 - Lesbian - Female 2 - 30 seconds
+SYNC Above Her|[RNP] Sex #233 - Lesbian - Female 2 - Double Dildo - 34 seconds
+SYNC On Her|[RNP] Sex #234 - Lesbian - Female 2 - Double Dildo - 30 seconds
+SYNC All Hers|[RNP] Sex #235 - Lesbian - Lick - Female 2 - 30 seconds
+
+MENU Adult
+SEQUENCE SEQ-M-Adult
+SYNC Tease1|Sex120M
+SYNC Tease2|Sex124M
+SYNC Tease3|Sex125M
+SYNC Tease4|Sex162M
+SYNC Tease5|Sex163M
+SYNC Handjob1|Sex123M
+SYNC Titfuck|Sex118M
+SYNC Lick|DBlk M5
+SYNC Lick2|TAdt M2
+SYNC Lick3|Sex116M
+SYNC Lick4|Sex121M
+SYNC Suck1|TAdt M1
+SYNC Suck2|Sex119M
+SYNC Back1|DBBk M1
+SYNC Back2|DBBk M2
+SYNC Back3|DBBk M3
+SYNC Back4|DBBk M4
+SYNC Back5|TAdt M5
+SYNC Back6|TAdt M6
+SYNC Back7|Sex143M
+SYNC Back8|Sex142M
+SYNC Back9|Sex149M
+SYNC Back10|Sex150M
+SYNC Behind1|Sex161M
+SYNC Ride1|DBR M1
+SYNC Ride2|DBR M2
+SYNC Ride3|DBR M3
+SYNC Ride4|DBR M4
+SYNC Ride5|TAdt M4
+SYNC Ride6|Sex152M
+SYNC Missionary|TAdt M7
+SYNC Missionary2|TAdt M8
+SYNC Front1|Sex117M
+SYNC Front2|Sex126M
+SYNC Front3|Sex140M
+SYNC Front4|Sex139M
+SYNC Front5|Sex141M
+SYNC Front6|Sex148M
+SYNC Front7|Sex153M
+SYNC Squat1|Sex127M
+SYNC Lap1|Sex144M
+SYNC Lap2|Sex145M
+SYNC Top1|Sex146M
+SYNC Side1|Sex147M
+SYNC Side2|Sex160M
+SYNC Cum1|DBCm M5
+SYNC Cum2|DBCm M6
+SYNC Cum3|DBCm M7
+SYNC Cum4|DBCm M8
+{Single1}<0.139,0.209,0.427><0,0,-118>
+{Single2}<0.757,0.607,0.393><-1,0,-90>
+{Single3}<0.796,0.079,0.455><0,0,-90>
+{Single4}<0.295,0.539,0.453><-3,0,-90>
+{Single5}<-0.116,-0.806,0.551><0,0,90>
+{Single6}<0.053,0.551,0.393><0,0,-108>
+{Single7}<-0.569,0.504,0.476><0,0,-90>
+{Single8}<0.064,-0.096,0.749><0,0,90>
+{Single9}<-0.052,-0.026,0.632><-3,0,90>
+{Sleep1}<-0.062,-0.105,0.533><-4.7,-1.8,-69.1>
+{Sleep2}<-0.097,0.023,0.556><-1,4,-89.9>
+{Sleep3}<-0.208,-0.419,-3.515><-1.9,-0.6,-74>
+{Sleep4}<-0.199,0.274,0.391><-6.3,-10,-65.8>
+{Sleep5}<0.172,0.023,0.524><-5.8,-1.3,-63.1>
+{Sleep6}<0.131,0.232,0.516><-1.8,-0.8,-57>
+{Kiss1}<0.212,0.926,0.575><0,0,-77>
+{Kiss2}<-0.008,0.307,0.6><0,0,-39>
+{Kiss3}<0.239,-0.212,0.57><0,0,-32>
+{Kiss4}<0.04,-0.129,0.549><-3,0,-61>
+{Kiss5}<0.224,0.016,0.655><-6,0,-90>
+{Kiss6}<0.004,-0.051,0.566><0,0,-55>
+{Cuddle1}<-0.099,-0.361,0.578><0,0,-122>
+{Cuddle2}<0.166,-0.342,0.499><0,0,-116>
+{Cuddle3}<0.358,0.564,0.544><-3,0,-35>
+{Cuddle4}<0.079,0.039,0.496><-8.7,-2.3,-75.2>
+{Cuddle5}<0.14,-0.084,0.628><-8,0,-90>
+{Cuddle6}<0.019,-0.238,0.624><0,0,-90>
+{Cuddle7}<0.015,-0.318,0.697><-7,0.3,-90>
+{Cuddle8}<0.244,-0.415,0.696><0,0,-90>
+{Cuddle9}<0.095,-0.371,0.77><-8.5,-3.1,-70.2>
+{Cuddle10}<-0.259,-0.064,0.726><-4,0,-90>
+{Cuddle11}<0.085,-0.226,0.764><-5,0.6,-97>
+{Cuddle12}<0.234,-0.632,0.753><-2,-0.3,-82>
+{Cuddle13}<-0.304,0.332,0.448><-4.9,-1.2,-76.1>
+{Cuddle14}<-0.166,0.159,0.294><-9.5,3.1,-107.7>
+{Cuddle15}<-0.215,0.403,0.348><-8.5,3.1,-109.8>
+{Cuddle16}<-0.277,0.355,0.441><0,0,-121>
+{Cuddle17}<-0.069,-0.101,0.446><0,0,-77>
+{Cuddle18}<-0.248,-0.314,0.512><0,0,-119>
+{Eat Her Cookie}<-0.129,-0.108,0.821><0,0,180>
+{Rub On Her}<-0.129,-0.229,0.804><0,0,180>
+{Trap Her}<0.067,-0.174,0.75><0,0,180>
+{Deep Her}<0.045,-0.211,0.776><0,0,180>
+{Tongue Her}<0.083,-0.182,0.78><0,0,180>
+{Wet Her}<0.411,0.09,0.891><0,0,180>
+{Nice Ass}<0.079,-0.077,0.826><0,0,180>
+{Above Her}<0.185,-0.18,0.81><0,0,180>
+{On Her}<-0.009,-0.34,0.834><0,0,180>
+{All Hers}<0.131,-0.322,0.762><0,0,180>
+{Tease1}<-0.003,-0.288,0.773><0,0,180>
+{Tease2}<-0.232,-0.196,0.851><0,0,-156>
+{Tease3}<-0.103,-0.077,0.749><0,0,180>
+{Tease4}<-0.129,-0.367,0.8><0,0,21>
+{Tease5}<0.188,-0.206,0.803><0,0,21>
+{Handjob1}<-0.216,-0.332,0.808><0,0,116>
+{Titfuck}<0.117,-0.215,0.893><0,0,180>
+{Lick}<-0.248,-0.18,0.701><0,0,-78.4>
+{Lick2}<-0.016,-0.285,0.81><-5,0.3,-90>
+{Lick3}<-0.308,0.19,0.701><0,0,132>
+{Lick4}<0.063,-0.127,0.834><0,0,180>
+{Suck1}<-0.022,-0.173,0.801><-6.9,-1,-79.1>
+{Suck2}<0.063,0.045,0.812><0,0,180>
+{Back1}<0.054,-0.026,0.6><0,0,-90>
+{Back2}<0.167,-0.134,0.563><0,0,-117>
+{Back3}<0.038,-0.361,0.617><0,0,-116>
+{Back4}<0.164,-0.235,0.645><0,0,-90>
+{Back5}<-0.016,0.222,1.221><0,-0.3,90>
+{Back6}<-0.164,-0.013,1.169><0.1,0.3,-110>
+{Back7}<0.048,0.158,0.844><0,0,0>
+{Back8}<0.001,-0.097,0.758><-4.7,1.7,-109.9>
+{Back9}<-0.103,-0.029,0.894><0,0,-163>
+{Back10}<0.141,-0.038,0.807><1,0,180>
+{Behind1}<0.011,-0.035,0.859><0,0,21>
+{Ride1}<0.158,-0.266,0.538><-2.9,0.6,-103>
+{Ride2}<0.031,0.141,0.568><-3.9,-0.7,-80>
+{Ride3}<0.201,-0.029,0.602><-2,-0.2,-84>
+{Ride4}<-0.057,-0.04,0.561><-3,0,-90>
+{Ride5}<-0.067,-0.166,0.796><-5.8,1.4,-100.9>
+{Ride6}<-0.053,-0.449,0.92><-3,0,-90>
+{Missionary}<0.315,0.301,0.762><-0.1,-0.3,73>
+{Missionary2}<0.293,0.353,0.682><-3,0.4,76>
+{Front1}<-0.022,0.183,0.786><-4,0,180>
+{Front2}<0.02,0.018,0.876><2.4,-1.8,142>
+{Front3}<0.087,-0.081,0.83><2.1,1.7,156.2>
+{Front4}<0.168,-0.096,0.738><3,0,180>
+{Front5}<0.109,-0.171,0.783><3,0,180>
+{Front6}<-0.194,-0.122,0.82><0,0,-70>
+{Front7}<0.017,-0.322,0.803><0,0,180>
+{Squat1}<-0.085,-0.241,0.768><1.8,2.6,-106>
+{Lap1}<0.048,0.265,0.847><0,0,0>
+{Lap2}<-0.02,-0.491,0.766><0,0,-113>
+{Top1}<0.009,-0.559,0.826><0,0,-90>
+{Side1}<-0.194,-0.182,0.872><0,0,-90>
+{Side2}<0.316,-0.008,0.778><0,0,21>
+{Cum1}<0.04,-0.04,0.587><0,0,90>
+{Cum2}<0.002,0.24,0.601><-4,0,90>
+{Cum3}<0.246,-0.298,0.554><-4,0.6,-128>
+{Cum4}<1.639,0.143,-0.064><2.1,-4.2,-156.4>
