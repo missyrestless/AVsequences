@@ -140,6 +140,7 @@ The following custom sequenced animations are available on the Second Life Marke
 - [Headhunter Jungle Bar](https://github.com/missyrestless/AVsequences/tree/main/Jungle_Bar)
   - [Headhunter Jungle Bar Center Poles](https://github.com/missyrestless/AVsequences/tree/main/Jungle_Bar/Center)
 - [Headhunter Lifeguard Chair](https://github.com/missyrestless/AVsequences/tree/main/Lifeguard_Chair)
+- [Headhunter Outdoor Bath](https://github.com/missyrestless/AVsequences/tree/main/Outdoor_Bath)
 
 ### Customized notecards providing sequenced animations for Black Nest furniture
 
@@ -157,6 +158,10 @@ The following custom sequenced animations are available on the Second Life Marke
 ### Customized notecards providing sequenced animations for Good Moaning furniture
 
 - [Good Moaning Hurricane Chair](https://github.com/missyrestless/AVsequences/tree/main/Hurricane_Chair)
+
+### Customized notecards providing sequenced animations for QYN furniture
+
+- [QYN Sex Stool Collection](https://github.com/missyrestless/AVsequences/tree/main/QYN_Metal_Stool)
 
 ### Customized notecards providing sequenced animations for Tm Creation products
 

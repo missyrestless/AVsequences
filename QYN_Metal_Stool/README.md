@@ -1,45 +1,78 @@
-# AVsitter Autoplay for Debauchery Round Swingers Bar Stool
+# AVsitter Sequence for QYN Sex Stool Collection
 
-This folder contains an `autoplay.lsl` LSL script to enable automatic
-play of animations sequences for the Debauchery Round Swingers Bar Stool.
+This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
+with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
+the QYN Sex Stool Collection dialog menus.
 
-Debauchery did a good job of configuring AVsitter animation sequences so no
-custom notecards for sequences are provided here. Just the `autoplay` script.
+This `AVsitter` customization allows greater freedom of personal interaction on the
+stool, eliminating the need to navigate dialog menus during moments of intimacy.
 
-### Auto Play Sequence
+## Menus
 
-If you wish to automatically play a sequence when an avatar sits on the stool
-then download the `autoplay.lsl` script and copy it into the Contents of the object.
+Sequences are configured for the following menus:
 
-The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
-In addition, it detects the number of sitters currently on the object and plays the couples
-animation sequence if only 1 sitter is already seated.
+- Male and Female Solo Menus
+- Male/Female Couples Menus
+- Male/Female Adult Menus
 
-## Download the autoplay script
+## Download the script and customized notecards
 
-Download the `autoplay` LSL script:
+Download the `[AV]sequence` plugin script:
 
 ```bash
-wget -q -O autoplay https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Bar_Stool/autoplay.lsl
+wget -q -O '[AV]sequence' https://raw.githubusercontent.com/AVsitter/AVsitter/refs/heads/master/AVsitter2/Plugins/AVsequence/%5BAV%5Dsequence.lsl
+```
+
+Download the customized `[AV]sequence_settings` notecard for prim one:
+
+```bash
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/QYN_Metal_Stool/One/AVsequence_settings
+```
+
+Download the customized `AVpos` notecard for prim one:
+
+```bash
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/QYN_Metal_Stool/One/AVpos
+```
+
+Download the customized `[AV]sequence_settings` notecard for prim two:
+
+```bash
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/QYN_Metal_Stool/Two/AVsequence_settings
+```
+
+Download the customized `AVpos` notecard for prim two:
+
+```bash
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/QYN_Metal_Stool/Two/AVpos
 ```
 
 ## Setup
 
-To configure a Debauchery Round Swingers Bar Stool with automatic sequence play:
+The QYN Sex Stool is a linked prim object with two prims. Both prims in each stool need
+to be configured separately. For each, replace the `[AV]sequence_settings` and `AVpos` notecards
+with those downloaded from here and add the `[AV]sequence` script.
+
+To configure a QYN Sex Stool Collection with AVsitter sequences:
 
 - Right click the stool and select `Edit`
-- Drag and Drop the `autoplay` script into the Contents tab
+- Copy the `[AV]sequence` plugin script into the Contents tab
+- Copy the `[AV]sequence_settings` notecard into the Contents tab
+- Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
 - Close the `Edit` window
+- Right click the stool and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
 - Wait for the scripts to reset (this takes a few minutes)
+
+Sit on the stool and click one of the sequence buttons, for example: `Sit_F_SEQ` or `Sit_M_SEQ`.
 
 ## Second Life Marketplace Listings
 
 The following custom sequenced animations are available on the Second Life Marketplace:
 
-- [Cuming Soon Super Smash Couch Sequenced Customization Marketplace Listing](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Cuming-Soon-Super-Smash-Couch/27943028)
 - [Good Moaning Hurricane Chair Sequenced Customization Marketplace Listing](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Good-Moaning-Hurricane-Chair/27951429)
 - [Lalou 3some Outdoor Shower Sequenced Customization Marketplace Listing](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Lalou-3some-Outdoor-Shower/27944763)
 - [Lalou Pool Float (Adult 3some)](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Lalou-Pool-Float-Adult-3some/27954361)
+- [Nerenzo Beach Chairs Sequenced Customization Marketplace Listing](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Beach-Chairs/27960500)
 - [Nerenzo Hot Bangers Pool Sequenced Customization Marketplace Listing](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Hot-Bangers-Pool/27942775)
 - [Nerenzo Orgy Towel Sequenced Customization Marketplace Listing](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Orgy-Towel/27945140)
 
@@ -56,6 +89,7 @@ The following custom sequenced animations are available on the Second Life Marke
 
 ### Customized notecards providing sequenced animations for Nerenzo furniture
 
+- [Nerenzo Bathtub](https://github.com/missyrestless/AVsequences/tree/main/Nerenzo_Bathtub)
 - Nerenzo Beach Bed California
   - [Nerenzo Beach Bed California orgy/group/lovense version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Orgy_Lovense)
   - [Nerenzo Beach Bed California orgy/group version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Orgy_Group)
@@ -84,6 +118,11 @@ The following custom sequenced animations are available on the Second Life Marke
 - [Headhunter Jungle Bar](https://github.com/missyrestless/AVsequences/tree/main/Jungle_Bar)
   - [Headhunter Jungle Bar Center Poles](https://github.com/missyrestless/AVsequences/tree/main/Jungle_Bar/Center)
 - [Headhunter Lifeguard Chair](https://github.com/missyrestless/AVsequences/tree/main/Lifeguard_Chair)
+- [Headhunter Outdoor Bath](https://github.com/missyrestless/AVsequences/tree/main/Outdoor_Bath)
+
+### Customized notecards providing sequenced animations for Black Nest furniture
+
+- [Black Nest Dustbloom Hanging Daybed](https://github.com/missyrestless/AVsequences/tree/main/Hanging_Daybed_Dustbloom)
 
 ### Customized notecards providing sequenced animations for Chez Moi furniture
 
@@ -92,10 +131,15 @@ The following custom sequenced animations are available on the Second Life Marke
 ### Customized autoplay scripts for Debauchery furniture
 
 - [Debauchery Round Swingers Bar Stool](https://github.com/missyrestless/AVsequences/tree/main/Bar_Stool)
+- [Debauchery Swingers Hot Tub](https://github.com/missyrestless/AVsequences/tree/main/Swingers_Hot_Tub)
 
 ### Customized notecards providing sequenced animations for Good Moaning furniture
 
 - [Good Moaning Hurricane Chair](https://github.com/missyrestless/AVsequences/tree/main/Hurricane_Chair)
+
+### Customized notecards providing sequenced animations for QYN furniture
+
+- [QYN Sex Stool Collection](https://github.com/missyrestless/AVsequences/tree/main/QYN_Metal_Stool)
 
 ### Customized notecards providing sequenced animations for Tm Creation products
 

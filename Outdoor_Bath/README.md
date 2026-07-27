@@ -1,11 +1,11 @@
-# AVsitter Sequence for Headhunter Hanging Beach Bed
+# AVsitter Sequence for Headhunter Palm Outdoor Bath
 
 This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
 with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
-the Headhunter Hanging Beach Bed dialog menus.
+the Headhunter Palm Outdoor Bath dialog menus.
 
 This `AVsitter` customization allows greater freedom of personal interaction in the
-beach bed, eliminating the need to navigate dialog menus during moments of intimacy.
+outdoor bath, eliminating the need to navigate dialog menus during moments of intimacy.
 
 ## Menus
 
@@ -23,21 +23,51 @@ Download the `[AV]sequence` plugin script:
 wget -q -O '[AV]sequence' https://raw.githubusercontent.com/AVsitter/AVsitter/refs/heads/master/AVsitter2/Plugins/AVsequence/%5BAV%5Dsequence.lsl
 ```
 
-Download the customized `[AV]sequence_settings` notecard:
+Download the customized `[AV]sequence_settings` notecard for the four small towels:
 
 ```bash
-wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Hanging_Bed/AVsequence_settings
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Outdoor_Bath/AVsequence_settings
 ```
 
-Download the customized `AVpos` notecard:
+Download the customized `AVpos` notecard for the four small towels:
 
 ```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Hanging_Bed/AVpos
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Outdoor_Bath/AVpos
+```
+
+Download the customized `[AV]sequence_settings` notecard for the large towel:
+
+```bash
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Outdoor_Bath/Towel/AVsequence_settings
+```
+
+Download the customized `AVpos` notecard for the large towel:
+
+```bash
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Outdoor_Bath/Towel/AVpos
+```
+
+Download the customized `[AV]sequence_settings` notecard for the hanging massage table:
+
+```bash
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Outdoor_Bath/Massage/AVsequence_settings
+```
+
+Download the customized `AVpos` notecard for the hanging massage table:
+
+```bash
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Outdoor_Bath/Massage/AVpos
 ```
 
 ## Setup
 
-To configure a Headhunter Hanging Beach Bed with AVsitter sequences:
+The Palm Outdoor Bath consists of a large towel draped over the platform, 4 smaller towels
+draped over the edge of the bath, and a hanging massage table. Each of these components needs
+to be configured separately. For each, replace the `[AV]sequence_settings` and `AVpos` notecards
+with those downloaded from here. Add the `[AV]sequence` script and, optionally, the `autoplay`
+script if one is included.
+
+To configure a Headhunter Palm Outdoor Bath with AVsitter sequences:
 
 - Right click the bed and select `Edit`
 - Copy the `[AV]sequence` plugin script into the Contents tab
@@ -47,20 +77,20 @@ To configure a Headhunter Hanging Beach Bed with AVsitter sequences:
 - Right click the bed and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
 - Wait for the scripts to reset (this takes a few minutes)
 
-Sit on the bed and click one of the sequence buttons: `SEQ SINGLES`, `SEQ COUPLES`, or `SEQ SEX`.
+Sit on the bed and click one of the sequence buttons, for example: `SEQ-F-Solo`, `SEQ-F-Couple`, `SEQ-M-Solo`.
 
-Sequence menu buttons are of the form `SEQ ...`. Click this menu entry and your
+Sequence menu buttons are of the form `SEQ-...`. Click this menu entry and your
 avatar will cycle through all the animations in that submenu. Cycle times are currently
 set to 60 seconds with menu arrows to step to the next animation, previous animation,
 or pause animation sequencing.
 
 ### Auto Play Sequence
 
-If you wish to automatically play a sequence when an avatar sits on the hanging beach bed
+If you wish to automatically play a sequence when an avatar sits on the outdoor bath
 then download the `autoplay.lsl` script and copy it into the Contents of the object.
 
 ```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Hanging_Bed/autoplay.lsl
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Outdoor_Bath/autoplay.lsl
 ```
 
 The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
@@ -91,6 +121,7 @@ The following custom sequenced animations are available on the Second Life Marke
 
 ### Customized notecards providing sequenced animations for Nerenzo furniture
 
+- [Nerenzo Bathtub](https://github.com/missyrestless/AVsequences/tree/main/Nerenzo_Bathtub)
 - Nerenzo Beach Bed California
   - [Nerenzo Beach Bed California orgy/group/lovense version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Orgy_Lovense)
   - [Nerenzo Beach Bed California orgy/group version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Orgy_Group)
@@ -119,6 +150,11 @@ The following custom sequenced animations are available on the Second Life Marke
 - [Headhunter Jungle Bar](https://github.com/missyrestless/AVsequences/tree/main/Jungle_Bar)
   - [Headhunter Jungle Bar Center Poles](https://github.com/missyrestless/AVsequences/tree/main/Jungle_Bar/Center)
 - [Headhunter Lifeguard Chair](https://github.com/missyrestless/AVsequences/tree/main/Lifeguard_Chair)
+- [Headhunter Outdoor Bath](https://github.com/missyrestless/AVsequences/tree/main/Outdoor_Bath)
+
+### Customized notecards providing sequenced animations for Black Nest furniture
+
+- [Black Nest Dustbloom Hanging Daybed](https://github.com/missyrestless/AVsequences/tree/main/Hanging_Daybed_Dustbloom)
 
 ### Customized notecards providing sequenced animations for Chez Moi furniture
 
@@ -132,6 +168,10 @@ The following custom sequenced animations are available on the Second Life Marke
 ### Customized notecards providing sequenced animations for Good Moaning furniture
 
 - [Good Moaning Hurricane Chair](https://github.com/missyrestless/AVsequences/tree/main/Hurricane_Chair)
+
+### Customized notecards providing sequenced animations for QYN furniture
+
+- [QYN Sex Stool Collection](https://github.com/missyrestless/AVsequences/tree/main/QYN_Metal_Stool)
 
 ### Customized notecards providing sequenced animations for Tm Creation products
 
