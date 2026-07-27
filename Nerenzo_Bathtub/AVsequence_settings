@@ -1,4 +1,4 @@
-SEQUENCE  ►m-bath
+SEQUENCE ►m-bath
 PLAY m-bath1
 WAIT 120
 PLAY m-bath2
@@ -53,7 +53,7 @@ PLAY Champagne
 WAIT 60
 LOOP
 
-SEQUENCE  ►f-bath
+SEQUENCE ►f-bath
 PLAY f-bath1
 WAIT 120
 PLAY f-bath2

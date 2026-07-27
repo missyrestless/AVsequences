@@ -83,8 +83,8 @@ BUTTON Champagne|90200|remprop_champagne
 BUTTON Rack&Items|90200|remprop_rack&items
 
 MENU SINGLE
-SEQUENCE ►m-bath
 POSE m-bath1|1bam6
+SEQUENCE ►m-bath
 POSE m-bath2|1bam7
 POSE m-bath3|1bam8
 POSE m-bath4|1bam9
@@ -458,8 +458,8 @@ BUTTON Champagne|90200|remprop_champagne
 BUTTON Rack&Items|90200|remprop_rack&items
 
 MENU SINGLE
-SEQUENCE ►f-bath
 POSE f-bath1|1baf6
+SEQUENCE ►f-bath
 POSE f-bath2|1baf7
 POSE f-bath3|1baf8
 POSE f-bath4|1baf9
