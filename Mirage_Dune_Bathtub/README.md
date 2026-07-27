@@ -1,50 +1,19 @@
-# AVsitter Sequence for Nerenzo Beach Bed California Adult lovense version
+# AVsitter Sequence for Black Nest Mirage Dune Bathtub
 
 This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
 with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
-the Nerenzo Beach Bed California Adult lovense version dialog menus.
+the Black Nest Mirage Dune Bathtub dialog menus.
 
 This `AVsitter` customization allows greater freedom of personal interaction in the
-sauna, eliminating the need to navigate dialog menus during moments of intimacy.
-
-## Version and Variant Compatibility
-
-**[NOTE:]** This is specifically for the Adult version of the beach bed with Lovense.
-These notecards will not work with another version of the beach bed or with the Adult
-version without Lovense enabled. The version of the Nerenzo Beach Bed California this is
-compatible with is available on the Second Life Marketplace at
-[https://marketplace.secondlife.com/p/Nerenzo-The-Beach-Bed-California-adult-version-the-P-the-V-INM-cum-clean-lovense/26308685](https://marketplace.secondlife.com/p/Nerenzo-The-Beach-Bed-California-adult-version-the-P-the-V-INM-cum-clean-lovense/26308685)
-
-There are 3 different Nerenzo Beach Bed California products - A PG version, an Adult Couples
-version, and an Orgy/Group version. Notecards and scripts are provided for 2 of these versions,
-the Adult Couples and Orgy/Group versions. The PG version does not have animation sequences.
-
-Each version of the product contains 2 beds, one with Lovense support and one without Lovense.
-There are 4 different beds with notecards and scripts provided to enable animation sequences.
-You must match your product and bed with the appropriate notecards and scripts to enable the
-correct animation sequences. Here are the 4 AVsitter animation sequences for these 4 beds:
-
-- Nerenzo Beach Bed California Orgy Group Version
-  - [Nerenzo Beach Bed California orgy/group/lovense version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Orgy_Lovense)
-  - [Nerenzo Beach Bed California orgy/group version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Orgy_Group)
-- Nerenzo Beach Bed California Adult Couples Version
-  - Nerenzo Beach Bed California adult/couples/lovense version (You are HERE)
-  - [Nerenzo Beach Bed California adult/couples version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Adult_Couples)
+bathtub, eliminating the need to navigate dialog menus during moments of intimacy.
 
 ## Menus
 
-Sequences are configured for Sitter 0 and Sitter 1 menus, both male and female:
+Sequences are configured for the following menus:
 
-- Solo Menus
-- Couples Cuddle Menus
-- Tease Play Menus
-- Behind Menu
-- Butt Menu
-- Eye2Eye Menu
-- Girl on Top Menu
-- Oral Menu
-- Rough Sex Menu
-- Various Positions Menu
+- Male and Female Solo Menus
+- Male/Female Couples Menus
+- Male/Female Adult Menus
 
 ## Download the script and customized notecards
 
@@ -57,59 +26,47 @@ wget -q -O '[AV]sequence' https://raw.githubusercontent.com/AVsitter/AVsitter/re
 Download the customized `[AV]sequence_settings` notecard:
 
 ```bash
-wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Adult_Lovense/AVsequence_settings
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Mirage_Dune_Bathtub/AVsequence_settings
 ```
 
 Download the customized `AVpos` notecard:
 
 ```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Adult_Lovense/AVpos
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Mirage_Dune_Bathtub/AVpos
 ```
 
 ## Setup
 
-To configure a Nerenzo Beach Bed California Adult with Lovense version with AVsitter sequences:
+To configure a Black Nest Mirage Dune Bathtub with AVsitter sequences:
 
-- Right click the bed and select `Edit`
-- Drag and Drop the `[AV]sequence_settings` notecard into the Contents tab
-- Drag and Drop the `[AV]sequence` plugin script into the Contents tab
+- Right click the bathtub and select `Edit`
+- Copy the `[AV]sequence_settings` notecard into the Contents tab
+- Copy the `[AV]sequence` plugin script into the Contents tab
 - Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
-  - Drag and Drop the original `AVpos` notecard from the Contents tab into your inventory as a backup
-  - Delete the `AVpos` notecard from the Contents tab (you can ignore and close the Warning window)
-  - Drag and Drop the new `AVpos` notecard with sequences into the Contents tab
 - Close the `Edit` window
-- Right click the bed and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
+- Right click the bathtub and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
 - Wait for the scripts to reset (this takes a few minutes)
 
-Sit on the bed and select one of the first two sitters.
+Sit on the bathtub and click one of the sequence buttons, for example: `SEQ-F-Alone`,
+`SEQ-F-Company`, `SEQ-F-Adult-Fun`, `SEQ-M-Alone`, `SEQ-M-Company`, or `SEQ-M-Adult-Fun`.
 
-Menu entries of the form `SEQ_...` indicate sequenced animations. Clicking any of these menu
-entries will cycle seated avatars through all the animations in that submenu. Cycle times are
-currently set to 60 seconds with menu arrows to step to the next animation, previous animation,
+Sequence menu buttons are of the form `SEQ-...`. Click this menu entry and your
+avatar will cycle through all the animations in that submenu. Cycle times are currently
+set to 60 seconds with menu arrows to step to the next animation, previous animation,
 or pause animation sequencing.
 
 ### Auto Play Sequence
 
-If you wish to automatically play a sequence when an avatar sits on the bed
+If you wish to automatically play a sequence when an avatar sits on the bathtub
 then download the `autoplay.lsl` script and copy it into the Contents of the object.
 
 ```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Adult_Lovense/autoplay.lsl
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Mirage_Dune_Bathtub/autoplay.lsl
 ```
 
 The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
 In addition, it detects the number of sitters currently on the object and plays the couples
-animation sequence if there are 2 sitters, one of the 3-way sequences if 3 are seated, and
-a 4-way sequence if 4 avatars are on the bed.
-
-The `autoplay.lsl` plays PG sequences. If you wish to automatically play adult sequences 
-then download and copy the `autoplay-adult.lsl` script:
-
-```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Beach_Bed/Adult_Lovense/autoplay-adult.lsl
-```
-
-Only add zero or one of the `autoplay` scripts to the bed Contents. Do not add both.
+animation sequence if more than 1 sitter is seated.
 
 ## Second Life Marketplace Listings
 

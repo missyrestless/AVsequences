@@ -155,6 +155,7 @@ The following custom sequenced animations are available on the Second Life Marke
 ### Customized notecards providing sequenced animations for Black Nest furniture
 
 - [Black Nest Dustbloom Hanging Daybed](https://github.com/missyrestless/AVsequences/tree/main/Hanging_Daybed_Dustbloom)
+- [Black Nest Mirage Dune Bathtub](https://github.com/missyrestless/AVsequences/tree/main/Mirage_Dune_Bathtub)
 
 ### Customized notecards providing sequenced animations for Chez Moi furniture
 

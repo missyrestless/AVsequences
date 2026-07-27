@@ -1,0 +1,151 @@
+SEQUENCE SEQ-F-Alone
+PLAY Entering Heaven
+WAIT 60
+PLAY Solitude
+WAIT 60
+PLAY Adrift
+WAIT 60
+PLAY Slowing
+WAIT 60
+PLAY Lay out
+WAIT 60
+PLAY Dreaming
+WAIT 60
+PLAY Paradise
+WAIT 60
+PLAY Loveself
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-F-Company
+PLAY Soothing
+WAIT 60
+PLAY Calming
+WAIT 60
+PLAY Peaceful
+WAIT 60
+PLAY Tranquility
+WAIT 60
+PLAY Secrecy
+WAIT 60
+PLAY Complacency
+WAIT 60
+PLAY Harmony
+WAIT 60
+PLAY Embrace
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-F-Adult-Fun
+PLAY Mermaid Flip
+WAIT 60
+PLAY Edging
+WAIT 60
+PLAY Cleaning pipes
+WAIT 60
+PLAY Submarine
+WAIT 60
+PLAY Afloat
+WAIT 60
+PLAY Row, row
+WAIT 60
+PLAY Sailing
+WAIT 60
+PLAY Wet Dog
+WAIT 60
+PLAY Creamery
+WAIT 60
+PLAY Hanging
+WAIT 60
+PLAY Despacito
+WAIT 60
+PLAY Prison guard
+WAIT 60
+PLAY Suavecito
+WAIT 60
+PLAY Stork
+WAIT 60
+PLAY Compenetrated
+WAIT 60
+PLAY Swansong
+WAIT 60
+PLAY Queen
+WAIT 60
+PLAY Her prize
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-M-Alone
+PLAY Kingself
+WAIT 60
+PLAY Caringself
+WAIT 60
+PLAY Washingself
+WAIT 60
+PLAY Losingself
+WAIT 60
+PLAY Drifting
+WAIT 60
+PLAY Aloneself
+WAIT 60
+PLAY Selflove
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-M-Company
+PLAY Soothing
+WAIT 60
+PLAY Calming
+WAIT 60
+PLAY Peaceful
+WAIT 60
+PLAY Tranquility
+WAIT 60
+PLAY Secrecy
+WAIT 60
+PLAY Complacency
+WAIT 60
+PLAY Harmony
+WAIT 60
+PLAY Embrace
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-M-Adult-Fun
+PLAY Mermaid Flip
+WAIT 60
+PLAY Edging
+WAIT 60
+PLAY Cleaning pipes
+WAIT 60
+PLAY Submarine
+WAIT 60
+PLAY Afloat
+WAIT 60
+PLAY Row, row
+WAIT 60
+PLAY Sailing
+WAIT 60
+PLAY Wet Dog
+WAIT 60
+PLAY Creamery
+WAIT 60
+PLAY Hanging
+WAIT 60
+PLAY Despacito
+WAIT 60
+PLAY Prison guard
+WAIT 60
+PLAY Suavecito
+WAIT 60
+PLAY Stork
+WAIT 60
+PLAY Compenetrated
+WAIT 60
+PLAY Swansong
+WAIT 60
+PLAY Queen
+WAIT 60
+PLAY Her prize
+WAIT 60
+LOOP
