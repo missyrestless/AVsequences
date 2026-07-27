@@ -1,4 +1,6 @@
 SEQUENCE  ►m-bath
+PLAY m-bath1
+WAIT 120
 PLAY m-bath2
 WAIT 120
 PLAY m-bath3
@@ -13,8 +15,6 @@ PLAY m-bath7
 WAIT 120
 PLAY m-bath8
 WAIT 120
-PLAY m-bath2
-WAIT 240
 PLAY talk1
 WAIT 60
 PLAY talk2
@@ -54,6 +54,8 @@ WAIT 60
 LOOP
 
 SEQUENCE  ►f-bath
+PLAY f-bath1
+WAIT 120
 PLAY f-bath2
 WAIT 120
 PLAY f-bath3
@@ -68,8 +70,6 @@ PLAY f-bath7
 WAIT 120
 PLAY f-bath8
 WAIT 120
-PLAY f-bath2
-WAIT 240
 PLAY talk1
 WAIT 60
 PLAY talk2
