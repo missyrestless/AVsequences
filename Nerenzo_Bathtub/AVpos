@@ -83,6 +83,7 @@ BUTTON Champagne|90200|remprop_champagne
 BUTTON Rack&Items|90200|remprop_rack&items
 
 MENU SINGLE
+SEQUENCE ►m-bath
 POSE m-bath1|1bam6
 POSE m-bath2|1bam7
 POSE m-bath3|1bam8
@@ -96,9 +97,9 @@ POSE m-brush|1bam2
 POSE m-hair|1bam3
 POSE m-read|1bam4
 POSE m-champagne|1bam5
-SEQUENCE ►m-bath
 
 MENU BATHING
+SEQUENCE ►m-bath
 SYNC talk1|1ms12
 SYNC talk2|1ms28
 SYNC talk3|1ms48
@@ -117,9 +118,9 @@ SYNC splash|2bam16
 SYNC wine|2bam17
 SYNC bubble|2bam18
 SYNC Champagne|htcm8
-SEQUENCE ►m-bathing
 
 MENU CUDDLE1
+SEQUENCE ►m-cuddle
 SYNC adored|2bam1
 SYNC it's okay|2bam2
 SYNC ombro|2bam3
@@ -130,9 +131,9 @@ SYNC embrace|csm18
 SYNC don't let go|csm26
 SYNC inuit kiss|csm27
 SYNC beloved|csm32
-SEQUENCE ►m-cuddle
 
 MENU CUDDLE2
+SEQUENCE ►m-cuddle
 SYNC confess|csm49
 SYNC trust me|csm53
 SYNC stargazing|csm59
@@ -140,9 +141,9 @@ SYNC unwind|2bam20
 SYNC appeal|2bam23
 SYNC closer|htcm1
 SYNC untangle|htcm2
-SEQUENCE ►m-cuddle
 
 MENU KISSES
+SEQUENCE ►m-cuddle
 SYNC kiss1|2bam5
 SYNC kiss2|2bam6
 SYNC kiss3|2bam7
@@ -151,16 +152,16 @@ SYNC kiss5|csm15
 SYNC kiss6|csm21
 SYNC kiss7|csm28
 SYNC kiss8|csm30
-SEQUENCE ►m-cuddle
 
 MENU FOREPLAY
+SEQUENCE ►m-foreplay
 SYNC pussyplay1|htam2
 SYNC pussyplay2|htam6
 SYNC cockplay1|4pwim6
 SYNC cockplay2|6mism17a
-SEQUENCE ►m-foreplay
 
 MENU BLOWJOB
+SEQUENCE ►m-foreplay
 SYNC ball play|4pbm16
 SYNC prayer|4pbm23
 SYNC get right|4pbm30
@@ -168,9 +169,9 @@ SYNC radical bj|4pbm35a
 SYNC archer bj|4pbm34
 SYNC his way|4pbm28
 SYNC big dipper|4pbm42b
-SEQUENCE ►m-foreplay
 
 MENU TONGUEPLAY
+SEQUENCE ►m-foreplay
 SYNC 68|lick_06_m Galaxy
 SYNC stand lick|4plm11
 SYNC face ride|4plm13
@@ -178,7 +179,6 @@ SYNC feedbag|4plm20
 SYNC central|4plm22
 SYNC jane bond|4plm23
 SYNC flexible|4plm27
-SEQUENCE ►m-foreplay
 
 MENU SEX
 TOMENU STANDFUCK
@@ -188,6 +188,7 @@ TOMENU BATHSEX3
 SEQUENCE ►m-sex
 
 MENU STANDFUCK
+SEQUENCE ►m-sex
 SYNC ably|6stfm1
 SYNC starfuck|6stfm5
 SYNC eye 2 eye|6stfm15a
@@ -198,9 +199,9 @@ SYNC plump bang|6stfm24
 SYNC bonk|6stfm25
 SYNC hard candy|rsm4
 SYNC hunch|rsm41
-SEQUENCE ►m-sex
 
 MENU BATHSEX1
+SEQUENCE ►m-sex
 SYNC pony ride|6rim18
 SYNC take that|htam5
 SYNC heightened|6sfm1
@@ -211,9 +212,9 @@ SYNC joy ride|6sfm15
 SYNC come on|6sfm23
 SYNC nest|6dom3
 SYNC tootsee roll|6dom12
-SEQUENCE ►m-sex
 
 MENU BATHSEX2
+SEQUENCE ►m-sex
 SYNC doggy tap|6dom4
 SYNC wide open|6dom14
 SYNC tittfuck|6tfm6
@@ -224,9 +225,9 @@ SYNC grind|6mism17b
 SYNC flimsy|6mism17c
 SYNC clasp|6mism21
 SYNC handy|6mism24
-SEQUENCE ►m-sex
 
 MENU BATHSEX3
+SEQUENCE ►m-sex
 SYNC in season|rsm14
 SYNC walker|rsm17
 SYNC up the ass|rsm18
@@ -234,7 +235,6 @@ SYNC hard grace|rsm31
 SYNC throatfuck|rsm24
 SYNC suck4cum|cumm9
 SYNC dirty hands|cumm12
-SEQUENCE ►m-sex
 BUTTON  ‌
 SYNC ░clean░|1SB12
 BUTTON  ‌
@@ -458,6 +458,7 @@ BUTTON Champagne|90200|remprop_champagne
 BUTTON Rack&Items|90200|remprop_rack&items
 
 MENU SINGLE
+SEQUENCE ►f-bath
 POSE f-bath1|1baf6
 POSE f-bath2|1baf7
 POSE f-bath3|1baf8
@@ -471,9 +472,9 @@ POSE f-brush|1baf2
 POSE f-hair|1baf3
 POSE f-read|1baf4
 POSE f-champagne|1baf5
-SEQUENCE ►f-bath
 
 MENU BATHING
+SEQUENCE ►f-bath
 SYNC talk1|1sf83
 SYNC talk2|1sf86
 SYNC talk3|1sf82
@@ -492,9 +493,9 @@ SYNC splash|2baf16
 SYNC wine|2baf17
 SYNC bubble|2baf18
 SYNC Champagne|htcf8
-SEQUENCE ►f-bathing
 
 MENU CUDDLE1
+SEQUENCE ►f-cuddle
 SYNC adored|2baf1
 SYNC it's okay|2baf2
 SYNC ombro|2baf3
@@ -505,9 +506,9 @@ SYNC embrace|csf18
 SYNC don't let go|csf26
 SYNC inuit kiss|csf27
 SYNC beloved|csf32
-SEQUENCE ►f-cuddle
 
 MENU CUDDLE2
+SEQUENCE ►f-cuddle
 SYNC confess|csf49
 SYNC trust me|csf53
 SYNC stargazing|csf59
@@ -515,9 +516,9 @@ SYNC unwind|2baf20
 SYNC appeal|2baf23
 SYNC closer|htcf1
 SYNC untangle|htcf2
-SEQUENCE ►f-cuddle
 
 MENU KISSES
+SEQUENCE ►f-cuddle
 SYNC kiss1|2baf5
 SYNC kiss2|2baf6
 SYNC kiss3|2baf7
@@ -526,7 +527,6 @@ SYNC kiss5|csf15
 SYNC kiss6|csf21
 SYNC kiss7|csf28
 SYNC kiss8|csf30
-SEQUENCE ►f-cuddle
 
 MENU FOREPLAY
 SYNC pussyplay1|htaf2
@@ -536,6 +536,7 @@ SYNC cockplay2|6misf17a
 SEQUENCE ►f-foreplay
 
 MENU BLOWJOB
+SEQUENCE ►f-foreplay
 SYNC ball play|4pbf16
 SYNC prayer|4pbf23
 SYNC get right|4pbf30
@@ -543,9 +544,9 @@ SYNC radical bj|4pbf35a
 SYNC archer bj|4pbf34
 SYNC his way|4pbf28
 SYNC big dipper|4pbf42b
-SEQUENCE ►f-foreplay
 
 MENU TONGUEPLAY
+SEQUENCE ►f-foreplay
 SYNC 68|lick_06_f Galaxy
 SYNC stand lick|4plf11
 SYNC face ride|4plf13
@@ -553,7 +554,6 @@ SYNC feedbag|4plf20
 SYNC central|4plf22
 SYNC jane bond|4plf23
 SYNC flexible|4plf27
-SEQUENCE ►f-foreplay
 
 MENU SEX
 TOMENU STANDFUCK
@@ -563,6 +563,7 @@ TOMENU BATHSEX3
 SEQUENCE ►f-sex
 
 MENU STANDFUCK
+SEQUENCE ►f-sex
 SYNC ably|6stff1
 SYNC starfuck|6stff5
 SYNC eye 2 eye|6stff15a
@@ -573,9 +574,9 @@ SYNC plump bang|6stff24
 SYNC bonk|6stff25
 SYNC hard candy|rsf4
 SYNC hunch|rsf41
-SEQUENCE ►f-sex
 
 MENU BATHSEX1
+SEQUENCE ►f-sex
 SYNC pony ride|6rif18
 SYNC take that|htaf5
 SYNC heightened|6sff1
@@ -586,9 +587,9 @@ SYNC joy ride|6sff15
 SYNC come on|6sff23
 SYNC nest|6dof3
 SYNC tootsee roll|6dof12
-SEQUENCE ►f-sex
 
 MENU BATHSEX2
+SEQUENCE ►f-sex
 SYNC doggy tap|6dof4
 SYNC wide open|6dof14
 SYNC tittfuck|6tff6
@@ -599,9 +600,9 @@ SYNC grind|6misf17b
 SYNC flimsy|6misf17c
 SYNC clasp|6misf21
 SYNC handy|6misf24
-SEQUENCE ►f-sex
 
 MENU BATHSEX3
+SEQUENCE ►f-sex
 SYNC in season|rsf14
 SYNC walker|rsf17
 SYNC up the ass|rsf18
@@ -609,7 +610,6 @@ SYNC hard grace|rsf31
 SYNC throatfuck|rsf24
 SYNC suck4cum|cumf9
 SYNC dirty hands|cumf12
-SEQUENCE ►f-sex
 BUTTON  ‌
 SYNC ░clean░|1sb12
 BUTTON  ‌

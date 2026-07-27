@@ -15,57 +15,6 @@ PLAY m-bath8
 WAIT 120
 PLAY m-bath2
 WAIT 240
-LOOP
-
-
-SEQUENCE  ►f-bath
-PLAY f-bath2
-WAIT 120
-PLAY f-bath3
-WAIT 120
-PLAY f-bath4
-WAIT 120
-PLAY f-bath5
-WAIT 120
-PLAY f-bath6
-WAIT 12
-PLAY f-bath7
-WAIT 120
-PLAY f-bath8
-WAIT 120
-PLAY f-bath2
-WAIT 240
-LOOP
-
-
-SEQUENCE ♬SOUND♬
-WHISPER Press ADJUST -> [SOUND] to turn sound on/off
-WAIT 2
-SOUND Nerenzo-water1|0.7
-WAIT 8
-SOUND Nerenzo-water1|0.7
-WAIT 8
-SOUND Nerenzo-water1|0.7
-WAIT 8
-SOUND Nerenzo-water2|0.7
-WAIT 8
-SOUND Nerenzo-water2|0.7
-WAIT 8
-SOUND Nerenzo-water2|0.7
-WAIT 8
-SOUND Nerenzo-water3|0.7
-WAIT 6
-SOUND Nerenzo-water2|0.7
-WAIT 8
-SOUND Nerenzo-water2|0.7
-WAIT 8
-SOUND Nerenzo-water1|0.7
-WAIT 8
-SOUND Nerenzo-water2|0.7
-WAIT 8
-LOOP
-
-SEQUENCE ►m-bathing
 PLAY talk1
 WAIT 60
 PLAY talk2
@@ -102,6 +51,88 @@ PLAY bubble
 WAIT 60
 PLAY Champagne
 WAIT 60
+LOOP
+
+SEQUENCE  ►f-bath
+PLAY f-bath2
+WAIT 120
+PLAY f-bath3
+WAIT 120
+PLAY f-bath4
+WAIT 120
+PLAY f-bath5
+WAIT 120
+PLAY f-bath6
+WAIT 12
+PLAY f-bath7
+WAIT 120
+PLAY f-bath8
+WAIT 120
+PLAY f-bath2
+WAIT 240
+PLAY talk1
+WAIT 60
+PLAY talk2
+WAIT 60
+PLAY talk3
+WAIT 60
+PLAY talk4
+WAIT 60
+PLAY bathing1
+WAIT 60
+PLAY bathing2
+WAIT 60
+PLAY bathing3
+WAIT 60
+PLAY bathing4
+WAIT 60
+PLAY bathing5
+WAIT 60
+PLAY bathing6
+WAIT 60
+PLAY foot rub
+WAIT 60
+PLAY massage1
+WAIT 60
+PLAY massage2
+WAIT 60
+PLAY read
+WAIT 60
+PLAY splash
+WAIT 60
+PLAY wine
+WAIT 60
+PLAY bubble
+WAIT 60
+PLAY Champagne
+WAIT 60
+LOOP
+
+SEQUENCE ♬SOUND♬
+WHISPER Press ADJUST -> [SOUND] to turn sound on/off
+WAIT 2
+SOUND Nerenzo-water1|0.7
+WAIT 8
+SOUND Nerenzo-water1|0.7
+WAIT 8
+SOUND Nerenzo-water1|0.7
+WAIT 8
+SOUND Nerenzo-water2|0.7
+WAIT 8
+SOUND Nerenzo-water2|0.7
+WAIT 8
+SOUND Nerenzo-water2|0.7
+WAIT 8
+SOUND Nerenzo-water3|0.7
+WAIT 6
+SOUND Nerenzo-water2|0.7
+WAIT 8
+SOUND Nerenzo-water2|0.7
+WAIT 8
+SOUND Nerenzo-water1|0.7
+WAIT 8
+SOUND Nerenzo-water2|0.7
+WAIT 8
 LOOP
 
 SEQUENCE ►m-cuddle
@@ -270,45 +301,6 @@ WAIT 60
 PLAY suck4cum
 WAIT 60
 PLAY dirty hands
-WAIT 60
-LOOP
-
-SEQUENCE ►f-bathing
-PLAY talk1
-WAIT 60
-PLAY talk2
-WAIT 60
-PLAY talk3
-WAIT 60
-PLAY talk4
-WAIT 60
-PLAY bathing1
-WAIT 60
-PLAY bathing2
-WAIT 60
-PLAY bathing3
-WAIT 60
-PLAY bathing4
-WAIT 60
-PLAY bathing5
-WAIT 60
-PLAY bathing6
-WAIT 60
-PLAY foot rub
-WAIT 60
-PLAY massage1
-WAIT 60
-PLAY massage2
-WAIT 60
-PLAY read
-WAIT 60
-PLAY splash
-WAIT 60
-PLAY wine
-WAIT 60
-PLAY bubble
-WAIT 60
-PLAY Champagne
 WAIT 60
 LOOP
 
