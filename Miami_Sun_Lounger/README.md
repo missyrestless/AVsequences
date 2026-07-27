@@ -111,6 +111,7 @@ The following custom sequenced animations are available on the Second Life Marke
 
 ### Customized notecards providing sequenced animations for Nerenzo furniture
 
+- [Nerenzo Bathtub](https://github.com/missyrestless/AVsequences/tree/main/Nerenzo_Bathtub)
 - Nerenzo Beach Bed California
   - [Nerenzo Beach Bed California orgy/group/lovense version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Orgy_Lovense)
   - [Nerenzo Beach Bed California orgy/group version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Orgy_Group)
@@ -139,6 +140,10 @@ The following custom sequenced animations are available on the Second Life Marke
 - [Headhunter Jungle Bar](https://github.com/missyrestless/AVsequences/tree/main/Jungle_Bar)
   - [Headhunter Jungle Bar Center Poles](https://github.com/missyrestless/AVsequences/tree/main/Jungle_Bar/Center)
 - [Headhunter Lifeguard Chair](https://github.com/missyrestless/AVsequences/tree/main/Lifeguard_Chair)
+
+### Customized notecards providing sequenced animations for Black Nest furniture
+
+- [Black Nest Dustbloom Hanging Daybed](https://github.com/missyrestless/AVsequences/tree/main/Hanging_Daybed_Dustbloom)
 
 ### Customized notecards providing sequenced animations for Chez Moi furniture
 
