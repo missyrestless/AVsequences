@@ -1,0 +1,91 @@
+SEQUENCE SEQ-F-Solo
+PLAY sit fe1
+WAIT 60
+PLAY sit top fe
+WAIT 60
+PLAY enjoy fe1
+WAIT 60
+PLAY enjoy fe2
+WAIT 60
+PLAY chill fe
+WAIT 60
+PLAY wash fe1
+WAIT 60
+PLAY wash fe2
+WAIT 60
+PLAY bored fe1
+WAIT 60
+PLAY bored fe2
+WAIT 60
+PLAY meditate fe
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-F-Couple
+PLAY sit1
+WAIT 60
+PLAY sit2
+WAIT 60
+PLAY hug him1
+WAIT 60
+PLAY hug him2
+WAIT 60
+PLAY hold her1
+WAIT 60
+PLAY hold her2
+WAIT 60
+PLAY float
+WAIT 60
+PLAY caress1
+WAIT 60
+PLAY caress2
+WAIT 60
+PLAY kiss
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-M-Solo
+PLAY sit m1
+WAIT 60
+PLAY wash m1
+WAIT 60
+PLAY rest m1
+WAIT 60
+PLAY sit m2
+WAIT 60
+PLAY sit m3
+WAIT 60
+PLAY tired m1
+WAIT 60
+PLAY sit m4
+WAIT 60
+PLAY tired m2
+WAIT 60
+PLAY sit top m
+WAIT 60
+PLAY meditate m
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-M-Couple
+PLAY sit1
+WAIT 60
+PLAY sit2
+WAIT 60
+PLAY hug him1
+WAIT 60
+PLAY hug him2
+WAIT 60
+PLAY hold her1
+WAIT 60
+PLAY hold her2
+WAIT 60
+PLAY float
+WAIT 60
+PLAY caress1
+WAIT 60
+PLAY caress2
+WAIT 60
+PLAY kiss
+WAIT 60
+LOOP

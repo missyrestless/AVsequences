@@ -1,0 +1,153 @@
+SEQUENCE SEQ-F-Solo
+PLAY sit fe1
+WAIT 60
+PLAY sit fe2
+WAIT 60
+PLAY sit fe3
+WAIT 60
+PLAY lay fe1
+WAIT 60
+PLAY lay fe2
+WAIT 60
+PLAY lay fe3
+WAIT 60
+PLAY lay fe4
+WAIT 60
+PLAY bored fe1
+WAIT 60
+PLAY chill fe1
+WAIT 60
+PLAY chill fe2
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-F-Couple
+PLAY sit1
+WAIT 60
+PLAY sit2
+WAIT 60
+PLAY chill
+WAIT 60
+PLAY lay1
+WAIT 60
+PLAY lay2
+WAIT 60
+PLAY lay3
+WAIT 60
+PLAY lay on back
+WAIT 60
+PLAY hug her
+WAIT 60
+PLAY hug him
+WAIT 60
+PLAY embrace
+WAIT 60
+PLAY in love1
+WAIT 60
+PLAY in love2
+WAIT 60
+PLAY kiss1
+WAIT 60
+PLAY kiss2
+WAIT 60
+PLAY kiss3
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-F-Massage
+PLAY caress1
+WAIT 60
+PLAY caress legs1
+WAIT 60
+PLAY caress legs2
+WAIT 60
+PLAY massage1
+WAIT 60
+PLAY massage2
+WAIT 60
+PLAY leg msg
+WAIT 60
+PLAY back msg
+WAIT 60
+PLAY massage5
+WAIT 60
+PLAY massage6
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-M-Solo
+PLAY sit m1
+WAIT 60
+PLAY sit m2
+WAIT 60
+PLAY sit m3
+WAIT 60
+PLAY chill m1
+WAIT 60
+PLAY chill m2
+WAIT 60
+PLAY chill m3
+WAIT 60
+PLAY lay m1
+WAIT 60
+PLAY lay m2
+WAIT 60
+PLAY lay m3
+WAIT 60
+PLAY sleep m1
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-M-Couple
+PLAY sit1
+WAIT 60
+PLAY sit2
+WAIT 60
+PLAY chill
+WAIT 60
+PLAY lay1
+WAIT 60
+PLAY lay2
+WAIT 60
+PLAY lay3
+WAIT 60
+PLAY lay on back
+WAIT 60
+PLAY hug her
+WAIT 60
+PLAY hug him
+WAIT 60
+PLAY embrace
+WAIT 60
+PLAY in love1
+WAIT 60
+PLAY in love2
+WAIT 60
+PLAY kiss1
+WAIT 60
+PLAY kiss2
+WAIT 60
+PLAY kiss3
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-M-Massage
+PLAY caress1
+WAIT 60
+PLAY caress legs1
+WAIT 60
+PLAY caress legs2
+WAIT 60
+PLAY massage1
+WAIT 60
+PLAY massage2
+WAIT 60
+PLAY leg msg
+WAIT 60
+PLAY back msg
+WAIT 60
+PLAY massage5
+WAIT 60
+PLAY massage6
+WAIT 60
+LOOP

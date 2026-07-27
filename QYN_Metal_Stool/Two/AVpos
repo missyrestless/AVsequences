@@ -1,0 +1,291 @@
+HELPER 0
+AMENU 2
+ETYPE 1
+LROT 1
+Faces 1
+
+TEXT [https:\/\/marketplace.secondlife.com/stores/65250?utf8=✓&search[sort]=released_at_desc Marketplace Link]
+
+RLV 1
+ROLES S|D|S|D|S|D|S|D|S|D|S|D
+ONTOUCH ASK
+ONSIT NONE
+ONCAPTURE @unsit=n|@fartouch=n|@rez=n|@edit=n|@acceptpermission=add
+ONRELEASE @unsit=yes|@unsit=force
+//WAITPOSE Lean Wait
+DOMPOSE Devotion 1
+SUBPOSE Lean Ground
+RECAPTURE 1
+TIMELOCK 0
+SUBCONTROL 1
+HTEXT 30
+
+//ADJUST [TEXTURES]|45600|[Dance Pole]|45600|[SOUND]|45600|[FACES]|45700|[Cock Tilting]|45800|[INM API]|-99998
+ADJUST [TEXTURES]|45600|[SOUND]|45600|[FACES]|45700|[Cock Tilting]|45800|[Update]|48800
+
+//For Engines
+//ADJUST [SOUND]|45600|[FACES]|45700|[Aeros]|45800|[INM API]|-99998|[HIDE/SHOW]|90200 
+
+MENUVOLUME [SOUND]
+DEFAULTSOUND 29c51e1f-3467-dc1b-ebd4-772ec2cfed6e // silence 23b519d2-ada2-6f69-6721-742fa8427a63 heartbeat
+
+SOUND Mal1|embarrassed_emote|open_mouth@half|open_mouth|anger_emote@#|anger_emote@#
+//BENTO anger_emote@#|disdain|embarassed_emote|frown|laugh_emote|
+SOUND Fem1|open_mouth|open_mouth@half|open_mouth|open_mouth@more|open_mouth@wide2
+//BENTO repulsed_emote|
+//BENTO tongue_out|tongue_out@lick
+//BENTO neutral|neutral2
+
+AMENU 0
+SWAP 0
+TMENU 2
+
+SITTER *
+
+MENU [MENU]
+//SYNC [ADJUST]|Between_Legs_ Hug_(F)|
+BUTTON [SWAP]
+TOMENU [CUM]
+BUTTON [POSE]
+BUTTON [ADJUST]
+TOMENU [ANIMESH]
+TOMENU [PROPS]
+BUTTON [CONTROL]
+
+MENU [CUM]
+BUTTON Wash cum|
+BUTTON Splash cum|
+//TOMENU Wash parts
+//TOMENU Splash parts
+TOMENU [AUTO CLEAN]
+TOMENU [AUTO MENU]
+
+MENU [AUTO MENU]
+BUTTON Cum menu|
+BUTTON Cum auto|
+
+MENU [AUTO CLEAN]
+BUTTON Auto Wash|
+BUTTON Auto Splash|
+BUTTON Auto Off|
+
+SITTER 0|||/&/%/$/@/^|2|1|0 //------------|in mouth|in ass|on face|on r foot|on l foot|on tits|in pussy
+
+MENU [PROPS]
+BUTTON [CLEAR]
+BUTTON Handcuffs
+BUTTON Clear Handcuffs||remprop_Handcuffs
+BUTTON Blindfold Black
+BUTTON Clear Blindfold Black||remprop_Blindfold Black
+BUTTON Gag Black
+BUTTON Clear Gag Black||remprop_Gag Black
+BUTTON Dildo Ass
+BUTTON Clear Dildo Ass||remprop_Dildo Ass
+BUTTON Dildo Pussy
+BUTTON Clear Dildo Pussy||remprop_Dildo Pussy
+BUTTON Buttplug with ring
+BUTTON Clear Buttplug with ring||remprop_Buttplug with ring
+
+SITTER 1|||/&/%/$/@/^|2|2|0 //------------|in mouth|in ass|on face|on r foot|on l foot|on tits|in pussy
+
+MENU [PROPS]
+BUTTON [CLEAR]
+BUTTON Handcuffs
+BUTTON Clear Handcuffs||remprop_Handcuffs
+BUTTON Blindfold Black
+BUTTON Clear Blindfold Black||remprop_Blindfold Black
+BUTTON Gag Black
+BUTTON Clear Gag Black||remprop_Gag Black
+BUTTON Dildo Ass
+BUTTON Clear Dildo Ass||remprop_Dildo Ass
+BUTTON Dildo Pussy
+BUTTON Clear Dildo Pussy||remprop_Dildo Pussy
+BUTTON Buttplug with ring
+BUTTON Clear Buttplug with ring||remprop_Buttplug with ring
+
+SITTER *
+//PROP1 Handcuffs|Left Handcuff 2|G0|<0,0,0.1>|<0,0,0.1>
+
+ANIMESH AnimeshDoll0|AnimeshDoll0|ZZZ|<0,0,0>|<0,0,0.1>
+ANIMESH AnimeshDoll1|AnimeshDoll1|ZZZ|<0,0,0>|<0,0,0.1>
+ANIMESH AnimeshDoll2|AnimeshDoll2|ZZZ|<0,0,0>|<0,0,0.1>
+
+MENU [MENU]
+TOMENU [ANIMESH]
+
+MENU [ANIMESH]
+BUTTON Derez|80302 // Remove animeshes
+
+SITTER 1&2&3&4&5&6&7&8&9|||||1|0
+MENU [ANIMESH]
+BUTTON Female 0||AnimeshDoll0/0
+BUTTON Male 0||AnimeshDoll1/0
+BUTTON Tgirl 0||AnimeshDoll2/0
+
+SITTER 0&2&3&4&5&6&7&8&9|||||2|0
+MENU [ANIMESH]
+BUTTON Female 1||AnimeshDoll0/1
+BUTTON Male 1||AnimeshDoll1/1
+BUTTON Tgirl 1||AnimeshDoll2/1
+
+SITTER 0&1&3&4&5&6&7&8&9|||||3|0
+MENU [ANIMESH]
+BUTTON Female 2||AnimeshDoll0/2
+BUTTON Male 2||AnimeshDoll1/2
+BUTTON Tgirl 2||AnimeshDoll2/2
+
+SITTER 0&1&2&4&5&6&7&8&9|||||4|0
+MENU [ANIMESH]
+BUTTON Female 3||AnimeshDoll0/3
+BUTTON Male 3||AnimeshDoll1/3
+BUTTON Tgirl 3||AnimeshDoll2/3
+
+SITTER 0&1&2&3&5&6&7&8&9|||||5|0
+MENU [ANIMESH]
+BUTTON Female 4||AnimeshDoll0/4
+BUTTON Male 4||AnimeshDoll1/4
+BUTTON Tgirl 4||AnimeshDoll2/4
+
+SITTER 0&1&2&3&4&6&7&8&9|||||6|0
+MENU [ANIMESH]
+BUTTON Female 5||AnimeshDoll0/5
+BUTTON Male 5||AnimeshDoll1/5
+BUTTON Tgirl 5||AnimeshDoll2/5
+
+SITTER 0&1&2&3&4&5&7&8&9|||||7|0
+MENU [ANIMESH]
+BUTTON Female 6||AnimeshDoll0/6
+BUTTON Male 6||AnimeshDoll1/6
+BUTTON Tgirl 6||AnimeshDoll2/6
+
+SITTER 0&1&2&3&4&5&6&8&9|||||8|0
+MENU [ANIMESH]
+BUTTON Female 7||AnimeshDoll0/7
+BUTTON Male 7||AnimeshDoll1/7
+BUTTON Tgirl 7||AnimeshDoll2/7
+
+SITTER 0&1&2&3&4&5&6&7&9|||||9|0
+MENU [ANIMESH]
+BUTTON Female 8||AnimeshDoll0/8
+BUTTON Male 8||AnimeshDoll1/8
+BUTTON Tgirl 8||AnimeshDoll2/8
+
+SITTER 0&1&2&3&4&5&6&7&8|||||10|0
+MENU [ANIMESH]
+BUTTON Female 9||AnimeshDoll0/9
+BUTTON Male 9||AnimeshDoll1/9
+BUTTON Tgirl 9||AnimeshDoll2/9
+
+SITTER 0|||/&/%/$/@/^|2|1|0 //------------|in mouth|in ass|on face|on r foot|on l foot|on tits|in pussy
+//SITTER 1|||/&/%/$/@/^|2|2|0 //------------|in mouth|in ass|on face|on r foot|on l foot|on tits|in pussy
+
+PROP1 Handcuffs|Left Handcuff 2|G0|<0,0,0.1>|<0,0,0.1>|
+PROP1 Handcuffs|Right Handcuff 1|G1|<0,0,0.1>|<0,0,0.1>|
+PROP1 Blindfold Black|Blindfold Black|G2|<0,0,0.1>|<0,0,0.1>|
+PROP1 Gag Black|Ball Gag|G3|<0,0,0.1>|<0,0,0.1>|
+PROP1 Dildo Ass|Dildo Ass|G4|<0,0,0.1>|<0,0,0.1>|
+PROP1 Dildo Pussy|Dildo Pussy|G5|<0,0,0.1>|<0,0,0.1>|
+PROP1 Buttplug with ring|Buttplug with ring|G4|<0,0,0.1>|<0,0,0.1>|
+
+SOUNDSET Bang_-1_Faces|4|*KbMoan+|1|*KbSleep|4|*KbMoan-
+SOUNDSET Bang_0_Faces|3|*KbMoan+|1|*KbSleep|3|*KbMoan-
+SOUNDSET Bang_1_Faces|2|*KbMoan+|2|*KbMoan-
+SOUNDSET Bang_2_Faces|1|*KbMoan+|1|*KbMoan-
+SOUNDSET Bang_3_Faces|1|*KbMoan+|1|*KbMoan-
+
+SOUNDSET Bump_-1_Faces|4|*KbMoan+|1|*KbSleep|4|*KbMoan-
+SOUNDSET Bump_0_Faces|3|*KbMoan+|1|*KbSleep|3|*KbMoan-
+SOUNDSET Bump_1_Faces|2|*KbMoan+|2|*KbMoan-
+SOUNDSET Bump_2_Faces|1|*KbMoan+|1|*KbMoan-
+SOUNDSET Bump_3_Faces|1|*KbMoan+|1|*KbMoan-
+
+SOUNDSET Moan_-1_Faces|4|*KbMoan+|1|*KbSleep|4|*KbMoan-
+SOUNDSET Moan_0_Faces|3|*KbMoan+|1|*KbSleep|3|*KbMoan-
+SOUNDSET Moan_1_Faces|2|*KbMoan+|2|*KbMoan-
+SOUNDSET Moan_2_Faces|1|*KbMoan+|1|*KbMoan-
+SOUNDSET Moan_3_Faces|1|*KbMoan+|1|*KbMoan-
+
+SOUNDSET MoanM_-1_Faces|4|002_FROWN|4|002_DISDAIN|4|002_EMBARASSED|4|002_BORED
+SOUNDSET MoanM_0_Faces|2|002_FROWN|2|002_DISDAIN|2|002_EMBARASSED|2|002_BORED
+SOUNDSET MoanM_1_Faces|1|002_FROWN|1|002_DISDAIN|1|002_EMBARASSED|1|002_BORED
+SOUNDSET MoanM_2_Faces|1|002_FROWN|2|002_DISDAIN|1|002_EMBARASSED|1|002_BORED
+SOUNDSET MoanM_3_Faces|1|002_FROWN|1|002_DISDAIN|1|002_EMBARASSED|1|002_BORED
+
+//SOUNDSET Moan_-1_Faces|2|[Black Tulip] Faces - express_kiss|2|[Black Tulip] Faces - express_smile
+//SOUNDSET Moan_0_Faces|1|SE-angry08|1|SE-angry09|1|SE-angry07|1|SE-angry06
+//SOUNDSET Moan_1_Faces|1|SE-angry08|1|SE-angry09|1|SE-angry07|1|SE-angry06
+//SOUNDSET Moan_2_Faces|1|SE-angry08|1|SE-angry09|1|SE-angry07|1|SE-angry06
+//SOUNDSET Moan_3_Faces|1|SE-angry08|1|SE-angry09|1|SE-angry07|1|SE-angry06
+
+SOUNDSET Finger_-1_Faces|2|[Black Tulip] Faces - express_kiss|2|[Black Tulip] Faces - express_smile
+SOUNDSET Finger_0_Faces|2|SE-angry08|2|SE-angry09|2|SE-angry07|2|SE-angry06
+SOUNDSET Finger_1_Faces|1|SE-angry08|1|SE-angry09|1|SE-angry07|1|SE-angry06
+SOUNDSET Finger_2_Faces|1|SE-angry08|1|SE-angry09|1|SE-angry07|1|SE-angry06
+SOUNDSET Finger_3_Faces|1|SE-angry08|1|SE-angry09|1|SE-angry07|1|SE-angry06
+
+SOUNDSET Lick_-1_Faces|4|*KbTongue1|4|*KbTongue2|4|*KbTongue3
+SOUNDSET Lick_0_Faces|3|*KbTongue1|3|*KbTongue2|3|*KbTongue3
+SOUNDSET Lick_1_Faces|2|*KbTongue1|2|*KbTongue2|2|*KbTongue3
+SOUNDSET Lick_2_Faces|1|*KbTongue1|1|*KbTongue2|1|*KbTongue3
+SOUNDSET Lick_3_Faces|1|*KbTongue1|1|*KbTongue2|1|*KbTongue3
+
+SOUNDSET Suck_-1_Faces|4|Catwa3V2+|4|Catwa3V2|4|Catwa3V2-
+SOUNDSET Suck_0_Faces|3|Catwa3V2+|3|Catwa3V2|3|Catwa3V2-
+SOUNDSET Suck_1_Faces|2|Catwa3V2+|2|Catwa3V2|2|Catwa3V2-
+SOUNDSET Suck_2_Faces|1|Catwa3V2+|1|Catwa3V2|1|Catwa3V2-
+SOUNDSET Suck_3_Faces|1|Catwa3V2+|1|Catwa3V2|1|Catwa3V2-
+
+SOUNDSET Suck2_-1_Faces|4|#FPA-185|4|#FPA-186 BJ|4|#FPA-184
+SOUNDSET Suck2_0_Faces|3|#FPA-185|3|#FPA-186 BJ|3|#FPA-184
+SOUNDSET Suck2_1_Faces|2|#FPA-185|2|#FPA-186 BJ|2|#FPA-184
+SOUNDSET Suck2_2_Faces|1|#FPA-185|1|#FPA-186 BJ|1|#FPA-184
+SOUNDSET Suck2_3_Faces|1|#FPA-185|1|#FPA-186 BJ|1|#FPA-184
+
+SOUNDSET Throat_-1_Faces|4|Catwa3V2+|4|Catwa3V2|4|Catwa3V2-
+SOUNDSET Throat_0_Faces|3|Catwa3V2+|3|Catwa3V2|3|Catwa3V2-
+SOUNDSET Throat_1_Faces|2|Catwa3V2+|2|Catwa3V2|2|Catwa3V2-
+SOUNDSET Throat_2_Faces|1|Catwa3V2+|1|Catwa3V2|1|Catwa3V2-
+SOUNDSET Throat_3_Faces|1|Catwa3V2+|1|Catwa3V2|1|Catwa3V2-
+
+SOUNDSET Gag_-1_Faces|4|Catwa3V2+|4|Catwa3V2|4|Catwa3V2-
+SOUNDSET Gag_0_Faces|3|Catwa3V2+|3|Catwa3V2|3|Catwa3V2-
+SOUNDSET Gag_1_Faces|2|Catwa3V2+|2|Catwa3V2|2|Catwa3V2-
+SOUNDSET Gag_2_Faces|1|Catwa3V2+|1|Catwa3V2|1|Catwa3V2-
+SOUNDSET Gag_3_Faces|1|Catwa3V2+|1|Catwa3V2|1|Catwa3V2-
+
+SOUNDSET Bang|36|4fb395a1-6555-e946-cbbd-408422b8aa74|44|5ba17f51-4b53-677d-e934-238b8407a8d1|48|2d14ea69-fbab-8d8a-4db1-74975fb00a88|58|87697368-6620-af22-27f2-fcdf98e24e93|64|6cf83b3e-1e1a-35c9-8a55-ee91baa1e6c2|70|48748fdf-e379-91e7-856d-3d2bccb4a3a4|74|22940e20-e0d2-2234-6fb6-f1652d18fdb1|76|dc64d7b2-7b08-ee94-0e3b-040ade2094f8|82|e02b1e4d-8431-916d-6bd2-516b41524e48|96|c78640ae-359d-0633-c241-9bfe505cc9f2|106|228c7e66-53dc-05f1-111b-6b3b5f87d140|108|a09336e0-5f90-31e6-b909-818736870e9c|114|48485a15-9049-a552-aa97-97ebf8e4722d|128|6528215b-ab28-66fd-0136-105fa16f4b51|132|943e9661-c355-6b1c-9238-a95e1493b623|134|51d8b112-88bb-39b1-d62f-b0518fc4946f|140|fe0535bd-3f18-2fa8-a2dc-7b121a8e9976|148|3bcb65ac-5cb4-3ea4-93ef-b2157de5916e|150|43145ff0-7051-71c6-6d68-01e473970c1e|172|0794e4bb-bc34-aaa3-7e68-005e11982337
+SOUNDSET Bang_GM|0|V_SHUT_UP|20|V_0|35|V_1|50|V_2|110|V_3|130|V_4|140|V_5|160|V_6
+
+SOUNDSET Moan_GM|0|V_SHUT_UP|20|V_0|35|V_1|50|V_2|110|V_3|130|V_4|140|V_5|160|V_6
+
+SOUNDSET MoanM_GM|0|V_SHUT_UP|20|V_0|35|V_1|50|V_2|110|V_3|130|V_4|140|V_5|160|V_6
+
+SOUNDSET Bump|36|4fb395a1-6555-e946-cbbd-408422b8aa74|48|2d14ea69-fbab-8d8a-4db1-74975fb00a88|58|87697368-6620-af22-27f2-fcdf98e24e93|64|6cf83b3e-1e1a-35c9-8a55-ee91baa1e6c2|70|48748fdf-e379-91e7-856d-3d2bccb4a3a4|74|22940e20-e0d2-2234-6fb6-f1652d18fdb1|76|dc64d7b2-7b08-ee94-0e3b-040ade2094f8|86|c529ddbe-3d54-bb7e-3dc1-d7d664504db9|94|b323fe2c-f11d-234b-a691-b911e7af12b8|100|912c1e24-a805-58e5-4b4a-df3a80876f9b|108|33693d09-5dbd-b677-59dd-c14a75d3f677|120|c9c8719f-9d7b-e512-cfb2-7ad5a7efb7a9|128|15cb6295-7e6d-550b-862a-cf9a4c182b8c|132|70b12fcc-50ee-94e4-c5c5-bd9e890864c7|140|fe0535bd-3f18-2fa8-a2dc-7b121a8e9976|148|3bcb65ac-5cb4-3ea4-93ef-b2157de5916e|150|43145ff0-7051-71c6-6d68-01e473970c1e|172|0794e4bb-bc34-aaa3-7e68-005e11982337
+SOUNDSET Bump_GM|0|V_SHUT_UP|20|V_0|35|V_1|50|V_2|110|V_3|130|V_4|140|V_5|160|V_6
+
+SOUNDSET Lick|76|2df06823-8adf-947c-5f9a-e3a8ff52c35d|108|41422e15-b8e4-48cd-09c6-fe614522da0a|144|ad406787-8080-b4f1-5a6a-d2f69e59b97d
+SOUNDSET Lick_GM|76|V_SUCK/INT=2|108|V_SUCK/INT=1|144|V_SUCK// Will trigger "Suck" for Female Huds and "Oral" for Male Huds
+
+SOUNDSET Suck|76|abcabe59-583b-c07a-7463-e32e77ed774b|108|d5444b32-b8af-033b-976b-82aeca0099a5|144|8eaf7609-41ec-5253-ae07-1b329ef41026|160|37f4568e-cd12-11b5-4e47-53a61ad7432c
+SOUNDSET Suck_GM|76|V_SUCK/INT=2|108|V_SUCK/INT=1|144|V_SUCK// Will trigger "Suck" for Female Huds and "Oral" for Male Huds
+
+SOUNDSET Suck2|76|7825f722-6612-c8c3-4d7c-3a14e4db8847|108|bea5e97a-fe09-be9f-eb18-f2a9faa46370|144|ebdcabbd-fb67-89ac-42ba-0d20dfad8912
+SOUNDSET Suck2_GM|76|V_SUCK/INT=2|108|V_SUCK/INT=1|144|V_SUCK// Will trigger "Suck" for Female Huds and "Oral" for Male Huds
+
+SOUNDSET Gag|76|04f5896a-fe12-4196-0bd1-f2176bf3f1d1|108|43be5d09-37b0-ff32-3844-cfc5fa684b67|144|6766863a-d3b4-2498-5452-ca1d1ec33113
+SOUNDSET Gag_GM|76|V_GAG/INT=2|108|V_GAG/INT=1|144|V_GAG
+
+SOUNDSET Throat|76|00c94353-f75b-d17b-f522-baededaa2fcb|108|d0cb8925-0732-754f-4af2-36844ccf570c|144|d46f9c15-a888-4585-64a7-f2ca932f4152
+SOUNDSET Throat_GM|76|V_THROAT/INT=2|108|V_THROAT/INT=1|144|V_THROAT
+
+SOUNDSET Finger|76|4f844a85-5aea-776b-0d5d-b2bcb8c0437f|108|d1522685-9e32-3855-e376-a7c4828c0a6a|144|d65ce902-1475-e42b-3d1f-b9209ebfe8d1
+SOUNDSET Lick_GM|76|V_SUCK/INT=2|108|V_SUCK/INT=1|144|V_SUCK// Will trigger "Suck" for Female Huds and "Oral" for Male Huds
+
+SOUNDSET Spit|76|435dca08-71ae-6194-4eeb-4714b8d07b2c
+SOUNDSET Rub|76|eb00bc08-c231-2bcf-39e0-b7887af30ac3
+SOUNDSET Silence|76|a4c1a8d0-ebdf-9827-f0f2-93a597909419|128|5551be11-07e8-b3de-4659-4a4c363c2b34
+SOUNDSET Painful_GM|76|V_PAINFUL/INT=2|108|V_PAINFUL/INT=1|144|V_PAINFUL
+
+//SOUNDSET Phatpussy|1|2|2|3|3|5//2=Spread, 3=gaping, 4=Open, 5=OpenWide //0=no action
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

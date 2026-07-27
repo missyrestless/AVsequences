@@ -1,0 +1,56 @@
+SEQUENCE SEQ-F-Solo
+PLAY sit fe1
+WAIT 60
+PLAY sit fe2
+WAIT 60
+PLAY lay fe1
+WAIT 60
+PLAY lay fe2
+WAIT 60
+PLAY lay fe3
+WAIT 60
+PLAY sit m1
+WAIT 60
+PLAY sit m2
+WAIT 60
+PLAY lay m1
+WAIT 60
+PLAY lay m2
+WAIT 60
+PLAY sleep m
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-F-Couple
+PLAY sit1
+WAIT 60
+PLAY embrace
+WAIT 60
+PLAY couple stand1
+WAIT 60
+PLAY couple stand2
+WAIT 60
+PLAY in love1
+WAIT 60
+PLAY in love2
+WAIT 60
+PLAY kiss
+WAIT 60
+LOOP
+
+SEQUENCE SEQ-M-Couple
+PLAY sit1
+WAIT 60
+PLAY embrace
+WAIT 60
+PLAY couple stand1
+WAIT 60
+PLAY couple stand2
+WAIT 60
+PLAY in love1
+WAIT 60
+PLAY in love2
+WAIT 60
+PLAY kiss
+WAIT 60
+LOOP

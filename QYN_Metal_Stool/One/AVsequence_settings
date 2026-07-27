@@ -1,0 +1,45 @@
+SEQUENCE Sit_F_SEQ
+PLAY Fem Sit
+WAIT 60
+PLAY Confident
+WAIT 60
+PLAY Attentive
+WAIT 60
+PLAY Pensive
+WAIT 60
+PLAY Musing
+WAIT 60
+LOOP
+
+SEQUENCE Sit_M_SEQ
+PLAY Stool M
+WAIT 60
+PLAY Street king
+WAIT 60
+PLAY Iron gaze
+WAIT 60
+PLAY Thoughtful M
+WAIT 60
+PLAY chair MAN
+WAIT 60
+PLAY Urban throne
+WAIT 60
+PLAY Alpha rest
+WAIT 60
+PLAY Boss drop
+WAIT 60
+PLAY Untouchable
+WAIT 60
+PLAY Lions reign
+WAIT 60
+PLAY Armchair3
+WAIT 60
+PLAY Game over sit
+WAIT 60
+PLAY Dominion
+WAIT 60
+PLAY Titan seat
+WAIT 60
+PLAY Armchair1
+WAIT 60
+LOOP
