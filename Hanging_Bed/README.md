@@ -130,6 +130,7 @@ The following custom sequenced animations are available on the Second Life Marke
 ### Customized notecards providing sequenced animations for Chez Moi furniture
 
 - [Chez Moi Oceana Lounger](https://github.com/missyrestless/AVsequences/tree/main/Oceana_Lounger)
+- [Chez Moi Sombrero Tiki Bench](https://github.com/missyrestless/AVsequences/tree/main/Tiki_Bench)
 
 ### Customized autoplay scripts for Debauchery furniture
 

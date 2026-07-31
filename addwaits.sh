@@ -10,6 +10,6 @@ FN="AVsequence_settings"
 
 cat ${FN} | sed -e "s/^SYNC/PLAY/" -e "s/^POSE/PLAY/" -e "s/|.*//" > /tmp/avs$$
 cat /tmp/avs$$ | sed -e '/^PLAY/a\
-WAIT 60' > ${FN}
+WAIT 90' > ${FN}
 
 rm -f /tmp/avs$$
