@@ -1,8 +1,8 @@
-# AVsitter Sequence for Tia Beala Bed
+# AVsitter Sequence for Tia Baela Bed
 
 This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
 with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
-the Tia Beala Bed dialog menus.
+the Tia Baela Bed dialog menus.
 
 This `AVsitter` customization allows greater freedom of personal interaction in the
 bed, eliminating the need to navigate dialog menus during moments of intimacy.
@@ -127,6 +127,10 @@ The following custom sequenced animations are available on the Second Life Marke
   - [Headhunter Jungle Bar Center Poles](https://github.com/missyrestless/AVsequences/tree/main/Jungle_Bar/Center)
 - [Headhunter Lifeguard Chair](https://github.com/missyrestless/AVsequences/tree/main/Lifeguard_Chair)
 - [Headhunter Outdoor Bath](https://github.com/missyrestless/AVsequences/tree/main/Outdoor_Bath)
+
+### Customized notecards providing sequenced animations for BackBone furniture
+
+- [BackBone Stargazing Nook](https://github.com/missyrestless/AVsequences/tree/main/Stargazing_Nook)
 
 ### Customized notecards providing sequenced animations for Black Nest furniture
 

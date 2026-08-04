@@ -126,6 +126,10 @@ The following custom sequenced animations are available on the Second Life Marke
 - [Headhunter Lifeguard Chair](https://github.com/missyrestless/AVsequences/tree/main/Lifeguard_Chair)
 - [Headhunter Outdoor Bath](https://github.com/missyrestless/AVsequences/tree/main/Outdoor_Bath)
 
+### Customized notecards providing sequenced animations for BackBone furniture
+
+- [BackBone Stargazing Nook](https://github.com/missyrestless/AVsequences/tree/main/Stargazing_Nook)
+
 ### Customized notecards providing sequenced animations for Black Nest furniture
 
 - [Black Nest Dustbloom Hanging Daybed](https://github.com/missyrestless/AVsequences/tree/main/Hanging_Daybed_Dustbloom)
