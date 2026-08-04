@@ -165,6 +165,10 @@ The following custom sequenced animations are available on the Second Life Marke
 
 - [QYN Sex Stool Collection](https://github.com/missyrestless/AVsequences/tree/main/QYN_Metal_Stool)
 
+### Customized notecards providing sequenced animations for Tia products
+
+- [Tia Baela Bed](https://github.com/missyrestless/AVsequences/tree/main/Baela_Bed)
+
 ### Customized notecards providing sequenced animations for Tm Creation products
 
 - [Adult Sandcastle](https://github.com/missyrestless/AVsequences/tree/main/Sandcastle)

@@ -2,7 +2,6 @@
 * Automatically plays SINGLES_POSE when one avatar sits
 * Automatically plays COUPLES_POSE when 2 avatars sit
 * Automatically plays TRIPLES_POSE when 3 avatars sit
-* Automatically plays FOURTHS_POSE when 4 avatars sit
 * Automatically detects gender of sitter and plays appropriate sequence
 * Requires scripts from AVsitter box 2.1-11.01 or later
 *
@@ -24,19 +23,16 @@
  * Set these to the sequence names you want to autoplay
 **********************************************************************/
 // Couples Female Sequence
-string COUPLES_POSE_F = "SEQ-CUDDLE-F";
+string COUPLES_POSE_F = "SEQ-F-CUDDLE";
 // Singles Female Sequence
-string SINGLES_POSE_F = "SEQ-SOLO-F";
+string SINGLES_POSE_F = "SEQ-F-SOLO";
 // Couples Male Sequence
-string COUPLES_POSE_M = "SEQ-CUDDLE-M";
+string COUPLES_POSE_M = "SEQ-M-CUDDLE";
 // Singles Male Sequence
-string SINGLES_POSE_M = "SEQ-SOLO-M";
+string SINGLES_POSE_M = "SEQ-M-SOLO";
 // 3 Sitter Sequence
-string TRIPLES_POSE_F = "SEQ-FFM-PG";
-string TRIPLES_POSE_M = "SEQ-MMF-PG";
-// 4 Sitter Sequence
-string FOURTHS_POSE_F = "SEQ-4-WHIRL";
-string FOURTHS_POSE_M = "SEQ-4-WHIRL";
+string TRIPLES_POSE_F = "SEQ-3-SOLO";
+string TRIPLES_POSE_M = "SEQ-3-SOLO";
 
 /******************************************************************
  * DON'T EDIT BELOW THIS UNLESS YOU KNOW WHAT YOU'RE DOING!
@@ -45,7 +41,6 @@ string FOURTHS_POSE_M = "SEQ-4-WHIRL";
 key AV_KEY;
 integer SIT_MSG = 90045;
 integer STAND_MSG = 90065;
-string FOURTHS_POSE = FOURTHS_POSE_F;
 string TRIPLES_POSE = TRIPLES_POSE_F;
 string COUPLES_POSE = COUPLES_POSE_F;
 string SINGLES_POSE = SINGLES_POSE_F;
@@ -67,7 +62,6 @@ default {
         if (change & CHANGED_LINK) {
             llSleep(1);
             // Use female poses for ambiguous or undefined gender
-            FOURTHS_POSE = FOURTHS_POSE_F;
             TRIPLES_POSE = TRIPLES_POSE_F;
             COUPLES_POSE = COUPLES_POSE_F;
             SINGLES_POSE = SINGLES_POSE_F;
@@ -76,15 +70,12 @@ default {
             if (avatar_count > 0) { // at least one avatar is seated
               if (AV_KEY != NULL_KEY) {
                 if (GetAvatarGender(AV_KEY) == "male") {
-                  FOURTHS_POSE = FOURTHS_POSE_M;
                   TRIPLES_POSE = TRIPLES_POSE_M;
                   COUPLES_POSE = COUPLES_POSE_M;
                   SINGLES_POSE = SINGLES_POSE_M;
                 }
               }
-              if (avatar_count > 3) { // more than three avatars sitting
-                llMessageLinked(LINK_SET,90000,FOURTHS_POSE,""); // play triples pose
-              } else if (avatar_count > 2) { // more than two avatars sitting
+              if (avatar_count > 2) { // more than three avatars sitting
                 llMessageLinked(LINK_SET,90000,TRIPLES_POSE,""); // play triples pose
               } else if (avatar_count > 1) { // more than one avatar sitting
                 llMessageLinked(LINK_SET,90000,COUPLES_POSE,""); // play couples pose

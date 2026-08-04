@@ -1,34 +1,24 @@
-# AVsitter Sequence for Nerenzo Floor Pillow 
+# AVsitter Sequence for Tia Beala Bed
 
 This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
 with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
-the Nerenzo Floor Pillow dialog menus.
+the Tia Beala Bed dialog menus.
 
 This `AVsitter` customization allows greater freedom of personal interaction in the
-pool, eliminating the need to navigate dialog menus during moments of intimacy.
-
-**[Note:]** This customization is for the adult version of the floor pillow
-available on the Second Life Marketplace at
-https://marketplace.secondlife.com/p/Nerenzo-floor-pillow-adult-version-226-animations/12724528
+bed, eliminating the need to navigate dialog menus during moments of intimacy.
 
 ## Menus
 
-Sequences are configured for each sitter, both male and female.
+Sequences are configured for the following menus:
 
-Currently configured sequenced menus include:
-
-- Solo Menus
-- Cuddle Menus
-- Kiss Menus
-- This and That Menus
-- Foreplay Menus
-- Tongue Play Menus
-- Blow Job Menus
-- Spicy Sex Menus
-- Rough Sex Menus
-- Standing Sex Menus
-- Kinky Sex Menus
-- Cum and Clean Menus
+- Male, Female, and 3rd Solo Menus
+- Male, Female, and 3rd Cuddles Menus
+- Male, Female, and 3rd Adult Menus
+- Male/Female Foreplay, Oral, Doggy, Rides, Missionary, Kneeling Menus
+- Threesome Cuddles - MMF and FFM
+- Threesome Sex - MMF and FFM
+- LGBT Girls Cuddles &amp; Sex
+- LGBT Boys cuddles &amp; Sex
 
 ## Download the script and customized notecards
 
@@ -41,60 +31,47 @@ wget -q -O '[AV]sequence' https://raw.githubusercontent.com/AVsitter/AVsitter/re
 Download the customized `[AV]sequence_settings` notecard:
 
 ```bash
-wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Floor_Pillow/AVsequence_settings
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Baela_Bed/AVsequence_settings
 ```
 
-**[Note:]** There are two pillows, each with different `AVpos` notecards. Download both notecards
-to configure both pillows.
-
-Download the customized `AVpos` notecards:
+Download the customized `AVpos` notecard:
 
 ```bash
-wget -q -O AVpos1 https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Floor_Pillow/Pillow1/AVpos
-wget -q -O AVpos2 https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Floor_Pillow/Pillow2/AVpos
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Baela_Bed/AVpos
 ```
-
-**[Note:]** This downloads the two `AVpos` notecards as `AVpos1` and `AVpos2`. Below when each
-pillow is configured with sequences, these notecards are renamed to `AVpos` for each pillow.
 
 ## Setup
 
-To configure the Nerenzo Floor Pillows with AVsitter sequences:
+To configure an adult Baela Bed with AVsitter sequences:
 
-- Right click the first pillow, Nerenzo floor pillow1 - adult, and select `Edit`
-- Drag and Drop the `[AV]sequence_settings` notecard into the Contents tab
-- Drag and Drop the `[AV]sequence` plugin script into the Contents tab
-- Replace the `AVpos` notecard in the Contents tab with the `AVpos1` notecard found in this folder
-  - Drag and Drop the original `AVpos` notecard from the Contents tab into your inventory as a backup
-  - Delete the `AVpos` notecard from the Contents tab (you can ignore and close the Warning window)
-  - Rename the `AVpos1` notecard to `AVpos`
-  - Drag and Drop the new `AVpos` notecard with sequences into the Contents tab
+- Right click the bed and select `Edit`
+- Copy the `[AV]sequence_settings` notecard into the Contents tab
+- Copy the `[AV]sequence` plugin script into the Contents tab
+- Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
 - Close the `Edit` window
-- Right click the pillow and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
+- Right click the bed and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
 - Wait for the scripts to reset (this takes a few minutes)
-- Repeat these steps for Nerenzo floor pillow2 - adult, renaming the `AVpos2` notecard to `AVpos`
 
-Sit on the pillow and select one of the main menu entries.
+Sit on the bed and click one of the sequence buttons, for example: `SEQ-M-SOLO`,
+`SEQ-M-CUDDLE`, `SEQ-F-SOLO`, or `SEQ-F-CUDDLE`.
 
-You should see a menu entry of the form `SEQ_...`. Click this menu entry and your
+Sequence menu buttons are of the form `SEQ-...`. Click this menu entry and your
 avatar will cycle through all the animations in that submenu. Cycle times are currently
-set to 60 seconds with menu arrows to step to the next animation, previous animation,
+set to 90 seconds with menu arrows to step to the next animation, previous animation,
 or pause animation sequencing.
 
 ### Auto Play Sequence
 
-If you wish to automatically play a sequence when an avatar sits on the pillow
+If you wish to automatically play a sequence when an avatar sits on the bed
 then download the `autoplay.lsl` script and copy it into the Contents of the object.
 
 ```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Floor_Pillow/autoplay.lsl
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Baela_Bed/autoplay.lsl
 ```
-
-The same `autoplay` script can be used for both pillow1 and pillow2.
 
 The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
 In addition, it detects the number of sitters currently on the object and plays the couples
-animation sequence if there are 2 sitters.
+animation sequence if more than 1 sitter is seated.
 
 ## Second Life Marketplace Listings
 
