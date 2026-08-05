@@ -1,0 +1,291 @@
+SWAP 1
+
+SITTER 0|Female seat|F
+
+TOMENU >>Single<<
+TOMENU >>Couple<<
+TOMENU >Massage<
+TOMENU >Sex<
+
+MENU >>Single<<
+POSE sit fe1|single Fe Flat SuSit5
+POSE sit fe2|single Fe Flat SuSit3
+POSE sit fe3|single Fe Flat SuSit6
+POSE lay fe1|single Fe Couchback 3
+POSE lay fe2|single Fe Flat SuLay 1
+POSE lay fe3|single Fe Flat SuLay2
+POSE lay fe4|single Fe Flat SuLay4
+POSE bored fe1|single M Low ott9
+POSE chill fe1|single Fe Sit 138
+POSE chill fe2|single Fe Sunbath11
+
+MENU >>Couple<<
+SYNC sit1|couple sit 102LowOtt Fe
+SYNC sit2|couple sit Couple 28 Fe
+SYNC chill|couple sit12 Fe
+SYNC lay1|couple lay C117 Fe
+SYNC lay2|couple lay C118 Fe
+SYNC lay3|couple sit Cground F
+SYNC lay on back|couple lay C123 Fe
+SYNC hug her|couple sit C125 Fe
+SYNC hug him|couple sit C126 Fe
+SYNC embrace|couple sit C131 Fe
+SYNC in love1|couple sit C129 Fe
+SYNC in love2|couple sit Ham14 Fe
+SYNC kiss1|couple kiss C132 Fe
+SYNC kiss2|couple kiss C133 Fe
+SYNC kiss3|couple lay Car21 Fe
+
+MENU >Massage<
+SYNC caress1|couple lay C134 Fe
+SYNC caress legs1|couple lay C135 Fe
+SYNC caress legs2|couple lay Ham16 Fe
+SYNC massage1|couple msg1 fe get
+SYNC back msg|couple msg4 fe give
+SYNC msg him1|msg2 Fe
+SYNC msg him2|msg3 fe
+SYNC msg him3|msgt 2 fe
+SYNC msg him4|msgt 4 fe
+
+SYNC leg msg|couple msg3 fe get
+SYNC msg her1|msg6 fe
+SYNC msg her2|msg5 fe
+SYNC msg her3|msg7 fe
+
+MENU >Sex<
+
+SYNC foreplay|adu2 sex184 fe
+SYNC face sit|adu2 snack fe
+SYNC eat her1|adu2 MaulHer fe
+SYNC face fuck|adu2 sex173 fe
+SYNC face fuck2|adu2 sex177fe
+SYNC titty fuck|adu2 TittyFuck fe
+SYNC sex1|adu2 BedEdgeBend fe
+SYNC sex2|adu2 DeepEntry fe
+SYNC sex3|adu2 sex140 fe
+SYNC sex4|adu2 sex156 fe
+SYNC sex5|adu2 sex166 fe
+SYNC ride him|adu2 sex212 fe
+SYNC from behind1|adu2 sex158 fe
+SYNC from behind2|adu2 sex159 fe
+SYNC from behind3|adu2 sex171 fe
+SYNC from behind4|adu2 sex172 fe
+
+{sit fe1}<1.024,0.187,0.052><-1.4,6.2,-138.7>
+{sit fe2}<0.88,0.252,0.078><-4.7,1.7,-110.7>
+{sit fe3}<0.939,0.263,0.085><-2.4,1.1,-128>
+{lay fe1}<0.467,-0.411,-0.313><0.7,3,178>
+{lay fe2}<0.745,0.081,0.118><-0.2,-0.1,-21.1>
+{lay fe3}<0.597,-0.166,0.107><-0.2,-0.1,-20>
+{lay fe4}<0.463,0.011,0.108><-0.1,-0.2,-9>
+{bored fe1}<1.08,-0.165,-0.256><3.4,-0.2,-98>
+{chill fe1}<0.742,-0.125,-0.26><3.3,0.6,-85>
+{chill fe2}<0.863,0.016,0.126><-0.3,0.2,-155>
+{sit1}<-0.13,0.051,0.18><-1,1.9,-114>
+{sit2}<0.011,-0.067,-0.231><4.5,0.1,-87.3>
+{chill}<-0.739,0.152,0.671><0.1,0.9,-7.1>
+{lay1}<0.184,0.184,0.13><0.5,0.6,13>
+{lay2}<0.485,0.281,0.13><0.7,0.5,-1>
+{lay3}<1.184,0.388,0.689><-8.3,3.2,-153.9>
+{lay on back}<-0.25,-0.273,0.163><0.5,2.3,-94>
+{hug her}<-0.53,-0.099,0.14><1.6,-1.5,85>
+{hug him}<0.102,-0.247,0.127><1.2,-2.5,84.1>
+{embrace}<0.053,-0.11,0.128><2.4,0.7,90.9>
+{in love1}<-0.281,-0.302,0.119><1.8,-1.1,98>
+{in love2}<0.02,-0.007,-0.2><2.8,0.1,-26.2>
+{kiss1}<0.089,0.163,0.146><0.5,-0.6,-89>
+{kiss2}<0.429,0.243,0.133><0.6,0.4,-88>
+{kiss3}<-0.288,0.055,0.686><1,6.2,-4.9>
+{caress1}<-0.247,-0.138,0.154><-0.4,-2.4,91>
+{caress legs1}<-0.346,-0.203,0.145><1.5,1.6,96.9>
+{caress legs2}<0.006,-0.003,-0.178><-1.1,-6.1,8.8>
+{massage1}<-0.007,0.029,-0.04><0.1,1,-177.1>
+{leg msg}<-0.375,-0.048,0.763><0.1,-2,-179.6>
+{back msg}<0.171,0.069,0.824><-8.3,5.5,-121.2>
+
+{msg him1}<-0.497,-0.035,-0.296><-0.6,0.5,178>
+{msg him2}<-0.389,0.013,-0.285><-0.6,0.5,178>
+{msg her1}<0.175,-0.11,-0.172><0.6,-0.6,-5>
+{msg him3}<0.149,-0.109,-0.182><-0.6,0.5,179>
+{msg him4}<-0.149,-0.018,-0.182><-0.6,0.5,179>
+{msg her2}<-0.145,-0.07,-0.166><-0.6,0.5,178>
+{msg her3}<-0.197,-0.059,-0.16><-0.6,0.5,179>
+
+{foreplay}<0.143,0.479,-0.163><-0.3,0.6,-114.9>
+{face sit}<-0.507,0.01,0.036><-0.3,-3.6,4>
+{eat her1}<-0.242,-0.029,-0.252><0.6,-0.5,0>
+{face fuck}<-0.107,0.306,-0.121><4.2,0.2,-101.1>
+{face fuck2}<-0.664,0.298,-0.163><-0.6,0.1,-65.9>
+{titty fuck}<-0.193,0.01,-0.248><-0.3,-3.6,4>
+{sex1}<0.007,-0.468,-0.252><-0.5,-0.6,-90>
+{sex2}<-0.278,-0.043,-0.252><0.6,-0.5,0>
+{sex3}<-0.208,0.021,0.139><-0.4,-0.6,-86>
+{sex4}<0.003,0.359,-0.113><4.6,-0.6,-86>
+{sex5}<0.04,0.475,-0.155><4.6,-0.6,-86>
+{ride him}<1.232,0.101,0.086><-0.3,-0.6,4.1>
+{from behind1}<-0.029,0.418,-0.146><4.6,-0.6,-86>
+{from behind2}<-0.227,0.475,-0.146><4.6,-0.6,-86>
+{from behind3}<0.04,0.475,-0.114><4.6,-0.6,-86>
+{from behind4}<0.027,0.382,-0.132><4.6,-0.6,-86>
+
+
+ANIM msg her1|express_smile|1|express_disdain|1
+ANIM msg her2|express_smile|1|express_disdain|1
+ANIM msg her3|express_smile|1|express_disdain|1
+
+ANIM kiss1|express_kiss|1
+ANIM kiss2|express_kiss|1
+ANIM titty fuck|express_smile|-2|none|10
+ANIM face sit|express_surprise_emote|1
+ANIM eat her1|express_surprise_emote|1
+ANIM face fuck|express_open_mouth|1
+ANIM face fuck2|express_open_mouth|1
+ANIM from behind1|express_surprise_emote|1
+
+
+
+SITTER 1|Male seat|M
+
+TOMENU >>Single<<
+TOMENU >>Couple<<
+TOMENU >Massage<
+TOMENU >Sex<
+
+MENU >>Single<<
+POSE sit m1|single M Flat SuSit10
+POSE sit m2|single M  Sit158
+POSE sit m3|single M Low ott9
+POSE chill m1|single M Flat SuSit13
+POSE chill m2|single M onside_m05
+POSE chill m3|single M Sunbath20
+POSE lay m1|single M Flat SuLay6
+POSE lay m2|single M Flat SuLay7
+POSE lay m3|single M lay on back1
+POSE sleep m1|single M Sunbath22
+
+MENU >>Couple<<
+SYNC sit1|couple sit 102LowOtt M
+SYNC sit2|couple sit Couple 28 M
+SYNC chill|couple sit12 M
+SYNC lay1|couple lay C117 M
+SYNC lay2|couple lay C118 M
+SYNC lay3|couple sit Cground M
+SYNC lay on back|couple lay C123 M
+SYNC hug her|couple sit C125 M
+SYNC hug him|couple sit C126 M
+SYNC embrace|couple sit C131 M
+SYNC in love1|couple sit C129 M
+SYNC in love2|couple sit Ham14 M
+SYNC kiss1|couple kiss C132 M
+SYNC kiss2|couple kiss C133  M
+SYNC kiss3|couple lay Car21 M
+
+MENU >Massage<
+SYNC caress1|couple lay C134 M
+SYNC caress legs1|couple lay C135 M
+SYNC caress legs2|couple lay Ham16 M
+SYNC massage1|couple msg2 m get
+SYNC back msg|couple msg4 m get
+SYNC msg him1|msg2 m
+SYNC msg him2|msg3 m
+SYNC msg him3|msgt2 m
+SYNC msg him4|msgt4 m
+
+SYNC leg msg|couple msg3 m
+SYNC msg her1|msg6 m
+SYNC msg her2|msg5 m
+SYNC msg her3|msg7 m
+
+MENU >Sex<
+
+SYNC foreplay|adu2 sex184 m
+SYNC face sit|adu2 snack m
+SYNC eat her1|adu2 MaulHer m
+SYNC face fuck|adu2 sex173 m
+SYNC face fuck2|adu2 sex177 m
+SYNC titty fuck|adu2 TittyFuck m
+SYNC sex1|adu2 BedEdgeBend m
+SYNC sex2|adu2 DeepEntry m
+SYNC sex3|adu2 sex140 m
+SYNC sex4|adu2 sex156 m
+SYNC sex5|adu2 sex166 m
+SYNC ride him|adu2 sex212 m
+SYNC from behind1|adu2 sex158 m
+SYNC from behind2|adu2 sex159 m
+SYNC from behind3|adu2 sex171 m
+SYNC from behind4|adu2 sex172 m
+
+{sit m1}<-0.831,0.044,0.194><0,0,-28>
+{sit m2}<-0.663,-0.132,-0.236><4.4,2.1,-67>
+{sit m3}<-0.604,-0.085,-0.256><2.7,1.3,-62>
+{chill m1}<-0.377,0.328,0.167><0,0,-131>
+{chill m2}<-0.335,-0.554,0.137><-6,0.1,-91>
+{chill m3}<-0.277,0.04,0.179><-0.1,-0,-8>
+{lay m1}<-0.174,0.087,0.178><0,0,-170>
+{lay m2}<-0.83,0.027,0.145><0,0,-173>
+{lay m3}<-0.132,-0.05,-0.263><-0,-1,-5>
+{sleep m1}<-0.108,-0.008,0.207><-0.3,2,-9>
+{sit1}<-0.104,0.075,0.229><-0.6,0.4,-119>
+{sit2}<0.017,-0.084,-0.208><4.1,-0.4,-87.1>
+{chill}<-0.421,0.046,0.778><1.3,2.3,-6.9>
+{lay1}<0.178,0.196,0.175><0,0,14>
+{lay2}<0.375,0.263,0.175><0,0,0>
+{lay3}<1.226,0.397,0.715><-6.1,2.7,-153.9>
+{lay on back}<-0.22,-0.248,0.195><-1,1,-93>
+{hug her}<-0.597,-0.119,0.179><0.6,-0.3,80>
+{hug him}<0.063,-0.251,0.129><0.4,-1.2,79>
+{embrace}<0.042,-0.083,0.143><1,-1.1,91>
+{in love1}<-0.178,-0.258,0.165><0.7,-0.1,93>
+{in love2}<0.039,-0.009,-0.222><3,-0.5,-26>
+{kiss1}<0.142,0.227,0.154><0,0,-85>
+{kiss2}<0.489,0.233,0.177><-0,1,-87>
+{kiss3}<0.252,0.07,0.749><-0.3,4.7,179>
+{caress1}<-0.22,-0.188,0.17><0.9,-1,83>
+{caress legs1}<-0.359,-0.185,0.181><0.6,1,91>
+{caress legs2}<0.149,0.002,-0.131><-0.1,-0.7,4>
+{massage1}<0.066,0.004,0.598><-0.9,-0.4,179.1>
+{leg msg}<0.348,-0.03,0.821><-1.2,-1.5,-179.4>
+{back msg}<0.11,0.031,0.769><-2.7,0.4,-121.4>
+
+{msg him1}<-0.483,-0.048,-0.329><0,0,179>
+{msg him2}<-0.374,0,-0.329><0,0,179>
+{msg her1}<0.161,-0.133,-0.196><0,0,-4>
+{msg him3}<0.161,-0.097,-0.136><0,0,180>
+{msg him4}<-0.137,-0.006,-0.136><0,0,180>
+{msg her2}<-0.21,-0.048,-0.148><0,0,179>
+{msg her3}<-0.184,-0.047,-0.114><0,0,180>
+
+{foreplay}<0.116,0.499,-0.123><-0.4,0.3,-115>
+{face sit}<0.272,0.057,-0.263><0,1.5,4>
+{eat her1}<0.614,-0.017,0.033><0,0,180>
+{face fuck}<-0.108,0.307,-0.129><4.8,0.7,-101.1>
+{face fuck2}<-0.671,0.285,-0.123><1.6,0.9,-65.9>
+{titty fuck}<-0.308,-0.003,0.039><-0,-1.5,-178>
+{sex1}<0.019,-0.722,-0.114><0,0,90>
+{sex2}<-0.141,-0.031,0.033><0,0,180>
+{sex3}<-0.221,-0.007,0.163><0,0,-86>
+{sex4}<-0.015,0.325,-0.046><5,0,-86>
+{sex5}<0.025,0.441,-0.079><5,0,-86>
+{ride him}<1.227,0.067,0.127><0,-0.5,4>
+{from behind1}<-0.015,0.384,-0.079><5,0,-86>
+{from behind2}<-0.214,0.441,-0.079><5,0,-86>
+{from behind3}<0.02,0.494,-0.104><5,0,-86>
+{from behind4}<0.02,0.401,-0.14><5,0,-86>
+
+ANIM sleep m1|express_smile|1|express_disdain|1
+
+ANIM massage1|express_smile|1|express_disdain|1
+ANIM msg him1|express_smile|1|express_disdain|1
+ANIM msg him2|express_smile|1|express_disdain|1
+ANIM msg him3|express_smile|1|express_disdain|1
+ANIM msg him4|express_smile|1|express_disdain|1
+
+ANIM kiss1|express_kiss|1
+ANIM kiss2|express_kiss|1
+
+ANIM eat her1|express_tongue_out|1
+ANIM face sit|express_tongue_out|1
+ANIM titty fuck|express_surprise_emote|1
+ANIM ride him|none|-5|express_surprise_emote|-7|none|1
+ANIM face fuck2|express_surprise_emote|1
+ANIM from behind1|express_surprise_emote|1

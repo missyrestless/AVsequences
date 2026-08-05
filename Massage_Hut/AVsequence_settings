@@ -1,0 +1,239 @@
+SEQUENCE SEQ-F-SOLO
+PLAY sit fe1
+WAIT 90
+PLAY sit fe2
+WAIT 90
+PLAY sit fe3
+WAIT 90
+PLAY lay fe1
+WAIT 90
+PLAY lay fe2
+WAIT 90
+PLAY lay fe3
+WAIT 90
+PLAY lay fe4
+WAIT 90
+PLAY bored fe1
+WAIT 90
+PLAY chill fe1
+WAIT 90
+PLAY chill fe2
+WAIT 90
+LOOP
+
+SEQUENCE SEQ-F-COUPLE
+PLAY sit1
+WAIT 90
+PLAY sit2
+WAIT 90
+PLAY chill
+WAIT 90
+PLAY lay1
+WAIT 90
+PLAY lay2
+WAIT 90
+PLAY lay3
+WAIT 90
+PLAY lay on back
+WAIT 90
+PLAY hug her
+WAIT 90
+PLAY hug him
+WAIT 90
+PLAY embrace
+WAIT 90
+PLAY in love1
+WAIT 90
+PLAY in love2
+WAIT 90
+PLAY kiss1
+WAIT 90
+PLAY kiss2
+WAIT 90
+PLAY kiss3
+WAIT 90
+LOOP
+
+SEQUENCE SEQ-F-MASSAGE
+PLAY caress1
+WAIT 150
+PLAY caress legs1
+WAIT 150
+PLAY caress legs2
+WAIT 150
+PLAY massage1
+WAIT 150
+PLAY back msg
+WAIT 150
+PLAY msg him1
+WAIT 150
+PLAY msg him2
+WAIT 150
+PLAY msg him3
+WAIT 150
+PLAY msg him4
+WAIT 150
+PLAY leg msg
+WAIT 150
+PLAY msg her1
+WAIT 150
+PLAY msg her2
+WAIT 150
+PLAY msg her3
+WAIT 150
+LOOP
+
+SEQUENCE SEQ-F-SEX
+PLAY foreplay
+WAIT 90
+PLAY face sit
+WAIT 90
+PLAY eat her1
+WAIT 90
+PLAY face fuck
+WAIT 90
+PLAY face fuck2
+WAIT 90
+PLAY titty fuck
+WAIT 90
+PLAY sex1
+WAIT 90
+PLAY sex2
+WAIT 90
+PLAY sex3
+WAIT 90
+PLAY sex4
+WAIT 90
+PLAY sex5
+WAIT 90
+PLAY ride him
+WAIT 90
+PLAY from behind1
+WAIT 90
+PLAY from behind2
+WAIT 90
+PLAY from behind3
+WAIT 90
+PLAY from behind4
+WAIT 90
+LOOP
+
+SEQUENCE SEQ-M-SOLO
+PLAY sit m1
+WAIT 90
+PLAY sit m2
+WAIT 90
+PLAY sit m3
+WAIT 90
+PLAY chill m1
+WAIT 90
+PLAY chill m2
+WAIT 90
+PLAY chill m3
+WAIT 90
+PLAY lay m1
+WAIT 90
+PLAY lay m2
+WAIT 90
+PLAY lay m3
+WAIT 90
+PLAY sleep m1
+WAIT 90
+LOOP
+
+SEQUENCE SEQ-M-COUPLE
+PLAY sit1
+WAIT 90
+PLAY sit2
+WAIT 90
+PLAY chill
+WAIT 90
+PLAY lay1
+WAIT 90
+PLAY lay2
+WAIT 90
+PLAY lay3
+WAIT 90
+PLAY lay on back
+WAIT 90
+PLAY hug her
+WAIT 90
+PLAY hug him
+WAIT 90
+PLAY embrace
+WAIT 90
+PLAY in love1
+WAIT 90
+PLAY in love2
+WAIT 90
+PLAY kiss1
+WAIT 90
+PLAY kiss2
+WAIT 90
+PLAY kiss3
+WAIT 90
+LOOP
+
+SEQUENCE SEQ-M-MASSAGE
+PLAY caress1
+WAIT 150
+PLAY caress legs1
+WAIT 150
+PLAY caress legs2
+WAIT 150
+PLAY massage1
+WAIT 150
+PLAY back msg
+WAIT 150
+PLAY msg him1
+WAIT 150
+PLAY msg him2
+WAIT 150
+PLAY msg him3
+WAIT 150
+PLAY msg him4
+WAIT 150
+PLAY leg msg
+WAIT 150
+PLAY msg her1
+WAIT 150
+PLAY msg her2
+WAIT 150
+PLAY msg her3
+WAIT 150
+LOOP
+
+SEQUENCE SEQ-M-SEX
+PLAY foreplay
+WAIT 90
+PLAY face sit
+WAIT 90
+PLAY eat her1
+WAIT 90
+PLAY face fuck
+WAIT 90
+PLAY face fuck2
+WAIT 90
+PLAY titty fuck
+WAIT 90
+PLAY sex1
+WAIT 90
+PLAY sex2
+WAIT 90
+PLAY sex3
+WAIT 90
+PLAY sex4
+WAIT 90
+PLAY sex5
+WAIT 90
+PLAY ride him
+WAIT 90
+PLAY from behind1
+WAIT 90
+PLAY from behind2
+WAIT 90
+PLAY from behind3
+WAIT 90
+PLAY from behind4
+WAIT 90
+LOOP

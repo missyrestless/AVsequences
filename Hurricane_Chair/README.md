@@ -139,6 +139,7 @@ The following custom sequenced animations are available on the Second Life Marke
   - [Headhunter Jungle Bar Center Poles](https://github.com/missyrestless/AVsequences/tree/main/Jungle_Bar/Center)
 - [Headhunter Lifeguard Chair](https://github.com/missyrestless/AVsequences/tree/main/Lifeguard_Chair)
 - [Headhunter Outdoor Bath](https://github.com/missyrestless/AVsequences/tree/main/Outdoor_Bath)
+- [Headhunter Takamori Massage Hut](https://github.com/missyrestless/AVsequences/tree/main/Massage_Hut)
 
 ### Customized notecards providing sequenced animations for BackBone furniture
 

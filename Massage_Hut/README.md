@@ -1,83 +1,74 @@
-# AVsitter Sequence for Debauchery Swingers Hot Tub
+# AVsitter Sequence for Headhunter Takamori Massage Hut (adult)
 
 This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
 with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
-the Debauchery Swingers Hot Tub dialog menus.
+the Headhunter Takamori Massage Hut (adult) dialog menus.
 
-This `AVsitter` customization allows greater freedom of personal interaction in the
-hot tub, eliminating the need to navigate dialog menus during moments of intimacy.
+This `AVsitter` customization allows greater freedom of personal interaction on the
+massage table, eliminating the need to navigate dialog menus during moments of intimacy.
 
 ## Menus
 
 Sequences are configured for the following menus:
 
-- Male and Female Solo Sits
-- Male and Female Solo Self Pleasure
-- Couples Cuddles
-- Male/Female Sex
-- Girls Only
-- Guys Only
-- FFM 3-Way
-- MMF 3-Way
+- Male and Female Solo Menus
+- Male and Female Couples Menus
+- Male and Female Sex Menus
 
-## Download the scripts and customized notecards
+## Download the script and customized notecards
 
-Replace the `AVpos` notecard with the `AVpos` notecard downloaded here.
-
-### Download the customized `[AV]sequence_settings` notecard
+Download the `[AV]sequence` plugin script:
 
 ```bash
-wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Swingers_Hot_Tub/AVsequence_settings
+wget -q -O '[AV]sequence' https://raw.githubusercontent.com/AVsitter/AVsitter/refs/heads/master/AVsitter2/Plugins/AVsequence/%5BAV%5Dsequence.lsl
 ```
 
-### Download the customized `AVpos` notecard
+Download the customized `[AV]sequence_settings` notecard:
 
 ```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Swingers_Hot_Tub/AVpos
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Massage_Hut/AVsequence_settings
 ```
 
-### Download the `same_prop_for_poses` script
+Download the customized `AVpos` notecard:
 
 ```bash
-wget -q -O 'same_prop_for_poses' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Swingers_Hot_Tub/same_prop_for_poses.lsl
-```
-
-### Download the `autoplay` script
-
-```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Swingers_Hot_Tub/autoplay.lsl
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Massage_Hut/AVpos
 ```
 
 ## Setup
 
-**[NOTE:]** Make sure you have a backup of your tub before modifying just in case.
-If you do not already have a copy in your inventory, right click the hot tub and
-select `Take` then `Take copy`.
+To configure an adult Massage Hut with AVsitter sequences:
 
-To configure a Debauchery Swingers Hot Tub with customized AVsitter sequences:
-
-- Right click the hot tub and select `Edit`
+- Right click the massage table and select `Edit`
 - Select the Contents tab in the Edit window
-- Drag and Drop the `AVpos` notecard from the Contents into your inventory as a backup
-- Delete the `AVpos` notecard
-- Drag and Drop the downloaded `[AV]sequence_settings` notecard into the Contents tab
-- Drag and Drop the downloaded `AVpos` notecard into the Contents tab
-- Drag and Drop the downloaded `autoplay` script into the Contents tab
-- Drag and Drop the downloaded `same_prop_for_poses` script into the Contents tab
+- Click the `Edit linked` checkbox
+- Using `Ctrl .` (press both the Ctrl key and the Period key) locate the notecards (Link number 4)
+- Copy the `[AV]sequence_settings` notecard into the Contents tab
+- Copy the `[AV]sequence` plugin script into the Contents tab
+- Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
 - Close the `Edit` window
-- Right click the hot tub and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
+- Right click the massage table and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
 - Wait for the scripts to reset (this takes a few minutes)
 
-If you copied the `autoplay` script into your Hot Tub in the steps above then a
-sequence of pose animations will automatically be played when you sit in the tub.
+Sit on the massage table and click one of the sequence buttons, for example: `SEQ-M-SOLO` or `SEQ-F-SOLO`.
 
-You should see menu entries of the form `SEQ-...` in many of the Hot Tub menus.
-Clicking any of these `SEQ-...` menu entries will cycle through all the animations
-in that submenu. Cycle times are currently set to 60 seconds with menu arrows to step
-to the next animation, previous animation, or pause animation sequencing.
+Sequence menu buttons are of the form `SEQ-...`. Click this menu entry and your
+avatar will cycle through all the animations in that submenu. Cycle times are currently
+set to 90 seconds and 150 seconds for massage poses with menu arrows to step to the next
+animation, previous animation, or pause animation sequencing.
 
-The `same_prop_for_poses` script will rez the hot tub float for poses that use this prop.
-The float will automatically rez when needed and de-rez automatically when not in use.
+### Auto Play Sequence
+
+If you wish to automatically play a sequence when an avatar sits on the massage table
+then download the `autoplay.lsl` script and copy it into the Contents of the object.
+
+```bash
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Massage_Hut/autoplay.lsl
+```
+
+The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
+In addition, it detects the number of sitters currently on the object and plays the couples
+animation sequence if more than 1 sitter is seated.
 
 ## Second Life Marketplace Listings
 
