@@ -1,41 +1,21 @@
-# AVsitter Sequence for Nerenzo Hot Bangers Pool 
+# AVsitter Sequence for Trompe Loeil Nerissa Seashell Bed (adult)
 
 This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
 with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
-the Nerenzo Hot Bangers Pool dialog menus.
+the Trompe Loeil Nerissa Seashell Bed (adult) dialog menus.
 
-This `AVsitter` customization allows greater freedom of personal interaction in the
-pool, eliminating the need to navigate dialog menus during moments of intimacy.
-
-The notecards and scripts for this customization of the Nerenzo Hot Bangers Pool are
-available on the Second Life Marketplace at:
-
-[https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Hot-Bangers-Pool/27942775](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Hot-Bangers-Pool/27942775)
+This `AVsitter` customization allows greater freedom of personal interaction on the
+seashell bed, eliminating the need to navigate dialog menus during moments of intimacy.
 
 ## Menus
 
-Sequences are configured for all four sitters, both male and female. Sequenced animations are
-configured for solo, couples, 3-way, and 4-way, both PG and Adult.
+Sequences are configured for the following menus:
 
-Currently configured sequenced menus include:
-
-- Solo Menus
-- Cuddle Menus
-- Foreplay and Tongue Play Menus
-- Blow Job Menus
-- Butt Stuff Menus
-- Fuck Menus
-- Hard Sex Menus
-- 3-Way PG
-- 3-Way Sex
-- 4-Way Whirlpool
-- 4-Way Sex
+- Male and Female Solo Menus
+- Male and Female Couples Menus
+- Male and Female Adult Menus
 
 ## Download the script and customized notecards
-
-Purchase the packaged product for this customization of the Nerenzo Hot Bangers Pool at
-[https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Hot-Bangers-Pool/27942775](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Hot-Bangers-Pool/27942775)
-or download them and upload to Second Life as follows:
 
 Download the `[AV]sequence` plugin script:
 
@@ -46,60 +26,49 @@ wget -q -O '[AV]sequence' https://raw.githubusercontent.com/AVsitter/AVsitter/re
 Download the customized `[AV]sequence_settings` notecard:
 
 ```bash
-wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Bangers_Pool/AVsequence_settings
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Seashell_Bed/AVsequence_settings
 ```
 
 Download the customized `AVpos` notecard:
 
 ```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Bangers_Pool/AVpos
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Seashell_Bed/AVpos
 ```
 
 ## Setup
 
-To configure a Nerenzo Hot Bangers Pool with AVsitter sequences:
+To configure an adult Nerissa Seashell Bed with AVsitter sequences:
 
-- Right click the pool and select `Edit`
-- Drag and Drop the `[AV]sequence_settings` notecard into the Contents tab
-- Drag and Drop the `[AV]sequence` plugin script into the Contents tab
+- Right click the seashell bed and select `Edit`
+- Select the Contents tab in the Edit window
+- Click the `Edit linked` checkbox
+- Using `Ctrl .` (press both the Ctrl key and the Period key) locate the notecards (Link number 8)
+- Copy the `[AV]sequence_settings` notecard into the Contents tab
+- Copy the `[AV]sequence` plugin script into the Contents tab
 - Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
-  - Drag and Drop the original `AVpos` notecard from the Contents tab into your inventory as a backup
-  - Delete the `AVpos` notecard from the Contents tab (you can ignore and close the Warning window)
-  - Drag and Drop the new `AVpos` notecard with sequences into the Contents tab
 - Close the `Edit` window
-- Right click the pool and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
+- Right click the seashell bed and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
 - Wait for the scripts to reset (this takes a few minutes)
 
-Sit on the pool, select one of the first two sitters (Male or Female), and click
-one of the three configured main menu entries, `SINGLE/TALK`, `CUDDLE`, or `SEX`.
+Sit on the seashell bed and click one of the sequence buttons, for example: `SEQ-M-SOLO` or `SEQ-F-SOLO`.
 
-You should see a menu entry of the form `SEQ-...`. Click this menu entry and your
+Sequence menu buttons are of the form `SEQ-...`. Click this menu entry and your
 avatar will cycle through all the animations in that submenu. Cycle times are currently
-set to 60 seconds with menu arrows to step to the next animation, previous animation,
-or pause animation sequencing.
+set to 90 seconds with menu arrows to step to the next
+animation, previous animation, or pause animation sequencing.
 
 ### Auto Play Sequence
 
-If you wish to automatically play a sequence when an avatar sits on the pool
+If you wish to automatically play a sequence when an avatar sits on the seashell bed
 then download the `autoplay.lsl` script and copy it into the Contents of the object.
 
 ```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Bangers_Pool/autoplay.lsl
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Seashell_Bed/autoplay.lsl
 ```
 
 The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
 In addition, it detects the number of sitters currently on the object and plays the couples
-animation sequence if there are 2 sitters, one of the 3-way sequences if 3 are seated, and
-a 4-way animation sequence if 4 are in the pool.
-
-The `autoplay.lsl` plays PG sequences. If you wish to automatically play adult sequences 
-then download and copy the `autoplay-adult.lsl` script:
-
-```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Bangers_Pool/autoplay-adult.lsl
-```
-
-Only add zero or one of the `autoplay` scripts to the float Contents. Do not add both.
+animation sequence if more than 1 sitter is seated.
 
 ## Second Life Marketplace Listings
 

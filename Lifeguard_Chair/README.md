@@ -146,6 +146,10 @@ The following custom sequenced animations are available on the Second Life Marke
 
 - [Tia Baela Bed](https://github.com/missyrestless/AVsequences/tree/main/Baela_Bed)
 
+### Customized notecards providing sequenced animations for Trompe Loeil products
+
+- [Nerissa Seashell Bed](https://github.com/missyrestless/AVsequences/tree/main/Seashell_Bed)
+
 ### Customized notecards providing sequenced animations for Tm Creation products
 
 - [Adult Sandcastle](https://github.com/missyrestless/AVsequences/tree/main/Sandcastle)
