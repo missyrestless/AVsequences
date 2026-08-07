@@ -119,6 +119,7 @@ The following custom sequenced animations are available on the Second Life Marke
 
 ### Customized notecards providing sequenced animations for BackBone furniture
 
+- [BackBone Inflatable Movie Lounge - Poly](https://github.com/missyrestless/AVsequences/tree/main/Movie_Lounge)
 - [BackBone Stargazing Nook](https://github.com/missyrestless/AVsequences/tree/main/Stargazing_Nook)
 
 ### Customized notecards providing sequenced animations for Black Nest furniture

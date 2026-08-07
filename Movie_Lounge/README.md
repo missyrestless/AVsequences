@@ -1,41 +1,31 @@
-# AVsitter Sequence for Nerenzo Hot Bangers Pool 
+# AVsitter Sequence for BackBone Inflatable Movie Lounge - Poly
 
 This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
 with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
-the Nerenzo Hot Bangers Pool dialog menus.
+the BackBone Inflatable Movie Lounge - Poly dialog menus.
 
 This `AVsitter` customization allows greater freedom of personal interaction in the
-pool, eliminating the need to navigate dialog menus during moments of intimacy.
-
-The notecards and scripts for this customization of the Nerenzo Hot Bangers Pool are
-available on the Second Life Marketplace at:
-
-[https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Hot-Bangers-Pool/27942775](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Hot-Bangers-Pool/27942775)
+lounge, eliminating the need to navigate dialog menus during moments of intimacy.
 
 ## Menus
 
-Sequences are configured for all four sitters, both male and female. Sequenced animations are
-configured for solo, couples, 3-way, and 4-way, both PG and Adult.
+Sequences are configured for all six sitters, both male and female. Sequenced animations are
+configured for solo, couples, and 3-way, both PG and Adult.
 
 Currently configured sequenced menus include:
 
 - Solo Menus
-- Cuddle Menus
-- Foreplay and Tongue Play Menus
-- Blow Job Menus
-- Butt Stuff Menus
-- Fuck Menus
-- Hard Sex Menus
-- 3-Way PG
-- 3-Way Sex
-- 4-Way Whirlpool
-- 4-Way Sex
+- Male/Female Cuddle Menus
+- Male and Female Foreplay Menus
+- Male/Female Sex Menus
+- Female/Female Cuddle Menus
+- Female/Female Sex Menus
+- Male/Male Cuddle Menus
+- Male/Male Sex Menus
+- FFM and MMF Cuddle Menus
+- FFM and MMF Sex Menus
 
 ## Download the script and customized notecards
-
-Purchase the packaged product for this customization of the Nerenzo Hot Bangers Pool at
-[https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Hot-Bangers-Pool/27942775](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Hot-Bangers-Pool/27942775)
-or download them and upload to Second Life as follows:
 
 Download the `[AV]sequence` plugin script:
 
@@ -46,20 +36,20 @@ wget -q -O '[AV]sequence' https://raw.githubusercontent.com/AVsitter/AVsitter/re
 Download the customized `[AV]sequence_settings` notecard:
 
 ```bash
-wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Bangers_Pool/AVsequence_settings
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Movie_Lounge/AVsequence_settings
 ```
 
 Download the customized `AVpos` notecard:
 
 ```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Bangers_Pool/AVpos
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Movie_Lounge/AVpos
 ```
 
 ## Setup
 
-To configure a Nerenzo Hot Bangers Pool with AVsitter sequences:
+To configure a BackBone Inflatable Movie Lounge (Poly) with AVsitter sequences:
 
-- Right click the pool and select `Edit`
+- Right click the lounge and select `Edit`
 - Drag and Drop the `[AV]sequence_settings` notecard into the Contents tab
 - Drag and Drop the `[AV]sequence` plugin script into the Contents tab
 - Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
@@ -67,10 +57,10 @@ To configure a Nerenzo Hot Bangers Pool with AVsitter sequences:
   - Delete the `AVpos` notecard from the Contents tab (you can ignore and close the Warning window)
   - Drag and Drop the new `AVpos` notecard with sequences into the Contents tab
 - Close the `Edit` window
-- Right click the pool and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
+- Right click the lounge and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
 - Wait for the scripts to reset (this takes a few minutes)
 
-Sit on the pool, select one of the first two sitters (Male or Female), and click
+Sit on the lounge, select one of the first two sitters (Male or Female), and click
 one of the three configured main menu entries, `SINGLE/TALK`, `CUDDLE`, or `SEX`.
 
 You should see a menu entry of the form `SEQ-...`. Click this menu entry and your
@@ -80,26 +70,20 @@ or pause animation sequencing.
 
 ### Auto Play Sequence
 
-If you wish to automatically play a sequence when an avatar sits on the pool
+If you wish to automatically play a sequence when an avatar sits on the lounge
 then download the `autoplay.lsl` script and copy it into the Contents of the object.
 
 ```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Bangers_Pool/autoplay.lsl
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Movie_Lounge/autoplay.lsl
 ```
 
 The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
 In addition, it detects the number of sitters currently on the object and plays the couples
-animation sequence if there are 2 sitters, one of the 3-way sequences if 3 are seated, and
-a 4-way animation sequence if 4 are in the pool.
-
-The `autoplay.lsl` plays PG sequences. If you wish to automatically play adult sequences 
-then download and copy the `autoplay-adult.lsl` script:
+animation sequence if there are 2 sitters, and one of the 3-way sequences if 3 are seated.
 
 ```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Bangers_Pool/autoplay-adult.lsl
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Movie_Lounge/autoplay-adult.lsl
 ```
-
-Only add zero or one of the `autoplay` scripts to the float Contents. Do not add both.
 
 ## Second Life Marketplace Listings
 
