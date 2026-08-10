@@ -1,0 +1,97 @@
+# Second Life Products with Multiple Partner Support
+
+An incomplete list of products in Second Life that support multiple sitters,
+3-ways, 4-ways, and Female/Female couples support. The names refer to the folders
+in this repository containing their respective AVsitter sequences configuration.
+
+## Table of Contents
+
+- [3-Ways](#3-ways)
+- [4-Ways](#4-ways)
+- [FFM](#ffm)
+- [MMF](#mmf)
+- [MFMF](#mfmf)
+- [FF](#ff)
+
+## 3-Ways
+
+These AVsitter sequenced products have a 3rd sitter:
+
+- Baela_Bed
+- Bangers_Pool
+- Bar_Stool
+- Beach_Bed
+- Dutchie
+- HotSpring
+- Movie_Lounge
+- Outdoor_Shower
+- Pool_Float
+- Swingers_Hot_Tub
+- Towel
+- Vrdz_Bento_Adult
+- Waterfall
+
+## 4-Ways
+
+These AVsitter sequenced products have a 4th sitter:
+
+- Bangers_Pool
+- Beach_Bed
+- Dutchie
+- Movie_Lounge
+- Swingers_Hot_Tub
+- Towel
+- Vrdz_Bento_Adult
+- Waterfall
+
+## FFM
+
+These AVsitter sequenced products have Female/Female/Male animations:
+
+- Baela_Bed
+- Beach_Bed
+- Bangers_Pool
+- Movie_Lounge
+- Outdoor_Shower
+- Pool_Float
+- Swingers_Hot_Tub
+- Towel
+- Vrdz_Bento_Adult
+- Waterfall
+
+## MMF
+
+These AVsitter sequenced products have Male/Male/Female animations:
+
+- Baela_Bed
+- Bangers_Pool
+- Beach_Bed
+- Movie_Lounge
+- Outdoor_Shower
+- Pool_Float
+- Swingers_Hot_Tub
+- Towel
+- Vrdz_Bento_Adult
+- Waterfall
+
+## MFMF
+
+These AVsitter sequenced products have Male/Female/Male/Female animations:
+
+- Bangers_Pool
+- Beach_Bed
+- Towel
+- Vrdz_Bento_Adult
+
+## FF
+
+These AVsitter sequenced products have Female/Female animations:
+
+- Bangers_Pool
+- Beach_Bed
+- Miami_Sun_Lounger
+- Outdoor_Shower
+- Pool_Float
+- Towel
+- Vrdz_Bento_Adult
+- Waterfall
