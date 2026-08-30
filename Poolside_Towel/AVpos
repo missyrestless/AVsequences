@@ -81,7 +81,7 @@ SYNC StandingRub_F|FsingMasterbate5
 
 MENU Couple
 TOMENU Swaps
-SEQUENCE SEQ-F-CUDDLE
+SEQUENCE SEQ-CUDDLE
 TOMENU Lotion
 TOMENU Cuddles
 TOMENU On Tube
@@ -89,7 +89,7 @@ TOMENU Sexy Time
 
 MENU Lotion
 TOMENU Swaps
-SEQUENCE SEQ-F-CUDDLE
+SEQUENCE SEQ-CUDDLE
 SYNC LotionHim|pc85_F
 SYNC LotionBoth|z-lotionduo1-f
 SYNC LotionDuo|z-lotionduo2-f
@@ -106,7 +106,7 @@ SYNC HisBack|Lotion5F
 
 MENU Cuddles
 TOMENU Swaps
-SEQUENCE SEQ-F-CUDDLE
+SEQUENCE SEQ-CUDDLE
 SYNC PoolsideHug|pc86_F
 SYNC PoolKiss|pc87_F
 SYNC EdgeHug|pc88_F
@@ -130,7 +130,7 @@ SYNC OnShoulders|z-onshoulders-f
 
 MENU On Tube
 TOMENU Swaps
-SEQUENCE SEQ-F-CUDDLE
+SEQUENCE SEQ-CUDDLE
 SYNC OnHisLap|FlCud F1
 SYNC KissAndKick|FlCud F3
 SYNC DoubleDip|FlCud F5
@@ -213,7 +213,7 @@ SYNC WeJustCame|WA93
 
 MENU Lesbian|V
 TOMENU Swaps
-SEQUENCE SEQ-LESBIAN-F1
+SEQUENCE SEQ-LESBIAN
 SYNC LesLapRubs|SCLesA FB8
 SYNC SpoonRub|SCLesA FB9
 SYNC FingersInHer|SCLesA FB10
@@ -520,7 +520,7 @@ SYNC StandJack_M|MsingMasterbate5
 
 MENU Couple
 TOMENU Swaps
-SEQUENCE SEQ-M-CUDDLE
+SEQUENCE SEQ-CUDDLE
 TOMENU Lotion
 TOMENU Cuddles
 TOMENU On Tube
@@ -528,7 +528,7 @@ TOMENU Sexy Time
 
 MENU Lotion
 TOMENU Swaps
-SEQUENCE SEQ-M-CUDDLE
+SEQUENCE SEQ-CUDDLE
 SYNC LotionHim|pc85_M
 SYNC LotionBoth|z-lotionduo1-m
 SYNC LotionDuo|z-lotionduo2-m
@@ -544,7 +544,7 @@ SYNC HisBack|Lotion5M
 
 MENU Cuddles
 TOMENU Swaps
-SEQUENCE SEQ-M-CUDDLE
+SEQUENCE SEQ-CUDDLE
 SYNC PoolsideHug|pc86_M
 SYNC PoolKiss|pc87_M
 SYNC EdgeHug|pc88_M
@@ -568,7 +568,7 @@ SYNC PoolsideChat|z-poolsidechat-m
 
 MENU On Tube
 TOMENU Swaps
-SEQUENCE SEQ-M-CUDDLE
+SEQUENCE SEQ-CUDDLE
 SYNC OnHisLap|FlCud M1
 SYNC KissAndKick|FlCud M3
 SYNC DoubleDip|FlCud M5
@@ -886,7 +886,7 @@ SYNC StandingRub|FsingMasterbate5
 SYNC StandJack|MsingMasterbate5
 
 MENU Lesbian|V
-SEQUENCE SEQ-LESBIAN-F2
+SEQUENCE SEQ-LESBIAN
 SYNC LesLapRubs|SCLesA FT8
 SYNC SpoonRub|SCLesA FT9
 SYNC FingersInHer|SCLesA FT10
