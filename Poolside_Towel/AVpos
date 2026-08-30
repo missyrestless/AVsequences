@@ -1,0 +1,983 @@
+ADJUST [INM API]|-99998|FACES|-31450010
+SELECT 1
+
+SITTER 0|Girl 1|F
+
+TOMENU Solo
+TOMENU Couple
+TOMENU Lesbian
+TOMENU Threesomes
+BUTTON SetupLovense
+BUTTON LovenseHUD
+TOMENU Swaps
+BUTTON Texture|-31400100
+
+MENU Solo
+TOMENU Swaps
+SEQUENCE SEQ-F-SOLO
+TOMENU By the Pool
+TOMENU In the Pool
+TOMENU On a Tube
+TOMENU Masturbation
+
+MENU By the Pool
+TOMENU Swaps
+SEQUENCE SEQ-F-SOLO
+POSE GetFeetWet|ps25f
+POSE LeanBackDip|ps26f
+POSE SexyDipping|ps27f
+POSE MovieStar|ps28f
+POSE CheckWater|ps7_F|38|ps7Mirror_F|38
+POSE SoakFeet|ps8_F
+POSE HalfDip|z-halfdip
+POSE Relaxing|ps9_F|48|ps9Mirror_F|48
+POSE SexyAtPool|ps10_F|43|ps10Mirror_F|43
+POSE DipTheToes|ps11_F|48|ps11Mirror_F|48
+POSE DangleFeet|z-feetdangle
+POSE BeingCute|ps17_F|46|ps17Mirror_F|46
+POSE OneLegIn|ps12_F|36|ps12Mirror_F|36
+POSE Poolside|z-poolside
+POSE LotionMe|z-lotionself
+POSE Sunbathe|z-sunbathe
+POSE Sunbathe2|z-sunbathe 1
+
+MENU In the Pool
+TOMENU Swaps
+SEQUENCE SEQ-F-SOLO
+POSE Dive|wj1s|2|wj1
+POSE BackDive|wj2s|2|wj2
+POSE BackFlip|wj3s|2|wj3
+POSE Cannonball|wj4s|2|wj4
+POSE WatersFine|ps14_F
+POSE CoolingOff|ps15_F
+POSE TakeADip|ps16_F
+POSE Float1|float1
+POSE Float1Rot|float1rot
+POSE Float2|float2
+POSE ZFloat|z-float
+POSE TreadWater2|z-treadwater
+POSE TreadWater|treadwater
+POSE SwimDive|poolSwimDive
+
+MENU On a Tube
+TOMENU Swaps
+SEQUENCE SEQ-F-SOLO
+POSE HangOn|nt-clutch
+POSE KneeUp|FlSi F2
+POSE CocktailHour|FlSi F4
+POSE Drifting|[RNP] Floating Ring #10 - F
+POSE Seahorse|[RNP] Floating Ring #12 - F
+POSE Twisty|[RNP] Floating Ring #15 - F
+
+MENU Masturbation|V
+SYNC LayFinger_F|FsingMasterbate1
+SYNC LayRub_F|FsingMasterbate3
+SYNC KneelRub_F|FsingMasterbate2
+SYNC KneelFinger_F|FsingMasterbate8
+SYNC SitRub2_F|FsingMasterbate4
+SYNC BentRub_F|FsingMasterbate6
+SYNC SittingRub_F|FsingMasterbate7
+SYNC StandingRub_F|FsingMasterbate5
+
+MENU Couple
+TOMENU Swaps
+SEQUENCE SEQ-F-CUDDLE
+TOMENU Lotion
+TOMENU Cuddles
+TOMENU On Tube
+TOMENU Sexy Time
+
+MENU Lotion
+TOMENU Swaps
+SEQUENCE SEQ-F-CUDDLE
+SYNC LotionHim|pc85_F
+SYNC LotionBoth|z-lotionduo1-f
+SYNC LotionDuo|z-lotionduo2-f
+SYNC HisShoulders|BeachTt F1
+SYNC BehindHim|BeachTt F2
+SYNC His Thigh|BeachTt F3
+SYNC For Her|BeachTt F4
+SYNC HerThighs|BeachTt F5
+SYNC Her Calf|BeachTt F6
+SYNC LotionFemale|Lotion2F
+SYNC HerBack|Lotion3F
+SYNC HerLegs|Lotion4F
+SYNC HisBack|Lotion5F
+
+MENU Cuddles
+TOMENU Swaps
+SEQUENCE SEQ-F-CUDDLE
+SYNC PoolsideHug|pc86_F
+SYNC PoolKiss|pc87_F
+SYNC EdgeHug|pc88_F
+SYNC FloatyLegs|pc89_F
+SYNC PoolLove|pc90_F
+SYNC EdgeKiss|pc91_F
+SYNC PoolHug|pc92_F
+SYNC LayingOnHim|BeachTc F1
+SYNC WhatchaDoin?|BeachTc F2
+SYNC TummyTouch|BeachTc F3
+SYNC KissingTime|BeachTc F4
+SYNC FeelHisChest|BeachTc F5
+SYNC Affection|BeachTc F6
+SYNC Airlift|z-airlift-f
+SYNC Floathold|z-floathold-f
+SYNC Embrace|z-edgeembrace-f
+SYNC FloatLove|z-floatlove-f
+SYNC InAndOut|z-inandout-f
+SYNC PoolsideChat|z-poolsidechat-f
+SYNC OnShoulders|z-onshoulders-f
+
+MENU On Tube
+TOMENU Swaps
+SEQUENCE SEQ-F-CUDDLE
+SYNC OnHisLap|FlCud F1
+SYNC KissAndKick|FlCud F3
+SYNC DoubleDip|FlCud F5
+SYNC HugInPool|ct-tube1-fm
+SYNC InTheTube|ct-tube3-fm
+SYNC ByHisSide|ct-tube5-fm
+
+MENU Sexy Time
+TOMENU Swaps
+TOMENU Pool Sex
+TOMENU EatPussy
+TOMENU Blowjobs
+TOMENU Riding
+TOMENU Anal
+
+MENU Pool Sex|V
+TOMENU Swaps
+SYNC WetKisses|E - Poolsex9F
+SYNC FloatOnFace|E - Poolsex8F
+SYNC FloatyLicks|E - Poolsex4F
+SYNC UpPeriscope|E - Poolsex10F
+SYNC BuoyantRide|E - Poolsex5F
+SYNC CockRaft|E - Poolsex6F
+SYNC FloatyFuck|E - Poolsex7F
+SYNC BangAtEdge|E - Poolsex3F
+SYNC PoolDoggy|E - Poolsex1F
+SYNC PoolAnal|E - Poolsex2F
+
+MENU EatPussy|V
+TOMENU Swaps
+SYNC FirstTaste|TLustBedLk F1
+SYNC SlitLicks|TLustBedLk F2
+SYNC WetAndTasty|TLustBedLk F4
+SYNC PoolsideLick|TLustBedLk F5
+SYNC LegsUpLick|TLustBedLk F6
+SYNC FaceSitting|TLustBedLk F7
+SYNC RaisedLicks|FlatSex36F
+SYNC CunnySuck|FlatSex45F
+SYNC SitOnFace|FlatSex49F
+SYNC CreamHim|FlatSex50F
+
+MENU Blowjobs|V
+TOMENU Swaps
+SYNC LovelyCock|WA17
+SYNC JustTheTip|WA19
+SYNC TakesItIn|WA21
+SYNC CockHungry|WA23
+SYNC PullHerHead|WA25
+SYNC TakeItDeep|WA27
+SYNC PleasureHim|WA29
+SYNC WorkHisCock|WA31
+SYNC CumInMouth|WA33
+
+MENU Riding|V
+TOMENU Swaps
+SYNC WetClitRubs|WA65
+SYNC RubOnCock|WA67
+SYNC GrindOnHim|WA69
+SYNC SlipperyFun|WA71
+SYNC PutItInHer|WA73
+SYNC PopDatPussy|WA75
+SYNC SlickSleeve|WA97
+SYNC WorkingHard|WA99
+SYNC SoDeep|WA101
+SYNC TapCervix|WA105
+SYNC WildRide|WA95
+SYNC KissingSex|WA103
+SYNC CumTogether|WA111
+
+MENU Anal|V
+TOMENU Swaps
+SYNC AnalTease|WA77
+SYNC Penetration|WA79
+SYNC RamThatAss|WA81
+SYNC ClaimingHer|WA83
+SYNC AnalLust|WA85
+SYNC HerFavorite|WA87
+SYNC TimeToCum|WA89
+SYNC WeJustCame|WA93
+
+MENU Lesbian|V
+TOMENU Swaps
+SEQUENCE SEQ-LESBIAN-F1
+SYNC LesLapRubs|SCLesA FB8
+SYNC SpoonRub|SCLesA FB9
+SYNC FingersInHer|SCLesA FB10
+SYNC FingerFuck|SCLesA FB1
+SYNC WetTribbing|SCLesA FB12
+SYNC EatMeBitch|SCLesA FB3
+SYNC SuckHerCunt|SCLesA FB4
+SYNC WatchHerLick|SCLesA FB6
+SYNC LickHerClit|SCLesA FB7
+SYNC EatItGood|SCLesA FB11
+SYNC AssLicking|SCLesA FB5
+SYNC LickMeLickU|SCLesA FB2
+
+MENU Threesomes
+TOMENU FMF Cuddles
+TOMENU FMF Sex
+TOMENU MFM Cuddles
+TOMENU MFM Sex
+TOMENU Swaps
+
+MENU FMF Cuddles
+SEQUENCE SEQFMFCuddles
+TOMENU Swaps
+SYNC TwoHotties|FlFFMCud Fa1
+SYNC WatchThem|FlFFMCud Fa2
+SYNC WeBeChillin|FlFFMCud Fa3
+SYNC Which1First|FlFFMCud Fa4
+
+MENU FMF Sex|V
+SEQUENCE SEQFMFSex
+TOMENU Swaps
+SYNC Snorkling|FlFFMAdt Fa2
+SYNC MouthToAss|FlFFMAdt Fa3
+SYNC PoolParty|FlFFMAdt Fa1
+SYNC MuffDiver|FlFFMAdt Fa6
+SYNC DeepDive|FlFFMAdt Fa4
+SYNC InnerTube|FlFFMAdt Fa5
+
+MENU MFM Cuddles
+SEQUENCE SEQMFMCuddles
+TOMENU Swaps
+SYNC 3OnATube|FlMMFCud F1
+SYNC Her2Guys|FlMMFCud F2
+SYNC KissMyGirl|FlMMFCud F3
+SYNC Wet Heat|FlMMFCud F4
+
+MENU MFM Sex|V
+SEQUENCE SEQMFMSex
+TOMENU Swaps
+SYNC AssEatBJ|FlMMFAdt F1
+SYNC PegHerBJ|FlMMFAdt F2
+SYNC SnatchLick|FlMMFAdt F3
+SYNC Periscope|FlMMFAdt F4
+SYNC TripleOral|FlMMFAdt F5
+SYNC TubeDP|FlMMFAdt F6
+
+MENU Swaps
+BUTTON Girl<>Guy|90030|0|1
+BUTTON Girl<>Guest|90030|0|2
+BUTTON Guy<>Guest|90030|1|2
+{GetFeetWet}<0.207,-0.555,0.133><0,0,0>
+{LeanBackDip}<0.352,-0.626,0.133><0,0,0>
+{SexyDipping}<0.352,-0.572,0.133><0,0,0>
+{MovieStar}<0.352,-0.595,0.133><0,0,0>
+{CheckWater}<0.14,-0.649,0.211><0,0,0>
+{SoakFeet}<0.14,-0.669,0.211><0,0,0>
+{HalfDip}<0.14,-0.643,0.211><0,0,0>
+{Relaxing}<0.333,-0.571,0.211><0,0,34>
+{SexyAtPool}<-0.014,-0.619,0.211><0,0,11>
+{DipTheToes}<0.097,-0.386,0.223><0,0,-7.3>
+{DangleFeet}<0.32,-0.569,0.262><0,0,-78>
+{BeingCute}<0.238,-0.594,0.03><0,0,-53>
+{OneLegIn}<0.113,-0.807,0.211><0,0,0>
+{Poolside}<0.464,-0.789,0.119><0,0,-96>
+{LotionMe}<-0.096,-0.404,0.211><0,0,-48>
+{Sunbathe}<0.06,-0.696,0.131><0,0,22>
+{Sunbathe2}<0.064,-0.702,0.131><0,0,-71>
+{Dive}<1.308,-0.923,1.035><0,0,0>
+{BackDive}<-0.297,-0.923,1.035><0,0,-180>
+{BackFlip}<0.304,-0.923,1.035><0,0,-180>
+{Cannonball}<0.233,-0.923,1.035><0,0,0>
+{WatersFine}<0.771,-0.539,-0.383><0,0,0>
+{CoolingOff}<0.881,-0.532,-0.411><0,0,-180>
+{TakeADip}<0.798,-0.594,-0.417><0,0,-180>
+{Float1}<2.522,-0.923,-0.063><0,0,0>
+{Float1Rot}<2.522,-0.923,-0.063><0,0,0>
+{Float2}<2.522,-0.923,-0.063><0,0,0>
+{ZFloat}<2.522,-0.923,-0.327><0,0,0>
+{TreadWater2}<2.522,-0.923,-0.754><0,0,0>
+{TreadWater}<2.522,-0.923,-0.039><0,0,0>
+{SwimDive}<2.522,-0.923,-0.754><0,0,0>
+{HangOn}<2.377,-1.41,0.711><0,0,26>
+{KneeUp}<2.703,-1.183,-0.057><0,0,49>
+{CocktailHour}<2.743,-1.412,-0.063><0,0,-0.2>
+{Drifting}<2.43,-1.487,-0.49><0,0,16>
+{Seahorse}<2.517,-1.479,-0.468><0,0,-65>
+{Twisty}<2.568,-1.282,-0.477><0,0,-111>
+{LayFinger_F}<0.162,-0.926,0.218><0,0,111>
+{LayRub_F}<0.062,-0.782,0.218><0,0,90>
+{KneelRub_F}<0.119,-0.533,0.533><0,0,49>
+{KneelFinger_F}<-0.621,-1.501,1.257><0,0,50>
+{SitRub2_F}<0.313,-0.494,0.486><0,0,0>
+{BentRub_F}<0.364,-0.248,0.557><0,0,-180>
+{SittingRub_F}<0.134,-0.176,0.64><0,0,0>
+{StandingRub_F}<0.949,-1.022,-0.302><0,0,51>
+{LotionHim}<0.066,-0.06,0.246><0,0,90>
+{LotionBoth}<0.143,-0.123,0.232><0,0,0>
+{LotionDuo}<0.297,0.236,0.143><0,0,83>
+{HisShoulders}<0.388,-0.176,0.375><0,0,-90>
+{BehindHim}<0.032,0.706,0.44><0,0,-90>
+{His Thigh}<0.144,-0.222,0.415><0,0,92>
+{For Her}<0.159,0.095,0.362><0,0,-90>
+{HerThighs}<0.058,0.043,0.358><0,0,-90>
+{Her Calf}<-0.047,0.328,0.358><0,0,-81>
+{LotionFemale}<0,0.056,0.595><0,0,-90>
+{HerBack}<0.017,0.033,0.667><0,0,92>
+{HerLegs}<-0.061,-0.14,0.604><0,0,92>
+{HisBack}<0.197,0.24,0.589><0,0,-90>
+{PoolsideHug}<0.867,0.005,0.337><0,0,-180>
+{PoolKiss}<0.25,0.011,0.305><0,0,-180>
+{EdgeHug}<0.443,0.04,0.26><0,0,-180>
+{FloatyLegs}<0.559,0.023,0.224><0,0,-180>
+{PoolLove}<0.483,0.015,0.308><0,0,-180>
+{EdgeKiss}<0.641,0.007,0.214><0,0,-180>
+{PoolHug}<0.223,0.484,0.216><0,0,-180>
+{LayingOnHim}<-0.725,0.252,0.396><0,0,0>
+{WhatchaDoin?}<0.159,0.347,0.371><0,0,90>
+{TummyTouch}<0.338,0.106,0.385><0,0,92>
+{KissingTime}<0.038,-0.032,0.544><0,0,96>
+{FeelHisChest}<-0.237,0.025,0.413><0,0,90>
+{Affection}<0.222,0.117,0.382><0,0,-74.4>
+{Airlift}<1.329,-0.009,-1.278><0,0,-90>
+{Floathold}<2.941,0.081,-1.053><0,0,0>
+{Embrace}<0.659,0.006,-0.351><0,0,0>
+{FloatLove}<1.882,0.001,-0.355><0,0,0>
+{InAndOut}<0.402,-0.006,0.215><0,0,0>
+{PoolsideChat}<0.438,0.003,0.14><0,0,-3>
+{OnShoulders}<1.864,0.437,-1.106><0,0,0>
+{OnHisLap}<2.739,-0.026,-0.14><0,0,0>
+{KissAndKick}<2.148,-0.031,-0.152><0,0,-180>
+{DoubleDip}<2.193,-0.016,-0.218><0,0,-180>
+{HugInPool}<2.003,0.056,0.908><0,0,0>
+{InTheTube}<2.723,-0.008,0.573><0,0,-180>
+{ByHisSide}<2.273,0.38,0.85><0,0,25>
+{WetKisses}<2.522,-0.252,-0.298><0,0,-180>
+{FloatOnFace}<2.522,0.009,-0.418><0,0,90>
+{FloatyLicks}<1.575,-0.022,-0.421><0,0,-180>
+{UpPeriscope}<1.521,0.008,-0.338><0,0,-180>
+{BuoyantRide}<2.522,-0.002,-0.619><0,0,-90>
+{CockRaft}<2.522,-0.039,-0.326><0,0,0>
+{FloatyFuck}<2.522,0.026,-0.338><0,0,90>
+{BangAtEdge}<1.578,-0.005,-0.371><0,0,-180>
+{PoolDoggy}<1.549,0.001,-0.387><0,0,-180>
+{PoolAnal}<1.57,-0.003,-0.389><0,0,-180>
+{FirstTaste}<0.439,0.064,0.177><0,0,0>
+{SlitLicks}<0.04,-0.588,0.503><0,0,-90>
+{WetAndTasty}<0.148,0.081,0.198><0,0,-180>
+{PoolsideLick}<0.407,0.064,0.332><0,0,0>
+{LegsUpLick}<0.15,0.72,0.163><0,0,-90>
+{FaceSitting}<0.595,0.062,0.485><4.1,3.2,-177.8>
+{RaisedLicks}<1.567,0.062,-0.708><0,0,0>
+{CunnySuck}<0.076,0.122,0.624><-1,2.3,-104.7>
+{SitOnFace}<-0.006,0.777,0.642><0,0,90>
+{CreamHim}<-1.374,0.062,0.654><0,1,-180>
+{LovelyCock}<-0.015,0.342,1.174><0,0,-90>
+{JustTheTip}<-0.015,0.342,1.174><0,0,-90>
+{TakesItIn}<-0.015,0.342,1.174><0,0,-90>
+{CockHungry}<-0.015,0.342,1.174><0,0,-90>
+{PullHerHead}<-0.015,0.342,1.174><0,0,-90>
+{TakeItDeep}<-0.015,0.342,1.174><0,0,-90>
+{PleasureHim}<-0.015,0.342,1.174><0,0,-90>
+{WorkHisCock}<-0.015,0.342,1.174><0,0,-90>
+{CumInMouth}<-0.015,0.342,1.174><0,0,-90>
+{WetClitRubs}<0.317,0.179,1.286><0,1,-90>
+{RubOnCock}<0.317,0.179,1.286><0,1,-90>
+{GrindOnHim}<0.317,0.179,1.286><0,1,-90>
+{SlipperyFun}<0.317,0.179,1.286><0,1,-90>
+{PutItInHer}<0.317,0.179,1.286><0,1,-90>
+{PopDatPussy}<0.317,0.179,1.286><0,1,-90>
+{SlickSleeve}<0.317,0.179,1.286><0,1,-90>
+{WorkingHard}<0.317,0.179,1.286><0,1,-90>
+{SoDeep}<0.317,0.179,1.286><0,1,-90>
+{TapCervix}<0.317,0.179,1.286><0,1,-90>
+{WildRide}<0.317,0.179,1.286><0,1,-90>
+{KissingSex}<0.317,0.179,1.286><0,1,-90>
+{CumTogether}<0.317,0.179,1.286><0,1,-90>
+{AnalTease}<-0.478,0.353,1.223><0,0,-90>
+{Penetration}<-0.478,0.353,1.223><0,0,-90>
+{RamThatAss}<-0.478,0.353,1.223><0,0,-90>
+{ClaimingHer}<-0.478,0.353,1.223><0,0,-90>
+{AnalLust}<-0.478,0.353,1.223><0,0,-90>
+{HerFavorite}<-0.478,0.353,1.223><0,0,-90>
+{TimeToCum}<-0.478,0.353,1.223><0,0,-90>
+{WeJustCame}<-0.478,0.353,1.223><0,0,-90>
+{LesLapRubs}<0.094,-0.21,0.61><0,0,0>
+{SpoonRub}<0.099,-0.271,0.66><0,0,-18>
+{FingersInHer}<0.124,-0.136,0.692><0,0,-90>
+{FingerFuck}<0.1,0.101,0.669><0,0,0>
+{WetTribbing}<0.083,-0.266,0.644><0,0,0>
+{EatMeBitch}<0.055,0.097,0.636><0,0,-90>
+{SuckHerCunt}<0.16,0.074,0.671><0,0,-90>
+{WatchHerLick}<0.064,0.044,0.685><0,0,-90>
+{LickHerClit}<0.9,-0.438,0.54><0,0,-180>
+{EatItGood}<0.203,0.005,0.628><0,0,-180>
+{AssLicking}<0.125,0.042,0.716><0,0,-90>
+{LickMeLickU}<0.008,-0.012,0.655><0,0,-90>
+{TwoHotties}<1.954,0.18,0.153><0,0,22.5>
+{WatchThem}<2.541,0.332,-0.02><0,0,-90>
+{WeBeChillin}<2.257,0.14,-0.095><0,0,22.5>
+{Which1First}<2.208,0.282,-0.026><0,0,0>
+{Snorkling}<3.018,-0.104,-0.163><0,0,-180>
+{MouthToAss}<2.831,-0.11,-0.107><0,0,-180>
+{PoolParty}<2.58,-0.104,-0.057><0,0,0>
+{MuffDiver}<3.181,-0.133,-0.156><0,-3,-180>
+{DeepDive}<2.107,-0.148,-0.124><0,0,0>
+{InnerTube}<2.42,0.058,-0.266><0,0,-180>
+{3OnATube}<2.322,-0.173,-0.086><0,0,90>
+{Her2Guys}<2.462,-0.121,-0.063><0,0,0>
+{KissMyGirl}<2.584,-0.316,0.115><0,0,90>
+{Wet Heat}<2.348,-0.136,-0.069><0,0,0>
+{AssEatBJ}<2.755,-0.109,-0.216><0,0,-180>
+{PegHerBJ}<2.516,-0.184,0.021><0,0,-180>
+{SnatchLick}<2.32,-0.139,-0.057><0,0,0>
+{Periscope}<3.068,-0.154,-0.238><0,0,-180>
+{TripleOral}<2.137,-0.167,-0.026><0,0,0>
+{TubeDP}<2.228,-0.113,0.012><0,-4,-180>
+PROP HangOn|*tube|G1|<2.233078, -1.114837, -0.187222>|<0.000000, 0.000000, 26.000000>
+PROP KneeUp|*tube1|G1|<2.916322, -1.634948, -0.174486>|<0.000000, 0.000000, -131.000000>
+PROP CocktailHour|*tube2|G1|<2.634980, -1.867660, -0.180639>|<0.000000, 0.000000, 179.752900>
+PROP Drifting|*tube3|G1|<2.921372, -1.264647, -0.187960>|<0.000000, 0.000000, -81.000050>
+PROP Seahorse|*tube|G1|<2.238877, -1.109848, -0.190344>|<0.000000, 0.000000, 25.000010>
+PROP Twisty|*tube1|G1|<2.085877, -1.400268, -0.195261>|<0.000000, 0.000000, 69.000010>
+PROP1 CocktailHour|Debauchery Tequila Sunsrise v2.01|G1|<0.000000, 0.425003, 0.193604>|<0.000002, 0.000002, 0.000000>|right hand
+PROP1 SetupLovense|LoveBridge2 Micro|LoveBridge|<0.000000, 0.070000, 0.250000>|<0.000000, 0.000000, 0.000000>|HUD bottom right
+PROP1 LovenseHUD|Debauchery Lovense Hud v2.0.1 AV|G6|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|HUD bottom left
+
+SITTER 1|Guy 1|M
+
+TOMENU Solo
+TOMENU Couple
+TOMENU Threesomes
+BUTTON SetupLovense
+BUTTON LovenseHUD
+TOMENU Swaps
+BUTTON Texture|-31400100
+
+MENU Solo
+TOMENU Swaps
+SEQUENCE SEQ-M-SOLO
+TOMENU By the Pool
+TOMENU In the Pool
+TOMENU On a Tube
+TOMENU Masturbation
+
+MENU By the Pool
+TOMENU Swaps
+SEQUENCE SEQ-M-SOLO
+POSE OneFootIn|ps21_M|55|ps21Mirror_M|55
+POSE Relaxed|ps22_M|55|ps22Mirror_M|55
+POSE Chilling|ps23_M|55|ps23Mirror_M|55
+POSE HangingOut|ps24_M|55|ps24Mirror_M|55
+POSE HalfDip|z-halfdip
+POSE DangleFeet|z-feetdangle
+POSE Poolside|z-poolside
+POSE LotionMe|z-lotionself
+POSE Sunbathe|z-sunbathe
+POSE Sunbathe2|z-sunbathe 1
+
+MENU In the Pool
+TOMENU Swaps
+SEQUENCE SEQ-M-SOLO
+POSE Dive|wj1s|2|wj1
+POSE BackDive|wj2s|2|wj2
+POSE BackFlip|wj3s|2|wj3
+POSE Cannonball|wj4s|2|wj4
+POSE InTheWater|ps18_M
+POSE AtTheEdge|ps19_M
+POSE SlowKicks|ps20_M
+POSE Float1|float1
+POSE Float1Rot|float1rot
+POSE Float2|float2
+POSE ZFloat|z-float
+POSE TreadWater2|z-treadwater
+POSE TreadWater|treadwater
+POSE SwimDive|poolSwimDive
+
+MENU On a Tube
+TOMENU Swaps
+SEQUENCE SEQ-M-SOLO
+POSE HangOn|nt-clutch
+POSE HandRow|FlSi M2
+POSE FaceDown|FlSi M5
+POSE PoolFun|[RNP] Floating Ring #17 - M
+POSE Soaking|[RNP] Floating Ring #19 - M
+
+MENU Masturbation|V
+SYNC LayJack_M|MsingMasterbate1
+SYNC SitJack_M|MsingMasterbate2
+SYNC KneelJack_M|MsingMasterbate7
+SYNC SitWank_M|MsingMasterbate8
+SYNC LeanJack_M|MsingMasterbate3
+SYNC EdgeJack_M|MsingMasterbate4
+SYNC StandJack_M|MsingMasterbate5
+
+MENU Couple
+TOMENU Swaps
+SEQUENCE SEQ-M-CUDDLE
+TOMENU Lotion
+TOMENU Cuddles
+TOMENU On Tube
+TOMENU Sexy Time
+
+MENU Lotion
+TOMENU Swaps
+SEQUENCE SEQ-M-CUDDLE
+SYNC LotionHim|pc85_M
+SYNC LotionBoth|z-lotionduo1-m
+SYNC LotionDuo|z-lotionduo2-m
+SYNC HisShoulders|BeachTt M1
+SYNC BehindHim|BeachTt M2
+SYNC His Thigh|BeachTt M3
+SYNC For Her|BeachTt M4
+SYNC HerThighs|BeachTt M5
+SYNC Her Calf|BeachTt M6
+SYNC HerBack|Lotion3M
+SYNC HerLegs|Lotion4M
+SYNC HisBack|Lotion5M
+
+MENU Cuddles
+TOMENU Swaps
+SEQUENCE SEQ-M-CUDDLE
+SYNC PoolsideHug|pc86_M
+SYNC PoolKiss|pc87_M
+SYNC EdgeHug|pc88_M
+SYNC FloatyLegs|pc89_M
+SYNC PoolLove|pc90_M
+SYNC EdgeKiss|pc91_M
+SYNC PoolHug|pc92_M
+SYNC LayingOnHim|BeachTc M1
+SYNC WhatchaDoin?|BeachTc M2
+SYNC TummyTouch|BeachTc M3
+SYNC KissingTime|BeachTc M4
+SYNC FeelHisChest|BeachTc M5
+SYNC Affection|BeachTc M6
+SYNC Airlift|z-airlift-m
+SYNC Floathold|z-floathold-m
+SYNC Embrace|z-edgeembrace-m
+SYNC FloatLove|z-floatlove-m
+SYNC InAndOut|z-inandout-m
+SYNC OnShoulders|z-onshoulders-m
+SYNC PoolsideChat|z-poolsidechat-m
+
+MENU On Tube
+TOMENU Swaps
+SEQUENCE SEQ-M-CUDDLE
+SYNC OnHisLap|FlCud M1
+SYNC KissAndKick|FlCud M3
+SYNC DoubleDip|FlCud M5
+SYNC HugInPool|ct-tube1-ml
+SYNC InTheTube|ct-tube3-ml
+SYNC ByHisSide|ct-tube5-ml
+
+MENU Sexy Time
+TOMENU Swaps
+TOMENU Pool Sex
+TOMENU EatPussy
+TOMENU Blowjobs
+TOMENU Riding
+TOMENU Anal
+
+MENU Pool Sex|V
+TOMENU Swaps
+SYNC WetKisses|E - Poolsex9M
+SYNC FloatOnFace|E - Poolsex8M
+SYNC FloatyLicks|E - Poolsex4M
+SYNC UpPeriscope|E - Poolsex10M
+SYNC BuoyantRide|E - Poolsex5M
+SYNC CockRaft|E - Poolsex6M
+SYNC FloatyFuck|E - Poolsex7M
+SYNC BangAtEdge|E - Poolsex3M
+SYNC PoolDoggy|E - Poolsex1M
+SYNC PoolAnal|E - Poolsex2M
+
+MENU EatPussy|V
+TOMENU Swaps
+SYNC FirstTaste|TLustBedLk M1
+SYNC SlitLicks|TLustBedLk M2
+SYNC WetAndTasty|TLustBedLk M4
+SYNC PoolsideLick|TLustBedLk M5
+SYNC LegsUpLick|TLustBedLk M6
+SYNC FaceSitting|TLustBedLk M7
+SYNC RaisedLicks|FlatSex36M
+SYNC CunnySuck|FlatSex45M
+SYNC SitOnFace|FlatSex49M
+SYNC CreamHim|FlatSex50M
+
+MENU Blowjobs|V
+TOMENU Swaps
+SYNC LovelyCock|WA18
+SYNC JustTheTip|WA20
+SYNC TakesItIn|WA22
+SYNC CockHungry|WA24
+SYNC PullHerHead|WA26
+SYNC TakeItDeep|WA28
+SYNC PleasureHim|WA30
+SYNC WorkHisCock|WA32
+SYNC CumInMouth|WA34
+
+MENU Riding|V
+TOMENU Swaps
+SYNC WetClitRubs|WA66
+SYNC RubOnCock|WA68
+SYNC GrindOnHim|WA70
+SYNC SlipperyFun|WA72
+SYNC PutItInHer|WA74
+SYNC PopDatPussy|WA76
+SYNC SlickSleeve|WA98
+SYNC WorkingHard|WA100
+SYNC SoDeep|WA102
+SYNC TapCervix|WA106
+SYNC WildRide|WA96
+SYNC KissingSex|WA104
+SYNC CumTogether|WA112
+
+MENU Anal|V
+TOMENU Swaps
+SYNC AnalTease|WA78
+SYNC Penetration|WA80
+SYNC RamThatAss|WA82
+SYNC ClaimingHer|WA84
+SYNC AnalLust|WA86
+SYNC HerFavorite|WA88
+SYNC TimeToCum|WA90
+SYNC WeJustCame|WA94
+
+MENU Threesomes
+TOMENU FMF Cuddles
+TOMENU FMF Sex
+TOMENU MFM Cuddles
+TOMENU MFM Sex
+TOMENU Swaps
+
+MENU FMF Cuddles
+TOMENU Swaps
+SYNC TwoHotties|FlFFMCud M1
+SYNC WatchThem|FlFFMCud M2
+SYNC WeBeChillin|FlFFMCud M3
+SYNC Which1First|FlFFMCud M4
+
+MENU FMF Sex|V
+TOMENU Swaps
+SYNC Snorkling|FlFFMAdt M2
+SYNC PoolParty|FlFFMAdt M1
+SYNC MouthToAss|FlFFMAdt M3
+SYNC MuffDiver|FlFFMAdt M6
+SYNC DeepDive|FlFFMAdt M4
+SYNC InnerTube|FlFFMAdt M5
+
+MENU MFM Cuddles
+TOMENU Swaps
+SYNC 3OnATube|FlMMFCud Ma1
+SYNC Her2Guys|FlMMFCud Ma2
+SYNC KissMyGirl|FlMMFCud Ma3
+SYNC Wet Heat|FlMMFCud Ma4
+
+MENU MFM Sex|V
+TOMENU Swaps
+SYNC AssEatBJ|FlMMFAdt Ma1
+SYNC PegHerBJ|FlMMFAdt Ma2
+SYNC SnatchLick|FlMMFAdt Ma3
+SYNC Periscope|FlMMFAdt Ma4
+SYNC TripleOral|FlMMFAdt Ma5
+SYNC TubeDP|FlMMFAdt Ma6
+
+MENU Swaps
+BUTTON Girl<>Guy|90030|0|1
+BUTTON Girl<>Guest|90030|0|2
+BUTTON Guy<>Guest|90030|1|2
+{OneFootIn}<0.154,0.493,0.267><0,0,-180>
+{Relaxed}<0.154,0.753,0.284><0,0,-180>
+{Chilling}<0.153992, 0.503952, 0.284000><0.000000, 0.000000, -180.000000>
+{HangingOut}<0.154,0.736,0.284><0,0,-180>
+{HalfDip}<0.154,0.625,0.222><0,0,0>
+{DangleFeet}<0.154,1.402,0.301><0,0,-63>
+{Poolside}<0.362,1.366,0.145><0,0,-90>
+{LotionMe}<0.154,0.417,0.232><0,0,90>
+{Sunbathe}<0.154,1.491,0.198><0,0,0>
+{Sunbathe2}<0.154,1.087,0.177><0,0,90>
+{Dive}<1.173,0.768,1.142><0,0,0>
+{BackDive}<-0.57,0.768,1.121><0,0,-180>
+{BackFlip}<0.314,0.768,1.133><0,0,-180>
+{Cannonball}<0.243,0.768,1.121><0,0,0>
+{InTheWater}<0.804,0.489,-0.427><0,0,-180>
+{AtTheEdge}<0.804,0.722,-0.427><0,0,0>
+{SlowKicks}<0.804,0.664,-0.427><0,0,-180>
+{Float1}<2.584,1.161,-0.04><0,0,-21>
+{Float1Rot}<2.584,1.161,-0.04><0,0,-29>
+{Float2}<2.584,1.161,-0.088><0,0,-20>
+{ZFloat}<2.584,1.161,-0.331><0,0,-31>
+{TreadWater2}<2.584,1.161,-0.734><0,0,-37>
+{TreadWater}<2.584,1.161,-0.089><0,0,-57>
+{SwimDive}<2.584,1.161,-0.734><0,0,0>
+{HangOn}<2.305,1.588,0.753><0,0,-1>
+{HandRow}<3.441,1.116,-0.166><0,0,-45>
+{FaceDown}<3.307,1.238,-0.18><-0.1,-0.9,-165.9>
+{PoolFun}<2.564,1.063,-0.415><0,0,-47>
+{Soaking}<2.483,1.297,-0.423><0,0,-180>
+{LayJack_M}<-0.012,1.188,1.225><0,0,-90>
+{SitJack_M}<-0.012,1.433,1.277><0,0,-90>
+{KneelJack_M}<0.135,0.759,0.399><0,0,-39>
+{SitWank_M}<0.009,0.868,0.598><0,0,0>
+{LeanJack_M}<0.684,0.669,-0.195><0,-27,0>
+{EdgeJack_M}<0.148,0.87,0.619><0,0,-13>
+{StandJack_M}<1.348,0.669,-0.264><0,0,-125.9>
+{LotionHim}<0.066,-0.06,0.246><0,0,90>
+{LotionBoth}<0.143,0.133,0.28><0,0,0>
+{LotionDuo}<0.554,0.204,0.179><0,0,83>
+{HisShoulders}<0.041,0.059,0.321><0,0,-90>
+{BehindHim}<0.041,0.06,0.416><0,0,-90>
+{His Thigh}<0.025,0.059,0.331><0,0,-90>
+{For Her}<-0.251,0.12,0.439><0,0,-90>
+{HerThighs}<0.066,0.672,0.507><0,0,-90>
+{Her Calf}<-0.097,-0.62,0.356><0,0,94>
+{HerBack}<0.017,0.033,0.699><0,0,92>
+{HerLegs}<-0.061,-0.14,0.636><0,0,92>
+{HisBack}<0.197,0.24,0.621><0,0,-90>
+{PoolsideHug}<0.776,0.005,0.286><0,0,-180>
+{PoolKiss}<0.22,0.011,0.299><0,0,-180>
+{EdgeHug}<0.443,0.04,0.26><0,0,-180>
+{FloatyLegs}<0.559,0.023,0.224><0,0,-180>
+{PoolLove}<0.456,0.015,0.308><0,0,-180>
+{EdgeKiss}<0.537,0.007,0.214><0,0,-180>
+{PoolHug}<0.223,0.484,0.216><0,0,-180>
+{LayingOnHim}<0.189,0.017,0.322><0,0,90>
+{WhatchaDoin?}<-1.02,-0.068,0.379><0,0,0>
+{TummyTouch}<-0.109,0.188,0.419><0,0,-90>
+{KissingTime}<0.043,-0.085,0.377><0,0,-84>
+{FeelHisChest}<0.364,0.064,0.384><0,0,90>
+{Affection}<-0.156,0.167,0.371><0,0,105.6>
+{Airlift}<1.723,-0.009,-0.905><0,0,-90>
+{Floathold}<3.108,0.081,-1.139><0,0,0>
+{Embrace}<0.395,0.006,-0.386><0,0,0>
+{FloatLove}<1.917,0.001,-0.216><0,0,0>
+{InAndOut}<-0.288,-0.006,0.448><0,0,0>
+{OnShoulders}<1.684,0.437,-0.645><0,0,0>
+{PoolsideChat}<0.051,-0.505,0.563><0,0,-3>
+{OnHisLap}<2.397,-0.02,-0.165><0,0,0>
+{KissAndKick}<1.895,-0.031,-0.145><0,0,0>
+{DoubleDip}<1.704,-0.004,-0.28><0,0,0>
+{HugInPool}<1.928,0.056,0.887><0,0,0>
+{InTheTube}<2.9,-0.008,0.619><0,0,-180>
+{ByHisSide}<2.231,0.046,0.774><0,0,25>
+{WetKisses}<2.522,-0.252,-0.334><0,0,-180>
+{FloatOnFace}<2.522,0.009,-0.418><0,0,90>
+{FloatyLicks}<1.575,-0.022,-0.421><0,0,-180>
+{UpPeriscope}<1.521,0.008,-0.338><0,0,-180>
+{BuoyantRide}<2.522,-0.002,-0.619><0,0,-90>
+{CockRaft}<2.522,-0.007,-0.326><0,0,0>
+{FloatyFuck}<2.522,0.026,-0.338><0,0,90>
+{BangAtEdge}<1.578,-0.005,-0.371><0,0,-180>
+{PoolDoggy}<1.549,0.001,-0.387><0,0,-180>
+{PoolAnal}<1.57,-0.003,-0.329><0,0,-180>
+{FirstTaste}<1.39,0.06,-0.094><0,0,-180>
+{SlitLicks}<0.096,-0.083,0.274><0,0,90>
+{WetAndTasty}<-1.28,0.043,0.541><0,0,0>
+{PoolsideLick}<1.302,0.06,-0.071><0,0,-180>
+{LegsUpLick}<0.142,-0.102,0.436><0,0,90>
+{FaceSitting}<0.056,0.062,0.256><4.1,3.2,-177.8>
+{RaisedLicks}<1.567,0.062,-0.708><0,0,0>
+{CunnySuck}<0.076,0.122,0.624><-1,2.3,-104.7>
+{SitOnFace}<-0.006,0.777,0.642><0,0,90>
+{CreamHim}<-1.374,0.062,0.654><0,1,-180>
+{LovelyCock}<-0.015,-0.218,1.32><0,0,90>
+{JustTheTip}<-0.015,-0.218,1.32><0,0,90>
+{TakesItIn}<-0.015,-0.218,1.32><0,0,90>
+{CockHungry}<-0.015,-0.218,1.32><0,0,90>
+{PullHerHead}<-0.015,-0.218,1.32><0,0,90>
+{TakeItDeep}<-0.015,-0.218,1.32><0,0,90>
+{PleasureHim}<-0.015,-0.218,1.32><0,0,90>
+{WorkHisCock}<-0.015,-0.218,1.32><0,0,90>
+{CumInMouth}<-0.015,-0.218,1.32><0,0,90>
+{WetClitRubs}<0.317,-0.382,1.388><0,1,90>
+{RubOnCock}<0.317,-0.382,1.388><0,1,90>
+{GrindOnHim}<0.317,-0.382,1.388><0,1,90>
+{SlipperyFun}<0.317,-0.382,1.388><0,1,90>
+{PutItInHer}<0.317,-0.382,1.388><0,1,90>
+{PopDatPussy}<0.317,-0.382,1.388><0,1,90>
+{SlickSleeve}<0.317,-0.382,1.388><0,1,90>
+{WorkingHard}<0.317,-0.382,1.388><0,1,90>
+{SoDeep}<0.317,-0.382,1.388><0,1,90>
+{TapCervix}<0.317,-0.382,1.388><0,1,90>
+{WildRide}<0.317,-0.382,1.388><0,1,90>
+{KissingSex}<0.317,-0.382,1.388><0,1,90>
+{CumTogether}<0.317,-0.382,1.388><0,1,90>
+{AnalTease}<-0.478,-0.207,1.369><0,0,90>
+{Penetration}<-0.478,-0.207,1.369><0,0,90>
+{RamThatAss}<-0.478,-0.207,1.369><0,0,90>
+{ClaimingHer}<-0.478,-0.207,1.369><0,0,90>
+{AnalLust}<-0.478,-0.207,1.369><0,0,90>
+{HerFavorite}<-0.478,-0.207,1.369><0,0,90>
+{TimeToCum}<-0.478,-0.207,1.369><0,0,90>
+{WeJustCame}<-0.478,-0.207,1.369><0,0,90>
+{TwoHotties}<1.887,-0.092,-0.028><0,0,0>
+{WatchThem}<1.79,-0.004,-0.07><0,0,-23.5>
+{WeBeChillin}<2.068,-0.132,-0.158><0,0,0>
+{Which1First}<2.019,-0.126,-0.146><0,0,0>
+{Snorkling}<2.47,-0.151,-0.01><0,0,0>
+{PoolParty}<2.153,-0.104,-0.002><0,0,-180>
+{MouthToAss}<2.076,-0.11,-0.165><0,0,0>
+{MuffDiver}<2.085,-0.132,-0.186><0,-5,0>
+{DeepDive}<2.283,-0.131,-0.002><0,0,-180>
+{InnerTube}<2.815,0.018,-0.267><0,0,-180>
+{3OnATube}<2.032,-0.135,-0.126><0,0,0>
+{Her2Guys}<2.104,0.552,-0.234><0,0,-90>
+{KissMyGirl}<2.323,0.064,-0.115><0,0,0>
+{Wet Heat}<2.02,-0.136,-0.069><0,0,0>
+{AssEatBJ}<1.978,-0.109,-0.216><0,0,0>
+{PegHerBJ}<1.7,-0.184,0.021><0,0,0>
+{SnatchLick}<1.991,-0.139,-0.057><0,0,0>
+{Periscope}<2.695,-0.154,-0.026><0,0,0>
+{TripleOral}<1.881,-0.167,0.05><0,0,-180>
+{TubeDP}<1.909,-0.113,-0.078><0,0,0>
+PROP HangOn|*tube3|G1|<3.703949, 1.210481, -0.195778>|<0.000000, 0.000000, -110.000000>
+PROP HandRow|*tube|G1|<3.406769, 1.474854, -0.209391>|<0.000000, 0.000000, 0.000000>
+PROP FaceDown|*tube1|G1|<2.500763, 1.477952, -0.193583>|<0.000000, 0.000000, -31.000010>
+PROP PoolFun|*tube2|G1|<2.149338, 1.382203, -0.171133>|<0.000000, 0.000000, 42.999970>
+PROP Soaking|*tube3|G1|<2.406768, 1.698167, -0.179266>|<0.000000, 0.000000, 0.000000>
+PROP OnHisLap|*tube2|G1|<2.412903, 0.422730, -0.196953>|<0.000000, 0.000000, 0.000000>
+PROP KissAndKick|*tube|G1|<1.906769, 0.411851, -0.187258>|<0.000000, 0.000000, 0.000000>
+PROP DoubleDip|*tube1|G1|<2.231934, 0.444794, -0.188889>|<0.000000, 0.000000, 0.000000>
+PROP HugInPool|*tube3|G1|<1.906769, 0.456879, -0.187641>|<0.000000, 0.000000, 0.000000>
+PROP InTheTube|*tube1|G1|<2.200302, 0.438508, -0.194336>|<0.000000, 0.000000, 0.000000>
+PROP ByHisSide|*tube2|G1|<2.156769, 0.402817, -0.191961>|<0.000000, 0.000000, 0.000000>
+PROP TwoHotties|*tube1|G1|<2.149338, 0.286362, -0.171131>|<0.000000, 0.000000, -31.000010>
+PROP WatchThem|*tube2|G1|<2.149338, 0.286362, -0.171133>|<0.000000, 0.000000, 42.999980>
+PROP WeBeChillin|*tube3|G1|<2.149338, 0.286362, -0.171131>|<0.000000, 0.000000, 0.000000>
+PROP Which1First|*tube2|G1|<2.149338, 0.286362, -0.171131>|<0.000000, 0.000000, 0.000000>
+PROP Snorkling|*tube|G1|<2.156769, 0.286362, -0.171131>|<0.000000, 0.000000, 0.000000>
+PROP PoolParty|*tube1|G1|<2.149338, 0.286362, -0.171131>|<0.000000, 0.000000, 0.000000>
+PROP MouthToAss|*tube3|G1|<2.149338, 0.286362, -0.171131>|<0.000000, 0.000000, 0.000000>
+PROP MuffDiver|*tube1|G1|<2.149338, 0.286362, -0.171131>|<0.000000, 0.000000, 0.000000>
+PROP DeepDive|*tube2|G1|<2.149338, 0.286362, -0.171131>|<0.000000, 0.000000, 0.000000>
+PROP InnerTube|*tube3|G1|<2.708405, 0.019089, -0.171131>|<0.000000, 0.000000, -110.000000>
+PROP 3OnATube|*tube|G1|<2.149338, 0.286362, -0.171131>|<0.000000, 0.000000, 0.000000>
+PROP Her2Guys|*tube1|G1|<2.149338, 0.286362, -0.171131>|<0.000000, 0.000000, -31.000020>
+PROP KissMyGirl|*tube2|G1|<2.149338, 0.286362, -0.171131>|<0.000000, 0.000000, 42.999990>
+PROP Wet Heat|*tube3|G1|<2.149338, 0.286362, -0.171131>|<0.000000, 0.000000, 0.000000>
+PROP AssEatBJ|*tube2|G1|<2.149338, 0.286362, -0.171131>|<0.000000, 0.000000, 0.000000>
+PROP PegHerBJ|*tube|G1|<2.149338, 0.286362, -0.171131>|<0.000000, 0.000000, 0.000000>
+PROP SnatchLick|*tube1|G1|<2.149338, 0.286362, -0.171131>|<0.000000, 0.000000, 0.000000>
+PROP Periscope|*tube3|G1|<2.149338, 0.286362, -0.171131>|<0.000000, 0.000000, 0.000000>
+PROP TripleOral|*tube1|G1|<2.149338, 0.286362, -0.171131>|<0.000000, 0.000000, 0.000000>
+PROP TubeDP|*tube2|G1|<2.149338, 0.286362, -0.171131>|<0.000000, 0.000000, 0.000000>
+PROP1 Cheers|Debauchery BeerPint RH|G1|<-0.060738, 0.272774, 0.260742>|<90.000000, 0.000010, -0.000010>|right hand
+PROP1 SetupLovense|LoveBridge2 Micro|LoveBridge|<0.000000, 0.070000, 0.250000>|<0.000000, 0.000000, 0.000000>|HUD bottom right
+PROP1 LovenseHUD|Debauchery Lovense Hud v2.0.1 AV|G6|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|HUD bottom left
+
+SITTER 2|Guest
+
+TOMENU Solo
+TOMENU Lesbian
+TOMENU Threesomes
+BUTTON SetupLovense
+BUTTON LovenseHUD
+TOMENU Swaps
+
+MENU Solo|V
+POSE HangOn|nt-clutch
+SYNC StandingRub|FsingMasterbate5
+SYNC StandJack|MsingMasterbate5
+
+MENU Lesbian|V
+SEQUENCE SEQ-LESBIAN-F2
+SYNC LesLapRubs|SCLesA FT8
+SYNC SpoonRub|SCLesA FT9
+SYNC FingersInHer|SCLesA FT10
+SYNC FingerFuck|SCLesA FT1
+SYNC WetTribbing|SCLesA FT12
+SYNC EatMeBitch|SCLesA FT3
+SYNC SuckHerCunt|SCLesA FT4
+SYNC WatchHerLick|SCLesA FT6
+SYNC LickHerClit|SCLesA FT7
+SYNC EatItGood|SCLesA FT11
+SYNC AssLicking|SCLesA FT5
+SYNC LickMeLickU|SCLesA FT2
+
+MENU Threesomes
+TOMENU FMF Cuddles
+TOMENU FMF Sex
+TOMENU MFM Cuddles
+TOMENU MFM Sex
+TOMENU Swaps
+
+MENU FMF Cuddles
+TOMENU Swaps
+SYNC TwoHotties|FlFFMCud Fb1
+SYNC WatchThem|FlFFMCud Fb2
+SYNC WeBeChillin|FlFFMCud Fb3
+SYNC Which1First|FlFFMCud Fb4
+
+MENU FMF Sex|V
+TOMENU Swaps
+SYNC Snorkling|FlFFMAdt Fb2
+SYNC MouthToAss|FlFFMAdt Fb3
+SYNC PoolParty|FlFFMAdt Fb1
+SYNC MuffDiver|FlFFMAdt Fb6
+SYNC DeepDive|FlFFMAdt Fb4
+SYNC InnerTube|FlFFMAdt Fb5
+
+MENU MFM Cuddles
+TOMENU Swaps
+SYNC 3OnATube|FlMMFCud Mb1
+SYNC Her2Guys|FlMMFCud Mb2
+SYNC KissMyGirl|FlMMFCud Mb3
+SYNC Wet Heat|FlMMFCud Mb4
+
+MENU MFM Sex|V
+TOMENU Swaps
+SYNC AssEatBJ|FlMMFAdt Mb1
+SYNC PegHerBJ|FlMMFAdt Mb2
+SYNC SnatchLick|FlMMFAdt Mb3
+SYNC Periscope|FlMMFAdt Mb4
+SYNC TripleOral|FlMMFAdt Mb5
+SYNC TubeDP|FlMMFAdt Mb6
+
+MENU Swaps
+BUTTON Girl<>Guy|90030|0|1
+BUTTON Girl<>Guest|90030|0|2
+BUTTON Guy<>Guest|90030|1|2
+{HangOn}<4.099,-2.027,0.7><0,0,140.5>
+{StandingRub}<2.341,-1.335,-0.302><0,0,109>
+{StandJack}<1.923,-1.722,-0.264><0,0,135>
+{LesLapRubs}<0.094,-0.663,0.61><0,0,0>
+{SpoonRub}<-0.041,-0.702,0.66><0,0,-18>
+{FingersInHer}<0.125,-0.589,0.692><0,0,90>
+{FingerFuck}<0.099,-0.353,0.669><0,0,90>
+{WetTribbing}<0.083,-0.719,0.644><0,0,90>
+{EatMeBitch}<0.055,-0.356,0.636><0,0,90>
+{SuckHerCunt}<0.16,-0.379,0.671><0,0,90>
+{WatchHerLick}<0.064,-0.408,0.685><0,0,-90>
+{LickHerClit}<0.437,-0.438,0.499><0,0,0>
+{EatItGood}<0.175,-0.45,0.638><0,0,0>
+{AssLicking}<0.125,-0.411,0.716><0,0,-90>
+{LickMeLickU}<0.008,-0.465,0.655><0,0,90>
+{TwoHotties}<1.922,-0.401,0.153><0,0,-23.5>
+{WatchThem}<2.541,-0.31,-0.02><0,0,90>
+{WeBeChillin}<2.257,-0.427,-0.095><0,0,-23.5>
+{Which1First}<2.631,-0.593,0.063><0,0,163>
+{Snorkling}<2.78,-0.151,-0.067><0,0,-180>
+{MouthToAss}<3.268,-0.112,-0.18><0,0,-180>
+{PoolParty}<3.073,-0.104,-0.048><0,0,-180>
+{MuffDiver}<2.238,-0.12,-0.013><0,-3,-180>
+{DeepDive}<1.764,-0.21,-0.098><3.6,-11.4,17.3>
+{InnerTube}<2.196,0.018,-0.009><0,0,0>
+{3OnATube}<2.166,0.657,-0.23><0,0,-90>
+{Her2Guys}<2.052,-0.81,-0.234><0,0,101>
+{KissMyGirl}<2.585,0.832,-0.419><-8,0,-90>
+{Wet Heat}<2.939,-0.112,-0.064><0,0,-180>
+{AssEatBJ}<3.221,-0.085,-0.306><0,0,-180>
+{PegHerBJ}<2.854,-0.184,0.183><0,0,-180>
+{SnatchLick}<3.016,-0.115,-0.081><0,0,-180>
+{Periscope}<3.514,-0.154,-0.259><0,7,-180>
+{TripleOral}<2.725,-0.167,-0.139><0,7,-180>
+{TubeDP}<2.547,-0.11,0.173><0,7,-180>
+PROP1 SetupLovense|LoveBridge2 Micro|LoveBridge|<0.000000, 0.070000, 0.250000>|<0.000000, 0.000000, 0.000000>|HUD bottom right
+PROP1 LovenseHUD|Debauchery Lovense Hud v2.0.1 AV|G6|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|HUD bottom left
+PROP HangOn|*tube1|G1|<4.329865, -1.554763, -0.174522>|<-4.829381, -3.564720, -53.650360>
