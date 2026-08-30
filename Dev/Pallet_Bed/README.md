@@ -1,11 +1,11 @@
-# AVsitter Sequence for Tm Creation Boho Pouff (Adult)
+# AVsitter Sequence for Tm Creation Pallet Bed (Adult)
 
 This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
 with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
-the Tm Creation Boho Pouff (Adult) dialog menus.
+the Tm Creation Pallet Bed (Adult) dialog menus.
 
-This `AVsitter` customization allows greater freedom of personal interaction,
-eliminating the need to navigate dialog menus during moments of intimacy.
+This `AVsitter` customization allows greater freedom of personal interaction on the
+pallet bed, eliminating the need to navigate dialog menus during moments of intimacy.
 
 ## Menus
 
@@ -26,44 +26,44 @@ wget -q -O '[AV]sequence' https://raw.githubusercontent.com/AVsitter/AVsitter/re
 Download the customized `[AV]sequence_settings` notecard:
 
 ```bash
-wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Boho_Pouff/AVsequence_settings
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Pallet_Bed/AVsequence_settings
 ```
 
 Download the customized `AVpos` notecard:
 
 ```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Boho_Pouff/AVpos
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Pallet_Bed/AVpos
 ```
 
 ## Setup
 
-To configure an adult Boho Pouff with AVsitter sequences:
+To configure an adult pallet bed with AVsitter sequences:
 
-- Right click the pouff and select `Edit`
+- Right click the pallet bed and select `Edit`
 - Select the Contents tab in the Edit window
 - Click the `Edit linked` checkbox
 - Using `Ctrl .` (press both the Ctrl key and the Period key) locate the notecards (Link number 2)
 - Replace the `[AV]sequence_settings` notecard in the Contents tab with the `[AV]sequence_settings` notecard found in this folder
 - Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
 - Close the `Edit` window
-- Right click the pouff and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
+- Right click the pallet bed and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
 - Wait for the scripts to reset (this takes a few minutes)
 
-Sit on the pouff and click one of the sequence buttons, for example: `SEQ-M-SOLO` or `SEQ-F-SOLO`.
+Sit on the pallet bed and click one of the sequence buttons, for example: `SEQ-M-SOLO` or `SEQ-F-SOLO`.
 
 Sequence menu buttons are of the form `SEQ-...`. Click this menu entry and your
 avatar will cycle through all the animations in that submenu.
 
-Cycle times are currently set to 90 seconds with menu arrows to step to the
-next animation, previous animation, or pause animation sequencing.
+Cycle times are currently set to 90 seconds with menu arrows to step to the next
+animation, previous animation, or pause animation sequencing.
 
 ### Auto Play Sequence
 
-If you wish to automatically play a sequence when an avatar sits on the pouff
+If you wish to automatically play a sequence when an avatar sits on the pallet bed
 then download the `autoplay.lsl` script and copy it into the Contents of the object.
 
 ```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Boho_Pouff/autoplay.lsl
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Pallet_Bed/autoplay.lsl
 ```
 
 The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
@@ -100,6 +100,7 @@ The following custom sequenced animations are available on the Second Life Marke
   - [Nerenzo Beach Bed California orgy/group version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Orgy_Group)
   - [Nerenzo Beach Bed California adult/couples/lovense version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Adult_Lovense)
   - [Nerenzo Beach Bed California adult/couples version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Adult_Couples)
+- [Nerenzo Beach Chair](https://github.com/missyrestless/AVsequences/tree/main/Beach_Chair)
 - [Nerenzo Floor Pillow](https://github.com/missyrestless/AVsequences/tree/main/Floor_Pillow)
 - [Nerenzo Hot Bangers Pool](https://github.com/missyrestless/AVsequences/tree/main/Bangers_Pool)
 - [Nerenzo little hangout](https://github.com/missyrestless/AVsequences/tree/main/Hangout)
@@ -143,6 +144,7 @@ The following custom sequenced animations are available on the Second Life Marke
 
 ### Customized autoplay scripts for Debauchery furniture
 
+- [Debauchery Adult Poolside Towel](https://github.com/missyrestless/AVsequences/tree/main/Poolside_Towel)
 - [Debauchery Round Swingers Bar Stool](https://github.com/missyrestless/AVsequences/tree/main/Bar_Stool)
 - [Debauchery Swingers Hot Tub](https://github.com/missyrestless/AVsequences/tree/main/Swingers_Hot_Tub)
 
@@ -153,6 +155,10 @@ The following custom sequenced animations are available on the Second Life Marke
 ### Customized notecards providing sequenced animations for QYN furniture
 
 - [QYN Sex Stool Collection](https://github.com/missyrestless/AVsequences/tree/main/QYN_Metal_Stool)
+
+### Customized notecards providing sequenced animations for Revival products
+
+- [Revival Xeno Hammock](https://github.com/missyrestless/AVsequences/tree/main/Xeno_Hammock)
 
 ### Customized notecards providing sequenced animations for Tia products
 

@@ -95,6 +95,7 @@ The following custom sequenced animations are available on the Second Life Marke
   - [Nerenzo Beach Bed California orgy/group version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Orgy_Group)
   - [Nerenzo Beach Bed California adult/couples/lovense version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Adult_Lovense)
   - [Nerenzo Beach Bed California adult/couples version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Adult_Couples)
+- [Nerenzo Beach Chair](https://github.com/missyrestless/AVsequences/tree/main/Beach_Chair)
 - [Nerenzo Floor Pillow](https://github.com/missyrestless/AVsequences/tree/main/Floor_Pillow)
 - [Nerenzo Hot Bangers Pool](https://github.com/missyrestless/AVsequences/tree/main/Bangers_Pool)
 - [Nerenzo little hangout](https://github.com/missyrestless/AVsequences/tree/main/Hangout)
@@ -138,6 +139,7 @@ The following custom sequenced animations are available on the Second Life Marke
 
 ### Customized autoplay scripts for Debauchery furniture
 
+- [Debauchery Adult Poolside Towel](https://github.com/missyrestless/AVsequences/tree/main/Poolside_Towel)
 - [Debauchery Round Swingers Bar Stool](https://github.com/missyrestless/AVsequences/tree/main/Bar_Stool)
 - [Debauchery Swingers Hot Tub](https://github.com/missyrestless/AVsequences/tree/main/Swingers_Hot_Tub)
 
@@ -148,6 +150,10 @@ The following custom sequenced animations are available on the Second Life Marke
 ### Customized notecards providing sequenced animations for QYN furniture
 
 - [QYN Sex Stool Collection](https://github.com/missyrestless/AVsequences/tree/main/QYN_Metal_Stool)
+
+### Customized notecards providing sequenced animations for Revival products
+
+- [Revival Xeno Hammock](https://github.com/missyrestless/AVsequences/tree/main/Xeno_Hammock)
 
 ### Customized notecards providing sequenced animations for Tia products
 

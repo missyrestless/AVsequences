@@ -1,24 +1,19 @@
-# AVsitter Sequence for Onsen Natural Japanese Hotspring
+# AVsitter Sequence for Tm Creation Boho Pouff (Adult)
 
 This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
 with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
-the Onsen Natural Japanese Hotspring dialog menus.
+the Tm Creation Boho Pouff (Adult) dialog menus.
 
-This `AVsitter` customization allows greater freedom of personal interaction in the
-hot spring, eliminating the need to navigate dialog menus during moments of intimacy.
-
-**[NOTE:]** This customization is currently in development and is not yet working.
-The idea is to augment the base animations in this object with more modern and more
-fluid animations as well as add animation sequences. Wish me luck!
+This `AVsitter` customization allows greater freedom of personal interaction,
+eliminating the need to navigate dialog menus during moments of intimacy.
 
 ## Menus
 
 Sequences are configured for the following menus:
 
-- Solo Sit Menus
-- Solo Swim Menus
-- Couples Cuddle Menus
-- Couples Adult Menus
+- Male and Female Solo Menus
+- Male and Female Couples Menus
+- Male and Female Sex Menus
 
 ## Download the script and customized notecards
 
@@ -31,33 +26,49 @@ wget -q -O '[AV]sequence' https://raw.githubusercontent.com/AVsitter/AVsitter/re
 Download the customized `[AV]sequence_settings` notecard:
 
 ```bash
-wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/HotSpring/AVsequence_settings
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Boho_Pouff/AVsequence_settings
 ```
 
 Download the customized `AVpos` notecard:
 
 ```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/HotSpring/AVpos
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Boho_Pouff/AVpos
 ```
 
 ## Setup
 
-To configure a Onsen Natural Japanese Hotspring with AVsitter sequences:
+To configure an adult Boho Pouff with AVsitter sequences:
 
-- Right click the hotspring and select `Edit`
-- Copy the `[AV]sequence` plugin script into the Contents tab
-- Copy the `[AV]sequence_settings` notecard into the Contents tab
+- Right click the pouff and select `Edit`
+- Select the Contents tab in the Edit window
+- Click the `Edit linked` checkbox
+- Using `Ctrl .` (press both the Ctrl key and the Period key) locate the notecards (Link number 2)
+- Replace the `[AV]sequence_settings` notecard in the Contents tab with the `[AV]sequence_settings` notecard found in this folder
 - Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
 - Close the `Edit` window
-- Right click the hotspring and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
+- Right click the pouff and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
 - Wait for the scripts to reset (this takes a few minutes)
 
-Sit on the hotspring and click one of the main menu entries, e.g. click `SOLO SIT` or `COUPLES`.
+Sit on the pouff and click one of the sequence buttons, for example: `SEQ-M-SOLO` or `SEQ-F-SOLO`.
 
-You should see a menu entry of the form `SEQ ...`. Click this menu entry and your
-avatar will cycle through all the animations in that submenu. Cycle times are currently
-set to 60 seconds with menu arrows to step to the next animation, previous animation,
-or pause animation sequencing.
+Sequence menu buttons are of the form `SEQ-...`. Click this menu entry and your
+avatar will cycle through all the animations in that submenu.
+
+Cycle times are currently set to 90 seconds with menu arrows to step to the
+next animation, previous animation, or pause animation sequencing.
+
+### Auto Play Sequence
+
+If you wish to automatically play a sequence when an avatar sits on the pouff
+then download the `autoplay.lsl` script and copy it into the Contents of the object.
+
+```bash
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Boho_Pouff/autoplay.lsl
+```
+
+The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
+In addition, it detects the number of sitters currently on the object and plays the couples
+animation sequence if more than 1 sitter is seated.
 
 ## Second Life Marketplace Listings
 
@@ -89,6 +100,7 @@ The following custom sequenced animations are available on the Second Life Marke
   - [Nerenzo Beach Bed California orgy/group version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Orgy_Group)
   - [Nerenzo Beach Bed California adult/couples/lovense version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Adult_Lovense)
   - [Nerenzo Beach Bed California adult/couples version](https://github.com/missyrestless/AVsequences/tree/main/Beach_Bed/Adult_Couples)
+- [Nerenzo Beach Chair](https://github.com/missyrestless/AVsequences/tree/main/Beach_Chair)
 - [Nerenzo Floor Pillow](https://github.com/missyrestless/AVsequences/tree/main/Floor_Pillow)
 - [Nerenzo Hot Bangers Pool](https://github.com/missyrestless/AVsequences/tree/main/Bangers_Pool)
 - [Nerenzo little hangout](https://github.com/missyrestless/AVsequences/tree/main/Hangout)
@@ -132,6 +144,7 @@ The following custom sequenced animations are available on the Second Life Marke
 
 ### Customized autoplay scripts for Debauchery furniture
 
+- [Debauchery Adult Poolside Towel](https://github.com/missyrestless/AVsequences/tree/main/Poolside_Towel)
 - [Debauchery Round Swingers Bar Stool](https://github.com/missyrestless/AVsequences/tree/main/Bar_Stool)
 - [Debauchery Swingers Hot Tub](https://github.com/missyrestless/AVsequences/tree/main/Swingers_Hot_Tub)
 
@@ -142,6 +155,10 @@ The following custom sequenced animations are available on the Second Life Marke
 ### Customized notecards providing sequenced animations for QYN furniture
 
 - [QYN Sex Stool Collection](https://github.com/missyrestless/AVsequences/tree/main/QYN_Metal_Stool)
+
+### Customized notecards providing sequenced animations for Revival products
+
+- [Revival Xeno Hammock](https://github.com/missyrestless/AVsequences/tree/main/Xeno_Hammock)
 
 ### Customized notecards providing sequenced animations for Tia products
 
