@@ -39,6 +39,7 @@ To configure an adult Poolside Towel with AVsitter sequences:
 - Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
 - Close the `Edit` window
 - Right click the towel and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
+- Wait for the scripts to reset (this takes a few minutes)
 
 Sit on the towel and click one of the sequence buttons, for example: `SEQ-M-SOLO` or `SEQ-F-SOLO`.
 
