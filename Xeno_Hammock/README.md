@@ -152,6 +152,10 @@ The following custom sequenced animations are available on the Second Life Marke
 
 - [Good Moaning Hurricane Chair](https://github.com/missyrestless/AVsequences/tree/main/Hurricane_Chair)
 
+### Customized notecards providing sequenced animations for Maya's furniture
+
+- [Maya's Hawaiian Hanging Swing](https://github.com/missyrestless/AVsequences/tree/main/Hanging_Swing)
+
 ### Customized notecards providing sequenced animations for QYN furniture
 
 - [QYN Sex Stool Collection](https://github.com/missyrestless/AVsequences/tree/main/QYN_Metal_Stool)

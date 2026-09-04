@@ -51,6 +51,7 @@ To configure a Maya's Hawaiian Hanging Swing with AVsitter sequences:
 - Close the `Edit` window
 - Right click the hanging swing and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
 - Wait for the scripts to reset
+- Repeat this process for each of the hanging swings you wish to sequence
 
 Sit on the hanging swing, select one of the first two sitters (Male or Female).
 
@@ -157,6 +158,10 @@ The following custom sequenced animations are available on the Second Life Marke
 ### Customized notecards providing sequenced animations for Good Moaning furniture
 
 - [Good Moaning Hurricane Chair](https://github.com/missyrestless/AVsequences/tree/main/Hurricane_Chair)
+
+### Customized notecards providing sequenced animations for Maya's furniture
+
+- [Maya's Hawaiian Hanging Swing](https://github.com/missyrestless/AVsequences/tree/main/Hanging_Swing)
 
 ### Customized notecards providing sequenced animations for QYN furniture
 
