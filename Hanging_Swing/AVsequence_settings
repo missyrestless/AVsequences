@@ -1,0 +1,149 @@
+SEQUENCE SEQ-M-SOLO
+PLAY Edge
+WAIT 90
+PLAY Observation
+WAIT 90
+PLAY Meditation
+WAIT 90
+PLAY For man
+WAIT 90
+PLAY Coconut  Coctail
+WAIT 90
+PLAY Cold Beer
+WAIT 90
+PLAY Bottle
+WAIT 90
+PLAY Conversation
+WAIT 90
+PLAY Sad
+WAIT 90
+PLAY Waiting
+WAIT 90
+PLAY Coconut Drink
+WAIT 90
+PLAY Bored
+WAIT 90
+PLAY Waiting
+WAIT 90
+PLAY Civil
+WAIT 90
+PLAY Smoking
+WAIT 90
+PLAY Passive
+WAIT 90
+PLAY Favorite book
+WAIT 90
+PLAY Iphone
+WAIT 90
+PLAY Relax / M
+WAIT 90
+PLAY Lay Right
+WAIT 90
+PLAY RelaxX
+WAIT 90
+PLAY Meet
+WAIT 90
+PLAY Coctail Beach
+WAIT 90
+PLAY Wriggle
+WAIT 90
+PLAY Phone
+WAIT 90
+PLAY Macho
+WAIT 90
+PLAY Beautiful day
+WAIT 90
+PLAY Comfortable
+WAIT 90
+PLAY Mint Water
+WAIT 90
+LOOP
+
+SEQUENCE SEQ-F-SOLO
+PLAY Wriggle
+WAIT 90
+PLAY Drinking tea
+WAIT 90
+PLAY Elegance
+WAIT 90
+PLAY Mint Water
+WAIT 90
+PLAY Where are you
+WAIT 90
+PLAY Phone
+WAIT 90
+PLAY Favorite book
+WAIT 90
+PLAY Coconut Drink
+WAIT 90
+PLAY Bored
+WAIT 90
+PLAY Aloof
+WAIT 90
+PLAY Blithe
+WAIT 90
+PLAY Time
+WAIT 90
+PLAY Summer Coctail
+WAIT 90
+PLAY Papers
+WAIT 90
+PLAY Coctail Beach
+WAIT 90
+PLAY Coconut  Coctail
+WAIT 90
+PLAY Cold Beer
+WAIT 90
+PLAY Bottle
+WAIT 90
+PLAY Smoking
+WAIT 90
+LOOP
+
+SEQUENCE SEQ-COUPLE1
+PLAY Hugged
+WAIT 90
+PLAY Sweet Kiss
+WAIT 90
+PLAY Oh My Dear...
+WAIT 90
+PLAY Divine
+WAIT 90
+PLAY Feeling
+WAIT 90
+PLAY Hug Hug Hug
+WAIT 90
+PLAY Hug/1
+WAIT 90
+PLAY Only Mine
+WAIT 90
+PLAY Time w/you
+WAIT 90
+PLAY Heart Of Mine
+WAIT 90
+LOOP
+
+SEQUENCE SEQ-COUPLE2
+PLAY Divine
+WAIT 90
+PLAY Feeling
+WAIT 90
+PLAY Oh My Dear...
+WAIT 90
+PLAY Hugged
+WAIT 90
+PLAY Sweet Kiss
+WAIT 90
+PLAY Hug Hug Hug
+WAIT 90
+PLAY Hug/1
+WAIT 90
+PLAY Only Mine
+WAIT 90
+PLAY Friend 7
+WAIT 90
+PLAY Time w/you
+WAIT 90
+PLAY Heart Of Mine
+WAIT 90
+LOOP

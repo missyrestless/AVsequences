@@ -1,0 +1,192 @@
+
+"MAYA'S - GARDEN BENCH WITH BLANKET" AVsitter 2.1
+
+SITTER 0
+
+TOMENU Single
+SEQUENCE SEQ-F-SOLO
+SEQUENCE SEQ-M-SOLO
+TOMENU Couple
+SEQUENCE SEQ-COUPLE1
+BUTTON Texture|-1864098
+
+MENU Single
+TOMENU Female
+TOMENU Male
+SEQUENCE SEQ-F-SOLO
+SEQUENCE SEQ-M-SOLO
+
+MENU Male
+SEQUENCE SEQ-M-SOLO
+POSE Edge|[RNP] Edge sit V1
+POSE Observation|comfy-m1
+POSE Meditation|comfy-m2
+POSE For man|comfy-m3
+POSE Coconut  Coctail|bott
+POSE Cold Beer|Beach/Beer
+POSE Bottle|bott
+POSE Conversation|comfy-m4
+POSE Sad|M sit 1
+POSE Waiting|[RNP] Sit around the table Version 3
+POSE Coconut Drink|chocolate
+POSE Bored|sadie2
+POSE Waiting|poj.11
+POSE Civil|lu-civil(7)
+POSE Smoking|petek
+POSE Passive|lu-passive(5)
+POSE Favorite book|single#1
+POSE Iphone|BBench M6
+POSE Relax / M|MM1
+POSE Lay Right|M LoversCouchSinglesLayRight3
+POSE RelaxX|mn2-2
+POSE Meet|mn2-3
+POSE Coctail Beach|kolorkokt
+POSE Wriggle|mn2-4
+POSE Phone|[RNP] Cell Phone #1
+POSE Macho|mn2-5
+POSE Beautiful day|mn2-6
+POSE Comfortable|mn2-7
+POSE Mint Water|Mint water
+
+MENU Female
+SEQUENCE SEQ-F-SOLO
+POSE Wriggle|mn2-4
+POSE Drinking tea|[RNP] Drinking tea
+POSE Elegance|sadie1
+POSE Mint Water|Mint water
+POSE Where are you|sadie3
+POSE Phone|[RNP] Cell Phone #1
+POSE Favorite book|single#1
+POSE Coconut Drink|chocolate
+POSE Bored|sadie2
+POSE Aloof|lu-aloof(1)
+POSE Blithe|lu-blithe(4)
+POSE Time|lu-time-(6)
+POSE Summer Coctail|goraca czekolada
+POSE Papers|papers
+POSE Coctail Beach|kolorkokt
+POSE Coconut  Coctail|bott
+POSE Cold Beer|Beach/Beer
+POSE Bottle|bott
+POSE Smoking|petek
+
+MENU Couple
+SEQUENCE SEQ-COUPLE1
+SYNC Hugged|[RNP] Couple #63_Female
+SYNC Sweet Kiss|z-lapcuddle1-f
+SYNC Oh My Dear...|[RNP] Couple #28_Female
+SYNC Divine|ac-divine(4)fm
+SYNC Feeling|ac-feeling(1)fm
+SYNC Hug Hug Hug|BBenchC F5
+SYNC Hug/1|F NeverLeaveMe
+SYNC Only Mine|F YouAreMine
+SYNC Time w/you|F EachTimeWithYou
+SYNC Heart Of Mine|F HeartOfMine
+{Edge}<0.154,-0.016,-3.048><-1.3,-4.6,17>
+{Observation}<0.078,-0.016,-3.048><1.2,-0.7,8>
+{Meditation}<0.067,-0.016,-3.032><0.1,4,2.6>
+{For man}<0.098,-0.016,-3.048><0.3,-1,0>
+{Coconut  Coctail}<0.074,-0.016,-3.048><-0.7,3,19.4>
+{Cold Beer}<0.092,-0.016,-3.048><-0.5,3,15.4>
+{Bottle}<0.107,-0.016,-3.048><-0.4,3,13.4>
+{Conversation}<0.083,-0.016,-3.048><0.9,-3.9,8.4>
+{Sad}<0.096,-0.016,-2.403><0.3,3,0>
+{Waiting}<0.081,0.008,-3.048><0.4,0.2,10>
+{Coconut Drink}<0.07,0,-3.083><0,0,7>
+{Bored}<0.096,-0.016,-3.072><-0.8,2.9,21>
+{Civil}<0.073,-0.016,-2.786><0.3,3,0>
+{Passive}<0.073,-0.016,-2.786><-0.3,0.5,-16>
+{Favorite book}<0.105,-0.016,-3.2><1.1,-4.8,143.9>
+{Iphone}<-0.109,-0.036,-2.98><0,3,6>
+{Relax / M}<0.125,-0.016,-2.34><0.3,3,0>
+{Lay Right}<0.113,0.025,-2.977><-3.8,21.7,11.7>
+{RelaxX}<0.103,-0.016,-2.354><0.3,3,0>
+{Meet}<0.073,-0.016,-2.342><0.3,3,0>
+{Coctail Beach}<0.176,-0.016,-3.048><0,3.1,6.4>
+{Wriggle}<0.073,-0.016,-2.32><0.1,3,4>
+{Phone}<0.106,-0.024,-3.048><0.7,-3,38.2>
+{Macho}<0.073,-0.016,-2.307><-0.6,2.9,18>
+{Beautiful day}<0.018,-0.016,-2.317><-0.5,3,16>
+{Comfortable}<0.073,-0.056,-2.336><-0.4,3,13>
+{Mint Water}<0.515,-0.016,-3.118><-2.3,-4.2,4>
+{Drinking tea}<0.176,-0.016,-3.048><0,3.1,6.4>
+{Elegance}<0.154,-0.016,-3.048><2.1,7.7,-12.7>
+{Where are you}<0.098,-0.016,-3.056><0.3,3,0>
+{Aloof}<0.054,-0.041,-2.576><6.1,-0.3,23.5>
+{Blithe}<0.071,-0.005,-2.804><-2.6,2,20.6>
+{Time}<0.071,-0.016,-2.816><1.9,-1.5,-3>
+{Summer Coctail}<0.471,-0.021,-3.151><0,0,2>
+{Papers}<0.117,-0.016,-3.048><1.3,2.7,-20>
+{Smoking}<0.073,-0.15,-3.056><-2.9,1.1,112.6>
+{Hugged}<0.017,0.085,-3.033><0.8,-4.9,0.1>
+{Sweet Kiss}<-0.2,-0.047,-3.131><-0.1,-2,0>
+{Oh My Dear...}<0.083,-0.046,-3.02><0,0,5.6>
+{Divine}<-0.067,0.027,-2.486><0.1,4,0>
+{Feeling}<0.539,0.051,-2.348><1.5,9.8,179.7>
+{Hug Hug Hug}<-0.143,0.442,-3.066><0.2,-4.1,-5.6>
+{Hug/1}<0.276,-0.195,-2.978><-2.1,6.1,-4.7>
+{Only Mine}<0.045,-0.228,-2.998><-0.3,2,7>
+{Time w/you}<0.489,0.256,-2.922><-0.9,-0.8,-90>
+{Heart Of Mine}<0.121,0.001,-3.028><0.6,1,-10>
+PROP1 Drinking tea|Maya's - Cup|GROUP1|<-0.530747, 0.254654, 1.009033>|<90.000000, -39.375000, -0.000006>|left hand
+PROP1 Drinking tea|Maya's - Plate|GROUP1|<-0.522995, 0.285172, 0.969238>|<90.000000, -39.375010, -0.000007>|right hand
+PROP1 Smoking|ashtray|GROUP1|<-0.594162, -0.176910, 0.790283>|<0.000000, 0.000000, 0.000000>|left hand
+PROP1 Smoking|Cigarette|GROUP1|<-0.421417, -0.105469, 1.000000>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 Phone|Maya's - Phone|GROUP1|<-0.355665, 0.217997, 0.792259>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 Pinakolada|Pinacolada Glass|GROUP1|<-0.374673, 0.436138, 0.765565>|<0.000000, -0.000003, 0.000003>|left hand
+PROP1 Latte|Sweet Coffee|GROUP1|<0.000001, 0.000003, 0.999908>|<-0.000004, 0.000002, 0.000003>|right hand
+PROP1 Favorite book|Book Maya's|GROUP1|<0.008431, 0.000024, 0.517316>|<0.000001, -0.000001, 0.000003>|left hand
+PROP1 Repose with Book|Old Story|GROUP1|<-0.082932, 0.000015, 0.710086>|<0.000000, -0.000001, 0.000003>
+PROP1 Flower|I love you rose red|GROUP1|<0.000000, 0.000000, 1.000000>|<-0.000002, -0.000002, 0.000000>|left hand
+PROP1 Picnic|Croissant|GROUP1|<0.183545, 1.963052, 0.109619>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 Reading He & She|Awesome Book|GROUP1|<0.163964, 0.980093, 0.021484>|<-0.000001, 0.000004, 0.000000>|right hand
+PROP Laptop|Maya's - Laptop|GROUP1|<-0.703857, -0.117828, 0.505850>|<-0.145739, -0.708900, -176.691000>
+PROP1 Iphone|Iphone/Hand|GROUP1|<1.057266, 0.214531, 0.642822>|<-0.000005, 0.000002, -23.000010>|right hand
+PROP1 Papers|New Book|GROUP1|<0.546623, 0.319580, 0.474121>|<16.588520, -3.771027, 19.549930>|left hand
+PROP1 Sweet Cappuccino|Choco|GROUP1|<0.577057, 0.462036, 0.618652>|<0.000005, 0.000005, 0.000003>|right hand
+PROP1 Friend 5|Red Wine - F|GROUP1|<-0.202255, -0.218384, 0.781048>|<0.000000, 0.000000, 0.000000>|left hand
+PROP1 Books F+ M|Book F|GROUP1|<0.226959, 0.000000, 0.602383>|<0.000000, 0.000000, 84.375000>|left hand
+PROP1 Cold Beer|Beer  - Hand|GROUP1|<0.481720, 0.000000, -2.908129>|<0.000000, 0.000005, 0.000000>|right hand
+PROP1 Cold Beer|Cigarette B|GROUP1|<0.481720, 0.000000, -2.736805>|<0.000000, 0.000000, 0.000000>|left hand
+PROP1 Bottle|Bottle|GROUP1|<0.501129, 0.000000, -2.863710>|<90.000000, -0.000010, 0.000005>|left hand
+PROP1 Coconut  Coctail|Coconut|GROUP1|<0.417908, -0.076859, -2.803280>|<0.000000, 0.000004, 0.000010>|left hand
+PROP1 Coctail Beach|Summer Coctail|GROUP1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, -0.000003>|right hand
+PROP1 Summer Coctail|CoCo|GROUP1|<0.677917, 0.000000, -2.765909>|<0.000004, -0.000001, -0.000003>|right hand
+PROP1 Coconut Drink|Coconut / Lemon|GROUP1|<0.275269, 0.000000, -2.618168>|<-0.000002, 0.000002, 0.000003>|right hand
+PROP1 Mint Water|Mint Water|GROUP1|<0.627991, -0.071381, -2.841120>|<0.000000, 0.000000, 0.000007>|left hand
+
+
+SITTER 1
+
+TOMENU Couple
+SEQUENCE SEQ-COUPLE2
+
+MENU Couple
+SEQUENCE SEQ-COUPLE2
+SYNC Divine|ac-divine(4)m
+SYNC Feeling|ac-feeling(1)m
+SYNC Oh My Dear...|[RNP] Couple #28_Male
+SYNC Hugged|[RNP] Couple #63_Male
+SYNC Sweet Kiss|z-lapcuddle1-m
+SYNC Hug Hug Hug|BBenchC M5
+SYNC Hug/1|M NeverLeaveMe
+SYNC Only Mine|M YouAreMine
+SYNC Friend 7|F1 FFCouchCudd7
+SYNC Time w/you|M EachTimeWithYou
+SYNC Heart Of Mine|M HeartOfMine
+{Divine}<-0.17,0.085,-2.447><0.1,4,0>
+{Feeling}<0.398,0.059,-2.516><1.5,9.8,179.7>
+{Oh My Dear...}<0.085,-0.022,-3.02><0,0,5.6>
+{Hugged}<0.09,0.216,-3.033><0.8,-4.9,0.1>
+{Sweet Kiss}<0.088,-0.012,-3.038><-0.1,-2,0>
+{Hug Hug Hug}<-0.268,-0.15,-3.055><0.2,-4.1,-5.6>
+{Hug/1}<0.28,0.133,-2.966><-2.1,6.1,-4.7>
+{Only Mine}<0.047,0.143,-3.039><-0.3,2,7>
+{Friend 7}<0.397,-0.177,0.344><-1.8,0.5,107.5>
+{Time w/you}<0.147,-0.08,-3.015><-0.6,-4.9,-16>
+{Heart Of Mine}<-0.025,-0.007,-3.015><0.8,-2.9,0>
+PROP1 Reading Together|Maya's - Magazine|GROUP1|<-1.341476, 0.000000, 0.331890>|<0.000002, -0.000001, -0.000001>|left hand
+PROP1 Reading He & She|Cup Coffee|GROUP1|<0.240863, 0.945653, 0.109131>|<0.000001, 0.000004, 0.000000>|left hand
+PROP1 Picnic|Latte|GROUP1|<0.060855, 1.873767, 0.074707>|<-180.000000, 0.000001, -31.249970>|right hand
+PROP1 Friend 5|Red Wine - M|GROUP1|<0.262039, -0.139221, 0.790167>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 Books F+ M|Book M|GROUP1|<0.706360, 0.000000, 0.650467>|<0.000000, 0.000000, 0.000000>|right hand
