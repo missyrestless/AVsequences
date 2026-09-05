@@ -13,8 +13,8 @@ The following items should be downloaded:
 
 - The `[AV]sequence` plugin script, goes in each swing
 - The customized `[AV]sequence_settings` notecard, goes in each swing
-- The customized `AVpos-AB` notecard, for swings A and B
-- The customized `AVpos-CD` notecard, for swings C and D
+- The customized `AVpos-ABR` notecard, for swings A and B
+- The customized `AVpos-CDL` notecard, for swings C and D
 - The `autoplay.lsl` script, goes in each swing for which you wish to automate sequences
 
 Download the `[AV]sequence` plugin script:
@@ -32,22 +32,27 @@ wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestle
 ### Download the customized AVpos notecards
 
 The umbrella hanging swings can be deployed as either a 2-seat or 4-seat formation.
-The seats are configured in pairs, with seat A and B identical, C and D identical.
 
-The seats are named A through D:
+- The 4-seat deployment swings are named A through D
+  - First pair of matched hanging seats
+    - `Maya's - Hawaiian Hanging Swing - A`
+    - `Maya's - Hawaiian Hanging Swing - B`
+  - Second pair of matched hanging seats
+    - `Maya's - Hawaiian Hanging Swing - C`
+    - `Maya's - Hawaiian Hanging Swing - D`
+- The 2-seat deployment swings are named L and R
+  - `Maya's - Hawaiian Hanging Swing - L`
+  - `Maya's - Hawaiian Hanging Swing - R`
 
-- First pair of matched hanging seats
-  - `Maya's - Hawaiian Hanging Swing - A`
-  - `Maya's - Hawaiian Hanging Swing - B`
-- Second pair of matched hanging seats
-  - `Maya's - Hawaiian Hanging Swing - C`
-  - `Maya's - Hawaiian Hanging Swing - D`
+The 4-seat swings are configured in pairs, with seat A and B identical, C and D identical.
+The 2-seat swings are configured individually, Left and Right, the Right seat identical to
+the 4-seat A &amp; B and the Left seat identical to the 4-seat C &amp; D.
 
 Download the customized `AVpos` notecards, one for each pair:
 
 ```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Hanging_Swing/AVpos-AB
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Hanging_Swing/AVpos-CD
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Hanging_Swing/AVpos-ABR
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Hanging_Swing/AVpos-CDL
 ```
 
 ## Setup
@@ -55,15 +60,15 @@ wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/m
 To configure a Maya's Hawaiian Hanging Swing with AVsitter sequences:
 
 - Right click the hanging swing and select `Edit`
-  - In the General tab, note the name of the swing, ending with A, B, C, or D
+  - In the General tab, note the name of the swing, ending with A, B, C, D, L, or R
 - Drag and Drop the `[AV]sequence_settings` notecard into the Contents tab
 - Drag and Drop the `[AV]sequence` plugin script into the Contents tab
 - Replace the `AVpos` notecard in the Contents tab with the appropriate `AVpos` notecard found in this folder
-  - If the seat name ends in A or B, use the `AVpos-AB` notecard you downloaded
-  - If the seat name ends in C or D, use the `AVpos-CD` notecard you downloaded
+  - If the seat name ends in A, B, or R, use the `AVpos-ABR` notecard you downloaded
+  - If the seat name ends in C, D, or L, use the `AVpos-CDL` notecard you downloaded
   - Drag and Drop the original `AVpos` notecard from the Contents tab into your inventory as a backup
   - Delete the `AVpos` notecard from the Contents tab (you can ignore and close the Warning window)
-  - Rename the downloaded AVpos-AB or AVpos-CD notecard to `AVpos`
+  - Rename the downloaded AVpos-ABR or AVpos-CDL notecard to `AVpos`
   - Drag and Drop the new `AVpos` notecard with sequences into the Contents tab
 - Close the `Edit` window
 - Right click the hanging swing and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
