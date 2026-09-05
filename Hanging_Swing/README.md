@@ -7,17 +7,15 @@ the Maya's Hawaiian Hanging Swing dialog menus.
 This `AVsitter` customization allows greater freedom of personal interaction in the
 swing, eliminating the need to navigate dialog menus during moments of intimacy.
 
-## Menus
+## Download the script and customized notecard
 
-Sequences are configured for two sitters, both male and female. Sequenced animations are
-configured for solo and couples.
+The following items should be downloaded:
 
-Currently configured sequenced menus include:
-
-- Solo Menus
-- Male/Female Cuddle Menus
-
-## Download the script and customized notecards
+- The `[AV]sequence` plugin script, goes in each swing
+- The customized `[AV]sequence_settings` notecard, goes in each swing
+- The customized `AVpos-AB` notecard, for swings A and B
+- The customized `AVpos-CD` notecard, for swings C and D
+- The `autoplay.lsl` script, goes in each swing for which you wish to automate sequences
 
 Download the `[AV]sequence` plugin script:
 
@@ -31,10 +29,25 @@ Download the customized `[AV]sequence_settings` notecard:
 wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Hanging_Swing/AVsequence_settings
 ```
 
-Download the customized `AVpos` notecard:
+### Download the customized AVpos notecards
+
+The umbrella hanging swings can be deployed as either a 2-seat or 4-seat formation.
+The seats are configured in pairs, with seat A and B identical, C and D identical.
+
+The seats are named A through D:
+
+- First pair of matched hanging seats
+  - `Maya's - Hawaiian Hanging Swing - A`
+  - `Maya's - Hawaiian Hanging Swing - B`
+- Second pair of matched hanging seats
+  - `Maya's - Hawaiian Hanging Swing - C`
+  - `Maya's - Hawaiian Hanging Swing - D`
+
+Download the customized `AVpos` notecards, one for each pair:
 
 ```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Hanging_Swing/AVpos
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Hanging_Swing/AVpos-AB
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Hanging_Swing/AVpos-CD
 ```
 
 ## Setup
@@ -42,11 +55,15 @@ wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/m
 To configure a Maya's Hawaiian Hanging Swing with AVsitter sequences:
 
 - Right click the hanging swing and select `Edit`
+  - In the General tab, note the name of the swing, ending with A, B, C, or D
 - Drag and Drop the `[AV]sequence_settings` notecard into the Contents tab
 - Drag and Drop the `[AV]sequence` plugin script into the Contents tab
-- Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
+- Replace the `AVpos` notecard in the Contents tab with the appropriate `AVpos` notecard found in this folder
+  - If the seat name ends in A or B, use the `AVpos-AB` notecard you downloaded
+  - If the seat name ends in C or D, use the `AVpos-CD` notecard you downloaded
   - Drag and Drop the original `AVpos` notecard from the Contents tab into your inventory as a backup
   - Delete the `AVpos` notecard from the Contents tab (you can ignore and close the Warning window)
+  - Rename the downloaded AVpos-AB or AVpos-CD notecard to `AVpos`
   - Drag and Drop the new `AVpos` notecard with sequences into the Contents tab
 - Close the `Edit` window
 - Right click the hanging swing and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
@@ -59,6 +76,16 @@ You should see menu entries of the form `SEQ-...`. Click this menu entry and you
 avatar will cycle through all the animations in that submenu. Cycle times are currently
 set to 90 seconds with menu arrows to step to the next animation, previous animation,
 or pause animation sequencing.
+
+## Menus
+
+Sequences are configured for two sitters, both male and female. Sequenced animations are
+configured for solo and couples.
+
+Currently configured sequenced menus include:
+
+- Solo Menus
+- Male/Female Cuddle Menus
 
 ### Auto Play Sequence
 
