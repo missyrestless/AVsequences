@@ -1,45 +1,20 @@
-# AVsitter Sequence for Lalou 3some Outdoor Shower (Adult w. GloryHole) v1.2
+# AVsitter Sequence for Marni Cyber Barstool
 
 This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
 with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
-the Lalou 3some Outdoor Shower dialog menus.
+the Marni Cyber Barstool dialog menus.
 
-This `AVsitter` customization allows greater freedom of personal interaction in the
-shower, eliminating the need to navigate dialog menus during moments of intimacy.
-
-The notecards and scripts for this customization of the Lalou 3some Outdoor Shower
-are available on the Second Life Marketplace at:
-
-[https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Lalou-3some-Outdoor-Shower/27944763](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Lalou-3some-Outdoor-Shower/27944763)
-
-**[Note:]** Currently this customization is for the Lalou 3some Outdoor Shower
-with GloryHole. Adjustments to the notecards will be necessary to enable animation
-sequences in the outdoor shower without glory hole.
+This `AVsitter` customization allows greater freedom of personal movement on the
+stool, eliminating the need to navigate dialog menus.
 
 ## Menus
 
 Sequences are configured for the following menus:
 
-- Solo Male and Female Adult and PG Menus
-- Cuddles Duo Male and Female Menus
-- Shower Duo Male and Female Menus
-- Solo Stand and Sit Menus for Male and Female
-- Foreplay Male and Female Menus
-- Glory Hole Male and Female Menus
-- Blow Job Male and Female Menus
-- Front and Behind Male and Female Menus
-- Lick Male and Female Menus
-- Wall Cock Male and Female Menus
-- Finish Male and Female Menus
-- Male/Male, Female/Female, Male/Male/Female, and Male/Female/Female Menus
-- Variations of these for PG, Adult, Straight and Bi-Sexual partners
-- Variations of these for a 3rd person in the shower
+- Male and Female Solo Poses
+- All Poses
 
 ## Download the script and customized notecards
-
-Purchase the packaged product for this customization of the Lalou 3some Outdoor Shower at
-[https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Lalou-3some-Outdoor-Shower/27944763](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Lalou-3some-Outdoor-Shower/27944763)
-or download them and upload to Second Life as follows:
 
 Download the `[AV]sequence` plugin script:
 
@@ -50,51 +25,49 @@ wget -q -O '[AV]sequence' https://raw.githubusercontent.com/AVsitter/AVsitter/re
 Download the customized `[AV]sequence_settings` notecard:
 
 ```bash
-wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Outdoor_Shower/AVsequence_settings
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Cyber_Barstool/AVsequence_settings
 ```
 
 Download the customized `AVpos` notecard:
 
 ```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Outdoor_Shower/AVpos
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Cyber_Barstool/AVpos
 ```
 
 ## Setup
 
-To configure a Lalou 3some Outdoor Shower with AVsitter sequences:
+To configure a Cyber Barstool with AVsitter sequences:
 
-- Right click the shower and select `Edit`
-- Drag and Drop the `[AV]sequence_settings` notecard into the Contents tab
-- Drag and Drop the `[AV]sequence` plugin script into the Contents tab
+- Right click the stool and select `Edit`
+- Select the Contents tab in the Edit window
+- Click the `Edit linked` checkbox
+- Using `Ctrl .` (press both the Ctrl key and the Period key) locate the notecards (Link number 2)
+- Copy the `[AV]sequence_settings` notecard into the Contents tab
+- Copy the `[AV]sequence` plugin script into the Contents tab
 - Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
-  - Drag and Drop the original `AVpos` notecard from the Contents tab into your inventory as a backup
-  - Delete the `AVpos` notecard from the Contents tab (you can ignore and close the Warning window)
-  - Drag and Drop the new `AVpos` notecard with sequences into the Contents tab
 - Close the `Edit` window
-- Right click the shower and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
-- Wait for the scripts to reset (this takes a few minutes)
-- If a Stack Heap collision occurs, wait a few minutes and reset the scripts again
+- Right click the stool and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
+- Wait for the scripts to reset
 
-Sit on the shower and click one of the main menu entries, e.g. click `Female` then `Shower duo`
-or `Male` then `Adult` then `Foreplay`.
+Sit on the stool and click one of the sequence buttons, for example: `SEQ-MALE` or `SEQ-FEMALE`.
 
-Once your reach a menu dialog with animations you should see a menu entry of the form `SEQ ...`.
-Click this menu entry and your avatar will cycle through all the animations in that submenu.
-Cycle times are currently set to 60 seconds with menu arrows to step to the next animation,
-previous animation, or pause animation sequencing.
+Sequence menu buttons are of the form `SEQ-...`. Click this menu entry and your
+avatar will cycle through all the animations in that submenu.
+
+Cycle times are currently set to 90 seconds with menu arrows to step to the next
+animation, previous animation, or pause animation sequencing.
 
 ### Auto Play Sequence
 
-If you wish to automatically play a sequence when an avatar sits on the shower
+If you wish to automatically play a sequence when an avatar sits on the bar stool
 then download the `autoplay.lsl` script and copy it into the Contents of the object.
 
 ```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Outdoor_Shower/autoplay.lsl
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Cyber_Barstool/autoplay.lsl
 ```
 
-The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
-In addition, it detects the number of sitters currently on the object and plays the couples
-animation sequence if more than 1 sitter is seated.
+The `autoplay` script detects the gender of the sitter and plays the appropriate sequence. No need
+to click any menu buttons, just sit and the sequence for your gender will automatically play.
 
 ## Second Life Marketplace Listings
 

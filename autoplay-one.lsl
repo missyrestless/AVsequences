@@ -1,0 +1,61 @@
+/**********************************************************************
+* Automatically plays SINGLES_POSE when one avatar sits
+* Automatically detects gender of sitter and plays appropriate sequence
+* Requires scripts from AVsitter box 2.1-11.01 or later
+*
+* Modified 14-Jan-2026 by Missy Restless <missyrestless@gmail.com>
+*   - Autoplay a defined sequence in the object
+* Modified 22-Jan-2026 by Missy Restless <missyrestless@gmail.com>
+*   - Detect gender of sitter and autoplay defined gender sequence
+**********************************************************************/
+
+/**********************************************************************
+ * Set these to the sequence names you want to autoplay
+**********************************************************************/
+// Singles Female Sequence
+string SINGLES_POSE_F = "SEQ-FEMALE";
+// Singles Male Sequence
+string SINGLES_POSE_M = "SEQ-MALE";
+
+/******************************************************************
+ * DON'T EDIT BELOW THIS UNLESS YOU KNOW WHAT YOU'RE DOING!
+******************************************************************/
+
+key AV_KEY;
+integer SIT_MSG = 90045;
+integer STAND_MSG = 90065;
+string SINGLES_POSE = SINGLES_POSE_F;
+
+string GetAvatarGender(key avatar) {
+    list details = llGetObjectDetails(avatar, [OBJECT_BODY_SHAPE_TYPE]);
+    if (details == []) return "not found";
+    float gender = llList2Float(details, 0);
+    if (gender < 0.0)   return "undefined (not an avatar)"; // agent not found
+    if (gender == 0.0)  return "female";
+    string rv = " (" + (string)gender + ")";
+    if (gender < 0.5)   return "somewhat feminine" + rv;
+    if (gender == 0.5)  return "androgynous" + rv;
+    return "male"; 
+}
+
+default {
+    changed(integer change) {
+        if (change & CHANGED_LINK) {
+            llSleep(1);
+            // Use female poses for ambiguous or undefined gender
+            if (GetAvatarGender(AV_KEY) == "male") {
+                SINGLES_POSE = SINGLES_POSE_M;
+            } else {
+                SINGLES_POSE = SINGLES_POSE_F;
+            }
+            llMessageLinked(LINK_SET,90000,SINGLES_POSE,""); // play singles pose
+        }
+    }
+    link_message(integer sender, integer num, string msg, key id) {
+        if (num == SIT_MSG) {
+            AV_KEY = id;
+        } else if (num == STAND_MSG) {
+            AV_KEY = NULL_KEY;
+        }
+    }
+}
