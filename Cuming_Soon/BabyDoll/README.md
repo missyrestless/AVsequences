@@ -165,3 +165,7 @@ The following custom sequenced animations are available on the Second Life Marke
 ### Customized notecards providing sequenced animations for Tm Creation products
 
 - [Adult Sandcastle](https://github.com/missyrestless/AVsequences/tree/main/Sandcastle)
+
+### Customized notecards providing sequenced animations for VRDz products
+
+- [VRDz Dream Scape Window](https://github.com/missyrestless/AVsequences/tree/main/Dream_Scape)

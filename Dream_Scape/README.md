@@ -46,7 +46,7 @@ To configure an VRDz Dream Scape Window with AVsitter sequences:
 - Drag and Drop the `autoplay` script into the Contents tab
 - Close the `Edit` window
 - Right click the window and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
-- Wait for the scripts to reset
+- Wait for the scripts to reset (this takes a few minutes)
 
 Sit on the window and click one of the sequence buttons, for example: `SEQF Lean` or `SEQML`
 
@@ -161,3 +161,7 @@ The following custom sequenced animations are available on the Second Life Marke
 ### Customized notecards providing sequenced animations for Tm Creation products
 
 - [Adult Sandcastle](https://github.com/missyrestless/AVsequences/tree/main/Sandcastle)
+
+### Customized notecards providing sequenced animations for VRDz products
+
+- [VRDz Dream Scape Window](https://github.com/missyrestless/AVsequences/tree/main/Dream_Scape)
