@@ -20,6 +20,8 @@ configured for solo, couples, 3-way, and 4-way, both PG and Adult.
 Currently configured sequenced menus include:
 
 - Solo Menus
+- Jacuzzi Menus
+- Swim and Float Menus
 - Cuddle Menus
 - Foreplay and Tongue Play Menus
 - Blow Job Menus
@@ -99,7 +101,7 @@ then download and copy the `autoplay-adult.lsl` script:
 wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Bangers_Pool/autoplay-adult.lsl
 ```
 
-Only add zero or one of the `autoplay` scripts to the float Contents. Do not add both.
+Only add zero or one of the `autoplay` scripts to the pool Contents. Do not add both.
 
 ## Second Life Marketplace Listings
 
