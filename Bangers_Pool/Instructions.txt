@@ -24,6 +24,8 @@ Sequences are configured for all four sitters, both male and female. Sequenced a
 Currently configured sequenced menus include:
 
 - Solo Menus
+- Jacuzzi Menus
+- Swim & Float Menus
 - Cuddle Menus
 - Foreplay and Tongue Play Menus
 - Blow Job Menus
@@ -70,7 +72,7 @@ You should see a menu entry of the form 'SEQ-...'. Click this menu entry and you
 AUTO PLAY SEQUENCE
 --------------------------
 
-If you wish to automatically play a sequence when an avatar sits on the pool then drag & drop the 'autoplay' script into the Contents of the object.
+If you wish to automatically play a sequence when an avatar sits on the pool then drag & drop the 'autoplay' script into the Contents of the pool.
 
 The 'autoplay' script detects the gender of the sitter and plays the appropriate sequence. In addition, it detects the number of sitters currently on the object and plays the couples animation sequence if there are 2 sitters, one of the 3-way sequences if 3 are seated, and a 4-way animation sequence if 4 are in the pool.
 
