@@ -1,5 +1,5 @@
-VERSION 8f// Importers//Review
-PRODUCTNAME Sex Bar Stool
+VERSION 8l// Importers//Review//Lesbians added
+PRODUCTNAME Sex Bar Metal Stool
 
 NOISE Bump only//Mattress|Springs|Water|Bump only|Off
 BRAND QYN
@@ -11,10 +11,10 @@ SLAPPERNAME Cushion
 InmNoMenu 1
 AutoWash 1// Wash Cum
 
-DefaultSync 0/1|Cozy embrace
+DefaultSync 0/1|Wrapped around you
 
 SITTER 0|Passive|//+++++++++++++++++++++++++++++++
-DEFAULTPOSE P:Fem Sit
+DEFAULTPOSE P:Tease on tiptoe
 
 TOMENU Singles F
 
@@ -30,11 +30,11 @@ MENU Sit top F||<-.293,-.0293,.4173>|<0,0,-90>
 
 MENU Sit upright F||<-.293,-.0293,.4173>|<0,0,-90>
 ALIGN start|1// Center Cross legs
-POSE Fem Sit|FemSit04|<-.022,.142,.248>|<0,0,90>
-POSE Confident|BCouchSing F3|<.065,.092,.27>|<0,0,90>
-POSE Attentive|BCouchSing F2|<.0133,.0879,.2633>|<0,0,90>
+POSE Fem Sit|FemSit04|<-.0293,.2505,.2444>|<0,0,90>
+POSE Confident|BCouchSing F3|<-.0245,.2732,.2634>|<0,0,90>
+POSE Attentive|BCouchSing F2|<-.0119,.1093,.2534>|<0,0,90>
 ALIGN end|1// Center Parallel legs
-POSE Pensive|BCouchSing F1|<-.0196,.0879,.3323>|<0,0,90>
+POSE Pensive|BCouchSing F1|<-.0293,.1222,.3324>|<0,0,90>
 POSE Musing|BCouchSing F4|<-.0086,.0879,.3083>|<0,0,90>
 
 //ALIGN start|2// Both Armrests
@@ -104,7 +104,7 @@ POSE Musing|BCouchSing F4|<-.0086,.0879,.3083>|<0,0,90>
 //POSE SideRelax|M SunTan7|<-.3613,-.2832,.238>|<0,0,90>
 
 SITTER 1|Active|M//++++++++++++++++++++++++++++++++++++++++++++++++++++++
-DEFAULTPOSE P:Stool M
+DEFAULTPOSE P:Quiet authority
 
 TOMENU Singles M
 
@@ -122,32 +122,33 @@ MENU Sit upright M||<-.2734,-.5176,.4239>|<0,0,-90>
 ALIGN start|1// Center Cross legs
 POSE Stool M|stool_m02|<-.668,.457,.19>|<0,0,90>
 ALIGN end|1// Center Parallel legs
-POSE Street king|[Polymorph] Throne Sit M04|<-.6361,.625,.6931>|<0,0,90>
+POSE Street king|[Polymorph] Throne Sit M04|<-.5531,.625,.6996>|<0,0,90>
 POSE Iron gaze|[Polymorph] Throne Sit M08|<-.5595,.5469,.6931>|<0,0,90>
 POSE Thoughtful M|BCouchSing M6|<-.513,.039,.255>|<0,0,90>
-POSE chair MAN|chair_MAN_001bTW(m)|<-.4981,.1333,.6929>|<0,0,90.5>
-ALIGN start|2// Both Armrests
-POSE Urban throne|[Polymorph] Throne Sit M01|<-.5575,.5664,.7031>|<0,0,90>
-POSE Alpha rest|[Polymorph] Throne Sit M05|<-.622,.2635,.7543>|<11,0,90>
-POSE Boss drop|[Polymorph] Throne Sit M06|<-.608,.5469,.6931>|<0,0,90>
-ALIGN start|3// Right Armrest
-POSE Untouchable|[Polymorph] Throne Sit M02|<-.6834,.5664,.7811>|<0,0,90>
-POSE Lions reign|[Polymorph] Throne Sit M03|<-.7395,.5566,.728>|<0,0,90>
-ALIGN end|3// Left Armrest
-POSE Armchair3|armchair3c|<-.5176,.044,.7129>|<7.7,-.9,102>
+POSE chair MAN|chair_MAN_001bTW(m)|<-.4693,.2711,.6837>|<0,0,90>
+//ALIGN start|2// Both Armrests
+//POSE Urban throne|[Polymorph] Throne Sit M01|<-.5032,.5566,.7515>|<0,0,90>
+//POSE Alpha rest|[Polymorph] Throne Sit M05|<-.622,.2635,.7543>|<11,0,90>
+//POSE Boss drop|[Polymorph] Throne Sit M06|<-.608,.5469,.6931>|<0,0,90>
+//ALIGN start|3// Right Armrest
+//POSE Untouchable|[Polymorph] Throne Sit M02|<-.6834,.5664,.7811>|<0,0,90>
+//POSE Lions reign|[Polymorph] Throne Sit M03|<-.7395,.5566,.728>|<0,0,90>
+//ALIGN end|3// Left Armrest
+//POSE Armchair3|armchair3c|<-.5176,.044,.7129>|<7.7,-.9,102>
 //ALIGN start|5// Seat on Left
 //ALIGN end|5// Seat on Right
-ALIGN start|6// Leg on Left Armrest
-POSE Game over sit|[Polymorph] Throne Sit M07|<-.4883,.4151,.791>|<0,0,90>
-POSE Dominion|[Polymorph] Throne Sit M10|<-.4779,.5915,.4229>|<0,0,61>
+//ALIGN start|6// Leg on Left Armrest
+//POSE Game over sit|[Polymorph] Throne Sit M07|<-.4883,.4151,.791>|<0,0,90>
+//POSE Dominion|[Polymorph] Throne Sit M10|<-.4779,.5915,.4229>|<0,0,61>
 //ALIGN end|6// Leg on Right Armrest
-ALIGN start|7// Reclined
-POSE Titan seat|[Polymorph] Throne Sit M09|<-.6225,.5469,.6931>|<0,0,90>
-POSE Armchair1|armchair1c|<-.6014,-.0267,.684>|<9,0,90>
+//ALIGN start|7// Reclined
+//POSE Titan seat|[Polymorph] Throne Sit M09|<-.6225,.5469,.6931>|<0,0,90>
+//POSE Armchair1|armchair1c|<-.6014,-.0267,.684>|<9,0,90>
 
 //POSE Fem Sit|FemSit04|<-.508,.127,.225>|<0,0,90>
 //POSE Sexy in Couch|SexyCouch21|<-1.039,.324,.371>|<0,0,25>
 //POSE Armchair2|armchair2c|<-.4771,-.0306,.678>|<8,0,105>
+
 //MENU Reclined M||<-.9939,.202,-.0878>|<0,0,-94.1>
 //POSE Easygoing escape M|hammocklay|<-1.1452,.7202,1.5323>|<-5.1,5.3,-61.7>
 //POSE Laidback leisure M|hammocklay2|<-.9784,-.0504,1.5944>|<0,0,-126.6>
@@ -167,11 +168,14 @@ POSE Armchair1|armchair1c|<-.6014,-.0267,.684>|<9,0,90>
 //POSE Lean Ground M|Lean Ground|<-.952,.3334,.8204>|<0,0,0>
 //POSE Lean Ground Sit M|Lean Ground|<-.9629,.3406,.8144>|<1.5,-.5,5.2>
 //POSE Lean Legs Up M|Lean Legs Up|<-1.0938,.2832,.7524>|<0,0,98.3>
+
 //MENU Cross legs M||<-.788,-.2358,-.131>|<0,0,-97>
 //POSE Cross legged sit M|SingBenBed Pt3 M5|<-1.388,.085,.313>|<0,0,0>
 //POSE Meditate M|F MeditateV2|<-1.436,.101,.225>|<0,0,0>
+
 //MENU Lie M||<.4503,.0879,-.09>|<0,0,90>
 ////POSE Sleep tight M|BCouchSing M4|<-.42,.184,.351>|<0,0,-90>
+
 //MENU Stand up M||<1.231,-.586,.511>|<0,1,0>
 ////POSE Lean Wait M|Lean Wait|<.094,0,-.026>|<0,12,0>
 ////POSE Lean Arched M|Lean Arched|<.223,0,-.027>|<0,3,0>
@@ -204,23 +208,21 @@ TOMENU Lesbian 69
 TOMENU Lie Tribbing
 TOMENU StrapOn
 TOMENU Lie DoubleDildo
-TOMENU Bedside L
 
 SITTER 0&1 //++++++++++++++++++++++++++++++++++++++++++++++++++
 
-MENU Lying Cuddles L||<1.4489,-.4084,-.2163>|<0,0,1.6>
-MENU Standing Cuddles L||<.4959,-.2192,.9698>|<0,0,128>
-MENU Please lez Lie|V|<.5274,-.5265,-.1272>|<0,-14.1,168>
-MENU Ride lez face||<.3868,-.4996,-.1586>|<2.4,-12.9,174.8>
-MENU Stand please her||<2.334,.1172,-.0293>|<0,0,-137.8>
-MENU Breastplay||<1.6224,-.3223,-.2723>|<2.2,-6.3,169.9>
-MENU Fingering||<.8008,.294,-.6742>|<-.7,-10.5,-90>
-MENU Dildoing||<.3993,-.9354,-.5688>|<0,-9,45>
-MENU Lesbian 69||<1.5276,.0201,-.358>|<1.2,-19,-81.3>
-MENU Lie Tribbing||<.7923,-1.1578,-.5417>|<-3.8,-10.7,89.6>
-MENU StrapOn||<.8045,-1.0567,-.5843>|<0,-15.3,90>
-MENU Lie DoubleDildo||<.6983,-1.0938,-.4983>|<0,-12,90>
-MENU Bedside L||<.6963,-2.365,-.3015>|<0,0,101.3>
+MENU Lying Cuddles L||<.599,.5828,-.5483>|<0,0,90>
+MENU Standing Cuddles L||<.4685,-.4358,.6199>|<0,0,-135>
+MENU Please lez Lie|V|<.7921,-.0694,-.6427>|<0,0,-90>
+MENU Ride lez face||<.5806,-.7042,-.5853>|<-.2,2,-90>
+MENU Stand please her||<.2412,1.7994,-.4043>|<0,0,-47.8>
+MENU Breastplay||<1.1749,-.5812,-1.0642>|<0,0,135>
+MENU Fingering||<-.1679,.0149,-1.1474>|<0,-.7,0>
+MENU Dildoing||<1.3446,-.1973,-1.0849>|<0,0,135>
+MENU Lesbian 69||<.2761,.0643,-1.1562>|<.1,.7,10.8>
+MENU Lie Tribbing||<1.6108,-.2165,-1.0583>|<0,-4.1,-180>
+MENU StrapOn||<1.2884,-.4923,-1.0975>|<0,0,180>
+MENU Lie DoubleDildo||<1.4468,-.2456,-1.0919>|<0,0,180>
 
 SITTER * //++++++++++++++++++++++++++++++++++++++++++++++++++
 MENU Cuddles
@@ -289,14 +291,14 @@ MENU Top Cuddles|V|<-.0488,-.0392,-.5809>|<0,0,90>
 //MENU Sit Missionary|V|<-.2637,.1002,.2543>|<.7,6.3,-1.4>
 //MENU Sit Doggy|V|<-.2686,.0001,.3992>|<0,9.4,-.7>
 
-MENU Please her Lie||<.9179,-.1226,-.5245>|<0,0,-90>
-MENU Please him Lie||<.8399,.4328,-.5626>|<0,0,90>
-MENU Cowgirl||<.7725,-.2581,-.4718>|<0,0,-90>
+MENU Please her Lie||<.8984,-.1367,-.5313>|<0,0,-90>
+MENU Please him Lie||<.8398,.4297,-.5903>|<0,0,90>
+MENU Cowgirl||<.7715,-.2637,-.5359>|<0,0,-90>
 MENU Rev. Cowgirl||<.7004,-.499,-.4895>|<0,0,-90>
 MENU Sidefuck||<.9817,-.2923,-.5159>|<0,0,-106.2>
 MENU Missionary|V|<.8985,-.3223,-.5024>|<0,-1.4,-90>
-MENU Lying Doggie||<.8659,-.4445,-.4187>|<0,0,-90>
-MENU On4 Doggie||<.752,-.3027,-.5339>|<0,-2.1,-91.4>
+MENU Lying Doggie||<.8594,-.4493,-.5118>|<0,0,-90>
+MENU On4 Doggie||<.7422,-.3027,-.5283>|<0,-2.1,-91.4>
 
 MENU Stand orals|V|<1.0169,-1.0644,.0875>|<0,0,0>
 MENU >Stand fronts|V|<.9254,-1.0749,.0942>|<0,0,0>
@@ -343,18 +345,19 @@ PROP4 Sit Rev.CowGirl*|CumPuddle2+Drop2|Cum|<-1.208471, 1.721495, -0.156865>|<98
 PROP4 Sit Missionary*|CumPuddle2+3Stripes2|Cum|<1.627199, 0.922494, 0.268848>|<-2.188359, 3.543741, 11.917420>|
 PROP4 Sit Doggy*|CumStripes2+Drop2|Cum|<0.125352, -0.163286, 0.341736>|<-1.914197, 15.050930, -26.755370>| 
 
-PROP4 Please her Lie*|Cum2Stripe2-3Stripes2|Cum|<-0.532183, -0.034888, 0.442702>|<0.033299, -7.339244, -89.893260>| 
-PROP4 Please him Lie*|CumPuddle2-2Stripe2|Cum|<-0.689176, -0.023687, 0.384400>|<0, -12.656250, -90>|  
-PROP4 Cowgirl*|CumSplat2-PuddleS2|Cum|<-0.340918, 0.062441, 0.443598>|<0.952477, -7.675862, 57.745120>| 
-PROP4 Rev. Cowgirl*|CumPuddle2-Drop2|Cum|<-0.370038, 0.028477, 0.420162>|<0.166977, -13.358360, -85.077320>| 
-PROP4 Sidefuck*|CumPuddleS2-Drop2|Cum|<-0.058600, 0.048831, 0.448179>|<0, 0, -146.25>| 
-PROP4 Missionary*|Cum3Stripes2-Stripes2|Cum|<-0.311473, 0.354650, 0.538295>|<2.442895, -12.441600, 90.356800>| 
-PROP4 Lying Doggie*|Cum2Stripes2-Stripe2|Cum|<-0.307645, -0.034171, 0.476210>|<0.000000, -15.468750, 89.999980>| 
-PROP4 On4 Doggie*|Cum2Stripes2-Stripe2|Cum|<-0.714600, 0.106173, 0.558486>|<-1.239205, -13.375610, 61.872510>| 
+PROP4 Please her Lie*|Cum2Stripe2-3Stripes2|Cum|<-0.546875, -0.058594, 0.089599>|<0.000000, 0.000000, -90.000000>| 
+PROP4 Please him Lie*|CumPuddle2-2Stripe2|Cum|<-0.703126, -0.029297, 0.135803>|<0.000000, 0.000000, -90.000000>| 
+PROP4 Cowgirl*|CumSplat2-PuddleS2|Cum|<-0.341797, 0.048828, 0.088623>|<0.000000, 0.000000, 90.000000>| 
+PROP4 Rev. Cowgirl*|CumPuddle2-Drop2|Cum|<-0.371094, 0.019532, 0.033753>|<0.000000, 0.000000, -86.000020>| 
+PROP4 Sidefuck*|CumPuddleS2-Drop2|Cum|<-0.068356, 0.048826, 0.060425>|<0.000000, 0.000000, -146.250000>| 
+PROP4 Missionary*|Cum3Stripes2-Stripes2|Cum|<-0.114166, -0.003933, 0.073911>|<-1.406250, 0.000000, 89.249980>| 
+PROP4 Lying Doggie*|Cum2Stripes2-Stripe2|Cum|<-0.312500, -0.078125, 0.091553>|<0.000000, 0.000000, 90.000000>| 
+PROP4 On4 Doggie*|Cum2Stripes2-Stripe2|Cum|<-0.163156, 0.093496, 0.070923>|<-2.108740, -0.051755, 61.055270>| 
 
-PROP4 Stand orals*|CumPuddle2-Drop2|Cum|<1.008925, 1.001515, -0.928288>|<0.000000, 0.000000, -165.234400>| 
-PROP4 >Stand fronts*|CumSplat2-Stripes2|Cum|<1.071822, 0.526652, -0.936278>|<0.000000, 0.000000, 68.205630>| 
-PROP4 >Stand behinds*|CumPuddleS2-3Stripes2|Cum|<1.070157, 0.703960, -1.010563>|<0.000000, 0.000000, 56.249630>| 
+PROP4 Stand orals*|CumPuddle2-Drop2|Cum|<-0.350342, 0.996094, -0.519348>|<0.000000, 0.000000, -165.937500>|
+PROP4 >Stand fronts*|CumSplat2-Stripes2|Cum|<-0.343682, 0.958816, -0.531189>|<0.000000, 0.000000, 68.203130>| 
+PROP4 >Stand behinds*|CumPuddleS2-3Stripes2|Cum|<-0.361130, 1.138428, -0.451660>|<0.000000, 0.000000, 122.000000>| 
+
 PROP4 Top fronts*|CumPuddleS2+3Stripes2|Cum|<-0.351562, 0.607520, 0.318546>|<-0.703125, 0.000000, 123.046900>|
 PROP4 Top behinds*|CumSplat2+Stripes2|Cum|<-0.185544, 0.516153, 0.485471>|<0.000000, 0.000000, 71.000010>| 
 //PROP4 >Wall...*|CumSplat2*3Stripes2*Puddle2|Cum|<-1.874999, 1.230466, -0.100772>|<0, 90, 0>| 
@@ -373,7 +376,7 @@ PROP4 Dildoing*|CumPuddleS2-Drop2|Cum|<0.527437, 0.320193, 0.627438>|<0.000000, 
 PROP4 Lesbian 69*|Cum3Stripes2-Stripes2|Cum|<0.522808, -0.341793, 0.722164>|<0.000000, 0.000000, 20.390630>| 
 PROP4 Lie Tribbing*|Cum2Stripes2-Stripe2|Cum|<0.499870, -0.100396, 0.670530>|<0.000000, 0.000000, 90.000000>| 
 PROP4 StrapOn*|Cum2Stripes2-Stripe2|Cum|<0.386615, -0.374328, 0.675901>|<0.000000, 0.000000, 168.875000>| 
-PROP4 Lie DoubleDildo*|Cum2Stripe2-3Stripes2|Cum|<-0.442752, -0.224608, -0.081663>|<0.000000, 0.000000, -0.703125>| 
+PROP4 Lie DoubleDildo*|Cum2Stripe2-3Stripes2|Cum|<0.486779, -0.292969, 0.651733>|<0.000000, 0.000000, 0.000000>| 
 
 // Lesbian Bedside
 PROP4 Sit Lesbian*|CumSplat2+Stripes2|Cum|<0.383883, -0.027251, 0.311830>|<0.000000, 0.000000, -18.281250>| 
