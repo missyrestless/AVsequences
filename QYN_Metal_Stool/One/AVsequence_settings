@@ -1,25 +1,117 @@
-SEQUENCE SEQ-F-SIT
-PLAY Fem Sit
+SEQUENCE SEQ-SOLO-F
+PLAY Bare confidence
 WAIT 90
-PLAY Confident
+PLAY Provocateur pose
 WAIT 90
-PLAY Attentive
+PLAY Slow cross
 WAIT 90
-PLAY Pensive
+PLAY Legs of temptation
 WAIT 90
-PLAY Musing
+PLAY Sinful cross
+WAIT 90
+PLAY Tease turn
+WAIT 90
+PLAY Lingering glance
+WAIT 90
+PLAY Slow burn perch
 WAIT 90
 LOOP
 
-SEQUENCE SEQ-M-SIT
-PLAY Stool M
+SEQUENCE SEQ-TOP-F
+PLAY Tease on tiptoe
 WAIT 90
-PLAY Street king
+PLAY Sassy side slide
 WAIT 90
-PLAY Iron gaze
+PLAY Sweetheart side lean
 WAIT 90
-PLAY Thoughtful M
+PLAY Rockabilly rest
 WAIT 90
-PLAY chair MAN
+PLAY Bubblegum bend
+WAIT 90
+PLAY Wink & lean
+WAIT 90
+PLAY Calendar girl
+WAIT 90
+PLAY Sultry support
+WAIT 90
+LOOP
+
+SEQUENCE SEQ-CUDD-F
+PLAY Kiss
+WAIT 90
+PLAY Peaches
+WAIT 90
+PLAY LetItGo
+WAIT 90
+PLAY Wrapped around you
+WAIT 90
+PLAY Protective hold
+WAIT 90
+PLAY Casual cuddle
+WAIT 90
+PLAY Locked Eyes
+WAIT 90
+PLAY Seated soulmates
+WAIT 90
+PLAY Together in balance
+WAIT 90
+LOOP
+
+SEQUENCE SEQ-SOLO-M
+PLAY Crossed authority
+WAIT 90
+PLAY Shadowed perch
+WAIT 90
+PLAY Backlit thinker
+WAIT 90
+PLAY Relaxed straddle
+WAIT 90
+PLAY Power perch
+WAIT 90
+PLAY Casual command
+WAIT 90
+PLAY Last call solitude
+WAIT 90
+PLAY Fallen king
+WAIT 90
+LOOP
+
+SEQUENCE SEQ-TOP-M
+PLAY Quiet authority
+WAIT 90
+PLAY Backbone lean
+WAIT 90
+PLAY Hardline stance
+WAIT 90
+PLAY Halfturn watch
+WAIT 90
+PLAY Shadow lean
+WAIT 90
+PLAY Lumberjack rest
+WAIT 90
+PLAY Midnight rest
+WAIT 90
+PLAY Aftermath stillness
+WAIT 90
+LOOP
+
+SEQUENCE SEQ-CUDD-M
+PLAY Kiss
+WAIT 90
+PLAY Peaches
+WAIT 90
+PLAY LetItGo
+WAIT 90
+PLAY Wrapped around you
+WAIT 90
+PLAY Protective hold
+WAIT 90
+PLAY Casual cuddle
+WAIT 90
+PLAY Locked Eyes
+WAIT 90
+PLAY Seated soulmates
+WAIT 90
+PLAY Together in balance
 WAIT 90
 LOOP

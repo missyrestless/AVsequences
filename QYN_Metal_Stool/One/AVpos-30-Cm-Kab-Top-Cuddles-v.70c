@@ -1,0 +1,104 @@
+SITTER 0
+
+MENU Sit upright F
+SEQUENCE SEQ-SOLO-F
+ALIGN start|1// Center Cross legs
+POSE Bare confidence|NpSBarstool F2|<.039,.7499,.3034>|<0,0,90>
+POSE Provocateur pose|NpSBarstool F3|<.0586,.7401,.3024>|<0,0,90>
+POSE Slow cross|NpSBarstool F4|<.039,.7037,.3224>|<0,0,90>
+POSE Legs of temptation|NpSBarstool F5|<-.1943,.5707,.3352>|<0,0,90>
+POSE Sinful cross|NpSBarstool F8|<-.2324,.5589,.3342>|<0,0,90>
+ALIGN end|1// Center Parallel legs
+POSE Tease turn|NpSBarstool F1|<.0293,.6343,.3124>|<0,0,90>
+POSE Lingering glance|NpSBarstool F6|<-.3486,.5801,.3482>|<0,0,90>
+POSE Slow burn perch|NpSBarstool F7|<-.2884,.4897,.3162>|<0,0,90>
+//ALIGN start|2// Both Armrests
+//ALIGN start|3// Right Armrest
+//ALIGN end|3// Left Armrest
+//ALIGN start|5// Seat on Left
+//ALIGN end|5// Seat on Right
+//ALIGN start|6// Leg on Left Armrest
+//ALIGN end|6// Leg on Right Armrest
+//ALIGN start|7// Reclined
+
+MENU Sit top F
+SEQUENCE SEQ-TOP-F
+POSE Tease on tiptoe|NpStdBarstool F1|<.0444,.7417,.5082>|<0,0,90>
+POSE Sassy side slide|NpStdBarstool F2|<-.0973,.8096,.4802>|<-2.5,-1.2,124>
+POSE Sweetheart side lean|NpStdBarstool F3|<.2077,.7318,.4772>|<0,0,68>
+POSE Rockabilly rest|NpStdBarstool F4|<-.1272,.7962,.5072>|<0,0,108>
+POSE Bubblegum bend|NpStdBarstool F5|<.155,.4736,.5112>|<3.4,-.9,59.1>
+POSE Wink & lean|NpStdBarstool F6|<-.0607,.7949,.4842>|<-1.4,.1,90>
+POSE Calendar girl|NpStdBarstool F7|<.1537,.622,.5132>|<0,0,48>
+POSE Sultry support|NpStdBarstool F8|<.0293,.6773,.5082>|<0,0,90>
+
+MENU Top Cuddles|V|
+SEQUENCE SEQ-CUDD-F
+SYNC Kiss|Sex182F|<.0588,.5587,1.3174>|<0,0,-90>
+PARAMS Kiss|0/48||open_mouth@half|Suck|||0|0|in pussy|
+SYNC Peaches|Sex183F|<.1953,.3452,1.3185>|<0,0,-109.7>
+PARAMS Peaches|0/108||open_mouth|Moan|||4|4|on l foot|//Lick 1
+
+SYNC LetItGo|Sex184F|<.2662,.6178,1.2694>|<0,0,-111>
+
+SYNC Wrapped around you|[G Star] 137BarStoolCuddle_F_NS_C/M/T|<0.042,-0.129,1.283>|<0,0,90>
+//SYNC 138_NS|[G Star] 138BarStoolCuddle_F_NS_C/M/T|<0.042,-0.129,1.283>|<0,0,90>
+SYNC Protective hold|[G Star] 139BarStoolCuddle_F_NS_C/M/T|<.039,-.1367,1.2795>|<0,0,0>
+SYNC Casual cuddle|[G Star] 140BarStoolCuddle_F_NS_C/M/T|<0.042,-0.129,1.283>|<0,0,90>
+SYNC Locked Eyes|[G Star] 141BarStoolCuddle_F_NS_C/M/T|<0.042,-0.129,1.283>|<0,0,90>
+SYNC Seated soulmates|[G Star] 142BarStoolCuddle_F_NS_C/M/T|<.0391,-.0391,1.2794>|<0,0,-90>
+SYNC Together in balance|[G Star] 143BarStoolCuddle_F_NS_C/M/T|<0.042,-0.129,1.283>|<0,0,90>
+//SYNC 144_NS|[G Star] 144BarStoolCuddle_F_NS_C/M/T|<0.042,-0.129,1.283>|<0,0,90>
+
+SITTER 1
+
+MENU Sit upright M
+SEQUENCE SEQ-SOLO-M
+ALIGN start|1// Center Cross legs
+POSE Crossed authority|NpSBarstool M3|<-.3145,.7175,.3056>|<0,0,90>
+POSE Shadowed perch|NpSBarstool M4|<-.3067,.5953,.3156>|<1.4,0,90>
+POSE Backlit thinker|NpSBarstool M5|<-.2867,.5622,.3066>|<1.4,0,90>
+POSE Relaxed straddle|NpSBarstool M8|<-.1089,.3375,.2886>|<1.4,0,90>                         
+ALIGN end|1// Center Parallel legs
+POSE Power perch|NpSBarstool M1|<-.2937,.7096,.3556>|<1.4,0,90>
+POSE Casual command|NpSBarstool M2|<-.5358,.3007,.2536>|<0,0,84>
+POSE Last call solitude|NpSBarstool M6|<-.5071,.2587,.2506>|<0,0,90>
+POSE Fallen king|NpSBarstool M7|<-.166,.2849,.3027>|<.7,0,90>
+
+//ALIGN start|2// Both Armrests                       
+//ALIGN start|3// Right Armrest
+//ALIGN end|3// Left Armrest
+//ALIGN start|5// Seat on Left
+//ALIGN end|5// Seat on Right
+//ALIGN start|6// Leg on Left Armrest
+//ALIGN end|6// Leg on Right Armrest
+//ALIGN start|7// Reclined
+                               
+MENU Sit top M
+SEQUENCE SEQ-TOP-M
+POSE Quiet authority|NpStdBarstool M1|<-.42,.5685,.4246>|<0,0,90>
+POSE Backbone lean|NpStdBarstool M2|<-.4199,.6543,.4199>|<0,0,90>
+POSE Hardline stance|NpStdBarstool M3|<-.4068,.6385,.4366>|<0,0,90>
+POSE Halfturn watch|NpStdBarstool M4|<-.4169,.628,.4506>|<0,0,90>
+POSE Shadow lean|NpStdBarstool M5|<-.5813,.5881,.4566>|<0,0,90>
+POSE Lumberjack rest|NpStdBarstool M6|<-.597,.6077,.4266>|<0,0,121>
+POSE Midnight rest|NpStdBarstool M7|<-.6474,.6456,.4336>|<0,0,103>
+POSE Aftermath stillness|NpStdBarstool M8|<-.5923,.6565,.4616>|<0,0,90>
+
+MENU Top Cuddles|V|
+SEQUENCE SEQ-CUDD-M
+SYNC Kiss|Sex182M|<.0685,.5587,1.3564>|<0,0,-90>
+SYNC Peaches|Sex183M|<.2148,.3452,1.3575>|<0,0,-109.7>
+PARAMS Peaches|0/108|0.85|tongue_out@lick|Lick|||0|0|on r foot|
+
+SYNC LetItGo|Sex184M|<.2758,.619,1.3084>|<0,0,-111>
+
+SYNC Wrapped around you|[G Star] 137BarStoolCuddle_M_NS_C/M/T|<0.045,-0.079,1.295>|<0,0,90>
+//SYNC 138_NS|[G Star] 138BarStoolCuddle_M_NS_C/M/T|<0.045,-0.079,1.295>|<0,0,90>
+SYNC Protective hold|[G Star] 139BarStoolCuddle_M_NS_C/M/T|<0.045,-0.079,1.295>|<0,0,90>SYNC Protective hold|[G Star] 139BarStoolCuddle_M_NS_C/M/T|<.0878,-.1367,1.2895>|<0,0,0>
+SYNC Casual cuddle|[G Star] 140BarStoolCuddle_M_NS_C/M/T|<0.045,-0.079,1.295>|<0,0,90>
+SYNC Locked Eyes|[G Star] 141BarStoolCuddle_M_NS_C/M/T|<0.045,-0.079,1.295>|<0,0,90>
+SYNC Seated soulmates|[G Star] 142BarStoolCuddle_M_NS_C/M/T|<.0391,-.0879,1.2894>|<0,0,-90>
+SYNC Together in balance|[G Star] 143BarStoolCuddle_M_NS_C/M/T|<0.045,-0.079,1.295>|<0,0,90>
+//SYNC 144_NS|[G Star] 144BarStoolCuddle_M_NS_C/M/T|<0.045,-0.079,1.295>|<0,0,90>
+

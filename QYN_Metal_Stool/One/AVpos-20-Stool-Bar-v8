@@ -21,7 +21,7 @@ TOMENU Singles F
 MENU Singles F
 TOMENU Sit upright F
 TOMENU Sit top F
-SEQUENCE SEQ-F-SIT
+SEQUENCE SEQ-SOLO-F
 //TOMENU Lie F
 //TOMENU Reclined F
 //TOMENU Relax lying F
@@ -30,7 +30,7 @@ SEQUENCE SEQ-F-SIT
 MENU Sit top F||<-.293,-.0293,.4173>|<0,0,-90>
 
 MENU Sit upright F||<-.293,-.0293,.4173>|<0,0,-90>
-SEQUENCE SEQ-F-SIT
+SEQUENCE SEQ-SOLO-F
 ALIGN start|1// Center Cross legs
 POSE Fem Sit|FemSit04|<-.0293,.2505,.2444>|<0,0,90>
 POSE Confident|BCouchSing F3|<-.0245,.2732,.2634>|<0,0,90>
@@ -113,7 +113,7 @@ TOMENU Singles M
 MENU Singles M
 TOMENU Sit upright M
 TOMENU Sit top M
-SEQUENCE SEQ-M-SIT
+SEQUENCE SEQ-SOLO-M
 //TOMENU Lie M
 //TOMENU Reclined M
 //TOMENU Cross legs M
@@ -122,7 +122,7 @@ SEQUENCE SEQ-M-SIT
 MENU Sit top M||<-.2734,-.5124,.3821>|<0,0,-90>
 
 MENU Sit upright M||<-.2734,-.5176,.4239>|<0,0,-90>
-SEQUENCE SEQ-M-SIT
+SEQUENCE SEQ-SOLO-M
 ALIGN start|1// Center Cross legs
 POSE Stool M|stool_m02|<-.668,.457,.19>|<0,0,90>
 ALIGN end|1// Center Parallel legs
