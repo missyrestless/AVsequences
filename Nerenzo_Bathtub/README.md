@@ -5,7 +5,7 @@ with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
 the Nerenzo Bathtub dialog menus.
 
 This `AVsitter` customization allows greater freedom of personal interaction in the
-Daybed, eliminating the need to navigate dialog menus during moments of intimacy.
+bathtub, eliminating the need to navigate dialog menus during moments of intimacy.
 
 ## Menus
 
@@ -32,16 +32,16 @@ wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/m
 
 ## Setup
 
-To configure a Dustbloom Hanging Daybed with AVsitter sequences:
+To configure a Nerenzo Bathtub with AVsitter sequences:
 
-- Right click the bed and select `Edit`
+- Right click the bathtub and select `Edit`
 - Replace the `[AV]sequence_settings` notecard into the Contents tab with the `[AV]sequence_settings` notecard found in this folder
 - Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
 - Close the `Edit` window
-- Right click the bed and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
+- Right click the bathtub and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
 - Wait for the scripts to reset (this takes a few minutes)
 
-Sit on the bed and click one of the sequence buttons, for example: `►m-bath` or `►f-bath`.
+Sit on the bathtub and click one of the sequence buttons, for example: `►m-bath` or `►f-bath`.
 
 Sequence menu buttons are of the form `►...`. Click this menu entry and your
 avatar will cycle through all the animations in that submenu. Cycle times are currently
@@ -50,7 +50,7 @@ or pause animation sequencing.
 
 ### Auto Play Sequence
 
-If you wish to automatically play a sequence when an avatar sits on the Hanging Daybed
+If you wish to automatically play a sequence when an avatar sits on the bathtub
 then download the `autoplay.lsl` script and copy it into the Contents of the object.
 
 ```bash
@@ -94,6 +94,7 @@ The following custom sequenced animations are available on the Second Life Marke
 - [Nerenzo Beach Chair](https://github.com/missyrestless/AVsequences/tree/main/Beach_Chair)
 - [Nerenzo Floor Pillow](https://github.com/missyrestless/AVsequences/tree/main/Floor_Pillow)
 - [Nerenzo Hot Bangers Pool](https://github.com/missyrestless/AVsequences/tree/main/Bangers_Pool)
+- [Nerenzo Hot Sex Shower](https://github.com/missyrestless/AVsequences/tree/main/Hot_Sex_Shower)
 - [Nerenzo little hangout](https://github.com/missyrestless/AVsequences/tree/main/Hangout)
 - [Nerenzo Orgy Towel](https://github.com/missyrestless/AVsequences/tree/main/Towel)
 - [Nerenzo Waterfall Tamdi](https://github.com/missyrestless/AVsequences/tree/main/Waterfall)

@@ -1,0 +1,811 @@
+TEXT \n                          Nerenzo\n             "Hot 'n Steamy Shower" \n                           \n    Press & hold Ctrl + s  to resync animations!\n
+ADJUST [INM API]|-99998
+
+SITTER 0|Male 1|M
+
+TOMENU SINGLE-M
+TOMENU CUDDLE
+TOMENU FOREPLAY
+TOMENU BLOWJOB
+TOMENU TONGUEPLAY
+TOMENU SEX
+TOMENU CUM
+TOMENU THREESOMES
+TOMENU ░ALL SHOWER░
+TOMENU OPTIONS
+
+MENU HIDE
+SYNC 3S1|CS2
+
+MENU OPTIONS
+BUTTON TEXTURES|215219714
+BUTTON water on/off|0
+BUTTON ToggleFace|88888
+BUTTON AdjustPoses
+BUTTON BentoFaces
+BUTTON LM2Store
+BUTTON Access-info
+BUTTON ITsNOTmine
+BUTTON Aeros - info
+BUTTON The P/V-info
+BUTTON Marketplace|74355
+
+MENU SINGLE-M
+POSE face|1SB11
+POSE chest|1SB2
+POSE axilla|1SB3
+POSE legs|1SB5
+POSE penis|1SB12
+POSE head|1SB6
+POSE body|1SB1
+
+MENU CUDDLE
+SYNC clean arm|2SB2
+SYNC back too|2SB3
+SYNC mr guide|2SB6
+SYNC pretty clean|2SB7
+SYNC limpia|2SB8
+SYNC fortunate|SC1
+SYNC held 4 ever|SC2
+SYNC fondle kiss|SC3
+SYNC embrace|SC4
+SYNC plane love|SC5
+SYNC no doubts|SC6
+SYNC impose|SC7
+SYNC nuzzle|SC8
+SYNC heart kiss|SC9
+SYNC lovegazers|SC10
+SYNC time 4 us|SC11
+SYNC someday|SC12
+
+MENU FOREPLAY
+SYNC standjob|H4
+SYNC typhoon|F11
+SYNC soft spot|F20
+SYNC deal|P1
+
+MENU BLOWJOB
+SYNC dickvotion|B47
+SYNC hooked|B48
+SYNC addicktive|B38
+SYNC lipstick|B1
+SYNC peanuts|B60
+SYNC gate|B18
+SYNC testing|B5
+
+MENU TONGUEPLAY
+SYNC ice box|N23
+SYNC high licker|N39
+SYNC honeycomb|N7a
+SYNC spit & lick|N13
+SYNC lick&stick|N7b
+SYNC pussy lips|N8
+SYNC whipcream|N50
+
+MENU SEX
+SYNC thrills|I5
+SYNC starr|I7
+SYNC boum boum|I16
+SYNC back bang|I18
+SYNC pretty fuck|I24
+SYNC push|I37
+SYNC my statue|I38
+SYNC free love|I39
+SYNC wall pin|I34
+SYNC cock hostess|I2
+SYNC suffer&smile|I12
+SYNC down view|I19
+SYNC stiff breeze|I8
+SYNC hammer|I29
+SYNC nail it|I30
+SYNC vine|I31
+SYNC ballerina|I32
+SYNC vigorous|I33
+SYNC go getter|I35
+SYNC teabag|I28
+
+MENU CUM
+SYNC cum blow|I26
+SYNC milky spray|Z9
+SYNC facialissimo|Z10+
+
+MENU THREESOMES
+TOMENU FFM-SHOWER
+TOMENU FFM-CUDDLE
+TOMENU FFM-SEX
+BUTTON ‌
+TOMENU MMF-SHOWER
+TOMENU MMF-CUDDLE
+TOMENU MMF-SEX
+
+MENU FFM-SHOWER
+SYNC clean prince|FFMFcM1
+SYNC best rub|FFMFcM2
+SYNC chest'n back|FFMFcM3
+SYNC good girls|FFMFcM4
+
+MENU FFM-CUDDLE
+SYNC pharaoh|W13
+SYNC muffin|W14
+SYNC scout|W15
+SYNC smores|W16
+
+MENU FFM-SEX
+SYNC shall we?|FFMFaM1
+SYNC dog'nlick|FFMFaM2
+SYNC all oral|FFMFaM3
+SYNC deeep|FFMFaM4
+SYNC fucklick|FFMFaM5
+SYNC fuckfi|FFMFaM6
+SYNC rover|U20
+SYNC chapo|U21
+SYNC luv scale|U22
+SYNC 2+1|U23
+SYNC pleaser|U24
+SYNC moor|U25
+SYNC sticky|U26
+SYNC 2 luv|U31
+SYNC big tits|U45
+SYNC cum fun|U5
+
+MENU MMF-SHOWER
+SYNC sexy sponge|MMFcma1
+SYNC clean boys|MMFcma2
+SYNC hot body|MMFcma3
+SYNC soft 'n good|MMFcma4
+
+MENU MMF-CUDDLE
+SYNC lounge|3E3
+SYNC sit n chill|3E4
+SYNC attraction|3E18
+SYNC with us|3E19
+
+MENU MMF-SEX
+SYNC 2+2 = hard|MMFama1
+SYNC taste'n play|MMFama2
+SYNC lick'n rub|MMFama3
+SYNC ass'n mouth|MMFama4
+SYNC pussy to go|MMFama5
+SYNC dick wars|MMFama6
+SYNC sunrise|E29
+SYNC prepare|E26
+SYNC p tease|E17
+SYNC rough stuff|E18
+SYNC licorise|E31
+SYNC best seat|E20
+SYNC stretched|E5
+SYNC mouthy|E6
+SYNC keep up|E7
+SYNC luv bunnies|E23
+SYNC cum pile|E25
+
+MENU ░ALL SHOWER░
+POSE ░back░|CS1
+POSE ░chest░|CS2
+POSE ░face░|CS3
+POSE ░genitals░|CS4
+{3S1}<0.353,-0.796,1.38><0,0,142.6>
+{face}<0.297,-0.746,1.381><0,0,130>
+{chest}<-0.106,-0.372,1.408><0,0,-75.6>
+{axilla}<-0.378,-0.468,1.34><0,0,-11>
+{legs}<-0.055,-0.923,1.36><0,0,84>
+{penis}<0,-0.644,1.389><0,0,111>
+{head}<-0.551,-0.84,1.349><2,0,23.9>
+{body}<-0.226,-1.187,1.342><0,0,75.9>
+{clean arm}<-0.054,-0.657,1.465><0,0,116.5>
+{back too}<0.058,-0.68,1.465><0,0,103.9>
+{mr guide}<0.012,-0.718,1.449><0,0,130>
+{pretty clean}<-0.183,-1.204,1.404><0,0,75>
+{limpia}<1.426,-0.357,1.32><0,0,170>
+{fortunate}<-0.167,-0.685,1.412><0,0,42>
+{held 4 ever}<-0.166,-0.678,1.37><2.4,-5.5,24.1>
+{fondle kiss}<-0.278,0,1.406><0,0,0>
+{embrace}<-0.278,0,1.381><0,0,0>
+{plane love}<-0.009,-0.911,1.404><4,0.3,94>
+{no doubts}<0.205,-0.711,1.401><0,0,157.5>
+{impose}<0.662,-0.589,1.344><3,0,1.4>
+{nuzzle}<-0.082,-0.601,1.395><0,0,101>
+{heart kiss}<0.778,-0.08,1.325><0,0,-2>
+{lovegazers}<0.981,-0.083,1.322><0,0,-177.2>
+{time 4 us}<0,-1.067,1.349><0,0,87.1>
+{someday}<-0.317,-0.445,1.352><0,-3,90>
+{standjob}<-0.226,-0.599,1.363><0,0,101.6>
+{typhoon}<-0.027,-0.251,1.363><3,0,90>
+{soft spot}<0.031,-0.491,0.641><0,0,95>
+{deal}<-0.732,-0.451,0.303><0,0,-103>
+{dickvotion}<-0.026,-0.494,1.345><0,0,108.1>
+{hooked}<0.866,-0.578,1.348><0,0,114>
+{addicktive}<0.541,-0.754,1.252><0,0,130.3>
+{lipstick}<-0.088,-0.159,1.447><0,0,-90>
+{peanuts}<-0.028,-0.558,0.575><0,0,-102.6>
+{gate}<0.158,0.17,0.434><2.9,-0.8,-105>
+{testing}<0.9,-0.119,0.143><0,-2,168>
+{ice box}<0.246,-1.868,1.35><-3,0,-90>
+{high licker}<0,-0.775,0.686><0,0,-131>
+{honeycomb}<0.004,-0.24,1.39><0,0,-90>
+{spit & lick}<-0.171,-0.001,0.463><0,-1,-90>
+{lick&stick}<0.129,-0.07,1.385><0,0,-142>
+{pussy lips}<0.551,0,1.285><0,0,0>
+{whipcream}<0.068,0.487,0.568><-4,0,92.6>
+{thrills}<-0.027,-0.768,1.381><8,0,90>
+{starr}<-0.111,-0.924,1.378><0,0,90>
+{boum boum}<-0.131,-0.732,1.376><0,0,96>
+{back bang}<-0.049,-0.184,1.359><0,0,94>
+{pretty fuck}<0,-0.879,1.389><0,0,115>
+{push}<-1.379,-0.512,1.437><0,0,-14>
+{my statue}<-1.288,-0.54,1.375><0,0,-12>
+{free love}<0.058,-1.294,1.371><0,0,85>
+{wall pin}<0.767,-0.361,1.288><0,0,-1.7>
+{cock hostess}<-0.023,-0.285,1.35><0,0,-90>
+{suffer&smile}<-0.081,-0.913,1.356><0,0,88>
+{down view}<-0.076,-0.362,1.358><0,0,86>
+{stiff breeze}<-0.141,-0.698,1.391><-0.8,1.6,75.5>
+{hammer}<-0.14,-0.505,1.281><0,0,180>
+{nail it}<0.032,-0.658,1.238><0,0,180>
+{vine}<0.762,-0.338,1.299><0,0,-2>
+{ballerina}<0.101,-0.515,1.33><0,0,180>
+{vigorous}<0.134,-0.59,1.304><0,0,180>
+{go getter}<-0.071,-0.748,1.337><4,0.1,91>
+{teabag}<-0.024,-0.333,1.291><4,0,97.1>
+{cum blow}<0,-0.879,1.345><0,0,106.9>
+{milky spray}<-0.219,0.05,1.406><0,0,-176>
+{facialissimo}<-0.294,0.507,1.341><3,0,98>
+{clean prince}<0.012,-0.561,1.373><0,0,102>
+{best rub}<0.054,-0.254,1.327><0,0,-151>
+{chest'n back}<0.109,0.196,1.283><0,0,-111.1>
+{good girls}<0.264,-0.157,1.255><0,0,-152>
+{pharaoh}<-0.166,-0.49,1.422><0,0,100>
+{muffin}<-0.283,-0.362,1.461><0,0,57>
+{scout}<-0.415,-0.352,1.423><0,0,91>
+{smores}<-0.074,-0.571,1.444><0,0,0>
+{shall we?}<-0.037,-0.603,1.338><0,0,90>
+{dog'nlick}<0.225,-0.175,1.162><0,0,-139>
+{all oral}<-0.646,-0.556,1.335><0,0,40>
+{deeep}<-0.311,-0.922,1.258><0,0,67>
+{fucklick}<-0.34,-0.687,1.196><0,0,44>
+{fuckfi}<0.677,-0.362,1.175><0,0,-128>
+{rover}<0.011,-0.976,1.259><-2.9,0.3,-89.4>
+{chapo}<0.135,-1.003,1.353><0,0,97>
+{luv scale}<0.005,-0.469,1.343><0,0,99.7>
+{2+1}<-0.193,-0.603,1.338><0,0,88>
+{pleaser}<-0.451,-0.583,1.375><0.9,-0.5,66>
+{moor}<0.1,-0.323,1.302><-0.2,1.5,-155>
+{sticky}<0.272,-0.504,1.4><1,1.8,136.2>
+{2 luv}<0.081,-0.529,1.257><0,0,102.4>
+{big tits}<0.18,0.104,0.73><0,0,-107.5>
+{cum fun}<-0.106,-0.651,1.006><-2.5,-3,90.3>
+{sexy sponge}<-0.337,-0.511,1.273><0,0,0>
+{clean boys}<-0.407,-0.727,1.27><0,0,45>
+{hot body}<-0.332,-0.617,1.221><0,0,0>
+{soft 'n good}<-0.395,-0.893,0.418><0,0,33>
+{lounge}<-0.668,-0.546,0.35><0,0,93>
+{sit n chill}<-0.395,-0.542,0.35><0,0,110.7>
+{attraction}<0.224,-0.507,0.816><0,0,-35.4>
+{with us}<0.198,-0.388,0.618><0,0,55>
+{2+2 = hard}<-0.398,-0.56,1.262><0,0,45>
+{taste'n play}<-0.274,-0.688,1.263><0,0,60>
+{lick'n rub}<-0.001,-0.797,1.246><0,0,79>
+{ass'n mouth}<-0.04,0.454,1.152><0,0,-94>
+{pussy to go}<-0.311,0.5,1.265><0,0,-79>
+{dick wars}<0.301,-0.058,1.162><0,0,-122>
+{sunrise}<0.405,-0.465,1.306><0,0,88.9>
+{prepare}<0.374,0.301,0.651><-1.4,-2.6,-113>
+{p tease}<0.078,-0.251,1.398><0,0,-158>
+{rough stuff}<-0.453,-0.154,1.432><0,0,29>
+{licorise}<-0.404,-0.04,1.375><-1.5,2.1,50.4>
+{best seat}<0.351,-0.517,1.331><0,0,104>
+{stretched}<0.354,0.119,0.35><0,0,-90>
+{mouthy}<0.177,-0.373,0.35><0,0,-107>
+{keep up}<0.289,-0.395,0.339><0,0,-127>
+{luv bunnies}<0.129,-0.127,1.273><0.1,-1,-148>
+{cum pile}<0.348,0.114,1.301><0,0,123.9>
+{░back░}<0.426,-0.796,1.328><0,0,114.6>
+{░chest░}<0.424,-0.796,1.355><0,0,114.6>
+{░face░}<0.353,-0.796,1.382><0,0,114.6>
+{░genitals░}<0.353,-0.796,1.381><0,0,114.6>
+PROP1 good girls|NerenzoSponge|G1|<-0.797000, -1.592000, 1.463500>|<0.000000, 0.000000, -134.750000>|Right hand
+PROP1 clean arm|NerenzoSponge|G1|<-0.797000, -1.592000, 1.463500>|<0.000000, 0.000000, -134.750000>|right hand
+PROP1 limpia|NerenzoSponge|G1|<-0.797000, -1.592000, 1.463500>|<0.000000, 0.000000, -134.750000>|left hand
+PROP 1M|steam1|G2|<0.144160, -0.930170, 1.898760>|<0.000000, 0.000000, 0.000000>
+PROP1 2M|NerenzoSponge|G1|<-0.797000, -1.592000, 1.463500>|<0.000000, 0.000000, -134.750000>|left hand
+PROP1 3M|NerenzoSponge|G1|<-0.797000, -1.592000, 1.463500>|<0.000000, 0.000000, -134.750000>|left hand
+PROP1 4M|NerenzoSponge|G1|<-0.797000, -1.592000, 1.463500>|<0.000000, 0.000000, -134.750000>|left hand
+PROP st|steam1|G87|<0.144160, -0.930170, 1.898760>|<0.000000, 0.000000, 0.000000>
+PROP1 hot body|NerenzoSponge|G1|<-0.797000, -1.592000, 1.463500>|<0.000000, 0.000000, -134.750000>|Left hand
+PROP1 soft 'n good|NerenzoSponge|<-0.79700, -1.59200, 1.46350>|<0.000000, 0.000000, -134.750000>|<0.000000, 0.000000, 0.000000>
+
+SITTER 1|Female 1|F
+
+TOMENU SINGLE-F
+TOMENU CUDDLE
+TOMENU FOREPLAY
+TOMENU BLOWJOB
+TOMENU TONGUEPLAY
+TOMENU SEX
+TOMENU CUM
+TOMENU THREESOMES
+TOMENU ░ALL SHOWER░
+TOMENU OPTIONS
+
+MENU HIDE
+SYNC 3S1|cs1
+
+MENU OPTIONS
+BUTTON TEXTURES|215219714
+BUTTON water on/off|0
+BUTTON ToggleFace|88888
+BUTTON AdjustPoses
+BUTTON BentoFaces
+BUTTON LM2Store
+BUTTON Access-info
+BUTTON ITsNOTmine
+BUTTON Aeros - info
+BUTTON The P/V-info
+BUTTON Marketplace|74355
+
+MENU SINGLE-F
+POSE head|1SB10
+POSE arms|1SB7
+POSE thigh|1SB9
+POSE belly|1sb2
+POSE legs|1sb5
+POSE pussy|1sb3
+POSE scrub leg|1sb6
+
+MENU CUDDLE
+SYNC clean arm|2sb2
+SYNC back too|2sb3
+SYNC mr guide|2sb6
+SYNC pretty clean|2sb7
+SYNC limpia|2sb8
+SYNC fortunate|sc1
+SYNC held 4 ever|sc2
+SYNC fondle kiss|sc3
+SYNC embrace|sc4
+SYNC plane love|sc5
+SYNC no doubts|sc6
+SYNC impose|sc7
+SYNC nuzzle|sc8
+SYNC heart kiss|sc9
+SYNC lovegazers|sc10
+SYNC time 4 us|sc11
+SYNC someday|sc12
+
+MENU FOREPLAY
+SYNC standjob|h4
+SYNC typhoon|f11
+SYNC soft spot|f20
+SYNC deal|p1
+
+MENU BLOWJOB
+SYNC dickvotion|b47
+SYNC hooked|b48
+SYNC addicktive|b38
+SYNC lipstick|b1
+SYNC peanuts|b60
+SYNC gate|b18
+SYNC testing|b5
+
+MENU TONGUEPLAY
+SYNC ice box|n23
+SYNC high licker|n39
+SYNC honeycomb|n7a
+SYNC spit & lick|n13
+SYNC lick&stick|n7b
+SYNC pussy lips|n8
+SYNC whipcream|n50
+
+MENU SEX
+SYNC thrills|i5
+SYNC starr|i7
+SYNC boum boum|i16
+SYNC back bang|i18
+SYNC pretty fuck|i24
+SYNC push|i37
+SYNC my statue|i38
+SYNC free love|i39
+SYNC wall pin|i34
+SYNC cock hostess|i2
+SYNC suffer&smile|i12
+SYNC down view|i19
+SYNC stiff breeze|i8
+SYNC hammer|i29
+SYNC nail it|i30
+SYNC vine|i31
+SYNC ballerina|i32
+SYNC vigorous|i33
+SYNC go getter|i35
+SYNC teabag|i28
+
+MENU CUM
+SYNC cum blow|i26
+SYNC milky spray|z9
+SYNC facialissimo|z10
+
+MENU THREESOMES
+TOMENU FFM-SHOWER
+TOMENU FFM-CUDDLE
+TOMENU FFM-SEX
+BUTTON ‌
+TOMENU MMF-SHOWER
+TOMENU MMF-CUDDLE
+TOMENU MMF-SEX
+
+MENU FFM-SHOWER
+SYNC clean prince|FFMFcFa1
+SYNC best rub|FFMFcFa2
+SYNC chest'n back|FFMFcFa3
+SYNC good girls|FFMFcFa4
+
+MENU FFM-CUDDLE
+SYNC pharaoh|w13
+SYNC muffin|w14
+SYNC scout|w15
+SYNC smores|w16
+
+MENU FFM-SEX
+SYNC shall we?|FFMFaF1
+SYNC dog'nlick|FFMFaF2
+SYNC all oral|FFMFbF3
+SYNC deeep|FFMFaF4
+SYNC fucklick|FFMFaF5
+SYNC fuckfi|FFMFaF6
+SYNC rover|u20
+SYNC chapo|u21
+SYNC luv scale|u22
+SYNC 2+1|u23
+SYNC pleaser|u24
+SYNC moor|u25
+SYNC sticky|u26
+SYNC 2 luv|u31
+SYNC big tits|u45
+SYNC cum fun|u5
+
+MENU MMF-SHOWER
+SYNC sexy sponge|MMFcf1
+SYNC clean boys|MMFcf2
+SYNC hot body|MMFcf3
+SYNC soft 'n good|MMFcf4
+
+MENU MMF-CUDDLE
+SYNC lounge|3e3
+SYNC sit n chill|3e4
+SYNC attraction|3e18
+SYNC with us|3e19
+
+MENU MMF-SEX
+SYNC 2+2 = hard|MMFaf1
+SYNC taste'n play|MMFaf2
+SYNC lick'n rub|MMFaf3
+SYNC ass'n mouth|MMFaf4
+SYNC pussy to go|MMFaf5
+SYNC dick wars|MMFaf6
+SYNC sunrise|e29
+SYNC prepare|e26
+SYNC p tease|e17
+SYNC rough stuff|e18
+SYNC licorise|e31
+SYNC best seat|e20
+SYNC stretched|e5
+SYNC mouthy|e6
+SYNC keep up|e7
+SYNC luv bunnies|e23
+SYNC cum pile|e25
+
+MENU ░ALL SHOWER░
+POSE ░face░|cs1
+POSE ░breast░|cs2
+POSE ░genitals░|cs3
+POSE ░back░|cs4
+{3S1}<-0.037,-0.15,1.38><0,0,-90>
+{head}<-0.347,-0.714,1.33><0,0,55.9>
+{arms}<0,-0.752,1.352><0,0,99>
+{thigh}<0,-0.702,1.375><0,0,96>
+{belly}<0,-0.782,1.319><0,0,168.7>
+{legs}<-0.206,-0.912,1.341><0,0,138>
+{pussy}<-0.833,-0.766,1.3><0,0,20.7>
+{scrub leg}<-0.01,-0.488,1.3><0,0,-77>
+{clean arm}<-0.253,-0.257,1.317><0,0,-63.5>
+{back too}<-0.05,-0.246,1.317><0,0,-76.1>
+{mr guide}<-0.276,-0.376,1.301><0,0,-50>
+{pretty clean}<-0.103,-0.905,1.279><0,0,75>
+{limpia}<1.105,-0.295,1.234><-2,2,170>
+{fortunate}<0.18,-0.265,1.439><2.7,-3,-137.9>
+{held 4 ever}<0.291,-0.474,1.423><2.4,-5.5,-155.9>
+{fondle kiss}<0.225,0,1.406><0,0,180>
+{embrace}<0.225,0,1.381><0,0,180>
+{plane love}<-0.037,-0.447,1.473><4,-0.3,-95>
+{no doubts}<-0.259,-0.519,1.401><0,0,-22.5>
+{impose}<1.032,-0.58,1.259><0,0,-178.6>
+{nuzzle}<-0.231,-0.405,1.278><0,0,101>
+{heart kiss}<1.101,-0.092,1.551><0,0,178>
+{lovegazers}<0.834,-0.09,1.275><0,0,2.8>
+{time 4 us}<0.002,-1.021,1.557><-13,0.6,-92.8>
+{someday}<-0.308,-0.133,1.188><0,-3,-90>
+{standjob}<-0.271,-0.169,1.314><0,0,-86.4>
+{typhoon}<-0.027,0.251,1.39><3,0,-90>
+{soft spot}<-0.028,-0.491,0.616><0,-1,95>
+{deal}<0.343,-0.732,0.368><-8.8,1.8,-102.9>
+{dickvotion}<-0.072,-0.352,1.056><7,0,-71.9>
+{hooked}<0.741,-0.296,1.241><0,0,114>
+{addicktive}<0.268,-0.432,1.324><0,0,130.3>
+{lipstick}<-0.088,-0.121,1.318><0,0,90>
+{peanuts}<0.096,0.046,0.255><0,0,77.4>
+{gate}<0.064,-0.228,0.416><-21,2.9,75.7>
+{testing}<0.589,-0.057,0.143><0,9,168>
+{ice box}<-0.176,-1.811,1.364><0,0,90>
+{high licker}<0,-0.775,0.686><0,0,-131>
+{honeycomb}<-0.02,-0.685,1.308><2,0,90>
+{spit & lick}<-0.171,-0.367,0.537><0,0,90>
+{lick&stick}<-0.166,-0.311,1.318><1,-2.1,38.7>
+{pussy lips}<1.054,0,1.285><0,0,180>
+{whipcream}<0.09,0.019,0.531><-4,0,92.6>
+{thrills}<-0.055,-0.327,1.519><13,0,-90>
+{starr}<-0.111,-0.622,1.261><0,0,-90>
+{boum boum}<-0.131,-0.732,1.336><0,0,96>
+{back bang}<-0.049,-0.184,1.319><0,0,94>
+{pretty fuck}<0,-0.879,1.349><0,0,115>
+{push}<-1.08,-0.586,1.269><0,0,-14>
+{my statue}<-0.986,-0.604,1.207><0,0,-12>
+{free love}<0.085,-0.986,1.203><0,0,85>
+{wall pin}<1.116,-0.372,1.407><0,0,178.3>
+{cock hostess}<-0.023,-0.339,1.371><0,0,-90>
+{suffer&smile}<-0.038,-0.599,1.392><0,0,88>
+{down view}<-0.076,-0.362,1.318><0,0,86>
+{stiff breeze}<-0.024,-0.267,1.487><-0.8,1.6,75.5>
+{hammer}<-0.939,-0.478,1.287><0,0,180>
+{nail it}<-0.873,-0.637,1.256><0,0,180>
+{vine}<1.08,-0.349,1.464><0,0,178>
+{ballerina}<-0.813,-0.515,1.38><0,6,180>
+{vigorous}<-0.801,-0.575,1.158><0,0,180>
+{go getter}<-0.07,-0.332,1.245><4,0.1,91>
+{teabag}<-0.024,-0.331,1.252><4,0,97.1>
+{cum blow}<0,-0.879,1.305><0,0,106.9>
+{milky spray}<-0.53,0.028,1.31><0,0,5>
+{facialissimo}<-0.291,0.869,1.443><3,0,-82>
+{clean prince}<-0.39,-0.282,1.233><0,0,12>
+{best rub}<-0.386,-0.447,1.222><0,0,29>
+{chest'n back}<-0.118,-0.345,1.316><-3.7,1.4,68.9>
+{good girls}<-0.302,-0.549,1.306><0,0,28>
+{pharaoh}<0.028,0.065,1.447><0,0,-125>
+{muffin}<0.259,-0.146,1.449><0,0,160>
+{scout}<0.002,0.023,1.467><0,0,-179>
+{smores}<0.386,-0.571,1.465><0,0,180>
+{shall we?}<0.034,-0.31,1.205><0,0,90>
+{dog'nlick}<0.081,-0.299,1.076><-3.3,3.8,-138.9>
+{all oral}<0.191,0.145,1.043><0,0,-140>
+{deeep}<0.107,0.063,1.048><9.2,-3.9,-112.7>
+{fucklick}<0.076,-0.354,1.198><0,0,-136>
+{fuckfi}<0.547,-0.578,1.064><0,0,-128>
+{rover}<0.006,-0.523,1.275><-2.9,0.3,-89.4>
+{chapo}<-0.034,-0.048,1.451><0,0,-76>
+{luv scale}<-0.075,0.05,1.343><0,0,-80.3>
+{2+1}<-0.17,-0.317,1.338><0,0,88>
+{pleaser}<-0.278,-0.267,1.48><0.9,-0.5,66>
+{moor}<-0.391,-0.543,1.316><-0.2,1.5,25>
+{sticky}<0,-0.239,1.413><1,1.8,136.2>
+{2 luv}<-0.386,-0.2,0.541><0,0,-77.6>
+{big tits}<-0.075,-0.769,0.68><0,0,72.5>
+{cum fun}<-0.104,0.078,0.858><-2.5,-3,90.3>
+{sexy sponge}<0.117,-0.58,1.317><0,0,180>
+{clean boys}<-0.017,-0.178,1.333><-0.4,1,-90>
+{hot body}<0.009,-1.005,1.282><0.4,-1,90>
+{soft 'n good}<-0.199,-0.668,1.286><-2.6,3.1,40.1>
+{lounge}<-0.215,-0.522,0.35><0,0,3>
+{sit n chill}<0.03,-0.381,0.35><0,0,140.7>
+{attraction}<-0.631,0.123,0.826><0,0,144.6>
+{with us}<0.484,-0.111,0.727><0,0,49.4>
+{2+2 = hard}<-0.022,-0.01,0.942><-0.4,1,-90>
+{taste'n play}<-0.039,-0.056,0.935><-0.7,0.9,-75>
+{lick'n rub}<0.116,-0.511,1.196><0.2,-1.1,79>
+{ass'n mouth}<-0.044,0.243,1.008><2,-0.1,-94>
+{pussy to go}<-0.022,-0.549,1.102><0,0,101>
+{dick wars}<-0.011,-0.474,1.153><0,0,58>
+{sunrise}<0.031,0.099,0.572><0,0,-91.1>
+{prepare}<0.001,0.254,0.256><0,0,67>
+{p tease}<-0.131,-0.365,1.267><0,0,-158>
+{rough stuff}<-0.065,0.102,1.304><0,0,29>
+{licorise}<-0.402,-0.039,1.415><-1.5,2.1,50.4>
+{best seat}<0.055,-0.011,0.536><0,0,0>
+{stretched}<-0.134,0.118,0.35><0,0,90>
+{mouthy}<-0.213,-0.186,0.388><0,0,-107>
+{keep up}<-0.074,-0.117,0.393><0,0,53>
+{luv bunnies}<-0.149,-0.301,1.315><0.1,-1,32>
+{cum pile}<-0.1,0.111,0.658><0,0,-56.1>
+{░face░}<0.084,-0.22,1.343><0,0,-88>
+{░breast░}<-0.049,-0.298,1.33><0,0,-83>
+{░genitals░}<-0.122,-0.249,1.312><0,0,-92>
+{░back░}<-0.118,-0.347,1.275><0,0,-90>
+PROP1 chest'n back|NerenzoSponge|G1|<-0.797000, -1.592000, 1.463500>|<0.000000, 0.000000, -134.750000>|Right hand
+PROP1 good girls|NerenzoSponge|G1|<-0.797000, -1.592000, 1.463500>|<0.000000, 0.000000, -134.750000>|Right hand
+PROP 1F|steam1|G3|<0.144160, -0.930170, 1.898760>|<0.000000, 0.000000, 0.000000>
+PROP1 2F|NerenzoSponge|G1|<-0.797000, -1.592000, 1.463500>|<0.000000, 0.000000, -134.750000>|left hand
+PROP1 5F|NerenzoSponge|G1|<-0.797000, -1.592000, 1.463500>|<0.000000, 0.000000, -134.750000>|left hand
+PROP1 7F|NerenzoSponge|G1|<-0.797000, -1.592000, 1.463500>|<0.000000, 0.000000, -134.750000>|left hand
+PROP1 mr guide|NerenzoSponge|G1|<-0.797000, -1.592000, 1.463500>|<0.000000, 0.000000, -134.750000>|left hand
+PROP1 sexy sponge|NerenzoSponge|G1|<-0.797000, -1.592000, 1.463500>|<0.000000, 0.000000, -134.750000>|Right hand
+PROP1 clean boys|NerenzoSponge|G1|<-0.797000, -1.592000, 1.463500>|<0.000000, 0.000000, -134.750000>|Right hand
+
+SITTER 2|3rd Avatar
+
+TOMENU FFM
+TOMENU MMF
+
+MENU HIDE
+SYNC 3S1|CS4
+
+MENU FFM
+TOMENU FFM-SHOWER
+TOMENU FFM-CUDDLE
+TOMENU FFM-SEX
+TOMENU ░ALL SHOWER░
+TOMENU OPTIONS
+
+MENU OPTIONS
+BUTTON TEXTURES|215219714
+BUTTON water on/off|0
+BUTTON ToggleFace|88888
+BUTTON AdjustPoses
+BUTTON BentoFaces
+BUTTON LM2Store
+BUTTON Access-info
+BUTTON ITsNOTmine
+BUTTON Aeros - info
+BUTTON The P/V-info
+BUTTON Marketplace|74355
+
+MENU FFM-SHOWER
+SYNC clean prince|FFMFcFb1
+SYNC best rub|FFMFcFb2
+SYNC chest'n back|FFMFcFb3
+SYNC good girls|FFMFcFb4
+
+MENU FFM-CUDDLE
+SYNC pharaoh|ww13
+SYNC muffin|ww14
+SYNC scout|ww15
+SYNC smores|ww16
+
+MENU FFM-SEX
+SYNC shall we?|FFMFbF1
+SYNC dog'nlick|FFMFbF2
+SYNC all oral|FFMFaF3
+SYNC deeep|FFMFbF4
+SYNC fucklick|FFMFbF5
+SYNC fuckfi|FFMFbF6
+SYNC rover|uu20
+SYNC chapo|uu21
+SYNC luv scale|uu22
+SYNC 2+1|uu23
+SYNC pleaser|uu24
+SYNC moor|uu25
+SYNC sticky|uu26
+SYNC 2 luv|uu31
+SYNC big tits|uu45
+SYNC cum fun|uu5
+
+MENU ░ALL SHOWER░
+POSE ░face░|cs1
+POSE ░breast░|cs2
+POSE ░genitals░|cs3
+POSE ░back░|cs4
+
+MENU MMF
+TOMENU MMF-SHOWER
+TOMENU MMF-CUDDLE
+TOMENU MMF-SEX
+TOMENU ░ALL SHOWER░
+TOMENU OPTIONS
+
+MENU OPTIONS
+BUTTON TEXTURES|215219714
+BUTTON water on/off|0
+BUTTON ToggleFace|88888
+BUTTON AdjustPoses
+BUTTON BentoFaces
+BUTTON LM2Store
+BUTTON Access-info
+BUTTON ITsNOTmine
+BUTTON Aeros - info
+BUTTON The P/V-info
+BUTTON Marketplace|74355
+
+MENU MMF-SHOWER
+SYNC sexy sponge|MMFcmb1
+SYNC clean boys|MMFcmb2
+SYNC hot body|MMFcmb3
+SYNC soft 'n good|MMFcmb4
+
+MENU MMF-CUDDLE
+SYNC lounge|3EE3
+SYNC sit n chill|3EE4
+SYNC attraction|3EE18
+SYNC with us|3EE19
+
+MENU MMF-SEX
+SYNC 2+2 = hard|MMFamb1
+SYNC taste'n play|MMFamb2
+SYNC lick'n rub|MMFamb3
+SYNC ass'n mouth|MMFamb4
+SYNC pussy to go|MMFamb5
+SYNC dick wars|MMFamb6
+SYNC sunrise|EE29
+SYNC prepare|EE26
+SYNC p tease|EE17
+SYNC rough stuff|EE18
+SYNC licorise|EE31
+SYNC best seat|EE20
+SYNC stretched|EE5
+SYNC mouthy|EE6
+SYNC keep up|EE7
+SYNC luv bunnies|EE23
+SYNC cum pile|EE25
+
+MENU ░ALL SHOWER░
+POSE ░back░|CS1
+POSE ░chest░|CS2
+POSE ░face░|CS3
+POSE ░genitals░|CS4
+{3S1}<-0.574,-0.925,1.389><0,0,48.4>
+{clean prince}<0.259,-0.154,1.218><0,0,-168>
+{best rub}<0.172,-0.208,1.222><0,0,-151>
+{chest'n back}<-0.308,-0.593,1.333><0,0,61.9>
+{good girls}<0.547,0.278,0.432><0,0,-156>
+{pharaoh}<-0.535,-0.144,1.447><0,0,-12.5>
+{muffin}<-0.529,-0.715,1.421><0,0,57>
+{scout}<-0.822,0.013,1.478><0,0,1>
+{smores}<-0.495,-0.571,1.434><0,0,0>
+{shall we?}<0.034,0.224,0.604><0,0,-90>
+{dog'nlick}<-0.682,-0.963,1.164><-3.9,4.5,41.2>
+{all oral}<0.501,0.418,0.606><0,0,-140>
+{deeep}<0.24,0.401,0.611><0,0,-113>
+{fucklick}<0.271,-0.155,0.639><0,0,-136>
+{fuckfi}<-0.121,-0.699,0.607><0,0,-23>
+{rover}<0.016,-1.429,1.321><-2.9,0.3,90.6>
+{chapo}<-0.26,0.816,1.376><0,0,-76>
+{luv scale}<0.186,0.198,1.325><0,0,-118.8>
+{2+1}<-0.055,0.505,1.293><0,0,-92>
+{pleaser}<0.142,0.472,1.453><0.9,-0.5,-114>
+{moor}<-0.159,-0.361,1.331><-0.2,1.5,25>
+{sticky}<-0.575,0.411,1.399><1,1.8,-43.8>
+{2 luv}<0.327,-0.12,0.507><0,0,-77.6>
+{big tits}<-0.022,-0.622,0.626><0,0,72.5>
+{cum fun}<-0.135,0.958,1.339><-2.5,-3,-89.7>
+{░face░}<-0.529,-0.925,1.387><0,0,39.4>
+{░breast░}<-0.529,-0.925,1.319><0,0,39.4>
+{░genitals░}<-0.529,-0.925,1.365><0,0,39.4>
+{░back░}<-0.529,-0.925,1.319><0,0,39.4>
+{sexy sponge}<0.326,-0.812,1.25><0,0,147>
+{clean boys}<0.373,-0.727,1.27><0,0,135>
+{hot body}<0.399,-0.652,1.224><0,0,169>
+{soft 'n good}<0.188,-0.341,1.269><0,0,-140>
+{lounge}<0.238,-0.498,0.35><0,0,93>
+{sit n chill}<0.453,-0.22,0.35><0,0,110.7>
+{attraction}<-0.224,-0.228,0.824><0,0,144.6>
+{with us}<-0.443,-0.031,0.637><0,0,-156>
+{2+2 = hard}<0.327,-0.557,1.257><0,0,128>
+{taste'n play}<0.318,-0.499,1.251><0,0,118>
+{lick'n rub}<0.231,0.082,0.476><-2.9,0.6,-101>
+{ass'n mouth}<-0.113,-0.786,1.259><0,0,86>
+{pussy to go}<0.026,-0.803,1.225><0,0,101>
+{dick wars}<-0.121,-0.617,1.167><0,0,58>
+{sunrise}<-0.292,-0.472,1.309><0,0,88.9>
+{prepare}<-0.239,-0.506,0.683><0,0,67>
+{p tease}<-0.399,-0.444,1.338><0,0,22>
+{rough stuff}<0.382,0.35,1.297><0,0,-151>
+{licorise}<-0.402,-0.039,1.415><-1.5,2.1,50.4>
+{best seat}<0,0,0.14><0,0,0>
+{stretched}<-0.588,0.119,0.35><0,0,90>
+{mouthy}<-0.646,-0.024,0.337><0,0,67>
+{keep up}<-0.439,0.154,0.373><0,0,53>
+{luv bunnies}<-0.389,-0.451,1.265><0.1,-1,32>
+{cum pile}<-0.276,-0.311,1.291><0,0,119.9>
+{░chest░}<-0.529,-0.925,1.374><0,0,39.4>
+PROP1 clean prince|NerenzoSponge|G1|<-0.797000, -1.592000, 1.463500>|<0.000000, 0.000000, -134.750000>|Right hand
+PROP1 chest'n back|NerenzoSponge|G1|<-0.797000, -1.592000, 1.463500>|<0.000000, 0.000000, -134.750000>|Right hand
+PROP1 good girls|NerenzoSponge|G1|<-0.797000, -1.592000, 1.463500>|<0.000000, 0.000000, -134.750000>|Right hand
+PROP1 sexy sponge|NerenzoSponge|G1|<-0.797000, -1.592000, 1.463500>|<0.000000, 0.000000, -134.750000>|Right hand
+PROP1 clean boys|NerenzoSponge|G1|<-0.797000, -1.592000, 1.463500>|<0.000000, 0.000000, -134.750000>|Right hand
+PROP1 hot body|NerenzoSponge|G1|<-0.797000, -1.592000, 1.463500>|<0.000000, 0.000000, -134.750000>|Right hand
+PROP 3S1|steam1|G4|<0.144160, -0.930170, 1.898760>|<0.000000, 0.000000, 0.000000>
+
