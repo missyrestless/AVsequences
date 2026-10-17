@@ -1,0 +1,87 @@
+AVsitter Sequence for Nerenzo Hot Sex Shower 3Some
+───────────────────────────────────────────────────
+
+This folder contains the 'AVpos' and '[AV]sequence_settings' notecards for use with the 'AVsitter2' plugin '[AV]sequence' to provide animation sequences for the Nerenzo Hot Sex Shower 3Some dialog menus.
+
+This 'AVsitter' customization allows greater freedom of personal interaction in the shower, eliminating the need to navigate dialog menus during moments of intimacy.
+
+IMPORTANT NOTE
+───────────────
+
+This customization of the Nerenzo Hot Sex Shower 3Some only works with the Adult 3-Some version of the shower available on the Second Life Marketplace at https://marketplace.secondlife.com/p/Sex-3Some-showerNerenzo-hotn-steam-shower-3Some-version-the-P-the-V-aeros-INM-cum-clean/25296964
+
+THIS PRODUCT DOES NOT CONTAIN the Nerenzo - Sex Shower "Hot *n Steamy" - 3 Some version. You have to purchase the shower from Nerenzo. This product only contains the notecards and scripts used to provide sequenced animations for the shower.
+
+In order to deploy this customization it will be necessary to edit the shower object. Detailed instructions are provided below but if you are not comfortable editing Second Life objects then this may be viewed as an opportunity to learn or as something not for you.
+
+Missy Restless and the Truth & Beauty Lab are not affiliated with Nerenzo products in any way other than as an extremely satisfied customer.
+
+Menus
+──────
+
+Sequences are configured for the following menus:
+
+- Male and Female Solo Menus
+- Male and Female Shower Menus
+- 2 and 3-way Cuddles Menus
+- 2 and 3-way Shower Menus
+- 2 and 3-way Sex Menus
+- Foreplay Menus
+- Tongue Play Menus
+- Blowjob Menus
+
+Setup
+──────
+
+To configure a Nerenzo Hot Sex Shower 3Some with AVsitter sequences:
+
+- Right click the shower and select 'Edit'
+- Drag and Drop the '[AV]sequence_settings' notecard into the Contents tab
+- Drag and Drop the '[AV]sequence' plugin script into the Contents tab
+- Replace the 'AVpos' notecard in the Contents tab with the 'AVpos' notecard found in this folder
+- Close the 'Edit' window
+- Right click the shower and select 'More' -> 'More' -> 'Scripts' -> 'Reset Scripts'
+- Wait for the scripts to reset (this takes a few minutes)
+
+Sit on the shower and click one of the sequence buttons, for example: 'SEQ-F-SOLO' or 'SEQ-M-SOLO'.
+
+Sequence menu buttons are of the form 'SEQ-*'. Click this menu entry and your avatar will cycle through all the animations in that submenu. Cycle times are currently set to 90 seconds with menu arrows to step to the next animation, previous animation, or pause animation sequencing.
+
+Auto Play Sequence
+───────────────────
+
+If you wish to automatically play a sequence when an avatar enters the shower then drag and drop the 'autoplay' script from your inventory into the Contents tab of the shower.
+
+The 'autoplay' script detects the gender of the sitter and plays the appropriate sequence. In addition, it detects the number of sitters currently on the object and plays the couples animation sequence if more than 1 sitter is seated or a 3-way shower if 3 are seated.
+
+Second Life Marketplace Listings
+─────────────────────────────────
+
+The following Truth & Beauty Lab custom sequenced animations are available on the Second Life Marketplace:
+
+- Good Moaning Hurricane Chair Sequenced Customization Marketplace Listing
+    - https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Good-Moaning-Hurricane-Chair/27951429
+
+- Lalou 3some Outdoor Shower Sequenced Customization Marketplace Listing
+    - https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Lalou-3some-Outdoor-Shower/27944763
+
+- Lalou Pool Float (Adult 3some)
+      - https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Lalou-Pool-Float-Adult-3some/27954361
+
+- Nerenzo Beach Chairs Sequenced Customization Marketplace Listing
+    - https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Beach-Chairs/27960500
+
+- Nerenzo Hot Bangers Pool Sequenced Customization Marketplace Listing
+    - https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Hot-Bangers-Pool/27942775
+
+- Nerenzo Orgy Towel Sequenced Customization Marketplace Listing
+    - https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Orgy-Towel/27945140
+
+Github Repository
+──────────────────
+
+Many additional Truth & Beauty Lab custom sequenced animations are available on Github.
+
+The notecards and scripts in the Github AVsequences repository have not yet been uploaded to Second Life or packaged. In order to deploy these additional sequenced animations for over 40 products you will need to download the relevant notecards and scripts from Github, upload them to Second Life, and follow the installation instructions for the corresponding product(s). Yes, that is a lot of work but these are free!
+
+Check out this growing repository of AVsitter sequenced animations at https://github.com/missyrestless/AVsequences#readme
