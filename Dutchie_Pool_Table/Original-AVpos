@@ -1,0 +1,145 @@
+SWAP 1
+ADJUST [COLOR]|-1864098
+AMENU 1
+
+SITTER 0|Female|F
+
+TOMENU Play & Drinks
+TOMENU Romance
+TOMENU Sequences
+
+MENU Hidden
+SYNC wait|F-Wait-CueHold
+
+MENU Play & Drinks|A
+SYNC rack up|F-Wait-CueHold
+SYNC break|3. M-TakeShot
+SYNC take shot|F-Wait-CueHold
+SYNC another|F-Wait-CueHold
+SYNC pocket|3. M-TakeShot
+SYNC 8 ball|billiards back stick
+SYNC chat&drinks|4_Female_Chat_31s
+SYNC more drinks|1_Female_Drink_35s
+SYNC drinks&chat|8 - Female - Left Hand - 31s
+SYNC smoke|2_Female_Smoking_35s
+
+MENU Romance|A
+SYNC talk|Stand: Wall1_u1
+SYNC close|Couple Wallprop-F
+SYNC seduce|couplePP05-F
+SYNC hug|Upright-A-F|30|Upright-B-F|30
+SYNC snogging|Snogging-F
+SYNC make out|couplePP04-F
+SYNC passion|Passion-F
+SYNC dip|couplePP01-F
+SYNC jump|couplePP03-F
+SYNC kisses|Sex #182 - Table_Desk - F
+
+MENU Sequences|A
+BUTTON Game|-44555444
+BUTTON Drinks|-44555444
+BUTTON Romance|-44555444
+{wait}<-2.14,0.186,0><-90,0,0>
+{rack up}<-2.14,0.186,0><-90,0,0>
+{break}<-2.054,0.202,-0.173><-89.2,4,-1.8>
+{take shot}<-2.14,0.186,0><-90,0,0>
+{another}<-0.707,0.186,-1.651><-90,0,-69>
+{pocket}<0.81,0.197,-1.498><-86,0.7,-76>
+{8 ball}<1.894,0.197,0.807><-90,0,62>
+{chat&drinks}<-0.889,0.196,-1.377><-90,0,0>
+{more drinks}<-0.889,0.172,-1.378><-90,0,0>
+{drinks&chat}<-0.914,0.009,-1.195><-90,0,90>
+{smoke}<-0.823,0.188,-1.315><-90,0,0>
+{talk}<-0.889,0.072,-1.18><-90,0,90>
+{close}<-0.495,0.2,-1.39><-92.3,1.6,90>
+{seduce}<-0.39,0.186,-1.382><-90,-2,90>
+{hug}<-0.462,0.207,-1.151><-90.3,-0,90.7>
+{snogging}<-0.512,0.185,-1.161><-90.3,-0.7,89.6>
+{make out}<-0.499,0.173,-1.422><-89,0,-180>
+{passion}<-0.498,0.173,-1.19><-91.2,-1,90>
+{dip}<-0.488,0.158,-1.189><-83,-0.1,0>
+{jump}<-0.497,0.193,-1.242><-87,-0.1,-0.3>
+{kisses}<-0.503,0.361,-0.217><-90,0,90>
+PROP1 wait|cue wait|GROUP1|<0.000000, 0.000000, 0.000000>|<-90.000000, 0.000000, 270.000000>
+PROP1 rack up|cue wait|GROUP1|<0.000000, 0.000000, 0.000000>|<-90.000000, 0.000000, 270.000000>
+PROP1 break|cue shot|GROUP1|<0.000000, 0.000000, 0.000000>|<-90.000000, 0.000000, 270.000000>
+PROP1 take shot|cue wait|GROUP1|<0.000000, 0.000000, 0.000000>|<-90.000000, 0.000000, 270.000000>
+PROP1 another|cue wait|GROUP1|<0.000000, 0.000000, 0.000000>|<-90.000000, 0.000000, 180.000000>
+PROP1 pocket|cue pocket|GROUP1|<0.000000, 0.000000, 0.000000>|<-90.000000, 0.000000, 180.000000>
+PROP1 8 ball|cue 8 ball|GROUP1|<0.000000, 0.000000, 0.000000>|<-90.000000, 0.000000, 90.000010>
+PROP1 more drinks|beer F more drinks|GROUP1|<0.000000, 0.000000, 0.000000>|<0.000000, 0.000000, 0.000000>
+PROP1 drinks&chat|beer F drinks chat|GROUP1|<0.000000, 0.000000, 0.000000>|<0.000000, 0.000000, 0.000000>
+PROP1 smoke|sigaret F|GROUP1|<0.000000, 0.000000, 0.000000>|<0.000000, 0.000000, 0.000000>
+PROP chat&drinks|Beer stand|GROUP1|<-0.561005, 0.208252, -0.905716>|<-90.000000, 0.000000, 0.000000>
+PROP smoke|Beer stand|GROUP1|<-0.561005, 0.208252, -0.905716>|<-90.000000, 0.000000, 0.000000>
+PROP rack up|1 Rack up|GROUP1|<0.000000, -0.004150, 0.000000>|<-90.000000, 0.000000, -90.000000>
+PROP DRINKS|DRINKS|GROUP2|<0.000000, -0.004150, 0.000000>|<-90.000000, 0.000000, -90.000000>
+
+SITTER 1|Male seat|M
+
+TOMENU Play & Drinks
+TOMENU Romance
+TOMENU Sequences
+
+MENU Hidden
+SYNC wait|Stand - Intimidate-A
+
+MENU Play & Drinks|A
+SYNC rack up|rack up
+SYNC break|1. M-Wait-CueHold
+SYNC take shot|4. M-TakeShot - Yeah!
+SYNC another|5. M-TakeShot - Boo
+SYNC pocket|1. M-Wait-CueHold
+SYNC 8 ball|1. M-Wait-CueHold
+SYNC chat&drinks|14 - Male - 37s
+SYNC more drinks|5_Male_Drink_36s
+SYNC drinks&chat|8_Male_Chat_33s
+SYNC smoke|6_Male_Smoking_31s
+
+MENU Romance|A
+SYNC talk|Stand: Wall4_u1
+SYNC close|Couple Wallprop-M
+SYNC seduce|couplePP05-M
+SYNC hug|Upright-A-M|30|Upright-B-M|30
+SYNC snogging|Snogging-M
+SYNC make out|couplePP04-M
+SYNC passion|Passion-M
+SYNC dip|couplePP01-M
+SYNC jump|couplePP03-M
+SYNC kisses|Sex #182 - Table_Desk - M
+
+MENU Sequences|A
+BUTTON Game|-44555444
+BUTTON Drink|-44555444
+BUTTON Romance|-44555444
+{wait}<2.175,0.312,0><-90,0,180>
+{rack up}<1.761078, 0.276856, -0.110977><-89.999980, -4.999928, -161.000000>
+{break}<2.208,0.325,0><-90,0,180>
+{take shot}<2.135,0.285,-0.469><-89,-3,-149>
+{another}<-0.364,0.281,1.274><-92.3,1.9,50>
+{pocket}<-0.364,0.285,1.523><-90,0,49.9>
+{8 ball}<1.193,0.287,1.569><-90,0,104>
+{chat&drinks}<0,0.122,-1.185><-90,0,90>
+{more drinks}<0,0.305,-1.422><-90,0,180>
+{drinks&chat}<0,0.308,-1.42><-90,0,180>
+{smoke}<-0.075,0.301,-1.365><-90,0,180>
+{talk}<-0.287,0.192,-1.154><-90,0,90>
+{close}<-0.49,0.297,-1.172><-89.3,1.5,90>
+{seduce}<-0.312,0.329,-1.299><-90,0,90>
+{hug}<-0.465,0.341,-1.409><-90.4,-0,-89.3>
+{snogging}<-0.568,0.342,-1.429><-93.2,-0.6,-90.4>
+{make out}<-0.499,0.296,-1.411><-90,0,180>
+{passion}<-0.498,0.363,-1.568><-92.2,-1,-90.4>
+{dip}<-0.486,0.308,-1.163><-90,0,0>
+{jump}<-0.497,0.271,-1.332><-90,0,-0.2>
+{kisses}<-0.503,0.361,-0.217><-90,0,90>
+PROP1 break|cue wait|GROUP1|<0.000000, 0.000000, 0.000000>|<-90.000000, 0.000000, 90.000010>
+PROP1 take shot|cue shot|GROUP1|<0.000000, 0.000000, 0.000000>|<-90.000000, 0.000000, 90.000010>
+PROP1 another|cue shot|GROUP1|<0.000000, 0.000000, 0.000000>|<-90.000000, 0.000000, 0.000010>
+PROP1 pocket|cue wait|GROUP1|<0.000000, 0.000000, 0.000000>|<-90.000000, 0.000000, 0.000010>
+PROP1 8 ball|cue wait|GROUP1|<0.000000, 0.000000, 0.000000>|<-90.000000, 0.000000, 0.000010>
+PROP1 rack up|7 hand|GROUP1|<0.000000, 0.000000, 0.000000>|<0.000000, 0.000000, 0.000000>
+PROP1 rack up|13 hand|GROUP1|<0.000000, 0.000000, 0.000000>|<0.000000, 0.000000, 0.000000>
+PROP1 BEER|BEER|GROUP4|<0.000000, 0.000000, 0.000000>|<0.000000, 0.000000, 0.000000>
+PROP1 smoke|sigaret M|GROUP1|<0.000000, 0.000000, 0.000000>|<0.000000, 0.000000, 0.000000>
+PROP GLASS|GLASS|GROUP2|<-0.336166, 0.208252, -0.924957>|<-90.000010, 0.000000, 180.000000>

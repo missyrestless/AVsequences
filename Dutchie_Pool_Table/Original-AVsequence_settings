@@ -1,0 +1,58 @@
+
+
+SEQUENCE Game
+
+PLAY rack up
+WAIT 17
+PLAY break
+WAIT 20
+PLAY take shot
+WAIT 16
+PLAY another
+WAIT 20
+PLAY pocket
+WAIT 14
+PLAY 8 ball
+WAIT 16
+
+LOOP
+
+
+SEQUENCE Drinks
+
+PLAY chat&drinks
+WAIT 60
+PLAY more drinks
+WAIT 60
+PLAY drinks&chat
+WAIT 60
+PLAY smoke
+WAIT 60
+
+LOOP
+
+SEQUENCE Romance
+
+PLAY talk
+WAIT 60
+PLAY close
+WAIT 60
+PLAY seduce
+WAIT 60
+PLAY hug
+WAIT 60
+PLAY snogging
+WAIT 60
+PLAY make out
+WAIT 60
+PLAY passion
+WAIT 60
+PLAY dip
+WAIT 60
+PLAY jump
+WAIT 60
+PLAY kisses
+WAIT 60
+
+LOOP
+
