@@ -13,9 +13,9 @@
  * Set these to the sequence names you want to autoplay
 **********************************************************************/
 // Singles Female Sequence
-string SINGLES_POSE_F = "F-RELAX";
+string SINGLES_POSE_F = "►F-RELAX";
 // Singles Male Sequence
-string SINGLES_POSE_M = "M-RELAX";
+string SINGLES_POSE_M = "►M-RELAX";
 
 /******************************************************************
  * DON'T EDIT BELOW THIS UNLESS YOU KNOW WHAT YOU'RE DOING!
