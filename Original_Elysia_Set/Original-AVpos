@@ -1,0 +1,328 @@
+
+--✄--COPY BELOW INTO "AVpos" NOTECARD--✄--
+
+"TROMPE LOEIL POOL MODULE V0.2 - {A}" AVsitter 2.2
+
+SITTER 0
+
+TOMENU SOLO SIT
+TOMENU SOLO SWIM
+
+TOMENU COUPLES
+TOMENU COUPLES {A}
+
+MENU SOLO SWIM
+POSE Circles|0296 Swim Circles X A
+POSE Float|Backfloat-2
+POSE Backfloat1|z-float
+POSE Splash 1|F SweetSplash
+POSE Splash 2|M SweetSplash
+POSE Leg Float|pl.wade-fl
+POSE Edge Hang|pl-HangEdge-ugr
+POSE Tread Water|pl-Treadwater-ugr
+POSE Legs Hang|pl-Wade-ugr
+POSE Paddle|be-dogpaddle
+POSE Backfloat2|be-float
+POSE Drift|be-float1
+POSE Swim|be-swim
+
+MENU SOLO SIT
+POSE Poolside|[RNP] Pollside #7_Female_38 Seconds
+POSE Dangle|[RNP] Pollside #8_Female_50 seconds
+POSE Hang Out|bt1
+POSE Side Sit|bt2
+POSE Leg Out|bt3
+POSE Kickback|bt4
+POSE Sunnyside|bt5
+POSE Curl Up|bt6
+POSE Toes Only|ft.dreamkick
+POSE Just A Foot|ft.simplesit
+POSE Hands In|ft.splash
+POSE Sunstroke|ft.sunstretch
+POSE Footsplash|Poolside-8
+POSE Cool Off|Poolside-10
+POSE Drape|z-poolside
+POSE One Foot|pl-EdgeSit-ugr
+POSE Doubleswing|pl-EdgeSwing-ugr
+POSE Lounge|pl-lounge-fl
+POSE Zone|pl-pool-sit-fl
+POSE Too Hot|pl-scope-fl
+POSE Skim|pl-Skim-ugr
+POSE Splish|be-splash
+POSE Sploosh|be-swushing
+
+
+
+MENU COUPLES
+SYNC Gotcha|F Capture
+SYNC Embrace|F CloserIGet
+SYNC Join Hands|F FromMeToYou
+SYNC Hold On|F IMissYou
+SYNC Kneel Hug|F LHT1
+SYNC Kneel Kiss|F LHT2
+SYNC Sweethearts|F LHT3
+SYNC Cuddle|F LHT4
+SYNC Cozy|F LHT5
+SYNC Carry|F LHT6
+SYNC More|F MoreThanWords
+SYNC Passion|F Passion1
+SYNC Sweetness|F Passion2
+SYNC Got You|F Precious&Afew
+SYNC Hold You|F Shiver
+
+MENU COUPLES {A}
+SYNC Hand Job|F LHTA1
+SYNC Finger|F LHTA2
+SYNC Blow Job|F LHTA3
+SYNC Go Down|F LHTA4
+SYNC Crab|F LHTA5
+SYNC Behind|F LHTA6
+SYNC Ride|F LHTA7
+SYNC Get On Top|F LHTA9
+SYNC Squat|F LHTA10
+SYNC Lotus|Kneeling Lotus-F
+SYNC Lift|F 2ShowerAdt5 Lift2
+SYNC Raise|F 2ShowerAdt4 Lift1
+SYNC Ramp|F 1ShowerAdt5 Ramp
+SYNC Buck|F 2ShowerAdt1 Ramp2
+SYNC Climb|F 2ShowerAdt2 Ramp3
+{Circles}<-1.761,0.275,0.434><0,0,-74>
+{Float}<-1.761,0.275,0.434><0,0,-45>
+{Backfloat1}<-1.761,0.275,0.434><0,0,-106.1>
+{Splash 1}<-1.986,-1.85,0.188><0,0,46.1>
+{Splash 2}<-1.986,-1.85,0.01><0,0,76.9>
+{Leg Float}<-3.848,-0.096,0.638><0,0,0>
+{Edge Hang}<-0.507,2.504,0.126><-11,0,90>
+{Tread Water}<-2.336,-0.283,0.451><0,0,65.6>
+{Legs Hang}<-3.861,0.125,0.613><0,-7,0>
+{Paddle}<-1.311,0.65,0.826><0,0,0>
+{Backfloat2}<-1.85,0.15,1.064><0,0,-106.1>
+{Drift}<-2.318,0.344,1.037><0,0,29>
+{Swim}<-2.038,0.538,1.027><0,0,0>
+{Poolside}<-4.286,0.12,0.676><0,0,0>
+{Dangle}<-4.286,0.12,0.676><0,0,0>
+{Hang Out}<-4.939,-1.35,0.543><0,0,65.5>
+{Side Sit}<-3.236,-3.056,0.551><0,0,73.6>
+{Leg Out}<-3.236,-3.058,0.519><0,0,8>
+{Kickback}<-3.236,-3.058,0.519><0,0,0>
+{Sunnyside}<-2.889,-3.058,0.492><0,0,147.6>
+{Curl Up}<-3.236,-4.025,0.626><0,0,43.5>
+{Toes Only}<-4.448,-0.1,1.188><-0,0,0>
+{Just A Foot}<-4.386,-0.1,1.201><-0,0,0>
+{Hands In}<-4.548,-0.1,1.201><0,-4,0>
+{Sunstroke}<-4.123,-0.2,1.263><0,0,90>
+{Footsplash}<-4.298,-0.2,1.638><0,0,0>
+{Cool Off}<-4.298,-0.2,1.588><0,0,0>
+{Drape}<-4.111,-0.125,0.61><0,0,-90>
+{One Foot}<-4.386,-0.2,1.188><0,0,0>
+{Doubleswing}<-4.361,-0.2,1.201><0,0,0>
+{Lounge}<-4.686,-1.025,1.111><0,0,90>
+{Zone}<-4.386,-0.525,1.111><0,0,0>
+{Too Hot}<-3.161,-2.975,1.023><0,0,0>
+{Skim}<-4.373,-1.15,1.113><0,0,-90>
+{Splish}<-2.961,-1.825,0.563><0,0,31.6>
+{Sploosh}<-2.961,-1.825,0.563><0,0,53.4>
+{Rain Down}<-3.107,-2.522,0.242><0,0,-14>
+{Face Splash}<-3.107,-2.471,0.36><0,0,-45>
+{Shoulder}<-3.107,-2.471,0.421><0,0,-44>
+{Rinse}<-3.107,-2.45,0.421><0,0,38>
+{Leg}<-3.582,-2.546,0.264><0,0,33.7>
+{Feet}<-3.107,-2.471,0.421><0,0,116>
+{Chest}<-3.107,-2.471,0.421><0,0,61.9>
+{Kick}<-3.082,-2.371,0.109><0,0,-39>
+{Rocks}<-3.107,-2.28,0.117><0,0.1,-90>
+{Chin}<-3.107,-2.605,0.101><0,0,-90>
+{All Over}<-3.107,-2.471,0.117><0,0,90>
+{Gotcha}<-0.286,0.353,1.163><0,0,20>
+{Embrace}<-0.297,0.245,0.324><0,0,0>
+{Join Hands}<0.028,0.72,0.19><0,0,0>
+{Hold On}<0.004,1.298,0.356><0,0,180>
+{Kneel Hug}<-0.469,-1.21,0.128><0,0,-90>
+{Kneel Kiss}<-0.066,-1.232,0.184><0,0,-90>
+{Sweethearts}<-3.675,-2.065,-0.045><0,0,73>
+{Cuddle}<-3.683,-1.717,0.004><0,0,45>
+{Cozy}<-3.587,-1.685,0.003><0,0,32>
+{Carry}<-3.753,-1.834,-0.013><0,0,53>
+{More}<0.118,0.23,0.218><0,0,42.2>
+{Passion}<-0.213,0.111,0.255><0,0,0>
+{Sweetness}<-0.24,0.169,0.235><0,0,0>
+{Got You}<-0.172,0.419,0.306><0,0,174.4>
+{Hold You}<0.037,0.525,0.208><0,0,90>
+{Hand Job}<-3.497,-1.545,-0.029><0,0,45>
+{Finger}<-3.646,-1.63,0.078><0,0,45>
+{Blow Job}<-2.891,-2.549,0.162><6,0,90>
+{Go Down}<-2.875,-2.521,0.222><0,0,90>
+{Crab}<-2.807,-2.252,0.19><10,-1,84.5>
+{Behind}<-3.6,-2.524,0.227><6.9,-0.4,90>
+{Ride}<-2.176,-2.299,0.14><8,0,90>
+{Get On Top}<-2.958,-2.024,-0.024><0,0,90>
+{Squat}<-3.063,-1.961,0.029><7,0.5,89.9>
+{Lotus}<-2.824,-1.577,1.005><0,0,-90>
+{Lift}<-3.941,1.018,0.267><0,0,0.4>
+{Raise}<-3.933,1.33,0.148><0,0,0.4>
+{Ramp}<-8.492,-9.273,2.18><0,0,90>
+{Buck}<-8.667,-9.348,2.124><0,0,90>
+{Climb}<-8.556,-9.193,2.25><0,0,90>
+
+SITTER 1
+
+TOMENU SOLO SIT
+TOMENU SOLO SWIM
+
+TOMENU COUPLES
+TOMENU COUPLES {A}
+
+MENU SOLO SWIM
+POSE Circles|0296 Swim Circles X A
+POSE Float|Backfloat-2
+POSE Backfloat1|z-float
+POSE Splash 1|F SweetSplash
+POSE Splash 2|M SweetSplash
+POSE Leg Float|pl.wade-fl
+POSE Legs Hang|pl-Wade-ugr
+POSE Paddle|be-dogpaddle
+POSE Backfloat2|be-float
+POSE Drift|be-float1
+POSE Swim|be-swim
+
+MENU SOLO SIT
+POSE Poolside|[RNP] Pollside #7_Female_38 Seconds
+POSE Dangle|[RNP] Pollside #8_Female_50 seconds
+POSE Hang Out|bt1
+POSE Side Sit|bt2
+POSE Leg Out|bt3
+POSE Kickback|bt4
+POSE Sunnyside|bt5
+POSE Curl Up|bt6
+POSE Toes Only|ft.dreamkick
+POSE Just A Foot|ft.simplesit
+POSE Hands In|ft.splash
+POSE Sunstroke|ft.sunstretch
+POSE Footsplash|Poolside-8
+POSE Cool Off|Poolside-10
+POSE Drape|z-poolside
+POSE One Foot|pl-EdgeSit-ugr
+POSE Doubleswing|pl-EdgeSwing-ugr
+POSE Lounge|pl-lounge-fl
+POSE Zone|pl-pool-sit-fl
+POSE Too Hot|pl-scope-fl
+POSE Skim|pl-Skim-ugr
+POSE Splish|be-splash
+POSE Sploosh|be-swushing
+
+
+
+MENU COUPLES
+SYNC Gotcha|M Capture
+SYNC Embrace|M CloserIGet
+SYNC Join Hands|M FromMeToYou
+SYNC Hold On|M IMissYou
+SYNC Kneel Hug|M LHT1
+SYNC Kneel Kiss|M LHT2
+SYNC Sweethearts|M LHT3
+SYNC Cuddle|M LHT4
+SYNC Cozy|M LHT5
+SYNC Carry|M LHT6
+SYNC More|M MoreThanWords
+SYNC Passion|M Passion1
+SYNC Sweetness|M Passion2
+SYNC Got You|M Precious&Afew
+SYNC Hold You|M Shiver
+
+MENU COUPLES {A}
+SYNC Hand Job|M LHTA1
+SYNC Finger|M LHTA2
+SYNC Blow Job|M LHTA3
+SYNC Go Down|M LHTA4
+SYNC Crab|M LHTA5
+SYNC Behind|M LHTA6
+SYNC Ride|M LHTA7
+SYNC Get On Top|M LHTA9
+SYNC Squat|M LHTA10
+SYNC Lotus|Kneeling Lotus-M
+SYNC Lift|M 2ShowerAdt5 Lift2
+SYNC Raise|M 2ShowerAdt4 Lift1
+SYNC Ramp|M 1ShowerAdt5 Ramp
+SYNC Buck|M 2ShowerAdt1 Ramp2
+SYNC Climb|M 2ShowerAdt2 Ramp3
+{Circles}<1.389,0.625,0.392><0,0,-74>
+{Float}<1.789,0.15,0.413><0,0,101.3>
+{Backfloat1}<1.789,0.15,0.41><0,0,101.3>
+{Splash 1}<1.83,-1.581,0.236><0,0,105>
+{Splash 2}<1.83,-1.581,0.031><0,0,120.1>
+{Leg Float}<3.283,0.525,0.644><0,0,180>
+{Legs Hang}<3.302,0.525,0.663><0,0,180>
+{Paddle}<1.689,-1,0.926><0,0,180>
+{Backfloat2}<1.189,0.8,1.041><0,0,157.5>
+{Drift}<1.189,0.8,1.041><0,0,15.9>
+{Swim}<0.864,0.25,1.038><0,0,0>
+{Poolside}<3.977,-0.3,0.738><0,0,180>
+{Dangle}<3.889,-0.3,0.713><0,0,180>
+{Hang Out}<2.539,-4.325,0.519><0,0,109>
+{Side Sit}<1.689,-3.075,0.529><0,0,81.6>
+{Leg Out}<1.689,-3.019,0.513><0,0,180>
+{Kickback}<1.689,-3.762,0.576><0,0,172>
+{Sunnyside}<2.489,-3.081,0.507><0,0,159.9>
+{Curl Up}<2.239,-3.037,0.451><0,0,64.7>
+{Toes Only}<3.689,-0.7,1.201><0,0,180>
+{Just A Foot}<3.714,-0.7,1.257><0,0,180>
+{Hands In}<4.127,-0.875,1.173><0,3,180>
+{Sunstroke}<3.589,0.625,1.226><-3,0,-90>
+{Footsplash}<3.952,-0.475,1.588><0,3,180>
+{Cool Off}<3.952,-0.475,1.563><0,3,180>
+{Drape}<3.627,-0.475,0.651><3,-0,90>
+{One Foot}<3.902,-0.475,1.113><0,3,180>
+{Doubleswing}<3.952,-0.475,1.138><0,3,180>
+{Lounge}<2.814,-4,1.072><0,0,180>
+{Zone}<3.764,-0.425,1.113><0,0,180>
+{Too Hot}<2.039,-1.875,0.513><0,0,171.4>
+{Skim}<3.752,-0.25,1.151><0,0,90>
+{Splish}<1.789,-1.65,0.59><0,0,122>
+{Sploosh}<1.789,-1.65,0.661><0,0,122>
+{Rain Down}<-0.795,-2.384,0.279><0,0,-128>
+{Face Splash}<-0.795,-2.384,0.546><0,0,-73.1>
+{Shoulder}<-0.4,-0.756,0.34><0,0,15.9>
+{Rinse}<-0.795,-2.505,0.497><0,0,-49>
+{Leg}<-0.795,-2.505,0.497><0,0,157>
+{Feet}<-0.795,-2.505,0.497><0,0,84.4>
+{Chest}<-0.795,-2.505,0.497><0,0,-90>
+{Kick}<-0.795,-2.505,0.497><-5.8,13.9,-162>
+{Rocks}<-0.795,-2.296,0.269><13,0,-90>
+{Chin}<-0.795,-2.534,0.497><0,0,-90>
+{All Over}<-0.795,-2.505,0.313><0,0,90>
+{Gotcha}<-0.486,0.547,0.432><0,0,20>
+{Embrace}<-0.326,0.255,0.431><0,0,0>
+{Join Hands}<-0.001,0.73,0.297><0,0,0>
+{Hold On}<-0.027,1.302,0.421><0,0,180>
+{Kneel Hug}<-0.803,-1.241,0.106><0,0,-90>
+{Kneel Kiss}<-0.357,-1.253,0.24><0,0,-90>
+{Sweethearts}<-3.346,-2.134,-0.029><0,0,73>
+{Cuddle}<-3.426,-1.933,-0.008><0,0,45>
+{Cozy}<-3.434,-1.966,0.062><0,0,32>
+{Carry}<-3.468,-2.011,-0.049><0,0,53>
+{More}<-0.141,0.37,0.433><0,0,42.2>
+{Passion}<-0.259,0.089,0.296><0,0,0>
+{Sweetness}<-0.283,0.13,0.316><0,0,0>
+{Got You}<0.15,0.38,0.477><0,0,174.4>
+{Hold You}<0.042,0.275,0.379><0,0,90>
+{Hand Job}<-3.224,-1.783,-0.029><0,0,45>
+{Finger}<-3.375,-1.87,0.078><0,0,45>
+{Blow Job}<-2.531,-2.526,0.164><6,0,90>
+{Go Down}<-2.546,-2.58,0.304><0,0,90>
+{Crab}<-2.478,-2.279,0.185><10,-0,90>
+{Behind}<-3.271,-2.551,0.225><6.9,-0.4,90>
+{Ride}<-1.846,-2.327,0.136><8,0,90>
+{Get On Top}<-2.629,-2.052,-0.024><0,0,90>
+{Squat}<-2.734,-1.99,0.023><7,0.5,89.9>
+{Lotus}<-2.797,-1.874,1.047><0,0,89.6>
+{Lift}<-3.744,1.006,0.309><0,0,180>
+{Raise}<-3.737,1.319,0.19><0,0,180>
+{Ramp}<-8.479,-9.077,2.222><0,0,-90.4>
+{Buck}<-8.654,-9.15,2.253><0,0,-90.4>
+{Climb}<-8.667,-9.056,2.302><0,0,-90.3>
+
+--✄--COPY ABOVE INTO "AVpos" NOTECARD--✄--
+
+
+
+end
