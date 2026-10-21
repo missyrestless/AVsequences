@@ -1,0 +1,535 @@
+SITTER 0
+
+TOMENU SINGLES
+TOMENU DANCES
+TOMENU CUDDLES
+TOMENU ADULT
+BUTTON TEXTURES|0
+
+MENU SINGLES
+TOMENU STANDS
+TOMENU ACTIVITIES
+TOMENU FRIENDS
+
+MENU STANDS
+SYNC Stand 1|KbkB-StSingF1
+SYNC Stand 2|KbkB-StSingF2
+SYNC Stand 3|KbkB-StSingF3
+SYNC Stand 4|KbkB-StSingF4
+SYNC Stand 5|KbkB-StSingF6
+SYNC Stand 6|I'm Waiting
+
+MENU ACTIVITIES
+POSE Bubbles|F StandBubbles
+POSE Hand Stand|F StandHands
+POSE Look|F StandLook
+POSE Drink|KbkB-StSingF5
+POSE Read|F StandRead
+POSE Wild Cheer|MWH - Maniac Fan
+POSE Ponder|F WalkSad
+
+MENU FRIENDS
+POSE Laugh|Laugh
+POSE Talk 1|StandTalk1 F
+POSE Talk 2|StandTalk2 F
+
+MENU DANCES
+TOMENU SINGLE
+TOMENU SLOW DANCE
+TOMENU FAST DANCE
+
+MENU SINGLE
+POSE Burlesque|Burlesque
+POSE Smooth|Smooth
+POSE Easy|Easy
+POSE Lovin It|Lovin It
+POSE Flamenco|Flamenco
+POSE Samba|Samba
+POSE Salsa|Salsa
+POSE Jive|Jive
+POSE Belly Dance|Belly Dance
+POSE The Twist|The Twist
+POSE Bopping|Bopping
+
+MENU SLOW DANCE
+SEQUENCE SEQ SLOW
+SYNC Slow 1|F Amore1
+SYNC Slow 2|F Amore2
+SYNC Slow 3|F Amore3
+SYNC Slow 4|Slow 4F
+SYNC Slow 5|SwayF1
+
+MENU FAST DANCE
+SEQUENCE SEQ FAST
+SYNC Fast 1|COMBO1F
+SYNC Fast 2|COMBO3F
+SYNC Fast 3|COMBO4F
+SYNC Fast 4|COMBO5F
+SYNC Fast 5|COMBO2F
+
+MENU CUDDLES
+TOMENU CUDDLES A
+TOMENU CUDDLES B
+TOMENU CUDDLES C
+SEQUENCE SEQ ALL CUDDLES
+
+MENU CUDDLES A
+SEQUENCE SEQ CUDDLES A
+SYNC Cuddle 1|StdAdoreC F1
+SYNC Cuddle 2|StdAdoreC F2
+SYNC Cuddle 3|StdAdoreC F3
+SYNC Cuddle 4|StdAdoreC F4
+SYNC Cuddle 5|StdAdoreC F5
+SYNC Cuddle 6|StdAdoreC F6
+
+MENU CUDDLES B
+SEQUENCE SEQ CUDDLES B
+SYNC Cuddle 7|StdAdoreC F7
+SYNC Cuddle 8|StdAdoreC F8
+SYNC Cuddle 9|StdAdoreC F9
+SYNC Cuddle 10|StdAdoreC F10
+SYNC Cuddle 11|StdAdoreC F11
+SYNC Cuddle 12|StdAdoreC F12
+
+MENU CUDDLES C
+SEQUENCE SEQ CUDDLES C
+SYNC Cuddle 13|Stand Couple #2 - F
+SYNC Cuddle 14|Stand Couple #5 - F
+SYNC Cuddle 15|Stand Couple #6 - F
+SYNC Cuddle 16|Stand Couple #9 - F
+SYNC Cuddle 17|F EndlessLove2
+SYNC Cuddle 18|F BackToYou
+SYNC Cuddle 19|F Always&ForeverV2
+SYNC Cuddle 20|F WithoutYou
+SYNC Cuddle 21|F TheHeart
+
+MENU ADULT
+TOMENU FOR HIM
+TOMENU FOR HER
+TOMENU FRONT & BACK
+TOMENU CUM
+SEQUENCE SEQ ALL ADULT
+
+MENU FOR HIM
+SEQUENCE SEQ FOR HIM
+SYNC Handjob 1|StdAdoreHj F1
+SYNC Handjob 2|StdAdoreHj F2
+SYNC Handjob 3|StdAdoreHj F3
+SYNC Handjob 4|StdAdoreHj F4
+SYNC Blowjob 1|StdAdoreBj F1
+SYNC Blowjob 2|StdAdoreBj F2
+SYNC Blowjob 3|StdAdoreBj F3
+SYNC Blowjob 4|StdAdoreBj F4
+SYNC Blowjob 5|StdAdoreMisc F4
+
+MENU FOR HER
+SEQUENCE SEQ FOR HER
+SYNC Finger 1|StdAdoreFg F1
+SYNC Finger 2|StdAdoreFg F2
+SYNC Finger 3|StdAdoreFg F3
+SYNC Finger 4|StdAdoreFg F4
+SYNC Lick 1|StdAdoreLk F1
+SYNC Lick 2|StdAdoreLk F2
+SYNC Lick 3|StdAdoreLk F3
+SYNC Lick 4|StdAdoreLk F4
+
+MENU FRONT & BACK
+SEQUENCE SEQ FRONT & BACK
+SYNC Front 1|StdAdoreFrt F1
+SYNC Front 2|StdAdoreFrt F2
+SYNC Front 3|StdAdoreFrt F3
+SYNC Front 4|StdAdoreFrt F4
+SYNC Back 1|StdAdoreBk F1
+SYNC Back 2|StdAdoreBk F2
+SYNC Back 3|StdAdoreBk F3
+SYNC Back 4|StdAdoreBk F4
+SYNC Back 5|StdAdoreMisc F2
+SYNC Back 6|StdAdoreMisc F3
+
+MENU CUM
+SEQUENCE SEQ CUM
+SYNC Stroke|StdAdoreMisc F1
+SYNC Cum 1|StdAdoreCum F1
+SYNC Cum 2|StdAdoreCum F2
+SYNC Cum 3|StdAdoreCum F3
+SYNC Cum 4|StdAdoreCum F4
+{Stand 1}<-1.006,-1.231,1.439><0,0,45>
+{Stand 2}<-1.006,-1.231,1.439><0,0,45>
+{Stand 3}<-1.006,-1.231,1.439><0,0,45>
+{Stand 4}<-1.006,-1.231,1.439><0,0,45>
+{Stand 5}<-1.006,-1.231,1.439><0,0,45>
+{Stand 6}<-1.006,-1.231,1.439><0,0,45>
+{Bubbles}<-1.006,-1.231,1.439><0,0,45>
+{Hand Stand}<-1.006,-1.231,1.349><0,0,45>
+{Look}<-1.006,-1.231,1.439><0,0,-135>
+{Drink}<-1.006,-1.231,1.439><0,0,45>
+{Read}<-1.006,-1.231,1.439><0,0,45>
+{Wild Cheer}<-1.006,-1.231,1.439><0,0,45>
+{Ponder}<-1.006,-1.231,1.439><0,0,-135>
+{Laugh}<-1.006,-1.231,1.439><0,0,45>
+{Talk 1}<-1.006,-1.231,1.439><0,0,45>
+{Talk 2}<-1.006,-1.231,1.439><0,0,45>
+{Burlesque}<-1.006,-1.231,1.439><0,0,45>
+{Smooth}<-1.006,-1.231,1.439><0,0,45>
+{Easy}<-1.006,-1.231,1.439><0,0,45>
+{Lovin It}<-1.006,-1.231,1.439><0,0,45>
+{Flamenco}<-1.006,-1.231,1.439><0,0,45>
+{Samba}<-1.006,-1.231,1.439><0,0,45>
+{Salsa}<-1.006,-1.231,1.439><0,0,45>
+{Jive}<-1.006,-1.231,1.439><0,0,45>
+{Belly Dance}<-1.006,-1.231,1.439><0,0,45>
+{The Twist}<-1.006,-1.231,1.439><0,0,45>
+{Bopping}<-1.006,-1.231,1.439><0,0,45>
+{Slow 1}<0.501,0.475,1.589><0,0,0>
+{Slow 2}<0.441,0.399,1.566><0,0,0>
+{Slow 3}<0.458,0.494,1.541><0,0,0>
+{Slow 4}<0.462,0.441,1.239><0,0,-90>
+{Slow 5}<0.371,0.263,1.464><0,0,45>
+{Fast 1}<0.413,0.124,1.539><0,0,-180>
+{Fast 2}<0.17,0.167,1.422><0,0,-90>
+{Fast 3}<-0.269,0.325,1.423><0,0,-180>
+{Fast 4}<-0.399,0.385,1.45><0,0,-180>
+{Fast 5}<-0.245,0.246,1.473><0,0,-180>
+{Cuddle 1}<0.026,-0.037,1.367><0,0,-90>
+{Cuddle 2}<0.051,0.156,1.394><0,0,-90>
+{Cuddle 3}<0.029,-0.506,1.399><0,0,90>
+{Cuddle 4}<0.029,-0.004,1.304><0,0,-90>
+{Cuddle 5}<0.029,-0.086,1.445><0,0,-90>
+{Cuddle 6}<0.029,-0.16,1.34><0,0,-90>
+{Cuddle 7}<-0.002,0.001,1.59><0,0,-90>
+{Cuddle 8}<-0.002,0.004,1.613><0,0,-90>
+{Cuddle 9}<0.012,0.043,1.556><0,0,-90>
+{Cuddle 10}<-0.002,0.012,1.231><0,0,-90>
+{Cuddle 11}<-0.002,-0.051,1.401><0,0,-90>
+{Cuddle 12}<-0.002,0.026,1.486><0,0,-90>
+{Cuddle 13}<0,0,1.54><0,0,0>
+{Cuddle 14}<0,0,1.54><0,0,0>
+{Cuddle 15}<0,0,1.54><0,0,0>
+{Cuddle 16}<0,0,1.54><0,0,0>
+{Cuddle 17}<-0.129,-0.082,1.586><-1.2,-2.8,-2.5>
+{Cuddle 18}<0.151,0.022,1.657><0.5,-7,9.3>
+{Cuddle 19}<0.03,0,1.679><-4.2,3.4,-3.6>
+{Cuddle 20}<0.273,-0.158,1.569><2.4,-3,-0.5>
+{Cuddle 21}<0.163,0.042,1.721><-0.2,-4,6.3>
+{Handjob 1}<0.025,0.207,1.019><0,0,-90>
+{Handjob 2}<0.025,-0.127,1.209><0,0,-90>
+{Handjob 3}<0.156,-0.031,1.128><0,0,-90>
+{Handjob 4}<-0.27,-0.171,1.271><0,0,62>
+{Blowjob 1}<0.073,0.204,1.051><0,0,-90>
+{Blowjob 2}<0.043,0.18,1.101><0,0,-90>
+{Blowjob 3}<0.073,-0.133,1.118><0,0,-90>
+{Blowjob 4}<0.074,-0.016,1.227><0,0,-90>
+{Blowjob 5}<-0.731,-0.296,0.956><0,0,-180>
+{Finger 1}<0.042,-0.042,1.191><0,0,107>
+{Finger 2}<-0.011,-0.159,1.491><0,0,-90>
+{Finger 3}<-0.064,-0.218,1.346><0,0,-90>
+{Finger 4}<-0.142,-0.408,1.107><0,0,90>
+{Lick 1}<0.078,-0.058,1.222><0,0,-90>
+{Lick 2}<0.086,-0.616,1.222><0,0,-90>
+{Lick 3}<0.076,0.099,1.083><0,0,90>
+{Lick 4}<0.068,0.066,1.23><0,0,-90>
+{Front 1}<-0.145,0.077,1.417><0,0,-90>
+{Front 2}<-0.145,0.05,1.559><0,0,-90>
+{Front 3}<-0.145,0.141,1.245><0,0,-90>
+{Front 4}<-0.144,0.169,1.513><0,0,-90>
+{Back 1}<0.066,-0.175,1.172><0,0,90>
+{Back 2}<-0.145,0.25,1.284><0,0,90>
+{Back 3}<-0.145,-0.044,1.147><0,0,90>
+{Back 4}<-0.164,0.125,1.495><0,0,90>
+{Back 5}<0.067,0.01,0.661><0,0,90>
+{Back 6}<0.072,-0.045,1.176><0,0,90>
+{Stroke}<0.07,0.123,1.29><0,0,-90>
+{Cum 1}<0.064,-0.595,1.167><0,0,-90>
+{Cum 2}<0.109,0.633,1.425><0,0,-90>
+{Cum 3}<0.533,0.377,1.343><0,0,90>
+{Cum 4}<0.097,-0.261,1.122><0,0,-90>
+PROP1 Drink|Green Glass of Lemonade|G1|<0.418457, -2.608746, 0.000000>|<0.000000, 0.000000, 0.000000>|right_hand
+PROP1 Read|Book|G1|<0.418459, -2.608746, 0.000000>|<0.000000, 0.000000, 0.000000>|Left Hand
+PROP1 Bubbles|Jar of Bubbles|G1|<0.418459, -2.608746, 0.000000>|<-0.000005, 0.000004, -0.000003>|Left Hand
+PROP1 Bubbles|Bubble Wand|G1|<0.418459, -2.608746, 0.000000>|<0.000000, 0.000001, -0.000003>|Right Hand
+ANIM Blowjob 1|e-BJ+|5
+ANIM Blowjob 2|e-BJ+|5
+ANIM Blowjob 3|e-BJ+|5
+ANIM Blowjob 4|e-BJ+|5
+ANIM Lick 1|e-Moan+|5
+ANIM Lick 2|e-Moan+|5
+ANIM Lick 3|e-Moan+|5
+ANIM Lick 4|e-Moan+|5
+ANIM Finger 1|e-Moan+|5
+ANIM Finger 2|e-Moan+|5
+ANIM Finger 3|e-Moan+|5
+ANIM Finger 4|e-Moan+|5
+ANIM Back 1|e-Moan+|5
+ANIM Back 2|e-Moan+|5
+ANIM Back 3|e-Moan+|5
+ANIM Back 4|e-Moan+|5
+ANIM Front 1|e-Moan+|5
+ANIM Front 2|e-Moan+|5
+ANIM Front 3|e-Moan+|5
+ANIM Front 4|e-Moan+|5
+
+SITTER 1
+
+TOMENU SINGLES
+TOMENU DANCES
+TOMENU CUDDLES
+TOMENU ADULT
+BUTTON TEXTURES|0
+
+MENU SINGLES
+TOMENU STANDS
+TOMENU ACTIVITIES
+TOMENU FRIENDS
+
+MENU STANDS
+SYNC Stand 1|KbkB-StSingM1
+SYNC Stand 2|KbkB-StSingM2
+SYNC Stand 3|KbkB-StSingM3
+SYNC Stand 4|KbkB-StSingM4
+SYNC Stand 5|KbkB-StSingM6
+SYNC Stand 6|I'm Waiting
+
+MENU ACTIVITIES
+POSE Bubbles|M StandBubbles
+POSE Hand Stand|M StandHands
+POSE Look|M StandLook
+POSE Drink|KbkB-StSingF5
+POSE Read|M StandRead
+POSE Wild Cheer|MWH - Maniac Fan
+POSE Ponder|M WalkSad
+
+MENU FRIENDS
+POSE Laugh|Laugh
+POSE Talk 1|StandTalk1 M
+POSE Talk 2|StandTalk2 M
+
+MENU DANCES
+TOMENU SINGLE
+TOMENU SLOW DANCE
+TOMENU FAST DANCE
+
+MENU SINGLE
+POSE Burlesque|Burlesque
+POSE Smooth|Smooth
+POSE Easy|Easy
+POSE Lovin It|Lovin It
+POSE Flamenco|Flamenco
+POSE Samba|Samba
+POSE Salsa|Salsa
+POSE Jive|Jive
+POSE Belly Dance|Belly Dance
+POSE The Twist|The Twist
+POSE Bopping|Bopping
+
+MENU SLOW DANCE
+SEQUENCE SEQ SLOW
+SYNC Slow 1|M Amore1
+SYNC Slow 2|M Amore2
+SYNC Slow 3|M Amore3
+SYNC Slow 4|Slow 4M
+SYNC Slow 5|SwayM1
+
+MENU FAST DANCE
+SEQUENCE SEQ FAST
+SYNC Fast 1|COMBO1M
+SYNC Fast 2|COMBO3M
+SYNC Fast 3|COMBO4M
+SYNC Fast 4|COMBO5M
+SYNC Fast 5|COMBO2M
+
+MENU CUDDLES
+TOMENU CUDDLES A
+TOMENU CUDDLES B
+TOMENU CUDDLES C
+SEQUENCE SEQ ALL CUDDLES
+
+MENU CUDDLES A
+SEQUENCE SEQ CUDDLES A
+SYNC Cuddle 1|StdAdoreC M1
+SYNC Cuddle 2|StdAdoreC M2
+SYNC Cuddle 3|StdAdoreC M3
+SYNC Cuddle 4|StdAdoreC M4
+SYNC Cuddle 5|StdAdoreC M5
+SYNC Cuddle 6|StdAdoreC M6
+
+MENU CUDDLES B
+SEQUENCE SEQ CUDDLES B
+SYNC Cuddle 7|StdAdoreC M7
+SYNC Cuddle 8|StdAdoreC M8
+SYNC Cuddle 9|StdAdoreC M9
+SYNC Cuddle 10|StdAdoreC M10
+SYNC Cuddle 11|StdAdoreC M11
+SYNC Cuddle 12|StdAdoreC M12
+
+MENU CUDDLES C
+SEQUENCE SEQ CUDDLES C
+SYNC Cuddle 13|Stand Couple #2 - M
+SYNC Cuddle 14|Stand Couple #5 - M
+SYNC Cuddle 15|Stand Couple #6 - M
+SYNC Cuddle 16|Stand Couple #9 - M
+SYNC Cuddle 17|M EndlessLove2
+SYNC Cuddle 18|M BackToYou
+SYNC Cuddle 19|M Always&ForeverV2
+SYNC Cuddle 20|M WithoutYou
+SYNC Cuddle 21|M TheHeart
+
+MENU ADULT
+TOMENU FOR HIM
+TOMENU FOR HER
+TOMENU FRONT & BACK
+TOMENU CUM
+SEQUENCE SEQ ALL ADULT
+
+MENU FOR HIM
+SEQUENCE SEQ FOR HIM
+SYNC Handjob 1|StdAdoreHj M1
+SYNC Handjob 2|StdAdoreHj M2
+SYNC Handjob 3|StdAdoreHj M3
+SYNC Handjob 4|StdAdoreHj M4
+SYNC Blowjob 1|StdAdoreBj M1
+SYNC Blowjob 2|StdAdoreBj M2
+SYNC Blowjob 3|StdAdoreBj M3
+SYNC Blowjob 4|StdAdoreBj M4
+SYNC Blowjob 5|StdAdoreMisc M4
+
+MENU FOR HER
+SEQUENCE SEQ FOR HER
+SYNC Finger 1|StdAdoreFg M1
+SYNC Finger 2|StdAdoreFg M2
+SYNC Finger 3|StdAdoreFg M3
+SYNC Finger 4|StdAdoreFg M4
+SYNC Lick 1|StdAdoreLk M1
+SYNC Lick 2|StdAdoreLk M2
+SYNC Lick 3|StdAdoreLk M3
+SYNC Lick 4|StdAdoreLk M4
+
+MENU FRONT & BACK
+SEQUENCE SEQ FRONT & BACK
+SYNC Front 1|StdAdoreFrt M1
+SYNC Front 2|StdAdoreFrt M2
+SYNC Front 3|StdAdoreFrt M3
+SYNC Front 4|StdAdoreFrt M4
+SYNC Back 1|StdAdoreBk M1
+SYNC Back 2|StdAdoreBk M2
+SYNC Back 3|StdAdoreBk M3
+SYNC Back 4|StdAdoreBk M4
+SYNC Back 5|StdAdoreMisc M2
+SYNC Back 6|StdAdoreMisc M3
+
+MENU CUM
+SEQUENCE SEQ CUM
+SYNC Stroke|StdAdoreMisc M1
+SYNC Cum 1|StdAdoreCum M1
+SYNC Cum 2|StdAdoreCum M2
+SYNC Cum 3|StdAdoreCum M3
+SYNC Cum 4|StdAdoreCum M4
+{Stand 1}<0.614,0.389,1.439><0,0,-135>
+{Stand 2}<0.614,0.389,1.439><0,0,-135>
+{Stand 3}<0.614,0.389,1.439><0,0,-135>
+{Stand 4}<0.614,0.389,1.439><0,0,-135>
+{Stand 5}<0.614,0.389,1.439><0,0,-135>
+{Stand 6}<0.614,0.389,1.439><0,0,-135>
+{Bubbles}<0.614,0.389,1.439><0,0,-135>
+{Hand Stand}<0.614,0.389,1.439><0,0,-135>
+{Look}<0.614,0.389,1.439><0,0,45>
+{Drink}<0.614,0.389,1.439><0,0,-135>
+{Read}<0.614,0.389,1.439><0,0,-135>
+{Wild Cheer}<0.614,0.389,1.439><0,0,-135>
+{Ponder}<0.614,0.389,1.439><0,0,45>
+{Laugh}<0.614,0.389,1.439><0,0,-135>
+{Talk 1}<0.614,0.389,1.439><0,0,-135>
+{Talk 2}<0.614,0.389,1.439><0,0,-135>
+{Burlesque}<0.614,0.389,1.439><0,0,0>
+{Smooth}<0.614,0.389,1.439><0,0,-135>
+{Easy}<0.614,0.389,1.439><0,0,-135>
+{Lovin It}<0.614,0.389,1.439><0,0,-135>
+{Flamenco}<0.614,0.389,1.439><0,0,0>
+{Samba}<0.614,0.389,1.439><0,0,-135>
+{Salsa}<0.614,0.389,1.439><0,0,-135>
+{Jive}<0.614,0.389,1.439><0,0,-135>
+{Belly Dance}<0.614,0.389,1.439><0,0,-135>
+{The Twist}<0.614,0.389,1.439><0,0,-135>
+{Bopping}<0.614,0.389,1.439><0,0,-135>
+{Slow 1}<0.76,0.556,1.687><0,0,-180>
+{Slow 2}<0.7,0.48,1.664><0,0,-180>
+{Slow 3}<0.717,0.575,1.639><0,0,-180>
+{Slow 4}<0.462,0.657,1.239><0,0,-90>
+{Slow 5}<0.628,0.52,1.464><0,0,45>
+{Fast 1}<0.413,0.139,1.539><0,0,-180>
+{Fast 2}<0.898,0.165,1.422><0,0,-90>
+{Fast 3}<1.056,0.325,1.423><0,0,-180>
+{Fast 4}<0.834,0.385,1.45><0,0,-180>
+{Fast 5}<0.841,0.23,1.473><0,0,0>
+{Cuddle 1}<0.028,-0.533,1.404><0,0,90>
+{Cuddle 2}<0.028,-0.388,1.414><0,0,90>
+{Cuddle 3}<0.028,-0.073,1.445><0,0,-90>
+{Cuddle 4}<0.028,-0.482,1.322><0,0,90>
+{Cuddle 5}<0.028,-0.578,1.446><0,0,90>
+{Cuddle 6}<0.028,-0.651,1.341><0,0,90>
+{Cuddle 7}<0.001,-0.495,1.626><0,0,90>
+{Cuddle 8}<-0.003,-0.462,1.65><0,0,90>
+{Cuddle 9}<0.001,-0.515,1.554><0,0,90>
+{Cuddle 10}<0.001,-0.484,1.267><0,0,90>
+{Cuddle 11}<0.001,-0.547,1.438><0,0,90>
+{Cuddle 12}<0.001,-0.47,1.522><0,0,90>
+{Cuddle 13}<0,0,1.52><0,0,0>
+{Cuddle 14}<0,0,1.58><0,0,0>
+{Cuddle 15}<0,0,1.58><0,0,0>
+{Cuddle 16}<0,0,1.59><0,0,0>
+{Cuddle 17}<-0.077,-0.033,1.554><-0.1,1,0>
+{Cuddle 18}<-0.024,0.011,1.554><0.7,-1.9,3.1>
+{Cuddle 19}<0.049,-0.018,1.492><0.5,-1,0.1>
+{Cuddle 20}<0.036,-0.073,1.491><0.3,0,0.1>
+{Cuddle 21}<0.078,0.002,1.47><-0.1,4,0.1>
+{Handjob 1}<0.025,-0.463,1.311><0,0,90>
+{Handjob 2}<0.025,-0.57,1.397><0,0,90>
+{Handjob 3}<0.025,-0.259,1.347><0,0,90>
+{Handjob 4}<0.025,-0.209,1.41><0,0,90>
+{Blowjob 1}<0.075,-0.431,1.36><0,0,90>
+{Blowjob 2}<0.075,-0.757,1.581><0,0,90>
+{Blowjob 3}<0.075,-0.249,1.468><0,0,90>
+{Blowjob 4}<0.072,0.48,1.411><0,0,-90>
+{Blowjob 5}<0.088,0.296,1.728><0,0,90>
+{Finger 1}<-0.184,-0.331,1.383><0,0,90>
+{Finger 2}<-0.009,-0.671,1.514><0,0,90>
+{Finger 3}<-0.062,0.281,1.515><0,0,-90>
+{Finger 4}<-0.162,-0.803,0.864><0,0,90>
+{Lick 1}<0.075,-0.684,0.621><0,0,90>
+{Lick 2}<0.075,0.371,0.902><0,0,90>
+{Lick 3}<0.075,-0.591,1.067><0,0,90>
+{Lick 4}<0.073,0.658,1.361><0,0,-90>
+{Front 1}<-0.145,-0.352,1.352><0,0,90>
+{Front 2}<-0.145,-0.404,1.532><0,0,90>
+{Front 3}<-0.145,-0.278,1.445><0,0,90>
+{Front 4}<-0.145,-0.295,1.543><0,0,90>
+{Back 1}<0.091,-0.438,1.326><0,0,90>
+{Back 2}<-0.145,-0.17,1.514><0,0,90>
+{Back 3}<-0.145,-0.239,1.306><0,0,90>
+{Back 4}<-0.145,-0.309,1.509><0,0,90>
+{Back 5}<0.067,-0.484,0.861><0,0,90>
+{Back 6}<0.067,-0.463,1.321><0,0,90>
+{Stroke}<0.067,-0.222,1.382><0,0,90>
+{Cum 1}<0.109,-0.096,1.353><0,0,90>
+{Cum 2}<0.109,0.229,1.434><0,0,90>
+{Cum 3}<0.109,0.349,1.278><0,0,90>
+{Cum 4}<0.109,-0.777,1.461><0,0,90>
+PROP1 Drink|Green Glass of Lemonade|G1|<0.768462, -2.258747, 0.000000>|<-0.000002, 0.000003, -0.000003>|right_hand
+PROP1 Read|Book|G1|<0.768462, -2.258747, 0.000000>|<0.000000, 0.000000, 0.000000>|Left Hand
+PROP1 Bubbles|Jar of Bubbles|G1|<0.768462, -2.608745, 0.000000>|<-0.000005, 0.000004, -0.000003>|Left Hand
+PROP1 Bubbles|Bubble Wand|G1|<0.768463, -2.608746, 0.000000>|<0.000000, 0.000000, 0.000000>|Right Hand
+ANIM Blowjob 1|e-Moan-|5
+ANIM Blowjob 2|e-Moan-|5
+ANIM Blowjob 3|e-Moan-|5
+ANIM Blowjob 4|e-Moan-|5
+ANIM Lick 1|e-Tongue1|5
+ANIM Lick 2|e-Tongue1|5
+ANIM Lick 3|e-Tongue1|5
+ANIM Lick 4|e-Tongue1|5
+ANIM Back 1|e-Moan-|5
+ANIM Back 2|e-Moan-|5
+ANIM Back 3|e-Moan-|5
+ANIM Back 4|e-Moan-|5
+ANIM Front 1|e-Moan-|5
+ANIM Front 2|e-Moan-|5
+ANIM Front 3|e-Moan-|5
+ANIM Front 4|e-Moan-|5
