@@ -1,0 +1,254 @@
+SITTER 0
+
+TOMENU FEMALE
+TOMENU MALE
+TOMENU CUDDLES
+TOMENU ADULT
+BUTTON TEXTURES|0
+
+MENU FEMALE
+POSE Sit 1 F|Hanging3
+POSE Sit 2 F|Hanging1
+POSE Sit 3 F|Hanging2
+POSE Sit 4 F|Hanging4
+POSE Sit 5 F|F GrdSitSingles1
+POSE Sit 6 F|F GrdSitSingles2
+POSE Sit 7 F|F GrdSitSingles3
+POSE Sit 8 F|F GrdSitSingles7
+POSE Sit 9 F|F GrdSitSingles8
+POSE Sit 10 F|Sit #121_F
+POSE Sit 11 F|Sit #122_F
+POSE Sit 12 F|Sit #123_F
+
+MENU MALE
+POSE Sit 1 M|Hanging8
+POSE Sit 2 M|M GrdSitSingles1
+POSE Sit 3 M|M GrdSitSingles5
+POSE Sit 4 M|M GrdSitSingles6
+POSE Sit 5 M|M GrdSitSingles7
+POSE Sit 6 M|M GrdSitSingles8
+POSE Sit 7 M|Sit #124_M
+POSE Sit 8 M|Sit #126_M
+POSE Sit 9 M|Sit #127_M
+POSE Sit 10 M|Flat Surface Sit #9 - M
+POSE Sit 11 M|Flat Surface Sit #11 - M
+POSE Sit 12 M|Flat Surface Sit #12 - M
+
+MENU CUDDLES
+SEQUENCE SEQ CUDDLES
+SYNC Cuddle 1|KBKb-CGSC F1
+SYNC Cuddle 2|KBKb-CGSC F2
+SYNC Cuddle 3|KBKb-CGSC F3
+SYNC Cuddle 4|F GrdSitCudd2 Wine2
+SYNC Cuddle 5|Hanging9F
+SYNC Cuddle 6|Hanging11F
+SYNC Cuddle 7|Hanging10F
+SYNC Cuddle 8|Hanging13F
+SYNC Cuddle 9|Hanging14F
+ 
+MENU ADULT
+SEQUENCE SEQ ADULT
+SYNC Blow Job|KBKb-CGSA F6
+SYNC Boobs|KBKb-CGSA F7
+SYNC Ride 1|KBKb-PA F5
+SYNC Finger 1|KBKb-PA F1
+SYNC Finger 2|KBKb-PA F2
+SYNC Behind|F 2ChairAdt3
+SYNC Back|KBKb-PA F9
+SYNC Ride 2|F DCA5
+SYNC Cumming|BChCm F3
+{Sit 1 F}<0.598,-0.167,1.296><0,0,-10>
+{Sit 2 F}<0.519,-0.025,1.278><0,0,-5>
+{Sit 3 F}<0.633,-0.167,1.273><0,0,-22>
+{Sit 4 F}<0.108,0.157,1.296><0,0,153.6>
+{Sit 5 F}<0.194,0,0.952><0,0,0>
+{Sit 6 F}<0.039,0,0.952><0,0,0>
+{Sit 7 F}<0.039,0,0.952><0,0,0>
+{Sit 8 F}<0.077,-0.355,0.933><0,0,38>
+{Sit 9 F}<0.194,0,0.968><0,0,0>
+{Sit 10 F}<0.267,0.264,0.902><0,0,18>
+{Sit 11 F}<0.059,0,0.952><0,0,0>
+{Sit 12 F}<0.049,0,0.952><0,0,0>
+{Sit 1 M}<0.411,-0.015,1.323><0,0,5.6>
+{Sit 2 M}<-0.018,0,0.928><0,0,5.6>
+{Sit 3 M}<-0.116,0,0.848><0,0,0>
+{Sit 4 M}<0.119,0,0.912><0,0,0>
+{Sit 5 M}<0.08,0,0.912><0,0,0>
+{Sit 6 M}<-0.089,0,0.855><0,0,0>
+{Sit 7 M}<0.331,-0.25,0.888><0,0,24>
+{Sit 8 M}<0.22,0.379,0.845><0,0,-30>
+{Sit 9 M}<0.15,-0.019,0.878><0,0,0>
+{Sit 10 M}<-0.051,0,1.225><0,0,0>
+{Sit 11 M}<-0.051,0,1.225><0,0,0>
+{Sit 12 M}<-0.051,0,1.25><0,0,0>
+{Cuddle 1}<0.013,0.487,0.816><0,0,0>
+{Cuddle 2}<-0.359,0.159,0.955><0,0,45>
+{Cuddle 3}<-0.359,0.062,0.907><0,0,53>
+{Cuddle 4}<0.398,0,1.023><0,0,-90>
+{Cuddle 5}<0.082,0.091,1.269><0,0,180>
+{Cuddle 6}<0.473,-0.252,1.286><0,0,0>
+{Cuddle 7}<0.161,0.186,1.323><0,0,174>
+{Cuddle 8}<0.155,0.023,1.281><0,0,-168>
+{Cuddle 9}<0.176,0.023,1.347><0,0,-173>
+{Blow Job}<1.006,0.681,0.413><0,0,0>
+{Boobs}<1.006,0.681,0.413><0,0,0>
+{Ride 1}<0.373,-0.132,0.904><0,0,0>
+{Finger 1}<0.543,-0.054,0.828><0,6,0>
+{Finger 2}<0.432,-0.054,0.842><0,9,0>
+{Behind}<0.939,0.011,1.039><0,6,180>
+{Back}<0.49,-0.019,0.93><-0.1,0,0>
+{Ride 2}<0.39,-0.006,1.102><0,0,0>
+{Cumming}<1.142,-0.007,1.191><0,0,0>
+PROP1 Cuddle 4|Glass of Merlot R|G1|<0.403103, -0.152779, 1.288818>|<0.000000, 0.000000, 0.000000>|right_hand
+ANIM Sit 1 F|e_smile|-10|e_disdain|-10|e_bored|-10
+ANIM Sit 2 F|e_smile|-10|e_disdain|-10|e_bored|-10
+ANIM Sit 3 F|e_smile|-10|e_disdain|-10|e_bored|-10
+ANIM Sit 4 F|e_smile|-10|e_disdain|-10|e_bored|-10
+ANIM Sit 5 F|e_smile|-10|e_disdain|-10|e_bored|-10
+ANIM Sit 6 F|e_smile|-10|e_disdain|-10|e_bored|-10
+ANIM Sit 7 F|e_smile|-10|e_disdain|-10|e_bored|-10
+ANIM Sit 8 F|e_smile|-10|e_disdain|-10|e_bored|-10
+ANIM Sit 9 F|e_smile|-10|e_disdain|-10|e_bored|-10
+ANIM Sit 10 F|e_smile|-10|e_disdain|-10|e_bored|-10
+ANIM Sit 1 M|e_bored|-7|e_smile|-4|e_disdain|-5
+ANIM Sit 2 M|e_bored|-7|e_smile|-4|e_disdain|-5
+ANIM Sit 3 M|e_bored|-7|e_smile|-4|e_disdain|-5
+ANIM Sit 4 M|e_bored|-7|e_smile|-4|e_disdain|-5
+ANIM Sit 5 M|e_bored|-7|e_smile|-4|e_disdain|-5
+ANIM Sit 6 M|e_bored|-7|e_smile|-4|e_disdain|-5
+ANIM Sit 7 M|e_bored|-7|e_smile|-4|e_disdain|-5
+ANIM Sit 8 M|e_bored|-7|e_smile|-4|e_disdain|-5
+ANIM Sit 9 M|e_bored|-7|e_smile|-4|e_disdain|-5
+ANIM Sit 10 M|e_bored|-7|e_smile|-4|e_disdain|-5
+ANIM Cuddle 1|e_smile|-6|e_bored|-4|e_toothsmile|-7
+ANIM Cuddle 2|e_smile|-6|e_bored|-4|e_toothsmile|-7
+ANIM Cuddle 3|e_smile|-6|e_bored|-4|e_toothsmile|-7
+ANIM Cuddle 4|e_smile|-6|e_bored|-4|e_toothsmile|-7
+ANIM Cuddle 4|e-Wine #3 R|-
+ANIM Cuddle 5|e_smile|-6|e_bored|-4|e_toothsmile|-7
+ANIM Cuddle 6|e_smile|-6|e_bored|-4|e_toothsmile|-7
+ANIM Cuddle 7|e_smile|-6|e_bored|-4|e_toothsmile|-7
+ANIM Cuddle 8|e_smile|-6|e_bored|-4|e_toothsmile|-7
+ANIM Cuddle 9|e_smile|-6|e_bored|-4|e_toothsmile|-7
+ANIM Finger 1|e_open_mouth|3|e_cry|2
+ANIM Finger 2|e_open_mouth|3|e_cry|2
+ANIM Ride 1|e_open_mouth|3|e_cry|2
+ANIM Behind|e_open_mouth|3|e_cry|2
+ANIM Ride 2|e_open_mouth|3|e_cry|2
+ANIM Cumming|e_open_mouth|3|e-Rest Head|1
+
+SITTER 1
+ 
+TOMENU MALE
+TOMENU FEMALE
+TOMENU CUDDLES
+TOMENU ADULT
+BUTTON TEXTURES|0
+
+MENU MALE
+SYNC Stand 1 M|KbkB-StSingM1
+SYNC Stand 2 M|KbkB-StSingM2
+SYNC Stand 3 M|KbkB-StSingM3
+SYNC Stand 4 M|KbkB-StSingM4
+SYNC Stand 5 M|KbkB-StSingM5
+SYNC Stand 6 M|KbkB-StSingM6
+
+MENU FEMALE
+SYNC Stand 1 F|KbkB-StSingF1
+SYNC Stand 2 F|KbkB-StSingF2
+SYNC Stand 3 F|KbkB-StSingF3
+SYNC Stand 4 F|KbkB-StSingF4
+SYNC Stand 5 F|KbkB-StSingF5
+SYNC Stand 6 F|KbkB-StSingF6
+
+MENU CUDDLES
+SEQUENCE SEQ CUDDLES
+SYNC Cuddle 1|KBKb-CGSC M1
+SYNC Cuddle 2|KBKb-CGSC M2
+SYNC Cuddle 3|KBKb-CGSC M3
+SYNC Cuddle 4|M GrdSitCudd2 Wine2
+SYNC Cuddle 5|Hanging9M
+SYNC Cuddle 6|Hanging11M
+SYNC Cuddle 7|Hanging10M
+SYNC Cuddle 8|Hanging13M
+SYNC Cuddle 9|Hanging14M
+
+MENU ADULT
+SEQUENCE SEQ ADULT
+SYNC Blow Job|KBKb-CGSA M6
+SYNC Boobs|KBKb-CGSA M7
+SYNC Ride 1|KBKb-PA M5
+SYNC Finger 1|KBKb-PA M1
+SYNC Finger 2|KBKb-PA M2
+SYNC Behind|M 2ChairAdt3
+SYNC Back|KBKb-PA M9
+SYNC Ride 2|M DCA5
+SYNC Cumming|BChCm M3
+{Stand 1 M}<1.892,0,1.4><0,0,180>
+{Stand 2 M}<1.892,0,1.4><0,0,180>
+{Stand 3 M}<1.892,0,1.4><0,0,180>
+{Stand 4 M}<1.892,0,1.4><0,0,180>
+{Stand 5 M}<1.892,0,1.4><0,0,180>
+{Stand 6 M}<1.892,0,1.4><0,0,180>
+{Stand 1 F}<1.892,0,1.4><0,0,180>
+{Stand 2 F}<1.892,0,1.4><0,0,180>
+{Stand 3 F}<1.892,0,1.4><0,0,180>
+{Stand 4 F}<1.892,0,1.4><0,0,180>
+{Stand 5 F}<1.892,0,1.4><0,0,180>
+{Stand 6 F}<1.892,0,1.4><0,0,180>
+{Cuddle 1}<0.013,-0.604,0.816><0,0,0>
+{Cuddle 2}<0.412,-0.612,0.955><0,0,45>
+{Cuddle 3}<0.512,-0.594,0.907><0,0,53>
+{Cuddle 4}<0.398,0.224,1.062><0,0,-90>
+{Cuddle 5}<0.077,0.091,1.308><0,0,180>
+{Cuddle 6}<0.476,-0.245,1.323><0,0,0>
+{Cuddle 7}<0.158,0.18,1.36><0,0,174>
+{Cuddle 8}<0.154,0.015,1.318><0,0,-168>
+{Cuddle 9}<0.174,0.016,1.384><0,0,-173>
+{Blow Job}<1.006,-0.41,0.413><0,0,0>
+{Boobs}<1.006,-0.41,0.413><0,0,0>
+{Ride 1}<0.138,-0.132,0.904><0,9,0>
+{Finger 1}<0.309,-0.054,0.853><0,6,0>
+{Finger 2}<0.199,-0.054,0.879><0,9,0>
+{Behind}<1.28,0.012,1.011><0,6,180>
+{Back}<0.35,-0.019,1.04><-0.1,24,0>
+{Ride 2}<0.024,-0.007,1.102><0,0,0>
+{Cumming}<0.474,0,1.24><0,3,0>
+PROP1 Stand 3 M|Purple Glass of Lemonade|G1|<1.581379, 0.117333, 1.395508>|<0.000000, 0.000000, 0.000000>|right_hand
+PROP1 Stand 5 F|Purple Glass of Lemonade|G1|<1.523529, 0.000000, 1.229492>|<0.000000, 0.000000, 0.000000>|right_hand
+ANIM Stand 1 F|e_smile|-10|e_disdain|-10|e_bored|-10
+ANIM Stand 2 F|e_smile|-10|e_disdain|-10|e_bored|-10
+ANIM Stand 3 F|e_smile|-10|e_disdain|-10|e_bored|-10
+ANIM Sit 4 F|e_smile|-10|e_disdain|-10|e_bored|-10
+ANIM Stand 5 F|e_smile|-10|e_disdain|-10|e_bored|-10
+ANIM Stand 6 F|e_smile|-10|e_disdain|-10|e_bored|-10
+ANIM Stand 1 M|e_bored|-7|e_smile|-4|e_disdain|-5
+ANIM Stand 2 M|e_bored|-7|e_smile|-4|e_disdain|-5
+ANIM Stand 3 M|e_bored|-7|e_smile|-4|e_disdain|-5
+ANIM Stand 4 M|e_bored|-7|e_smile|-4|e_disdain|-5
+ANIM Stand 5 M|e_bored|-7|e_smile|-4|e_disdain|-5
+ANIM Stand 6 M|e_bored|-7|e_smile|-4|e_disdain|-5
+ANIM Cuddle 1|e_smile|-6|e_bored|-4|e_toothsmile|-7
+ANIM Cuddle 2|e_smile|-6|e_bored|-4|e_toothsmile|-7
+ANIM Cuddle 3|e_smile|-6|e_bored|-4|e_toothsmile|-7
+ANIM Cuddle 4|e_smile|-6|e_bored|-4|e_toothsmile|-7
+ANIM Cuddle 5|e_smile|-6|e_bored|-4|e_toothsmile|-7
+ANIM Cuddle 6|e_smile|-6|e_bored|-4|e_toothsmile|-7
+ANIM Cuddle 7|e_smile|-6|e_bored|-4|e_toothsmile|-7
+ANIM Cuddle 8|e_smile|-6|e_bored|-4|e_toothsmile|-7
+ANIM Cuddle 9|e_smile|-6|e_bored|-4|e_toothsmile|-7
+ANIM Cuddle 1|e_bored|-6|e_smile|-3|e_disdain|-6|e_smile|-5
+ANIM Cuddle 2|e_bored|-6|e_smile|-3|e_disdain|-6|e_smile|-5
+ANIM Cuddle 3|e_bored|-6|e_smile|-3|e_disdain|-6|e_smile|-5
+ANIM Cuddle 4|e_bored|-6|e_smile|-3|e_disdain|-6|e_smile|-5
+ANIM Cuddle 5|e_bored|-6|e_smile|-3|e_disdain|-6|e_smile|-5
+ANIM Cuddle 6|e_bored|-6|e_smile|-3|e_disdain|-6|e_smile|-5
+ANIM Cuddle 6|e_bored|-6|e_smile|-3|e_disdain|-6|e_smile|-5
+ANIM Cuddle 7|e_bored|-6|e_smile|-3|e_disdain|-6|e_smile|-5
+ANIM Cuddle 8|e_bored|-6|e_smile|-3|e_disdain|-6|e_smile|-5
+ANIM Cuddle 9|e_bored|-6|e_smile|-3|e_disdain|-6|e_smile|-5
+ANIM Finger 1|e_open_mouth|5|e_cry|2
+ANIM Finger 2|e_open_mouth|5|e_cry|2
+ANIM Ride 1|e_open_mouth|5|e_cry|2
+ANIM Behind|e_open_mouth|5|e_cry|2
+ANIM Cumming|e_open_mouth|5|e-Rest Head|1
