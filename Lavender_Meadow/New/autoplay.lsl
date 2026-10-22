@@ -16,11 +16,11 @@
 // Couples Female Sequence
 string COUPLES_POSE_F = "SEQ-CUDDLES";
 // Singles Female Sequence
-string SINGLES_POSE_F = "SEQ-SOLO-F1";
+string SINGLES_POSE_F = "SEQ-F-SOLO1";
 // Couples Male Sequence
 string COUPLES_POSE_M = "SEQ-CUDDLES";
 // Singles Male Sequence
-string SINGLES_POSE_M = "SEQ-SOLO-M1";
+string SINGLES_POSE_M = "SEQ-M-SOLO1";
 
 /******************************************************************
  * DON'T EDIT BELOW THIS UNLESS YOU KNOW WHAT YOU'RE DOING!
