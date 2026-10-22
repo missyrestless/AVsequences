@@ -1,0 +1,13 @@
+#!/bin/bash
+
+OUT="ff2-pos"
+
+rm -f ${OUT}
+touch ${OUT}
+
+grep -v ^SYNC avp > /tmp/avp$$
+cat ff2-list | while read i
+do
+  grep "$i" /tmp/avp$$ >> ${OUT}
+done
+rm -f /tmp/avp$$
