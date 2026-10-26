@@ -1,0 +1,683 @@
+"LOVERS PIER" AVsitter 2.2
+SWAP 1
+TEXT \n                                 Nerenzo\n                   Lovers Pier - adult version\n   \n    Press & hold Ctrl + s  to resync animations! \n
+ADJUST [INM API]|-99998|FACES|-31450010
+
+SITTER 0|Male|M
+
+TOMENU SINGLE
+TOMENU TALK
+TOMENU ACTIVITIES
+TOMENU CUDDLE
+TOMENU MASSAGE
+TOMENU EROTIC
+TOMENU OPTIONS
+
+MENU OPTIONS
+BUTTON TextureChanger
+BUTTON AdjustPoses
+BUTTON BentoFaces
+BUTTON LM2Store
+BUTTON Access-info
+BUTTON ITsNOTmine
+BUTTON Aeros - info
+BUTTON The P/V-info
+
+MENU HIDE
+SYNC 1|sS40
+
+MENU SINGLE
+POSE m-lay1|SL1
+POSE m-lay2|SL7
+POSE m-lay3|SL8
+POSE m-lay4|SL14
+POSE m-lay5|SL17
+POSE m-lay6|SL24
+POSE m-read|SL4
+POSE m-sit1|SE1
+POSE m-sit2|sS46
+POSE m-sit3|sS40
+
+MENU TALK
+SYNC talk1|SL16
+SYNC talk2|sS46
+SYNC talk3|sS40
+SYNC talk4|SL24
+SYNC talk5|TT8
+
+MENU ACTIVITIES
+SYNC coco drink|drm1
+SYNC play guitar|TT14
+SYNC cuddle&read|TT7
+SYNC strawberries|TT5
+SYNC grapes|TT6
+SYNC read|TT9
+SYNC tablet|TT10
+SYNC airplane1|TT12
+SYNC airplane2|TT13
+SYNC float|clm1
+
+MENU MASSAGE
+TOMENU MASSAGE HER
+TOMENU MASSAGE HIM
+
+MENU MASSAGE HER
+SYNC massage1|Mh1
+SYNC massage2|Mh2
+SYNC massage3|Mh3
+SYNC massage4|Mh4
+
+MENU MASSAGE HIM
+SYNC Massage1|MH1
+SYNC Massage2|MH2
+SYNC Massage3|MH3
+SYNC Massage4|MH4
+
+MENU CUDDLE
+TOMENU CUDDLE1
+TOMENU CUDDLE2
+TOMENU ON THE EDGE
+
+MENU CUDDLE1
+SYNC proud kiss|G1
+SYNC my moon|G3
+SYNC the way|G4
+SYNC not far|G5
+SYNC my home|G6
+SYNC still love|G12
+SYNC affection|G17
+SYNC forever|L4
+SYNC now & here|LK4
+SYNC memories|LK5
+
+MENU CUDDLE2
+SYNC tender|LK6
+SYNC neck pamper|L3
+SYNC just us|L8
+SYNC my magnet|L10
+SYNC our poetry|L12
+SYNC undetected|L13
+SYNC stuck on you|L28
+SYNC yong|L5
+SYNC vista|L36
+SYNC why worry|L34
+
+MENU ON THE EDGE
+SYNC same sun|C52
+SYNC union|C50
+SYNC minuet|C46
+SYNC pictures|C45
+SYNC 1000 years|C43
+SYNC beginning|C37
+SYNC last summer|C36
+
+MENU EROTIC
+TOMENU FOREPLAY
+TOMENU BLOWJOBS
+TOMENU TONGUEPLAY
+TOMENU EYE 2 EYE
+TOMENU FROM BEHIND
+TOMENU GIRL ON TOP
+TOMENU STANDING
+TOMENU BUTT STUFF
+TOMENU HARD SEX
+TOMENU CUM
+
+MENU FOREPLAY
+SYNC boobs play|E1
+SYNC boobsplay2|E2
+SYNC lovers start|P1
+SYNC wanky|H9
+SYNC slow fingers|F10-
+SYNC fast fingers|F14
+
+MENU BLOWJOBS
+SYNC open your m|B44
+SYNC own it|B28
+SYNC side blow|B25
+SYNC enjoy&play|B41
+
+MENU TONGUEPLAY
+SYNC pedal lick|XW5
+SYNC wet service|N1
+SYNC lick it|N19
+SYNC almost there|N18
+
+MENU EYE 2 EYE
+SYNC slow start|M15
+SYNC sexy service|XW6
+SYNC cock dump|M12
+SYNC the expat|V10
+SYNC staple|M1
+SYNC bridging|M14
+SYNC open pussy|M3
+
+MENU FROM BEHIND
+SYNC wet dog|XW7
+SYNC fucktastic|V26
+SYNC eifel|V2
+SYNC swing fuck|D9
+SYNC builder|D1
+SYNC hybrid|D7
+SYNC chilly dog|D12
+
+MENU GIRL ON TOP
+SYNC camel|R2
+SYNC fanta ride|R21+
+SYNC feather|R19
+SYNC tempo|R18
+SYNC butt view|R17
+SYNC jungle|R13
+SYNC pace|R10b
+SYNC sexy bitch|R5
+
+MENU STANDING
+SYNC leg up fuck|I11
+SYNC good moves|I24
+SYNC open pass|I22
+SYNC down fuck|I21
+SYNC strong arms|I20
+SYNC hot view|I19+
+SYNC getting in|I17+
+
+MENU BUTT STUFF
+SYNC shiverin'|XW8
+SYNC tower|A6
+SYNC reverse girl|A8
+SYNC tubing deep|A9
+
+MENU HARD SEX
+SYNC grab fuck|RO6+
+SYNC spectral|V4+
+SYNC easy task|M7+
+SYNC missione|M6+
+SYNC doggy up|D14
+SYNC back lance|D13+
+SYNC in and out|D3+
+SYNC sync fuck|R3+
+SYNC bearfuck|R6+
+SYNC tip fuck|R4+
+SYNC standbang|I2+
+SYNC I'm in|I4+
+SYNC let it drip|I23+
+
+MENU CUM|V
+SYNC milky way|H6
+SYNC pump on p|Z28+
+SYNC on knockers|Z15+
+TOMENU GET CLEAN
+
+MENU GET CLEAN
+SYNC clean&float|clm1
+{1}<-0.233,-0.789,0.615><0,0,-173>
+{m-lay1}<-0.148,0.323,0.641><0,0,-78>
+{m-lay2}<1.492,-0.233,0.244><-1.1,-1.7,146.2>
+{m-lay3}<-0.477,-0.213,0.44><0,0,-51>
+{m-lay4}<-0.154,-0.073,0.592><2,0.4,-79>
+{m-lay5}<-0.329,0.081,0.462><0,0,-91>
+{m-lay6}<-0.152,-0.126,0.816><0,0,106.5>
+{m-read}<-0.505,0.628,0.234><0,0,-66>
+{m-sit1}<-0.111,-0.657,0.79><0,0,-86.9>
+{m-sit2}<0.009,-0.499,0.366><0,0,-89>
+{m-sit3}<0.037,-0.677,0.583><0,0,-176.9>
+{talk1}<-0.227,0.512,0.43><-2,-0.3,-102>
+{talk2}<-0.399,-0.454,0.364><-5.2,-0.7,-82.9>
+{talk3}<-0.233,-0.789,0.615><0,0,-173>
+{talk4}<-0.152,-0.126,0.816><0,0,106.5>
+{talk5}<-0.318,-0.696,0.539><0,0,-85>
+{coco drink}<-0.381,0.52,0.372><0,0,-72>
+{play guitar}<-0.801,0,0.458><0,0,-48>
+{cuddle&read}<-0.663,0.543,0.367><-0.2,-3,-75>
+{strawberries}<0.012,-0.5,0.573><0,0,-75>
+{grapes}<0.093,-0.129,0.534><0,0,-59>
+{read}<0.374,-0.567,0.574><0,0,-49>
+{tablet}<-0.224,-0.191,0.585><0,0,-119>
+{airplane1}<0.004,0.199,0.565><0,0,-128>
+{airplane2}<-0.056,-0.235,0.531><0.7,-0.7,42.5>
+{float}<0.347,-2.15,-0.295><0,0,28>
+{massage1}<0.223,-0.294,0.475><0,0,140.6>
+{massage2}<0.223,-0.294,0.475><0,0,140.6>
+{massage3}<0.223,-0.294,0.475><0,0,140.6>
+{massage4}<0.223,-0.294,0.475><0,0,140.6>
+{Massage1}<0.348,0.174,0.51><0,0,172.5>
+{Massage2}<0.348,0.174,0.51><0,0,172.5>
+{Massage3}<0.348,0.174,0.51><0,0,172.5>
+{Massage4}<0.348,0.174,0.51><0,0,172.5>
+{proud kiss}<-0.784,0.192,0.44><-3,-0.4,-87>
+{my moon}<-0.428,-0.07,0.488><-4.7,3.4,-66.7>
+{the way}<-0.771,0.645,0.482><0,0,-78>
+{not far}<-0.603,0.481,0.449><1,0.2,-77>
+{my home}<-0.96,0.411,0.46><0,0,-78.7>
+{still love}<0.069,0.451,0.447><0,0,-155.6>
+{affection}<1.484,-0.207,0.247><0,0,147>
+{forever}<-0.362,0.355,0.5><1,-2.2,-102>
+{now & here}<-0.122,-0.259,0.568><0,0,-87>
+{memories}<-0.148,0.02,0.607><-1.9,1.6,-125>
+{tender}<-0.314,0.136,0.586><0,0,-77>
+{neck pamper}<-0.352,0.423,0.451><0,0,-90>
+{just us}<-0.751,-0.406,0.475><-0.5,0.9,-36>
+{my magnet}<-0.692,0.193,0.471><0,0,-75>
+{our poetry}<-0.752,0.218,0.47><-4,0,-90>
+{undetected}<-0.522,0.095,0.416><0,0,-63>
+{stuck on you}<0.424,-0.74,0.469><1.4,1.4,60>
+{yong}<0.149,0.635,0.426><-2.6,-2.1,-170.9>
+{vista}<-0.096,-0.144,0.567><0,0,-90>
+{why worry}<0.039,-0.388,0.543><-1.8,-0.9,-64>
+{same sun}<0.174,-0.528,0.713><0,0,-90>
+{union}<0.172,-0.707,0.81><0,0,-90>
+{minuet}<-0.267,-0.541,0.833><-1.5,-1.3,-50.6>
+{pictures}<0.228,-0.648,0.778><-0.1,1,-85.1>
+{1000 years}<0.059,-0.606,0.777><-4,-0.6,-82>
+{beginning}<-0.304,-0.838,0.382><0,-1.1,-84.5>
+{last summer}<-0.482,-0.763,0.428><0,0,-76>
+{boobs play}<-0.746,-0.031,0.417><-1.5,-1.3,-49>
+{boobsplay2}<0.243,-0.544,0.876><0,0,-88>
+{lovers start}<-0.14,0.439,0.499><0,0,175>
+{wanky}<-0.279,0.334,1.283><2.2,2.1,-84>
+{slow fingers}<-0.342,-0.689,0.577><0,0,-178>
+{fast fingers}<0.17,-0.114,0.659><0.9,-3.9,-167>
+{open your m}<-0.082,0.526,0.976><-1.6,1.2,-53.1>
+{own it}<0.093,-0.701,0.837><0,0,-89>
+{side blow}<0.103,-0.805,0.646><-0.2,2,96>
+{enjoy&play}<2.134,-0.925,1.247><0,0,130.7>
+{pedal lick}<0.05,-1.399,-0.03><-4,-0.4,96>
+{wet service}<0.451,-0.175,0.524><0,0,128>
+{lick it}<0.162,0.107,0.583><0,0,85.7>
+{almost there}<0.087,0.024,0.568><0,0,-104>
+{slow start}<-0.054,-0.336,0.592><-3.6,-1.7,-65.1>
+{sexy service}<0.216,-0.467,0.309><-0.8,-2,129.5>
+{cock dump}<-0.13,-0.186,0.516><6,0,-90>
+{the expat}<0.531,-0.75,0.477><0,0,73>
+{staple}<0.6,-0.225,0.468><0.6,0.8,143>
+{bridging}<-0.02,0.094,0.587><-3,-0.5,-80>
+{open pussy}<0.456,-1.237,0.521><-2,-0.4,11.2>
+{wet dog}<-0.002,-1.5,0.132><-5,-0,90>
+{fucktastic}<-0.257,-0.196,0.568><-1.6,1.1,-88.6>
+{eifel}<-0.451,-0.58,0.505><-3.8,-1.2,-73>
+{swing fuck}<-0.11,-0.189,0.584><0,0,128>
+{builder}<0.192,0.194,0.517><-0.6,-1.8,-170>
+{hybrid}<2.195,-0.713,0.697><-1.1,3.4,142.7>
+{chilly dog}<0.069,-0.234,0.565><-1.1,1,95.6>
+{camel}<-0.208,0.004,1.612><0.4,-0.9,-69>
+{fanta ride}<0.099,-1.036,0.93><-1.7,-2.2,-85.1>
+{feather}<-0.035,-0.324,0.576><-3,-0.4,-83>
+{tempo}<-0.225,-0.242,0.566><-1,-0.2,-76>
+{butt view}<-0.132,-0.298,0.589><0,0,-79>
+{jungle}<-0.49,-0.228,0.476><2,-0,-69.5>
+{pace}<-0.507,0.682,0.761><0,0,-68>
+{sexy bitch}<-0.593,0.089,0.481><0.2,-1.2,-72.7>
+{leg up fuck}<0.031,-0.292,1.558><0,0,-57>
+{good moves}<0.498,-0.363,1.58><0,0,-43>
+{open pass}<-0.002,-0.51,1.572><2.4,1.8,-52>
+{down fuck}<0.509,-0.036,1.568><0,0,8>
+{strong arms}<0.341,0,1.54><0,0,0>
+{hot view}<0.197,-0.075,1.561><0,0,-61>
+{getting in}<-0.045,-0.434,1.562><0,0,-47>
+{shiverin'}<-0.062,-0.032,0.273><2,0.2,-87>
+{tower}<-0.089,-0.11,0.621><-0.8,0.3,-70.5>
+{reverse girl}<-0.071,-0.164,0.566><-1,-0.3,-73>
+{tubing deep}<0.178,-0.298,1.617><0.8,1.6,-52.3>
+{grab fuck}<-0.109,-0.157,0.576><3,0,-90>
+{spectral}<-0.019,0.441,1.576><0,0,-90>
+{easy task}<-0.089,-0.199,0.314><0,0,135>
+{missione}<0.516,-0.436,0.474><-0.2,1,108>
+{doggy up}<-0.205,-0.125,1.436><-0.5,-1.7,-73.5>
+{back lance}<-0.109,-0.261,0.604><0,0,-88>
+{in and out}<0.008,-0.148,1.597><0,0,-90>
+{sync fuck}<-0.271,0.042,1.614><0,0,-60>
+{bearfuck}<-0.263,-0.331,0.492><0,0,0.8>
+{tip fuck}<-0.444,-0.034,0.445><1,0.3,-73.1>
+{standbang}<0.039,-0.426,1.542><0,0,70.6>
+{I'm in}<-0.231,0.186,1.578><-0.7,-0.7,-48>
+{let it drip}<0,0,1.563><0,0,-109>
+{milky way}<-0.266,0.049,0.202><0,0,-63>
+{pump on p}<-0.406,-0.664,0.836><-2.9,-0.7,-77>
+{on knockers}<-0.161,-0.153,0.561><-0.2,-1,166>
+{clean&float}<-0.011,-2.831,-0.245><-3.4,-2.8,-131>
+PROP Massage1|Nerenzo massage oil bottle|G1|<1.126515, -0.371606, 0.232548>|<0.000000, 0.000000, -31.000010>
+PROP Massage2|Nerenzo massage oil bottle|G1|<0.191212, -0.011421, 0.291761>|<0.000000, 0.000000, -31.000010>
+PROP Massage3|Nerenzo massage oil bottle|G1|<-0.293711, -0.791702, 0.335247>|<-2.062615, -3.427930, -31.061740>
+PROP Massage4|Nerenzo massage oil bottle|G1|<1.126515, -0.371606, 0.231495>|<0.000000, 0.000000, -31.000010>
+PROP play guitar|NEguitar|G1|<-0.935394, -0.144302, 0.692200>|<70.837800, 33.489370, -65.059520>
+PROP strawberries|strawberries1|G1|<0.356472, -0.206223, 0.239792>|<0.000000, 0.000000, 0.000000>
+PROP grapes|grapes|G1|<-0.695761, 0.148475, 0.232328>|<0.000000, 0.000000, -4.000008>
+PROP read|LoversPier book1|G1|<-0.158699, -0.232178, 0.714335>|<107.892800, -44.571300, -170.629000>
+PROP tablet|tablet2021|G1|<0.617535, -0.794945, 0.516552>|<-20.465600, -49.057460, -116.292400>
+PROP1 coco drink|Coconut-m-rh|G99|<-0.897865, 0.000000, 0.367420>|<0.000000, 0.000000, 39.000000>|right hand
+PROP m-read|LoversPier book1|G1|<-0.494088, 0.509813, 0.635571>|<109.074000, 18.982590, 173.582700>
+
+SITTER 1|Female1|F
+
+TOMENU SINGLE
+TOMENU TALK
+TOMENU ACTIVITIES
+TOMENU MASSAGE
+TOMENU CUDDLE
+TOMENU EROTIC
+TOMENU OPTIONS
+
+MENU OPTIONS
+BUTTON TextureChanger
+BUTTON AdjustPoses
+BUTTON BentoFaces
+BUTTON LM2Store
+BUTTON Access-info
+BUTTON ITsNOTmine
+BUTTON Aeros - info
+BUTTON The P/V-info
+
+MENU HIDE
+SYNC 1|sl26
+
+MENU SINGLE
+POSE f-lay1|sl24
+POSE f-lay2|sl17
+POSE f-lay3|sl15
+POSE f-lay4|sl11
+POSE f-lay5|sl10
+POSE f-lay6|sl8
+POSE f-drink|sl3
+POSE f-read|sl2
+
+MENU TALK
+SYNC talk1|sl6
+SYNC talk2|sl18
+SYNC talk3|sl26
+SYNC talk4|sl11
+SYNC talk5|tt8
+
+MENU ACTIVITIES
+SYNC coco drink|drf1
+SYNC play guitar|tt14
+SYNC cuddle&read|tt7
+SYNC strawberries|tt5
+SYNC grapes|tt6
+SYNC read|tt9
+SYNC tablet|tt10
+SYNC airplane1|tt12
+SYNC airplane2|tt13
+SYNC float|clf1
+
+MENU MASSAGE
+TOMENU MASSAGE HER
+TOMENU MASSAGE HIM
+
+MENU MASSAGE HER
+SYNC massage1|mh1
+SYNC massage2|mh2
+SYNC massage3|mh3
+SYNC massage4|mh4
+
+MENU MASSAGE HIM
+SYNC Massage1|mH1
+SYNC Massage2|mH2
+SYNC Massage3|mH3
+SYNC Massage4|mH4
+
+MENU CUDDLE
+TOMENU CUDDLE1
+TOMENU CUDDLE2
+TOMENU ON THE EDGE
+
+MENU CUDDLE1
+SYNC proud kiss|g1
+SYNC my moon|g3
+SYNC the way|g4
+SYNC not far|g5
+SYNC my home|g6
+SYNC still love|g12
+SYNC affection|g17
+SYNC forever|l4
+SYNC now & here|lk4
+SYNC memories|lk5
+
+MENU CUDDLE2
+SYNC tender|lk6
+SYNC neck pamper|l3
+SYNC just us|l8
+SYNC my magnet|l10
+SYNC our poetry|l12
+SYNC undetected|l13
+SYNC stuck on you|l28
+SYNC yong|l5
+SYNC vista|l36
+SYNC why worry|l34
+
+MENU ON THE EDGE
+SYNC same sun|c52
+SYNC union|c50
+SYNC minuet|c46
+SYNC pictures|c45
+SYNC 1000 years|c43
+SYNC beginning|c37
+SYNC last summer|c36
+
+MENU EROTIC
+TOMENU FOREPLAY
+TOMENU BLOWJOBS
+TOMENU TONGUEPLAY
+TOMENU EYE 2 EYE
+TOMENU FROM BEHIND
+TOMENU GIRL ON TOP
+TOMENU STANDING
+TOMENU BUTT STUFF
+TOMENU HARD SEX
+TOMENU CUM
+
+MENU FOREPLAY
+SYNC boobs play|e1
+SYNC boobsplay2|e2
+SYNC lovers start|p1
+SYNC wanky|h9
+SYNC slow fingers|f10-
+SYNC fast fingers|f14
+
+MENU BLOWJOBS
+SYNC open your m|b44
+SYNC own it|b28
+SYNC side blow|b25
+SYNC enjoy&play|b41
+
+MENU TONGUEPLAY
+SYNC pedal lick|xw5
+SYNC wet service|n1
+SYNC lick it|n19
+SYNC almost there|n18
+
+MENU EYE 2 EYE
+SYNC slow start|m15
+SYNC sexy service|xw6
+SYNC cock dump|m12
+SYNC the expat|v10
+SYNC staple|m1
+SYNC bridging|m14
+SYNC open pussy|m3
+
+MENU FROM BEHIND
+SYNC wet dog|xw7
+SYNC fucktastic|v26
+SYNC eifel|v2
+SYNC swing fuck|d9
+SYNC builder|d1
+SYNC hybrid|d7
+SYNC chilly dog|d12
+
+MENU GIRL ON TOP
+SYNC camel|r2
+SYNC fanta ride|r21+
+SYNC feather|r19
+SYNC tempo|r18
+SYNC butt view|r17
+SYNC jungle|r13
+SYNC pace|r10b
+SYNC sexy bitch|r5
+
+MENU STANDING
+SYNC leg up fuck|i11
+SYNC good moves|i24
+SYNC open pass|i22
+SYNC down fuck|i21
+SYNC strong arms|i20
+SYNC hot view|i19+
+SYNC getting in|i17+
+
+MENU BUTT STUFF
+SYNC shiverin'|xw8
+SYNC tower|a6
+SYNC reverse girl|a8
+SYNC tubing deep|a9
+
+MENU HARD SEX
+SYNC grab fuck|ro6+
+SYNC spectral|v4+
+SYNC easy task|m7+
+SYNC missione|m6+
+SYNC doggy up|d14
+SYNC back lance|d13+
+SYNC in and out|d3+
+SYNC sync fuck|r3+
+SYNC bearfuck|r6+
+SYNC tip fuck|r4+
+SYNC standbang|i2+
+SYNC I'm in|i4+
+SYNC let it drip|i23+
+
+MENU CUM|V
+SYNC milky way|h6
+SYNC pump on p|z28+
+SYNC on knockers|z15+
+TOMENU GET CLEAN
+
+MENU GET CLEAN
+SYNC clean&float|clm1
+{1}<0.362,0.198,1.205><0,0,-79>
+{f-lay1}<0.031,-0.291,0.763><0,0,-68.1>
+{f-lay2}<-0.438,-0.499,0.484><0,0,86>
+{f-lay3}<-0.308,0.342,0.572><1.5,1.3,-48>
+{f-lay4}<0.441,0.555,0.317><-3,1,-5.9>
+{f-lay5}<0.442,0.548,0.464><1.9,0.5,-77>
+{f-lay6}<-0.213,0,0.473><-0.1,-3,-1>
+{f-drink}<-0.34,0.226,0.198><0.3,0,-68>
+{f-read}<-0.376,0.265,0.219><0,0,-64>
+{talk1}<-0.626,0.006,0.202><0,0,-65>
+{talk2}<0.753,0.227,0.517><2,0,-90>
+{talk3}<0.362,0.198,1.205><0,0,-79>
+{talk4}<0.441,0.555,0.317><-3,1,-5.9>
+{talk5}<0.325,-0.746,0.463><0,0,-95>
+{coco drink}<0.09,0.673,0.372><0,0,-72>
+{play guitar}<-0.266,-0.46,0.47><0,0,61.9>
+{cuddle&read}<0.195,0.535,0.312><0.1,-4,-75>
+{strawberries}<0.106,-0.854,0.573><0,0,105>
+{grapes}<0.282,-0.443,0.534><0,0,121>
+{read}<0.614,-0.843,0.574><0,0,131>
+{tablet}<-0.401,-0.511,0.585><0,0,61>
+{airplane1}<-0.221,-0.089,0.565><0,0,52>
+{airplane2}<0.214,0.012,0.538><0.7,-0.7,-137.5>
+{float}<-0.528,-3.193,-0.289><1.1,1.7,147>
+{massage1}<-0.481,-1.151,0.475><0,0,140.6>
+{massage2}<-0.481,-1.151,0.475><0,0,140.6>
+{massage3}<-0.481,-1.151,0.475><0,0,140.6>
+{massage4}<-0.481,-1.151,0.475><0,0,140.6>
+{Massage1}<0.203,-0.926,0.51><0,0,172.5>
+{Massage2}<0.203,-0.926,0.51><0,0,172.5>
+{Massage3}<0.203,-0.926,0.51><0,0,172.5>
+{Massage4}<0.203,-0.926,0.51><0,0,172.5>
+{proud kiss}<0.305,0.249,0.445><-3,-0.4,-87>
+{my moon}<0.589,0.303,0.333><-4.7,3.4,-68.7>
+{the way}<0.296,0.872,0.482><0,0,-78>
+{not far}<0.46,0.726,0.449><1,0.2,-77>
+{my home}<0.11,0.624,0.419><0,0,-78.7>
+{still love}<0.525,-0.555,0.447><0,0,-155.6>
+{affection}<1.188,-0.015,0.247><0,0,147>
+{forever}<0.722,0.124,0.538><1,-2.2,-102>
+{now & here}<-0.103,-0.624,0.568><0,0,93>
+{memories}<-0.358,-0.28,0.622><-1.9,1.6,55>
+{tender}<-0.232,-0.221,0.586><0,0,103>
+{neck pamper}<0.755,0.423,0.485><0,-4,-90>
+{just us}<-0.099,0.491,0.457><-0.5,0.9,-36>
+{my magnet}<0.379,0.48,0.471><0,0,-75>
+{our poetry}<0.357,0.218,0.47><-4,0,-90>
+{undetected}<0.466,0.598,0.416><0,0,-63>
+{stuck on you}<-0.536,-0.184,0.471><3.1,0.4,60>
+{yong}<0.325,-0.459,0.482><-2.6,-2.1,-170.9>
+{vista}<-0.096,-0.51,0.536><0,0,90>
+{why worry}<0.199,-0.717,0.555><-1.8,-0.9,116>
+{same sun}<0.174,-0.95,0.678><0,0,-90>
+{union}<0.12,-1.18,0.81><0,0,-93>
+{minuet}<0.024,-0.895,0.85><-1.5,-1.3,-140.6>
+{pictures}<0.679,-0.61,0.771><-0.1,1,-175.1>
+{1000 years}<0.507,-0.543,0.777><-4,-0.6,-82>
+{beginning}<0.281,-0.782,0.393><0,-1.1,-84.5>
+{last summer}<0.216,-0.589,0.428><0,0,-76>
+{boobs play}<0.14,0.612,0.516><-3.8,-3.3,-49.1>
+{boobsplay2}<0.191,-0.969,0.876><0,0,92>
+{lovers start}<-0.236,-0.666,0.558><0.2,2,175>
+{wanky}<-0.353,0.558,1.162><2.2,2.1,-78>
+{slow fingers}<-0.005,-0.674,0.585><-1.9,1.6,180>
+{fast fingers}<-0.219,-0.194,0.678><-0.5,1.9,13>
+{open your m}<-0.328,-0.211,0.314><-1.6,1.2,53.8>
+{own it}<0.546,-0.692,0.837><0,0,-179>
+{side blow}<0.064,-0.441,0.646><-0.2,2,-84>
+{enjoy&play}<1.859,-0.605,1.247><0,0,130.7>
+{pedal lick}<0.044,-1.105,0.295><-4,-0.4,-84>
+{wet service}<-0.408,-0.847,0.541><-2.4,-1.8,128>
+{lick it}<0.189,0.472,0.583><0,0,-94.3>
+{almost there}<-0.002,-0.331,0.568><0,0,76>
+{slow start}<0.1,-0.667,0.618><-3.6,-1.7,114.9>
+{sexy service}<-0.098,-0.094,0.383><-5.5,-5.8,-50.8>
+{cock dump}<-0.13,-0.552,0.54><0,0,90>
+{the expat}<-0.53,-0.425,0.477><0,0,73>
+{staple}<-0.057,-1.096,0.468><0.6,0.8,143>
+{bridging}<0.043,-0.266,0.606><-3,-0.5,100>
+{open pussy}<0.241,-0.154,0.512><0,0,11.3>
+{wet dog}<-0.01,-1.149,0.108><-5,0,90>
+{fucktastic}<-0.248,-0.562,0.578><-1.6,1.1,91.4>
+{eifel}<0.637,-0.224,0.588><0,0,-78>
+{swing fuck}<-0.335,0.099,0.572><0,0,-52>
+{builder}<0.41,-0.875,0.55><-1.2,1.2,-170>
+{hybrid}<1.931,-0.541,0.774><-1.1,3.4,142.7>
+{chilly dog}<0.032,0.117,0.594><-0.1,1,-84.4>
+{camel}<-0.162,-0.096,1.502><0.4,-0.9,-69>
+{fanta ride}<0.102,-1.05,0.889><-1.7,-2.2,-85.1>
+{feather}<0.01,-0.688,0.527><-1,-0.1,97>
+{tempo}<-0.136,-0.597,0.572><-1,-0.2,104>
+{butt view}<-0.064,-0.649,0.629><0,0,101>
+{jungle}<0.549,0.161,0.489><2,-0,-69.5>
+{pace}<-0.402,0.501,0.692><0,0,-68>
+{sexy bitch}<0.466,0.424,0.44><0.2,-1.2,-72.7>
+{leg up fuck}<0.163,-0.569,1.559><0,0,123>
+{good moves}<0.498,-0.363,1.54><0,0,-43>
+{open pass}<-0.003,-0.509,1.532><2.4,1.8,-52>
+{down fuck}<0.509,-0.036,1.433><0,0,8>
+{strong arms}<0.341,0,1.465><0,0,0>
+{hot view}<0.197,-0.075,1.521><0,0,-61>
+{getting in}<-0.045,-0.434,1.598><0,0,-47>
+{shiverin'}<-0.049,-0.379,0.409><2,0.2,-87>
+{tower}<0.032,-0.455,0.607><-0.8,0.3,109.5>
+{reverse girl}<0.036,-0.514,0.572><-1,-0.3,107>
+{tubing deep}<0.36,-0.538,1.486><0.8,1.6,-52.3>
+{grab fuck}<-0.109,-0.507,0.564><9,0,90>
+{spectral}<-0.019,-0.464,1.473><0,0,90>
+{easy task}<-0.214,-0.074,0.2><0,0,-45>
+{missione}<-0.531,-0.801,0.493><-0.2,1,108>
+{doggy up}<-0.233,-0.136,1.378><-0.2,-2.5,-73.5>
+{back lance}<-0.096,-0.627,0.604><0,0,92>
+{in and out}<-0.016,-0.427,1.475><0,0,-90>
+{sync fuck}<-0.097,-0.249,1.494><0,0,120>
+{bearfuck}<-0.278,0.778,0.525><0,0,0.8>
+{tip fuck}<0.617,0.289,0.437><2.9,0.9,-73.1>
+{standbang}<0.057,-0.375,1.563><0,0,70.6>
+{I'm in}<0.015,-0.16,1.476><-0.7,-0.7,-39>
+{let it drip}<0,0,1.594><0,0,-109>
+{milky way}<0.244,0.079,1.441><0,0,-153>
+{pump on p}<-0.012,-0.518,0.905><1.1,-4.9,13.1>
+{on knockers}<-0.516,-0.064,0.543><0.3,0.9,-14>
+{clean&float}<1.521,-2.622,-0.313><0,0,-44.7>
+PROP massage1|Nerenzo massage oil bottle|G1|<0.755390, -0.613060, 0.314917>|<0.000000, -7.000000, 81.000000>
+PROP massage2|Nerenzo massage oil bottle|G1|<0.755390, -0.613060, 0.314917>|<0.000000, -7.000000, 81.000000>
+PROP massage3|Nerenzo massage oil bottle|G1|<-1.143709, -0.477463, 0.230766>|<0.000000, 0.000000, 81.000000>
+PROP massage4|Nerenzo massage oil bottle|G1|<0.755168, -0.613060, 0.316723>|<0.000000, -7.000001, 80.999990>
+PROP cuddle&read|LoversPier book1|G1|<-0.409264, 0.143654, 0.779198>|<117.800000, 21.800000, 171.900000>
+PROP1 coco drink|Coconut-f|G99|<0.861256, 0.000000, 0.332365>|<0.000000, 0.000000, 0.000000>|right hand
+PROP1 f-drink|Coconut-f|G99|<0.861256, 0.000000, 0.332365>|<0.000000, 0.000000, 0.000000>|right hand
+PROP f-read|LoversPier book1|G97|<-0.43957, 0.56085, 0.59442>|<119.63190, 17.55583, 170.26430>|
