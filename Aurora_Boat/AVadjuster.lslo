@@ -1,0 +1,1795 @@
+//start_unprocessed_text
+/*/*
+ * [AV]adjuster - Create a setup and an AVpos notecard from scratch
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * Copyright © the AVsitter Contributors (http://avsitter.github.io)
+ * AVsitter™ is a trademark. For trademark use policy see:
+ * https://avsitter.github.io/TRADEMARK.mediawiki
+ *
+ * Please consider supporting continued development of AVsitter and
+ * receive automatic updates and other benefits! All details and user
+ * instructions can be found at http://avsitter.github.io
+ *|/
+
+integer OLD_HELPER_METHOD;
+key key_request;
+string url = "https://avsitter.com/settings.php"; // the settings dump service remains up for AVsitter customers. settings clear periodically.
+string #version = "2.2p04";
+string helper_name = "[AV]helper";
+string prop_script = "[AV]prop";
+string expression_script = "[AV]faces";
+string camera_script = "[AV]camera";
+string main_script = "[AV]sitA";
+string notecard_name = "AVpos";
+list POS_LIST;
+list ROT_LIST;
+list HELPER_KEY_LIST;
+list SITTER_POSES;
+list SITTERS;
+integer sitter_count;
+integer end_count;
+integer verbose = 0;
+integer chat_channel = 5;
+integer helper_mode;
+integer comm_channel;
+integer listen_handle;
+integer active_sitter;
+key controller;
+integer menu_page;
+string adding;
+integer adding_item_type;
+string last_text;
+integer menu_pages;
+integer number_per_page = 9;
+list chosen_animations = [last_text]; //OSS::list chosen_animations; // Force error in LSO
+string cache;
+string webkey;
+integer webcount;
+string SEP = "�"; // OSS::string SEP = "\x7F";
+
+string FormatFloat(float f, integer num_decimals)
+{
+    f += ((integer)(f > 0) - (integer)(f < 0)) * ((float)(".5e-" + (string)num_decimals) - .5e-6);
+    string ret = llGetSubString((string)f, 0, num_decimals - (!num_decimals) - 7);
+    if (num_decimals)
+    {
+        num_decimals = -1;
+        while (llGetSubString(ret, num_decimals, num_decimals) == "0")
+        {
+            --num_decimals;
+        }
+        if (llGetSubString(ret, num_decimals, num_decimals) == ".")
+        {
+            --num_decimals;
+        }
+
+        return llGetSubString(ret, 0, num_decimals);
+    }
+    return ret;
+}
+
+web(integer force)
+{
+    if (llStringLength(llEscapeURL(cache)) > 1024 || force)
+    {
+        if (force)
+        {
+            cache += "\n\nend";
+        }
+        webcount++;
+        llHTTPRequest(url, [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded", HTTP_VERIFY_CERT, FALSE], "w=" + webkey + "&c=" + (string)webcount + "&t=" + llEscapeURL(cache));
+        cache = "";
+    }
+}
+
+Readout_Say(string say)
+{
+    string objectname = llGetObjectName();
+    llSetObjectName("");
+    llRegionSayTo(llGetOwner(), 0, "◆" + say);
+    llSetObjectName(objectname);
+    cache += say + "\n";
+    say = "";
+    web(FALSE);
+}
+
+stop_all_anims(key id)
+{
+    list animations = llGetAnimationList(id);
+    integer i;
+    for (i = 0; i < llGetListLength(animations); i++)
+    {
+        llMessageLinked(LINK_THIS, 90002, llList2String(animations, i), id);
+    }
+}
+
+list order_buttons(list buttons)
+{
+    return llList2List(buttons, -3, -1) + llList2List(buttons, -6, -4) + llList2List(buttons, -9, -7) + llList2List(buttons, -12, -10);
+}
+
+string strReplace(string str, string search, string replace)
+{
+    return llDumpList2String(llParseStringKeepNulls(str, [search], []), replace);
+}
+
+preview_anim(string anim, key id)
+{
+    if (id) // OSS::if (osIsUUID(id) && id != NULL_KEY)
+    {
+        stop_all_anims(id);
+        llMessageLinked(LINK_THIS, 90001, anim, id);
+    }
+}
+
+list get_choices()
+{
+    integer my_number_per_page = number_per_page;
+    if (adding == "[SYNC]" && sitter_count > 1)
+    {
+        my_number_per_page--;
+    }
+    list options;
+    integer i;
+    integer start = my_number_per_page * menu_page;
+    integer end = start + my_number_per_page;
+    if (adding == "[FACE]")
+    {
+        list facial_anim_list =
+            [ "none"
+            , "express_afraid_emote"
+            , "express_anger_emote"
+            , "express_laugh_emote"
+            , "express_bored_emote"
+            , "express_cry_emote"
+            , "express_embarrassed_emote"
+            , "express_sad_emote"
+            , "express_toothsmile"
+            , "express_smile"
+            , "express_surprise_emote"
+            , "express_worry_emote"
+            , "express_repulsed_emote"
+            , "express_shrug_emote"
+            , "express_wink_emote"
+            , "express_disdain"
+            , "express_frown"
+            , "express_kiss"
+            , "express_open_mouth"
+            , "express_tongue_out"
+            ];
+        i = llGetListLength(facial_anim_list);
+        options = llList2List(facial_anim_list, start, end - 1);
+    }
+    else
+    {
+        integer type = INVENTORY_ANIMATION;
+        if (adding == "[PROP]")
+        {
+            type = INVENTORY_OBJECT;
+        }
+        i = start;
+        while (i < end && i < llGetInventoryNumber(type))
+        {
+            if (llGetInventoryName(type, i) != helper_name)
+            {
+                options += llGetInventoryName(type, i);
+            }
+            i++;
+        }
+        i = llGetInventoryNumber(type);
+    }
+    menu_pages = llCeil((float)i / my_number_per_page);
+    return options;
+}
+
+ask_anim()
+{
+    choice_menu(get_choices(), "Choose anim" + sitter_text(sitter_count) + ":");
+}
+
+choice_menu(list options, string menu_text)
+{
+    last_text = menu_text;
+    menu_text = "\n(Page " + (string)(menu_page + 1) + "/" + (string)menu_pages + ")\n" + menu_text + "\n\n";
+    list menu_items;
+    integer i;
+    if (llGetListLength(options) == 0)
+    {
+        menu_text = "\nNo items of required type in prim inventory.";
+        menu_items = ["[BACK]"];
+    }
+    else
+    {
+        integer cutoff = 65;
+        integer all_options_length = llStringLength(llDumpList2String(options, ""));
+        integer total_need_to_cut = 412 - all_options_length;
+        if (total_need_to_cut < 0)
+        {
+            cutoff = 43;
+        }
+        for (i = 0; i < llGetListLength(options); i++)
+        {
+            menu_items += (string)(i + 1);
+            string item = llList2String(options, i);
+            if (llStringLength(item) > cutoff)
+            {
+                item = llGetSubString(item, 0, cutoff) + "..";
+            }
+            menu_text += (string)(i + 1) + "." + item + "\n";
+        }
+        if (adding == "[SYNC]" && sitter_count > 1)
+        {
+            menu_items += "[DONE]";
+        }
+        menu_items += ["[BACK]", "[<<]", "[>>]"];
+    }
+    llDialog(controller
+            , menu_text
+            , llList2List(menu_items, -3, -1)
+            + llList2List(menu_items, -6, -4)
+            + llList2List(menu_items, -9, -7)
+            + llList2List(menu_items, -12, -10)
+            , comm_channel
+            );
+}
+
+new_menu()
+{
+    menu_page = 0;
+    list menu_items = ["[BACK]", "[POSE]", "[SYNC]", "[SUBMENU]"];
+    if (llList2String(SITTER_POSES, active_sitter) != "")
+    {
+        menu_items += ["[PROP]", "[FACE]"];
+    }
+    menu_items += "[CAMERA]";
+    string menu_text = "\nWhat would you like to create?\n";
+    llDialog(controller
+            , menu_text
+            , llList2List(menu_items, -3, -1)
+            + llList2List(menu_items, -6, -4)
+            + llList2List(menu_items, -9, -7)
+            + llList2List(menu_items, -12, -10)
+            , comm_channel
+            );
+}
+
+end_helper_mode()
+{
+    llRegionSay(comm_channel, "DONEA");
+    helper_mode = FALSE;
+}
+
+Out(string out)
+{
+    llOwnerSay(llGetScriptName() + "[" + version + "] " + out);
+}
+
+integer get_number_of_scripts()
+{
+    integer i;
+    while (llGetInventoryType(main_script + " " + (string)(++i)) == INVENTORY_SCRIPT)
+        ;
+    return i;
+}
+
+string convert_to_world_positions(integer num)
+{
+    rotation target_rot = llEuler2Rot(llList2Vector(ROT_LIST, num) * DEG_TO_RAD) * llGetRot();
+    vector target_pos = llList2Vector(POS_LIST, num) * llGetRot() + llGetPos();
+    return (string)target_pos + "|" + (string)target_rot;
+}
+
+string sitter_text(integer sitter)
+{
+    return " for SITTER " + (string)sitter;
+}
+
+remove_script(string reason)
+{
+    string message = "\n" + llGetScriptName() + " ==Script Removed==\n\n" + reason;
+    llDialog(llGetOwner(), message, ["OK"], -3675);
+    llInstantMessage(llGetOwner(), message);
+    llRemoveInventory(llGetScriptName());
+}
+
+done_choosing_anims()
+{
+    string adding_text = llList2String(llParseString2List(adding, ["[", "]"], []), 0);
+    adding += "2";
+    integer i;
+    string text;
+    for (i = 0; i < llGetListLength(chosen_animations); i++)
+    {
+        text += "\nSITTER " + (string)i + ": " + llList2String(chosen_animations, i);
+    }
+    llTextBox(controller, "\nType a menu name for " + adding_text + text, comm_channel);
+}
+
+camera_menu()
+{
+    string text = "\nCamera:\n\n";
+    if (llGetInventoryType(camera_script) == INVENTORY_SCRIPT)
+    {
+        text += "(using [AV]camera scripts)";
+    }
+    else
+    {
+        text += "(prim property)";
+    }
+    llDialog(controller, text, ["[BACK]", "[SAVE]", "[CLEAR]"], comm_channel);
+}
+
+unsit_all()
+{
+    integer i = llGetNumberOfPrims();
+    while (llGetAgentSize(llGetLinkKey(i)) != ZERO_VECTOR)
+    {
+        stop_all_anims(llGetLinkKey(i));
+        llUnSit(llGetLinkKey(i));
+        i--;
+    }
+}
+
+toggle_helper_mode()
+{
+    helper_mode = !helper_mode;
+    if (helper_mode)
+    {
+        if (OLD_HELPER_METHOD)
+        {
+            unsit_all();
+        }
+        listen_handle = llListen(comm_channel, "", "", "");
+        integer i;
+        for (i = 0; i < llGetListLength(SITTERS); i++)
+        {
+            integer param = comm_channel + i * -1;
+            if (llGetListLength(SITTERS) == 1)
+            {
+                param = comm_channel + llGetLinkNumber() * -1;
+            }
+            vector offset = llList2Vector(POS_LIST, i);
+            if (llVecMag(offset) > 10)
+            {
+                offset = ZERO_VECTOR;
+            }
+            llRezAtRoot(helper_name, llGetPos() + offset * llGetRot(), ZERO_VECTOR, llEuler2Rot(llList2Vector(ROT_LIST, i) * DEG_TO_RAD) * llGetRot(), param);
+        }
+    }
+    else
+    {
+        end_helper_mode();
+    }
+}
+
+default
+{
+    state_entry()
+    {
+        if (llSubStringIndex(llGetScriptName(), " ") != -1)
+        {
+            remove_script("Use only one of this script!");
+        }
+        llListen(chat_channel, "", llGetOwner(), "");
+        comm_channel = ((integer)llFrand(99999) + 1) * 1000 * -1;
+        integer i;
+        while (i++ < get_number_of_scripts())
+        {
+            SITTERS += 0;
+            POS_LIST += 0;
+            ROT_LIST += 0;
+            HELPER_KEY_LIST += 0;
+            SITTER_POSES += "";
+        }
+        if (llGetListLength(SITTERS) == 1)
+        {
+            comm_channel -= 1000000000;
+        }
+    }
+
+    link_message(integer sender, integer num, string msg, key id)
+    {
+        integer one = (integer)msg;
+        integer two = (integer)((string)id);
+        integer i;
+        if (sender == llGetLinkNumber())
+        {
+            list data = llParseStringKeepNulls(msg, ["|"], []);
+            if (num == 90065)
+            {
+                i = llListFindList(SITTERS, [id]);
+                if (i != -1)
+                {
+                    SITTERS = llListReplaceList(SITTERS, [NULL_KEY], i, i);
+                }
+                return;
+            }
+            if (num == 90030)
+            {
+                SITTERS = llListReplaceList(SITTERS, [NULL_KEY], (integer)msg, (integer)msg);
+                SITTERS = llListReplaceList(SITTERS, [NULL_KEY], (integer)((string)id), (integer)((string)id));
+                if (OLD_HELPER_METHOD && helper_mode)
+                {
+                    i = llList2Integer(HELPER_KEY_LIST, (integer)msg);
+                    HELPER_KEY_LIST = llListReplaceList(HELPER_KEY_LIST, [llList2Integer(HELPER_KEY_LIST, (integer)((string)id))], (integer)msg, (integer)msg);
+                    HELPER_KEY_LIST = llListReplaceList(HELPER_KEY_LIST, [i], (integer)((string)id), (integer)((string)id));
+                    llRegionSay(comm_channel, "SWAP|" + (string)msg + "|" + (string)id);
+                }
+                return;
+            }
+            if (num == 90070)
+            {
+                SITTERS = llListReplaceList(SITTERS, [id], (integer)msg, (integer)msg);
+                return;
+            }
+            if (num == 90021)
+            {
+                integer script_channel = (integer)msg;
+                list scripts = [prop_script, expression_script, camera_script];
+                i = llListFindList(scripts, [(string)id]);
+                while (i < llGetListLength(scripts))
+                {
+                    i++;
+                    string lookfor = llList2String(scripts, i);
+                    if (lookfor == camera_script && script_channel > 0)
+                    {
+                        lookfor = lookfor + " " + (string)script_channel;
+                    }
+                    if (llGetInventoryType(lookfor) == INVENTORY_SCRIPT)
+                    {
+                        llMessageLinked(LINK_THIS, 90020, (string)script_channel, llList2String(scripts, i));
+                        return;
+                    }
+                }
+                if (llGetInventoryType(main_script + " " + (string)(script_channel + 1)) == INVENTORY_SCRIPT)
+                {
+                    llMessageLinked(LINK_THIS, 90020, (string)(script_channel + 1), "");
+                }
+                else
+                {
+                    Readout_Say("");
+                    Readout_Say("--✄--COPY ABOVE INTO \"AVpos\" NOTECARD--✄--");
+                    Readout_Say("");
+                    web(TRUE);
+                    llRegionSayTo(llGetOwner(), 0, "Settings copy: " + url + "?q=" + webkey);
+                }
+                return;
+            }
+            if (num == 90022)
+            {
+                if (llGetSubString(msg, 0, 3) == "S:M:" || llGetSubString(msg, 0, 3) == "S:T:")
+                {
+                    msg = strReplace(msg, "*||", "|");
+                }
+                if (llGetSubString(msg, 0, 1) == "V:")
+                {
+                    if (!(integer)((string)id))
+                    {
+                        webkey = (string)llGenerateKey();
+                        webcount = 0;
+                        Readout_Say("");
+                        Readout_Say("--✄--COPY BELOW INTO \"AVpos\" NOTECARD--✄--");
+                        Readout_Say("");
+                        Readout_Say("\"" + llToUpper(llGetObjectName()) + "\" " + strReplace(llList2String(data, 0), "V:", "AVsitter "));
+                        if (llList2Integer(data, 1))
+                        {
+                            Readout_Say("MTYPE " + llList2String(data, 1));
+                        }
+                        if (llList2Integer(data, 2) != 1)
+                        {
+                            Readout_Say("ETYPE " + llList2String(data, 2));
+                        }
+                        if (llList2Integer(data, 3) > -1)
+                        {
+                            Readout_Say("SET " + llList2String(data, 3));
+                        }
+                        if (llList2Integer(data, 4) != 2)
+                        {
+                            Readout_Say("SWAP " + llList2String(data, 4));
+                        }
+                        if (llList2String(data, 6) != "")
+                        {
+                            Readout_Say("TEXT " + strReplace(llList2String(data, 6), "\n", "\\n"));
+                        }
+                        if (llList2String(data, 7) != "")
+                        {
+                            Readout_Say("ADJUST " + strReplace(llList2String(data, 7), SEP, "|"));
+                        }
+                        if (llList2Integer(data, 8))
+                        {
+                            Readout_Say("SELECT " + llList2String(data, 8));
+                        }
+                        if (llList2Integer(data, 9) != 2)
+                        {
+                            Readout_Say("AMENU " + llList2String(data, 9));
+                        }
+                        if (llList2Integer(data, 10))
+                        {
+                            Readout_Say("HELPER " + llList2String(data, 10));
+                        }
+                    }
+                    Readout_Say("");
+                    if (llGetListLength(SITTERS) > 1 || llList2String(data, 5) != "")
+                    {
+                        string SITTER_TEXT;
+                        if (llList2String(data, 5) != "")
+                        {
+                            SITTER_TEXT = "|" + strReplace(llList2String(data, 5), SEP, "|");
+                        }
+                        Readout_Say("SITTER " + (string)id + SITTER_TEXT);
+                        Readout_Say("");
+                    }
+                    return;
+                }
+                else if (llGetSubString(msg, 0, 0) == "{")
+                {
+                    msg = strReplace(msg, "{P:", "{");
+                    list parts = llParseStringKeepNulls(llDumpList2String(llParseString2List(llGetSubString(msg, llSubStringIndex(msg, "}") + 1, 99999), [" "], [""]), ""), ["<"], []);
+                    vector pos2 = (vector)("<" + llList2String(parts, 1));
+                    vector rot2 = (vector)("<" + llList2String(parts, 2));
+                    string result = "<" + FormatFloat(pos2.x, 3) + "," + FormatFloat(pos2.y, 3) + "," + FormatFloat(pos2.z, 3) + ">";
+                    result += "<" + FormatFloat(rot2.x, 1) + "," + FormatFloat(rot2.y, 1) + "," + FormatFloat(rot2.z, 1) + ">";
+                    msg = llGetSubString(msg, 0, llSubStringIndex(msg, "}")) + result;
+                }
+                else if (llGetSubString(msg, 1, 1) == ":")
+                {
+                    msg = strReplace(msg, "S:P:", "POSE ");
+                    msg = strReplace(msg, "S:M:", "MENU ");
+                    msg = strReplace(msg, "S:T:", "TOMENU ");
+                    if (llGetSubString(msg, -6, -1) == "|90210")
+                    {
+                        msg = strReplace(msg, "S:B:", "SEQUENCE ");
+                        msg = strReplace(msg, "|90210", "");
+                    }
+                    else
+                    {
+                        msg = strReplace(msg, "S:B:", "BUTTON ");
+                        if (llSubStringIndex(msg, SEP) == -1)
+                        {
+                            msg = strReplace(msg, "|90200", "");
+                        }
+                    }
+                    msg = strReplace(msg, "S:", "SYNC ");
+                    msg = strReplace(msg, SEP, "|");
+                }
+                if (llGetSubString(msg, -1, -1) == "*")
+                {
+                    msg = llGetSubString(msg, 0, -2);
+                }
+                if (llGetSubString(msg, -1, -1) == "|")
+                {
+                    msg = llGetSubString(msg, 0, -2);
+                }
+                if (llGetSubString(msg, 0, 3) == "MENU")
+                {
+                    Readout_Say("");
+                }
+                Readout_Say(msg);
+            }
+            if (num == 90100 || num == 90101)
+            {
+                if ((msg = llList2String(data, 1)) == "[DUMP]")
+                {
+                    if (id != llGetOwner())
+                    {
+                        llRegionSayTo(id, 0, "Dumping settings to Owner");
+                    }
+                    llMessageLinked(LINK_THIS, 90020, "0", "");
+                }
+                if (msg == "[NEW]")
+                {
+                    controller = llList2Key(data, 2);
+                    active_sitter = llList2Integer(data, 0);
+                    adding = "";
+                    new_menu();
+                }
+                if (msg == "[SAVE]")
+                {
+                    for (i = 0; i < llGetListLength(SITTERS); i++)
+                    {
+                        if (llList2String(SITTER_POSES, i) != "")
+                        {
+                            string type = "SYNC";
+                            string temp_pose_name = llList2String(SITTER_POSES, i);
+                            if (llSubStringIndex(llList2String(SITTER_POSES, i), "P:") == 0)
+                            {
+                                type = "POSE";
+                                temp_pose_name = llGetSubString(temp_pose_name, 2, 99999);
+                            }
+                            llMessageLinked(LINK_THIS, 90301, (string)i, llList2String(SITTER_POSES, i) + "|" + llList2String(POS_LIST, i) + "|" + llList2String(ROT_LIST, i) + "|");
+                            vector pos = llList2Vector(POS_LIST, i);
+                            vector rot = llList2Vector(ROT_LIST, i);
+                            llSay(0, type + " Saved to memory " + sitter_text(i) + ": {" + temp_pose_name + "}" + llList2String(POS_LIST, i) + llList2String(ROT_LIST, i));
+                        }
+                    }
+                    llMessageLinked(LINK_THIS, 90005, "", llDumpList2String([llList2String(data, 2), id], "|"));
+                }
+                if (msg == "[HELPER]")
+                {
+                    controller = id;
+                    OLD_HELPER_METHOD = (integer)llList2String(data, 3);
+                    toggle_helper_mode();
+                }
+                if (msg == "[ADJUST]")
+                {
+                    end_helper_mode();
+                }
+                return;
+            }
+            if (num == 90055 || num == 90056)
+            {
+                data = llParseStringKeepNulls(id, ["|"], []);
+                SITTER_POSES = llListReplaceList(SITTER_POSES, [llList2String(data, 0)], one, one);
+                POS_LIST = llListReplaceList(POS_LIST, [(vector)llList2String(data, 2)], one, one);
+                ROT_LIST = llListReplaceList(ROT_LIST, [(vector)llList2String(data, 3)], one, one);
+                if (helper_mode)
+                {
+                    llRegionSay(comm_channel, "POS|" + (string)one + "|" + convert_to_world_positions(one) + "|" + (string)OLD_HELPER_METHOD + "|" + llList2String(SITTERS, one));
+                }
+            }
+        }
+    }
+
+    changed(integer change)
+    {
+        if (change & CHANGED_LINK)
+        {
+            if (OLD_HELPER_METHOD)
+            {
+                if (llGetAgentSize(llGetLinkKey(llGetNumberOfPrims())) != ZERO_VECTOR)
+                {
+                    end_helper_mode();
+                }
+            }
+            else if (llGetListLength(SITTERS) == 1 && llAvatarOnSitTarget() == NULL_KEY || llGetAgentSize(llGetLinkKey(llGetNumberOfPrims())) == ZERO_VECTOR)
+            {
+                end_helper_mode();
+            }
+        }
+        if (change & CHANGED_INVENTORY)
+        {
+            unsit_all();
+            end_helper_mode();
+            llResetScript();
+        }
+    }
+
+    run_time_permissions(integer perm)
+    {
+        if (llGetPermissions() & PERMISSION_TRACK_CAMERA)
+        {
+            llPlaySound("3d09f582-3851-c0e0-f5ba-277ac5c73fb4", 1.);
+            vector eye = (llGetCameraPos() - llGetPos()) / llGetRot();
+            vector at = eye + llRot2Fwd(llGetCameraRot() / llGetRot());
+            if (llGetInventoryType(camera_script) == INVENTORY_SCRIPT)
+            {
+                llMessageLinked(LINK_THIS, 90174, (string)active_sitter, (string)eye + "|" + (string)at);
+            }
+            else
+            {
+                llMessageLinked(LINK_THIS, 90011, (string)eye, (string)at);
+                llSay(0, "Camera property saved for all sitters in prim (takes effect next sit).");
+            }
+            camera_menu();
+        }
+    }
+
+    listen(integer chan, string name, key id, string msg)
+    {
+        if (chan == chat_channel)
+        {
+            if (msg == "cleanup")
+            {
+                llRegionSay(comm_channel, "DONEA");
+                Out("Cleaning \"" + llGetScriptName() + "\" and \"" + helper_name + "\" from prim " + (string)llGetLinkNumber());
+                if (llGetInventoryType(helper_name) == INVENTORY_OBJECT)
+                {
+                    llRemoveInventory(helper_name);
+                }
+                llRemoveInventory(llGetScriptName());
+            }
+            else if (msg == "targets")
+            {
+                llMessageLinked(LINK_THIS, 90298, "", "");
+            }
+            else if (msg == "helper")
+            {
+                if (llGetAgentSize(llGetLinkKey(llGetNumberOfPrims())) != ZERO_VECTOR)
+                {
+                    llMessageLinked(LINK_SET, 90100, "0|[HELPER]||" + (string)OLD_HELPER_METHOD, llList2Key(SITTERS, 0));
+                }
+            }
+        }
+        else if (id == controller)
+        {
+            if (msg == "[>>]")
+            {
+                menu_page++;
+                if (menu_page >= menu_pages)
+                {
+                    menu_page = 0;
+                }
+                choice_menu(get_choices(), last_text);
+            }
+            else if (msg == "[<<]")
+            {
+                menu_page--;
+                if (menu_page < 0)
+                {
+                    menu_page = menu_pages - 1;
+                }
+                choice_menu(get_choices(), last_text);
+            }
+            else if (msg == "[BACK]")
+            {
+                llMessageLinked(LINK_THIS, 90005, "", llDumpList2String([controller, llList2String(SITTERS, active_sitter)], "|"));
+            }
+            else if (msg == "[POSE]" || msg == "[SYNC]")
+            {
+                adding = msg;
+                chosen_animations = [];
+                sitter_count = active_sitter;
+                end_count = sitter_count;
+                if (msg == "[SYNC]")
+                {
+                    sitter_count = 0;
+                    end_count = llGetListLength(SITTERS) - 1;
+                }
+                ask_anim();
+            }
+            else if (msg == "[SUBMENU]")
+            {
+                adding = msg;
+                llTextBox(controller, "\n\nName your submenu:", comm_channel);
+            }
+            else if (msg == "[PROP]")
+            {
+                if (llGetInventoryType(prop_script) == INVENTORY_SCRIPT)
+                {
+                    adding = msg;
+                    choice_menu(get_choices(), "Choose your prop:");
+                }
+                else
+                {
+                    llSay(0, "For this you need the " + prop_script + " plugin script.");
+                    llMessageLinked(LINK_THIS, 90005, "", llDumpList2String([controller, llList2String(SITTERS, active_sitter)], "|"));
+                }
+            }
+            else if (msg == "[FACE]")
+            {
+                if (llGetInventoryType(expression_script) == INVENTORY_SCRIPT)
+                {
+                    adding = msg;
+                    choice_menu(get_choices(), "Choose your facial anim:");
+                }
+                else
+                {
+                    llSay(0, "For this you need the " + expression_script + " plugin script.");
+                    llMessageLinked(LINK_THIS, 90005, "", llDumpList2String([controller, llList2String(SITTERS, active_sitter)], "|"));
+                }
+            }
+            else if (msg == "[CAMERA]")
+            {
+                camera_menu();
+            }
+            else if (msg == "[CLEAR]")
+            {
+                integer i;
+                for (i = 0; i < llGetNumberOfPrims(); i++)
+                {
+                    llSetLinkCamera(i, ZERO_VECTOR, ZERO_VECTOR);
+                }
+                if (llGetInventoryType(camera_script) == INVENTORY_SCRIPT)
+                {
+                    llMessageLinked(LINK_THIS, 90174, (string)active_sitter, "none");
+                }
+                else
+                {
+                    llSay(0, "Camera property cleared from all prims (takes effect next sit).");
+                }
+                camera_menu();
+            }
+            else if (msg == "[SAVE]")
+            {
+                llRequestPermissions(id, PERMISSION_TRACK_CAMERA);
+            }
+            else if (llListFindList(["[DONE]", "1", "2", "3", "4", "5", "6", "7", "8", "9"], [msg]) != -1 && llListFindList(["[POSE]", "[SYNC]", "[SYNC]2", "[PROP]", "[FACE]"], [adding]) != -1)
+            {
+                string choice = llList2String(get_choices(), (integer)msg - 1);
+                if (adding == "[PROP]")
+                {
+                    integer perms = llGetInventoryPermMask(choice, MASK_NEXT);
+                    if ((perms & PERM_COPY) == 0)
+                    {
+                        llSay(0, "Could not add prop '" + choice + "'. Props and their content must be COPY-OK for NEXT owner.");
+                    }
+                    else
+                    {
+                        llMessageLinked(LINK_THIS, 90171, (string)active_sitter, choice);
+                    }
+                    llMessageLinked(LINK_THIS, 90005, "", llDumpList2String([controller, llList2String(SITTERS, active_sitter)], "|"));
+                }
+                else if (adding == "[FACE]")
+                {
+                    llMessageLinked(LINK_THIS, 90172, (string)active_sitter, choice);
+                    llMessageLinked(LINK_THIS, 90005, "", llDumpList2String([controller, llList2String(SITTERS, active_sitter)], "|"));
+                }
+                else if (msg == "[DONE]")
+                {
+                    done_choosing_anims();
+                }
+                else if (adding == "[SYNC]" || adding == "[POSE]")
+                {
+                    chosen_animations += choice;
+                    preview_anim(choice, llList2Key(SITTERS, sitter_count));
+                    sitter_count++;
+                    if (sitter_count > end_count)
+                    {
+                        done_choosing_anims();
+                    }
+                    else
+                    {
+                        ask_anim();
+                    }
+                }
+            }
+            else
+            {
+                msg = strReplace(msg, "\n", "");
+                msg = strReplace(msg, "|", "");
+                msg = llGetSubString(msg, 0, 22);
+                if (msg == "")
+                {
+                    llMessageLinked(LINK_THIS, 90005, "", llDumpList2String([controller, llList2String(SITTERS, active_sitter)], "|"));
+                }
+                else if (adding == "[SUBMENU]")
+                {
+                    llMessageLinked(LINK_THIS, 90300, (string)active_sitter, "T:" + msg + "*" + "||");
+                    llMessageLinked(LINK_THIS, 90300, (string)active_sitter, "M:" + msg + "*" + "||");
+                    llSay(0, "MENU Added: '" + msg + "'" + sitter_text(active_sitter));
+                    llMessageLinked(LINK_THIS, 90005, "", llDumpList2String([controller, llList2String(SITTERS, active_sitter)], "|"));
+                }
+                else if (adding == "[POSE]2" || adding == "[SYNC]2")
+                {
+                    integer start = 0;
+                    integer end = llGetListLength(chosen_animations);
+                    string type = "SYNC";
+                    string prefix;
+                    if (adding == "[POSE]2")
+                    {
+                        prefix = "P:";
+                        type = "POSE";
+                        start = active_sitter;
+                        end = active_sitter + 1;
+                    }
+                    integer x;
+                    integer i;
+                    for (i = start; i < end; i++)
+                    {
+                        llSay(0, type + " Added: '" + msg + "' using anim '" + llList2String(chosen_animations, x) + "' to SITTER " + (string)i);
+                        llMessageLinked(LINK_THIS, 90300, (string)i, prefix + msg + "|" + llList2String(chosen_animations, x) + "|" + llList2String(POS_LIST, i) + "|" + llList2String(ROT_LIST, i));
+                        x++;
+                    }
+                }
+                if (msg != "" && (adding == "[POSE]2" || adding == "[SYNC]2"))
+                {
+                    llMessageLinked(LINK_THIS, 90005, "", llDumpList2String([controller, llList2String(SITTERS, active_sitter)], "|"));
+                }
+            }
+        }
+        else if (llGetOwnerKey(id) == llGetOwner())
+        {
+            list data = llParseString2List(msg, ["|"], []);
+            integer num = llList2Integer(data, 1);
+            if (llList2String(data, 0) == "REG")
+            {
+                HELPER_KEY_LIST = llListReplaceList(HELPER_KEY_LIST, [id], num, num);
+                llRegionSay(comm_channel, "POS|" + (string)num + "|" + convert_to_world_positions(num) + "|" + (string)OLD_HELPER_METHOD + "|" + llList2String(SITTERS, num));
+            }
+            else if (llList2String(data, 0) == "MENU")
+            {
+                if (llList2Key(data, 2) == controller)
+                {
+                    llMessageLinked(LINK_SET, 90005, "", llDumpList2String([controller, llList2String(SITTERS, num)], "|"));
+                }
+            }
+            else if (llList2String(data, 0) == "MOVED")
+            {
+                rotation f = llGetRot();
+                vector target_rot = llRot2Euler((rotation)llList2String(data, 3) / f) * RAD_TO_DEG;
+                vector target_pos = ((vector)llList2String(data, 2) - llGetPos()) / f;
+                if ((string)target_pos != (string)llList2Vector(POS_LIST, num) || (string)target_rot != (string)llList2Vector(ROT_LIST, num))
+                {
+                    POS_LIST = llListReplaceList(POS_LIST, [target_pos], num, num);
+                    ROT_LIST = llListReplaceList(ROT_LIST, [target_rot], num, num);
+                    llMessageLinked(LINK_THIS, 90057, (string)num, (string)target_pos + "|" + (string)target_rot);
+                }
+            }
+            else if (OLD_HELPER_METHOD)
+            {
+                integer sitter = (integer)llGetSubString(name, llSubStringIndex(name, " ") + 1, 99999);
+                if (llList2String(data, 0) == "ANIMA")
+                {
+                    llMessageLinked(LINK_THIS, 90075, (string)sitter, llList2Key(data, 1));
+                }
+                else if (llList2String(data, 0) == "GETUP")
+                {
+                    llMessageLinked(LINK_THIS, 90076, (string)sitter, llList2Key(data, 1));
+                }
+            }
+        }
+    }
+
+    on_rez(integer x)
+    {
+        llResetScript();
+    }
+}
+*/
+//end_unprocessed_text
+//nfo_preprocessor_version 0
+//program_version LSL PyOptimizer v0.3.0beta
+//mono
+
+integer edefaultlink_message;
+list gG;
+list gM;
+list gA;
+list Library;
+list gH;
+integer gK;
+integer g_;
+integer gI;
+integer gN;
+integer IsSaveDue;
+key gD;
+integer UThread;
+string IsRestoring;
+string Pop;
+integer edefaultrez;
+list gL = [Pop];
+string System;
+string edefaultstate_entry;
+integer gJ;
+
+string _(float llGetInventoryPermMask, integer llToUpper)
+{
+    llGetInventoryPermMask = llGetInventoryPermMask + ((0 < llGetInventoryPermMask) + -(llGetInventoryPermMask < 0)) * (((float)-5e-07) + (float)(".5e-" + (string)llToUpper));
+    string loc_ret = llGetSubString((string)llGetInventoryPermMask, 0, ((integer)-7) + (llToUpper + -!llToUpper));
+    if (llToUpper)
+    {
+        llToUpper = ((integer)-1);
+        while (llGetSubString(loc_ret, llToUpper, llToUpper) == "0")
+        {
+            --llToUpper;
+        }
+        if (llGetSubString(loc_ret, llToUpper, llToUpper) == ".")
+        {
+            --llToUpper;
+        }
+        return llGetSubString(loc_ret, 0, llToUpper);
+    }
+    return loc_ret;
+}
+
+A(integer llGetInventoryPermMask)
+{
+    if (1024 < llStringLength(llEscapeURL(System)) | llGetInventoryPermMask)
+    {
+        if (llGetInventoryPermMask)
+        {
+            System = System + "\n\nend";
+        }
+        ++gJ;
+        llHTTPRequest("https://avsitter.com/settings.php", (list)0 + "POST" + 1 + "application/x-www-form-urlencoded" + 3 + 0, "w=" + edefaultstate_entry + "&c=" + (string)gJ + "&t=" + llEscapeURL(System));
+        System = "";
+    }
+}
+
+B(string llGetInventoryPermMask)
+{
+    string loc_objectname = llGetObjectName();
+    llSetObjectName("");
+    llRegionSayTo(llGetOwner(), 0, "◆" + llGetInventoryPermMask);
+    llSetObjectName(loc_objectname);
+    System = System + (llGetInventoryPermMask + "\n");
+    llGetInventoryPermMask = "";
+    A(0);
+}
+
+C(key llGetInventoryPermMask)
+{
+    list loc_animations = llGetAnimationList(llGetInventoryPermMask);
+    integer loc_i;
+    for (loc_i = 0; loc_i < (loc_animations != []); ++loc_i)
+    {
+        llMessageLinked(((integer)-4), 90002, llList2String(loc_animations, loc_i), llGetInventoryPermMask);
+    }
+}
+
+string D(string llGetInventoryPermMask, string llToUpper, string llPlaySound)
+{
+    return llDumpList2String(llParseStringKeepNulls(llGetInventoryPermMask, (list)llToUpper, []), llPlaySound);
+}
+
+E(string llGetInventoryPermMask, key llToUpper)
+{
+    if (llToUpper)
+    {
+        C(llToUpper);
+        llMessageLinked(((integer)-4), 90001, llGetInventoryPermMask, llToUpper);
+    }
+}
+
+list F()
+{
+    integer loc_my_number_per_page = 9;
+    if (IsRestoring == "[SYNC]" & 1 < gK)
+    {
+        --loc_my_number_per_page;
+    }
+    list loc_options;
+    integer loc_i;
+    integer loc_start = loc_my_number_per_page * UThread;
+    integer loc_end = loc_start + loc_my_number_per_page;
+    if (IsRestoring == "[FACE]")
+    {
+        list loc_facial_anim_list = (list)"none" + "express_afraid_emote" + "express_anger_emote" + "express_laugh_emote" + "express_bored_emote" + "express_cry_emote" + "express_embarrassed_emote" + "express_sad_emote" + "express_toothsmile" + "express_smile" + "express_surprise_emote" + "express_worry_emote" + "express_repulsed_emote" + "express_shrug_emote" + "express_wink_emote" + "express_disdain" + "express_frown" + "express_kiss" + "express_open_mouth" + "express_tongue_out";
+        loc_i = loc_facial_anim_list != [];
+        loc_options = llList2List(loc_facial_anim_list, loc_start, ~-loc_end);
+    }
+    else
+    {
+        integer loc_type = 20;
+        if (IsRestoring == "[PROP]")
+        {
+            loc_type = 6;
+        }
+        loc_i = loc_start;
+        while (loc_i < loc_end & loc_i < llGetInventoryNumber(loc_type))
+        {
+            if (!(llGetInventoryName(loc_type, loc_i) == "[AV]helper"))
+            {
+                loc_options = loc_options + llGetInventoryName(loc_type, loc_i);
+            }
+            ++loc_i;
+        }
+        loc_i = llGetInventoryNumber(loc_type);
+    }
+    edefaultrez = llCeil((float)loc_i / loc_my_number_per_page);
+    return loc_options;
+}
+
+G()
+{
+    H(F(), "Choose anim" + N(gK) + ":");
+}
+
+H(list llGetInventoryPermMask, string llToUpper)
+{
+    Pop = llToUpper;
+    llToUpper = "\n(Page " + (string)(-~UThread) + "/" + (string)edefaultrez + ")\n" + llToUpper + "\n\n";
+    list loc_menu_items;
+    integer loc_i;
+    if (llGetInventoryPermMask == [])
+    {
+        llToUpper = "\nNo items of required type in prim inventory.";
+        loc_menu_items = (list)"[BACK]";
+    }
+    else
+    {
+        integer loc_cutoff = 65;
+        integer loc_all_options_length = llStringLength((string)llGetInventoryPermMask);
+        integer loc_total_need_to_cut = 412 + -loc_all_options_length;
+        if (loc_total_need_to_cut < 0)
+        {
+            loc_cutoff = 43;
+        }
+        for (loc_i = 0; loc_i < (llGetInventoryPermMask != []); ++loc_i)
+        {
+            loc_menu_items = loc_menu_items + (string)(-~loc_i);
+            string loc_item = llList2String(llGetInventoryPermMask, loc_i);
+            if (loc_cutoff < llStringLength(loc_item))
+            {
+                loc_item = llGetSubString(loc_item, 0, loc_cutoff) + "..";
+            }
+            llToUpper = llToUpper + ((string)(-~loc_i) + "." + loc_item + "\n");
+        }
+        if (IsRestoring == "[SYNC]" & 1 < gK)
+        {
+            loc_menu_items = loc_menu_items + "[DONE]";
+        }
+        loc_menu_items = loc_menu_items + "[BACK]" + "[<<]" + "[>>]";
+    }
+    llDialog(gD, llToUpper, llList2List(loc_menu_items, ((integer)-3), ((integer)-1)) + llList2List(loc_menu_items, ((integer)-6), ((integer)-4)) + llList2List(loc_menu_items, ((integer)-9), ((integer)-7)) + llList2List(loc_menu_items, ((integer)-12), ((integer)-10)), gN);
+}
+
+I()
+{
+    UThread = 0;
+    list loc_menu_items = (list)"[BACK]" + "[POSE]" + "[SYNC]" + "[SUBMENU]";
+    if (!(llList2String(Library, IsSaveDue) == ""))
+    {
+        loc_menu_items = loc_menu_items + "[PROP]" + "[FACE]";
+    }
+    loc_menu_items = loc_menu_items + "[CAMERA]";
+    llDialog(gD, "\nWhat would you like to create?\n", llList2List(loc_menu_items, ((integer)-3), ((integer)-1)) + llList2List(loc_menu_items, ((integer)-6), ((integer)-4)) + llList2List(loc_menu_items, ((integer)-9), ((integer)-7)) + llList2List(loc_menu_items, ((integer)-12), ((integer)-10)), gN);
+}
+
+J()
+{
+    llRegionSay(gN, "DONEA");
+    gI = 0;
+}
+
+K(string llGetInventoryPermMask)
+{
+    llOwnerSay(llGetScriptName() + "[2.2p04] " + llGetInventoryPermMask);
+}
+
+integer L()
+{
+    integer loc_i;
+    do
+        ;
+    while (llGetInventoryType("[AV]sitA " + (string)(++loc_i)) == 10);
+    return loc_i;
+}
+
+string M(integer llGetInventoryPermMask)
+{
+    rotation loc_target_rot = llEuler2Rot(llList2Vector(gM, llGetInventoryPermMask) * 0.017453292) * llGetRot();
+    vector loc_target_pos = llList2Vector(gG, llGetInventoryPermMask) * llGetRot() + llGetPos();
+    return (string)loc_target_pos + "|" + (string)loc_target_rot;
+}
+
+string N(integer llGetInventoryPermMask)
+{
+    return " for SITTER " + (string)llGetInventoryPermMask;
+}
+
+O(string llGetInventoryPermMask)
+{
+    string loc_message = "\n" + llGetScriptName() + " ==Script Removed==\n\n" + llGetInventoryPermMask;
+    llDialog(llGetOwner(), loc_message, [], ((integer)-3675));
+    llInstantMessage(llGetOwner(), loc_message);
+    llRemoveInventory(llGetScriptName());
+}
+
+P()
+{
+    string loc_adding_text = llList2String(llParseString2List(IsRestoring, (list)"[" + "]", []), 0);
+    IsRestoring = IsRestoring + "2";
+    integer loc_i;
+    string loc_text;
+    for (loc_i = 0; loc_i < (gL != []); ++loc_i)
+    {
+        loc_text = loc_text + ("\nSITTER " + (string)loc_i + ": " + llList2String(gL, loc_i));
+    }
+    llTextBox(gD, "\nType a menu name for " + loc_adding_text + loc_text, gN);
+}
+
+Q()
+{
+    string loc_text = "\nCamera:\n\n";
+    if (llGetInventoryType("[AV]camera") ^ 10)
+    {
+        loc_text = loc_text + "(prim property)";
+    }
+    else
+    {
+        loc_text = loc_text + "(using [AV]camera scripts)";
+    }
+    llDialog(gD, loc_text, (list)"[BACK]" + "[SAVE]" + "[CLEAR]", gN);
+}
+
+R()
+{
+    integer loc_i = llGetNumberOfPrims();
+    while (!(llGetAgentSize(llGetLinkKey(loc_i)) == <((float)0), ((float)0), ((float)0)>))
+    {
+        C(llGetLinkKey(loc_i));
+        llUnSit(llGetLinkKey(loc_i));
+        --loc_i;
+    }
+}
+
+S()
+{
+    gI = !gI;
+    if (gI)
+    {
+        if (edefaultlink_message)
+        {
+            R();
+        }
+        llListen(gN, "", "", "");
+        integer loc_i;
+        for (loc_i = 0; loc_i < (gH != []); ++loc_i)
+        {
+            integer loc_param = gN + -loc_i;
+            if (!~-(gH != []))
+            {
+                loc_param = gN + -llGetLinkNumber();
+            }
+            vector loc_offset = llList2Vector(gG, loc_i);
+            if (10 < llVecMag(loc_offset))
+            {
+                loc_offset = <((float)0), ((float)0), ((float)0)>;
+            }
+            llRezAtRoot("[AV]helper", llGetPos() + loc_offset * llGetRot(), <((float)0), ((float)0), ((float)0)>, llEuler2Rot(llList2Vector(gM, loc_i) * 0.017453292) * llGetRot(), loc_param);
+        }
+    }
+    else
+    {
+        J();
+    }
+}
+
+default
+{
+    state_entry()
+    {
+        if (~llSubStringIndex(llGetScriptName(), " "))
+        {
+            O("Use only one of this script!");
+        }
+        llListen(5, "", llGetOwner(), "");
+        gN = ~(integer)llFrand(99999) * 1000;
+        integer loc_i;
+        while (loc_i++ < L())
+        {
+            gH = gH + 0;
+            gG = gG + 0;
+            gM = gM + 0;
+            gA = gA + 0;
+            Library = Library + "";
+        }
+        if (!~-(gH != []))
+        {
+            gN = ((integer)-1000000000) + gN;
+        }
+    }
+
+    link_message(integer llGetInventoryPermMask, integer llToUpper, string llPlaySound, key llGetOwnerKey)
+    {
+        integer loc_one = (integer)llPlaySound;
+        integer loc_i;
+        if (llGetInventoryPermMask == llGetLinkNumber())
+        {
+            list loc_data = llParseStringKeepNulls(llPlaySound, (list)"|", []);
+            if (llToUpper == 90065)
+            {
+                loc_i = llListFindList(gH, (list)llGetOwnerKey);
+                if (~loc_i)
+                {
+                    gH = llListReplaceList(gH, (list)"00000000-0000-0000-0000-000000000000", loc_i, loc_i);
+                }
+                return;
+            }
+            if (llToUpper == 90030)
+            {
+                gH = llListReplaceList(gH, (list)"00000000-0000-0000-0000-000000000000", (integer)llPlaySound, (integer)llPlaySound);
+                gH = llListReplaceList(gH, (list)"00000000-0000-0000-0000-000000000000", (integer)((string)llGetOwnerKey), (integer)((string)llGetOwnerKey));
+                if (!(!edefaultlink_message | !gI))
+                {
+                    loc_i = llList2Integer(gA, (integer)llPlaySound);
+                    gA = llListReplaceList(gA, (list)llList2Integer(gA, (integer)((string)llGetOwnerKey)), (integer)llPlaySound, (integer)llPlaySound);
+                    gA = llListReplaceList(gA, (list)loc_i, (integer)((string)llGetOwnerKey), (integer)((string)llGetOwnerKey));
+                    llRegionSay(gN, "SWAP|" + llPlaySound + "|" + (string)llGetOwnerKey);
+                }
+                return;
+            }
+            if (llToUpper == 90070)
+            {
+                gH = llListReplaceList(gH, (list)llGetOwnerKey, (integer)llPlaySound, (integer)llPlaySound);
+                return;
+            }
+            if (llToUpper == 90021)
+            {
+                integer loc_script_channel = (integer)llPlaySound;
+                list loc_scripts = (list)"[AV]prop" + "[AV]faces" + "[AV]camera";
+                loc_i = llListFindList(loc_scripts, (list)((string)llGetOwnerKey));
+                while (loc_i < (loc_scripts != []))
+                {
+                    ++loc_i;
+                    string loc_lookfor = llList2String(loc_scripts, loc_i);
+                    if (loc_lookfor == "[AV]camera" & 0 < loc_script_channel)
+                    {
+                        loc_lookfor = loc_lookfor + " " + (string)loc_script_channel;
+                    }
+                    if (llGetInventoryType(loc_lookfor) == 10)
+                    {
+                        llMessageLinked(((integer)-4), 90020, (string)loc_script_channel, llList2String(loc_scripts, loc_i));
+                        return;
+                    }
+                }
+                if (llGetInventoryType("[AV]sitA " + (string)(-~loc_script_channel)) ^ 10)
+                {
+                    B("");
+                    B("--✄--COPY ABOVE INTO \"AVpos\" NOTECARD--✄--");
+                    B("");
+                    A(1);
+                    llRegionSayTo(llGetOwner(), 0, "Settings copy: https://avsitter.com/settings.php?q=" + edefaultstate_entry);
+                }
+                else
+                {
+                    llMessageLinked(((integer)-4), 90020, (string)(-~loc_script_channel), "");
+                }
+                return;
+            }
+            if (llToUpper == 90022)
+            {
+                if (llGetSubString(llPlaySound, 0, 3) == "S:M:" | llGetSubString(llPlaySound, 0, 3) == "S:T:")
+                {
+                    llPlaySound = D(llPlaySound, "*|", "|");
+                }
+                if (llGetSubString(llPlaySound, 0, 1) == "V:")
+                {
+                    if (!(integer)((string)llGetOwnerKey))
+                    {
+                        edefaultstate_entry = (string)llGenerateKey();
+                        gJ = 0;
+                        B("");
+                        B("--✄--COPY BELOW INTO \"AVpos\" NOTECARD--✄--");
+                        B("");
+                        B("\"" + llToUpper(llGetObjectName()) + "\" " + D(llList2String(loc_data, 0), "V:", "AVsitter "));
+                        if (llList2Integer(loc_data, 1))
+                        {
+                            B("MTYPE " + llList2String(loc_data, 1));
+                        }
+                        if (~-llList2Integer(loc_data, 2))
+                        {
+                            B("ETYPE " + llList2String(loc_data, 2));
+                        }
+                        if (((integer)-1) < llList2Integer(loc_data, 3))
+                        {
+                            B("SET " + llList2String(loc_data, 3));
+                        }
+                        if (llList2Integer(loc_data, 4) ^ 2)
+                        {
+                            B("SWAP " + llList2String(loc_data, 4));
+                        }
+                        if (!(llList2String(loc_data, 6) == ""))
+                        {
+                            B("TEXT " + D(llList2String(loc_data, 6), "\n", "\\n"));
+                        }
+                        if (!(llList2String(loc_data, 7) == ""))
+                        {
+                            B("ADJUST " + D(llList2String(loc_data, 7), "�", "|"));
+                        }
+                        if (llList2Integer(loc_data, 8))
+                        {
+                            B("SELECT " + llList2String(loc_data, 8));
+                        }
+                        if (llList2Integer(loc_data, 9) ^ 2)
+                        {
+                            B("AMENU " + llList2String(loc_data, 9));
+                        }
+                        if (llList2Integer(loc_data, 10))
+                        {
+                            B("HELPER " + llList2String(loc_data, 10));
+                        }
+                    }
+                    B("");
+                    if (!((gH != []) < 2 & llList2String(loc_data, 5) == ""))
+                    {
+                        string loc_SITTER_TEXT;
+                        if (!(llList2String(loc_data, 5) == ""))
+                        {
+                            loc_SITTER_TEXT = "|" + D(llList2String(loc_data, 5), "�", "|");
+                        }
+                        B("SITTER " + (string)llGetOwnerKey + loc_SITTER_TEXT);
+                        B("");
+                    }
+                    return;
+                }
+                else if (llGetSubString(llPlaySound, 0, 0) == "{")
+                {
+                    llPlaySound = D(llPlaySound, "{P:", "{");
+                    list loc_parts = llParseStringKeepNulls((string)llParseString2List(llGetSubString(llPlaySound, -~llSubStringIndex(llPlaySound, "}"), 99999), (list)" ", (list)""), (list)"<", []);
+                    vector loc_pos2 = (vector)("<" + llList2String(loc_parts, 1));
+                    vector loc_rot2 = (vector)("<" + llList2String(loc_parts, 2));
+                    string loc_result = "<" + _(loc_pos2.x, 3) + "," + _(loc_pos2.y, 3) + "," + _(loc_pos2.z, 3) + ">";
+                    loc_result = loc_result + ("<" + _(loc_rot2.x, 1) + "," + _(loc_rot2.y, 1) + "," + _(loc_rot2.z, 1) + ">");
+                    llPlaySound = llGetSubString(llPlaySound, 0, llSubStringIndex(llPlaySound, "}")) + loc_result;
+                }
+                else if (llGetSubString(llPlaySound, 1, 1) == ":")
+                {
+                    llPlaySound = D(llPlaySound, "S:P:", "POSE ");
+                    llPlaySound = D(llPlaySound, "S:M:", "MENU ");
+                    llPlaySound = D(llPlaySound, "S:T:", "TOMENU ");
+                    if (llGetSubString(llPlaySound, ((integer)-6), ((integer)-1)) == "|90210")
+                    {
+                        llPlaySound = D(llPlaySound, "S:B:", "SEQUENCE ");
+                        llPlaySound = D(llPlaySound, "|90210", "");
+                    }
+                    else
+                    {
+                        llPlaySound = D(llPlaySound, "S:B:", "BUTTON ");
+                        if (!~llSubStringIndex(llPlaySound, "�"))
+                        {
+                            llPlaySound = D(llPlaySound, "|90200", "");
+                        }
+                    }
+                    llPlaySound = D(llPlaySound, "S:", "SYNC ");
+                    llPlaySound = D(llPlaySound, "�", "|");
+                }
+                if (llGetSubString(llPlaySound, ((integer)-1), ((integer)-1)) == "*")
+                {
+                    llPlaySound = llGetSubString(llPlaySound, 0, ((integer)-2));
+                }
+                if (llGetSubString(llPlaySound, ((integer)-1), ((integer)-1)) == "|")
+                {
+                    llPlaySound = llGetSubString(llPlaySound, 0, ((integer)-2));
+                }
+                if (llGetSubString(llPlaySound, 0, 3) == "MENU")
+                {
+                    B("");
+                }
+                B(llPlaySound);
+            }
+            if (llToUpper == 90100 | llToUpper == 90101)
+            {
+                if ((llPlaySound = llList2String(loc_data, 1)) == "[DUMP]")
+                {
+                    if (!(llGetOwnerKey == llGetOwner()))
+                    {
+                        llRegionSayTo(llGetOwnerKey, 0, "Dumping settings to Owner");
+                    }
+                    llMessageLinked(((integer)-4), 90020, "0", "");
+                }
+                if (llPlaySound == "[NEW]")
+                {
+                    gD = llList2Key(loc_data, 2);
+                    IsSaveDue = llList2Integer(loc_data, 0);
+                    IsRestoring = "";
+                    I();
+                }
+                if (llPlaySound == "[SAVE]")
+                {
+                    for (loc_i = 0; loc_i < (gH != []); ++loc_i)
+                    {
+                        if (!(llList2String(Library, loc_i) == ""))
+                        {
+                            string loc_type = "SYNC";
+                            string loc_temp_pose_name = llList2String(Library, loc_i);
+                            if (!llSubStringIndex(llList2String(Library, loc_i), "P:"))
+                            {
+                                loc_type = "POSE";
+                                loc_temp_pose_name = llGetSubString(loc_temp_pose_name, 2, 99999);
+                            }
+                            llMessageLinked(((integer)-4), 90301, (string)loc_i, llList2String(Library, loc_i) + "|" + llList2String(gG, loc_i) + "|" + llList2String(gM, loc_i) + "|");
+                            llSay(0, loc_type + " Saved to memory " + N(loc_i) + ": {" + loc_temp_pose_name + "}" + llList2String(gG, loc_i) + llList2String(gM, loc_i));
+                        }
+                    }
+                    llMessageLinked(((integer)-4), 90005, "", llList2String(loc_data, 2) + ("|" + (string)llGetOwnerKey));
+                }
+                if (llPlaySound == "[HELPER]")
+                {
+                    gD = llGetOwnerKey;
+                    edefaultlink_message = (integer)llList2String(loc_data, 3);
+                    S();
+                }
+                if (llPlaySound == "[ADJUST]")
+                {
+                    J();
+                }
+                return;
+            }
+            if (llToUpper == 90055 | llToUpper == 90056)
+            {
+                loc_data = llParseStringKeepNulls(llGetOwnerKey, (list)"|", []);
+                Library = llListReplaceList(Library, (list)llList2String(loc_data, 0), loc_one, loc_one);
+                gG = llListReplaceList(gG, (list)((vector)llList2String(loc_data, 2)), loc_one, loc_one);
+                gM = llListReplaceList(gM, (list)((vector)llList2String(loc_data, 3)), loc_one, loc_one);
+                if (gI)
+                {
+                    llRegionSay(gN, "POS|" + (string)loc_one + "|" + M(loc_one) + "|" + (string)edefaultlink_message + "|" + llList2String(gH, loc_one));
+                }
+            }
+        }
+    }
+
+    changed(integer llGetInventoryPermMask)
+    {
+        if (llGetInventoryPermMask & 32)
+        {
+            if (edefaultlink_message)
+            {
+                if (!(llGetAgentSize(llGetLinkKey(llGetNumberOfPrims())) == <((float)0), ((float)0), ((float)0)>))
+                {
+                    J();
+                }
+            }
+            else if (!~-(gH != []) & llAvatarOnSitTarget() == "00000000-0000-0000-0000-000000000000" | llGetAgentSize(llGetLinkKey(llGetNumberOfPrims())) == <((float)0), ((float)0), ((float)0)>)
+            {
+                J();
+            }
+        }
+        if (llGetInventoryPermMask & 1)
+        {
+            R();
+            J();
+            llResetScript();
+        }
+    }
+
+    run_time_permissions(integer llGetInventoryPermMask)
+    {
+        if (llGetPermissions() & 1024)
+        {
+            llPlaySound("3d09f582-3851-c0e0-f5ba-277ac5c73fb4", ((float)1));
+            vector loc_eye = (llGetCameraPos() - llGetPos()) / llGetRot();
+            vector loc_at = loc_eye + llRot2Fwd(llGetCameraRot() / llGetRot());
+            if (llGetInventoryType("[AV]camera") ^ 10)
+            {
+                llMessageLinked(((integer)-4), 90011, (string)loc_eye, (string)loc_at);
+                llSay(0, "Camera property saved for all sitters in prim (takes effect next sit).");
+            }
+            else
+            {
+                llMessageLinked(((integer)-4), 90174, (string)IsSaveDue, (string)loc_eye + "|" + (string)loc_at);
+            }
+            Q();
+        }
+    }
+
+    listen(integer llGetInventoryPermMask, string llToUpper, key llPlaySound, string llGetOwnerKey)
+    {
+        if (llGetInventoryPermMask ^ 5)
+        {
+            if (llPlaySound == gD)
+            {
+                if (llGetOwnerKey == "[>>]")
+                {
+                    ++UThread;
+                    if (!(UThread < edefaultrez))
+                    {
+                        UThread = 0;
+                    }
+                    H(F(), Pop);
+                }
+                else if (llGetOwnerKey == "[<<]")
+                {
+                    --UThread;
+                    if (UThread < 0)
+                    {
+                        UThread = ~-edefaultrez;
+                    }
+                    H(F(), Pop);
+                }
+                else if (llGetOwnerKey == "[BACK]")
+                {
+                    llMessageLinked(((integer)-4), 90005, "", (string)gD + ("|" + llList2String(gH, IsSaveDue)));
+                }
+                else if (llGetOwnerKey == "[POSE]" | llGetOwnerKey == "[SYNC]")
+                {
+                    IsRestoring = llGetOwnerKey;
+                    gL = [];
+                    gK = IsSaveDue;
+                    g_ = gK;
+                    if (llGetOwnerKey == "[SYNC]")
+                    {
+                        gK = 0;
+                        g_ = ~-(gH != []);
+                    }
+                    G();
+                }
+                else if (llGetOwnerKey == "[SUBMENU]")
+                {
+                    IsRestoring = llGetOwnerKey;
+                    llTextBox(gD, "\n\nName your submenu:", gN);
+                }
+                else if (llGetOwnerKey == "[PROP]")
+                {
+                    if (llGetInventoryType("[AV]prop") ^ 10)
+                    {
+                        llSay(0, "For this you need the [AV]prop plugin script.");
+                        llMessageLinked(((integer)-4), 90005, "", (string)gD + ("|" + llList2String(gH, IsSaveDue)));
+                    }
+                    else
+                    {
+                        IsRestoring = llGetOwnerKey;
+                        H(F(), "Choose your prop:");
+                    }
+                }
+                else if (llGetOwnerKey == "[FACE]")
+                {
+                    if (llGetInventoryType("[AV]faces") ^ 10)
+                    {
+                        llSay(0, "For this you need the [AV]faces plugin script.");
+                        llMessageLinked(((integer)-4), 90005, "", (string)gD + ("|" + llList2String(gH, IsSaveDue)));
+                    }
+                    else
+                    {
+                        IsRestoring = llGetOwnerKey;
+                        H(F(), "Choose your facial anim:");
+                    }
+                }
+                else if (llGetOwnerKey == "[CAMERA]")
+                {
+                    Q();
+                }
+                else if (llGetOwnerKey == "[CLEAR]")
+                {
+                    integer loc_i;
+                    for (loc_i = 0; loc_i < llGetNumberOfPrims(); ++loc_i)
+                    {
+                        llSetLinkCamera(loc_i, <((float)0), ((float)0), ((float)0)>, <((float)0), ((float)0), ((float)0)>);
+                    }
+                    if (llGetInventoryType("[AV]camera") ^ 10)
+                    {
+                        llSay(0, "Camera property cleared from all prims (takes effect next sit).");
+                    }
+                    else
+                    {
+                        llMessageLinked(((integer)-4), 90174, (string)IsSaveDue, "none");
+                    }
+                    Q();
+                }
+                else if (llGetOwnerKey == "[SAVE]")
+                {
+                    llRequestPermissions(llPlaySound, 1024);
+                }
+                else if (!~llListFindList((list)"[DONE]" + "1" + "2" + "3" + "4" + "5" + "6" + "7" + "8" + "9", (list)llGetOwnerKey) | !~llListFindList((list)"[POSE]" + "[SYNC]" + "[SYNC]2" + "[PROP]" + "[FACE]", (list)IsRestoring))
+                {
+                    llGetOwnerKey = D(llGetOwnerKey, "\n", "");
+                    llGetOwnerKey = D(llGetOwnerKey, "|", "");
+                    llGetOwnerKey = llGetSubString(llGetOwnerKey, 0, 22);
+                    if (llGetOwnerKey == "")
+                    {
+                        llMessageLinked(((integer)-4), 90005, "", (string)gD + ("|" + llList2String(gH, IsSaveDue)));
+                    }
+                    else if (IsRestoring == "[SUBMENU]")
+                    {
+                        llMessageLinked(((integer)-4), 90300, (string)IsSaveDue, "T:" + llGetOwnerKey + "*||");
+                        llMessageLinked(((integer)-4), 90300, (string)IsSaveDue, "M:" + llGetOwnerKey + "*||");
+                        llSay(0, "MENU Added: '" + llGetOwnerKey + "'" + N(IsSaveDue));
+                        llMessageLinked(((integer)-4), 90005, "", (string)gD + ("|" + llList2String(gH, IsSaveDue)));
+                    }
+                    else if (IsRestoring == "[POSE]2" | IsRestoring == "[SYNC]2")
+                    {
+                        integer loc_start;
+                        integer loc_end = gL != [];
+                        string loc_type = "SYNC";
+                        string loc_prefix;
+                        if (IsRestoring == "[POSE]2")
+                        {
+                            loc_prefix = "P:";
+                            loc_type = "POSE";
+                            loc_start = IsSaveDue;
+                            loc_end = -~IsSaveDue;
+                        }
+                        integer loc_x;
+                        integer loc_i;
+                        for (loc_i = loc_start; loc_i < loc_end; ++loc_i)
+                        {
+                            llSay(0, loc_type + " Added: '" + llGetOwnerKey + "' using anim '" + llList2String(gL, loc_x) + "' to SITTER " + (string)loc_i);
+                            llMessageLinked(((integer)-4), 90300, (string)loc_i, loc_prefix + llGetOwnerKey + "|" + llList2String(gL, loc_x) + "|" + llList2String(gG, loc_i) + "|" + llList2String(gM, loc_i));
+                            ++loc_x;
+                        }
+                    }
+                    if (!(llGetOwnerKey == "" | !(IsRestoring == "[POSE]2" | IsRestoring == "[SYNC]2")))
+                    {
+                        llMessageLinked(((integer)-4), 90005, "", (string)gD + ("|" + llList2String(gH, IsSaveDue)));
+                    }
+                }
+                else
+                {
+                    string loc_choice = llList2String(F(), ~-(integer)llGetOwnerKey);
+                    if (IsRestoring == "[PROP]")
+                    {
+                        integer loc_perms = llGetInventoryPermMask(loc_choice, 4);
+                        if (loc_perms & 32768)
+                        {
+                            llMessageLinked(((integer)-4), 90171, (string)IsSaveDue, loc_choice);
+                        }
+                        else
+                        {
+                            llSay(0, "Could not add prop '" + loc_choice + "'. Props and their content must be COPY-OK for NEXT owner.");
+                        }
+                        llMessageLinked(((integer)-4), 90005, "", (string)gD + ("|" + llList2String(gH, IsSaveDue)));
+                    }
+                    else if (IsRestoring == "[FACE]")
+                    {
+                        llMessageLinked(((integer)-4), 90172, (string)IsSaveDue, loc_choice);
+                        llMessageLinked(((integer)-4), 90005, "", (string)gD + ("|" + llList2String(gH, IsSaveDue)));
+                    }
+                    else if (llGetOwnerKey == "[DONE]")
+                    {
+                        P();
+                    }
+                    else if (IsRestoring == "[SYNC]" | IsRestoring == "[POSE]")
+                    {
+                        gL = gL + loc_choice;
+                        E(loc_choice, llList2Key(gH, gK));
+                        ++gK;
+                        if (g_ < gK)
+                        {
+                            P();
+                        }
+                        else
+                        {
+                            G();
+                        }
+                    }
+                }
+            }
+            else if (llGetOwnerKey(llPlaySound) == llGetOwner())
+            {
+                list loc_data = llParseString2List(llGetOwnerKey, (list)"|", []);
+                integer loc_num = llList2Integer(loc_data, 1);
+                if (llList2String(loc_data, 0) == "REG")
+                {
+                    gA = llListReplaceList(gA, (list)llPlaySound, loc_num, loc_num);
+                    llRegionSay(gN, "POS|" + (string)loc_num + "|" + M(loc_num) + "|" + (string)edefaultlink_message + "|" + llList2String(gH, loc_num));
+                }
+                else if (llList2String(loc_data, 0) == "MENU")
+                {
+                    if (llList2Key(loc_data, 2) == gD)
+                    {
+                        llMessageLinked(((integer)-1), 90005, "", (string)gD + ("|" + llList2String(gH, loc_num)));
+                    }
+                }
+                else if (llList2String(loc_data, 0) == "MOVED")
+                {
+                    rotation loc_f = llGetRot();
+                    vector loc_target_rot = llRot2Euler((rotation)llList2String(loc_data, 3) / loc_f) * 57.29578;
+                    vector loc_target_pos = ((vector)llList2String(loc_data, 2) - llGetPos()) / loc_f;
+                    if (!((string)loc_target_pos == (string)llList2Vector(gG, loc_num) & (string)loc_target_rot == (string)llList2Vector(gM, loc_num)))
+                    {
+                        gG = llListReplaceList(gG, (list)loc_target_pos, loc_num, loc_num);
+                        gM = llListReplaceList(gM, (list)loc_target_rot, loc_num, loc_num);
+                        llMessageLinked(((integer)-4), 90057, (string)loc_num, (string)loc_target_pos + "|" + (string)loc_target_rot);
+                    }
+                }
+                else if (edefaultlink_message)
+                {
+                    integer loc_sitter = (integer)llGetSubString(llToUpper, -~llSubStringIndex(llToUpper, " "), 99999);
+                    if (llList2String(loc_data, 0) == "ANIMA")
+                    {
+                        llMessageLinked(((integer)-4), 90075, (string)loc_sitter, llList2Key(loc_data, 1));
+                    }
+                    else if (llList2String(loc_data, 0) == "GETUP")
+                    {
+                        llMessageLinked(((integer)-4), 90076, (string)loc_sitter, llList2Key(loc_data, 1));
+                    }
+                }
+            }
+        }
+        else
+        {
+            if (llGetOwnerKey == "cleanup")
+            {
+                llRegionSay(gN, "DONEA");
+                K("Cleaning \"" + llGetScriptName() + "\" and \"[AV]helper\" from prim " + (string)llGetLinkNumber());
+                if (llGetInventoryType("[AV]helper") == 6)
+                {
+                    llRemoveInventory("[AV]helper");
+                }
+                llRemoveInventory(llGetScriptName());
+            }
+            else if (llGetOwnerKey == "targets")
+            {
+                llMessageLinked(((integer)-4), 90298, "", "");
+            }
+            else if (llGetOwnerKey == "helper")
+            {
+                if (!(llGetAgentSize(llGetLinkKey(llGetNumberOfPrims())) == <((float)0), ((float)0), ((float)0)>))
+                {
+                    llMessageLinked(((integer)-1), 90100, "0|[HELPER]||" + (string)edefaultlink_message, llList2Key(gH, 0));
+                }
+            }
+        }
+    }
+
+    on_rez(integer llGetInventoryPermMask)
+    {
+        llResetScript();
+    }
+}
