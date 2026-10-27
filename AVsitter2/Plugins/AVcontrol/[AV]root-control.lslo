@@ -1,0 +1,397 @@
+//start_unprocessed_text
+/*/*
+ * [AV]root-control - Allow others to control the menu
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * Copyright © the AVsitter Contributors (http://avsitter.github.io)
+ * AVsitter™ is a trademark. For trademark use policy see:
+ * https://avsitter.github.io/TRADEMARK.mediawiki
+ *
+ * Please consider supporting continued development of AVsitter and
+ * receive automatic updates and other benefits! All details and user
+ * instructions can be found at http://avsitter.github.io
+ *|/
+
+string product = "AVsitter™ Menu Control";
+string #version = "2.2p04";
+string security_script = "[AV]root-security";
+string RLV_script = "[AV]root-RLV";
+list DESIGNATIONS_NOW;
+key CONTROLLER = NULL_KEY;
+integer KEY_TAKEN;
+string CONTROLLER_NAME;
+list SITTERS_MENUKEYS = [CONTROLLER_NAME]; //OSS::list SITTERS_MENUKEYS; // Force error in LSO
+list SITTERS_SHORTNAMES;
+integer menu_channel;
+integer menu_handle;
+key key_request;
+integer verbose = 1;
+
+Out(integer level, string out)
+{
+    if (verbose >= level)
+    {
+        llOwnerSay(llGetScriptName() + "[" + version + "]:" + out);
+    }
+}
+
+list order_buttons(list buttons)
+{
+    return llList2List(buttons, -3, -1) + llList2List(buttons, -6, -4) + llList2List(buttons, -9, -7) + llList2List(buttons, -12, -10);
+}
+
+string strReplace(string str, string search, string replace)
+{
+    return llDumpList2String(llParseStringKeepNulls(str, [search], []), replace);
+}
+
+controller_menu(key id)
+{
+    CONTROLLER = id;
+    CONTROLLER_NAME = llKey2Name(id);
+    list SITTERS;
+    integer count = llGetNumberOfPrims();
+    while (llGetAgentSize(llGetLinkKey(count)) != ZERO_VECTOR)
+    {
+        SITTERS += llGetLinkKey(count);
+        count--;
+    }
+    if ((~llListFindList(SITTERS, [id])) && check_for_RLV())
+    {
+        llMessageLinked(LINK_SET, 90005, "", id);
+    }
+    else
+    {
+        if (llGetListLength(SITTERS) == 1 && ((!check_for_RLV()) || (llListFindList(DESIGNATIONS_NOW, ["S"]) == -1) || llGetListLength(DESIGNATIONS_NOW) == 1))
+        {
+            if (check_for_RLV())
+            {
+                llMessageLinked(LINK_THIS, 90100, "x|Control...|" + llList2String(SITTERS, 0), id);
+            }
+            else
+            {
+                llMessageLinked(LINK_SET, 90005, "", llDumpList2String([id, llList2Key(SITTERS, 0)], "|"));
+            }
+        }
+        else
+        {
+            list menu_items;
+            SITTERS_MENUKEYS = [];
+            integer i;
+            for (i = 0; i < llGetListLength(SITTERS); i++)
+            {
+                if (llList2Key(SITTERS, i) != NULL_KEY)
+                {
+                    menu_items += llGetSubString(strReplace(llKey2Name(llList2Key(SITTERS, i)), " Resident", ""), 0, 11);
+                    SITTERS_MENUKEYS += llList2Key(SITTERS, i);
+                }
+            }
+            SITTERS_SHORTNAMES = menu_items;
+            string text = "Which avatar?";
+            if (check_for_RLV())
+            {
+                if (!llGetListLength(menu_items))
+                {
+                    llMessageLinked(LINK_THIS, 90211, "", id);
+                    return;
+                }
+                if ((~llListFindList(DESIGNATIONS_NOW, ["S"])) && llGetListLength(SITTERS) < llGetListLength(DESIGNATIONS_NOW))
+                {
+                    text += "\n\nCapture = trap a new avatar.";
+                    menu_items += "Capture...";
+                }
+            }
+            if (llGetListLength(menu_items))
+            {
+                dialog(text, order_buttons(menu_items), id);
+            }
+        }
+    }
+}
+
+dialog(string text, list menu_items, key id)
+{
+    llListenRemove(menu_handle);
+    menu_handle = llListen((menu_channel = ((integer)llFrand(0x7FFFFF80) + 1) * -1), "", id, ""); // 7FFFFF80 = max float < 2^31
+    llDialog(id, product + " " + version + "\n\n" + text + "\n", order_buttons(menu_items), menu_channel);
+    llSetTimerEvent(120);
+}
+
+integer check_for_RLV()
+{
+    if (llGetInventoryType(RLV_script) == INVENTORY_SCRIPT)
+    {
+        return TRUE;
+    }
+    return FALSE;
+}
+
+default
+{
+    state_entry()
+    {
+        llSetTimerEvent(0);
+    }
+
+    on_rez(integer x)
+    {
+        llResetScript();
+    }
+
+    timer()
+    {
+        llListenRemove(menu_handle);
+    }
+
+    link_message(integer sender, integer num, string msg, key id)
+    {
+        if (num == 90007)
+        {
+            if (id == CONTROLLER || CONTROLLER == NULL_KEY)
+            {
+                controller_menu(id);
+            }
+            else
+            {
+                string text = "Take control of the menu?";
+                if (llGetAgentSize(CONTROLLER) != ZERO_VECTOR)
+                {
+                    text += "\n\nCurrently controlled by: " + CONTROLLER_NAME;
+                }
+                dialog(text, ["Take Control", "[CANCEL]"], id);
+            }
+        }
+        else if (num == 90206)
+        {
+            DESIGNATIONS_NOW = llParseStringKeepNulls(msg, ["|"], []);
+        }
+    }
+
+    listen(integer channel, string name, key id, string message)
+    {
+        llListenRemove(menu_handle);
+        integer index = llListFindList(SITTERS_SHORTNAMES, [message]);
+        if (~index)
+        {
+            if (check_for_RLV())
+            {
+                llMessageLinked(LINK_THIS, 90100, "x|Control...|" + llList2String(SITTERS_MENUKEYS, index), CONTROLLER);
+            }
+            else
+            {
+                llMessageLinked(LINK_SET, 90005, "", llDumpList2String([CONTROLLER, llList2Key(SITTERS_MENUKEYS, index)], "|"));
+            }
+        }
+        else if (message == "Capture...")
+        {
+            llMessageLinked(LINK_THIS, 90211, "", id);
+        }
+        else if (message == "Take Control")
+        {
+            llMessageLinked(LINK_SET, 90033, "", "");
+            if (id != CONTROLLER)
+            {
+                llRegionSayTo(CONTROLLER, 0, llKey2Name(id) + " has taken control of the menu.");
+            }
+            controller_menu(id);
+        }
+    }
+
+    changed(integer change)
+    {
+        if (llGetAgentSize(llGetLinkKey(llGetNumberOfPrims())) == ZERO_VECTOR)
+        {
+            CONTROLLER = NULL_KEY;
+        }
+    }
+}
+*/
+//end_unprocessed_text
+//nfo_preprocessor_version 0
+//program_version LSL PyOptimizer v0.3.0beta
+//mono
+
+list edefaultchanged;
+key IsSaveDue = "00000000-0000-0000-0000-000000000000";
+string LslLibrary;
+list g_ = [LslLibrary];
+list System;
+integer edefaultrez;
+integer edefaultstate_entry;
+
+list _(list llParseStringKeepNulls)
+{
+    return llList2List(llParseStringKeepNulls, ((integer)-3), ((integer)-1)) + llList2List(llParseStringKeepNulls, ((integer)-6), ((integer)-4)) + llList2List(llParseStringKeepNulls, ((integer)-9), ((integer)-7)) + llList2List(llParseStringKeepNulls, ((integer)-12), ((integer)-10));
+}
+
+string A(string llParseStringKeepNulls, string llListen, string llGetSubString)
+{
+    return llDumpList2String(llParseStringKeepNulls(llParseStringKeepNulls, (list)llListen, []), llGetSubString);
+}
+
+B(key llParseStringKeepNulls)
+{
+    IsSaveDue = llParseStringKeepNulls;
+    LslLibrary = llKey2Name(llParseStringKeepNulls);
+    list loc_SITTERS;
+    integer loc_count = llGetNumberOfPrims();
+    while (!(llGetAgentSize(llGetLinkKey(loc_count)) == <((float)0), ((float)0), ((float)0)>))
+    {
+        loc_SITTERS = loc_SITTERS + llGetLinkKey(loc_count);
+        --loc_count;
+    }
+    if (!~llListFindList(loc_SITTERS, (list)llParseStringKeepNulls) | !D())
+    {
+        if (~-(loc_SITTERS != []) | -!(!D() | !~llListFindList(edefaultchanged, (list)"S")) & ~-(edefaultchanged != []))
+        {
+            list loc_menu_items;
+            g_ = [];
+            integer loc_i;
+            for (loc_i = 0; loc_i < (loc_SITTERS != []); ++loc_i)
+            {
+                if (!(llList2Key(loc_SITTERS, loc_i) == "00000000-0000-0000-0000-000000000000"))
+                {
+                    loc_menu_items = loc_menu_items + llGetSubString(A(llKey2Name(llList2Key(loc_SITTERS, loc_i)), " Resident", ""), 0, 11);
+                    g_ = g_ + llList2Key(loc_SITTERS, loc_i);
+                }
+            }
+            System = loc_menu_items;
+            string loc_text = "Which avatar?";
+            if (D())
+            {
+                if (loc_menu_items == [])
+                {
+                    llMessageLinked(((integer)-4), 90211, "", llParseStringKeepNulls);
+                    return;
+                }
+                if (~llListFindList(edefaultchanged, (list)"S") & -((loc_SITTERS != []) < (edefaultchanged != [])))
+                {
+                    loc_text = loc_text + "\n\nCapture = trap a new avatar.";
+                    loc_menu_items = loc_menu_items + "Capture...";
+                }
+            }
+            if (loc_menu_items != [])
+            {
+                C(loc_text, _(loc_menu_items), llParseStringKeepNulls);
+            }
+        }
+        else
+        {
+            if (D())
+            {
+                llMessageLinked(((integer)-4), 90100, "x|Control...|" + llList2String(loc_SITTERS, 0), llParseStringKeepNulls);
+            }
+            else
+            {
+                llMessageLinked(((integer)-1), 90005, "", (string)llParseStringKeepNulls + ("|" + (string)llList2Key(loc_SITTERS, 0)));
+            }
+        }
+    }
+    else
+    {
+        llMessageLinked(((integer)-1), 90005, "", llParseStringKeepNulls);
+    }
+}
+
+C(string llParseStringKeepNulls, list llListen, key llGetSubString)
+{
+    llListenRemove(edefaultstate_entry);
+    edefaultstate_entry = llListen(edefaultrez = ~(integer)llFrand(2147483520), "", llGetSubString, "");
+    llDialog(llGetSubString, "AVsitter™ Menu Control 2.2p04\n\n" + llParseStringKeepNulls + "\n", _(llListen), edefaultrez);
+    llSetTimerEvent(120);
+}
+
+integer D()
+{
+    if (llGetInventoryType("[AV]root-RLV") == 10)
+    {
+        return 1;
+    }
+    return 0;
+}
+
+default
+{
+    state_entry()
+    {
+        llSetTimerEvent(0);
+    }
+
+    on_rez(integer llParseStringKeepNulls)
+    {
+        llResetScript();
+    }
+
+    timer()
+    {
+        llListenRemove(edefaultstate_entry);
+    }
+
+    link_message(integer llParseStringKeepNulls, integer llListen, string llGetSubString, key llFrand)
+    {
+        if (llListen ^ 90007)
+        {
+            if (llListen == 90206)
+            {
+                edefaultchanged = llParseStringKeepNulls(llGetSubString, (list)"|", []);
+            }
+        }
+        else
+        {
+            if (llFrand == IsSaveDue | IsSaveDue == "00000000-0000-0000-0000-000000000000")
+            {
+                B(llFrand);
+            }
+            else
+            {
+                string loc_text = "Take control of the menu?";
+                if (!(llGetAgentSize(IsSaveDue) == <((float)0), ((float)0), ((float)0)>))
+                {
+                    loc_text = loc_text + ("\n\nCurrently controlled by: " + LslLibrary);
+                }
+                C(loc_text, (list)"Take Control" + "[CANCEL]", llFrand);
+            }
+        }
+    }
+
+    listen(integer llParseStringKeepNulls, string llListen, key llGetSubString, string llFrand)
+    {
+        llListenRemove(edefaultstate_entry);
+        integer loc_index = llListFindList(System, (list)llFrand);
+        if (~loc_index)
+        {
+            if (D())
+            {
+                llMessageLinked(((integer)-4), 90100, "x|Control...|" + llList2String(g_, loc_index), IsSaveDue);
+            }
+            else
+            {
+                llMessageLinked(((integer)-1), 90005, "", (string)IsSaveDue + ("|" + (string)llList2Key(g_, loc_index)));
+            }
+        }
+        else if (llFrand == "Capture...")
+        {
+            llMessageLinked(((integer)-4), 90211, "", llGetSubString);
+        }
+        else if (llFrand == "Take Control")
+        {
+            llMessageLinked(((integer)-1), 90033, "", "");
+            if (!(llGetSubString == IsSaveDue))
+            {
+                llRegionSayTo(IsSaveDue, 0, llKey2Name(llGetSubString) + " has taken control of the menu.");
+            }
+            B(llGetSubString);
+        }
+    }
+
+    changed(integer llParseStringKeepNulls)
+    {
+        if (llGetAgentSize(llGetLinkKey(llGetNumberOfPrims())) == <((float)0), ((float)0), ((float)0)>)
+        {
+            IsSaveDue = "00000000-0000-0000-0000-000000000000";
+        }
+    }
+}

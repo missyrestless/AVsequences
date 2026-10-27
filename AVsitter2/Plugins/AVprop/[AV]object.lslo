@@ -1,0 +1,527 @@
+//start_unprocessed_text
+/*/*
+ * [AV]object - Used in props for attaching, derezzing, etc.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * Copyright © the AVsitter Contributors (http://avsitter.github.io)
+ * AVsitter™ is a trademark. For trademark use policy see:
+ * https://avsitter.github.io/TRADEMARK.mediawiki
+ *
+ * Please consider supporting continued development of AVsitter and
+ * receive automatic updates and other benefits! All details and user
+ * instructions can be found at http://avsitter.github.io
+ *|/
+
+string version = "2.020";
+integer comm_channel;
+integer local_attach_channel = -2907539;
+integer listen_handle;
+integer prop_type;
+integer prop_id;
+integer prop_point;
+integer experience_denied_reason;
+key originalowner;
+key parentkey;
+key give_prop_warning_request;
+list A = [parentkey]; //OSS::list A; // Force error in LSO
+
+unsit_all()
+{
+    integer i = llGetNumberOfPrims();
+    while (llGetAgentSize(llGetLinkKey(i)) != ZERO_VECTOR)
+    {
+        llUnSit(llGetLinkKey(i));
+        i--;
+    }
+}
+
+integer verbose = 5;
+
+Out(integer level, string out)
+{
+    if (verbose >= level)
+    {
+        llOwnerSay(llGetScriptName() + "[" + version + "] " + out);
+    }
+}
+
+default
+{
+    on_rez(integer start)
+    {
+        if (start)
+        {
+            state prop;
+        }
+    }
+}
+
+state prop
+{
+    state_entry()
+    {
+        if (llGetLinkNumber() < 2)
+        {
+            if (llGetStartParameter() <= -10000000)
+            {
+                string start_param = (string)llGetStartParameter();
+                prop_type = (integer)llGetSubString(start_param, -1, -1);
+                prop_point = (integer)llGetSubString(start_param, -3, -2);
+                prop_id = (integer)llGetSubString(start_param, -5, -4);
+                comm_channel = (integer)llGetSubString(start_param, 0, -6);
+                listen_handle = llListen(comm_channel, "", "", "");
+                llSay(comm_channel, "REZ|" + (string)prop_id);
+            }
+            else
+            {
+            }
+        }
+        if (prop_type != 2 && prop_type != 1)
+        {
+            if (llGetInventoryType("[AV]sitA") == INVENTORY_NONE)
+            {
+                llSetClickAction(-1); // OSS::llSetClickAction(CLICK_ACTION_NONE);
+            }
+        }
+        else
+        {
+            llSetClickAction(CLICK_ACTION_TOUCH);
+        }
+
+        //LSL::
+        parentkey = llList2String(llGetObjectDetails(llGetKey(), [OBJECT_REZZER_KEY]) + A, 0);
+        A = [];
+
+        if(llGetStartParameter() && !llList2Integer(llGetObjectDetails(parentkey, [OBJECT_ATTACHED_POINT]), 0))
+        {
+            llSetTimerEvent(10);
+        }
+        else
+        {
+            llSetTimerEvent(0);
+        }
+        //::LSL
+    }
+
+    attach(key id)
+    {
+        if (comm_channel)
+        {
+            if (llGetAttached())
+            {
+                llListen(local_attach_channel, "", "", "");
+                llSay(comm_channel, "ATTACHED|" + (string)prop_id);
+                llSay(local_attach_channel, "LOCAT|" + (string)llGetAttached());
+                if (experience_denied_reason == 17)
+                {
+                    if (llGetOwner() == originalowner)
+                    {
+                        list details = llGetExperienceDetails(""); // OSS::list details;
+                        if (llList2String(details, 3) == "17")
+                        {
+                            llSay(comm_channel, "NAG|" + llList2String(details, 0));
+                        }
+                    }
+                }
+            }
+            else
+            {
+                llSay(comm_channel, "DETACHED|" + (string)prop_id);
+            }
+        }
+    }
+
+    touch_start(integer touched)
+    {
+        if ((!llGetAttached()) && (prop_type == 2 || prop_type == 1))
+        {
+            llRequestExperiencePermissions(llDetectedKey(0), ""); // OSS::llRequestPermissions(llDetectedKey(0), PERMISSION_ATTACH);
+        }
+    }
+
+    run_time_permissions(integer permissions)
+    {
+        if (permissions & PERMISSION_ATTACH)
+        {
+            if (llGetAttached())
+            {
+                llDetachFromAvatar();
+            }
+            else
+            {
+                llAttachToAvatarTemp(prop_point);
+            }
+        }
+        else
+        {
+            llSay(comm_channel, "DEREZ|" + (string)prop_id);
+            llDie();
+        }
+    }
+
+    //LSL::
+    experience_permissions(key target_id)
+    {
+        if (llGetAttached())
+        {
+            llDetachFromAvatar();
+        }
+        else
+        {
+            llAttachToAvatarTemp(prop_point);
+        }
+    }
+
+    experience_permissions_denied(key agent_id, integer reason)
+    {
+        originalowner = llGetOwner();
+        experience_denied_reason = reason;
+        llRequestPermissions(agent_id, PERMISSION_ATTACH);
+    }
+    //::LSL
+
+    on_rez(integer start)
+    {
+        if (!llGetAttached())
+        {
+            state restart_prop;
+        }
+    }
+
+    listen(integer channel, string name, key id, string message)
+    {
+        list data = llParseString2List(message, ["|"], []);
+        string command = llList2String(data, 0);
+        if (llList2String(data, 0) == "LOCAT" && llGetOwnerKey(id) == llGetOwner() && llList2String(data, 1) == (string)llGetAttached())
+        {
+            llRequestPermissions(llGetOwner(), PERMISSION_ATTACH);
+        }
+        else if (command == "ATTACHTO" && prop_type == 1 && (key)llList2String(data, 2) == llGetKey())
+        {
+            if (llGetAgentSize((key)llList2String(data, 1)) == ZERO_VECTOR)
+            {
+                llSay(comm_channel, "DEREZ|" + (string)prop_id);
+                llDie();
+            }
+            else
+            {
+                llRequestExperiencePermissions(llList2Key(data, 1), ""); // OSS::llRequestPermissions(llList2Key(data, 1), PERMISSION_ATTACH);
+            }
+        }
+        else if (llGetSubString(command, 0, 3) == "REM_")
+        {
+            integer remove;
+            if (command == "REM_ALL")
+            {
+                remove = TRUE;
+            }
+            else if (command == "REM_INDEX" || (command == "REM_WORLD" && !llGetAttached()))
+            {
+                if (~llListFindList(data, [(string)prop_id]))
+                {
+                    remove = TRUE;
+                }
+            }
+            else if (llGetAttached() && command == "REM_WORN" && (key)llList2String(data, 1) == llGetOwner())
+            {
+                remove = TRUE;
+            }
+            if (remove)
+            {
+                if (llGetAttached())
+                {
+                    llRequestPermissions(llGetOwner(), PERMISSION_ATTACH);
+                }
+                else
+                {
+                    if (llGetAgentSize(llGetLinkKey(llGetNumberOfPrims())) != ZERO_VECTOR)
+                    {
+                        unsit_all();
+                        llSleep(1);
+                    }
+                    llSay(comm_channel, "DEREZ|" + (string)prop_id);
+                    llDie();
+                }
+            }
+        }
+        else if (message == "PROPSEARCH" && !llGetAttached())
+        {
+            llSay(comm_channel, "SAVEPROP|" + (string)prop_id);
+        }
+    }
+
+    //LSL::
+    timer()
+    {
+        if(llGetObjectMass(parentkey) == 0)
+        {
+            if(!llGetAttached())
+            {
+                llDie();
+            }
+            else
+            {
+                llRequestPermissions(llGetOwner(), PERMISSION_ATTACH);
+            }
+        }
+    }
+    //::LSL
+}
+
+state restart_prop
+{
+    state_entry()
+    {
+        state prop;
+    }
+}
+*/
+//end_unprocessed_text
+//nfo_preprocessor_version 0
+//program_version LSL PyOptimizer v0.3.0beta
+//mono
+
+integer edefaultrez;
+integer gB;
+integer UThread;
+integer e_rez;
+integer e_run_time_perms;
+key LslLibrary;
+key e_state_entry;
+list UThreadStackFrame = [e_state_entry];
+
+B()
+{
+    integer loc_i = llGetNumberOfPrims();
+    while (!(llGetAgentSize(llGetLinkKey(loc_i)) == <((float)0), ((float)0), ((float)0)>))
+    {
+        llUnSit(llGetLinkKey(loc_i));
+        --loc_i;
+    }
+}
+
+default
+{
+    on_rez(integer llGetLinkNumber)
+    {
+        if (llGetLinkNumber)
+        {
+            state _;
+        }
+    }
+}
+
+state _
+{
+    state_entry()
+    {
+        if (llGetLinkNumber() < 2)
+        {
+            if (llGetStartParameter() < ((integer)-9999999))
+            {
+                string loc_start_param = (string)llGetStartParameter();
+                gB = (integer)llGetSubString(loc_start_param, ((integer)-1), ((integer)-1));
+                e_rez = (integer)llGetSubString(loc_start_param, ((integer)-3), ((integer)-2));
+                UThread = (integer)llGetSubString(loc_start_param, ((integer)-5), ((integer)-4));
+                edefaultrez = (integer)llGetSubString(loc_start_param, 0, ((integer)-6));
+                llListen(edefaultrez, "", "", "");
+                llSay(edefaultrez, "REZ|" + (string)UThread);
+            }
+        }
+        if (-!(gB == 2) & ~-gB)
+        {
+            if (!~llGetInventoryType("[AV]sitA"))
+            {
+                llSetClickAction(((integer)-1));
+            }
+        }
+        else
+        {
+            llSetClickAction(0);
+        }
+        e_state_entry = llList2String(llGetObjectDetails(llGetKey(), (list)32) + UThreadStackFrame, 0);
+        UThreadStackFrame = [];
+        if (llGetStartParameter() & -!(integer)((string)llGetObjectDetails(e_state_entry, (list)19)))
+        {
+            llSetTimerEvent(10);
+        }
+        else
+        {
+            llSetTimerEvent(0);
+        }
+    }
+
+    attach(key llGetLinkNumber)
+    {
+        if (edefaultrez)
+        {
+            if (llGetAttached())
+            {
+                llListen(((integer)-2907539), "", "", "");
+                llSay(edefaultrez, "ATTACHED|" + (string)UThread);
+                llSay(((integer)-2907539), "LOCAT|" + (string)llGetAttached());
+                if (e_run_time_perms == 17)
+                {
+                    if (llGetOwner() == LslLibrary)
+                    {
+                        list loc_details = llGetExperienceDetails("");
+                        if (llList2String(loc_details, 3) == "17")
+                        {
+                            llSay(edefaultrez, "NAG|" + llList2String(loc_details, 0));
+                        }
+                    }
+                }
+            }
+            else
+            {
+                llSay(edefaultrez, "DETACHED|" + (string)UThread);
+            }
+        }
+    }
+
+    touch_start(integer llGetLinkNumber)
+    {
+        if (!(llGetAttached() | -!(gB == 2) & ~-gB))
+        {
+            llRequestExperiencePermissions(llDetectedKey(0), "");
+        }
+    }
+
+    run_time_permissions(integer llGetLinkNumber)
+    {
+        if (llGetLinkNumber & 32)
+        {
+            if (llGetAttached())
+            {
+                llDetachFromAvatar();
+            }
+            else
+            {
+                llAttachToAvatarTemp(e_rez);
+            }
+        }
+        else
+        {
+            llSay(edefaultrez, "DEREZ|" + (string)UThread);
+            llDie();
+        }
+    }
+
+    experience_permissions(key llGetLinkNumber)
+    {
+        if (llGetAttached())
+        {
+            llDetachFromAvatar();
+        }
+        else
+        {
+            llAttachToAvatarTemp(e_rez);
+        }
+    }
+
+    experience_permissions_denied(key llGetLinkNumber, integer llGetOwnerKey)
+    {
+        LslLibrary = llGetOwner();
+        e_run_time_perms = llGetOwnerKey;
+        llRequestPermissions(llGetLinkNumber, 32);
+    }
+
+    on_rez(integer llGetLinkNumber)
+    {
+        if (!llGetAttached())
+        {
+            state A;
+        }
+    }
+
+    listen(integer llGetLinkNumber, string llGetOwnerKey, key llAttachToAvatarTemp, string llGetObjectDetails)
+    {
+        list loc_data = llParseString2List(llGetObjectDetails, (list)"|", []);
+        string loc_command = llList2String(loc_data, 0);
+        if (llList2String(loc_data, 0) == "LOCAT" & llGetOwnerKey(llAttachToAvatarTemp) == llGetOwner() & llList2String(loc_data, 1) == (string)llGetAttached())
+        {
+            llRequestPermissions(llGetOwner(), 32);
+        }
+        else if (!(loc_command == "ATTACHTO") | ~-gB | !((key)llList2String(loc_data, 2) == llGetKey()))
+        {
+            if (llGetSubString(loc_command, 0, 3) == "REM_")
+            {
+                integer loc_remove;
+                if (loc_command == "REM_ALL")
+                {
+                    loc_remove = 1;
+                }
+                else if (loc_command == "REM_INDEX" | loc_command == "REM_WORLD" & !llGetAttached())
+                {
+                    if (~llListFindList(loc_data, (list)((string)UThread)))
+                    {
+                        loc_remove = 1;
+                    }
+                }
+                else if (llGetAttached() & -(loc_command == "REM_WORN") & -((key)llList2String(loc_data, 1) == llGetOwner()))
+                {
+                    loc_remove = 1;
+                }
+                if (loc_remove)
+                {
+                    if (llGetAttached())
+                    {
+                        llRequestPermissions(llGetOwner(), 32);
+                    }
+                    else
+                    {
+                        if (!(llGetAgentSize(llGetLinkKey(llGetNumberOfPrims())) == <((float)0), ((float)0), ((float)0)>))
+                        {
+                            B();
+                            llSleep(1);
+                        }
+                        llSay(edefaultrez, "DEREZ|" + (string)UThread);
+                        llDie();
+                    }
+                }
+            }
+            else if (!(!(llGetObjectDetails == "PROPSEARCH") | llGetAttached()))
+            {
+                llSay(edefaultrez, "SAVEPROP|" + (string)UThread);
+            }
+        }
+        else
+        {
+            if (llGetAgentSize((key)llList2String(loc_data, 1)) == <((float)0), ((float)0), ((float)0)>)
+            {
+                llSay(edefaultrez, "DEREZ|" + (string)UThread);
+                llDie();
+            }
+            else
+            {
+                llRequestExperiencePermissions(llList2Key(loc_data, 1), "");
+            }
+        }
+    }
+
+    timer()
+    {
+        if (llGetObjectMass(e_state_entry) == 0)
+        {
+            if (llGetAttached())
+            {
+                llRequestPermissions(llGetOwner(), 32);
+            }
+            else
+            {
+                llDie();
+            }
+        }
+    }
+}
+
+state A
+{
+    state_entry()
+    {
+        state _;
+    }
+}

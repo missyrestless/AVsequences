@@ -1,0 +1,460 @@
+//start_unprocessed_text
+/*/*
+ * [AV]root-security - Specify who can sit and/or use the menu
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * Copyright © the AVsitter Contributors (http://avsitter.github.io)
+ * AVsitter™ is a trademark. For trademark use policy see:
+ * https://avsitter.github.io/TRADEMARK.mediawiki
+ *
+ * Please consider supporting continued development of AVsitter and
+ * receive automatic updates and other benefits! All details and user
+ * instructions can be found at http://avsitter.github.io
+ *|/
+
+string product = "AVsitter™ Security";
+string #version = "2.2p04";
+string script_basename = "[AV]sitA";
+string menucontrol_script = "[AV]root-control";
+string RLV_script = "[AV]root-RLV";
+key active_sitter;
+integer active_prim;
+integer active_script_channel;
+integer menu_channel;
+integer menu_handle;
+list SIT_TYPES = ["ALL", "OWNER", "GROUP"];
+integer SIT_INDEX;
+integer MENU_INDEX;
+string lastmenu;
+list MENU_TYPES = [lastmenu]; //OSS::list MENU_TYPES; // Force error in LSO
+
+integer pass_security(key id, string context)
+{
+    integer ALLOWED = FALSE;
+    string TYPE = llList2String(SIT_TYPES, SIT_INDEX);
+    if (context == "MENU")
+    {
+        TYPE = llList2String(MENU_TYPES, MENU_INDEX);
+    }
+    if (TYPE == "GROUP")
+    {
+        if (llSameGroup(id) == TRUE)
+        {
+            ALLOWED = TRUE;
+        }
+    }
+    else if (id == llGetOwner() || TYPE == "ALL")
+    {
+        ALLOWED = TRUE;
+    }
+    return ALLOWED;
+}
+
+check_sitters()
+{
+    integer i = llGetNumberOfPrims();
+    while (llGetAgentSize(llGetLinkKey(i)) != ZERO_VECTOR)
+    {
+        key av = llGetLinkKey(i);
+        if (pass_security(av, "SIT") == FALSE)
+        {
+            llUnSit(av);
+            llDialog(av, product + " " + version + "\n\nSorry, Sit access is set to: " + llList2String(SIT_TYPES, SIT_INDEX), ["OK"], -164289491);
+        }
+        i--;
+    }
+}
+
+back_to_adjust(integer SCRIPT_CHANNEL, key sitter)
+{
+    llMessageLinked(LINK_SET, 90101, (string)SCRIPT_CHANNEL + "|[ADJUST]|", sitter);
+}
+
+list order_buttons(list menu_items)
+{
+    return llList2List(menu_items, -3, -1) + llList2List(menu_items, -6, -4) + llList2List(menu_items, -9, -7) + llList2List(menu_items, -12, -10);
+}
+
+register_touch(key id, integer animation_menu_function, integer active_prim, integer giveFailedMessage)
+{
+    if (pass_security(id, "MENU"))
+    {
+        if (llGetInventoryType(menucontrol_script) == INVENTORY_SCRIPT)
+        {
+            if (check_for_RLV())
+            {
+                llMessageLinked(LINK_THIS, 90012, (string)active_prim, id);
+            }
+            else
+            {
+                llMessageLinked(LINK_THIS, 90007, "", id);
+            }
+        }
+        else
+        {
+            llMessageLinked(LINK_SET, 90005, (string)animation_menu_function, id);
+        }
+    }
+    else if (giveFailedMessage)
+    {
+        llDialog(id, product + " " + version + "\n\nSorry, Menu access is set to: " + llList2String(MENU_TYPES, MENU_INDEX), ["OK"], -164289491);
+    }
+}
+
+main_menu()
+{
+    list buttons = (list)"Sit" + "Menu";
+    if (active_sitter) // OSS::if (osIsUUID(active_sitter) && active_sitter != NULL_KEY)
+    {
+        buttons = "[BACK]" + buttons;
+    }
+    dialog("Sit access: " + llList2String(SIT_TYPES, SIT_INDEX) + "\nMenu access: " + llList2String(MENU_TYPES, MENU_INDEX) + "\n\nChange security settings:", buttons);
+    lastmenu = "";
+}
+
+dialog(string text, list menu_items)
+{
+    llListenRemove(menu_handle);
+    menu_handle = llListen((menu_channel = ((integer)llFrand(0x7FFFFF80) + 1) * -1), "", llGetOwner(), ""); // 7FFFFF80 = max float < 2^31
+    llDialog(llGetOwner(), product + " " + version + "\n\n" + text, order_buttons(menu_items), menu_channel);
+    llSetTimerEvent(600);
+}
+
+integer check_for_RLV()
+{
+    if (llGetInventoryType(RLV_script) == INVENTORY_SCRIPT)
+    {
+        return TRUE;
+    }
+    return FALSE;
+}
+
+default
+{
+    state_entry()
+    {
+        MENU_TYPES = SIT_TYPES;
+        llMessageLinked(LINK_SET, 90202, (string)check_for_RLV(), "");
+    }
+
+    timer()
+    {
+        llSetTimerEvent(0);
+        llListenRemove(menu_handle);
+    }
+
+    link_message(integer sender, integer num, string msg, key id)
+    {
+        if (num == 90201)
+        {
+            llMessageLinked(LINK_SET, 90202, (string)check_for_RLV(), "");
+        }
+        else if (num == 90006)
+        {
+            if (llGetInventoryType(menucontrol_script) != INVENTORY_SCRIPT)
+            {
+                register_touch(id, (integer)msg, sender, FALSE);
+            }
+        }
+        else if (num == 90100)
+        {
+            list data = llParseString2List(msg, ["|"], []);
+            if (llList2String(data, 1) == "[SECURITY]")
+            {
+                if (id == llGetOwner())
+                {
+                    active_prim = sender;
+                    active_script_channel = llList2Integer(data, 0);
+                    active_sitter = llList2Key(data, 2);
+                    main_menu();
+                }
+                else
+                {
+                    llRegionSayTo(id, 0, "Sorry, only the owner can change security settings.");
+                    llMessageLinked(sender, 90101, llList2String(data, 0) + "|[ADJUST]|" + (string)id, llList2Key(data, 2));
+                }
+            }
+        }
+        else if (num == 90033)
+        {
+            llListenRemove(menu_handle);
+        }
+    }
+
+    listen(integer listen_channel, string name, key id, string msg)
+    {
+        if (msg == "Sit")
+        {
+            dialog("Sit security:", SIT_TYPES);
+            lastmenu = msg;
+            return;
+        }
+        else if (msg == "Menu")
+        {
+            dialog("Menu security:", MENU_TYPES);
+            lastmenu = msg;
+            return;
+        }
+        else
+        {
+            if (msg == "[BACK]")
+            {
+                llMessageLinked(LINK_SET, 90101, (string)active_script_channel + "|[ADJUST]|" + (string)id, active_sitter);
+            }
+            else if (lastmenu == "Sit")
+            {
+                SIT_INDEX = llListFindList(SIT_TYPES, [msg]);
+                main_menu();
+                check_sitters();
+                return;
+            }
+            else if (lastmenu == "Menu")
+            {
+                MENU_INDEX = llListFindList(MENU_TYPES, [msg]);
+                main_menu();
+                return;
+            }
+        }
+        llListenRemove(menu_handle);
+    }
+
+    changed(integer change)
+    {
+        if (change & CHANGED_LINK)
+        {
+            check_sitters();
+        }
+    }
+
+    touch_end(integer touched)
+    {
+        if (check_for_RLV() || llGetAgentSize(llGetLinkKey(llGetNumberOfPrims())) != ZERO_VECTOR)
+        {
+            register_touch(llDetectedKey(0), 0, llDetectedLinkNumber(0), TRUE);
+        }
+    }
+}
+*/
+//end_unprocessed_text
+//nfo_preprocessor_version 0
+//program_version LSL PyOptimizer v0.3.0beta
+//mono
+
+key gE;
+integer LslLibrary;
+integer IsSaveDue;
+integer Pop;
+list edefaultstate_entry = ["ALL", "OWNER", "GROUP"];
+integer ResumeVoid;
+integer g_;
+string UThreadStackFrame;
+list gD = [UThreadStackFrame];
+
+integer _(key llGetNumberOfPrims, string llGetInventoryType)
+{
+    integer loc_ALLOWED;
+    string loc_TYPE = llList2String(edefaultstate_entry, ResumeVoid);
+    if (llGetInventoryType == "MENU")
+    {
+        loc_TYPE = llList2String(gD, g_);
+    }
+    if (loc_TYPE == "GROUP")
+    {
+        if (!~-llSameGroup(llGetNumberOfPrims))
+        {
+            loc_ALLOWED = 1;
+        }
+    }
+    else if (llGetNumberOfPrims == llGetOwner() | loc_TYPE == "ALL")
+    {
+        loc_ALLOWED = 1;
+    }
+    return loc_ALLOWED;
+}
+
+A()
+{
+    integer loc_i = llGetNumberOfPrims();
+    while (!(llGetAgentSize(llGetLinkKey(loc_i)) == <((float)0), ((float)0), ((float)0)>))
+    {
+        key loc_av = llGetLinkKey(loc_i);
+        if (!_(loc_av, "SIT"))
+        {
+            llUnSit(loc_av);
+            llDialog(loc_av, "AVsitter™ Security 2.2p04\n\nSorry, Sit access is set to: " + llList2String(edefaultstate_entry, ResumeVoid), [], ((integer)-164289491));
+        }
+        --loc_i;
+    }
+}
+
+list B(list llGetNumberOfPrims)
+{
+    return llList2List(llGetNumberOfPrims, ((integer)-3), ((integer)-1)) + llList2List(llGetNumberOfPrims, ((integer)-6), ((integer)-4)) + llList2List(llGetNumberOfPrims, ((integer)-9), ((integer)-7)) + llList2List(llGetNumberOfPrims, ((integer)-12), ((integer)-10));
+}
+
+C(key llGetNumberOfPrims, integer llGetInventoryType, integer llDialog, integer llRegionSayTo)
+{
+    if (_(llGetNumberOfPrims, "MENU"))
+    {
+        if (llGetInventoryType("[AV]root-control") ^ 10)
+        {
+            llMessageLinked(((integer)-1), 90005, (string)llGetInventoryType, llGetNumberOfPrims);
+        }
+        else
+        {
+            if (F())
+            {
+                llMessageLinked(((integer)-4), 90012, (string)llDialog, llGetNumberOfPrims);
+            }
+            else
+            {
+                llMessageLinked(((integer)-4), 90007, "", llGetNumberOfPrims);
+            }
+        }
+    }
+    else if (llRegionSayTo)
+    {
+        llDialog(llGetNumberOfPrims, "AVsitter™ Security 2.2p04\n\nSorry, Menu access is set to: " + llList2String(gD, g_), [], ((integer)-164289491));
+    }
+}
+
+D()
+{
+    list loc_buttons = (list)"Sit" + "Menu";
+    if (gE)
+    {
+        loc_buttons = "[BACK]" + loc_buttons;
+    }
+    E("Sit access: " + llList2String(edefaultstate_entry, ResumeVoid) + "\nMenu access: " + llList2String(gD, g_) + "\n\nChange security settings:", loc_buttons);
+    UThreadStackFrame = "";
+}
+
+E(string llGetNumberOfPrims, list llGetInventoryType)
+{
+    llListenRemove(Pop);
+    Pop = llListen(IsSaveDue = ~(integer)llFrand(2147483520), "", llGetOwner(), "");
+    llDialog(llGetOwner(), "AVsitter™ Security 2.2p04\n\n" + llGetNumberOfPrims, B(llGetInventoryType), IsSaveDue);
+    llSetTimerEvent(600);
+}
+
+integer F()
+{
+    if (llGetInventoryType("[AV]root-RLV") == 10)
+    {
+        return 1;
+    }
+    return 0;
+}
+
+default
+{
+    state_entry()
+    {
+        gD = edefaultstate_entry;
+        llMessageLinked(((integer)-1), 90202, (string)F(), "");
+    }
+
+    timer()
+    {
+        llSetTimerEvent(0);
+        llListenRemove(Pop);
+    }
+
+    link_message(integer llGetNumberOfPrims, integer llGetInventoryType, string llDialog, key llRegionSayTo)
+    {
+        if (llGetInventoryType ^ 90201)
+            if (llGetInventoryType ^ 90006)
+                if (llGetInventoryType ^ 90100)
+                {
+                    if (llGetInventoryType == 90033)
+                    {
+                        llListenRemove(Pop);
+                    }
+                }
+                else
+                {
+                    list loc_data = llParseString2List(llDialog, (list)"|", []);
+                    if (llList2String(loc_data, 1) == "[SECURITY]")
+                    {
+                        if (llRegionSayTo == llGetOwner())
+                        {
+                            LslLibrary = llList2Integer(loc_data, 0);
+                            gE = llList2Key(loc_data, 2);
+                            D();
+                        }
+                        else
+                        {
+                            llRegionSayTo(llRegionSayTo, 0, "Sorry, only the owner can change security settings.");
+                            llMessageLinked(llGetNumberOfPrims, 90101, llList2String(loc_data, 0) + "|[ADJUST]|" + (string)llRegionSayTo, llList2Key(loc_data, 2));
+                        }
+                    }
+                }
+            else
+            {
+                if (llGetInventoryType("[AV]root-control") ^ 10)
+                {
+                    C(llRegionSayTo, (integer)llDialog, llGetNumberOfPrims, 0);
+                }
+            }
+        else
+        {
+            llMessageLinked(((integer)-1), 90202, (string)F(), "");
+        }
+    }
+
+    listen(integer llGetNumberOfPrims, string llGetInventoryType, key llDialog, string llRegionSayTo)
+    {
+        if (llRegionSayTo == "Sit")
+        {
+            E("Sit security:", edefaultstate_entry);
+            UThreadStackFrame = llRegionSayTo;
+            return;
+        }
+        else if (llRegionSayTo == "Menu")
+        {
+            E("Menu security:", gD);
+            UThreadStackFrame = llRegionSayTo;
+            return;
+        }
+        else
+        {
+            if (llRegionSayTo == "[BACK]")
+            {
+                llMessageLinked(((integer)-1), 90101, (string)LslLibrary + "|[ADJUST]|" + (string)llDialog, gE);
+            }
+            else if (UThreadStackFrame == "Sit")
+            {
+                ResumeVoid = llListFindList(edefaultstate_entry, (list)llRegionSayTo);
+                D();
+                A();
+                return;
+            }
+            else if (UThreadStackFrame == "Menu")
+            {
+                g_ = llListFindList(gD, (list)llRegionSayTo);
+                D();
+                return;
+            }
+        }
+        llListenRemove(Pop);
+    }
+
+    changed(integer llGetNumberOfPrims)
+    {
+        if (llGetNumberOfPrims & 32)
+        {
+            A();
+        }
+    }
+
+    touch_end(integer llGetNumberOfPrims)
+    {
+        if (F() | !(llGetAgentSize(llGetLinkKey(llGetNumberOfPrims())) == <((float)0), ((float)0), ((float)0)>))
+        {
+            C(llDetectedKey(0), 0, llDetectedLinkNumber(0), 1);
+        }
+    }
+}

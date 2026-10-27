@@ -1,0 +1,966 @@
+//start_unprocessed_text
+/*/*
+ * [AV]root-RLV-extra - Additional features for the RLV plugin
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * Copyright © the AVsitter Contributors (http://avsitter.github.io)
+ * AVsitter™ is a trademark. For trademark use policy see:
+ * https://avsitter.github.io/TRADEMARK.mediawiki
+ *
+ * Please consider supporting continued development of AVsitter and
+ * receive automatic updates and other benefits! All details and user
+ * instructions can be found at http://avsitter.github.io
+ *|/
+
+string product;
+string #version = "2.2p04";
+integer RELAY_CHANNEL = -1812221819;
+integer RELAY_GETSTATUS_CHANNEL;
+integer GETSTATUShandle;
+integer menu_channel;
+integer menu_handle;
+key CONTROLLER = "";
+string controllerName;
+key SLAVE;
+string menu;
+integer menuPage;
+list folderPath;
+list folderOptions = [menu]; //OSS::list folderOptions; // Force error in LSO
+list folderNamesFullLength;
+list CLOTHING_LAYERS = ["gloves", "jacket", "pants", "shirt", "shoes", "skirt", "socks", "underpants", "undershirt", "", "", "", "", "alpha", "tattoo"];
+list ATTACHMENT_POINTS = ["", "chest", "skull", "left shoulder", "right shoulder", "left hand", "right hand", "left foot", "right foot", "spine", "pelvis", "mouth", "chin", "left ear", "right ear", "left eyeball", "right eyeball", "nose", "r upper arm", "r forearm", "l upper arm", "l forearm", "right hip", "r upper leg", "r lower leg", "left hip", "l upper leg", "l lower leg", "stomach", "left pec", "right pec", "", "", "", "", "", "", "", "", "neck", "root"];
+list RLV_RESTRICTIONS =
+    [ "Chat", "sendchat", "sending chat"
+    , "IM", "sendim", "sending IM"
+    , "Touch", "touchall", "touching"
+    , "Names", "shownames", "seeing names"
+    , "Rez/Edit", "edit,rez", "editing and rezzing objects"
+    , "Inventory", "showinv", "accessing their inventory"
+    , "Map", "showworldmap,showminimap", "seeing their map"
+    , "Location", "showloc", "seeing their location"
+    ];
+string iconActive = "✘ ";
+string iconInactive = "✔ ";
+string iconEmpty = "○";
+string iconHalf = "◑";
+string iconFull = "●";
+string iconAdd = "[➕]";
+string iconSubtract = "[➖]";
+string pagedMenuText;
+list pagedMenuButtons;
+integer verbose = 0;
+
+Out(integer level, string out)
+{
+    if (verbose >= level)
+    {
+        llOwnerSay(llGetScriptName() + "[" + version + "]:" + out);
+    }
+}
+
+string strReplace(string str, string search, string replace)
+{
+    return llDumpList2String(llParseStringKeepNulls(str, [search], []), replace);
+}
+
+list order_buttons(list buttons)
+{
+    return llList2List(buttons, -3, -1) + llList2List(buttons, -6, -4) + llList2List(buttons, -9, -7) + llList2List(buttons, -12, -10);
+}
+
+relay(key av, string msg)
+{
+    msg = "RLV," + (string)av + "," + msg;
+    Out(1, "Sending RLV Command: " + msg);
+    llSay(RELAY_CHANNEL, msg);
+}
+
+remove_menu(string worn, list slots)
+{
+    list menu_items;
+    Out(1, "remove menu:" + worn + ":" + llDumpList2String(slots, ","));
+    integer i;
+    for (i = 0; i < llGetListLength(slots); i++)
+    {
+        if (llList2String(slots, i) != "" && llGetSubString(worn, i, i) == "1")
+        {
+            menu_items += llList2String(slots, i);
+        }
+    }
+    Out(1, "remove menu2:" + llDumpList2String(menu_items, ","));
+    string text = "'s RLV setup may prevent some items from being removed.\n\nSelect an item to remove:";
+    if (!llGetListLength(menu_items))
+    {
+        text = " is not wearing any items to " + llToLower(menu) + ".";
+    }
+    new_paged_menu(menu + " menu for " + llKey2Name(SLAVE) + "\n\nThe captive" + text, menu_items);
+}
+
+new_paged_menu(string text, list menu_items)
+{
+    pagedMenuText = text;
+    pagedMenuButtons = menu_items;
+    menuPage = 0;
+    paged_menu();
+}
+
+paged_menu()
+{
+    list MypagedMenuButtons = pagedMenuButtons;
+    if (llGetListLength(pagedMenuButtons) > 11)
+    {
+        integer numberPages = llGetListLength(pagedMenuButtons) / 9;
+        if (llGetListLength(pagedMenuButtons) % 9)
+        {
+            numberPages++;
+        }
+        if (menuPage >= numberPages)
+        {
+            menuPage = 0;
+        }
+        else if (menuPage < 0)
+        {
+            menuPage = numberPages - 1;
+        }
+        MypagedMenuButtons = llList2List(pagedMenuButtons, menuPage * 9, menuPage * 9 + 8);
+        while (llGetListLength(MypagedMenuButtons) < 9)
+        {
+            MypagedMenuButtons += " ";
+        }
+        MypagedMenuButtons += ["[<<]", "[>>]"];
+    }
+    Out(1, "paged menu:" + llDumpList2String(MypagedMenuButtons, ","));
+    dialog(pagedMenuText, ["[BACK]"] + MypagedMenuButtons);
+}
+
+dialog(string text, list buttons)
+{
+    while (llGetListLength(buttons) % 3)
+        buttons += " ";
+    llDialog(CONTROLLER, "AVsitter™ RLV " + product + " " + version + "\n\n" + text, order_buttons(buttons), menu_channel);
+}
+
+remove_script(string reason)
+{
+    string message = "\n" + llGetScriptName() + " ==Script Removed==\n\n" + reason;
+    llDialog(llGetOwner(), message, ["OK"], -3675);
+    llInstantMessage(llGetOwner(), message);
+    llRemoveInventory(llGetScriptName());
+}
+
+main_menu()
+{
+    menu = "";
+    dialog("Un/Dress menu for " + llKey2Name(SLAVE), ["[BACK]", "Browse #RLV", "Fast Strip", "Undress", "Detach"]);
+}
+
+default
+{
+    state_entry()
+    {
+        if (llSubStringIndex(llGetScriptName(), " ") != -1)
+        {
+            remove_script("Use only one copy of this script!");
+        }
+        else
+        {
+            state running;
+        }
+    }
+}
+
+state running
+{
+    link_message(integer sender, integer num, string msg, key id)
+    {
+        if (num == 90208 || num == 90209)
+        {
+            list data = llParseStringKeepNulls(id, ["|"], []);
+            SLAVE = (key)llList2String(data, 0);
+            CONTROLLER = (key)llList2String(data, 1);
+            product = llList2String(data, 2);
+            llListenRemove(menu_handle);
+            llListenRemove(GETSTATUShandle);
+            menu_handle = llListen((menu_channel = ((integer)llFrand(0x7FFFFF80) + 1) * -1), "", CONTROLLER, ""); // 7FFFFF80 = max float < 2^31
+            GETSTATUShandle = llListen((RELAY_GETSTATUS_CHANNEL = 64 + (integer)llFrand(999999936)), "", "", ""); // 999999936 = max float < 1e9
+            if (num == 90208)
+            {
+                main_menu();
+            }
+            else
+            {
+                menu = "Restrict";
+                relay(SLAVE, "@getstatus=" + (string)RELAY_GETSTATUS_CHANNEL);
+            }
+        }
+        else if (num == 90065)
+        {
+            if (id == SLAVE)
+            {
+                llListenRemove(menu_handle);
+                llListenRemove(GETSTATUShandle);
+                SLAVE = "";
+            }
+        }
+    }
+
+    listen(integer channel, string name, key id, string msg)
+    {
+        Out(1, "Listen Received: " + msg);
+        string command;
+        if (channel == menu_channel)
+        {
+            if (msg == "[>>]" || msg == "[<<]")
+            {
+                if (msg == "[<<]")
+                {
+                    menuPage--;
+                }
+                else
+                {
+                    menuPage++;
+                }
+                paged_menu();
+            }
+            else if (menu == "Browse #RLV")
+            {
+                integer index = llListFindList(folderOptions, [msg]);
+                if (~index)
+                {
+                    msg = llList2String(folderNamesFullLength, index);
+                    folderPath += msg;
+                    relay(SLAVE, "@getinvworn:" + llDumpList2String(folderPath, "/") + "=" + (string)RELAY_GETSTATUS_CHANNEL);
+                }
+                else if (msg == "[BACK]")
+                {
+                    if (!llGetListLength(folderPath))
+                    {
+                        main_menu();
+                    }
+                    else
+                    {
+                        folderPath = llDeleteSubList(folderPath, -1, -1);
+                        relay(SLAVE, "@getinvworn:" + llDumpList2String(folderPath, "/") + "=" + (string)RELAY_GETSTATUS_CHANNEL);
+                    }
+                }
+                else if (msg == iconAdd || msg == iconSubtract)
+                {
+                    command = "attach";
+                    if (msg == iconSubtract)
+                    {
+                        command = "detach";
+                    }
+                    relay(SLAVE, "@" + command + ":" + llDumpList2String(folderPath, "/") + "=force");
+                    llSleep(4);
+                    relay(SLAVE, "@getinvworn:" + llDumpList2String(folderPath, "/") + "=" + (string)RELAY_GETSTATUS_CHANNEL);
+                }
+            }
+            else if (msg == "[BACK]")
+            {
+                if (menu == "Restrict" || menu == "")
+                {
+                    llMessageLinked(LINK_THIS, 90100, "0|Control...|" + (string)SLAVE, CONTROLLER);
+                }
+                else
+                {
+                    main_menu();
+                }
+            }
+            else if (menu == "Detach" || menu == "Undress")
+            {
+                integer index = llListFindList(CLOTHING_LAYERS, [msg]);
+                command = "outfit";
+                if (index == -1)
+                {
+                    index = llListFindList(ATTACHMENT_POINTS, [msg]);
+                    command = "attach";
+                }
+                if (~index)
+                {
+                    relay(SLAVE, "@rem" + command + ":" + msg + "=force");
+                    llSleep(2);
+                    relay(SLAVE, "@get" + command + "=" + (string)RELAY_GETSTATUS_CHANNEL);
+                }
+            }
+            else if (msg == "Detach" || msg == "Undress" || msg == "Browse #RLV")
+            {
+                menu = msg;
+                folderPath = [];
+                command = "getoutfit";
+                if (msg == "Detach")
+                    command = "getattach";
+                if (msg == "Browse #RLV")
+                    command = "getinvworn";
+                relay(SLAVE, "@" + command + "=" + (string)RELAY_GETSTATUS_CHANNEL);
+            }
+            else if (msg == "Fast Strip")
+            {
+                menu = "fs";
+                dialog("Are you really sure? This will try to remove almost everything the avatar is wearing.", ["[BACK]", "YES!"]);
+            }
+            else if (msg == "YES!")
+            {
+                integer i;
+                for (i = 0; i < llGetListLength(CLOTHING_LAYERS); i++)
+                {
+                    if (llList2String(CLOTHING_LAYERS, i) != "")
+                    {
+                        relay(SLAVE, "@remoutfit:" + llList2String(CLOTHING_LAYERS, i) + "=force");
+                    }
+                }
+                for (i = 0; i < llGetListLength(ATTACHMENT_POINTS); i++)
+                {
+                    if (llList2String(ATTACHMENT_POINTS, i) != "")
+                    {
+                        if (i != 2)
+                        {
+                            relay(SLAVE, "@remattach:" + llList2String(ATTACHMENT_POINTS, i) + "=force");
+                        }
+                    }
+                }
+                main_menu();
+            }
+            else
+            {
+                integer index = llListFindList(llList2ListStrided(RLV_RESTRICTIONS, 0, -1, 3), [llList2String(llParseString2List(msg, [" "], []), 1)]);
+                if (~index)
+                {
+                    list subRestrictions = llParseString2List(llList2String(RLV_RESTRICTIONS, index * 3 + 1), [","], []);
+                    string param = "n";
+                    string chatText = strReplace(llKey2Name(SLAVE), " Resident", "") + " is ";
+                    if (~llSubStringIndex(msg, iconActive))
+                    {
+                        param = "y";
+                        chatText += "no longer ";
+                    }
+                    integer i;
+                    while (i < llGetListLength(subRestrictions))
+                    {
+                        relay(SLAVE, "@" + llList2String(subRestrictions, i) + "=" + param);
+                        i++;
+                    }
+                    llSay(0, chatText + "restricted from " + llList2String(RLV_RESTRICTIONS, index * 3 + 2) + ".");
+                    relay(SLAVE, "@getstatus=" + (string)RELAY_GETSTATUS_CHANNEL);
+                }
+            }
+        }
+        else if (channel == RELAY_GETSTATUS_CHANNEL)
+        {
+            if (menu == "Browse #RLV")
+            {
+                folderOptions = [];
+                folderNamesFullLength = [];
+                list BUTTONS;
+                list results = llParseStringKeepNulls(msg, [","], []);
+                string folderInfo;
+                string subInfo;
+                integer i;
+                for (i = 0; i < llGetListLength(results); i++)
+                {
+                    list item = llParseStringKeepNulls(llList2String(results, i), ["|"], []);
+                    string folder = llList2String(item, 0);
+                    integer worn = llList2Integer(item, 1);
+                    integer wornThis = worn / 10;
+                    integer wornSub = worn % 10;
+                    string icon = "no items";
+                    if (i)
+                    {
+                        if (wornThis || wornSub)
+                        {
+                            icon = iconEmpty;
+                            if (wornThis > 1 || wornSub > 1)
+                            {
+                                icon = iconHalf;
+                            }
+                            if ((wornThis == 3 && wornSub == 0) || (wornThis == 0 && wornSub == 3) || (wornThis == 3 && wornSub == 3))
+                            {
+                                icon = iconFull;
+                            }
+                            folderOptions += icon + " " + llGetSubString(folder, 0, 12);
+                            folderNamesFullLength += folder;
+                            subInfo = "\nSubfolders:\n" + iconEmpty + " = none worn\n" + iconHalf + " = some worn\n" + iconFull + " = all worn";
+                        }
+                    }
+                    else
+                    {
+                        if (wornThis)
+                        {
+                            icon = "none worn";
+                            if (wornThis == 2)
+                            {
+                                icon = "some worn";
+                            }
+                            if (wornThis == 3)
+                            {
+                                icon = "all worn";
+                            }
+                            BUTTONS += [iconAdd, iconSubtract];
+                            folderInfo = "\n" + iconAdd + " = wear\n" + iconSubtract + " = remove\n";
+                        }
+                        msg = "Folder: /" + llDumpList2String(folderPath, "/") + "\n[" + icon + "]\n" + folderInfo;
+                    }
+                }
+                if (!llGetListLength(folderOptions) && !llGetListLength(BUTTONS))
+                {
+                    msg = "#RLV folder empty";
+                }
+                new_paged_menu(msg + subInfo, BUTTONS + folderOptions);
+            }
+            else if (menu == "Detach")
+            {
+                remove_menu(msg, ATTACHMENT_POINTS);
+            }
+            else if (menu == "Undress")
+            {
+                remove_menu(msg, CLOTHING_LAYERS);
+            }
+            else if (menu == "Restrict")
+            {
+                list currentRestrictions = llParseString2List(msg, ["/"], []);
+                list menu_items = ["[BACK]"];
+                integer i;
+                while (i < llGetListLength(RLV_RESTRICTIONS))
+                {
+                    list subRestrictions = llParseString2List(llList2String(RLV_RESTRICTIONS, i + 1), [","], []);
+                    integer inActive;
+                    integer j;
+                    while (j < llGetListLength(subRestrictions))
+                    {
+                        if (llListFindList(currentRestrictions, [llList2String(subRestrictions, j)]) == -1)
+                        {
+                            inActive = TRUE;
+                        }
+                        j++;
+                    }
+                    string symbol = iconInactive;
+                    if (!inActive)
+                    {
+                        symbol = iconActive;
+                    }
+                    string btntext = symbol + llList2String(RLV_RESTRICTIONS, i);
+                    while (llStringLength(btntext) < 20)
+                        btntext += " ";
+                    btntext += ".";
+                    menu_items += btntext;
+                    i += 3;
+                }
+                dialog("RLV for " + llKey2Name(SLAVE) + "\n\n" + iconInactive + "= Allowed\n" + iconActive + "= Restricted", menu_items);
+            }
+        }
+    }
+}
+*/
+//end_unprocessed_text
+//nfo_preprocessor_version 0
+//program_version LSL PyOptimizer v0.3.0beta
+//mono
+
+string e_link_message;
+integer LslUserScript;
+integer gC;
+integer gE;
+integer gF;
+key UThreadStackFrame = "";
+key ResumeVoid;
+string gJ;
+integer Library;
+list Pop;
+list gA = [gJ];
+list UThread;
+list gI = 
+    [ "gloves"
+    , "jacket"
+    , "pants"
+    , "shirt"
+    , "shoes"
+    , "skirt"
+    , "socks"
+    , "underpants"
+    , "undershirt"
+    , ""
+    , ""
+    , ""
+    , ""
+    , "alpha"
+    , "tattoo"
+    ];
+list gB = 
+    [ ""
+    , "chest"
+    , "skull"
+    , "left shoulder"
+    , "right shoulder"
+    , "left hand"
+    , "right hand"
+    , "left foot"
+    , "right foot"
+    , "spine"
+    , "pelvis"
+    , "mouth"
+    , "chin"
+    , "left ear"
+    , "right ear"
+    , "left eyeball"
+    , "right eyeball"
+    , "nose"
+    , "r upper arm"
+    , "r forearm"
+    , "l upper arm"
+    , "l forearm"
+    , "right hip"
+    , "r upper leg"
+    , "r lower leg"
+    , "left hip"
+    , "l upper leg"
+    , "l lower leg"
+    , "stomach"
+    , "left pec"
+    , "right pec"
+    , ""
+    , ""
+    , ""
+    , ""
+    , ""
+    , ""
+    , ""
+    , ""
+    , "neck"
+    , "root"
+    ];
+list IsSaveDue = 
+    [ "Chat"
+    , "sendchat"
+    , "sending chat"
+    , "IM"
+    , "sendim"
+    , "sending IM"
+    , "Touch"
+    , "touchall"
+    , "touching"
+    , "Names"
+    , "shownames"
+    , "seeing names"
+    , "Rez/Edit"
+    , "edit,rez"
+    , "editing and rezzing objects"
+    , "Inventory"
+    , "showinv"
+    , "accessing their inventory"
+    , "Map"
+    , "showworldmap,showminimap"
+    , "seeing their map"
+    , "Location"
+    , "showloc"
+    , "seeing their location"
+    ];
+string System;
+list IsRestoring;
+
+A(integer llDeleteSubList, string llList2String)
+{
+    if (llDeleteSubList < 1)
+    {
+        llOwnerSay(llGetScriptName() + "[2.2p04]:" + llList2String);
+    }
+}
+
+string B(string llDeleteSubList, string llList2String, string llGetOwner)
+{
+    return llDumpList2String(llParseStringKeepNulls(llDeleteSubList, (list)llList2String, []), llGetOwner);
+}
+
+list C(list llDeleteSubList)
+{
+    return llList2List(llDeleteSubList, ((integer)-3), ((integer)-1)) + llList2List(llDeleteSubList, ((integer)-6), ((integer)-4)) + llList2List(llDeleteSubList, ((integer)-9), ((integer)-7)) + llList2List(llDeleteSubList, ((integer)-12), ((integer)-10));
+}
+
+D(key llDeleteSubList, string llList2String)
+{
+    llList2String = "RLV," + (string)llDeleteSubList + "," + llList2String;
+    A(1, "Sending RLV Command: " + llList2String);
+    llSay(((integer)-1812221819), llList2String);
+}
+
+E(string llDeleteSubList, list llList2String)
+{
+    list loc_menu_items;
+    A(1, "remove menu:" + llDeleteSubList + ":" + llDumpList2String(llList2String, ","));
+    integer loc_i;
+    for (loc_i = 0; loc_i < (llList2String != []); ++loc_i)
+    {
+        if (!(llList2String(llList2String, loc_i) == "" | !(llGetSubString(llDeleteSubList, loc_i, loc_i) == "1")))
+        {
+            loc_menu_items = loc_menu_items + llList2String(llList2String, loc_i);
+        }
+    }
+    A(1, "remove menu2:" + llDumpList2String(loc_menu_items, ","));
+    string loc_text = "'s RLV setup may prevent some items from being removed.\n\nSelect an item to remove:";
+    if (loc_menu_items == [])
+    {
+        loc_text = " is not wearing any items to " + llToLower(gJ) + ".";
+    }
+    F(gJ + " menu for " + llKey2Name(ResumeVoid) + "\n\nThe captive" + loc_text, loc_menu_items);
+}
+
+F(string llDeleteSubList, list llList2String)
+{
+    System = llDeleteSubList;
+    IsRestoring = llList2String;
+    Library = 0;
+    G();
+}
+
+G()
+{
+    list loc_MypagedMenuButtons = IsRestoring;
+    if (11 < (IsRestoring != []))
+    {
+        integer loc_numberPages = (IsRestoring != []) / 9;
+        if ((IsRestoring != []) % 9)
+        {
+            ++loc_numberPages;
+        }
+        if (Library < loc_numberPages)
+        {
+            if (Library < 0)
+            {
+                Library = ~-loc_numberPages;
+            }
+        }
+        else
+        {
+            Library = 0;
+        }
+        loc_MypagedMenuButtons = llList2List(IsRestoring, Library * 9, 8 + Library * 9);
+        while ((loc_MypagedMenuButtons != []) < 9)
+        {
+            loc_MypagedMenuButtons = loc_MypagedMenuButtons + " ";
+        }
+        loc_MypagedMenuButtons = loc_MypagedMenuButtons + "[<<]" + "[>>]";
+    }
+    A(1, "paged menu:" + llDumpList2String(loc_MypagedMenuButtons, ","));
+    H(System, "[BACK]" + loc_MypagedMenuButtons);
+}
+
+H(string llDeleteSubList, list llList2String)
+{
+    while ((llList2String != []) % 3)
+        llList2String = llList2String + " ";
+    llDialog(UThreadStackFrame, "AVsitter™ RLV " + e_link_message + " 2.2p04\n\n" + llDeleteSubList, C(llList2String), gE);
+}
+
+I(string llDeleteSubList)
+{
+    string loc_message = "\n" + llGetScriptName() + " ==Script Removed==\n\n" + llDeleteSubList;
+    llDialog(llGetOwner(), loc_message, [], ((integer)-3675));
+    llInstantMessage(llGetOwner(), loc_message);
+    llRemoveInventory(llGetScriptName());
+}
+
+J()
+{
+    gJ = "";
+    H("Un/Dress menu for " + llKey2Name(ResumeVoid), (list)"[BACK]" + "Browse #RLV" + "Fast Strip" + "Undress" + "Detach");
+}
+
+default
+{
+    state_entry()
+    {
+        if (~llSubStringIndex(llGetScriptName(), " "))
+        {
+            I("Use only one copy of this script!");
+        }
+        else
+        {
+            state _;
+        }
+    }
+}
+
+state _
+{
+    link_message(integer llDeleteSubList, integer llList2String, string llGetOwner, key llMessageLinked)
+    {
+        if (llList2String == 90208 | llList2String == 90209)
+        {
+            list loc_data = llParseStringKeepNulls(llMessageLinked, (list)"|", []);
+            ResumeVoid = (key)llList2String(loc_data, 0);
+            UThreadStackFrame = (key)llList2String(loc_data, 1);
+            e_link_message = llList2String(loc_data, 2);
+            llListenRemove(gF);
+            llListenRemove(gC);
+            gF = llListen(gE = ~(integer)llFrand(2147483520), "", UThreadStackFrame, "");
+            gC = llListen(LslUserScript = 64 + (integer)llFrand(999999936), "", "", "");
+            if (llList2String ^ 90208)
+            {
+                gJ = "Restrict";
+                D(ResumeVoid, "@getstatus=" + (string)LslUserScript);
+            }
+            else
+            {
+                J();
+            }
+        }
+        else if (llList2String == 90065)
+        {
+            if (llMessageLinked == ResumeVoid)
+            {
+                llListenRemove(gF);
+                llListenRemove(gC);
+                ResumeVoid = "";
+            }
+        }
+    }
+
+    listen(integer llDeleteSubList, string llList2String, key llGetOwner, string llMessageLinked)
+    {
+        A(1, "Listen Received: " + llMessageLinked);
+        string loc_command;
+        if (llDeleteSubList ^ gE)
+        {
+            if (llDeleteSubList == LslUserScript)
+            {
+                if (gJ == "Browse #RLV")
+                {
+                    gA = [];
+                    UThread = [];
+                    list loc_BUTTONS;
+                    list loc_results = llParseStringKeepNulls(llMessageLinked, (list)",", []);
+                    string loc_folderInfo;
+                    string loc_subInfo;
+                    integer loc_i;
+                    for (loc_i = 0; loc_i < (loc_results != []); ++loc_i)
+                    {
+                        list loc_item = llParseStringKeepNulls(llList2String(loc_results, loc_i), (list)"|", []);
+                        string loc_folder = llList2String(loc_item, 0);
+                        integer loc_worn = llList2Integer(loc_item, 1);
+                        integer loc_wornThis = loc_worn / 10;
+                        integer loc_wornSub = loc_worn % 10;
+                        string loc_icon = "no items";
+                        if (loc_i)
+                        {
+                            if (loc_wornThis | loc_wornSub)
+                            {
+                                loc_icon = "○";
+                                if (!(loc_wornThis < 2 & loc_wornSub < 2))
+                                {
+                                    loc_icon = "◑";
+                                }
+                                if (!(-!(!(loc_wornThis ^ 3 | loc_wornSub) | !(loc_wornThis | loc_wornSub ^ 3)) & (loc_wornThis ^ 3 | loc_wornSub ^ 3)))
+                                {
+                                    loc_icon = "●";
+                                }
+                                gA = gA + (loc_icon + " " + llGetSubString(loc_folder, 0, 12));
+                                UThread = UThread + loc_folder;
+                                loc_subInfo = "\nSubfolders:\n○ = none worn\n◑ = some worn\n● = all worn";
+                            }
+                        }
+                        else
+                        {
+                            if (loc_wornThis)
+                            {
+                                loc_icon = "none worn";
+                                if (loc_wornThis == 2)
+                                {
+                                    loc_icon = "some worn";
+                                }
+                                if (loc_wornThis == 3)
+                                {
+                                    loc_icon = "all worn";
+                                }
+                                loc_BUTTONS = loc_BUTTONS + "[➕]" + "[➖]";
+                                loc_folderInfo = "\n[➕] = wear\n[➖] = remove\n";
+                            }
+                            llMessageLinked = "Folder: /" + llDumpList2String(Pop, "/") + "\n[" + loc_icon + "]\n" + loc_folderInfo;
+                        }
+                    }
+                    if (gA == [] & loc_BUTTONS == [])
+                    {
+                        llMessageLinked = "#RLV folder empty";
+                    }
+                    F(llMessageLinked + loc_subInfo, loc_BUTTONS + gA);
+                }
+                else if (gJ == "Detach")
+                {
+                    E(llMessageLinked, gB);
+                }
+                else if (gJ == "Undress")
+                {
+                    E(llMessageLinked, gI);
+                }
+                else if (gJ == "Restrict")
+                {
+                    list loc_currentRestrictions = llParseString2List(llMessageLinked, (list)"/", []);
+                    list loc_menu_items = (list)"[BACK]";
+                    integer loc_i;
+                    while (loc_i < (IsSaveDue != []))
+                    {
+                        list loc_subRestrictions = llParseString2List(llList2String(IsSaveDue, -~loc_i), (list)",", []);
+                        integer loc_inActive;
+                        integer loc_j;
+                        while (loc_j < (loc_subRestrictions != []))
+                        {
+                            if (!~llListFindList(loc_currentRestrictions, (list)llList2String(loc_subRestrictions, loc_j)))
+                            {
+                                loc_inActive = 1;
+                            }
+                            ++loc_j;
+                        }
+                        string loc_symbol = "✔ ";
+                        if (!loc_inActive)
+                        {
+                            loc_symbol = "✘ ";
+                        }
+                        string loc_btntext = loc_symbol + llList2String(IsSaveDue, loc_i);
+                        while (llStringLength(loc_btntext) < 20)
+                            loc_btntext = loc_btntext + " ";
+                        loc_btntext = loc_btntext + ".";
+                        loc_menu_items = loc_menu_items + loc_btntext;
+                        loc_i = 3 + loc_i;
+                    }
+                    H("RLV for " + llKey2Name(ResumeVoid) + "\n\n✔ = Allowed\n✘ = Restricted", loc_menu_items);
+                }
+            }
+        }
+        else
+        {
+            if (llMessageLinked == "[>>]" | llMessageLinked == "[<<]")
+            {
+                if (llMessageLinked == "[<<]")
+                {
+                    --Library;
+                }
+                else
+                {
+                    ++Library;
+                }
+                G();
+            }
+            else if (gJ == "Browse #RLV")
+            {
+                integer loc_index = llListFindList(gA, (list)llMessageLinked);
+                if (~loc_index)
+                {
+                    llMessageLinked = llList2String(UThread, loc_index);
+                    Pop = Pop + llMessageLinked;
+                    D(ResumeVoid, "@getinvworn:" + llDumpList2String(Pop, "/") + "=" + (string)LslUserScript);
+                }
+                else if (llMessageLinked == "[BACK]")
+                {
+                    if (Pop == [])
+                    {
+                        J();
+                    }
+                    else
+                    {
+                        Pop = llDeleteSubList(Pop, ((integer)-1), ((integer)-1));
+                        D(ResumeVoid, "@getinvworn:" + llDumpList2String(Pop, "/") + "=" + (string)LslUserScript);
+                    }
+                }
+                else if (llMessageLinked == "[➕]" | llMessageLinked == "[➖]")
+                {
+                    loc_command = "attach";
+                    if (llMessageLinked == "[➖]")
+                    {
+                        loc_command = "detach";
+                    }
+                    D(ResumeVoid, "@" + loc_command + ":" + llDumpList2String(Pop, "/") + "=force");
+                    llSleep(4);
+                    D(ResumeVoid, "@getinvworn:" + llDumpList2String(Pop, "/") + "=" + (string)LslUserScript);
+                }
+            }
+            else if (llMessageLinked == "[BACK]")
+            {
+                if (gJ == "Restrict" | gJ == "")
+                {
+                    llMessageLinked(((integer)-4), 90100, "0|Control...|" + (string)ResumeVoid, UThreadStackFrame);
+                }
+                else
+                {
+                    J();
+                }
+            }
+            else if (gJ == "Detach" | gJ == "Undress")
+            {
+                integer loc_index = llListFindList(gI, (list)llMessageLinked);
+                loc_command = "outfit";
+                if (!~loc_index)
+                {
+                    loc_index = llListFindList(gB, (list)llMessageLinked);
+                    loc_command = "attach";
+                }
+                if (~loc_index)
+                {
+                    D(ResumeVoid, "@rem" + loc_command + ":" + llMessageLinked + "=force");
+                    llSleep(2);
+                    D(ResumeVoid, "@get" + loc_command + "=" + (string)LslUserScript);
+                }
+            }
+            else if (llMessageLinked == "Detach" | llMessageLinked == "Undress" | llMessageLinked == "Browse #RLV")
+            {
+                gJ = llMessageLinked;
+                Pop = [];
+                loc_command = "getoutfit";
+                if (llMessageLinked == "Detach")
+                    loc_command = "getattach";
+                if (llMessageLinked == "Browse #RLV")
+                    loc_command = "getinvworn";
+                D(ResumeVoid, "@" + loc_command + "=" + (string)LslUserScript);
+            }
+            else if (llMessageLinked == "Fast Strip")
+            {
+                gJ = "fs";
+                H("Are you really sure? This will try to remove almost everything the avatar is wearing.", (list)"[BACK]" + "YES!");
+            }
+            else if (llMessageLinked == "YES!")
+            {
+                integer loc_i;
+                for (loc_i = 0; loc_i < (gI != []); ++loc_i)
+                {
+                    if (!(llList2String(gI, loc_i) == ""))
+                    {
+                        D(ResumeVoid, "@remoutfit:" + llList2String(gI, loc_i) + "=force");
+                    }
+                }
+                for (loc_i = 0; loc_i < (gB != []); ++loc_i)
+                {
+                    if (!(llList2String(gB, loc_i) == ""))
+                    {
+                        if (loc_i ^ 2)
+                        {
+                            D(ResumeVoid, "@remattach:" + llList2String(gB, loc_i) + "=force");
+                        }
+                    }
+                }
+                J();
+            }
+            else
+            {
+                integer loc_index = llListFindList(llList2ListStrided(IsSaveDue, 0, ((integer)-1), 3), (list)llList2String(llParseString2List(llMessageLinked, (list)" ", []), 1));
+                if (~loc_index)
+                {
+                    list loc_subRestrictions = llParseString2List(llList2String(IsSaveDue, -~(loc_index * 3)), (list)",", []);
+                    string loc_param = "n";
+                    string loc_chatText = B(llKey2Name(ResumeVoid), " Resident", "") + " is ";
+                    if (~llSubStringIndex(llMessageLinked, "✘ "))
+                    {
+                        loc_param = "y";
+                        loc_chatText = loc_chatText + "no longer ";
+                    }
+                    integer loc_i;
+                    while (loc_i < (loc_subRestrictions != []))
+                    {
+                        D(ResumeVoid, "@" + llList2String(loc_subRestrictions, loc_i) + "=" + loc_param);
+                        ++loc_i;
+                    }
+                    llSay(0, loc_chatText + "restricted from " + llList2String(IsSaveDue, -~-~(loc_index * 3)) + ".");
+                    D(ResumeVoid, "@getstatus=" + (string)LslUserScript);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,477 @@
+//start_unprocessed_text
+/*/*
+ * [AV]camera - Set pose-specific camera settings
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * Copyright © the AVsitter Contributors (http://avsitter.github.io)
+ * AVsitter™ is a trademark. For trademark use policy see:
+ * https://avsitter.github.io/TRADEMARK.mediawiki
+ *
+ * Please consider supporting continued development of AVsitter and
+ * receive automatic updates and other benefits! All details and user
+ * instructions can be found at http://avsitter.github.io
+ *|/
+
+string #version = "2.2p04";
+string notecard_name = "AVpos";
+string main_script = "[AV]sitA";
+key notecard_key;
+key notecard_query;
+integer notecard_line;
+integer notecard_section;
+integer SCRIPT_CHANNEL;
+string myPose;
+key mySitter;
+list camera_triggers = [myPose]; //OSS::list camera_triggers; // Force error in LSO
+list camera_settings;
+integer lastByButton = -1;
+string lastPose;
+
+integer get_number_of_scripts()
+{
+    integer i = 1;
+    while (llGetInventoryType(main_script + " " + (string)i) == INVENTORY_SCRIPT)
+    {
+        i++;
+    }
+    return i;
+}
+
+integer verbose = 0;
+
+Out(integer level, string out)
+{
+    if (verbose >= level)
+    {
+        llOwnerSay(llGetScriptName() + "[" + version + "] " + out);
+    }
+}
+
+Readout_Say(string say, string SCRIPT_CHANNEL)
+{
+    llSleep(0.2);
+    llMessageLinked(LINK_THIS, 90022, say, SCRIPT_CHANNEL);
+}
+
+set_camera(integer byButton)
+{
+    if (mySitter) // OSS::if (osIsUUID(mySitter) && mySitter != NULL_KEY)
+    {
+        if (llGetPermissions() & PERMISSION_CONTROL_CAMERA)
+        {
+            if (llGetPermissionsKey() == mySitter)
+            {
+                integer index = llListFindList(camera_triggers, [myPose]);
+                if (index == -1)
+                {
+                    if (~lastByButton)
+                    {
+                        index = lastByButton;
+                    }
+                    else
+                    {
+                        index = llListFindList(camera_triggers, ["DEFAULT"]);
+                    }
+                }
+                if (~index)
+                {
+                    if (byButton)
+                    {
+                        lastByButton = index;
+                    }
+                    list settings = llParseStringKeepNulls(llList2String(camera_settings, index), ["|"], []);
+                    vector pos = (vector)llList2String(settings, 0) * llGetRot() + llGetPos();
+                    vector focus = (vector)llList2String(settings, 1) * llGetRot() + llGetPos();
+                    llSetCameraParams([CAMERA_ACTIVE, 1, CAMERA_FOCUS, focus, CAMERA_FOCUS_LOCKED, TRUE, CAMERA_POSITION, pos, CAMERA_POSITION_LOCKED, TRUE, CAMERA_FOCUS_OFFSET, <0,0,0>]);
+                }
+                else
+                {
+                    llSetCameraParams([CAMERA_ACTIVE, 0]);
+                }
+                return;
+            }
+        }
+        llRequestPermissions(mySitter, PERMISSION_CONTROL_CAMERA);
+    }
+}
+
+default
+{
+    run_time_permissions(integer perm)
+    {
+        if (perm & PERMISSION_CONTROL_CAMERA)
+        {
+            set_camera(FALSE);
+        }
+    }
+
+    state_entry()
+    {
+        camera_triggers = [];
+        SCRIPT_CHANNEL = (integer)llGetSubString(llGetScriptName(), llSubStringIndex(llGetScriptName(), " "), 99999);
+        notecard_key = llGetInventoryKey(notecard_name);
+        if (llGetInventoryType(notecard_name) == INVENTORY_NOTECARD)
+        {
+            Out(0, "Loading...");
+            notecard_query = llGetNotecardLine(notecard_name, 0);
+        }
+    }
+
+    link_message(integer sender, integer num, string msg, key id)
+    {
+        if (sender == llGetLinkNumber())
+        {
+            if (num == 90230 | num == 90231)
+            {
+                list data = llParseStringKeepNulls(id, ["|"], []);
+                key this_controller = (key)llList2String(data, 0);
+                key this_sitter = (key)llList2String(data, -1);
+                if (this_sitter == mySitter)
+                {
+                    myPose = msg;
+                    if (myPose == "RESET")
+                    {
+                        lastByButton = -1;
+                        myPose = lastPose;
+                    }
+                    set_camera(TRUE);
+                    if (num == 90230)
+                    {
+                        llMessageLinked(LINK_THIS, 90005, "", this_controller);
+                    }
+                }
+            }
+            else if (num == 90045)
+            {
+                list data = llParseStringKeepNulls(msg, ["|"], []);
+                integer sitter = (integer)llList2String(data, 0);
+                if (sitter == SCRIPT_CHANNEL)
+                {
+                    mySitter = id;
+                    myPose = llList2String(data, 1);
+                    lastPose = myPose;
+                    set_camera(FALSE);
+                }
+            }
+            else if (num == 90065)
+            {
+                if (id == mySitter)
+                {
+                    lastByButton = -1;
+                    mySitter = NULL_KEY;
+                }
+                else
+                {
+                    llSleep(0.1);
+                    set_camera(FALSE);
+                }
+            }
+            else if (num == 90174 && (integer)msg == SCRIPT_CHANNEL)
+            {
+                integer i = llGetListLength(camera_triggers);
+                integer index;
+                while (~(index = llListFindList(camera_triggers, [myPose])))
+                {
+                    camera_triggers = llDeleteSubList(camera_triggers, index, index);
+                    camera_settings = llDeleteSubList(camera_settings, index, index);
+                }
+                if (id != "none")
+                {
+                    camera_triggers += myPose;
+                    camera_settings += (string)id;
+                    llSay(0, "CAMERA saved to '" + myPose + "' for SITTER " + (string)SCRIPT_CHANNEL + ".");
+                    llSay(0, "CAMERA " + myPose + "|" + (string)id);
+                }
+                else
+                {
+                    llSay(0, "CAMERA cleared from '" + myPose + "' for SITTER " + (string)SCRIPT_CHANNEL + ".");
+                }
+                set_camera(FALSE);
+            }
+            else if (num == 90020 && ((string)id == llGetScriptName() || (string)id + " " + msg == llGetScriptName()))
+            {
+                if ((integer)msg == SCRIPT_CHANNEL)
+                {
+                    integer i;
+                    for (i = 0; i < llGetListLength(camera_triggers); i++)
+                    {
+                        Readout_Say("CAMERA " + llList2String(camera_triggers, i) + "|" + llList2String(camera_settings, i), msg);
+                    }
+                    llMessageLinked(LINK_THIS, 90021, msg, (string)id);
+                }
+            }
+        }
+    }
+
+    changed(integer change)
+    {
+        if (change & CHANGED_INVENTORY)
+        {
+            if (llGetInventoryKey(notecard_name) != notecard_key)
+            {
+                llResetScript();
+            }
+        }
+    }
+
+    dataserver(key query_id, string data)
+    {
+        if (query_id == notecard_query)
+        {
+            if (data == EOF)
+            {
+                Out(0, (string)llGetListLength(camera_triggers) + " Cameras Ready, Mem=" + (string)llGetFreeMemory());
+            }
+            else
+            {
+                data = llGetSubString(data, llSubStringIndex(data, "◆") + 1, 99999);
+                data = llStringTrim(data, STRING_TRIM);
+                string command = llGetSubString(data, 0, llSubStringIndex(data, " ") - 1);
+                list parts = llParseStringKeepNulls(llGetSubString(data, llSubStringIndex(data, " ") + 1, 99999), [" | ", " |", "| ", "|"], []);
+                string part0 = llStringTrim(llList2String(parts, 0), STRING_TRIM);
+                if (command == "SITTER")
+                {
+                    notecard_section = (integer)part0;
+                }
+                else if (notecard_section == SCRIPT_CHANNEL && command == "CAMERA")
+                {
+                    string part1 = llStringTrim(llDumpList2String(llList2List(parts, 1, 99999), "|"), STRING_TRIM);
+                    list sequence = llParseString2List(part1, ["|"], []);
+                    camera_triggers += part0;
+                    camera_settings += part1;
+                }
+                notecard_query = llGetNotecardLine(notecard_name, ++notecard_line);
+            }
+        }
+    }
+}
+*/
+//end_unprocessed_text
+//nfo_preprocessor_version 0
+//program_version LSL PyOptimizer v0.3.0beta
+//mono
+
+key edefaultstate_entry;
+key LslUserScript;
+integer UThread;
+integer IsRestoring;
+integer ResumeVoid;
+string edefaultchanged;
+key g_;
+list Pop = [edefaultchanged];
+list gB;
+integer edefaultlink_message = -1;
+string IsSaveDue;
+
+_(integer llGetFreeMemory, string llGetPos)
+{
+    if (llGetFreeMemory < 1)
+    {
+        llOwnerSay(llGetScriptName() + "[2.2p04] " + llGetPos);
+    }
+}
+
+A(string llGetFreeMemory, string llGetPos)
+{
+    llSleep(0.2);
+    llMessageLinked(((integer)-4), 90022, llGetFreeMemory, llGetPos);
+}
+
+B(integer llGetFreeMemory)
+{
+    if (g_)
+    {
+        if (llGetPermissions() & 2048)
+        {
+            if (llGetPermissionsKey() == g_)
+            {
+                integer loc_index = llListFindList(Pop, (list)edefaultchanged);
+                if (!~loc_index)
+                {
+                    if (~edefaultlink_message)
+                    {
+                        loc_index = edefaultlink_message;
+                    }
+                    else
+                    {
+                        loc_index = llListFindList(Pop, (list)"DEFAULT");
+                    }
+                }
+                if (~loc_index)
+                {
+                    if (llGetFreeMemory)
+                    {
+                        edefaultlink_message = loc_index;
+                    }
+                    list loc_settings = llParseStringKeepNulls(llList2String(gB, loc_index), (list)"|", []);
+                    vector loc_pos = (vector)llList2String(loc_settings, 0) * llGetRot() + llGetPos();
+                    vector loc_focus = (vector)llList2String(loc_settings, 1) * llGetRot() + llGetPos();
+                    llSetCameraParams((list)12 + 1 + 17 + loc_focus + 22 + 1 + 13 + loc_pos + 21 + 1 + 1 + <((float)0), ((float)0), ((float)0)>);
+                }
+                else
+                {
+                    llSetCameraParams((list)12 + 0);
+                }
+                return;
+            }
+        }
+        llRequestPermissions(g_, 2048);
+    }
+}
+
+default
+{
+    run_time_permissions(integer llGetFreeMemory)
+    {
+        if (llGetFreeMemory & 2048)
+        {
+            B(0);
+        }
+    }
+
+    state_entry()
+    {
+        Pop = [];
+        ResumeVoid = (integer)llGetSubString(llGetScriptName(), llSubStringIndex(llGetScriptName(), " "), 99999);
+        edefaultstate_entry = llGetInventoryKey("AVpos");
+        if (llGetInventoryType("AVpos") == 7)
+        {
+            _(0, "Loading...");
+            LslUserScript = llGetNotecardLine("AVpos", 0);
+        }
+    }
+
+    link_message(integer llGetFreeMemory, integer llGetPos, string llGetNotecardLine, key llList2String)
+    {
+        if (llGetFreeMemory == llGetLinkNumber())
+        {
+            if (llGetPos == 90230 | llGetPos == 90231)
+            {
+                list loc_data = llParseStringKeepNulls(llList2String, (list)"|", []);
+                key loc_this_controller = (key)llList2String(loc_data, 0);
+                key loc_this_sitter = (key)llList2String(loc_data, ((integer)-1));
+                if (loc_this_sitter == g_)
+                {
+                    edefaultchanged = llGetNotecardLine;
+                    if (edefaultchanged == "RESET")
+                    {
+                        edefaultlink_message = ((integer)-1);
+                        edefaultchanged = IsSaveDue;
+                    }
+                    B(1);
+                    if (llGetPos == 90230)
+                    {
+                        llMessageLinked(((integer)-4), 90005, "", loc_this_controller);
+                    }
+                }
+            }
+            else if (llGetPos ^ 90045)
+                if (llGetPos ^ 90065)
+                    if (llGetPos ^ 90174 | (integer)llGetNotecardLine ^ ResumeVoid)
+                    {
+                        if (llGetPos == 90020 & ((string)llList2String == llGetScriptName() | (string)llList2String + " " + llGetNotecardLine == llGetScriptName()))
+                        {
+                            if ((integer)llGetNotecardLine == ResumeVoid)
+                            {
+                                integer loc_i;
+                                for (loc_i = 0; loc_i < (Pop != []); ++loc_i)
+                                {
+                                    A("CAMERA " + llList2String(Pop, loc_i) + "|" + llList2String(gB, loc_i), llGetNotecardLine);
+                                }
+                                llMessageLinked(((integer)-4), 90021, llGetNotecardLine, (string)llList2String);
+                            }
+                        }
+                    }
+                    else
+                    {
+                        integer loc_index;
+                        while (~(loc_index = llListFindList(Pop, (list)edefaultchanged)))
+                        {
+                            Pop = llDeleteSubList(Pop, loc_index, loc_index);
+                            gB = llDeleteSubList(gB, loc_index, loc_index);
+                        }
+                        if (llList2String == "none")
+                        {
+                            llSay(0, "CAMERA cleared from '" + edefaultchanged + "' for SITTER " + (string)ResumeVoid + ".");
+                        }
+                        else
+                        {
+                            Pop = Pop + edefaultchanged;
+                            gB = gB + (string)llList2String;
+                            llSay(0, "CAMERA saved to '" + edefaultchanged + "' for SITTER " + (string)ResumeVoid + ".");
+                            llSay(0, "CAMERA " + edefaultchanged + "|" + (string)llList2String);
+                        }
+                        B(0);
+                    }
+                else
+                {
+                    if (llList2String == g_)
+                    {
+                        edefaultlink_message = ((integer)-1);
+                        g_ = "00000000-0000-0000-0000-000000000000";
+                    }
+                    else
+                    {
+                        llSleep(0.1);
+                        B(0);
+                    }
+                }
+            else
+            {
+                list loc_data = llParseStringKeepNulls(llGetNotecardLine, (list)"|", []);
+                integer loc_sitter = (integer)llList2String(loc_data, 0);
+                if (loc_sitter == ResumeVoid)
+                {
+                    g_ = llList2String;
+                    edefaultchanged = llList2String(loc_data, 1);
+                    IsSaveDue = edefaultchanged;
+                    B(0);
+                }
+            }
+        }
+    }
+
+    changed(integer llGetFreeMemory)
+    {
+        if (llGetFreeMemory & 1)
+        {
+            if (!(llGetInventoryKey("AVpos") == edefaultstate_entry))
+            {
+                llResetScript();
+            }
+        }
+    }
+
+    dataserver(key llGetFreeMemory, string llGetPos)
+    {
+        if (llGetFreeMemory == LslUserScript)
+        {
+            if (llGetPos == "\n\n\n")
+            {
+                _(0, (string)(Pop != []) + " Cameras Ready, Mem=" + (string)llGetFreeMemory());
+            }
+            else
+            {
+                llGetPos = llGetSubString(llGetPos, -~llSubStringIndex(llGetPos, "◆"), 99999);
+                llGetPos = llStringTrim(llGetPos, 3);
+                string loc_command = llGetSubString(llGetPos, 0, ~-llSubStringIndex(llGetPos, " "));
+                list loc_parts = llParseStringKeepNulls(llGetSubString(llGetPos, -~llSubStringIndex(llGetPos, " "), 99999), (list)" | " + " |" + "| " + "|", []);
+                string loc_part0 = llStringTrim(llList2String(loc_parts, 0), 3);
+                if (loc_command == "SITTER")
+                {
+                    IsRestoring = (integer)loc_part0;
+                }
+                else if (IsRestoring == ResumeVoid & loc_command == "CAMERA")
+                {
+                    string loc_part1 = llStringTrim(llDumpList2String(llList2List(loc_parts, 1, 99999), "|"), 3);
+                    Pop = Pop + loc_part0;
+                    gB = gB + loc_part1;
+                }
+                LslUserScript = llGetNotecardLine("AVpos", ++UThread);
+            }
+        }
+    }
+}
