@@ -1,18 +1,27 @@
-# AVsitter Sequence for Revival Xeno Hammock
+# AVsitter Sequence for Nerenzo Lovers Pier adult version
 
 This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
 with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
-the Revival Xeno Hammock dialog menus.
+the Nerenzo Lovers Pier adult version dialog menus.
 
 This `AVsitter` customization allows greater freedom of personal interaction on the
-hammock, eliminating the need to navigate dialog menus during moments of intimacy.
+pier, eliminating the need to navigate dialog menus during moments of intimacy.
 
 ## Menus
 
 Sequences are configured for the following menus:
 
 - Male and Female Solo Menus
-- Male and Female Couples Menus
+- Cuddles Menus
+- Foreplay Menus
+- Blowjobs Menus
+- Tongue Play Menus
+- Eye 2 Eye Menus
+- From Behind Menus
+- Girl on Top Menus
+- Standing Menus
+- Butt Stuff Menus
+- Hard Sex Menus
 
 ## Download the script and customized notecards
 
@@ -25,31 +34,32 @@ wget -q -O '[AV]sequence' https://raw.githubusercontent.com/AVsitter/AVsitter/re
 Download the customized `[AV]sequence_settings` notecard:
 
 ```bash
-wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Xeno_Hammock/AVsequence_settings
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Lovers_Pier/AVsequence_settings
 ```
 
 Download the customized `AVpos` notecard:
 
 ```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Xeno_Hammock/AVpos
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Lovers_Pier/AVpos
 ```
 
 ## Setup
 
-To configure a Xeno Hammock with AVsitter sequences:
+To configure a Nerenzo Lovers Pier adult version with AVsitter sequences:
 
-- Right click the hammock and select `Edit`
+- Right click the pier and select `Edit`
 - Select the Contents tab in the Edit window
 - Click the `Edit linked` checkbox
-- Using `Ctrl .` (press both the Ctrl key and the Period key) locate the notecards (Link number 3)
+- Using `Ctrl .` (press both the Ctrl key and the Period key) locate the notecards (Link number 4)
+    - Alternately, click the pier blanket to select link number 4
 - Copy the `[AV]sequence_settings` notecard into the Contents tab
 - Copy the `[AV]sequence` plugin script into the Contents tab
 - Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
 - Close the `Edit` window
-- Right click the hammock and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
+- Right click the pier and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
 - Wait for the scripts to reset (this takes a few minutes)
 
-Sit on the hammock and click one of the sequence buttons, for example: `SEQ-Male` or `SEQ-Female`.
+Sit on the pier and click one of the sequence buttons, for example: `SEQ-M-SOLO` or `SEQ-F-SOLO`.
 
 Sequence menu buttons are of the form `SEQ-...`. Click this menu entry and your
 avatar will cycle through all the animations in that submenu.
@@ -59,11 +69,11 @@ animation, previous animation, or pause animation sequencing.
 
 ### Auto Play Sequence
 
-If you wish to automatically play a sequence when an avatar sits on the hammock
-then download the `autoplay.lsl` script and copy it into the Contents of the object.
+If you wish to automatically play a sequence when an avatar sits on the pier then
+download the `autoplay.lsl` script and copy it into the Contents of the object.
 
 ```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Xeno_Hammock/autoplay.lsl
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Lovers_Pier/autoplay.lsl
 ```
 
 The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
@@ -105,6 +115,7 @@ The following custom sequenced animations are available on the Second Life Marke
 - [Nerenzo Hot Bangers Pool](https://github.com/missyrestless/AVsequences/tree/main/Bangers_Pool)
 - [Nerenzo Hot Sex Shower](https://github.com/missyrestless/AVsequences/tree/main/Hot_Sex_Shower)
 - [Nerenzo little hangout](https://github.com/missyrestless/AVsequences/tree/main/Hangout)
+- [Nerenzo Lovers Pier](https://github.com/missyrestless/AVsequences/tree/main/Lovers_Pier)
 - [Nerenzo Orgy Towel](https://github.com/missyrestless/AVsequences/tree/main/Towel)
 - [Nerenzo Waterfall Tamdi](https://github.com/missyrestless/AVsequences/tree/main/Waterfall)
 
@@ -156,6 +167,10 @@ The following custom sequenced animations are available on the Second Life Marke
 ### Customized notecards providing sequenced animations for Maya's furniture
 
 - [Maya's Hawaiian Hanging Swing](https://github.com/missyrestless/AVsequences/tree/main/Hanging_Swing)
+
+### Customized notecards providing sequenced animations for Original Furniture
+
+- [Original Furniture Elysia Group Sex Bed](https://github.com/missyrestless/AVsequences/tree/main/Original_Elysia_Set)
 
 ### Customized notecards providing sequenced animations for QYN furniture
 

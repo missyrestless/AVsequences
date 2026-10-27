@@ -122,6 +122,7 @@ The following custom sequenced animations are available on the Second Life Marke
 - [Nerenzo Hot Bangers Pool](https://github.com/missyrestless/AVsequences/tree/main/Bangers_Pool)
 - [Nerenzo Hot Sex Shower](https://github.com/missyrestless/AVsequences/tree/main/Hot_Sex_Shower)
 - [Nerenzo little hangout](https://github.com/missyrestless/AVsequences/tree/main/Hangout)
+- [Nerenzo Lovers Pier](https://github.com/missyrestless/AVsequences/tree/main/Lovers_Pier)
 - [Nerenzo Orgy Towel](https://github.com/missyrestless/AVsequences/tree/main/Towel)
 - [Nerenzo Waterfall Tamdi](https://github.com/missyrestless/AVsequences/tree/main/Waterfall)
 
@@ -173,6 +174,10 @@ The following custom sequenced animations are available on the Second Life Marke
 ### Customized notecards providing sequenced animations for Maya's furniture
 
 - [Maya's Hawaiian Hanging Swing](https://github.com/missyrestless/AVsequences/tree/main/Hanging_Swing)
+
+### Customized notecards providing sequenced animations for Original Furniture
+
+- [Original Furniture Elysia Group Sex Bed](https://github.com/missyrestless/AVsequences/tree/main/Original_Elysia_Set)
 
 ### Customized notecards providing sequenced animations for QYN furniture
 

@@ -1,8 +1,8 @@
-# AVsitter Sequence for Trompe Loeil Pool
+# AVsitter Sequence for Original Furniture Elysia Group Sex Bed
 
 This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
 with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
-the Trompe Loeil Pool dialog menus.
+the Original Furniture Elysia Group Sex Bed dialog menus.
 
 This `AVsitter` customization allows greater freedom of personal interaction in the
 sauna, eliminating the need to navigate dialog menus during moments of intimacy.
@@ -11,10 +11,23 @@ sauna, eliminating the need to navigate dialog menus during moments of intimacy.
 
 Sequences are configured for the following menus:
 
-- Solo Sit Menus
-- Solo Swim Menus
+- Solo Relax and Sleep Menus
+- Solo Masturbation Menus
 - Couples Cuddle Menus
-- Couples Adult Menus
+- Male and Female Oral Sex Menus
+- Male/Female Sex Menus 
+- Female/Female Sex Menus 
+- Male/Male Sex Menus 
+- Male/Male/Female Cuddle Menus 
+- Male/Male/Female Sex Menus 
+- Male/Female/Female Cuddle Menus 
+- Male/Female/Female Sex Menus 
+- Male/Male/Female/Female Cuddle Menus 
+- Male/Male/Female/Female Sex Menus 
+- Male/Male/Male/Female/Female Cuddle Menus 
+- Male/Male/Male/Female/Female Sex Menus 
+- Male/Male/Male/Female/Female/Female Cuddle Menus 
+- Male/Male/Male/Female/Female/Female Sex Menus 
 
 ## Download the script and customized notecards
 
@@ -27,28 +40,39 @@ wget -q -O '[AV]sequence' https://raw.githubusercontent.com/AVsitter/AVsitter/re
 Download the customized `[AV]sequence_settings` notecard:
 
 ```bash
-wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Pool/AVsequence_settings
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Original_Elysia_Set/AVsequence_settings
 ```
 
-Download the customized `AVpos` notecard:
+There are 6 `AVpos` notecards, one for each of the supported sitters. Download the customized `AVpos` notecards:
 
 ```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Pool/AVpos
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Original_Elysia_Set/AVpos
+wget -q -O 'AVpos 1' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Original_Elysia_Set/AVpos1
+wget -q -O 'AVpos 2' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Original_Elysia_Set/AVpos2
+wget -q -O 'AVpos 3' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Original_Elysia_Set/AVpos3
+wget -q -O 'AVpos 4' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Original_Elysia_Set/AVpos4
+wget -q -O 'AVpos 5' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Original_Elysia_Set/AVpos5
 ```
 
 ## Setup
 
-To configure a Trompe Loeil Pool with AVsitter sequences:
+**[Note:]** The AVsitter notecard configuration is located in Link 13 of the bed.
 
-- Right click the pool and select `Edit`
+To configure a Original Furniture Elysia Group Sex Bed with AVsitter sequences:
+
+- Right click the bed and select `Edit`
+- Select the Contents tab in the Edit window
+- Click the `Edit linked` checkbox
+- Using `Ctrl .` (press both the Ctrl key and the Period key) locate the notecards (Link number 13)
 - Copy the `[AV]sequence` plugin script into the Contents tab
 - Copy the `[AV]sequence_settings` notecard into the Contents tab
 - Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
+- Similarly, replace the `AVpos 1` through `AVpos 5` notecards with the `AVpos 1` through `AVpos 5` notecards found in this folder
 - Close the `Edit` window
-- Right click the pool and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
+- Right click the bed and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
 - Wait for the scripts to reset (this takes a few minutes)
 
-Sit on the pool and click one of the main menu entries, e.g. click `SOLO SIT` or `COUPLES`.
+Sit on the bed and click one of the main menu entries, e.g. click `SOLO SIT` or `COUPLES`.
 
 You should see a menu entry of the form `SEQ ...`. Click this menu entry and your
 avatar will cycle through all the animations in that submenu. Cycle times are currently
@@ -57,16 +81,24 @@ or pause animation sequencing.
 
 ### Auto Play Sequence
 
-If you wish to automatically play a sequence when an avatar sits on the pool
+If you wish to automatically play a sequence when an avatar sits on the bed
 then download the `autoplay.lsl` script and copy it into the Contents of the object.
 
 ```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Pool/autoplay.lsl
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Original_Elysia_Set/autoplay.lsl
 ```
 
 The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
-In addition, it detects the number of sitters currently on the object and plays the couples
+In addition, it detects the number of sitters currently on the object and plays the appropriate
 animation sequence if more than 1 sitter is seated.
+
+### Makeup Stand and Aquarium Pouff
+
+The `AVpos` and `[AV]sequence_settings` notecards and `autoplay.lsl` scripts for the
+Makeup Stand and Aquarium Pouff can be found in the `Makeup` and `Pouff` folders.
+
+Follow a similar process to setup the Makeup Stand and Aquarium Pouff with sequences
+and auto play.
 
 ## Second Life Marketplace Listings
 
@@ -103,6 +135,7 @@ The following custom sequenced animations are available on the Second Life Marke
 - [Nerenzo Hot Bangers Pool](https://github.com/missyrestless/AVsequences/tree/main/Bangers_Pool)
 - [Nerenzo Hot Sex Shower](https://github.com/missyrestless/AVsequences/tree/main/Hot_Sex_Shower)
 - [Nerenzo little hangout](https://github.com/missyrestless/AVsequences/tree/main/Hangout)
+- [Nerenzo Lovers Pier](https://github.com/missyrestless/AVsequences/tree/main/Lovers_Pier)
 - [Nerenzo Orgy Towel](https://github.com/missyrestless/AVsequences/tree/main/Towel)
 - [Nerenzo Waterfall Tamdi](https://github.com/missyrestless/AVsequences/tree/main/Waterfall)
 
@@ -154,6 +187,10 @@ The following custom sequenced animations are available on the Second Life Marke
 ### Customized notecards providing sequenced animations for Maya's furniture
 
 - [Maya's Hawaiian Hanging Swing](https://github.com/missyrestless/AVsequences/tree/main/Hanging_Swing)
+
+### Customized notecards providing sequenced animations for Original Furniture
+
+- [Original Furniture Elysia Group Sex Bed](https://github.com/missyrestless/AVsequences/tree/main/Original_Elysia_Set)
 
 ### Customized notecards providing sequenced animations for QYN furniture
 
