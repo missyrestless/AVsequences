@@ -167,6 +167,10 @@ The following custom sequenced animations are available on the Second Life Marke
 
 - [Maya's Hawaiian Hanging Swing](https://github.com/missyrestless/AVsequences/tree/main/Hanging_Swing)
 
+### Customized notecards providing sequenced animations for The Mesh Shop Boats
+
+- [The Mesh Shop Aurora](https://github.com/missyrestless/AVsequences/tree/main/Aurora_Boat)
+
 ### Customized notecards providing sequenced animations for Original Furniture
 
 - [Original Furniture Elysia Group Sex Bed](https://github.com/missyrestless/AVsequences/tree/main/Original_Elysia_Set)
