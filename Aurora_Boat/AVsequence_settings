@@ -1,96 +1,96 @@
-◆SEQUENCE ►SOLO
-◆POSE Couch 1
-◆POSE Couch 2
-◆POSE Couch 3
-◆POSE Seat 1
-◆POSE Seat 2
-◆POSE Seat 3
-◆POSE Seat 4
-◆POSE Dinner 1
-◆POSE Dinner 2
-◆POSE Dinner 3
-◆POSE Dinner 4
-◆POSE Side F
-◆POSE Side M
-◆POSE Back 1
-◆POSE Back 2
-◆POSE Back 3
-◆POSE Back 4
-◆POSE Back 5
-◆POSE Bed F
-◆POSE Bed M
-◆POSE Sunbed 1
-◆POSE Sunbed 2
-◆POSE Sunbed 3
-◆POSE Sunbed 4
-◆POSE Tan 1
-◆POSE Tan 2
-◆POSE Tan 3
-◆POSE Tan 4
-◆POSE Swim
-◆POSE Dance 1
-◆POSE Dance 2
-◆POSE Jump 1
-◆POSE Jump 2
-◆LOOP
+SEQUENCE ►SOLO
+POSE Couch 1
+POSE Couch 2
+POSE Couch 3
+POSE Seat 1
+POSE Seat 2
+POSE Seat 3
+POSE Seat 4
+POSE Dinner 1
+POSE Dinner 2
+POSE Dinner 3
+POSE Dinner 4
+POSE Side F
+POSE Side M
+POSE Back 1
+POSE Back 2
+POSE Back 3
+POSE Back 4
+POSE Back 5
+POSE Bed F
+POSE Bed M
+POSE Sunbed 1
+POSE Sunbed 2
+POSE Sunbed 3
+POSE Sunbed 4
+POSE Tan 1
+POSE Tan 2
+POSE Tan 3
+POSE Tan 4
+POSE Swim
+POSE Dance 1
+POSE Dance 2
+POSE Jump 1
+POSE Jump 2
+LOOP
 
-◆SEQUENCE ►CUDDLE
-◆SYNC Cuddle 1
-◆SYNC Cuddle 2
-◆SYNC Cuddle 3
-◆SYNC Cuddle 4
-◆SYNC Cuddle 5
-◆SYNC Cuddle 6
-◆SYNC Cuddle 7
-◆SYNC Cuddle 8
-◆LOOP
+SEQUENCE ►CUDDLE
+SYNC Cuddle 1
+SYNC Cuddle 2
+SYNC Cuddle 3
+SYNC Cuddle 4
+SYNC Cuddle 5
+SYNC Cuddle 6
+SYNC Cuddle 7
+SYNC Cuddle 8
+LOOP
 
-◆SEQUENCE ►FOREPLAY
-◆SYNC Blow 1
-◆SYNC Blow 2
-◆SYNC Blow 3
-◆SYNC Blow 4
-◆SYNC Blow 5
-◆SYNC Lick 1
-◆SYNC Lick 2
-◆SYNC Lick 3
-◆SYNC Lick 4
-◆SYNC Lick 5
-◆LOOP
+SEQUENCE ►FOREPLAY
+SYNC Blow 1
+SYNC Blow 2
+SYNC Blow 3
+SYNC Blow 4
+SYNC Blow 5
+SYNC Lick 1
+SYNC Lick 2
+SYNC Lick 3
+SYNC Lick 4
+SYNC Lick 5
+LOOP
 
-◆SEQUENCE ►LOWnSLOW
-◆SYNC Face 1
-◆SYNC Face 2
-◆SYNC Face 3
-◆SYNC Face 4
-◆SYNC Face 5
-◆SYNC Ride 1
-◆SYNC Ride 2
-◆SYNC Ride 3
-◆SYNC Ride 4
-◆SYNC Ride 5
-◆LOOP
+SEQUENCE ►LOWnSLOW
+SYNC Face 1
+SYNC Face 2
+SYNC Face 3
+SYNC Face 4
+SYNC Face 5
+SYNC Ride 1
+SYNC Ride 2
+SYNC Ride 3
+SYNC Ride 4
+SYNC Ride 5
+LOOP
 
-◆SEQUENCE ►HARDCORE
-◆SYNC Dog 1
-◆SYNC Dog 2
-◆SYNC Dog 3
-◆SYNC Dog 4
-◆SYNC Dog 5
-◆SYNC Rough 1
-◆SYNC Rough 2
-◆SYNC Rough 3
-◆SYNC Rough 4
-◆SYNC Rough 5
-◆LOOP
+SEQUENCE ►HARDCORE
+SYNC Dog 1
+SYNC Dog 2
+SYNC Dog 3
+SYNC Dog 4
+SYNC Dog 5
+SYNC Rough 1
+SYNC Rough 2
+SYNC Rough 3
+SYNC Rough 4
+SYNC Rough 5
+LOOP
 
-◆SEQUENCE ►SYSTEM
-◆POSE stand helm
-◆POSE stand helm right
-◆POSE stand helm left
-◆POSE stand helm throttle
-◆POSE sit helm
-◆POSE sit helm left
-◆POSE sit helm right
-◆POSE sit helm throttle
-◆LOOP
+SEQUENCE ►SYSTEM
+POSE stand helm
+POSE stand helm right
+POSE stand helm left
+POSE stand helm throttle
+POSE sit helm
+POSE sit helm left
+POSE sit helm right
+POSE sit helm throttle
+LOOP
