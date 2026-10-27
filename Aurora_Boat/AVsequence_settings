@@ -1,96 +1,175 @@
 SEQUENCE ►SOLO
-POSE Couch 1
-POSE Couch 2
-POSE Couch 3
-POSE Seat 1
-POSE Seat 2
-POSE Seat 3
-POSE Seat 4
-POSE Dinner 1
-POSE Dinner 2
-POSE Dinner 3
-POSE Dinner 4
-POSE Side F
-POSE Side M
-POSE Back 1
-POSE Back 2
-POSE Back 3
-POSE Back 4
-POSE Back 5
-POSE Bed F
-POSE Bed M
-POSE Sunbed 1
-POSE Sunbed 2
-POSE Sunbed 3
-POSE Sunbed 4
-POSE Tan 1
-POSE Tan 2
-POSE Tan 3
-POSE Tan 4
-POSE Swim
-POSE Dance 1
-POSE Dance 2
-POSE Jump 1
-POSE Jump 2
+PLAY Couch 1
+WAIT 90
+PLAY Couch 2
+WAIT 90
+PLAY Couch 3
+WAIT 90
+PLAY Seat 1
+WAIT 90
+PLAY Seat 2
+WAIT 90
+PLAY Seat 3
+WAIT 90
+PLAY Seat 4
+WAIT 90
+PLAY Dinner 1
+WAIT 90
+PLAY Dinner 2
+WAIT 90
+PLAY Dinner 3
+WAIT 90
+PLAY Dinner 4
+WAIT 90
+PLAY Side F
+WAIT 90
+PLAY Side M
+WAIT 90
+PLAY Back 1
+WAIT 90
+PLAY Back 2
+WAIT 90
+PLAY Back 3
+WAIT 90
+PLAY Back 4
+WAIT 90
+PLAY Back 5
+WAIT 90
+PLAY Bed F
+WAIT 90
+PLAY Bed M
+WAIT 90
+PLAY Sunbed 1
+WAIT 90
+PLAY Sunbed 2
+WAIT 90
+PLAY Sunbed 3
+WAIT 90
+PLAY Sunbed 4
+WAIT 90
+PLAY Tan 1
+WAIT 90
+PLAY Tan 2
+WAIT 90
+PLAY Tan 3
+WAIT 90
+PLAY Tan 4
+WAIT 90
+PLAY Swim
+WAIT 90
+PLAY Dance 1
+WAIT 90
+PLAY Dance 2
+WAIT 90
+PLAY Jump 1
+WAIT 90
+PLAY Jump 2
+WAIT 90
 LOOP
 
 SEQUENCE ►CUDDLE
-SYNC Cuddle 1
-SYNC Cuddle 2
-SYNC Cuddle 3
-SYNC Cuddle 4
-SYNC Cuddle 5
-SYNC Cuddle 6
-SYNC Cuddle 7
-SYNC Cuddle 8
+PLAY Cuddle 1
+WAIT 90
+PLAY Cuddle 2
+WAIT 90
+PLAY Cuddle 3
+WAIT 90
+PLAY Cuddle 4
+WAIT 90
+PLAY Cuddle 5
+WAIT 90
+PLAY Cuddle 6
+WAIT 90
+PLAY Cuddle 7
+WAIT 90
+PLAY Cuddle 8
+WAIT 90
 LOOP
 
 SEQUENCE ►FOREPLAY
-SYNC Blow 1
-SYNC Blow 2
-SYNC Blow 3
-SYNC Blow 4
-SYNC Blow 5
-SYNC Lick 1
-SYNC Lick 2
-SYNC Lick 3
-SYNC Lick 4
-SYNC Lick 5
+PLAY Blow 1
+WAIT 90
+PLAY Blow 2
+WAIT 90
+PLAY Blow 3
+WAIT 90
+PLAY Blow 4
+WAIT 90
+PLAY Blow 5
+WAIT 90
+PLAY Lick 1
+WAIT 90
+PLAY Lick 2
+WAIT 90
+PLAY Lick 3
+WAIT 90
+PLAY Lick 4
+WAIT 90
+PLAY Lick 5
+WAIT 90
 LOOP
 
 SEQUENCE ►LOWnSLOW
-SYNC Face 1
-SYNC Face 2
-SYNC Face 3
-SYNC Face 4
-SYNC Face 5
-SYNC Ride 1
-SYNC Ride 2
-SYNC Ride 3
-SYNC Ride 4
-SYNC Ride 5
+PLAY Face 1
+WAIT 90
+PLAY Face 2
+WAIT 90
+PLAY Face 3
+WAIT 90
+PLAY Face 4
+WAIT 90
+PLAY Face 5
+WAIT 90
+PLAY Ride 1
+WAIT 90
+PLAY Ride 2
+WAIT 90
+PLAY Ride 3
+WAIT 90
+PLAY Ride 4
+WAIT 90
+PLAY Ride 5
+WAIT 90
 LOOP
 
 SEQUENCE ►HARDCORE
-SYNC Dog 1
-SYNC Dog 2
-SYNC Dog 3
-SYNC Dog 4
-SYNC Dog 5
-SYNC Rough 1
-SYNC Rough 2
-SYNC Rough 3
-SYNC Rough 4
-SYNC Rough 5
+PLAY Dog 1
+WAIT 90
+PLAY Dog 2
+WAIT 90
+PLAY Dog 3
+WAIT 90
+PLAY Dog 4
+WAIT 90
+PLAY Dog 5
+WAIT 90
+PLAY Rough 1
+WAIT 90
+PLAY Rough 2
+WAIT 90
+PLAY Rough 3
+WAIT 90
+PLAY Rough 4
+WAIT 90
+PLAY Rough 5
+WAIT 90
 LOOP
 
 SEQUENCE ►SYSTEM
-POSE stand helm
-POSE stand helm right
-POSE stand helm left
-POSE stand helm throttle
-POSE sit helm
-POSE sit helm left
-POSE sit helm right
-POSE sit helm throttle
+PLAY stand helm
+WAIT 90
+PLAY stand helm right
+WAIT 90
+PLAY stand helm left
+WAIT 90
+PLAY stand helm throttle
+WAIT 90
+PLAY sit helm
+WAIT 90
+PLAY sit helm left
+WAIT 90
+PLAY sit helm right
+WAIT 90
+PLAY sit helm throttle
+WAIT 90
 LOOP

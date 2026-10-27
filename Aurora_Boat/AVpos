@@ -5,6 +5,8 @@ POSE home skip|standing
 TOMENU SINGLE
 TOMENU COUPLE
 TOMENU SYSTEM
+SEQUENCE ►SOLO
+
 MENU SINGLE
 SEQUENCE ►SOLO
 POSE Couch 1|Armchair 1
@@ -40,11 +42,13 @@ POSE Dance 1|dance 1
 POSE Dance 2|dance 2
 POSE Jump 1|Jump 1
 POSE Jump 2|Jump 2
+
 MENU COUPLE
 TOMENU Cuddle
 TOMENU Foreplay
 TOMENU Low n Slow
 TOMENU Hardcore
+
 MENU Cuddle
 SEQUENCE ►CUDDLE
 SYNC Cuddle 1|X Cuddle Flat 1
@@ -55,6 +59,7 @@ SYNC Cuddle 5|X Cuddle Dance
 SYNC Cuddle 6|X Cuddle Lotion
 SYNC Cuddle 7|X Cuddle Flat 2
 SYNC Cuddle 8|X Cuddle Flat 3
+
 MENU Foreplay
 SEQUENCE ►FOREPLAY
 SYNC Blow 1|DBbj M2
@@ -67,6 +72,7 @@ SYNC Lick 2|DBlk M4
 SYNC Lick 3|DBlk M5
 SYNC Lick 4|DBlk M7
 SYNC Lick 5|DBlk M8
+
 MENU Low n Slow
 SEQUENCE ►LOWnSLOW
 SYNC Face 1|DBF M1
@@ -79,6 +85,7 @@ SYNC Ride 2|DBR M3
 SYNC Ride 3|DBR M4
 SYNC Ride 4|DBR M7
 SYNC Ride 5|DBR M8
+
 MENU Hardcore
 SEQUENCE ►HARDCORE
 SYNC Dog 1|DBBk M1
@@ -91,6 +98,7 @@ SYNC Rough 2|DBRo M5
 SYNC Rough 3|DBRo M6
 SYNC Rough 4|DBRo M7
 SYNC Rough 5|DBRo M8
+
 MENU SYSTEM
 SEQUENCE ►SYSTEM
 POSE stand helm|standing
@@ -187,6 +195,9 @@ POSE home crew|homecrew
 POSE home crew 2|homecrew2
 TOMENU SINGLE
 TOMENU COUPLE
+SEQUENCE ►SOLO
+SEQUENCE ►CUDDLE
+
 MENU SINGLE
 SEQUENCE ►SOLO
 POSE Couch 1|Armchair 1
@@ -222,11 +233,13 @@ POSE Dance 1|dance 1
 POSE Dance 2|dance 2
 POSE Jump 1|Jump 1
 POSE Jump 2|Jump 2
+
 MENU COUPLE
 TOMENU Cuddle
 TOMENU Foreplay
 TOMENU Low n Slow
 TOMENU Hardcore
+
 MENU Cuddle
 SEQUENCE ►CUDDLE
 SYNC Cuddle 1|Y Cuddle Flat 1
@@ -237,6 +250,7 @@ SYNC Cuddle 5|Y Cuddle Dance
 SYNC Cuddle 6|Y Cuddle Lotion
 SYNC Cuddle 7|Y Cuddle Flat 2
 SYNC Cuddle 8|Y Cuddle Flat 3
+
 MENU Foreplay
 SEQUENCE ►FOREPLAY
 SYNC Blow 1|DBbj F2
@@ -249,6 +263,7 @@ SYNC Lick 2|DBlk F4
 SYNC Lick 3|DBlk F5
 SYNC Lick 4|DBlk F7
 SYNC Lick 5|DBlk F8
+
 MENU Low n Slow
 SEQUENCE ►LOWnSLOW
 SYNC Face 1|DBF F1
@@ -261,6 +276,7 @@ SYNC Ride 2|DBR F3
 SYNC Ride 3|DBR F4
 SYNC Ride 4|DBR F7
 SYNC Ride 5|DBR F8
+
 MENU Hardcore
 SEQUENCE ►HARDCORE
 SYNC Dog 1|DBBk F1
