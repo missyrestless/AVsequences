@@ -2,9 +2,11 @@
 
 This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
 with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
-the Mesh Shop Aurora Boat dialog menus.
+the Mesh Shop Aurora Boat dialog menus. In addition, since the Aurora is delivered
+with `AVsitter1` scripts and `[AV]sequence` requires `AVsitter2`, the necessary
+`AVsitter2` scripts are provided as replacements and additions.
 
-This `AVsitter` customization allows greater freedom of personal interaction on the
+This `AVsitter2` customization allows greater freedom of personal interaction on the
 boat, eliminating the need to navigate dialog menus during moments of intimacy.
 
 ## Menus
@@ -17,6 +19,14 @@ Sequences are configured for the following menus:
 - Hardcore Menus (first 2 sitters)
 - Low n Slow Menus (first 2 sitters)
 - System Menus (1st sitter only)
+
+## Download the AVsitter2 scripts
+
+```bash
+wget -q -O '[AV]adjuster' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Aurora_Boat/AVadjuster.lslo
+wget -q -O '[AV]sitA' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Aurora_Boat/AVsitA.lslo
+wget -q -O '[AV]sitB' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Aurora_Boat/AVsitB.lslo
+```
 
 ## Download the script and customized notecards
 
@@ -44,6 +54,16 @@ To configure a Mesh Shop Aurora Boat with AVsitter sequences:
 
 - Right click the boat and select `Edit`
 - Select the Contents tab in the Edit window
+- Replace the AVsitter1 scripts with the AVsitter2 scripts previously downloaded
+  - Make copies of both the `[AV]sitA` and `[AV]sitB` scripts and name them:
+    - `[AV]sitA`
+    - `[AV]sitA 1`
+    - `[AV]sitA 2`
+    - `[AV]sitA 3`
+    - `[AV]sitB`
+    - `[AV]sitB 1`
+    - `[AV]sitB 2`
+    - `[AV]sitB 3`
 - Copy the `[AV]sequence_settings` notecard into the Contents tab
 - Copy the `[AV]sequence` plugin script into the Contents tab
 - Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
@@ -61,11 +81,11 @@ animation, previous animation, or pause animation sequencing.
 
 ### Auto Play Sequence
 
-If you wish to automatically play a sequence when an avatar sits on the boat
-then download the `autoplay.lsl` script and copy it into the Contents of the object.
+If you wish to automatically play a sequence when an avatar sits on the boat then
+download the `autoplay.lslo` script and copy it into the Contents of the object.
 
 ```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Aurora_Boat/autoplay.lsl
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Aurora_Boat/autoplay.lslo
 ```
 
 The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
