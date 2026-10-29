@@ -1,0 +1,736 @@
+"DEBAUCHERY COUPLES ADULT DIVING BOARD" AVsitter 2.2
+ADJUST [INM API]|-99998|PervShield|-2342342
+
+SITTER 0|Girl|F
+
+TOMENU Solo
+TOMENU Couples
+BUTTON SetupLovense
+BUTTON LovenseHUD
+BUTTON SwapUsers|90030|0|1
+
+MENU Solo
+BUTTON SwapUsers|90030|0|1
+TOMENU Relaxing
+TOMENU Diving
+
+MENU Relaxing
+BUTTON SwapUsers|90030|0|1
+POSE OneFootIn|ps21_M|55|ps21Mirror_M|55
+POSE Relaxed|ps22_M
+POSE Chilling|ps23_M
+POSE HangingOut|ps24_M|55|ps24Mirror_M|55
+POSE HalfDip|z-halfdip
+POSE DangleFeet|z-feetdangle
+POSE Poolside|z-poolside
+POSE LotionMe|z-lotionself
+POSE Sunbathe|z-sunbathe
+POSE Sunbathe2|z-sunbathe 1
+
+MENU Diving
+BUTTON SwapUsers|90030|0|1
+POSE Ready2Dive|wj1s
+POSE SwanDive|wj1
+POSE TurnAround|wj2s
+POSE BackDive|wj2
+POSE GoAgain|wj3s
+POSE BackFlip|wj3
+POSE GonnaJump|wj4s
+POSE Cannonball|wj4
+POSE Float1|float1
+POSE Float1Rot|float1rot
+POSE Float2|float2
+POSE ZFloat|z-float
+POSE TreadWater2|z-treadwater
+POSE TreadWater|treadwater
+POSE SwimDive|poolSwimDive
+
+MENU Couples
+BUTTON SwapUsers|90030|0|1
+TOMENU Cuddles
+TOMENU Teasing
+TOMENU Fingering
+TOMENU Licking
+TOMENU Blowjobs
+TOMENU Riding
+TOMENU Front
+TOMENU Doggy
+TOMENU Cumshots
+
+MENU Cuddles
+BUTTON SwapUsers|90030|0|1
+SYNC CuddleHer|[Polymorph] Cuddles Bed F01
+SYNC Spooning|[Polymorph] Cuddles Bed F03
+SYNC HoldHerClose|[Polymorph] Cuddles Bed F06
+SYNC BackRubs|[Polymorph] Cuddles Bed F07
+SYNC GentleTouch|[Polymorph] Cuddles Bed F09
+
+MENU Teasing
+BUTTON SwapUsers|90030|0|1
+SYNC KissShoulder|TLustBed F1
+SYNC KissNeck|TLustBed F2
+SYNC TummyTease|TLustBed F3
+SYNC GetHerHot|TLustBed F4
+SYNC FeelHerTits|TLustBed F5
+SYNC OnHisLap|TLustBed F6
+SYNC MakingOut|TLustBed F8
+SYNC AlmostReady|TLustBed F9
+SYNC TeaseHerBack|TLustBed F10
+SYNC TittyTease|TLustBed F11
+SYNC TeaseHisBack|TLustBed F12
+SYNC ReadyForSex|WA107
+SYNC RubWhileIn|WA109
+SYNC TitFucking|FlatSex41F
+SYNC JerkHimOff|FlatSex42F
+SYNC TurnHerOn|FlatSex43F
+SYNC PussyDildo|TLustBedMsc F1
+SYNC AnalDildo|TLustBedMsc F2
+
+MENU Fingering|V
+BUTTON SwapUsers|90030|0|1
+SYNC FingerGSpot|TLustBedFg F3
+SYNC DoubleFun|TLustBedFg F4
+SYNC SuckTitToo|TLustBedFg F6
+SYNC SheSquirms|TLustBedFg F7
+SYNC SheSquirts|TLustBedFg F8
+
+MENU Licking|V
+BUTTON SwapUsers|90030|0|1
+SYNC SuckHerClit|TLustBedLk F2
+SYNC WetAndTasty|TLustBedLk F4
+SYNC LegsUpLick|TLustBedLk F6
+SYNC LickSideways|TLustBedLk F8
+SYNC RaisedLicks|FlatSex36F
+SYNC SitOnFace|FlatSex49F
+SYNC SixtyEight|FlatSex44F
+SYNC TwoMouths|TLustBedMsc F4
+
+MENU Blowjobs|V
+BUTTON SwapUsers|90030|0|1
+SYNC LovelyCock|WA17
+SYNC JustTheTip|WA19
+SYNC TakesItIn|WA21
+SYNC CockHungry|WA23
+SYNC PullHerHead|WA25
+SYNC TakeItDeep|WA27
+SYNC PleasureHim|WA29
+SYNC WorkHisCock|WA31
+SYNC CumInMouth|WA33
+
+MENU Front|V
+BUTTON SwapUsers|90030|0|1
+SYNC FirstTime|TLustBedFrt F1
+SYNC PumpHerPussy|TLustBedFrt F2
+SYNC GetInDeep|TLustBedFrt F3
+SYNC LiftHerAss|TLustBedFrt F4
+SYNC HoldHerLegs|TLustBedFrt F5
+SYNC LustyThrusts|TLustBedFrt F6
+SYNC SheCanCum|TLustBedFrt F7
+SYNC PowerFuck|TLustBedFrt F8
+SYNC NailHer|FlatSex24F
+SYNC WideOpen|FlatSex25F
+SYNC FeetHeldUp|FlatSex26F
+SYNC HardFuck|FlatSex27F
+SYNC BreedHer|FlatSex28F
+SYNC ClingToHim|FlatSex29F
+SYNC SpreadLegs|FlatSex30F
+SYNC SideSlammer|FlatSex31F
+SYNC ArchedBack|FlatSex32F
+SYNC Kicking|FlatSex33F
+SYNC DeeperStill|FlatSex34F
+SYNC SideOfBeef|FlatSex35F
+SYNC ThighHug|FlatSex38F
+
+MENU Riding|V
+BUTTON SwapUsers|90030|0|1
+SYNC WetClitRubs|WA65
+SYNC RubOnCock|WA67
+SYNC GrindOnHim|WA69
+SYNC SlipperyFun|WA71
+SYNC PutItInHer|WA73
+SYNC PopDatPussy|WA75
+SYNC SlickSleeve|WA97
+SYNC WorkingHard|WA99
+SYNC SoDeep|WA101
+SYNC TapCervix|WA105
+SYNC WildRide|WA95
+SYNC KissingSex|WA103
+SYNC CumTogether|WA111
+SYNC ReverseRide|TLustBedRd F1
+SYNC RideHisDick|TLustBedRd F2
+SYNC InSoDeep|TLustBedRd F3
+SYNC SquatOnCock|TLustBedRd F4
+SYNC DeepRide|TLustBedRd F5
+SYNC Jockey|TLustBedRd F6
+SYNC StraddleJoy|TLustBedRd F7
+SYNC FacingRide|TLustBedRd F8
+SYNC Mustang|FlatSex8F
+SYNC Bronco|FlatSex9F
+SYNC Giddyap|FlatSex10F
+SYNC SlapDown|FlatSex11F
+SYNC GrindOnIt|FlatSex12F
+SYNC FuckDeep|FlatSex13F
+SYNC Recumbant|FlatSex14F
+SYNC BouncyRide|FlatSex15F
+SYNC UseThatCock|FlatSex16F
+SYNC GoDeeper|FlatSex17F
+SYNC LayBackFuck|FlatSex18F
+SYNC TurnedFuck|FlatSex19F
+SYNC SideSaddle|FlatSex20F
+SYNC RubHerAss|FlatSex21F
+SYNC Goddess|FlatSex22F
+SYNC YabYum|FlatSex23F
+SYNC DivingRide|TLustBedMsc F7
+SYNC EndRide|TLustBedMsc F8
+
+MENU Doggy|V
+BUTTON SwapUsers|90030|0|1
+SYNC AnalTease|WA77
+SYNC Penetration|WA79
+SYNC RamThatAss|WA81
+SYNC ClaimingHer|WA83
+SYNC AnalLust|WA85
+SYNC HerFavorite|WA87
+SYNC TimeToCum|WA89
+SYNC WeJustCame|WA93
+SYNC OnAllFour|TLustBedBk F1
+SYNC FromTheTop|TLustBedBk F3
+SYNC LikeAGeisha|TLustBedBk F4
+SYNC PinnedDown|TLustBedBk F7
+SYNC FirstDoggy|FlatSex1F
+SYNC HeadDown|FlatSex2F
+SYNC DeepDoggy|FlatSex3F
+SYNC Samurai|FlatSex4F
+SYNC Tricycle|FlatSex5F
+SYNC PushHerDown|FlatSex6F
+SYNC PinHer|FlatSex7F
+SYNC DirtySpoon|TLustBedMsc F5
+
+MENU Cumshots|V
+BUTTON SwapUsers|90030|0|1
+SYNC Spooge|TLustBedCm F3
+SYNC NutBuster|TLustBedCm F4
+SYNC CreamHer|TLustBedCm F5
+{OneFootIn}<-0.134,1.058,0.191><0,0,0>
+{Relaxed}<-0.134,1.058,0.191><0,0,0>
+{Chilling}<-0.092,0.962,0.196><0,0,0>
+{HangingOut}<-0.065,0.867,0.191><0,0,-10>
+{HalfDip}<-0.205,0.753,0.154><0,0,180>
+{DangleFeet}<-0.276,0.749,0.27><0,0,97>
+{Poolside}<-0.476,1.001,0.103><0,0,90>
+{LotionMe}<-0.303,0.674,0.176><0.4,0,90>
+{Sunbathe}<-0.026,0.844,0.139><0,0,180>
+{Sunbathe2}<-0.06,0.927,0.139><0,0,90>
+{Ready2Dive}<0,2.881,1.054><0,0,90>
+{SwanDive}<0,2.881,1.054><0,0,90>
+{TurnAround}<0,1.267,1.041><0,0,-90>
+{BackDive}<0,1.267,1.041><0,0,-90>
+{GoAgain}<0,1.861,1.043><0,0,-90>
+{BackFlip}<0,1.861,1.043><0,0,-90>
+{GonnaJump}<0,1.729,1.024><0,0,90>
+{Cannonball}<0,1.729,1.024><0,0,90>
+{Float1}<0.978,4.193,-0.506><0,0,135>
+{Float1Rot}<0.978,4.193,-0.506><0,0,103>
+{Float2}<0.978,4.193,-0.506><0,0,-89>
+{ZFloat}<0.978,4.193,-0.749><0,0,-98>
+{TreadWater2}<0.978,4.193,-1.124><0,0,-161>
+{TreadWater}<0.978,4.193,-0.433><0,0,-109>
+{SwimDive}<1.686,4.193,-1.124><0,0,-140.6>
+{CuddleHer}<-0.355,0.117,0.882><0,0,90>
+{Spooning}<-0.273,0.166,0.837><0,0,180>
+{HoldHerClose}<-0.004,-0.017,0.798><0,0,90>
+{BackRubs}<-0.155,-0.047,0.89><0,0,135>
+{GentleTouch}<-0.348,-0.432,0.824><0,0,0>
+{KissShoulder}<0.109,0.465,0.488><0,0,0>
+{KissNeck}<-0.035,0.157,0.3><0,0,79>
+{TummyTease}<0.186,-0.089,0.277><1,0,-107.7>
+{GetHerHot}<0.111,-0.053,0.285><-3,0,90>
+{FeelHerTits}<0.109,-0.243,0.346><0,0,90>
+{OnHisLap}<0.046,0.117,0.435><0,0,-163>
+{MakingOut}<0.128,-0.259,0.316><0,0,90>
+{AlmostReady}<-0.16,-0.423,0.333><0.2,-0.7,90>
+{TeaseHerBack}<-0.291,-0.316,0.204><0,0,90>
+{TittyTease}<-0.176,0.54,0.229><0,0,25>
+{TeaseHisBack}<0.086,-0.069,0.285><0,0,90>
+{ReadyForSex}<-0.322,0.016,1.299><-2,0,90>
+{RubWhileIn}<-0.259,0.016,1.299><-2,0,90>
+{TitFucking}<-0.006,0,0.603><0,0,-90>
+{JerkHimOff}<-0.007,0,0.603><0,0,0>
+{TurnHerOn}<0.084,0,0.657><0,0,0>
+{PussyDildo}<-0.008,1.568,0.217><0,0,-90>
+{AnalDildo}<0.032,0.93,0.554><0,0,90>
+{FingerGSpot}<-0.185,-0.362,0.229><0,0,90>
+{DoubleFun}<-0.101,-0.401,0.293><0,0,90>
+{SuckTitToo}<-0.213,-0.18,0.291><0,0,90>
+{SheSquirms}<0.169,-0.367,0.256><0,0,90>
+{SheSquirts}<0.076,1.622,0.483><0,0,90>
+{SuckHerClit}<0.021,0.133,0.567><0,0,90>
+{WetAndTasty}<0.017,1.537,0.3><0,0,-90>
+{LegsUpLick}<-0.021,0.554,0.215><0,0,-90>
+{LickSideways}<-0.214,0.27,0.309><-3,0,90>
+{RaisedLicks}<0.088,0,0.667><0,0,0>
+{SitOnFace}<-0.006,0,0.653><2,0,-90>
+{SixtyEight}<0.02,0.002,0.623><-4,0,90>
+{TwoMouths}<0.033,0.198,0.519><0,0,-90>
+{LovelyCock}<0,0.607,1.222><0,0,-90>
+{JustTheTip}<0,0.607,1.222><0,0,-90>
+{TakesItIn}<0,0.607,1.222><0,0,-90>
+{CockHungry}<0,0.607,1.222><0,0,-90>
+{PullHerHead}<0,0.607,1.222><0,0,-90>
+{TakeItDeep}<0,0.607,1.222><0,0,-90>
+{PleasureHim}<0,0.607,1.222><0,0,-90>
+{WorkHisCock}<0,0.607,1.222><0,0,-90>
+{CumInMouth}<0,0.607,1.222><0,0,-90>
+{FirstTime}<-0.042,0.419,0.261><1,0,-90>
+{PumpHerPussy}<0.013,0.202,0.177><0,0,-90>
+{GetInDeep}<0.041,0.398,0.226><0,0,-90>
+{LiftHerAss}<-0.011,0.298,0.11><0,0,-90>
+{HoldHerLegs}<-0.076,0.286,0.148><0,0,-90>
+{LustyThrusts}<-0.02,0.402,0.221><1,-0.1,-90>
+{SheCanCum}<0.007,0.43,0.254><3,0,-90>
+{PowerFuck}<0.02,0.202,0.175><0,0,-90>
+{NailHer}<0.018,0,0.639><0,0,90>
+{WideOpen}<-0.006,0,0.626><0,0,90>
+{FeetHeldUp}<-0.006,0,0.629><0,0,90>
+{HardFuck}<0.079,0,0.655><0,0,90>
+{BreedHer}<0.016,0,0.66><0,0,90>
+{ClingToHim}<-0.002,0,0.67><1,0,90>
+{SpreadLegs}<0.049,0,0.619><0,0,56>
+{SideSlammer}<-0.006,0,0.677><0,0,90>
+{ArchedBack}<-0.007,0,0.622><0,0,90>
+{Kicking}<-0.006,0,0.637><0,0,90>
+{DeeperStill}<-0.007,0,0.621><0,0,90>
+{SideOfBeef}<-0.005,0,0.636><0,0,0>
+{ThighHug}<0.018,0,0.619><0,0,45>
+{WetClitRubs}<0.298,0.164,1.279><0,1,-90>
+{RubOnCock}<0.311,0.164,1.279><0,1,-90>
+{GrindOnHim}<0.333,0.164,1.283><0,1,-90>
+{SlipperyFun}<0.311,0.164,1.283><0,1,-90>
+{PutItInHer}<0.312,0.185,1.287><0,0.1,-90>
+{PopDatPussy}<0.314,0.164,1.285><0,1,-90>
+{SlickSleeve}<0.288,0.164,1.286><0,1,-90>
+{WorkingHard}<0.314,0.164,1.281><0,1,-90>
+{SoDeep}<0.296,0.164,1.284><0,1,-90>
+{TapCervix}<0.333,0.164,1.287><0,1,-90>
+{WildRide}<0.318,0.164,1.255><0,1,-90>
+{KissingSex}<0.351,0.164,1.266><0,1,-90>
+{CumTogether}<0.337,0.164,1.276><0,1,-90>
+{ReverseRide}<0.019,-0.015,0.567><-0.3,0,-90>
+{RideHisDick}<-0.015,0.438,0.571><0,0,90>
+{InSoDeep}<-0.003,0.438,0.557><0,0,90>
+{SquatOnCock}<0.003,0.364,0.58><0,0,90>
+{DeepRide}<-0.012,0.083,0.54><0,0,-90>
+{Jockey}<0.011,0.029,0.579><0,0,-90>
+{StraddleJoy}<0.01,0.617,0.604><0,0,90>
+{FacingRide}<0.01,0.157,0.714><0,0,90>
+{Mustang}<-0.035,0,0.624><4,0,-90>
+{Bronco}<-0.018,0,0.634><4,0,-90>
+{Giddyap}<-0.006,0,0.649><3,0,-90>
+{SlapDown}<-0.006,0,0.649><0,0,-90>
+{GrindOnIt}<-0.006,0,0.657><0,0,-90>
+{FuckDeep}<-0.006,0,0.646><0,0,-90>
+{Recumbant}<-0.006,0,0.636><0,0,-90>
+{BouncyRide}<-0.006,0,0.638><4.7,0.2,-90>
+{UseThatCock}<-0.006,0,0.654><0,0,-90>
+{GoDeeper}<-0.005,0,0.677><0,0,-90>
+{LayBackFuck}<-0.006,0,0.635><0,0,-90>
+{TurnedFuck}<-0.006,0,0.67><4,0,-90>
+{SideSaddle}<-0.006,0,0.701><0,0,-90>
+{RubHerAss}<-0.006,0,0.643><0,0,-90>
+{Goddess}<-0.006,0,0.655><0,0,-90>
+{YabYum}<-0.007,0,0.606><0,0,-90>
+{DivingRide}<-0.073,1.865,0.503><0,0,90>
+{EndRide}<0.004,1.788,0.514><0,0,-90>
+{AnalTease}<-0.384,0.05,1.321><0,0,-90>
+{Penetration}<-0.383,0.05,1.315><0,0,-90>
+{RamThatAss}<-0.381,0.05,1.308><0,0,-90>
+{ClaimingHer}<-0.259,0.05,1.329><0,0,-90>
+{AnalLust}<-0.335,0.05,1.331><0,0,-90>
+{HerFavorite}<-0.364,0.05,1.273><0,0,-90>
+{TimeToCum}<-0.434,0.05,1.304><0,0,-90>
+{WeJustCame}<-0.41,0.05,1.266><0,0,-90>
+{OnAllFour}<-0.002,0.189,0.57><0,0,90>
+{FromTheTop}<0.003,0.064,0.564><0,0,90>
+{LikeAGeisha}<-0.05,0.097,0.612><0,0,90>
+{PinnedDown}<-0.005,0.227,0.359><0,0,90>
+{FirstDoggy}<-0.006,0,0.633><0,0,90>
+{HeadDown}<-0.076,0,0.62><0,0,90>
+{DeepDoggy}<-0.055,0,0.664><0,0,90>
+{Samurai}<-0.037,0,0.626><0,0,90>
+{Tricycle}<-0.006,0,0.68><0,0,90>
+{PushHerDown}<-0.01,0,0.662><0,0,90>
+{PinHer}<-0.033,0,0.673><2,0,90>
+{DirtySpoon}<-0.172,0.152,0.271><-3.9,5.3,-89.9>
+{Spooge}<-0.031,0.039,0.211><-2,0,-91>
+{NutBuster}<-0.021,0.406,0.717><4,-0,-91>
+{CreamHer}<-0.007,0.284,0.349><4.7,0,-90>
+PROP1 SetupLovense|LoveBridge2 Micro|LoveBridge|<0.000000, 0.070000, 0.250000>|<0.000000, 0.000000, 0.000000>|HUD bottom right
+PROP1 LovenseHUD|Debauchery Lovense Hud v2.0.1 AV|G6|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|HUD bottom left
+
+SITTER 1|Guy|M
+
+TOMENU Solo
+TOMENU Couples
+BUTTON SetupLovense
+BUTTON LovenseHUD
+BUTTON SwapUsers|90030|0|1
+
+MENU Solo
+BUTTON SwapUsers|90030|0|1
+TOMENU Relaxing
+TOMENU Diving
+
+MENU Relaxing
+BUTTON SwapUsers|90030|0|1
+POSE HalfDip|z-halfdip
+POSE OneFootIn|ps21_M|55|ps21Mirror_M|55
+POSE Relaxed|ps22_M
+POSE Chilling|ps23_M
+POSE HangingOut|ps24_M|55|ps24Mirror_M|55
+POSE DangleFeet|z-feetdangle
+POSE Poolside|z-poolside
+POSE LotionMe|z-lotionself
+POSE Sunbathe|z-sunbathe
+POSE Sunbathe2|z-sunbathe 1
+
+MENU Diving
+BUTTON SwapUsers|90030|0|1
+POSE Ready2Dive|wj1s
+POSE SwanDive|wj1
+POSE TurnAround|wj2s
+POSE BackDive|wj2
+POSE GoAgain|wj3s
+POSE BackFlip|wj3
+POSE GonnaJump|wj4s
+POSE Cannonball|wj4
+POSE Float1|float1
+POSE Float1Rot|float1rot
+POSE Float2|float2
+POSE ZFloat|z-float
+POSE TreadWater2|z-treadwater
+POSE TreadWater|treadwater
+POSE SwimDive|poolSwimDive
+
+MENU Couples
+BUTTON SwapUsers|90030|0|1
+TOMENU Cuddles
+TOMENU Teasing
+TOMENU Fingering
+TOMENU Licking
+TOMENU Blowjobs
+TOMENU Front
+TOMENU Riding
+TOMENU Doggy
+TOMENU Cumshots
+
+MENU Cuddles
+BUTTON SwapUsers|90030|0|1
+SYNC CuddleHer|[Polymorph] Cuddles Bed M01
+SYNC Spooning|[Polymorph] Cuddles Bed M03
+SYNC HoldHerClose|[Polymorph] Cuddles Bed M06
+SYNC BackRubs|[Polymorph] Cuddles Bed M07
+SYNC GentleTouch|[Polymorph] Cuddles Bed M09
+
+MENU Teasing|V
+BUTTON SwapUsers|90030|0|1
+SYNC KissShoulder|TLustBed M1
+SYNC KissNeck|TLustBed M2
+SYNC TummyTease|TLustBed M3
+SYNC GetHerHot|TLustBed M4
+SYNC FeelHerTits|TLustBed M5
+SYNC OnHisLap|TLustBed M6
+SYNC MakingOut|TLustBed M8
+SYNC AlmostReady|TLustBed M9
+SYNC TeaseHerBack|TLustBed M10
+SYNC TittyTease|TLustBed M11
+SYNC TeaseHisBack|TLustBed M12
+SYNC ReadyForSex|WA108
+SYNC RubWhileIn|WA110
+SYNC TitFucking|FlatSex41M
+SYNC JerkHimOff|FlatSex42M
+SYNC TurnHerOn|FlatSex43M
+SYNC PussyDildo|TLustBedMsc M1
+SYNC AnalDildo|TLustBedMsc M2
+
+MENU Fingering|V
+BUTTON SwapUsers|90030|0|1
+SYNC FingerGSpot|TLustBedFg M3
+SYNC DoubleFun|TLustBedFg M4
+SYNC SuckTitToo|TLustBedFg M6
+SYNC SheSquirms|TLustBedFg M7
+SYNC SheSquirts|TLustBedFg M8
+
+MENU Licking|V
+BUTTON SwapUsers|90030|0|1
+SYNC SuckHerClit|TLustBedLk M2
+SYNC WetAndTasty|TLustBedLk M4
+SYNC LegsUpLick|TLustBedLk M6
+SYNC LickSideways|TLustBedLk M8
+SYNC RaisedLicks|FlatSex36M
+SYNC SitOnFace|FlatSex49M
+SYNC SixtyEight|FlatSex44M
+SYNC TwoMouths|TLustBedMsc M4
+
+MENU Blowjobs|V
+BUTTON SwapUsers|90030|0|1
+SYNC LovelyCock|WA18
+SYNC JustTheTip|WA20
+SYNC TakesItIn|WA22
+SYNC CockHungry|WA24
+SYNC PullHerHead|WA26
+SYNC TakeItDeep|WA28
+SYNC PleasureHim|WA30
+SYNC WorkHisCock|WA32
+SYNC CumInMouth|WA34
+
+MENU Front|V
+BUTTON SwapUsers|90030|0|1
+SYNC FirstTime|TLustBedFrt M1
+SYNC PumpHerPussy|TLustBedFrt M2
+SYNC GetInDeep|TLustBedFrt M3
+SYNC LiftHerAss|TLustBedFrt M4
+SYNC HoldHerLegs|TLustBedFrt M5
+SYNC LustyThrusts|TLustBedFrt M6
+SYNC SheCanCum|TLustBedFrt M7
+SYNC PowerFuck|TLustBedFrt M8
+SYNC NailHer|FlatSex24M
+SYNC WideOpen|FlatSex25M
+SYNC FeetHeldUp|FlatSex26M
+SYNC HardFuck|FlatSex27M
+SYNC BreedHer|FlatSex28M
+SYNC ClingToHim|FlatSex29M
+SYNC SpreadLegs|FlatSex30M
+SYNC SideSlammer|FlatSex31M
+SYNC ArchedBack|FlatSex32M
+SYNC Kicking|FlatSex33M
+SYNC DeeperStill|FlatSex34M
+SYNC SideOfBeef|FlatSex35M
+SYNC ThighHug|FlatSex38M
+
+MENU Riding|V
+BUTTON SwapUsers|90030|0|1
+SYNC WetClitRubs|WA66
+SYNC RubOnCock|WA68
+SYNC GrindOnHim|WA70
+SYNC SlipperyFun|WA72
+SYNC PutItInHer|WA74
+SYNC PopDatPussy|WA76
+SYNC SlickSleeve|WA98
+SYNC WorkingHard|WA100
+SYNC SoDeep|WA102
+SYNC TapCervix|WA106
+SYNC WildRide|WA96
+SYNC KissingSex|WA104
+SYNC CumTogether|WA112
+SYNC ReverseRide|TLustBedRd M1
+SYNC RideHisDick|TLustBedRd M2
+SYNC InSoDeep|TLustBedRd M3
+SYNC SquatOnCock|TLustBedRd M4
+SYNC DeepRide|TLustBedRd M5
+SYNC Jockey|TLustBedRd M6
+SYNC StraddleJoy|TLustBedRd M7
+SYNC FacingRide|TLustBedRd M8
+SYNC Mustang|FlatSex8M
+SYNC Bronco|FlatSex9M
+SYNC Giddyap|FlatSex10M
+SYNC SlapDown|FlatSex11M
+SYNC GrindOnIt|FlatSex12M
+SYNC FuckDeep|FlatSex13M
+SYNC Recumbant|FlatSex14M
+SYNC BouncyRide|FlatSex15M
+SYNC UseThatCock|FlatSex16M
+SYNC GoDeeper|FlatSex17M
+SYNC LayBackFuck|FlatSex18M
+SYNC TurnedFuck|FlatSex19M
+SYNC SideSaddle|FlatSex20M
+SYNC RubHerAss|FlatSex21M
+SYNC Goddess|FlatSex22M
+SYNC YabYum|FlatSex23M
+SYNC DivingRide|TLustBedMsc M7
+SYNC EndRide|TLustBedMsc M8
+
+MENU Doggy|V
+BUTTON SwapUsers|90030|0|1
+SYNC AnalTease|WA78
+SYNC Penetration|WA80
+SYNC RamThatAss|WA82
+SYNC ClaimingHer|WA84
+SYNC AnalLust|WA86
+SYNC HerFavorite|WA88
+SYNC TimeToCum|WA90
+SYNC WeJustCame|WA94
+SYNC OnAllFour|TLustBedBk M1
+SYNC FromTheTop|TLustBedBk M3
+SYNC LikeAGeisha|TLustBedBk M4
+SYNC PinnedDown|TLustBedBk M7
+SYNC FirstDoggy|FlatSex1M
+SYNC HeadDown|FlatSex2M
+SYNC DeepDoggy|FlatSex3M
+SYNC Samurai|FlatSex4M
+SYNC Tricycle|FlatSex5M
+SYNC PushHerDown|FlatSex6M
+SYNC PinHer|FlatSex7M
+SYNC DirtySpoon|TLustBedMsc M5
+
+MENU Cumshots|V
+BUTTON SwapUsers|90030|0|1
+SYNC Spooge|TLustBedCm M3
+SYNC NutBuster|TLustBedCm M4
+SYNC CreamHer|TLustBedCm M5
+{HalfDip}<-0.205,-0.386,0.209><0,0,180>
+{OneFootIn}<-0.138,-0.403,0.242><2.1,-0.3,0>
+{Relaxed}<-0.134,-0.397,0.232><0,0,0>
+{Chilling}<-0.092,-0.25,0.242><0,0,-16>
+{HangingOut}<-0.065,-0.25,0.242><0,0,-10>
+{DangleFeet}<-0.276,-0.845,0.308><0,0,97>
+{Poolside}<-0.476,-0.712,0.122><0,0,90>
+{LotionMe}<-0.303,-1.643,0.219><0.4,0,90>
+{Sunbathe}<-0.277,-1.124,0.188><0,0,180>
+{Sunbathe2}<-0.277,-1.074,0.188><0,0,90>
+{Ready2Dive}<0,2.852,1.139><0,0,90>
+{SwanDive}<0,2.852,1.139><0,0,90>
+{TurnAround}<0,1.253,1.139><0,0,-90>
+{BackDive}<0,1.253,1.139><0,0,-90>
+{GoAgain}<0,1.861,1.139><0,0,-90>
+{BackFlip}<0,1.861,1.139><0,0,-90>
+{GonnaJump}<0,1.672,1.139><0,0,90>
+{Cannonball}<0,1.672,1.139><0,0,90>
+{Float1}<-1.083,3.541,-0.462><0,0,0>
+{Float1Rot}<-1.083,3.541,-0.462><0,0,0>
+{Float2}<-1.889,3.541,-0.49><0,0,90>
+{ZFloat}<-1.083,3.541,-0.772><0,0,90>
+{TreadWater2}<-1.083,3.541,-1.162><0,0,45>
+{TreadWater}<-1.513,3.541,-0.462><0,0,39>
+{SwimDive}<-2.2,3.541,-1.159><0,0,0>
+{CuddleHer}<0.179,-0.103,0.928><0,0,90>
+{Spooning}<0.261,0.174,0.928><0,0,180>
+{HoldHerClose}<0.027,-0.004,0.871><0,0,90>
+{BackRubs}<-0.422,0.004,0.927><0,0,135>
+{GentleTouch}<0.15,-0.475,0.922><0,0,180>
+{KissShoulder}<-0.082,0.525,0.563><0,0,12>
+{KissNeck}<-0.322,0.295,0.232><0,0,38>
+{TummyTease}<0.064,0.332,0.17><1,0,-22.5>
+{GetHerHot}<0.043,0.709,0.662><-3,0,-90.6>
+{FeelHerTits}<-0.169,-0.173,0.349><0,0,90>
+{OnHisLap}<-0.101,-0.009,0.321><0,0,17>
+{MakingOut}<0.057,0.513,0.627><0,0,-90>
+{AlmostReady}<0.176,0.162,0.34><0.2,-0.7,90>
+{TeaseHerBack}<-0.124,0.218,0.295><0,0,70>
+{TittyTease}<-0.411,0.24,0.293><0,0,29.2>
+{TeaseHisBack}<-0.135,-0.322,0.248><0,0,90>
+{ReadyForSex}<-0.322,0.581,1.425><-2,0,-90>
+{RubWhileIn}<-0.259,0.581,1.425><-2,0,-90>
+{TitFucking}<-0.006,0,0.635><0,0,-90>
+{JerkHimOff}<-0.007,0,0.625><0,0,0>
+{TurnHerOn}<0.084,0,0.657><0,0,0>
+{PussyDildo}<-0.057,0.04,0.609><0,0,90>
+{AnalDildo}<-0.192,0.485,0.78><0,0,67>
+{FingerGSpot}<-0.003,0.311,0.563><0,0,-98>
+{DoubleFun}<0.031,0.398,-0.028><0,0,-98>
+{SuckTitToo}<0.221,0.199,0.321><0,0,90>
+{SheSquirms}<-0.074,0.372,0.593><0,0,-90>
+{SheSquirts}<-0.248,1.733,0.544><0,0,58>
+{SuckHerClit}<-0.035,-0.372,0.338><0,0,-90>
+{WetAndTasty}<0.055,0.109,0.643><0,0,90>
+{LegsUpLick}<-0.029,-0.268,0.491><0,0,90>
+{LickSideways}<0.216,-0.064,0.272><-3,0,-90>
+{RaisedLicks}<0.088,0,0.667><0,0,0>
+{SitOnFace}<-0.006,0,0.653><2,0,-90>
+{SixtyEight}<0.02,0.002,0.623><-4,0,90>
+{TwoMouths}<0.038,-0.2,0.312><0,0,-90>
+{LovelyCock}<0,0.047,1.368><0,0,90>
+{JustTheTip}<0,0.047,1.368><0,0,90>
+{TakesItIn}<0,0.047,1.368><0,0,90>
+{CockHungry}<0,0.047,1.368><0,0,90>
+{PullHerHead}<0,0.047,1.368><0,0,90>
+{TakeItDeep}<0,0.047,1.368><0,0,90>
+{PleasureHim}<0,0.047,1.368><0,0,90>
+{WorkHisCock}<0,0.047,1.368><0,0,90>
+{CumInMouth}<0,0.047,1.368><0,0,90>
+{FirstTime}<-0.15,-0.408,0.691><1,-0,82>
+{PumpHerPussy}<0.093,-0.197,0.567><0,0,90>
+{GetInDeep}<-0.067,-0.385,0.672><0,0,82>
+{LiftHerAss}<0.072,-0.133,0.689><0,0,90>
+{HoldHerLegs}<0.005,-0.143,0.538><0,0,90>
+{LustyThrusts}<-0.13,-0.389,0.671><1,-0.1,82>
+{SheCanCum}<0.019,-0.377,0.677><3,0,90>
+{PowerFuck}<0.101,-0.197,0.565><0,0,90>
+{NailHer}<0.018,0,0.639><0,0,90>
+{WideOpen}<-0.006,0,0.626><0,0,90>
+{FeetHeldUp}<-0.006,0,0.629><0,0,90>
+{HardFuck}<0.079,0,0.655><0,0,90>
+{BreedHer}<0.016,0,0.66><0,0,90>
+{ClingToHim}<-0.002,0,0.67><1,0,90>
+{SpreadLegs}<0.049,0,0.619><0,0,56>
+{SideSlammer}<-0.006,0,0.677><0,0,90>
+{ArchedBack}<-0.007,0,0.622><0,0,90>
+{Kicking}<-0.006,0,0.637><0,0,90>
+{DeeperStill}<-0.007,0,0.621><0,0,90>
+{SideOfBeef}<-0.005,0,0.636><0,0,0>
+{ThighHug}<0.018,0,0.619><0,0,45>
+{WetClitRubs}<0.298,-0.396,1.38><0,1,90>
+{RubOnCock}<0.311,-0.396,1.38><0,1,90>
+{GrindOnHim}<0.333,-0.396,1.384><0,1,90>
+{SlipperyFun}<0.311,-0.396,1.384><0,1,90>
+{PutItInHer}<0.312,-0.396,1.388><0,1,90>
+{PopDatPussy}<0.314,-0.396,1.386><0,1,90>
+{SlickSleeve}<0.288,-0.396,1.387><0,1,90>
+{WorkingHard}<0.314,-0.396,1.382><0,1,90>
+{SoDeep}<0.296,-0.396,1.385><0,1,90>
+{TapCervix}<0.333,-0.396,1.388><0,1,90>
+{WildRide}<0.318,-0.396,1.356><0,1,90>
+{KissingSex}<0.351,-0.396,1.367><0,1,90>
+{CumTogether}<0.337,-0.396,1.377><0,1,90>
+{ReverseRide}<0.016,0.418,0.33><-0.3,0,-90>
+{RideHisDick}<-0.015,0.418,0.311><0,0,-90>
+{InSoDeep}<-0.003,0.419,0.348><0,0,-90>
+{SquatOnCock}<0.003,0.419,0.301><0,0,-90>
+{DeepRide}<-0.016,0.333,0.307><0,0,-90>
+{Jockey}<0.009,0.4,0.333><0,0,-90>
+{StraddleJoy}<0.011,0.751,0.408><0,0,-90>
+{FacingRide}<-0.069,0.335,0.651><0,0,-90>
+{Mustang}<-0.035,0,0.624><4,0,-90>
+{Bronco}<-0.018,0,0.634><4,0,-90>
+{Giddyap}<-0.006,0,0.649><3,0,-90>
+{SlapDown}<-0.006,0,0.649><0,0,-90>
+{GrindOnIt}<-0.006,0,0.657><0,0,-90>
+{FuckDeep}<-0.006,0,0.646><0,0,-90>
+{Recumbant}<-0.006,0,0.636><0,0,-90>
+{BouncyRide}<-0.006,0,0.638><4.7,0.2,-90>
+{UseThatCock}<-0.006,0,0.654><0,0,-90>
+{GoDeeper}<-0.005,0,0.677><0,0,-90>
+{LayBackFuck}<-0.006,0,0.635><0,0,-90>
+{TurnedFuck}<-0.006,0,0.632><4,0,-90>
+{SideSaddle}<-0.006,0,0.641><0,0,-90>
+{RubHerAss}<-0.006,0,0.643><0,0,-90>
+{Goddess}<-0.006,0,0.655><0,0,-90>
+{YabYum}<-0.007,0,0.606><0,0,-90>
+{DivingRide}<-0.08,1.494,0.352><0,0,90>
+{EndRide}<0.089,1.616,0.421><0,0,90>
+{AnalTease}<-0.384,-0.51,1.467><0,0,90>
+{Penetration}<-0.383,-0.51,1.461><0,0,90>
+{RamThatAss}<-0.381,-0.51,1.454><0,0,90>
+{ClaimingHer}<-0.259,-0.51,1.475><0,0,90>
+{AnalLust}<-0.335,-0.51,1.477><0,0,90>
+{HerFavorite}<-0.364,-0.51,1.419><0,0,90>
+{TimeToCum}<-0.434,-0.51,1.45><0,0,90>
+{WeJustCame}<-0.41,-0.51,1.412><0,0,90>
+{OnAllFour}<0.086,-0.184,0.822><0,0,90>
+{FromTheTop}<0.091,-0.059,0.8><0,0,90>
+{LikeAGeisha}<0.039,-0.093,0.725><0,0,90>
+{PinnedDown}<-0.002,0.504,0.61><0,0,90>
+{FirstDoggy}<-0.006,0,0.664><0,0,90>
+{HeadDown}<-0.076,0,0.62><0,0,90>
+{DeepDoggy}<-0.055,0,0.664><0,0,90>
+{Samurai}<-0.037,0,0.626><0,0,90>
+{Tricycle}<-0.006,0,0.68><0,0,90>
+{PushHerDown}<-0.01,0,0.662><0,0,90>
+{PinHer}<-0.033,0,0.673><2,0,90>
+{DirtySpoon}<0.118,0.072,0.283><-3.9,5.3,-89.9>
+{Spooge}<-0.021,-0.036,0.542><-2,0,90>
+{NutBuster}<-0.04,-0.402,0.704><4,0,90>
+{CreamHer}<-0.007,-0.28,0.579><4.7,0,90>
+PROP1 SetupLovense|LoveBridge2 Micro|LoveBridge|<0.000000, 0.070000, 0.250000>|<0.000000, 0.000000, 0.000000>|HUD bottom right
+PROP1 LovenseHUD|Debauchery Lovense Hud v2.0.1 AV|G6|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>|HUD bottom left
+PROP1 PussyDildo|#Dildo|G1|<-0.463013, 0.000000, 0.161865>|<90.000010, -17.000000, 0.000001>|right hand
+PROP1 AnalDildo|#Dildo|G1|<-0.354752, 0.433456, 0.161865>|<90.000010, -17.000000, 0.000001>|right hand
