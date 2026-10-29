@@ -1,179 +1,329 @@
 SEQUENCE ►RELAX
-POSE OneFootIn|ps21_M|55|ps21Mirror_M|55
-POSE Relaxed|ps22_M
-POSE Chilling|ps23_M
-POSE HangingOut|ps24_M|55|ps24Mirror_M|55
-POSE HalfDip|z-halfdip
-POSE DangleFeet|z-feetdangle
-POSE Poolside|z-poolside
-POSE LotionMe|z-lotionself
-POSE Sunbathe|z-sunbathe
-POSE Sunbathe2|z-sunbathe 1
+PLAY OneFootIn
+WAIT 90
+PLAY Relaxed
+WAIT 90
+PLAY Chilling
+WAIT 90
+PLAY HangingOut
+WAIT 90
+PLAY HalfDip
+WAIT 90
+PLAY DangleFeet
+WAIT 90
+PLAY Poolside
+WAIT 90
+PLAY LotionMe
+WAIT 90
+PLAY Sunbathe
+WAIT 90
+PLAY Sunbathe2
+WAIT 90
 LOOP
 
 SEQUENCE ►DIVE
-POSE Ready2Dive|wj1s
-POSE SwanDive|wj1
-POSE TurnAround|wj2s
-POSE BackDive|wj2
-POSE GoAgain|wj3s
-POSE BackFlip|wj3
-POSE GonnaJump|wj4s
-POSE Cannonball|wj4
-POSE Float1|float1
-POSE Float1Rot|float1rot
-POSE Float2|float2
-POSE ZFloat|z-float
-POSE TreadWater2|z-treadwater
-POSE TreadWater|treadwater
-POSE SwimDive|poolSwimDive
+PLAY Ready2Dive
+WAIT 90
+PLAY SwanDive
+WAIT 90
+PLAY TurnAround
+WAIT 90
+PLAY BackDive
+WAIT 90
+PLAY GoAgain
+WAIT 90
+PLAY BackFlip
+WAIT 90
+PLAY GonnaJump
+WAIT 90
+PLAY Cannonball
+WAIT 90
+PLAY Float1
+WAIT 90
+PLAY Float1Rot
+WAIT 90
+PLAY Float2
+WAIT 90
+PLAY ZFloat
+WAIT 90
+PLAY TreadWater2
+WAIT 90
+PLAY TreadWater
+WAIT 90
+PLAY SwimDive
+WAIT 90
 LOOP
 
 SEQUENCE ►CUDDLE
-SYNC CuddleHer|[Polymorph] Cuddles Bed F01
-SYNC Spooning|[Polymorph] Cuddles Bed F03
-SYNC HoldHerClose|[Polymorph] Cuddles Bed F06
-SYNC BackRubs|[Polymorph] Cuddles Bed F07
-SYNC GentleTouch|[Polymorph] Cuddles Bed F09
+PLAY CuddleHer
+WAIT 90
+PLAY Spooning
+WAIT 90
+PLAY HoldHerClose
+WAIT 90
+PLAY BackRubs
+WAIT 90
+PLAY GentleTouch
+WAIT 90
 LOOP
 
 SEQUENCE ►TEASE
-SYNC KissShoulder|TLustBed F1
-SYNC KissNeck|TLustBed F2
-SYNC TummyTease|TLustBed F3
-SYNC GetHerHot|TLustBed F4
-SYNC FeelHerTits|TLustBed F5
-SYNC OnHisLap|TLustBed F6
-SYNC MakingOut|TLustBed F8
-SYNC AlmostReady|TLustBed F9
-SYNC TeaseHerBack|TLustBed F10
-SYNC TittyTease|TLustBed F11
-SYNC TeaseHisBack|TLustBed F12
-SYNC ReadyForSex|WA107
-SYNC RubWhileIn|WA109
-SYNC TitFucking|FlatSex41F
-SYNC JerkHimOff|FlatSex42F
-SYNC TurnHerOn|FlatSex43F
-SYNC PussyDildo|TLustBedMsc F1
-SYNC AnalDildo|TLustBedMsc F2
+PLAY KissShoulder
+WAIT 90
+PLAY KissNeck
+WAIT 90
+PLAY TummyTease
+WAIT 90
+PLAY GetHerHot
+WAIT 90
+PLAY FeelHerTits
+WAIT 90
+PLAY OnHisLap
+WAIT 90
+PLAY MakingOut
+WAIT 90
+PLAY AlmostReady
+WAIT 90
+PLAY TeaseHerBack
+WAIT 90
+PLAY TittyTease
+WAIT 90
+PLAY TeaseHisBack
+WAIT 90
+PLAY ReadyForSex
+WAIT 90
+PLAY RubWhileIn
+WAIT 90
+PLAY TitFucking
+WAIT 90
+PLAY JerkHimOff
+WAIT 90
+PLAY TurnHerOn
+WAIT 90
+PLAY PussyDildo
+WAIT 90
+PLAY AnalDildo
+WAIT 90
 LOOP
 
 SEQUENCE ►FINGER
-SYNC FingerGSpot|TLustBedFg F3
-SYNC DoubleFun|TLustBedFg F4
-SYNC SuckTitToo|TLustBedFg F6
-SYNC SheSquirms|TLustBedFg F7
-SYNC SheSquirts|TLustBedFg F8
+PLAY FingerGSpot
+WAIT 90
+PLAY DoubleFun
+WAIT 90
+PLAY SuckTitToo
+WAIT 90
+PLAY SheSquirms
+WAIT 90
+PLAY SheSquirts
+WAIT 90
 LOOP
 
 SEQUENCE ►LICK
-SYNC SuckHerClit|TLustBedLk F2
-SYNC WetAndTasty|TLustBedLk F4
-SYNC LegsUpLick|TLustBedLk F6
-SYNC LickSideways|TLustBedLk F8
-SYNC RaisedLicks|FlatSex36F
-SYNC SitOnFace|FlatSex49F
-SYNC SixtyEight|FlatSex44F
-SYNC TwoMouths|TLustBedMsc F4
+PLAY SuckHerClit
+WAIT 90
+PLAY WetAndTasty
+WAIT 90
+PLAY LegsUpLick
+WAIT 90
+PLAY LickSideways
+WAIT 90
+PLAY RaisedLicks
+WAIT 90
+PLAY SitOnFace
+WAIT 90
+PLAY SixtyEight
+WAIT 90
+PLAY TwoMouths
+WAIT 90
 LOOP
 
 SEQUENCE ►BJ
-SYNC LovelyCock|WA17
-SYNC JustTheTip|WA19
-SYNC TakesItIn|WA21
-SYNC CockHungry|WA23
-SYNC PullHerHead|WA25
-SYNC TakeItDeep|WA27
-SYNC PleasureHim|WA29
-SYNC WorkHisCock|WA31
-SYNC CumInMouth|WA33
+PLAY LovelyCock
+WAIT 90
+PLAY JustTheTip
+WAIT 90
+PLAY TakesItIn
+WAIT 90
+PLAY CockHungry
+WAIT 90
+PLAY PullHerHead
+WAIT 90
+PLAY TakeItDeep
+WAIT 90
+PLAY PleasureHim
+WAIT 90
+PLAY WorkHisCock
+WAIT 90
+PLAY CumInMouth
+WAIT 90
 LOOP
 
 SEQUENCE ►FRONT
-SYNC FirstTime|TLustBedFrt F1
-SYNC PumpHerPussy|TLustBedFrt F2
-SYNC GetInDeep|TLustBedFrt F3
-SYNC LiftHerAss|TLustBedFrt F4
-SYNC HoldHerLegs|TLustBedFrt F5
-SYNC LustyThrusts|TLustBedFrt F6
-SYNC SheCanCum|TLustBedFrt F7
-SYNC PowerFuck|TLustBedFrt F8
-SYNC NailHer|FlatSex24F
-SYNC WideOpen|FlatSex25F
-SYNC FeetHeldUp|FlatSex26F
-SYNC HardFuck|FlatSex27F
-SYNC BreedHer|FlatSex28F
-SYNC ClingToHim|FlatSex29F
-SYNC SpreadLegs|FlatSex30F
-SYNC SideSlammer|FlatSex31F
-SYNC ArchedBack|FlatSex32F
-SYNC Kicking|FlatSex33F
-SYNC DeeperStill|FlatSex34F
-SYNC SideOfBeef|FlatSex35F
-SYNC ThighHug|FlatSex38F
+PLAY FirstTime
+WAIT 90
+PLAY PumpHerPussy
+WAIT 90
+PLAY GetInDeep
+WAIT 90
+PLAY LiftHerAss
+WAIT 90
+PLAY HoldHerLegs
+WAIT 90
+PLAY LustyThrusts
+WAIT 90
+PLAY SheCanCum
+WAIT 90
+PLAY PowerFuck
+WAIT 90
+PLAY NailHer
+WAIT 90
+PLAY WideOpen
+WAIT 90
+PLAY FeetHeldUp
+WAIT 90
+PLAY HardFuck
+WAIT 90
+PLAY BreedHer
+WAIT 90
+PLAY ClingToHim
+WAIT 90
+PLAY SpreadLegs
+WAIT 90
+PLAY SideSlammer
+WAIT 90
+PLAY ArchedBack
+WAIT 90
+PLAY Kicking
+WAIT 90
+PLAY DeeperStill
+WAIT 90
+PLAY SideOfBeef
+WAIT 90
+PLAY ThighHug
+WAIT 90
 LOOP
 
 SEQUENCE ►RIDE
-SYNC WetClitRubs|WA65
-SYNC RubOnCock|WA67
-SYNC GrindOnHim|WA69
-SYNC SlipperyFun|WA71
-SYNC PutItInHer|WA73
-SYNC PopDatPussy|WA75
-SYNC SlickSleeve|WA97
-SYNC WorkingHard|WA99
-SYNC SoDeep|WA101
-SYNC TapCervix|WA105
-SYNC WildRide|WA95
-SYNC KissingSex|WA103
-SYNC CumTogether|WA111
-SYNC ReverseRide|TLustBedRd F1
-SYNC RideHisDick|TLustBedRd F2
-SYNC InSoDeep|TLustBedRd F3
-SYNC SquatOnCock|TLustBedRd F4
-SYNC DeepRide|TLustBedRd F5
-SYNC Jockey|TLustBedRd F6
-SYNC StraddleJoy|TLustBedRd F7
-SYNC FacingRide|TLustBedRd F8
-SYNC Mustang|FlatSex8F
-SYNC Bronco|FlatSex9F
-SYNC Giddyap|FlatSex10F
-SYNC SlapDown|FlatSex11F
-SYNC GrindOnIt|FlatSex12F
-SYNC FuckDeep|FlatSex13F
-SYNC Recumbant|FlatSex14F
-SYNC BouncyRide|FlatSex15F
-SYNC UseThatCock|FlatSex16F
-SYNC GoDeeper|FlatSex17F
-SYNC LayBackFuck|FlatSex18F
-SYNC TurnedFuck|FlatSex19F
-SYNC SideSaddle|FlatSex20F
-SYNC RubHerAss|FlatSex21F
-SYNC Goddess|FlatSex22F
-SYNC YabYum|FlatSex23F
-SYNC DivingRide|TLustBedMsc F7
-SYNC EndRide|TLustBedMsc F8
+PLAY WetClitRubs
+WAIT 90
+PLAY RubOnCock
+WAIT 90
+PLAY GrindOnHim
+WAIT 90
+PLAY SlipperyFun
+WAIT 90
+PLAY PutItInHer
+WAIT 90
+PLAY PopDatPussy
+WAIT 90
+PLAY SlickSleeve
+WAIT 90
+PLAY WorkingHard
+WAIT 90
+PLAY SoDeep
+WAIT 90
+PLAY TapCervix
+WAIT 90
+PLAY WildRide
+WAIT 90
+PLAY KissingSex
+WAIT 90
+PLAY CumTogether
+WAIT 90
+PLAY ReverseRide
+WAIT 90
+PLAY RideHisDick
+WAIT 90
+PLAY InSoDeep
+WAIT 90
+PLAY SquatOnCock
+WAIT 90
+PLAY DeepRide
+WAIT 90
+PLAY Jockey
+WAIT 90
+PLAY StraddleJoy
+WAIT 90
+PLAY FacingRide
+WAIT 90
+PLAY Mustang
+WAIT 90
+PLAY Bronco
+WAIT 90
+PLAY Giddyap
+WAIT 90
+PLAY SlapDown
+WAIT 90
+PLAY GrindOnIt
+WAIT 90
+PLAY FuckDeep
+WAIT 90
+PLAY Recumbant
+WAIT 90
+PLAY BouncyRide
+WAIT 90
+PLAY UseThatCock
+WAIT 90
+PLAY GoDeeper
+WAIT 90
+PLAY LayBackFuck
+WAIT 90
+PLAY TurnedFuck
+WAIT 90
+PLAY SideSaddle
+WAIT 90
+PLAY RubHerAss
+WAIT 90
+PLAY Goddess
+WAIT 90
+PLAY YabYum
+WAIT 90
+PLAY DivingRide
+WAIT 90
+PLAY EndRide
+WAIT 90
 LOOP
 
 SEQUENCE ►DOGGY
-SYNC AnalTease|WA77
-SYNC Penetration|WA79
-SYNC RamThatAss|WA81
-SYNC ClaimingHer|WA83
-SYNC AnalLust|WA85
-SYNC HerFavorite|WA87
-SYNC TimeToCum|WA89
-SYNC WeJustCame|WA93
-SYNC OnAllFour|TLustBedBk F1
-SYNC FromTheTop|TLustBedBk F3
-SYNC LikeAGeisha|TLustBedBk F4
-SYNC PinnedDown|TLustBedBk F7
-SYNC FirstDoggy|FlatSex1F
-SYNC HeadDown|FlatSex2F
-SYNC DeepDoggy|FlatSex3F
-SYNC Samurai|FlatSex4F
-SYNC Tricycle|FlatSex5F
-SYNC PushHerDown|FlatSex6F
-SYNC PinHer|FlatSex7F
-SYNC DirtySpoon|TLustBedMsc F5
+PLAY AnalTease
+WAIT 90
+PLAY Penetration
+WAIT 90
+PLAY RamThatAss
+WAIT 90
+PLAY ClaimingHer
+WAIT 90
+PLAY AnalLust
+WAIT 90
+PLAY HerFavorite
+WAIT 90
+PLAY TimeToCum
+WAIT 90
+PLAY WeJustCame
+WAIT 90
+PLAY OnAllFour
+WAIT 90
+PLAY FromTheTop
+WAIT 90
+PLAY LikeAGeisha
+WAIT 90
+PLAY PinnedDown
+WAIT 90
+PLAY FirstDoggy
+WAIT 90
+PLAY HeadDown
+WAIT 90
+PLAY DeepDoggy
+WAIT 90
+PLAY Samurai
+WAIT 90
+PLAY Tricycle
+WAIT 90
+PLAY PushHerDown
+WAIT 90
+PLAY PinHer
+WAIT 90
+PLAY DirtySpoon
+WAIT 90
 LOOP
