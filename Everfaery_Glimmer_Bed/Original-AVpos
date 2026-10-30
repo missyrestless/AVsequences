@@ -1,0 +1,175 @@
+"everfaery - Glimmerveil Dreambed: Hanging Bed (Adult)" AVsitter 2.2p04
+
+SITTER 0
+
+TOMENU Individual
+TOMENU Couples
+TOMENU Sex
+
+MENU Individual
+POSE Lay Side|11-z-sidelieheadup
+POSE Dangle|0016 Lounge Casual X A
+POSE Feet Up|0067 - Lounge Restless F A
+POSE Chill|0072 - Lay & Reflect M A
+POSE Relax|0166 Thinking X A
+POSE Ponder|0267 Lay & Think F A
+POSE Daydream|0268 - Lay & Mope F AR
+POSE Kickback|0351.Lay Lounging-F-AR
+POSE Mellow|[RNP] Flat Surface Sit #1 - Female - Mirror - Update - 58 sec
+POSE Crossed|[RNP] Flat Surface Sit #10 - Male - Update - 36 sec
+POSE Sleep Side|[RNP] Sleep #8_Female_60 seconds
+POSE Sleep Back|[RNP] Sleep #11 - Male - 60 seconds
+POSE Casual|0184.Sit-Casual-X-A
+
+MENU Couples
+SYNC Cuddle|0333 Nap Cuddle F AR
+SYNC Hold|0386 Cuddle Fireside F A
+SYNC Gaze|[RNP] Couple #120 - Floor_Bed - Female - 54 sec - '22 Update
+SYNC On Back|[RNP] Couple #123 - Floor_Bed - Female - 40 sec - '22 Update
+SYNC Sit Back|[RNP] Couple #124 - Floor_Bed - Female - 35 sec - '22 Update
+SYNC Lap Lay|[RNP] Couple #134 - Floor_Bed - Female - 44 sec - '22 Update
+SYNC Sleepy|[RNP] Sleep Together #1 - Female - 60 seconds
+SYNC Lay Chest|[RNP] Sleep Together #6 - Female - 60 seconds
+SYNC Kiss|[RNP] Couple #127 - Floor_Bed - Kiss - Female - 30 sec - '22 Up
+
+MENU Sex|V
+SYNC Mutual Rub|sex-rub-f
+SYNC Handjob|sex-handjob-f
+SYNC Blowjob|sex-blowjob-f
+SYNC 69|sex-69-F
+SYNC Fingering|sex-fingering-F
+SYNC Lift & Lick|sex-liftlick-F
+SYNC Ride|sex-ride-f
+SYNC Bounce|sex-reverse-f
+SYNC Reverse Ride|sex-reverseride-f
+SYNC Pound Down|sex-pound-f
+SYNC Laying Doggy|sex-layingdoggy-f
+SYNC Missionary|sex-missionary-F
+SYNC Leg Up|sex-legup-F
+SYNC Doggy|sex-doggy-F
+SYNC Facesit|sex-facesit-F
+{Lay Side}<0.624,0.08,0.249><0,0,-150.9>
+{Dangle}<0.335,-1.236,0.265><0,0,-62.9>
+{Feet Up}<0.354,-0.152,0.241><6,0,117.3>
+{Chill}<0.574,0.001,0.228><6.7,1.6,-78.5>
+{Relax}<0.284,-0.152,0.211><6.9,0.5,-87.4>
+{Ponder}<0.359,-0.383,0.175><0.6,1.5,-100.5>
+{Daydream}<0.525,-0.145,0.168><0.8,1.4,-109.5>
+{Kickback}<0.377,0.145,0.245><7.2,4.1,-71.9>
+{Mellow}<0.61,0.093,0.633><0,0,-113.7>
+{Crossed}<0.529,0.093,0.742><0,0,-116.7>
+{Sleep Side}<0.375,-0.135,0.64><0,0,173.4>
+{Sleep Back}<0.615,0.078,0.637><4.8,-1.5,-16.9>
+{Casual}<-0.369,0.003,0.195><0,0,-64.9>
+{Cuddle}<0.268,-0.066,0.315><0,0,-64.9>
+{Hold}<-0.371,-0.1,0.195><0,0,-68.9>
+{Gaze}<0.105,-0.159,0.793><0,0,-139.3>
+{On Back}<0.021,-0.678,0.76><0,0,-57.3>
+{Sit Back}<-0.101,-0.062,0.76><0,0,5.3>
+{Lap Lay}<-0.101,-0.285,0.621><0,0,5.3>
+{Sleepy}<-0.193,-0.187,0.74><-1,0,-20>
+{Lay Chest}<0.04,-0.213,0.812><-0.9,0,0>
+{Kiss}<-0.042,-0.272,0.633><0,0,22.1>
+{Mutual Rub}<0.396,-0.432,0.282><0,0,-108>
+{Handjob}<0.657,0.203,0.305><0,0,-72>
+{Blowjob}<0.679,-0.206,0.305><0,0,-90>
+{69}<0.802,-0.001,0.306><0,0,-85>
+{Fingering}<0.444,0.418,0.326><0,0,-85>
+{Lift & Lick}<0.444,0.3,0.326><0,0,-85>
+{Ride}<0.679,-0.206,0.305><0,0,-90>
+{Bounce}<0.679,-0.206,0.305><0,0,-90>
+{Reverse Ride}<0.662,0.154,0.305><0,0,-74>
+{Pound Down}<0.853,-0.744,0.346><0,0,-155>
+{Laying Doggy}<0.853,-0.744,0.346><0,0,-155>
+{Missionary}<-0.337,-0.251,0.282><0,0,-23>
+{Leg Up}<-0.004,-0.025,0.282><0,0,-64>
+{Doggy}<0.15,-0.007,0.525><0,0,-155>
+{Facesit}<0.036,0.254,0.522><0,0,90>
+ANIM Lift & Lick|express_open_mouth|5|express_cry_emote|3
+
+SITTER 1
+
+TOMENU Individual
+TOMENU Couples
+TOMENU Sex
+
+MENU Individual
+POSE Chill|0072 - Lay & Reflect M A
+POSE Lay Side|11-z-sidelieheadup
+POSE Dangle|0016 Lounge Casual X A
+POSE Feet Up|0067 - Lounge Restless F A
+POSE Relax|0166 Thinking X A
+POSE Ponder|0267 Lay & Think F A
+POSE Daydream|0268 - Lay & Mope F AR
+POSE Kickback|0351.Lay Lounging-F-AR
+POSE Mellow|[RNP] Flat Surface Sit #1 - Female - Mirror - Update - 58 sec
+POSE Crossed|[RNP] Flat Surface Sit #10 - Male - Update - 36 sec
+POSE Sleep Side|[RNP] Sleep #8_Female_60 seconds
+POSE Sleep Back|[RNP] Sleep #11 - Male - 60 seconds
+POSE Casual|0184.Sit-Casual-X-A
+
+MENU Couples
+SYNC Cuddle|0333 Nap Cuddle M AR
+SYNC Hold|0386 Cuddle Fireside M A
+SYNC Gaze|[RNP] Couple #120 - Floor_Bed - Male - 54 sec - '22 Update
+SYNC On Back|[RNP] Couple #123 - Floor_Bed - Male - 40 sec - '22 Update
+SYNC Sit Back|[RNP] Couple #124 - Floor_Bed - Male - 35 sec - '22 Update
+SYNC Lap Lay|[RNP] Couple #134 - Floor_Bed - Male - 44 sec - '22 Update
+SYNC Sleepy|[RNP] Sleep Together #1 - Male - 60 seconds
+SYNC Lay Chest|[RNP] Sleep Together #6 - Male - 60 seconds
+SYNC Kiss|[RNP] Couple #127 - Floor_Bed - Kiss - Male - 30 sec - '22 Upda
+
+MENU Sex|V
+SYNC Mutual Rub|sex-rub-m
+SYNC Handjob|sex-handjob-m
+SYNC Blowjob|sex-blowjob-m
+SYNC 69|sex-69-M
+SYNC Fingering|sex-fingering-M
+SYNC Lift & Lick|sex-liftlick-M
+SYNC Ride|sex-ride-m
+SYNC Bounce|sex-reverse-m
+SYNC Reverse Ride|sex-reverseride-m
+SYNC Pound Down|sex-pound-m
+SYNC Laying Doggy|sex-layingdoggy-m
+SYNC Missionary|sex-missionary-M
+SYNC Leg Up|sex-legup-M
+SYNC Doggy|sex-doggy-M
+SYNC Facesit|sex-facesit-M
+{Missionary}<0.329,-0.537,0.852><0,0,157>
+{Leg Up}<0.267,-0.397,0.734><0,0,116>
+{Doggy}<0.41,0.184,0.888><0,0,-156.5>
+{Facesit}<-0.027, -0.236, 0.367><0,0,-91.5>
+{Lay Side}<-0.566,-0.559,0.314><0,0,45>
+{Dangle}<-0.603,-1.145,0.265><0,0,-96.9>
+{Feet Up}<-0.447,-0.152,0.33><5.4,0,92.2>
+{Chill}<-0.258,-0.152,0.319><6.7,1.6,-78.5>
+{Relax}<-0.36,-0.319,0.211><6.7,1.6,-78.5>
+{Ponder}<-0.464,-0.383,0.175><-0.3,1.6,-69.5>
+{Daydream}<-0.4,-0.145,0.168><0,1.6,-78.5>
+{Kickback}<-0.389,0.093,0.26><4.6,2.4,-95.9>
+{Mellow}<-0.438,0.093,0.633><0,0,-71.7>
+{Crossed}<-0.442,0.093,0.742><0,0,-65.7>
+{Sleep Side}<-0.092,-0.223,0.677><0,0,-157.6>
+{Sleep Back}<-0.296,-0.087,0.709><4.8,1.4,16>
+{Casual}<-0.369,0.003,0.195><0,0,-64.9>
+{Cuddle}<-0.006,-0.254,0.442><0,0,-64.9>
+{Hold}<0.263,0.16,0.321><0,0,-64.9>
+{Gaze}<0.079,-0.158,0.771><0,0,-135.5>
+{On Back}<0.036,-0.67,0.771><0,0,-62.5>
+{Sit Back}<-0.14,0.029,0.771><0,0,0>
+{Lap Lay}<-0.14,-0.157,0.734><0,0,0>
+{Sleepy}<-0.09,-0.195,0.721><0,0,0>
+{Lay Chest}<0.044,-0.156,0.796><0,0,-1>
+{Kiss}<-0.006,-0.254,0.747><0,0,4.1>
+{Mutual Rub}<-0.641,-0.089,0.414><0,0,-109.5>
+{Handjob}<-0.395,-0.114,0.436><0,0,-73.5>
+{Blowjob}<-0.418,-0.182,0.436><0,0,-91.5>
+{69}<-0.307,-0.091,0.407><0,0,-86.5>
+{Fingering}<-0.666,0.328,0.427><0,0,-86.5>
+{Lift & Lick}<-0.666,0.211,0.427><0,0,-86.5>
+{Ride}<-0.418,-0.182,0.436><0,0,-91.5>
+{Bounce}<-0.418,-0.182,0.436><0,0,-91.5>
+{Reverse Ride}<-0.4,-0.126,0.436><0,0,-75.5>
+{Pound Down}<0.41,0.261,0.478><0,0,-156.5>
+{Laying Doggy}<0.41,0.261,0.478><0,0,-156.5>
+ANIM Lift & Lick|express_open_mouth|6|express_cry_emote|4
