@@ -192,6 +192,14 @@ The following custom sequenced animations are available on the Second Life Marke
 - [Debauchery Round Swingers Bar Stool](https://github.com/missyrestless/AVsequences/tree/main/Bar_Stool)
 - [Debauchery Swingers Hot Tub](https://github.com/missyrestless/AVsequences/tree/main/Swingers_Hot_Tub)
 
+### Customized autoplay scripts for Ever Green furniture
+
+- [Ever Green Fields of Lavender Hanging Chair](https://github.com/missyrestless/AVsequences/tree/main/Ever_Green_Hanging_Chair)
+
+### Customized autoplay scripts for Everfaery furniture
+
+- [Everfaery Glimmerveil Dreambed](https://github.com/missyrestless/AVsequences/tree/main/Everfaery_Glimmer_Bed)
+
 ### Customized notecards providing sequenced animations for Good Moaning furniture
 
 - [Good Moaning Hurricane Chair](https://github.com/missyrestless/AVsequences/tree/main/Hurricane_Chair)

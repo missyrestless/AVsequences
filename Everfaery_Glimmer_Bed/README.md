@@ -1,18 +1,19 @@
-# AVsitter Sequence for Revival Xeno Hammock
+# AVsitter Sequence for Everfaery Glimmerveil Dreambed
 
 This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
 with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
-the Revival Xeno Hammock dialog menus.
+the Everfaery Glimmerveil Dreambed dialog menus.
 
 This `AVsitter` customization allows greater freedom of personal interaction on the
-hammock, eliminating the need to navigate dialog menus during moments of intimacy.
+bed, eliminating the need to navigate dialog menus during moments of intimacy.
 
 ## Menus
 
 Sequences are configured for the following menus:
 
 - Male and Female Solo Menus
-- Male and Female Couples Menus
+- Male/Female Couples Menus
+- Male/Female Sex Menus
 
 ## Download the script and customized notecards
 
@@ -25,33 +26,33 @@ wget -q -O '[AV]sequence' https://raw.githubusercontent.com/AVsitter/AVsitter/re
 Download the customized `[AV]sequence_settings` notecard:
 
 ```bash
-wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Xeno_Hammock/AVsequence_settings
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Everfaery_Glimmer_Bed/AVsequence_settings
 ```
 
 Download the customized `AVpos` notecard:
 
 ```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Xeno_Hammock/AVpos
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Everfaery_Glimmer_Bed/AVpos
 ```
 
 ## Setup
 
-To configure a Xeno Hammock with AVsitter sequences:
+To configure a Everfaery Glimmerveil Dreambed with AVsitter sequences:
 
-- Right click the hammock and select `Edit`
+- Right click the bed and select `Edit`
 - Select the Contents tab in the Edit window
 - Click the `Edit linked` checkbox
-- Using `Ctrl .` (press both the Ctrl key and the Period key) locate the notecards (Link number 3)
+- Using `Ctrl .` (press both the Ctrl key and the Period key) locate the notecards (Link number 2)
 - Copy the `[AV]sequence_settings` notecard into the Contents tab
 - Copy the `[AV]sequence` plugin script into the Contents tab
 - Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
 - Close the `Edit` window
-- Right click the hammock and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
+- Right click the bed and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
 - Wait for the scripts to reset (this takes a few minutes)
 
-Sit on the hammock and click one of the sequence buttons, for example: `SEQ-Male` or `SEQ-Female`.
+Sit on the bed and click one of the sequence buttons, for example: `►SOLO SEQ` or `►COUPLES SEQ`.
 
-Sequence menu buttons are of the form `SEQ-...`. Click this menu entry and your
+Sequence menu buttons are of the form `►... SEQ`. Click this menu entry and your
 avatar will cycle through all the animations in that submenu.
 
 Cycle times are currently set to 90 seconds with menu arrows to step to the next
@@ -59,11 +60,11 @@ animation, previous animation, or pause animation sequencing.
 
 ### Auto Play Sequence
 
-If you wish to automatically play a sequence when an avatar sits on the hammock
+If you wish to automatically play a sequence when an avatar sits on the bed
 then download the `autoplay.lsl` script and copy it into the Contents of the object.
 
 ```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Xeno_Hammock/autoplay.lsl
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Everfaery_Glimmer_Bed/autoplay.lsl
 ```
 
 The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
@@ -150,6 +151,14 @@ The following custom sequenced animations are available on the Second Life Marke
 - [Debauchery Adult Poolside Towel](https://github.com/missyrestless/AVsequences/tree/main/Poolside_Towel)
 - [Debauchery Round Swingers Bar Stool](https://github.com/missyrestless/AVsequences/tree/main/Bar_Stool)
 - [Debauchery Swingers Hot Tub](https://github.com/missyrestless/AVsequences/tree/main/Swingers_Hot_Tub)
+
+### Customized autoplay scripts for Ever Green furniture
+
+- [Ever Green Fields of Lavender Hanging Chair](https://github.com/missyrestless/AVsequences/tree/main/Ever_Green_Hanging_Chair)
+
+### Customized autoplay scripts for Everfaery furniture
+
+- [Everfaery Glimmerveil Dreambed](https://github.com/missyrestless/AVsequences/tree/main/Everfaery_Glimmer_Bed)
 
 ### Customized notecards providing sequenced animations for Good Moaning furniture
 
