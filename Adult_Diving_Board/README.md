@@ -1,29 +1,29 @@
-# AVsitter Sequence for BackBone Inflatable Movie Lounge - Poly
+# AVsitter Sequence for Debauchery Couples Adult Diving Board
 
 This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
 with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
-the BackBone Inflatable Movie Lounge - Poly dialog menus.
+the Debauchery Couples Adult Diving Board dialog menus.
 
-This `AVsitter` customization allows greater freedom of personal interaction in the
-lounge, eliminating the need to navigate dialog menus during moments of intimacy.
+This `AVsitter` customization allows greater freedom of personal interaction on the
+diving board, eliminating the need to navigate dialog menus during moments of intimacy.
 
 ## Menus
 
-Sequences are configured for all six sitters, both male and female. Sequenced animations are
-configured for solo, couples, and 3-way, both PG and Adult.
+Sequences are configured for male and female sitters. Sequenced animations are
+configured for Solo, Couples, and Adult.
 
 Currently configured sequenced menus include:
 
-- Solo Menus
-- Male/Female Cuddle Menus
-- Male and Female Foreplay Menus
-- Male/Female Sex Menus
-- Female/Female Cuddle Menus
-- Female/Female Sex Menus
-- Male/Male Cuddle Menus
-- Male/Male Sex Menus
-- FFM and MMF Cuddle Menus
-- FFM and MMF Sex Menus
+- Relax
+- Cuddle
+- Dive
+- Tease
+- Finger
+- Lick
+- Blowjob
+- Front Sex
+- Ride Sex
+- Doggy Sex
 
 ## Download the script and customized notecards
 
@@ -36,20 +36,20 @@ wget -q -O '[AV]sequence' https://raw.githubusercontent.com/AVsitter/AVsitter/re
 Download the customized `[AV]sequence_settings` notecard:
 
 ```bash
-wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Movie_Lounge/AVsequence_settings
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Adult_Diving_Board/AVsequence_settings
 ```
 
 Download the customized `AVpos` notecard:
 
 ```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Movie_Lounge/AVpos
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Adult_Diving_Board/AVpos
 ```
 
 ## Setup
 
-To configure a BackBone Inflatable Movie Lounge (Poly) with AVsitter sequences:
+To configure a Debauchery Couples Adult Diving Board with AVsitter sequences:
 
-- Right click the lounge and select `Edit`
+- Right click the diving board and select `Edit`
 - Drag and Drop the `[AV]sequence_settings` notecard into the Contents tab
 - Drag and Drop the `[AV]sequence` plugin script into the Contents tab
 - Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
@@ -57,33 +57,28 @@ To configure a BackBone Inflatable Movie Lounge (Poly) with AVsitter sequences:
   - Delete the `AVpos` notecard from the Contents tab (you can ignore and close the Warning window)
   - Drag and Drop the new `AVpos` notecard with sequences into the Contents tab
 - Close the `Edit` window
-- Right click the lounge and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
+- Right click the diving board and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
 - Wait for the scripts to reset (this takes a few minutes)
 
-Sit on the lounge, select one of the first two sitters (Male or Female), and click
-one of the three configured main menu entries, `SINGLE/TALK`, `CUDDLE`, or `SEX`.
+Sit on the diving board and click one of the configured sequence menu entries, e.g.  `►RELAX` or `►DIVE`.
 
-You should see a menu entry of the form `SEQ-...`. Click this menu entry and your
+You should see a menu entries of the form `►...`. Click this menu entry and your
 avatar will cycle through all the animations in that submenu. Cycle times are currently
-set to 60 seconds with menu arrows to step to the next animation, previous animation,
+set to 90 seconds with menu arrows to step to the next animation, previous animation,
 or pause animation sequencing.
 
 ### Auto Play Sequence
 
-If you wish to automatically play a sequence when an avatar sits on the lounge
+If you wish to automatically play a sequence when an avatar sits on the diving board
 then download the `autoplay.lsl` script and copy it into the Contents of the object.
 
 ```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Movie_Lounge/autoplay.lsl
+wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Adult_Diving_Board/autoplay.lsl
 ```
 
 The `autoplay` script detects the gender of the sitter and plays the appropriate sequence.
 In addition, it detects the number of sitters currently on the object and plays the couples
-animation sequence if there are 2 sitters, and one of the 3-way sequences if 3 are seated.
-
-```bash
-wget -q -O 'autoplay' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Movie_Lounge/autoplay-adult.lsl
-```
+animation sequence if there are 2 sitters.
 
 ## Second Life Marketplace Listings
 
@@ -161,6 +156,7 @@ The following custom sequenced animations are available on the Second Life Marke
 
 ### Customized autoplay scripts for Debauchery furniture
 
+- [Debauchery Adult Diving Board](https://github.com/missyrestless/AVsequences/tree/main/Adult_Diving_Board)
 - [Debauchery Adult Poolside Towel](https://github.com/missyrestless/AVsequences/tree/main/Poolside_Towel)
 - [Debauchery Round Swingers Bar Stool](https://github.com/missyrestless/AVsequences/tree/main/Bar_Stool)
 - [Debauchery Swingers Hot Tub](https://github.com/missyrestless/AVsequences/tree/main/Swingers_Hot_Tub)

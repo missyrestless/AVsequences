@@ -155,6 +155,7 @@ The following custom sequenced animations are available on the Second Life Marke
 
 ### Customized autoplay scripts for Debauchery furniture
 
+- [Debauchery Adult Diving Board](https://github.com/missyrestless/AVsequences/tree/main/Adult_Diving_Board)
 - [Debauchery Adult Poolside Towel](https://github.com/missyrestless/AVsequences/tree/main/Poolside_Towel)
 - [Debauchery Round Swingers Bar Stool](https://github.com/missyrestless/AVsequences/tree/main/Bar_Stool)
 - [Debauchery Swingers Hot Tub](https://github.com/missyrestless/AVsequences/tree/main/Swingers_Hot_Tub)
