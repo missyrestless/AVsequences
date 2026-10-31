@@ -35,7 +35,7 @@ MENU HIDE
 SYNC 1|sS13
 
 MENU SINGLE
-SEQUENCE SEQ-SOLO-F
+SEQUENCE SEQ-SOLO-M
 POSE singleM1|SL19
 POSE singleM2|SL17
 POSE singleM3|SL16
@@ -51,7 +51,7 @@ POSE singleM12|sS14
 POSE singleM13|sS13
 
 MENU TALK
-SEQUENCE SEQ-TALK-F
+SEQUENCE SEQ-TALK-M
 SYNC talk1|SL17
 SYNC talk2|SL16
 SYNC talk3|SL8
@@ -64,7 +64,7 @@ SYNC talk9|sS14
 SYNC talk10|sS13
 
 MENU CUDDLE1
-SEQUENCE SEQ-CUDD-F
+SEQUENCE SEQ-CUDD-M
 SYNC beginnings|L40
 SYNC magic|L39
 SYNC everything|L38
@@ -77,7 +77,7 @@ SYNC you you|L31
 SYNC italo kiss|L25
 
 MENU CUDDLE2
-SEQUENCE SEQ-CUDD-F
+SEQUENCE SEQ-CUDD-M
 SYNC silent kiss|L23
 SYNC up on you|L15
 SYNC sugarpie|L14
@@ -94,7 +94,7 @@ SYNC the way|G4
 SYNC my moon|G3
 
 MENU FOREPLAY
-SEQUENCE SEQ-FORE-F
+SEQUENCE SEQ-MORE-M
 SYNC milky way|H6
 SYNC blow a kiss|B27
 SYNC boobs play|E2
@@ -104,7 +104,7 @@ SYNC oh ronald|F4
 SYNC deal|P1
 
 MENU BLOWJOBS
-SEQUENCE SEQ-BLOW-F
+SEQUENCE SEQ-BLOW-M
 SYNC clipped|B22
 SYNC go(o)d girl|B20+
 SYNC shaft lover|B17
@@ -115,7 +115,7 @@ SYNC lipstick|B1
 SYNC 69|O3
 
 MENU TONGUEPLAY
-SEQUENCE SEQ-TONG-F
+SEQUENCE SEQ-TONG-M
 SYNC that's it|N6
 SYNC lick it|N19
 SYNC slot|N17
@@ -134,7 +134,7 @@ TOMENU HARD 2
 TOMENU CUM
 
 MENU SLOW&GENTLE
-SEQUENCE SEQ-SLOW-F
+SEQUENCE SEQ-SLOW-M
 SYNC deep venus|M3-
 SYNC mozart|M8-
 SYNC legs up|M11-
@@ -147,7 +147,7 @@ SYNC heat|V10-
 SYNC different|V5-
 
 MENU ORDINARY 1
-SEQUENCE SEQ-ORDY-F
+SEQUENCE SEQ-ORDY-M
 SYNC staple|M1
 SYNC cock dump|M12
 SYNC vision|M13
@@ -160,7 +160,7 @@ SYNC butt view|R17
 SYNC tempo|R18
 
 MENU ORDINARY 2
-SEQUENCE SEQ-ORDY-F
+SEQUENCE SEQ-ORDY-M
 SYNC throne fuck|R5
 SYNC standing|I2
 SYNC cocklateral|V24
@@ -170,14 +170,14 @@ SYNC eifel|V2
 SYNC poke poke|V3
 
 MENU ANALLY
-SEQUENCE SEQ-ANAL-F
+SEQUENCE SEQ-ANAL-M
 SYNC reverse girl|A8
 SYNC borehole|A5
 SYNC tower|A6
 SYNC take it|xm1
 
 MENU HARD 1
-SEQUENCE SEQ-HARD-F
+SEQUENCE SEQ-HARD-M
 SYNC missione|M6+
 SYNC easy task|M7+
 SYNC chilly dog|D12+
@@ -190,7 +190,7 @@ SYNC bearfuck|R6+
 SYNC frog ride|R4+
 
 MENU HARD 2
-SEQUENCE SEQ-HARD-F
+SEQUENCE SEQ-HARD-M
 SYNC fire|I6+
 SYNC fucktastic|V26+
 SYNC the expat|V10+
@@ -203,7 +203,7 @@ SYNC doggy gag|RO5+
 SYNC kneeling gag|RO6+
 
 MENU CUM
-SEQUENCE SEQ-CUM-F
+SEQUENCE SEQ-CUM-M
 SYNC on knockers|Z15
 SYNC bumbum cum|Z14
 SYNC side treat|Z13
@@ -364,7 +364,7 @@ MENU HIDE
 SYNC 1|ss12
 
 MENU SINGLE
-SEQUENCE SEQ-SOLO-M
+SEQUENCE SEQ-SOLO-F
 POSE singleF1|sl18
 POSE singleF2|sl17
 POSE singleF3|sl15
@@ -377,7 +377,7 @@ POSE singleF9|sl5
 POSE singleF10|sl1
 
 MENU TALK
-SEQUENCE SEQ-TALK-M
+SEQUENCE SEQ-TALK-F
 SYNC talk1|ss13
 SYNC talk2|sl1
 SYNC talk3|sl15
@@ -390,7 +390,7 @@ SYNC talk9|ss7
 SYNC talk10|ss12
 
 MENU CUDDLE1
-SEQUENCE SEQ-CUDD-M
+SEQUENCE SEQ-CUDD-F
 SYNC beginnings|l40
 SYNC magic|l39
 SYNC everything|l38
@@ -403,7 +403,7 @@ SYNC you you|l31
 SYNC italo kiss|l25
 
 MENU CUDDLE2
-SEQUENCE SEQ-CUDD-M
+SEQUENCE SEQ-CUDD-F
 SYNC silent kiss|l23
 SYNC up on you|l15
 SYNC sugarpie|l14
@@ -420,7 +420,7 @@ SYNC the way|g4
 SYNC my moon|g3
 
 MENU FOREPLAY
-SEQUENCE SEQ-FORE-M
+SEQUENCE SEQ-FORE-F
 SYNC milky way|h6
 SYNC blow a kiss|b27
 SYNC boobs play|e2
@@ -430,7 +430,7 @@ SYNC oh ronald|f4
 SYNC deal|p1
 
 MENU BLOWJOBS
-SEQUENCE SEQ-BLOW-M
+SEQUENCE SEQ-BLOW-F
 SYNC clipped|b22
 SYNC go(o)d girl|b20+
 SYNC shaft lover|b17
@@ -441,7 +441,7 @@ SYNC lipstick|b1
 SYNC 69|o3
 
 MENU TONGUEPLAY
-SEQUENCE SEQ-TONG-M
+SEQUENCE SEQ-TONG-F
 SYNC that's it|n6
 SYNC lick it|n19
 SYNC slot|n17
@@ -460,7 +460,7 @@ TOMENU HARD 2
 TOMENU CUM
 
 MENU SLOW&GENTLE
-SEQUENCE SEQ-SLOW-M
+SEQUENCE SEQ-SLOW-F
 SYNC deep venus|m3-
 SYNC mozart|m8-
 SYNC legs up|m11-
@@ -473,7 +473,7 @@ SYNC heat|v10-
 SYNC different|v5-
 
 MENU ORDINARY 1
-SEQUENCE SEQ-ORDY-M
+SEQUENCE SEQ-ORDY-F
 SYNC staple|m1
 SYNC cock dump|m12
 SYNC vision|m13
@@ -486,7 +486,7 @@ SYNC butt view|r17
 SYNC tempo|r18
 
 MENU ORDINARY 2
-SEQUENCE SEQ-ORDY-M
+SEQUENCE SEQ-ORDY-F
 SYNC throne fuck|r5
 SYNC standing|i2
 SYNC cocklateral|v24
@@ -496,14 +496,14 @@ SYNC eifel|v2
 SYNC poke poke|v3
 
 MENU ANALLY
-SEQUENCE SEQ-ANAL-M
+SEQUENCE SEQ-ANAL-F
 SYNC reverse girl|a8
 SYNC borehole|a5
 SYNC tower|a6
 SYNC take it|xf1
 
 MENU HARD 1
-SEQUENCE SEQ-HARD-M
+SEQUENCE SEQ-HARD-F
 SYNC missione|m6+
 SYNC easy task|m7+
 SYNC chilly dog|d12+
@@ -516,7 +516,7 @@ SYNC bearfuck|r6+
 SYNC frog ride|r4+
 
 MENU HARD 2
-SEQUENCE SEQ-HARD-M
+SEQUENCE SEQ-HARD-F
 SYNC fire|i6+
 SYNC fucktastic|v26+
 SYNC the expat|v10+
@@ -529,7 +529,7 @@ SYNC doggy gag|ro5+
 SYNC kneeling gag|ro6+
 
 MENU CUM
-SEQUENCE SEQ-CUM-M
+SEQUENCE SEQ-CUM-F
 SYNC on knockers|z15
 SYNC bumbum cum|z14
 SYNC side treat|z13
