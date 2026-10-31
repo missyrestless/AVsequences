@@ -76,14 +76,14 @@ The following custom sequenced animations are available on the Second Life Marke
 
 `AVsitter` customized animation sequences are available for the following products:
 
-### Customized notecards providing sequenced animations for Cuming Soon furniture
+### Customized autoplay script and notecards providing sequenced animations for Cuming Soon furniture
 
 - [Cuming Soon Armchair](https://github.com/missyrestless/AVsequences/tree/main/Cuming_Soon/Armchair)
 - [Cuming Soon BabyDoll Bed](https://github.com/missyrestless/AVsequences/tree/main/Cuming_Soon/BabyDoll)
 - [Cuming Soon Quickie Couch](https://github.com/missyrestless/AVsequences/tree/main/Cuming_Soon/Quickie)
 - [Cuming Soon Super Smash Couch](https://github.com/missyrestless/AVsequences/tree/main/Cuming_Soon/Smash)
 
-### Customized notecards providing sequenced animations for Nerenzo furniture
+### Customized autoplay script and notecards providing sequenced animations for Nerenzo furniture
 
 - [Nerenzo Bathtub](https://github.com/missyrestless/AVsequences/tree/main/Nerenzo_Bathtub)
 - Nerenzo Beach Bed California
@@ -100,18 +100,18 @@ The following custom sequenced animations are available on the Second Life Marke
 - [Nerenzo Orgy Towel](https://github.com/missyrestless/AVsequences/tree/main/Towel)
 - [Nerenzo Waterfall Tamdi](https://github.com/missyrestless/AVsequences/tree/main/Waterfall)
 
-### Customized notecards providing sequenced animations for DaD furniture
+### Customized autoplay script and notecards providing sequenced animations for DaD furniture
 
 - [DaD Outdoor Jacuzzi Hot Tub](https://github.com/missyrestless/AVsequences/tree/main/Hot_Tub)
 - [DaD Outdoor Sauna](https://github.com/missyrestless/AVsequences/tree/main/Sauna)
 
-### Customized notecards providing sequenced animations for Lalou furniture
+### Customized autoplay script and notecards providing sequenced animations for Lalou furniture
 
 - [Lalou 3some Outdoor Shower](https://github.com/missyrestless/AVsequences/tree/main/Outdoor_Shower)
 - [Lalou Miami Sun Lounger](https://github.com/missyrestless/AVsequences/tree/main/Miami_Sun_Lounger)
 - [Lalou Pool Float (Adult 3some)](https://github.com/missyrestless/AVsequences/tree/main/Pool_Float)
 
-### Customized notecards providing sequenced animations for Headhunter furniture
+### Customized autoplay script and notecards providing sequenced animations for Headhunter furniture
 
 - [Headhunter Hanging Beach Bed](https://github.com/missyrestless/AVsequences/tree/main/Hanging_Bed)
 - [Headhunter Jungle Bar](https://github.com/missyrestless/AVsequences/tree/main/Jungle_Bar)
@@ -120,72 +120,72 @@ The following custom sequenced animations are available on the Second Life Marke
 - [Headhunter Outdoor Bath](https://github.com/missyrestless/AVsequences/tree/main/Outdoor_Bath)
 - [Headhunter Takamori Massage Hut](https://github.com/missyrestless/AVsequences/tree/main/Massage_Hut)
 
-### Customized notecards providing sequenced animations for BackBone furniture
+### Customized autoplay script and notecards providing sequenced animations for BackBone furniture
 
 - [BackBone Inflatable Movie Lounge - Poly](https://github.com/missyrestless/AVsequences/tree/main/Movie_Lounge)
 - [BackBone Stargazing Nook](https://github.com/missyrestless/AVsequences/tree/main/Stargazing_Nook)
 
-### Customized notecards providing sequenced animations for Black Nest furniture
+### Customized autoplay script and notecards providing sequenced animations for Black Nest furniture
 
 - [Black Nest Dustbloom Hanging Daybed](https://github.com/missyrestless/AVsequences/tree/main/Hanging_Daybed_Dustbloom)
 - [Black Nest Mirage Dune Bathtub](https://github.com/missyrestless/AVsequences/tree/main/Mirage_Dune_Bathtub)
 
-### Customized notecards providing sequenced animations for Chez Moi furniture
+### Customized autoplay script and notecards providing sequenced animations for Chez Moi furniture
 
 - [Chez Moi Oceana Lounger](https://github.com/missyrestless/AVsequences/tree/main/Oceana_Lounger)
 - [Chez Moi Sombrero Tiki Bench](https://github.com/missyrestless/AVsequences/tree/main/Tiki_Bench)
 
-### Customized autoplay scripts for Debauchery furniture
+### Customized autoplay script and notecards providing sequenced animations for Debauchery furniture
 
 - [Debauchery Adult Diving Board](https://github.com/missyrestless/AVsequences/tree/main/Adult_Diving_Board)
 - [Debauchery Adult Poolside Towel](https://github.com/missyrestless/AVsequences/tree/main/Poolside_Towel)
 - [Debauchery Round Swingers Bar Stool](https://github.com/missyrestless/AVsequences/tree/main/Bar_Stool)
 - [Debauchery Swingers Hot Tub](https://github.com/missyrestless/AVsequences/tree/main/Swingers_Hot_Tub)
 
-### Customized autoplay scripts for Ever Green furniture
+### Customized autoplay script and notecards providing sequenced animations for Ever Green furniture
 
 - [Ever Green Fields of Lavender Hanging Chair](https://github.com/missyrestless/AVsequences/tree/main/Ever_Green_Hanging_Chair)
 
-### Customized autoplay scripts for Everfaery furniture
+### Customized autoplay script and notecards providing sequenced animations for Everfaery furniture
 
 - [Everfaery Glimmerveil Dreambed](https://github.com/missyrestless/AVsequences/tree/main/Everfaery_Glimmer_Bed)
 
-### Customized notecards providing sequenced animations for Good Moaning furniture
+### Customized autoplay script and notecards providing sequenced animations for Good Moaning furniture
 
 - [Good Moaning Hurricane Chair](https://github.com/missyrestless/AVsequences/tree/main/Hurricane_Chair)
 
-### Customized notecards providing sequenced animations for Maya's furniture
+### Customized autoplay script and notecards providing sequenced animations for Maya's furniture
 
 - [Maya's Hawaiian Hanging Swing](https://github.com/missyrestless/AVsequences/tree/main/Hanging_Swing)
 
-### Customized notecards providing sequenced animations for The Mesh Shop Boats
+### Customized autoplay script and notecards providing sequenced animations for The Mesh Shop Boats
 
 - [The Mesh Shop Aurora](https://github.com/missyrestless/AVsequences/tree/main/Aurora_Boat)
 
-### Customized notecards providing sequenced animations for Original Furniture
+### Customized autoplay script and notecards providing sequenced animations for Original Furniture
 
 - [Original Furniture Elysia Group Sex Bed](https://github.com/missyrestless/AVsequences/tree/main/Original_Elysia_Set)
 
-### Customized notecards providing sequenced animations for QYN furniture
+### Customized autoplay script and notecards providing sequenced animations for QYN furniture
 
 - [QYN Sex Stool Collection](https://github.com/missyrestless/AVsequences/tree/main/QYN_Metal_Stool)
 
-### Customized notecards providing sequenced animations for Revival products
+### Customized autoplay script and notecards providing sequenced animations for Revival products
 
 - [Revival Xeno Hammock](https://github.com/missyrestless/AVsequences/tree/main/Xeno_Hammock)
 
-### Customized notecards providing sequenced animations for Tia products
+### Customized autoplay script and notecards providing sequenced animations for Tia products
 
 - [Tia Baela Bed](https://github.com/missyrestless/AVsequences/tree/main/Baela_Bed)
 
-### Customized notecards providing sequenced animations for Trompe Loeil products
+### Customized autoplay script and notecards providing sequenced animations for Trompe Loeil products
 
 - [Nerissa Seashell Bed](https://github.com/missyrestless/AVsequences/tree/main/Seashell_Bed)
 
-### Customized notecards providing sequenced animations for Tm Creation products
+### Customized autoplay script and notecards providing sequenced animations for Tm Creation products
 
 - [Adult Sandcastle](https://github.com/missyrestless/AVsequences/tree/main/Sandcastle)
 
-### Customized notecards providing sequenced animations for VRDz products
+### Customized autoplay script and notecards providing sequenced animations for VRDz products
 
 - [VRDz Dream Scape Window](https://github.com/missyrestless/AVsequences/tree/main/Dream_Scape)
