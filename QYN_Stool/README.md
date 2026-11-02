@@ -26,25 +26,25 @@ wget -q -O '[AV]sequence' https://raw.githubusercontent.com/AVsitter/AVsitter/re
 Download the customized `[AV]sequence_settings` notecard for prim one:
 
 ```bash
-wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/QYN_Metal_Stool/One/AVsequence_settings
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/QYN_Stool/One/AVsequence_settings
 ```
 
 Download the customized `AVpos` notecard for prim one:
 
 ```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/QYN_Metal_Stool/One/AVpos
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/QYN_Stool/One/AVpos
 ```
 
 Download the customized `[AV]sequence_settings` notecard for prim two:
 
 ```bash
-wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/QYN_Metal_Stool/Two/AVsequence_settings
+wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/QYN_Stool/Two/AVsequence_settings
 ```
 
 Download the customized `AVpos` notecard for prim two:
 
 ```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/QYN_Metal_Stool/Two/AVpos
+wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/QYN_Stool/Two/AVpos
 ```
 
 ## Setup
@@ -172,7 +172,7 @@ The following custom sequenced animations are available on the Second Life Marke
 
 ### Customized autoplay script and notecards providing sequenced animations for QYN furniture
 
-- [QYN Sex Stool Collection](https://github.com/missyrestless/AVsequences/tree/main/QYN_Metal_Stool)
+- [QYN Sex Stool Collection](https://github.com/missyrestless/AVsequences/tree/main/QYN_Stool)
 
 ### Customized autoplay script and notecards providing sequenced animations for Revival products
 

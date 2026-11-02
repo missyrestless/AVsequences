@@ -168,7 +168,7 @@ The following custom sequenced animations are available on the Second Life Marke
 
 ### Customized autoplay script and notecards providing sequenced animations for QYN furniture
 
-- [QYN Sex Stool Collection](https://github.com/missyrestless/AVsequences/tree/main/QYN_Metal_Stool)
+- [QYN Sex Stool Collection](https://github.com/missyrestless/AVsequences/tree/main/QYN_Stool)
 
 ### Customized autoplay script and notecards providing sequenced animations for Revival products
 
