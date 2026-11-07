@@ -1,0 +1,104 @@
+//////////// TMS Aurora AVsitter Scripts \\\\\\\\\\\
+//                                                //
+//   AVsitter2 and Autoplay scrpts for TMS Aurora //
+////////////////////////////////////////////////////
+//
+////////////////////////////////////////////////////
+// Copyright (c) 2026 Truth & Beauty Lab          //
+// License: MIT                                   //
+// All rights reserved.                           //
+//                                                //
+// Author: Missy Restless missyrestless@gmail.com //
+////////////////////////////////////////////////////
+//
+//nfo_preprocessor_version 0
+//program_version LSL PyOptimizer v0.3.0beta
+//mono
+
+key Library;
+string LslUserScript = "►SOLO";
+string LslLibrary = "►SOLO";
+string g_ = "►CUDDLE";
+string edefaultlink_message = "►SYSTEM";
+
+string _(key llGetNumberOfPrims)
+{
+    list loc_details = llGetObjectDetails(llGetNumberOfPrims, (list)26);
+    if (loc_details == [])
+        return "not found";
+    float loc_gender = llList2Float(loc_details, 0);
+    if (loc_gender < ((float)0))
+        return "undefined (not an avatar)";
+    if (loc_gender == ((float)0))
+        return "female";
+    string loc_rv = " (" + (string)loc_gender + ")";
+    if (loc_gender < 0.5)
+        return "somewhat feminine" + loc_rv;
+    if (loc_gender == 0.5)
+        return "androgynous" + loc_rv;
+    return "male";
+}
+
+default
+{
+    changed(integer llGetNumberOfPrims)
+    {
+        if (llGetNumberOfPrims & 32)
+        {
+            llSleep(1);
+            LslUserScript = "►SOLO";
+            LslLibrary = "►SOLO";
+            g_ = "►CUDDLE";
+            edefaultlink_message = "►SYSTEM";
+            integer loc_avatar_count = llGetNumberOfPrims() + -llGetObjectPrimCount(llGetKey());
+            if (0 < loc_avatar_count)
+            {
+                if (!(Library == "00000000-0000-0000-0000-000000000000"))
+                {
+                    if (_(Library) == "male")
+                    {
+                        LslUserScript = "►SOLO";
+                        LslLibrary = "►SOLO";
+                        g_ = "►CUDDLE";
+                        edefaultlink_message = "►SYSTEM";
+                    }
+                }
+                if (3 < loc_avatar_count)
+                {
+                    llMessageLinked(((integer)-1), 90000, LslUserScript, "");
+                }
+                else if (2 < loc_avatar_count)
+                {
+                    llMessageLinked(((integer)-1), 90000, LslLibrary, "");
+                }
+                else if (1 < loc_avatar_count)
+                {
+                    llMessageLinked(((integer)-1), 90000, g_, "");
+                }
+                else
+                {
+                    llMessageLinked(((integer)-1), 90000, edefaultlink_message, "");
+                }
+            }
+        }
+        if (llGetNumberOfPrims & 129)
+        {
+            llResetScript();
+        }
+    }
+
+    link_message(integer llGetNumberOfPrims, integer llList2Float, string System, key llMessageLinked)
+    {
+        if (llList2Float ^ 90045)
+        {
+            if (llList2Float == 90065)
+            {
+                Library = "00000000-0000-0000-0000-000000000000";
+            }
+        }
+        else
+        {
+            Library = llMessageLinked;
+        }
+    }
+}

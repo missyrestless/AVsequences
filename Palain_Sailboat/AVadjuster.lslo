@@ -1,0 +1,875 @@
+//////////// TMS Aurora AVsitter Scripts \\\\\\\\\\\
+//                                                //
+//   AVsitter2 and Autoplay scrpts for TMS Aurora //
+////////////////////////////////////////////////////
+//
+////////////////////////////////////////////////////
+// Copyright (c) 2026 Truth & Beauty Lab          //
+// License: MIT                                   //
+// All rights reserved.                           //
+//                                                //
+// Author: Missy Restless missyrestless@gmail.com //
+////////////////////////////////////////////////////
+//
+//nfo_preprocessor_version 0
+//program_version LSL PyOptimizer v0.3.0beta
+//mono
+
+integer IsSaveDue;
+list gH;
+list edefaultchanged;
+list gD;
+list Library;
+list gP;
+integer gR;
+integer edefaultlink_message;
+integer g_;
+integer System;
+integer edefaultrez;
+key LslLibrary;
+integer gE;
+string ResumeVoid;
+string gA;
+integer gF;
+list IsRestoring = [gA];
+string gO;
+string LslUserScript;
+integer edefaultchat;
+
+string _(float llGetPos, integer llGetNumberOfPrims)
+{
+    llGetPos = llGetPos + ((0 < llGetPos) + -(llGetPos < 0)) * (((float)-5e-07) + (float)(".5e-" + (string)llGetNumberOfPrims));
+    string loc_ret = llGetSubString((string)llGetPos, 0, ((integer)-7) + (llGetNumberOfPrims + -!llGetNumberOfPrims));
+    if (llGetNumberOfPrims)
+    {
+        llGetNumberOfPrims = ((integer)-1);
+        while (llGetSubString(loc_ret, llGetNumberOfPrims, llGetNumberOfPrims) == "0")
+        {
+            --llGetNumberOfPrims;
+        }
+        if (llGetSubString(loc_ret, llGetNumberOfPrims, llGetNumberOfPrims) == ".")
+        {
+            --llGetNumberOfPrims;
+        }
+        return llGetSubString(loc_ret, 0, llGetNumberOfPrims);
+    }
+    return loc_ret;
+}
+
+A(integer llGetPos)
+{
+    if (1024 < llStringLength(llEscapeURL(gO)) | llGetPos)
+    {
+        if (llGetPos)
+        {
+            gO = gO + "\n\nend";
+        }
+        ++edefaultchat;
+        llHTTPRequest("https://avsitter.com/settings.php", (list)0 + "POST" + 1 + "application/x-www-form-urlencoded" + 3 + 0, "w=" + LslUserScript + "&c=" + (string)edefaultchat + "&t=" + llEscapeURL(gO));
+        gO = "";
+    }
+}
+
+B(string llGetPos)
+{
+    string loc_objectname = llGetObjectName();
+    llSetObjectName("");
+    llRegionSayTo(llGetOwner(), 0, "◆" + llGetPos);
+    llSetObjectName(loc_objectname);
+    gO = gO + (llGetPos + "\n");
+    llGetPos = "";
+    A(0);
+}
+
+C(key llGetPos)
+{
+    list loc_animations = llGetAnimationList(llGetPos);
+    integer loc_i;
+    for (loc_i = 0; loc_i < (loc_animations != []); ++loc_i)
+    {
+        llMessageLinked(((integer)-4), 90002, llList2String(loc_animations, loc_i), llGetPos);
+    }
+}
+
+string D(string llGetPos, string llGetNumberOfPrims, string llRot2Fwd)
+{
+    return llDumpList2String(llParseStringKeepNulls(llGetPos, (list)llGetNumberOfPrims, []), llRot2Fwd);
+}
+
+E(string llGetPos, key llGetNumberOfPrims)
+{
+    if (llGetNumberOfPrims)
+    {
+        C(llGetNumberOfPrims);
+        llMessageLinked(((integer)-4), 90001, llGetPos, llGetNumberOfPrims);
+    }
+}
+
+list F()
+{
+    integer loc_my_number_per_page = 9;
+    if (ResumeVoid == "[SYNC]" & 1 < gR)
+    {
+        --loc_my_number_per_page;
+    }
+    list loc_options;
+    integer loc_i;
+    integer loc_start = loc_my_number_per_page * gE;
+    integer loc_end = loc_start + loc_my_number_per_page;
+    if (ResumeVoid == "[FACE]")
+    {
+        list loc_facial_anim_list = (list)"none" + "express_afraid_emote" + "express_anger_emote" + "express_laugh_emote" + "express_bored_emote" + "express_cry_emote" + "express_embarrassed_emote" + "express_sad_emote" + "express_toothsmile" + "express_smile" + "express_surprise_emote" + "express_worry_emote" + "express_repulsed_emote" + "express_shrug_emote" + "express_wink_emote" + "express_disdain" + "express_frown" + "express_kiss" + "express_open_mouth" + "express_tongue_out";
+        loc_i = loc_facial_anim_list != [];
+        loc_options = llList2List(loc_facial_anim_list, loc_start, ~-loc_end);
+    }
+    else
+    {
+        integer loc_type = 20;
+        if (ResumeVoid == "[PROP]")
+        {
+            loc_type = 6;
+        }
+        loc_i = loc_start;
+        while (loc_i < loc_end & loc_i < llGetInventoryNumber(loc_type))
+        {
+            if (!(llGetInventoryName(loc_type, loc_i) == "[AV]helper"))
+            {
+                loc_options = loc_options + llGetInventoryName(loc_type, loc_i);
+            }
+            ++loc_i;
+        }
+        loc_i = llGetInventoryNumber(loc_type);
+    }
+    gF = llCeil((float)loc_i / loc_my_number_per_page);
+    return loc_options;
+}
+
+G()
+{
+    H(F(), "Choose anim" + N(gR) + ":");
+}
+
+H(list llGetPos, string llGetNumberOfPrims)
+{
+    gA = llGetNumberOfPrims;
+    llGetNumberOfPrims = "\n(Page " + (string)(-~gE) + "/" + (string)gF + ")\n" + llGetNumberOfPrims + "\n\n";
+    list loc_menu_items;
+    integer loc_i;
+    if (llGetPos == [])
+    {
+        llGetNumberOfPrims = "\nNo items of required type in prim inventory.";
+        loc_menu_items = (list)"[BACK]";
+    }
+    else
+    {
+        integer loc_cutoff = 65;
+        integer loc_all_options_length = llStringLength((string)llGetPos);
+        integer loc_total_need_to_cut = 412 + -loc_all_options_length;
+        if (loc_total_need_to_cut < 0)
+        {
+            loc_cutoff = 43;
+        }
+        for (loc_i = 0; loc_i < (llGetPos != []); ++loc_i)
+        {
+            loc_menu_items = loc_menu_items + (string)(-~loc_i);
+            string loc_item = llList2String(llGetPos, loc_i);
+            if (loc_cutoff < llStringLength(loc_item))
+            {
+                loc_item = llGetSubString(loc_item, 0, loc_cutoff) + "..";
+            }
+            llGetNumberOfPrims = llGetNumberOfPrims + ((string)(-~loc_i) + "." + loc_item + "\n");
+        }
+        if (ResumeVoid == "[SYNC]" & 1 < gR)
+        {
+            loc_menu_items = loc_menu_items + "[DONE]";
+        }
+        loc_menu_items = loc_menu_items + "[BACK]" + "[<<]" + "[>>]";
+    }
+    llDialog(LslLibrary, llGetNumberOfPrims, llList2List(loc_menu_items, ((integer)-3), ((integer)-1)) + llList2List(loc_menu_items, ((integer)-6), ((integer)-4)) + llList2List(loc_menu_items, ((integer)-9), ((integer)-7)) + llList2List(loc_menu_items, ((integer)-12), ((integer)-10)), System);
+}
+
+I()
+{
+    gE = 0;
+    list loc_menu_items = (list)"[BACK]" + "[POSE]" + "[SYNC]" + "[SUBMENU]";
+    if (!(llList2String(Library, edefaultrez) == ""))
+    {
+        loc_menu_items = loc_menu_items + "[PROP]" + "[FACE]";
+    }
+    loc_menu_items = loc_menu_items + "[CAMERA]";
+    llDialog(LslLibrary, "\nWhat would you like to create?\n", llList2List(loc_menu_items, ((integer)-3), ((integer)-1)) + llList2List(loc_menu_items, ((integer)-6), ((integer)-4)) + llList2List(loc_menu_items, ((integer)-9), ((integer)-7)) + llList2List(loc_menu_items, ((integer)-12), ((integer)-10)), System);
+}
+
+J()
+{
+    llRegionSay(System, "DONEA");
+    g_ = 0;
+}
+
+K(string llGetPos)
+{
+    llOwnerSay(llGetScriptName() + "[2.2p04] " + llGetPos);
+}
+
+integer L()
+{
+    integer loc_i;
+    do
+        ;
+    while (llGetInventoryType("[AV]sitA " + (string)(++loc_i)) == 10);
+    return loc_i;
+}
+
+string M(integer llGetPos)
+{
+    rotation loc_target_rot = llEuler2Rot(llList2Vector(edefaultchanged, llGetPos) * 0.017453292) * llGetRot();
+    vector loc_target_pos = llList2Vector(gH, llGetPos) * llGetRot() + llGetPos();
+    return (string)loc_target_pos + "|" + (string)loc_target_rot;
+}
+
+string N(integer llGetPos)
+{
+    return " for SITTER " + (string)llGetPos;
+}
+
+O(string llGetPos)
+{
+    string loc_message = "\n" + llGetScriptName() + " ==Script Removed==\n\n" + llGetPos;
+    llDialog(llGetOwner(), loc_message, [], ((integer)-3675));
+    llInstantMessage(llGetOwner(), loc_message);
+    llRemoveInventory(llGetScriptName());
+}
+
+P()
+{
+    string loc_adding_text = llList2String(llParseString2List(ResumeVoid, (list)"[" + "]", []), 0);
+    ResumeVoid = ResumeVoid + "2";
+    integer loc_i;
+    string loc_text;
+    for (loc_i = 0; loc_i < (IsRestoring != []); ++loc_i)
+    {
+        loc_text = loc_text + ("\nSITTER " + (string)loc_i + ": " + llList2String(IsRestoring, loc_i));
+    }
+    llTextBox(LslLibrary, "\nType a menu name for " + loc_adding_text + loc_text, System);
+}
+
+Q()
+{
+    string loc_text = "\nCamera:\n\n";
+    if (llGetInventoryType("[AV]camera") ^ 10)
+    {
+        loc_text = loc_text + "(prim property)";
+    }
+    else
+    {
+        loc_text = loc_text + "(using [AV]camera scripts)";
+    }
+    llDialog(LslLibrary, loc_text, (list)"[BACK]" + "[SAVE]" + "[CLEAR]", System);
+}
+
+R()
+{
+    integer loc_i = llGetNumberOfPrims();
+    while (!(llGetAgentSize(llGetLinkKey(loc_i)) == <((float)0), ((float)0), ((float)0)>))
+    {
+        C(llGetLinkKey(loc_i));
+        llUnSit(llGetLinkKey(loc_i));
+        --loc_i;
+    }
+}
+
+S()
+{
+    g_ = !g_;
+    if (g_)
+    {
+        if (IsSaveDue)
+        {
+            R();
+        }
+        llListen(System, "", "", "");
+        integer loc_i;
+        for (loc_i = 0; loc_i < (gP != []); ++loc_i)
+        {
+            integer loc_param = System + -loc_i;
+            if (!~-(gP != []))
+            {
+                loc_param = System + -llGetLinkNumber();
+            }
+            vector loc_offset = llList2Vector(gH, loc_i);
+            if (10 < llVecMag(loc_offset))
+            {
+                loc_offset = <((float)0), ((float)0), ((float)0)>;
+            }
+            llRezAtRoot("[AV]helper", llGetPos() + loc_offset * llGetRot(), <((float)0), ((float)0), ((float)0)>, llEuler2Rot(llList2Vector(edefaultchanged, loc_i) * 0.017453292) * llGetRot(), loc_param);
+        }
+    }
+    else
+    {
+        J();
+    }
+}
+
+default
+{
+    state_entry()
+    {
+        if (~llSubStringIndex(llGetScriptName(), " "))
+        {
+            O("Use only one of this script!");
+        }
+        llListen(5, "", llGetOwner(), "");
+        System = ~(integer)llFrand(99999) * 1000;
+        integer loc_i;
+        while (loc_i++ < L())
+        {
+            gP = gP + 0;
+            gH = gH + 0;
+            edefaultchanged = edefaultchanged + 0;
+            gD = gD + 0;
+            Library = Library + "";
+        }
+        if (!~-(gP != []))
+        {
+            System = ((integer)-1000000000) + System;
+        }
+    }
+
+    link_message(integer llGetPos, integer llGetNumberOfPrims, string llRot2Fwd, key llRequestPermissions)
+    {
+        integer loc_one = (integer)llRot2Fwd;
+        integer loc_i;
+        if (llGetPos == llGetLinkNumber())
+        {
+            list loc_data = llParseStringKeepNulls(llRot2Fwd, (list)"|", []);
+            if (llGetNumberOfPrims == 90065)
+            {
+                loc_i = llListFindList(gP, (list)llRequestPermissions);
+                if (~loc_i)
+                {
+                    gP = llListReplaceList(gP, (list)"00000000-0000-0000-0000-000000000000", loc_i, loc_i);
+                }
+                return;
+            }
+            if (llGetNumberOfPrims == 90030)
+            {
+                gP = llListReplaceList(gP, (list)"00000000-0000-0000-0000-000000000000", (integer)llRot2Fwd, (integer)llRot2Fwd);
+                gP = llListReplaceList(gP, (list)"00000000-0000-0000-0000-000000000000", (integer)((string)llRequestPermissions), (integer)((string)llRequestPermissions));
+                if (!(!IsSaveDue | !g_))
+                {
+                    loc_i = llList2Integer(gD, (integer)llRot2Fwd);
+                    gD = llListReplaceList(gD, (list)llList2Integer(gD, (integer)((string)llRequestPermissions)), (integer)llRot2Fwd, (integer)llRot2Fwd);
+                    gD = llListReplaceList(gD, (list)loc_i, (integer)((string)llRequestPermissions), (integer)((string)llRequestPermissions));
+                    llRegionSay(System, "SWAP|" + llRot2Fwd + "|" + (string)llRequestPermissions);
+                }
+                return;
+            }
+            if (llGetNumberOfPrims == 90070)
+            {
+                gP = llListReplaceList(gP, (list)llRequestPermissions, (integer)llRot2Fwd, (integer)llRot2Fwd);
+                return;
+            }
+            if (llGetNumberOfPrims == 90021)
+            {
+                integer loc_script_channel = (integer)llRot2Fwd;
+                list loc_scripts = (list)"[AV]prop" + "[AV]faces" + "[AV]camera";
+                loc_i = llListFindList(loc_scripts, (list)((string)llRequestPermissions));
+                while (loc_i < (loc_scripts != []))
+                {
+                    ++loc_i;
+                    string loc_lookfor = llList2String(loc_scripts, loc_i);
+                    if (loc_lookfor == "[AV]camera" & 0 < loc_script_channel)
+                    {
+                        loc_lookfor = loc_lookfor + " " + (string)loc_script_channel;
+                    }
+                    if (llGetInventoryType(loc_lookfor) == 10)
+                    {
+                        llMessageLinked(((integer)-4), 90020, (string)loc_script_channel, llList2String(loc_scripts, loc_i));
+                        return;
+                    }
+                }
+                if (llGetInventoryType("[AV]sitA " + (string)(-~loc_script_channel)) ^ 10)
+                {
+                    B("");
+                    B("--✄--COPY ABOVE INTO \"AVpos\" NOTECARD--✄--");
+                    B("");
+                    A(1);
+                    llRegionSayTo(llGetOwner(), 0, "Settings copy: https://avsitter.com/settings.php?q=" + LslUserScript);
+                }
+                else
+                {
+                    llMessageLinked(((integer)-4), 90020, (string)(-~loc_script_channel), "");
+                }
+                return;
+            }
+            if (llGetNumberOfPrims == 90022)
+            {
+                if (llGetSubString(llRot2Fwd, 0, 3) == "S:M:" | llGetSubString(llRot2Fwd, 0, 3) == "S:T:")
+                {
+                    llRot2Fwd = D(llRot2Fwd, "*|", "|");
+                }
+                if (llGetSubString(llRot2Fwd, 0, 1) == "V:")
+                {
+                    if (!(integer)((string)llRequestPermissions))
+                    {
+                        LslUserScript = (string)llGenerateKey();
+                        edefaultchat = 0;
+                        B("");
+                        B("--✄--COPY BELOW INTO \"AVpos\" NOTECARD--✄--");
+                        B("");
+                        B("\"" + llToUpper(llGetObjectName()) + "\" " + D(llList2String(loc_data, 0), "V:", "AVsitter "));
+                        if (llList2Integer(loc_data, 1))
+                        {
+                            B("MTYPE " + llList2String(loc_data, 1));
+                        }
+                        if (~-llList2Integer(loc_data, 2))
+                        {
+                            B("ETYPE " + llList2String(loc_data, 2));
+                        }
+                        if (((integer)-1) < llList2Integer(loc_data, 3))
+                        {
+                            B("SET " + llList2String(loc_data, 3));
+                        }
+                        if (llList2Integer(loc_data, 4) ^ 2)
+                        {
+                            B("SWAP " + llList2String(loc_data, 4));
+                        }
+                        if (!(llList2String(loc_data, 6) == ""))
+                        {
+                            B("TEXT " + D(llList2String(loc_data, 6), "\n", "\\n"));
+                        }
+                        if (!(llList2String(loc_data, 7) == ""))
+                        {
+                            B("ADJUST " + D(llList2String(loc_data, 7), "�", "|"));
+                        }
+                        if (llList2Integer(loc_data, 8))
+                        {
+                            B("SELECT " + llList2String(loc_data, 8));
+                        }
+                        if (llList2Integer(loc_data, 9) ^ 2)
+                        {
+                            B("AMENU " + llList2String(loc_data, 9));
+                        }
+                        if (llList2Integer(loc_data, 10))
+                        {
+                            B("HELPER " + llList2String(loc_data, 10));
+                        }
+                    }
+                    B("");
+                    if (!((gP != []) < 2 & llList2String(loc_data, 5) == ""))
+                    {
+                        string loc_SITTER_TEXT;
+                        if (!(llList2String(loc_data, 5) == ""))
+                        {
+                            loc_SITTER_TEXT = "|" + D(llList2String(loc_data, 5), "�", "|");
+                        }
+                        B("SITTER " + (string)llRequestPermissions + loc_SITTER_TEXT);
+                        B("");
+                    }
+                    return;
+                }
+                else if (llGetSubString(llRot2Fwd, 0, 0) == "{")
+                {
+                    llRot2Fwd = D(llRot2Fwd, "{P:", "{");
+                    list loc_parts = llParseStringKeepNulls((string)llParseString2List(llGetSubString(llRot2Fwd, -~llSubStringIndex(llRot2Fwd, "}"), 99999), (list)" ", (list)""), (list)"<", []);
+                    vector loc_pos2 = (vector)("<" + llList2String(loc_parts, 1));
+                    vector loc_rot2 = (vector)("<" + llList2String(loc_parts, 2));
+                    string loc_result = "<" + _(loc_pos2.x, 3) + "," + _(loc_pos2.y, 3) + "," + _(loc_pos2.z, 3) + ">";
+                    loc_result = loc_result + ("<" + _(loc_rot2.x, 1) + "," + _(loc_rot2.y, 1) + "," + _(loc_rot2.z, 1) + ">");
+                    llRot2Fwd = llGetSubString(llRot2Fwd, 0, llSubStringIndex(llRot2Fwd, "}")) + loc_result;
+                }
+                else if (llGetSubString(llRot2Fwd, 1, 1) == ":")
+                {
+                    llRot2Fwd = D(llRot2Fwd, "S:P:", "POSE ");
+                    llRot2Fwd = D(llRot2Fwd, "S:M:", "MENU ");
+                    llRot2Fwd = D(llRot2Fwd, "S:T:", "TOMENU ");
+                    if (llGetSubString(llRot2Fwd, ((integer)-6), ((integer)-1)) == "|90210")
+                    {
+                        llRot2Fwd = D(llRot2Fwd, "S:B:", "SEQUENCE ");
+                        llRot2Fwd = D(llRot2Fwd, "|90210", "");
+                    }
+                    else
+                    {
+                        llRot2Fwd = D(llRot2Fwd, "S:B:", "BUTTON ");
+                        if (!~llSubStringIndex(llRot2Fwd, "�"))
+                        {
+                            llRot2Fwd = D(llRot2Fwd, "|90200", "");
+                        }
+                    }
+                    llRot2Fwd = D(llRot2Fwd, "S:", "SYNC ");
+                    llRot2Fwd = D(llRot2Fwd, "�", "|");
+                }
+                if (llGetSubString(llRot2Fwd, ((integer)-1), ((integer)-1)) == "*")
+                {
+                    llRot2Fwd = llGetSubString(llRot2Fwd, 0, ((integer)-2));
+                }
+                if (llGetSubString(llRot2Fwd, ((integer)-1), ((integer)-1)) == "|")
+                {
+                    llRot2Fwd = llGetSubString(llRot2Fwd, 0, ((integer)-2));
+                }
+                if (llGetSubString(llRot2Fwd, 0, 3) == "MENU")
+                {
+                    B("");
+                }
+                B(llRot2Fwd);
+            }
+            if (llGetNumberOfPrims == 90100 | llGetNumberOfPrims == 90101)
+            {
+                if ((llRot2Fwd = llList2String(loc_data, 1)) == "[DUMP]")
+                {
+                    if (!(llRequestPermissions == llGetOwner()))
+                    {
+                        llRegionSayTo(llRequestPermissions, 0, "Dumping settings to Owner");
+                    }
+                    llMessageLinked(((integer)-4), 90020, "0", "");
+                }
+                if (llRot2Fwd == "[NEW]")
+                {
+                    LslLibrary = llList2Key(loc_data, 2);
+                    edefaultrez = llList2Integer(loc_data, 0);
+                    ResumeVoid = "";
+                    I();
+                }
+                if (llRot2Fwd == "[SAVE]")
+                {
+                    for (loc_i = 0; loc_i < (gP != []); ++loc_i)
+                    {
+                        if (!(llList2String(Library, loc_i) == ""))
+                        {
+                            string loc_type = "SYNC";
+                            string loc_temp_pose_name = llList2String(Library, loc_i);
+                            if (!llSubStringIndex(llList2String(Library, loc_i), "P:"))
+                            {
+                                loc_type = "POSE";
+                                loc_temp_pose_name = llGetSubString(loc_temp_pose_name, 2, 99999);
+                            }
+                            llMessageLinked(((integer)-4), 90301, (string)loc_i, llList2String(Library, loc_i) + "|" + llList2String(gH, loc_i) + "|" + llList2String(edefaultchanged, loc_i) + "|");
+                            llSay(0, loc_type + " Saved to memory " + N(loc_i) + ": {" + loc_temp_pose_name + "}" + llList2String(gH, loc_i) + llList2String(edefaultchanged, loc_i));
+                        }
+                    }
+                    llMessageLinked(((integer)-4), 90005, "", llList2String(loc_data, 2) + ("|" + (string)llRequestPermissions));
+                }
+                if (llRot2Fwd == "[HELPER]")
+                {
+                    LslLibrary = llRequestPermissions;
+                    IsSaveDue = (integer)llList2String(loc_data, 3);
+                    S();
+                }
+                if (llRot2Fwd == "[ADJUST]")
+                {
+                    J();
+                }
+                return;
+            }
+            if (llGetNumberOfPrims == 90055 | llGetNumberOfPrims == 90056)
+            {
+                loc_data = llParseStringKeepNulls(llRequestPermissions, (list)"|", []);
+                Library = llListReplaceList(Library, (list)llList2String(loc_data, 0), loc_one, loc_one);
+                gH = llListReplaceList(gH, (list)((vector)llList2String(loc_data, 2)), loc_one, loc_one);
+                edefaultchanged = llListReplaceList(edefaultchanged, (list)((vector)llList2String(loc_data, 3)), loc_one, loc_one);
+                if (g_)
+                {
+                    llRegionSay(System, "POS|" + (string)loc_one + "|" + M(loc_one) + "|" + (string)IsSaveDue + "|" + llList2String(gP, loc_one));
+                }
+            }
+        }
+    }
+
+    changed(integer llGetPos)
+    {
+        if (llGetPos & 32)
+        {
+            if (IsSaveDue)
+            {
+                if (!(llGetAgentSize(llGetLinkKey(llGetNumberOfPrims())) == <((float)0), ((float)0), ((float)0)>))
+                {
+                    J();
+                }
+            }
+            else if (!~-(gP != []) & llAvatarOnSitTarget() == "00000000-0000-0000-0000-000000000000" | llGetAgentSize(llGetLinkKey(llGetNumberOfPrims())) == <((float)0), ((float)0), ((float)0)>)
+            {
+                J();
+            }
+        }
+        if (llGetPos & 1)
+        {
+            R();
+            J();
+            llResetScript();
+        }
+    }
+
+    run_time_permissions(integer llGetPos)
+    {
+        if (llGetPermissions() & 1024)
+        {
+            llPlaySound("3d09f582-3851-c0e0-f5ba-277ac5c73fb4", ((float)1));
+            vector loc_eye = (llGetCameraPos() - llGetPos()) / llGetRot();
+            vector loc_at = loc_eye + llRot2Fwd(llGetCameraRot() / llGetRot());
+            if (llGetInventoryType("[AV]camera") ^ 10)
+            {
+                llMessageLinked(((integer)-4), 90011, (string)loc_eye, (string)loc_at);
+                llSay(0, "Camera property saved for all sitters in prim (takes effect next sit).");
+            }
+            else
+            {
+                llMessageLinked(((integer)-4), 90174, (string)edefaultrez, (string)loc_eye + "|" + (string)loc_at);
+            }
+            Q();
+        }
+    }
+
+    listen(integer llGetPos, string llGetNumberOfPrims, key llRot2Fwd, string llRequestPermissions)
+    {
+        if (llGetPos ^ 5)
+        {
+            if (llRot2Fwd == LslLibrary)
+            {
+                if (llRequestPermissions == "[>>]")
+                {
+                    ++gE;
+                    if (!(gE < gF))
+                    {
+                        gE = 0;
+                    }
+                    H(F(), gA);
+                }
+                else if (llRequestPermissions == "[<<]")
+                {
+                    --gE;
+                    if (gE < 0)
+                    {
+                        gE = ~-gF;
+                    }
+                    H(F(), gA);
+                }
+                else if (llRequestPermissions == "[BACK]")
+                {
+                    llMessageLinked(((integer)-4), 90005, "", (string)LslLibrary + ("|" + llList2String(gP, edefaultrez)));
+                }
+                else if (llRequestPermissions == "[POSE]" | llRequestPermissions == "[SYNC]")
+                {
+                    ResumeVoid = llRequestPermissions;
+                    IsRestoring = [];
+                    gR = edefaultrez;
+                    edefaultlink_message = gR;
+                    if (llRequestPermissions == "[SYNC]")
+                    {
+                        gR = 0;
+                        edefaultlink_message = ~-(gP != []);
+                    }
+                    G();
+                }
+                else if (llRequestPermissions == "[SUBMENU]")
+                {
+                    ResumeVoid = llRequestPermissions;
+                    llTextBox(LslLibrary, "\n\nName your submenu:", System);
+                }
+                else if (llRequestPermissions == "[PROP]")
+                {
+                    if (llGetInventoryType("[AV]prop") ^ 10)
+                    {
+                        llSay(0, "For this you need the [AV]prop plugin script.");
+                        llMessageLinked(((integer)-4), 90005, "", (string)LslLibrary + ("|" + llList2String(gP, edefaultrez)));
+                    }
+                    else
+                    {
+                        ResumeVoid = llRequestPermissions;
+                        H(F(), "Choose your prop:");
+                    }
+                }
+                else if (llRequestPermissions == "[FACE]")
+                {
+                    if (llGetInventoryType("[AV]faces") ^ 10)
+                    {
+                        llSay(0, "For this you need the [AV]faces plugin script.");
+                        llMessageLinked(((integer)-4), 90005, "", (string)LslLibrary + ("|" + llList2String(gP, edefaultrez)));
+                    }
+                    else
+                    {
+                        ResumeVoid = llRequestPermissions;
+                        H(F(), "Choose your facial anim:");
+                    }
+                }
+                else if (llRequestPermissions == "[CAMERA]")
+                {
+                    Q();
+                }
+                else if (llRequestPermissions == "[CLEAR]")
+                {
+                    integer loc_i;
+                    for (loc_i = 0; loc_i < llGetNumberOfPrims(); ++loc_i)
+                    {
+                        llSetLinkCamera(loc_i, <((float)0), ((float)0), ((float)0)>, <((float)0), ((float)0), ((float)0)>);
+                    }
+                    if (llGetInventoryType("[AV]camera") ^ 10)
+                    {
+                        llSay(0, "Camera property cleared from all prims (takes effect next sit).");
+                    }
+                    else
+                    {
+                        llMessageLinked(((integer)-4), 90174, (string)edefaultrez, "none");
+                    }
+                    Q();
+                }
+                else if (llRequestPermissions == "[SAVE]")
+                {
+                    llRequestPermissions(llRot2Fwd, 1024);
+                }
+                else if (!~llListFindList((list)"[DONE]" + "1" + "2" + "3" + "4" + "5" + "6" + "7" + "8" + "9", (list)llRequestPermissions) | !~llListFindList((list)"[POSE]" + "[SYNC]" + "[SYNC]2" + "[PROP]" + "[FACE]", (list)ResumeVoid))
+                {
+                    llRequestPermissions = D(llRequestPermissions, "\n", "");
+                    llRequestPermissions = D(llRequestPermissions, "|", "");
+                    llRequestPermissions = llGetSubString(llRequestPermissions, 0, 22);
+                    if (llRequestPermissions == "")
+                    {
+                        llMessageLinked(((integer)-4), 90005, "", (string)LslLibrary + ("|" + llList2String(gP, edefaultrez)));
+                    }
+                    else if (ResumeVoid == "[SUBMENU]")
+                    {
+                        llMessageLinked(((integer)-4), 90300, (string)edefaultrez, "T:" + llRequestPermissions + "*||");
+                        llMessageLinked(((integer)-4), 90300, (string)edefaultrez, "M:" + llRequestPermissions + "*||");
+                        llSay(0, "MENU Added: '" + llRequestPermissions + "'" + N(edefaultrez));
+                        llMessageLinked(((integer)-4), 90005, "", (string)LslLibrary + ("|" + llList2String(gP, edefaultrez)));
+                    }
+                    else if (ResumeVoid == "[POSE]2" | ResumeVoid == "[SYNC]2")
+                    {
+                        integer loc_start;
+                        integer loc_end = IsRestoring != [];
+                        string loc_type = "SYNC";
+                        string loc_prefix;
+                        if (ResumeVoid == "[POSE]2")
+                        {
+                            loc_prefix = "P:";
+                            loc_type = "POSE";
+                            loc_start = edefaultrez;
+                            loc_end = -~edefaultrez;
+                        }
+                        integer loc_x;
+                        integer loc_i;
+                        for (loc_i = loc_start; loc_i < loc_end; ++loc_i)
+                        {
+                            llSay(0, loc_type + " Added: '" + llRequestPermissions + "' using anim '" + llList2String(IsRestoring, loc_x) + "' to SITTER " + (string)loc_i);
+                            llMessageLinked(((integer)-4), 90300, (string)loc_i, loc_prefix + llRequestPermissions + "|" + llList2String(IsRestoring, loc_x) + "|" + llList2String(gH, loc_i) + "|" + llList2String(edefaultchanged, loc_i));
+                            ++loc_x;
+                        }
+                    }
+                    if (!(llRequestPermissions == "" | !(ResumeVoid == "[POSE]2" | ResumeVoid == "[SYNC]2")))
+                    {
+                        llMessageLinked(((integer)-4), 90005, "", (string)LslLibrary + ("|" + llList2String(gP, edefaultrez)));
+                    }
+                }
+                else
+                {
+                    string loc_choice = llList2String(F(), ~-(integer)llRequestPermissions);
+                    if (ResumeVoid == "[PROP]")
+                    {
+                        integer loc_perms = llGetInventoryPermMask(loc_choice, 4);
+                        if (loc_perms & 32768)
+                        {
+                            llMessageLinked(((integer)-4), 90171, (string)edefaultrez, loc_choice);
+                        }
+                        else
+                        {
+                            llSay(0, "Could not add prop '" + loc_choice + "'. Props and their content must be COPY-OK for NEXT owner.");
+                        }
+                        llMessageLinked(((integer)-4), 90005, "", (string)LslLibrary + ("|" + llList2String(gP, edefaultrez)));
+                    }
+                    else if (ResumeVoid == "[FACE]")
+                    {
+                        llMessageLinked(((integer)-4), 90172, (string)edefaultrez, loc_choice);
+                        llMessageLinked(((integer)-4), 90005, "", (string)LslLibrary + ("|" + llList2String(gP, edefaultrez)));
+                    }
+                    else if (llRequestPermissions == "[DONE]")
+                    {
+                        P();
+                    }
+                    else if (ResumeVoid == "[SYNC]" | ResumeVoid == "[POSE]")
+                    {
+                        IsRestoring = IsRestoring + loc_choice;
+                        E(loc_choice, llList2Key(gP, gR));
+                        ++gR;
+                        if (edefaultlink_message < gR)
+                        {
+                            P();
+                        }
+                        else
+                        {
+                            G();
+                        }
+                    }
+                }
+            }
+            else if (llGetOwnerKey(llRot2Fwd) == llGetOwner())
+            {
+                list loc_data = llParseString2List(llRequestPermissions, (list)"|", []);
+                integer loc_num = llList2Integer(loc_data, 1);
+                if (llList2String(loc_data, 0) == "REG")
+                {
+                    gD = llListReplaceList(gD, (list)llRot2Fwd, loc_num, loc_num);
+                    llRegionSay(System, "POS|" + (string)loc_num + "|" + M(loc_num) + "|" + (string)IsSaveDue + "|" + llList2String(gP, loc_num));
+                }
+                else if (llList2String(loc_data, 0) == "MENU")
+                {
+                    if (llList2Key(loc_data, 2) == LslLibrary)
+                    {
+                        llMessageLinked(((integer)-1), 90005, "", (string)LslLibrary + ("|" + llList2String(gP, loc_num)));
+                    }
+                }
+                else if (llList2String(loc_data, 0) == "MOVED")
+                {
+                    rotation loc_f = llGetRot();
+                    vector loc_target_rot = llRot2Euler((rotation)llList2String(loc_data, 3) / loc_f) * 57.29578;
+                    vector loc_target_pos = ((vector)llList2String(loc_data, 2) - llGetPos()) / loc_f;
+                    if (!((string)loc_target_pos == (string)llList2Vector(gH, loc_num) & (string)loc_target_rot == (string)llList2Vector(edefaultchanged, loc_num)))
+                    {
+                        gH = llListReplaceList(gH, (list)loc_target_pos, loc_num, loc_num);
+                        edefaultchanged = llListReplaceList(edefaultchanged, (list)loc_target_rot, loc_num, loc_num);
+                        llMessageLinked(((integer)-4), 90057, (string)loc_num, (string)loc_target_pos + "|" + (string)loc_target_rot);
+                    }
+                }
+                else if (IsSaveDue)
+                {
+                    integer loc_sitter = (integer)llGetSubString(llGetNumberOfPrims, -~llSubStringIndex(llGetNumberOfPrims, " "), 99999);
+                    if (llList2String(loc_data, 0) == "ANIMA")
+                    {
+                        llMessageLinked(((integer)-4), 90075, (string)loc_sitter, llList2Key(loc_data, 1));
+                    }
+                    else if (llList2String(loc_data, 0) == "GETUP")
+                    {
+                        llMessageLinked(((integer)-4), 90076, (string)loc_sitter, llList2Key(loc_data, 1));
+                    }
+                }
+            }
+        }
+        else
+        {
+            if (llRequestPermissions == "cleanup")
+            {
+                llRegionSay(System, "DONEA");
+                K("Cleaning \"" + llGetScriptName() + "\" and \"[AV]helper\" from prim " + (string)llGetLinkNumber());
+                if (llGetInventoryType("[AV]helper") == 6)
+                {
+                    llRemoveInventory("[AV]helper");
+                }
+                llRemoveInventory(llGetScriptName());
+            }
+            else if (llRequestPermissions == "targets")
+            {
+                llMessageLinked(((integer)-4), 90298, "", "");
+            }
+            else if (llRequestPermissions == "helper")
+            {
+                if (!(llGetAgentSize(llGetLinkKey(llGetNumberOfPrims())) == <((float)0), ((float)0), ((float)0)>))
+                {
+                    llMessageLinked(((integer)-1), 90100, "0|[HELPER]||" + (string)IsSaveDue, llList2Key(gP, 0));
+                }
+            }
+        }
+    }
+
+    on_rez(integer llGetPos)
+    {
+        llResetScript();
+    }
+}

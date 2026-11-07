@@ -1,0 +1,1241 @@
+//////////// TMS Aurora AVsitter Scripts \\\\\\\\\\\
+//                                                //
+//   AVsitter2 and Autoplay scrpts for TMS Aurora //
+////////////////////////////////////////////////////
+//
+////////////////////////////////////////////////////
+// Copyright (c) 2026 Truth & Beauty Lab          //
+// License: MIT                                   //
+// All rights reserved.                           //
+//                                                //
+// Author: Missy Restless missyrestless@gmail.com //
+////////////////////////////////////////////////////
+//
+//nfo_preprocessor_version 0
+//program_version LSL PyOptimizer v0.3.0beta
+//mono
+
+string ResumeVoid = "[AV]sitB";
+integer edefaultstate_entry;
+list Library;
+integer gE;
+key edefaultchanged;
+key edefaulttimer;
+string Pop;
+list IsRestoring;
+integer gA = -1;
+integer UThreadStackFrame;
+integer edefaultdataserver = 1;
+integer gC;
+integer gB = 2;
+integer edefaultchat = 2;
+integer gG = 1;
+list gD;
+integer g_;
+integer edefaultrun_time_perms = 1;
+string LslUserScript;
+string edefaulttouch_end;
+string IsSaveDue;
+string UThread;
+string edefaultlink_message;
+string gF;
+string System;
+string LslLibrary;
+string gH;
+string gI;
+string J;
+list K = [LslUserScript];
+integer L;
+vector M = <0, 0, 0>;
+vector N = <0, 0, 0>;
+vector O = <0, 0, 0>;
+vector P = <0, 0, 0>;
+vector Q = <0, 0, 0>;
+vector R = <0, 0, 0>;
+integer S;
+integer T;
+list U;
+integer V;
+integer W;
+key X;
+key Y;
+integer Z;
+integer a;
+key b;
+integer c;
+integer d;
+integer e;
+list f;
+list g;
+integer h;
+integer i;
+string j;
+integer k;
+integer l;
+integer m;
+integer n;
+string o;
+string p;
+integer q;
+
+_(string llGetLinkPrimitiveParams, list llGetStatus)
+{
+    llListenRemove(n);
+    n = llListen(m = ~(integer)llFrand(2147483520), "", edefaulttimer, "");
+    llDialog(edefaulttimer, "AVsitter™ 2.2p04\n\n" + llGetLinkPrimitiveParams, llList2List(llGetStatus, ((integer)-3), ((integer)-1)) + llList2List(llGetStatus, ((integer)-6), ((integer)-4)) + llList2List(llGetStatus, ((integer)-9), ((integer)-7)) + llList2List(llGetStatus, ((integer)-12), ((integer)-10)), m);
+}
+
+A()
+{
+    string loc_posrot_button = "Position";
+    string loc_value_button = llList2String((list)"0.05m" + "0.25m" + "0.01m", k);
+    if (l)
+    {
+        loc_posrot_button = "Rotation";
+        loc_value_button = llList2String((list)"5°" + "25°" + "1°", k);
+    }
+    _("Personal adjustment:", (list)"[BACK]" + loc_posrot_button + loc_value_button + "[DEFAULT]" + "[SAVE]" + "[SAVE ALL]" + "X+" + "Y+" + "Z+" + "X-" + "Y-" + "Z-");
+}
+
+integer B(string llGetLinkPrimitiveParams)
+{
+    return !(llGetLinkPrimitiveParams == "" | !((string)((integer)("1" + llGetLinkPrimitiveParams)) == "1" + llGetLinkPrimitiveParams));
+}
+
+C()
+{
+    S = 0;
+    T = llGetObjectPrimCount(llGetKey());
+    if (-(T < (Library != [])) & edefaultrun_time_perms)
+    {
+        if (!edefaultstate_entry)
+        {
+            llDialog(llGetOwner(), "\nThere aren't enough prims for required SitTargets.\nYou must have one prim for each avatar to sit!", [], 23658);
+        }
+        S = 1;
+    }
+    integer loc_i;
+    f = [];
+    list loc_ASSIGNED_SITTARGETS = [];
+    if (~-(Library != []))
+    {
+        for (loc_i = 0; loc_i < (Library != []); ++loc_i)
+        {
+            f = f + 1000;
+            loc_ASSIGNED_SITTARGETS = loc_ASSIGNED_SITTARGETS + 0;
+        }
+        for (loc_i = 1; !(T < loc_i); ++loc_i)
+        {
+            integer loc_next = llListFindList(f, (list)1000);
+            string loc_desc = (string)llGetLinkPrimitiveParams(loc_i, (list)28);
+            loc_desc = llGetSubString(loc_desc, -~llSubStringIndex(loc_desc, "#"), 99999);
+            if (!(loc_desc == "-1"))
+            {
+                list loc_data = llParseStringKeepNulls(loc_desc, (list)"-", []);
+                if (!(-(loc_data != [] == 2) & B(llList2String(loc_data, 0))) | !B(llList2String(loc_data, 1)))
+                {
+                    if (~loc_next)
+                    {
+                        f = llListReplaceList(f, (list)loc_i, loc_next, loc_next);
+                    }
+                }
+                else
+                {
+                    if (llList2Integer(loc_data, 0) == gA)
+                    {
+                        f = llListReplaceList(f, (list)loc_i, llList2Integer(loc_data, 1), llList2Integer(loc_data, 1));
+                        loc_ASSIGNED_SITTARGETS = llListReplaceList(loc_ASSIGNED_SITTARGETS, (list)1, llList2Integer(loc_data, 1), llList2Integer(loc_data, 1));
+                        if (!~llListFindList(loc_ASSIGNED_SITTARGETS, (list)0))
+                        {
+                            jump J_autoGen00001;
+                        }
+                    }
+                }
+            }
+        }
+        @J_autoGen00001;
+        d = llList2Integer(f, edefaultstate_entry);
+    }
+    else
+    {
+        d = llGetLinkNumber();
+        f = f + d;
+    }
+    e = d;
+    g = f;
+    h = i = 0;
+    if (!edefaultstate_entry)
+    {
+        llMessageLinked(((integer)-1), 90201, "", "");
+    }
+    E();
+}
+
+D(integer llGetLinkPrimitiveParams)
+{
+    Library = llListReplaceList(Library, (list)"", llGetLinkPrimitiveParams, llGetLinkPrimitiveParams);
+    if (llGetLinkPrimitiveParams == edefaultstate_entry)
+    {
+        if (llGetPermissions() & 16)
+        {
+            if (edefaultchanged)
+            {
+                llMessageLinked(((integer)-1), 90065, (string)edefaultstate_entry, edefaultchanged);
+            }
+            if (!(llGetAgentSize(edefaultchanged) == <((float)0), ((float)0), ((float)0)> | J == ""))
+            {
+                llStopAnimation(J);
+            }
+            edefaultchanged = "";
+            llListenRemove(n);
+        }
+    }
+}
+
+E()
+{
+    vector loc_target_pos = O;
+    rotation loc_target_rot = llEuler2Rot(P * 0.017453292);
+    if (d ^ llGetLinkNumber())
+    {
+        vector loc_local_avsit_prim_pos = <((float)0), ((float)0), ((float)0)>;
+        rotation loc_local_avsit_prim_rot = <((float)0), ((float)0), ((float)0), ((float)1)>;
+        if (1 < llGetLinkNumber())
+        {
+            loc_local_avsit_prim_pos = llGetLocalPos();
+            loc_local_avsit_prim_rot = llGetLocalRot();
+        }
+        loc_target_pos = loc_local_avsit_prim_pos + O * loc_local_avsit_prim_rot;
+        loc_target_rot = loc_target_rot * loc_local_avsit_prim_rot;
+        if (1 < d)
+        {
+            rotation loc_local_target_prim_rot = llList2Rot(llGetLinkPrimitiveParams(d, (list)29), 0);
+            loc_target_pos = (loc_local_avsit_prim_pos + O * loc_local_avsit_prim_rot - llList2Vector(llGetLinkPrimitiveParams(d, (list)33), 0)) / loc_local_target_prim_rot;
+            loc_target_rot = loc_target_rot / loc_local_target_prim_rot;
+        }
+    }
+    integer loc_target = d;
+    if (!(~-llGetNumberOfPrims() | ~-loc_target))
+    {
+        loc_target = 0;
+    }
+    string loc_desc = (string)llGetLinkPrimitiveParams(loc_target, (list)28);
+    if (!(loc_desc == "-1" | "#-1" == llGetSubString(loc_desc, ((integer)-3), ((integer)-1))))
+    {
+        llLinkSitTarget(loc_target, loc_target_pos - <((float)0), ((float)0), 0.4> + llRot2Up(loc_target_rot) * 0.05, loc_target_rot);
+    }
+}
+
+F()
+{
+    list loc_SEQUENCE = llParseStringKeepNulls(gF, (list)"�", []);
+    J = llList2String(loc_SEQUENCE, L);
+    string loc_speed_text = llList2String((list)"" + "+" + "-", q);
+    if (llGetInventoryType(J + loc_speed_text) == 20)
+    {
+        J = J + loc_speed_text;
+    }
+    llSetTimerEvent((float)llList2String(loc_SEQUENCE, -~L));
+}
+
+G(integer llGetLinkPrimitiveParams)
+{
+    L = 0;
+    F();
+    Q = O;
+    R = P;
+    integer loc_custom_index = llListFindList(U, (list)UThread + llGetSubString(edefaultchanged, 0, 7));
+    if (!~loc_custom_index)
+    {
+        loc_custom_index = llListFindList(U, (list)"M#T!" + llGetSubString(edefaultchanged, 0, 7));
+    }
+    if (((integer)-1) < loc_custom_index)
+    {
+        Q = Q + llList2Vector(U, -~-~loc_custom_index);
+        R = R + llList2Vector(U, 3 + loc_custom_index);
+        U = llListReplaceList(U, [], loc_custom_index, 3 + loc_custom_index) + llList2List(U, loc_custom_index, 3 + loc_custom_index);
+    }
+    if (llGetPermissions() & 16)
+    {
+        if (!(llGetAgentSize(edefaultchanged) == <((float)0), ((float)0), ((float)0)>))
+        {
+            if (llGetLinkPrimitiveParams)
+            {
+                string loc_POSENAME = UThread;
+                integer loc_IS_SYNC;
+                if (llSubStringIndex(loc_POSENAME, "P:"))
+                {
+                    loc_IS_SYNC = 1;
+                }
+                else
+                {
+                    loc_POSENAME = llGetSubString(loc_POSENAME, 2, 99999);
+                }
+                string loc_OLD_SYNC;
+                if (!(IsSaveDue == UThread))
+                {
+                    if (llSubStringIndex(IsSaveDue, "P:"))
+                    {
+                        loc_OLD_SYNC = IsSaveDue;
+                    }
+                }
+                llMessageLinked(((integer)-1), 90045, (string)edefaultstate_entry + ("|" + (loc_POSENAME + ("|" + (gF + ("|" + ((string)gA + ("|" + (llDumpList2String(Library, "@") + ("|" + (loc_OLD_SYNC + ("|" + (string)loc_IS_SYNC))))))))))), edefaultchanged);
+            }
+            if (V)
+            {
+                H();
+            }
+            if (!(J == ""))
+            {
+                llStartAnimation(J);
+            }
+            if (!(edefaultlink_message == "" | edefaultlink_message == J))
+            {
+                llSleep(0.2);
+                llStopAnimation(edefaultlink_message);
+            }
+            if (!V)
+            {
+                H();
+            }
+        }
+    }
+}
+
+H()
+{
+    integer loc_sitter_prim = llGetNumberOfPrims();
+    while (!(llGetAgentSize(llGetLinkKey(loc_sitter_prim)) == <((float)0), ((float)0), ((float)0)>))
+    {
+        if (llGetLinkKey(loc_sitter_prim) == edefaultchanged)
+        {
+            jump J_autoGen00002;
+        }
+        --loc_sitter_prim;
+    }
+    return;
+    @J_autoGen00002;
+    rotation loc_localrot = <((float)0), ((float)0), ((float)0), ((float)1)>;
+    vector loc_localpos = <((float)0), ((float)0), ((float)0)>;
+    if (1 < llGetLinkNumber())
+    {
+        loc_localrot = llGetLocalRot();
+        loc_localpos = llGetLocalPos();
+    }
+    if (!(V ^ 2 | llGetStatus(1)))
+    {
+        llSleep(0.4);
+    }
+    if (V & -!llGetStatus(1))
+    {
+        llSetKeyframedMotion([], (list)0 + 2);
+    }
+    llSetLinkPrimitiveParamsFast(loc_sitter_prim, (list)29 + llEuler2Rot((R + <((float)0), ((float)0), 0.002>) * 0.017453292) * loc_localrot + 33 + (Q * loc_localrot + loc_localpos));
+    if (V & -!llGetStatus(1))
+    {
+        llSleep(0.2);
+        llSetKeyframedMotion([], (list)0 + 0);
+    }
+}
+
+I()
+{
+    llSetTimerEvent(0);
+    if (edefaultchanged)
+    {
+        if (!(J == ""))
+        {
+            llStopAnimation(J);
+        }
+        if (g_)
+        {
+            llStartAnimation("sit");
+        }
+    }
+}
+
+default
+{
+    state_entry()
+    {
+        edefaultstate_entry = (integer)llGetSubString(llGetScriptName(), llSubStringIndex(llGetScriptName(), " "), 99999);
+        while (llGetInventoryType(ResumeVoid) ^ 10)
+        {
+            llSleep(0.1);
+        }
+        integer loc_i;
+        do
+            ;
+        while (llGetInventoryType("[AV]sitA " + (string)(++loc_i)) == 10);
+        while (loc_i--)
+        {
+            Library = Library + "";
+        }
+        if (edefaultstate_entry)
+        {
+            ResumeVoid = ResumeVoid + (" " + (string)edefaultstate_entry);
+        }
+        else
+        {
+            for (loc_i = 0; !(llGetNumberOfPrims() < loc_i); ++loc_i)
+            {
+                string loc_desc = (string)llGetLinkPrimitiveParams(loc_i, (list)28);
+                if (!(loc_desc == "-1" | "#-1" == llGetSubString(loc_desc, ((integer)-3), ((integer)-1))))
+                {
+                    llLinkSitTarget(loc_i, <((float)0), ((float)0), ((float)0)>, <((float)0), ((float)0), ((float)0), ((float)1)>);
+                }
+            }
+            b = llGetNumberOfNotecardLines("AVpos");
+            Z = 1;
+        }
+        X = llGetInventoryKey("AVpos");
+        llMessageLinked(((integer)-4), 90299, (string)edefaultstate_entry, "");
+        if (llGetInventoryType("AVpos") == 7)
+        {
+            if (!edefaultstate_entry)
+            {
+                llOwnerSay(llGetScriptName() + "[2.2p04] Loading AVpos...");
+            }
+            Y = llGetNotecardLine("AVpos", c);
+        }
+    }
+
+    timer()
+    {
+        L = -~-~L;
+        list loc_SEQUENCE = llParseStringKeepNulls(gF, (list)"�", []);
+        if (!(L < (loc_SEQUENCE != [])) | ~llListFindList((list)"M" + "F", llList2List(loc_SEQUENCE, L, L)))
+        {
+            L = 0;
+        }
+        edefaultlink_message = J;
+        F();
+        if (llGetPermissions() & 16)
+        {
+            if (!(llGetAgentSize(edefaultchanged) == <((float)0), ((float)0), ((float)0)>))
+            {
+                if (!(J == ""))
+                {
+                    llStartAnimation(J);
+                }
+                if (!(edefaultlink_message == "" | edefaultlink_message == J))
+                {
+                    llSleep(((float)1));
+                    llStopAnimation(edefaultlink_message);
+                }
+            }
+        }
+    }
+
+    touch_end(integer llGetLinkPrimitiveParams)
+    {
+        if (!(edefaultstate_entry | h | 2 < UThreadStackFrame))
+        {
+            llMessageLinked(((integer)-1), 90005, "", llDetectedKey(0));
+        }
+    }
+
+    listen(integer llGetLinkPrimitiveParams, string llGetStatus, key llListenRemove, string llAvatarOnSitTarget)
+    {
+        integer loc_index = llListFindList(IsRestoring, (list)llAvatarOnSitTarget);
+        if (~loc_index)
+        {
+            if (!(llListenRemove == edefaultchanged | edefaultchat & 4))
+            {
+                llListenRemove = (string)llListenRemove + "|" + (string)edefaultchanged;
+            }
+            llMessageLinked(((integer)-1), llList2Integer(IsRestoring, -~loc_index), llAvatarOnSitTarget, llListenRemove);
+        }
+        else
+        {
+            loc_index = llListFindList((list)"Position" + "Rotation" + "X+" + "Y+" + "Z+" + "X-" + "Y-" + "Z-" + "0.05m" + "0.25m" + "0.01m" + "5°" + "25°" + "1°", (list)llAvatarOnSitTarget);
+            if (llAvatarOnSitTarget == "[BACK]")
+            {
+                llMessageLinked(((integer)-1), 90005, "", (string)edefaulttimer + "|" + (string)edefaultchanged);
+            }
+            else if (llAvatarOnSitTarget == "[POSE]")
+            {
+                A();
+            }
+            else if (llAvatarOnSitTarget == "[DEFAULT]")
+            {
+                Q = O;
+                R = P;
+                H();
+                A();
+            }
+            else if (llAvatarOnSitTarget == "[SAVE ALL]")
+            {
+                _("Save personal position offset for all poses?", (list)"[BACK]" + "[ALL POSES]");
+            }
+            else if (llAvatarOnSitTarget == "[ALL POSES]")
+            {
+                integer loc_i = ((integer)-3) + (U != []);
+                while (0 < loc_i)
+                {
+                    if (llList2String(U, loc_i) == llGetSubString(edefaultchanged, 0, 7))
+                    {
+                        U = llDeleteSubList(U, ~-loc_i, 3 + loc_i);
+                    }
+                    loc_i = ((integer)-4) + loc_i;
+                }
+                U = U + "M#T!" + llGetSubString(edefaultchanged, 0, 7) + (Q - O) + (R - P);
+                A();
+                llRegionSayTo(llListenRemove, 0, "Personal position saved for all poses.");
+            }
+            else if (llAvatarOnSitTarget == "[SAVE]")
+            {
+                integer loc_custom_index = llListFindList(U, (list)UThread + llGetSubString(edefaultchanged, 0, 7));
+                if (((integer)-1) < loc_custom_index)
+                {
+                    U = llDeleteSubList(U, loc_custom_index, 3 + loc_custom_index);
+                }
+                if (!((U != []) / 4 < c))
+                {
+                    U = llDeleteSubList(U, 0, 3);
+                }
+                U = U + UThread + llGetSubString(edefaultchanged, 0, 7) + (Q - O) + (R - P);
+                A();
+                llRegionSayTo(llListenRemove, 0, "Personal position saved for this pose.");
+            }
+            else if (~loc_index)
+            {
+                if (loc_index < 2)
+                {
+                    l = !l;
+                }
+                else if (loc_index < 8)
+                {
+                    float loc_change = llList2Float((list)0.05 + 0.25 + 0.01, k);
+                    if (llGetSubString(llAvatarOnSitTarget, 1, 1) == "-")
+                    {
+                        loc_change = -loc_change;
+                    }
+                    vector loc_direction = <((float)1), ((float)0), ((float)0)>;
+                    if (llGetSubString(llAvatarOnSitTarget, 0, 0) == "Y")
+                    {
+                        loc_direction = <((float)0), ((float)1), ((float)0)>;
+                    }
+                    else if (llGetSubString(llAvatarOnSitTarget, 0, 0) == "Z")
+                    {
+                        loc_direction = <((float)0), ((float)0), ((float)1)>;
+                    }
+                    if (l)
+                    {
+                        R = R + loc_direction * loc_change * 100;
+                    }
+                    else
+                    {
+                        vector loc_c = loc_direction * loc_change;
+                        if (W)
+                        {
+                            if (1 < llGetLinkNumber())
+                            {
+                                loc_c = loc_c / llGetLocalRot();
+                            }
+                        }
+                        else
+                        {
+                            loc_c = loc_c / llGetRot();
+                        }
+                        Q = Q + loc_c;
+                    }
+                    H();
+                }
+                else
+                {
+                    k = (-~k) % 3;
+                }
+                A();
+            }
+            else if (!(llAvatarOnSitTarget == "[HELPER]") | llListenRemove == llGetOwner() | ~llSubStringIndex(llGetLinkName(!!llGetLinkNumber()), "HELPER"))
+            {
+                llMessageLinked(((integer)-1), 90100, (string)edefaultstate_entry + "|" + llAvatarOnSitTarget + "|" + (string)edefaultchanged + "|" + (string)g_, llListenRemove);
+            }
+            else
+            {
+                _("Only the owner can rez the helpers. If the owner is nearby they can type '/5 helper' in chat.", (list)"[BACK]");
+            }
+        }
+    }
+
+    link_message(integer llGetLinkPrimitiveParams, integer llGetStatus, string llListenRemove, key llAvatarOnSitTarget)
+    {
+        integer loc_one = (integer)llListenRemove;
+        integer loc_two = (integer)((string)llAvatarOnSitTarget);
+        integer loc_target;
+        list loc_data;
+        if (llGetStatus == 90075)
+        {
+            if (loc_one == edefaultstate_entry)
+            {
+                llRequestPermissions(llAvatarOnSitTarget, 16);
+            }
+            return;
+        }
+        if (llGetStatus == 90076)
+        {
+            D(loc_one);
+            return;
+        }
+        if (llGetStatus == 90030)
+        {
+            if (loc_one == edefaultstate_entry | loc_two == edefaultstate_entry)
+            {
+                I();
+                b = llList2Key(Library, loc_one);
+                if (loc_one == edefaultstate_entry)
+                {
+                    b = llList2Key(Library, loc_two);
+                }
+                if (b)
+                {
+                    gE = 1;
+                    llRequestPermissions(b, 16);
+                }
+            }
+            f = llListReplaceList(llListReplaceList(f, (list)llList2Integer(f, loc_two), loc_one, loc_one), (list)llList2Integer(f, loc_one), loc_two, loc_two);
+            d = llList2Integer(f, edefaultstate_entry);
+            E();
+            Library = llListReplaceList(llListReplaceList(Library, (list)"", loc_one, loc_one), (list)"", loc_two, loc_two);
+            edefaultchanged = llList2Key(Library, edefaultstate_entry);
+            return;
+        }
+        if (llGetStatus == 90070)
+        {
+            if (loc_one ^ edefaultstate_entry)
+            {
+                Library = llListReplaceList(Library, (list)llAvatarOnSitTarget, loc_one, loc_one);
+            }
+            return;
+        }
+        if (llGetStatus == 90150)
+        {
+            C();
+            return;
+        }
+        if (llGetStatus == 90202)
+        {
+            h = 1;
+            llPassTouches(h);
+            return;
+        }
+        if (llGetStatus == 90203)
+        {
+            i = 1;
+            return;
+        }
+        if (llGetStatus == 90298)
+        {
+            loc_target = d;
+            if (!(~-llGetNumberOfPrims() | ~-loc_target))
+            {
+                loc_target = 0;
+            }
+            llSetLinkPrimitiveParams(loc_target, (list)26 + ((string)gA + "-" + (string)edefaultstate_entry) + <((float)1), ((float)1), ((float)0)> + 1);
+            llSleep(5);
+            llSetLinkPrimitiveParams(loc_target, (list)26 + "" + <((float)1), ((float)1), ((float)1)> + 1);
+            return;
+        }
+        if (llGetStatus == 90011)
+        {
+            llSetLinkCamera(((integer)-4), (vector)llListenRemove, (vector)((string)llAvatarOnSitTarget));
+            return;
+        }
+        if (llGetStatus == 90033)
+        {
+            llListenRemove(n);
+            return;
+        }
+        if (llAvatarOnSitTarget == edefaultchanged)
+        {
+            if (-(llGetStatus == 90001 | llGetStatus == 90002) & (16 & llGetPermissions()))
+            {
+                if (llGetStatus ^ 90001)
+                    llStopAnimation(llListenRemove);
+                else
+                    llStartAnimation(llListenRemove);
+            }
+            loc_data = llParseStringKeepNulls(llListenRemove, (list)"|", loc_data);
+            if (llGetStatus == 90101)
+            {
+                edefaulttimer = llList2Key(loc_data, 2);
+                if ((llListenRemove = llList2String(loc_data, 1)) == "[ADJUST]")
+                {
+                    loc_data = [];
+                    if (i)
+                    {
+                        loc_data = loc_data + "[TEXTURE]";
+                    }
+                    if (llGetInventoryType("[AV]faces") == 10)
+                    {
+                        loc_data = loc_data + "[FACES]";
+                    }
+                    if (h)
+                    {
+                        loc_data = loc_data + "[SECURITY]";
+                    }
+                    integer loc_i;
+                    while (loc_i < (IsRestoring != []))
+                    {
+                        loc_data = loc_data + llList2String(IsRestoring, loc_i);
+                        loc_i = -~-~loc_i;
+                    }
+                    if (!(llGetInventoryType("[AV]helper") ^ 6 | llGetInventoryType("[AV]adjuster") ^ 10))
+                    {
+                        loc_data = loc_data + "[HELPER]";
+                    }
+                    if (loc_data == [])
+                    {
+                        A();
+                        return;
+                    }
+                    loc_data = loc_data + "[POSE]";
+                    _("Adjust:", "[BACK]" + loc_data);
+                    return;
+                }
+                if (llListenRemove == "Harder >>" | llListenRemove == "<< Softer")
+                {
+                    llMessageLinked(((integer)-1), 90005, "", (string)edefaulttimer + ("|" + (string)edefaultchanged));
+                    return;
+                }
+                if (llListenRemove == "[SWAP]")
+                {
+                    loc_target = -~edefaultstate_entry;
+                    list loc_X = Library + Library;
+                    if (llSubStringIndex(UThread, "P:"))
+                    {
+                        while (llList2Key(loc_X, loc_target) == "" & -~loc_target < (loc_X != []))
+                        {
+                            ++loc_target;
+                        }
+                        if (llList2Key(loc_X, loc_target) == edefaultchanged)
+                        {
+                            ++loc_target;
+                        }
+                    }
+                    else
+                    {
+                        while (!(llList2String(loc_X, loc_target) == "" | !(loc_target < -~((Library != []) + edefaultstate_entry))))
+                        {
+                            ++loc_target;
+                        }
+                    }
+                    loc_target = loc_target % (Library != []);
+                    llMessageLinked(((integer)-4), 90030, (string)edefaultstate_entry, (string)loc_target);
+                }
+                return;
+            }
+        }
+        if (loc_one == edefaultstate_entry)
+        {
+            if (llGetStatus == 90055)
+            {
+                loc_data = llParseStringKeepNulls(llAvatarOnSitTarget, (list)"|", loc_data);
+                IsSaveDue = UThread;
+                UThread = llList2String(loc_data, 0);
+                edefaultlink_message = J;
+                gF = llList2String(loc_data, 1);
+                O = Q = (vector)llList2String(loc_data, 2);
+                P = R = (vector)llList2String(loc_data, 3);
+                if (LslUserScript == "" | UThread == LslUserScript)
+                {
+                    LslUserScript = UThread;
+                    M = O;
+                    N = P;
+                    edefaulttouch_end = gF;
+                }
+                q = llList2Integer(loc_data, 5);
+                G(llList2Integer(loc_data, 4));
+                E();
+                return;
+            }
+            if (llGetStatus == 90057)
+            {
+                loc_data = llParseStringKeepNulls(llAvatarOnSitTarget, (list)"|", loc_data);
+                Q = (vector)llList2String(loc_data, 0);
+                R = (vector)llList2String(loc_data, 1);
+                H();
+                return;
+            }
+        }
+    }
+
+    changed(integer llGetLinkPrimitiveParams)
+    {
+        integer loc_i;
+        if (llGetLinkPrimitiveParams & 32)
+        {
+            gE = 0;
+            integer loc_stood;
+            if (~gA | (Library != []) < 2)
+            {
+                for (loc_i = 0; loc_i < (Library != []); ++loc_i)
+                {
+                    string loc_existing_sitter = llList2String(Library, loc_i);
+                    key loc_actual_sitter = llAvatarOnLinkSitTarget(llList2Integer(f, loc_i));
+                    if (!~-(Library != []))
+                    {
+                        loc_actual_sitter = llAvatarOnSitTarget();
+                    }
+                    if (loc_existing_sitter == "")
+                    {
+                        if (loc_actual_sitter)
+                        {
+                            if (loc_i ^ edefaultstate_entry)
+                            {
+                                llMessageLinked(((integer)-4), 90056, (string)edefaultstate_entry, UThread + ("|" + (gF + ("|" + ((string)((list)Q) + ("|" + (string)((list)R)))))));
+                            }
+                            else
+                            {
+                                if (llList2Integer(llGetObjectDetails(loc_actual_sitter, (list)26), 0))
+                                {
+                                    if (!(System == ""))
+                                    {
+                                        if (UThread == LslUserScript)
+                                        {
+                                            UThread = System;
+                                            gF = LslLibrary;
+                                        }
+                                    }
+                                }
+                                else
+                                {
+                                    if (!(gH == ""))
+                                    {
+                                        if (UThread == LslUserScript)
+                                        {
+                                            UThread = gH;
+                                            gF = gI;
+                                        }
+                                    }
+                                }
+                                llRequestPermissions(loc_actual_sitter, 16);
+                                llMessageLinked(((integer)-1), 90060, (string)edefaultstate_entry, loc_actual_sitter);
+                            }
+                        }
+                    }
+                    else
+                    {
+                        if (loc_actual_sitter == "00000000-0000-0000-0000-000000000000")
+                        {
+                            llSetTimerEvent(0);
+                            loc_stood = 1;
+                            D(loc_i);
+                        }
+                    }
+                }
+            }
+            else
+            {
+                list loc_AVPRIMS;
+                loc_i = llGetNumberOfPrims();
+                while (!(llGetAgentSize(llGetLinkKey(loc_i)) == <((float)0), ((float)0), ((float)0)>))
+                {
+                    if (!~llListFindList(Library, (list)llGetLinkKey(loc_i)))
+                    {
+                        integer loc_sitterGender = llList2Integer(llGetObjectDetails(llGetLinkKey(loc_i), (list)26), 0);
+                        integer loc_first_available = llListFindList(Library, (list)"");
+                        integer loc_first_unassigned = ((integer)-1);
+                        integer loc_j;
+                        while (loc_j < (Library != []))
+                        {
+                            if (llList2String(Library, loc_j) == "")
+                            {
+                                if (llList2Integer(gD, loc_j) == loc_sitterGender)
+                                {
+                                    loc_first_available = loc_j;
+                                    jump J_autoGen00003;
+                                }
+                                if (!(~llList2Integer(gD, loc_j) | ~loc_first_unassigned))
+                                {
+                                    loc_first_unassigned = loc_j;
+                                }
+                            }
+                            ++loc_j;
+                        }
+                        if (loc_first_available < loc_first_unassigned)
+                        {
+                            loc_first_available = loc_first_unassigned;
+                        }
+                        @J_autoGen00003;
+                        if (loc_first_available ^ edefaultstate_entry)
+                        {
+                            llMessageLinked(((integer)-4), 90056, (string)edefaultstate_entry, UThread + ("|" + (gF + ("|" + ((string)((list)Q) + ("|" + (string)((list)R)))))));
+                        }
+                        else
+                        {
+                            if (loc_sitterGender)
+                            {
+                                if (!(System == ""))
+                                {
+                                    if (UThread == LslUserScript)
+                                    {
+                                        UThread = System;
+                                        gF = LslLibrary;
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                if (!(gH == ""))
+                                {
+                                    if (UThread == LslUserScript)
+                                    {
+                                        UThread = gH;
+                                        gF = gI;
+                                    }
+                                }
+                            }
+                            llRequestPermissions(llGetLinkKey(loc_i), 16);
+                            llMessageLinked(((integer)-1), 90060, (string)edefaultstate_entry, llGetLinkKey(loc_i));
+                        }
+                    }
+                    loc_AVPRIMS = loc_AVPRIMS + llGetLinkKey(loc_i);
+                    --loc_i;
+                }
+                for (loc_i = 0; loc_i < (Library != []); ++loc_i)
+                {
+                    if (!(llList2String(Library, loc_i) == "" | ~llListFindList(loc_AVPRIMS, (list)llList2Key(Library, loc_i))))
+                    {
+                        llSetTimerEvent(0);
+                        loc_stood = 1;
+                        Library = llListReplaceList(Library, (list)"", loc_i, loc_i);
+                        if (loc_i == edefaultstate_entry)
+                        {
+                            if (llGetPermissions() & 16)
+                            {
+                                if (edefaultchanged)
+                                {
+                                    llMessageLinked(((integer)-1), 90065, (string)edefaultstate_entry, edefaultchanged);
+                                }
+                                if (-!(llGetAgentSize(edefaultchanged) == <((float)0), ((float)0), ((float)0)>) & (integer)J)
+                                {
+                                    llStopAnimation(J);
+                                }
+                                edefaultchanged = "";
+                                llListenRemove(n);
+                            }
+                        }
+                    }
+                }
+            }
+            if (loc_stood & -((string)Library == ""))
+            {
+                if (!(-!gG & ~llSubStringIndex(UThread, "P:")))
+                {
+                    O = M;
+                    P = N;
+                    UThread = LslUserScript;
+                    gF = edefaulttouch_end;
+                    d = e;
+                    f = g;
+                    E();
+                }
+                h = i = 0;
+                if (!edefaultstate_entry)
+                {
+                    llMessageLinked(((integer)-1), 90201, "", "");
+                }
+            }
+            if (T ^ llGetObjectPrimCount(llGetKey()))
+            {
+                if (!edefaultstate_entry)
+                {
+                    for (loc_i = 0; !(llGetNumberOfPrims() < loc_i); ++loc_i)
+                    {
+                        string loc_desc = (string)llGetLinkPrimitiveParams(loc_i, (list)28);
+                        if (!(loc_desc == "-1" | "#-1" == llGetSubString(loc_desc, ((integer)-3), ((integer)-1))))
+                        {
+                            llLinkSitTarget(loc_i, <((float)0), ((float)0), ((float)0)>, <((float)0), ((float)0), ((float)0), ((float)1)>);
+                        }
+                    }
+                    llMessageLinked(((integer)-1), 90150, "", "");
+                }
+                h = i = 0;
+                if (!edefaultstate_entry)
+                {
+                    llMessageLinked(((integer)-1), 90201, "", "");
+                }
+            }
+        }
+        if (llGetLinkPrimitiveParams & 1)
+        {
+            do
+                ;
+            while (llGetInventoryType("[AV]sitA " + (string)(++loc_i)) == 10);
+            if (!(llGetInventoryKey("AVpos") == X & loc_i == (Library != []) & llGetInventoryType(ResumeVoid) == 10))
+            {
+                I();
+                llResetScript();
+            }
+        }
+    }
+
+    run_time_permissions(integer llGetLinkPrimitiveParams)
+    {
+        if (llGetLinkPrimitiveParams & 16)
+        {
+            llStopAnimation("sit");
+            if (llGetInventoryType("AVhipfix") == 20)
+            {
+                llStartAnimation("AVhipfix");
+            }
+            integer loc_animation_menu_function;
+            if (!(llGetPermissionsKey() == b))
+            {
+                loc_animation_menu_function = ((integer)-1);
+            }
+            b = "";
+            Library = llListReplaceList(Library, (list)(edefaulttimer = edefaultchanged = llGetPermissionsKey()), edefaultstate_entry, edefaultstate_entry);
+            string loc_channel_or_swap = (string)edefaultstate_entry;
+            integer loc_lnk = 90000;
+            if (gE)
+            {
+                loc_lnk = 90010;
+                gE = 0;
+            }
+            else if (!(llGetSubString(UThread, 0, 1) == "P:"))
+            {
+                loc_channel_or_swap = "";
+            }
+            string loc_posename = UThread;
+            if (llGetSubString(UThread, 0, 1) == "P:")
+            {
+                loc_posename = llGetSubString(UThread, 2, 99999);
+            }
+            llMessageLinked(((integer)-4), 90070, (string)edefaultstate_entry, edefaultchanged);
+            llMessageLinked(((integer)-4), loc_lnk, loc_posename, loc_channel_or_swap);
+            if (!S | !edefaultrun_time_perms)
+            {
+                if (!UThreadStackFrame)
+                {
+                    if (h)
+                    {
+                        llMessageLinked(((integer)-1), 90006, (string)loc_animation_menu_function, edefaultchanged);
+                    }
+                    else
+                    {
+                        llMessageLinked(((integer)-1), 90005, (string)loc_animation_menu_function, (string)edefaulttimer + ("|" + (string)edefaultchanged));
+                    }
+                }
+            }
+            else
+            {
+                llDialog(llGetOwner(), "\nThere aren't enough prims for required SitTargets.\nYou must have one prim for each avatar to sit!", [], 23658);
+            }
+        }
+    }
+
+    dataserver(key llGetLinkPrimitiveParams, string llGetStatus)
+    {
+        if (llGetLinkPrimitiveParams == Y)
+        {
+            if (llGetStatus == "\n\n\n")
+            {
+                if (edefaultstate_entry)
+                {
+                    C();
+                }
+                else
+                {
+                    llSetText("", <((float)1), ((float)1), ((float)1)>, 1);
+                    llMessageLinked(((integer)-1), 90150, "", "");
+                }
+                llMessageLinked(((integer)-4), 90302, (string)edefaultstate_entry, llDumpList2String((list)(Library != []) + llDumpList2String(K, "�") + gA + UThreadStackFrame + edefaultdataserver + gB + LslUserScript + o + Pop + llDumpList2String(IsRestoring, "�") + gC + (edefaultchat & 3) + g_ + j + p, "|"));
+                c = (((integer)-5000) + llGetFreeMemory()) / 100;
+                return;
+            }
+            if (a)
+            {
+                llSetText("Loading " + (string)(c * 100 / a) + "%", <((float)1), ((float)1), ((float)0)>, 1);
+            }
+            Y = llGetNotecardLine("AVpos", ++c);
+            llGetStatus = llGetSubString(llGetStatus, -~llSubStringIndex(llGetStatus, "◆"), 99999);
+            llGetStatus = llStringTrim(llGetStatus, 1);
+            string loc_command = llGetSubString(llGetStatus, 0, ~-llSubStringIndex(llGetStatus, " "));
+            list loc_parts = llParseStringKeepNulls(llGetSubString(llGetStatus, -~llSubStringIndex(llGetStatus, " "), 99999), (list)" | " + " |" + "| " + "|", []);
+            string loc_part0 = llStringTrim(llList2String(loc_parts, 0), 3);
+            string loc_part1;
+            if (1 < (loc_parts != []))
+            {
+                loc_part1 = llStringTrim(llDumpList2String(llList2List(loc_parts, 1, 99999), "�"), 3);
+            }
+            if (loc_command == "SITTER")
+            {
+                Z = 0;
+                if (llList2String(loc_parts, 2) == "M")
+                {
+                    gD = gD + 1;
+                }
+                else if (llList2String(loc_parts, 2) == "F")
+                {
+                    gD = gD + 0;
+                }
+                else
+                {
+                    gD = gD + ((integer)-1);
+                }
+                if ((integer)loc_part0 == edefaultstate_entry)
+                {
+                    Z = 1;
+                    if (1 < (loc_parts != []))
+                    {
+                        K = llList2List(loc_parts, 1, 99999);
+                    }
+                }
+                return;
+            }
+            if (loc_command == "MTYPE")
+            {
+                UThreadStackFrame = (integer)loc_part0;
+                llPassTouches(0);
+                if (2 < UThreadStackFrame)
+                {
+                    llPassTouches(1);
+                }
+                return;
+            }
+            if (loc_command == "ROLES")
+            {
+                j = (string)loc_parts;
+                return;
+            }
+            if (loc_command == "ETYPE")
+            {
+                edefaultdataserver = (integer)loc_part0;
+                return;
+            }
+            if (loc_command == "SELECT")
+            {
+                gC = (integer)loc_part0;
+                return;
+            }
+            if (loc_command == "WARN")
+            {
+                edefaultrun_time_perms = (integer)loc_part0;
+                return;
+            }
+            if (loc_command == "TEXT")
+            {
+                Pop = llDumpList2String(llParseStringKeepNulls(loc_part0, (list)"\\n", []), "\n");
+                return;
+            }
+            if (loc_command == "SWAP")
+            {
+                gB = (integer)loc_part0;
+                return;
+            }
+            if (loc_command == "AMENU")
+            {
+                edefaultchat = (integer)loc_part0;
+                return;
+            }
+            if (loc_command == "HELPER")
+            {
+                g_ = (integer)loc_part0;
+                return;
+            }
+            if (loc_command == "SET")
+            {
+                gA = (integer)loc_part0;
+                return;
+            }
+            if (loc_command == "KFM")
+            {
+                V = (integer)loc_part0;
+                return;
+            }
+            if (loc_command == "LROT")
+            {
+                W = (integer)loc_part0;
+                return;
+            }
+            if (loc_command == "BRAND")
+            {
+                o = loc_part0;
+                return;
+            }
+            if (loc_command == "DFLT")
+            {
+                gG = (integer)loc_part0;
+                return;
+            }
+            if (loc_command == "ONSIT")
+            {
+                p = loc_part0;
+                return;
+            }
+            if (loc_command == "ADJUST")
+            {
+                IsRestoring = loc_parts;
+                return;
+            }
+            if (Z)
+            {
+                if (llGetSubString(llGetStatus, 0, 0) == "{")
+                {
+                    loc_command = llStringTrim(llGetSubString(llGetStatus, 1, ~-llSubStringIndex(llGetStatus, "}")), 3);
+                    loc_parts = llParseStringKeepNulls((string)llParseString2List(llGetSubString(llGetStatus, -~llSubStringIndex(llGetStatus, "}"), 99999), (list)" ", (list)""), (list)"<", []);
+                    string loc_pos = "<" + llList2String(loc_parts, 1);
+                    string loc_rot = "<" + llList2String(loc_parts, 2);
+                    if (loc_command == LslUserScript | "P:" + loc_command == LslUserScript)
+                    {
+                        M = O = Q = (vector)loc_pos;
+                        N = P = R = (vector)loc_rot;
+                    }
+                    llMessageLinked(((integer)-4), 90301, (string)edefaultstate_entry, loc_command + "|" + loc_pos + "|" + loc_rot);
+                }
+                else
+                {
+                    loc_part0 = llGetSubString(loc_part0, 0, 22);
+                    if (loc_command == "SEQUENCE")
+                    {
+                        loc_command = "BUTTON";
+                        loc_part1 = "90210";
+                    }
+                    if (loc_command == "POSE" | loc_command == "SYNC" | loc_command == "MENU" | loc_command == "TOMENU" | loc_command == "BUTTON")
+                    {
+                        if (!(loc_command == "SYNC"))
+                        {
+                            loc_part0 = llGetSubString(loc_command, 0, 0) + ":" + loc_part0;
+                        }
+                        if (loc_command == "MENU" | loc_command == "TOMENU")
+                        {
+                            loc_part0 = loc_part0 + "*";
+                        }
+                        if (loc_command == "POSE" | loc_command == "SYNC")
+                        {
+                            if (LslUserScript == "")
+                            {
+                                LslUserScript = UThread = loc_part0;
+                                edefaulttouch_end = gF = loc_part1;
+                            }
+                            if (llList2String(loc_parts, ((integer)-1)) == "M")
+                            {
+                                System = loc_part0;
+                                LslLibrary = loc_part1;
+                            }
+                            else if (llList2String(loc_parts, ((integer)-1)) == "F")
+                            {
+                                gH = loc_part0;
+                                gI = loc_part1;
+                            }
+                        }
+                        if (loc_part0 == "B:")
+                            loc_part0 = "B: ";
+                        if (loc_command == "BUTTON" & loc_part1 == "")
+                        {
+                            loc_part1 = "90200";
+                        }
+                        llMessageLinked(((integer)-4), 90300, (string)edefaultstate_entry, loc_part0 + "|" + loc_part1);
+                    }
+                }
+            }
+        }
+        if (llGetLinkPrimitiveParams == b)
+        {
+            a = (integer)llGetStatus;
+        }
+    }
+}

@@ -1,0 +1,655 @@
+◆MTYPE 3
+[11:48] (DAS) Palain: ◆
+[11:48] (DAS) Palain: ◆SITTER 0|
+[11:48] (DAS) Palain: ◆POSE Home Skip|homeskip
+[11:48] (DAS) Palain: ◆TOMENU SYSTEM
+[11:48] (DAS) Palain: ◆TOMENU SINGLE
+[11:48] (DAS) Palain: ◆TOMENU COUPLE
+[11:48] (DAS) Palain: ◆MENU SINGLE
+[11:48] (DAS) Palain: ◆TOMENU COCKPIT
+[11:48] (DAS) Palain: ◆TOMENU ONDECK
+[11:48] (DAS) Palain: ◆TOMENU ACTIVE
+[11:48] (DAS) Palain: ◆TOMENU INTERIOR
+[11:48] (DAS) Palain: ◆TOMENU BEDROOM
+[11:48] (DAS) Palain: ◆MENU COCKPIT
+[11:48] (DAS) Palain: ◆POSE Lounge 1|Armchair 1
+[11:48] (DAS) Palain: ◆POSE Lounge 2|Armchair 2
+[11:48] (DAS) Palain: ◆POSE Lounge 3|Armchair 4
+[11:48] (DAS) Palain: ◆POSE Lounge 4|Armchair 5
+[11:48] (DAS) Palain: ◆POSE Seat 1F|Cap 1 F
+[11:48] (DAS) Palain: ◆POSE Seat 1M|Cap 1 M
+[11:48] (DAS) Palain: ◆POSE Seat 2F|Cap 3 F
+[11:48] (DAS) Palain: ◆POSE Seat 2M|Cap 2 M
+[11:48] (DAS) Palain: ◆POSE Stand 1|Stand f
+[11:48] (DAS) Palain: ◆POSE Stand 2|Stand m
+[11:48] (DAS) Palain: ◆MENU ONDECK
+[11:48] (DAS) Palain: ◆POSE Lay 1|Lay Flat 1 M
+[11:48] (DAS) Palain: ◆POSE Lay 2|Lay Flat 2 M
+[11:48] (DAS) Palain: ◆POSE Lay 3|Lay Sit F
+[11:48] (DAS) Palain: ◆POSE Lay 4|Lay Sit M
+[11:48] (DAS) Palain: ◆POSE Tan 1|tan 1
+[11:48] (DAS) Palain: ◆POSE Tan 2|tan 2
+[11:48] (DAS) Palain: ◆POSE Tan 3|tan 3
+[11:48] (DAS) Palain: ◆POSE Tan 4|tan 4
+[11:48] (DAS) Palain: ◆POSE Side 1|onside_f02
+[11:48] (DAS) Palain: ◆POSE Side 2|onside_m02
+[11:48] (DAS) Palain: ◆POSE Stand 3|Stand lean
+[11:48] (DAS) Palain: ◆POSE Back 1|Side 1
+[11:48] (DAS) Palain: ◆POSE Back 2|Side 3
+[11:48] (DAS) Palain: ◆MENU ACTIVE
+[11:48] (DAS) Palain: ◆POSE Yoga 1|myYoga 3
+[11:48] (DAS) Palain: ◆POSE Yoga 2|myYoga 4
+[11:48] (DAS) Palain: ◆POSE Dance 1|dance 1
+[11:48] (DAS) Palain: ◆POSE Dance 2|dance 2
+[11:48] (DAS) Palain: ◆POSE Dance 3|dance slow
+[11:48] (DAS) Palain: ◆POSE Wobble|miscdrink
+[11:48] (DAS) Palain: ◆POSE Swim 1|swim
+[11:48] (DAS) Palain: ◆POSE Swim 2|swim
+[11:48] (DAS) Palain: ◆POSE Float|float
+[11:48] (DAS) Palain: ◆MENU INTERIOR
+[11:48] (DAS) Palain: ◆POSE Dinner 1|Dinner Cards
+[11:48] (DAS) Palain: ◆POSE Dinner 2|Dinner F
+[11:48] (DAS) Palain: ◆POSE Dinner 3|Dinner M
+[11:48] (DAS) Palain: ◆POSE Dinner 4|Dinner Ponder
+[11:48] (DAS) Palain: ◆POSE Kitchen 1|kitchen bake
+[11:48] (DAS) Palain: ◆POSE Kitchen 2|kitchen dishes
+[11:48] (DAS) Palain: ◆POSE Desk 1|office dictate
+[11:48] (DAS) Palain: ◆POSE Desk 2|office laptop
+[11:48] (DAS) Palain: ◆MENU BEDROOM
+[11:48] (DAS) Palain: ◆POSE Bed F|sidebed f
+[11:48] (DAS) Palain: ◆POSE Bed M|sidebed m
+[11:48] (DAS) Palain: ◆POSE Sleep 1|Sleep 1
+[11:48] (DAS) Palain: ◆POSE Sleep 2|Sleep 2
+[11:48] (DAS) Palain: ◆POSE Sleep 3|Sleep 3
+[11:48] (DAS) Palain: ◆POSE Sleep 4|Sleep 4
+[11:48] (DAS) Palain: ◆POSE Shower 1|shower
+[11:48] (DAS) Palain: ◆POSE Shower 2|shower bath
+[11:48] (DAS) Palain: ◆POSE Shower 3|showerwash
+[11:48] (DAS) Palain: ◆POSE Toilet 1|toilet F
+[11:48] (DAS) Palain: ◆POSE Toilet 2|toilet M
+[11:48] (DAS) Palain: ◆MENU COUPLE
+[11:48] (DAS) Palain: ◆TOMENU CUDDLE
+[11:48] (DAS) Palain: ◆TOMENU ADULT
+[11:48] (DAS) Palain: ◆MENU CUDDLE
+[11:48] (DAS) Palain: ◆SYNC Cuddle 1|X Cuddle Flat 1
+[11:48] (DAS) Palain: ◆SYNC Cuddle 2|X Cuddle Flat 4
+[11:48] (DAS) Palain: ◆SYNC Cuddle 3|X Cuddle Flat 5
+[11:48] (DAS) Palain: ◆SYNC Cuddle 4|X Cuddle Finger
+[11:48] (DAS) Palain: ◆SYNC Cuddle 5|X Cuddle Dance
+[11:48] (DAS) Palain: ◆SYNC Cuddle 6|X Cuddle Lotion
+[11:48] (DAS) Palain: ◆MENU ADULT
+[11:48] (DAS) Palain: ◆SYNC Blow 1|DBbj M8
+[11:48] (DAS) Palain: ◆SYNC Blow 2|DBbj M3
+[11:48] (DAS) Palain: ◆SYNC Blow 3|DBbj M5
+[11:48] (DAS) Palain: ◆SYNC Blow 4|DBbj M6
+[11:48] (DAS) Palain: ◆SYNC Lick 1|DBlk M8
+[11:48] (DAS) Palain: ◆SYNC Lick 2|DBlk M4
+[11:48] (DAS) Palain: ◆SYNC Lick 3|DBlk M5
+[11:48] (DAS) Palain: ◆SYNC Lick 4|DBlk M7
+[11:48] (DAS) Palain: ◆SYNC Face 1|DBF M1
+[11:48] (DAS) Palain: ◆SYNC Face 2|DBF M2
+[11:48] (DAS) Palain: ◆SYNC Face 3|DBF M5
+[11:48] (DAS) Palain: ◆SYNC Face 4|DBF M7
+[11:48] (DAS) Palain: ◆SYNC Face 5|BeachTa M8
+[11:48] (DAS) Palain: ◆SYNC Ride 1|DBR M1
+[11:48] (DAS) Palain: ◆SYNC Ride 2|DBR M3
+[11:48] (DAS) Palain: ◆SYNC Ride 3|DBR M4
+[11:48] (DAS) Palain: ◆SYNC Ride 4|DBR M7
+[11:48] (DAS) Palain: ◆SYNC Ride 5|DBR M8
+[11:48] (DAS) Palain: ◆SYNC Dog 1|DBBk M1
+[11:48] (DAS) Palain: ◆SYNC Dog 2|DBBk M4
+[11:48] (DAS) Palain: ◆SYNC Dog 3|DBBk M6
+[11:48] (DAS) Palain: ◆SYNC Dog 4|DBBk M7
+[11:48] (DAS) Palain: ◆SYNC Dog 5|DBBk M8
+[11:48] (DAS) Palain: ◆SYNC Dog 6|BeachTa M4
+[11:48] (DAS) Palain: ◆MENU SYSTEM
+[11:48] (DAS) Palain: ◆POSE helmleft|helmleft
+[11:48] (DAS) Palain: ◆POSE helmleftleft|helmleftleft
+[11:48] (DAS) Palain: ◆POSE helmleftright|helmleftright
+[11:48] (DAS) Palain: ◆POSE helmright|helmright
+[11:48] (DAS) Palain: ◆POSE helmrightleft|helmrightleft
+[11:48] (DAS) Palain: ◆POSE helmrightright|helmrightright
+[11:48] (DAS) Palain: ◆POSE helm20left|helm20left
+[11:48] (DAS) Palain: ◆POSE helm20leftleft|helm20leftleft
+[11:48] (DAS) Palain: ◆POSE helm20leftright|helm20leftright
+[11:48] (DAS) Palain: ◆POSE helm20right|helm20right
+[11:48] (DAS) Palain: ◆POSE helm20rightleft|helm20rightleft
+[11:48] (DAS) Palain: ◆POSE helm20rightright|helm20rightright
+[11:48] (DAS) Palain: ◆POSE helmthrottle|helmthrottle
+[11:48] (DAS) Palain: ◆POSE hoistmainhelm|hoistmain
+[11:48] (DAS) Palain: ◆POSE hoistspinhelm|hoistspin
+[11:48] (DAS) Palain: ◆POSE lowermainhelm|lowermain
+[11:48] (DAS) Palain: ◆POSE pulllefthelm|pullleft
+[11:48] (DAS) Palain: ◆POSE pullrighthelm|pullright
+[11:48] (DAS) Palain: ◆POSE trimlefthelm|trimleft
+[11:48] (DAS) Palain: ◆POSE trimrighthelm|trimright
+[11:48] (DAS) Palain: ◆{Home Skip}<-4.403030, -1.167040, 1.687990><0.000000, 0.000000, 0.000000>
+[11:48] (DAS) Palain: ◆{Lounge 1}<-6.518300, -1.017420, 1.663090><0.000000, 0.000000, 32.500130>
+[11:48] (DAS) Palain: ◆{Lounge 2}<-6.628450, 0.910120, 1.743900><0.000000, 0.000000, -51.502800>
+[11:48] (DAS) Palain: ◆{Lounge 3}<-4.479430, 1.130100, 1.917240><8.964070, -0.806760, -88.101440>
+[11:48] (DAS) Palain: ◆{Lounge 4}<-4.372730, -1.263010, 1.916990><0.859400, 1.274280, 100.000700>
+[11:48] (DAS) Palain: ◆{Seat 1F}<-4.372700, -1.020890, 2.170900><11.859400, 1.274280, 100.000700>
+[11:48] (DAS) Palain: ◆{Seat 1M}<-4.372700, -1.440230, 1.804200><11.858780, 1.274360, 100.001000>
+[11:48] (DAS) Palain: ◆{Seat 2F}<-4.372700, 1.377490, 1.803960><-13.186210, 3.920870, -106.054500>
+[11:48] (DAS) Palain: ◆{Seat 2M}<-4.364380, 1.377490, 1.803960><-15.581550, -1.708830, -85.811170>
+[11:48] (DAS) Palain: ◆{Stand 1}<-3.905780, -0.413050, 2.206060><0.000000, 0.000000, 118.125000>
+[11:48] (DAS) Palain: ◆{Stand 2}<-3.905810, 0.514540, 2.220460><0.000000, 0.000000, -143.125000>
+[11:48] (DAS) Palain: ◆{Lay 1}<4.073840, -0.041730, 2.228030><0.000000, 3.000000, -16.000000>
+[11:48] (DAS) Palain: ◆{Lay 2}<4.345870, -0.532370, 2.567870><-0.000010, 0.000000, 180.000000>
+[11:48] (DAS) Palain: ◆{Lay 3}<0.566500, -0.881210, 2.666990><12.000000, 0.000000, 180.000000>
+[11:48] (DAS) Palain: ◆{Lay 4}<0.566500, 0.732070, 2.754640><-0.000020, 0.000000, 180.000000>
+[11:48] (DAS) Palain: ◆{Tan 1}<-0.637950, 1.049160, 3.333740><-7.000000, 0.000000, 0.000000>
+[11:48] (DAS) Palain: ◆{Tan 2}<-0.638000, -0.104190, 2.388430><-0.002310, -0.000010, -90.002620>
+[11:48] (DAS) Palain: ◆{Tan 3}<-0.906920, -0.945200, 2.871340><1.999680, -0.002290, -8.002630>
+[11:48] (DAS) Palain: ◆{Tan 4}<4.293140, -0.129020, 2.533450><2.004560, 3.995270, -8.142430>
+[11:48] (DAS) Palain: ◆{Side 1}<5.971310, 0.985330, 2.088380><-8.021490, 3.958090, 68.055800>
+[11:48] (DAS) Palain: ◆{Side 2}<5.971300, -1.165930, 2.220700><8.826420, 5.598140, -75.939730>
+[11:48] (DAS) Palain: ◆{Stand 3}<1.637480, -0.279480, 3.317870><0.000000, 0.000000, -143.125100>
+[11:48] (DAS) Palain: ◆{Back 1}<-7.446640, -0.512080, 1.085940><0.000000, 0.000000, -151.875000>
+[11:48] (DAS) Palain: ◆{Back 2}<-7.313150, 0.429030, 1.120850><0.000000, 0.000000, 150.127200>
+[11:48] (DAS) Palain: ◆{Yoga 1}<0.177150, 0.989560, 3.278080><0.000000, 0.000000, 0.000000>
+[11:48] (DAS) Palain: ◆{Yoga 2}<-0.352430, -0.869400, 3.414310><0.000000, 0.000000, 0.000000>
+[11:48] (DAS) Palain: ◆{Dance 1}<-0.452040, 0.792070, 3.329830><0.001820, -0.000130, 90.000000>
+[11:48] (DAS) Palain: ◆{Dance 2}<-0.452000, -0.783030, 3.375000><0.000000, 0.000000, -90.000010>
+[11:48] (DAS) Palain: ◆{Dance 3}<4.790960, 0.135260, 3.293210><0.000000, 0.000000, -90.000000>
+[11:48] (DAS) Palain: ◆{Wobble}<3.686310, -0.066740, 3.241940><-0.000010, 0.000000, -0.000010>
+[11:48] (DAS) Palain: ◆{Swim 1}<-9.444350, 1.236660, 0.266360><0.000000, 0.000000, -52.000010>
+[11:48] (DAS) Palain: ◆{Swim 2}<-8.296780, -0.110050, 0.266110><0.000000, 0.000000, 84.375000>
+[11:48] (DAS) Palain: ◆{Float}<-8.732420, -1.465890, -0.105220><0.000000, 0.000000, 90.000000>
+[11:48] (DAS) Palain: ◆{Dinner 1}<0.025710, 0.225600, 1.268560><0.000000, 0.000000, -90.000000>
+[11:48] (DAS) Palain: ◆{Dinner 2}<0.870740, -0.903510, 0.712160><0.000000, 0.000000, 162.000100>
+[11:48] (DAS) Palain: ◆{Dinner 3}<0.262070, -1.361570, 0.753910><0.000000, 0.000000, 90.000000>
+[11:48] (DAS) Palain: ◆{Dinner 4}<-0.397610, -1.465890, 0.722170><0.000000, 0.000000, 90.000000>
+[11:48] (DAS) Palain: ◆{Kitchen 1}<-0.529630, 0.842830, 1.160400><0.000000, 0.000000, 90.000000>
+[11:48] (DAS) Palain: ◆{Kitchen 2}<0.371800, 0.842830, 1.159910><0.000000, 0.000000, 67.000010>
+[11:48] (DAS) Palain: ◆{Desk 1}<-1.502400, -1.081680, 0.965820><3.504060, -10.026370, 64.297420>
+[11:48] (DAS) Palain: ◆{Desk 2}<-0.894840, -1.363130, 0.966060><0.000000, 0.000000, 180.000000>
+[11:48] (DAS) Palain: ◆{Bed F}<4.831770, 0.911700, 1.040770><0.000000, 0.000000, 180.000000>
+[11:48] (DAS) Palain: ◆{Bed M}<4.831800, -0.812810, 1.041020><0.000000, 0.000000, 180.000000>
+[11:48] (DAS) Palain: ◆{Sleep 1}<-4.708310, 1.264900, 1.145750><11.000000, 0.000000, -90.000010>
+[11:48] (DAS) Palain: ◆{Sleep 2}<4.537610, -0.413050, 1.221920><0.000000, 0.000000, 0.000000>
+[11:48] (DAS) Palain: ◆{Sleep 3}<4.350100, 0.446130, 1.222410><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{Sleep 4}<-4.859620, -1.016660, 1.338620><0.000000, 0.000000, 90.000000>
+[11:48] (DAS) Palain: ◆{Shower 1}<1.649600, -0.836950, 1.199220><0.000000, 0.000000, -17.071870>
+[11:48] (DAS) Palain: ◆{Shower 2}<-2.894880, -1.827380, 1.503420><0.000000, 0.000000, 55.999990>
+[11:48] (DAS) Palain: ◆{Shower 3}<-2.494290, 1.358860, 1.120850><0.000000, 0.000000, -62.071880>
+[11:48] (DAS) Palain: ◆{Toilet 1}<-2.844990, -1.655220, 0.989500><0.000000, 0.000000, 58.000720>
+[11:48] (DAS) Palain: ◆{Toilet 2}<-2.530230, 1.372780, 1.154790><0.000000, 0.000000, 44.999990>
+[11:48] (DAS) Palain: ◆{Cuddle 1}<-0.273290, -0.183040, 2.795770><0.000000, 0.000000, -32.852330>
+[11:48] (DAS) Palain: ◆{Cuddle 2}<-0.648430, 0.205860, 2.801200><0.000000, 0.000000, -26.609320>
+[11:48] (DAS) Palain: ◆{Cuddle 3}<-0.712450, -0.011570, 2.820050><-2.000300, 0.999390, 60.028920>
+[11:48] (DAS) Palain: ◆{Cuddle 4}<-0.464140, -0.234450, 2.853100><-2.995890, 0.004110, -66.012030>
+[11:48] (DAS) Palain: ◆{Cuddle 5}<-0.337490, -0.626710, 3.471760><-0.882910, 0.429410, -137.055000>
+[11:48] (DAS) Palain: ◆{Cuddle 6}<-0.171250, 0.017240, 2.796940><0.000000, 0.000000, -143.872700>
+[11:48] (DAS) Palain: ◆{Blow 1}<-0.572580, 0.125790, 2.533720><0.000000, 0.000000, 2.014180>
+[11:48] (DAS) Palain: ◆{Blow 2}<-0.444790, 0.096250, 2.564090><0.000000, 0.000000, -68.300870>
+[11:48] (DAS) Palain: ◆{Blow 3}<-0.681250, 0.243850, 2.521250><0.000000, 0.000000, -90.000000>
+[11:48] (DAS) Palain: ◆{Blow 4}<-0.683620, -0.139650, 2.560840><0.000000, 0.000000, -45.048680>
+[11:48] (DAS) Palain: ◆{Lick 1}<-0.425450, 0.250550, 2.557200><0.000000, 0.000000, -45.048680>
+[11:48] (DAS) Palain: ◆{Lick 2}<-0.635770, -0.076640, 2.549400><0.000000, 0.000000, -62.048690>
+[11:48] (DAS) Palain: ◆{Lick 3}<-0.672970, -0.013240, 2.557870><0.000000, 0.000000, -45.048680>
+[11:48] (DAS) Palain: ◆{Lick 4}<-0.777710, -0.019940, 2.563870><0.000000, 0.000000, -45.048680>
+[11:48] (DAS) Palain: ◆{Face 1}<-0.501450, -0.302150, 2.533300><0.000000, 0.000000, -48.003390>
+[11:48] (DAS) Palain: ◆{Face 2}<-0.247990, -0.513350, 2.540950><0.000000, 0.000000, -45.048680>
+[11:48] (DAS) Palain: ◆{Face 3}<-0.525440, -0.292250, 2.512180><6.017380, 3.972830, -45.471970>
+[11:48] (DAS) Palain: ◆{Face 4}<-0.718110, -0.177050, 2.619830><0.000000, 0.000000, -45.048680>
+[11:48] (DAS) Palain: ◆{Face 5}<-0.426000, -0.255750, 2.807620><-2.134910, 3.929680, 136.956200>
+[11:48] (DAS) Palain: ◆{Ride 1}<-0.463210, -0.199160, 2.558540><0.000000, 0.000000, -45.048680>
+[11:48] (DAS) Palain: ◆{Ride 2}<-0.489380, -0.069410, 2.593600><0.000000, 0.000000, -33.003590>
+[11:48] (DAS) Palain: ◆{Ride 3}<-0.564350, -0.352360, 2.599070><0.000000, 0.000000, -45.048680>
+[11:48] (DAS) Palain: ◆{Ride 4}<-0.317850, -0.388750, 2.581800><0.000000, 0.000000, -45.048680>
+[11:48] (DAS) Palain: ◆{Ride 5}<-0.461510, -0.178250, 2.553940><0.000000, 0.000000, -45.048680>
+[11:48] (DAS) Palain: ◆{Dog 1}<-0.496120, -0.322770, 2.577570><0.000000, 0.000000, -40.002470>
+[11:48] (DAS) Palain: ◆{Dog 2}<-0.482700, -0.521420, 2.568010><0.000000, 0.000000, -37.002110>
+[11:48] (DAS) Palain: ◆{Dog 3}<-0.551670, -0.291050, 2.566570><0.000000, 0.000000, -45.048680>
+[11:48] (DAS) Palain: ◆{Dog 4}<-0.720850, -0.384450, 2.579030><0.000000, 0.000000, -45.048680>
+[11:48] (DAS) Palain: ◆{Dog 5}<-0.745620, -0.016360, 2.567590><0.000000, 0.000000, -45.048680>
+[11:48] (DAS) Palain: ◆{Dog 6}<-0.472210, -0.344150, 2.717160><0.000000, 0.000000, 136.953900>
+[11:48] (DAS) Palain: ◆{helmleft}<-6.158430, -0.001910, 2.368650><0.000000, 0.000000, 0.000000>
+[11:48] (DAS) Palain: ◆{helmleftleft}<-6.158430, -0.001910, 2.368650><0.000000, 0.000000, 0.000000>
+[11:48] (DAS) Palain: ◆{helmleftright}<-6.158430, -0.001910, 2.368650><0.000000, 0.000000, 0.000000>
+[11:48] (DAS) Palain: ◆{helmright}<-6.158430, -0.001910, 2.368650><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{helmrightleft}<-6.158430, -0.001910, 2.368650><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{helmrightright}<-6.158430, -0.001910, 2.368650><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{helm20left}<-6.158430, -0.001910, 2.368650><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{helm20leftleft}<-6.158430, -0.001910, 2.368650><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{helm20leftright}<-6.158430, -0.001910, 2.368650><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{helm20right}<-6.158430, -0.001910, 2.368650><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{helm20rightleft}<-6.158430, -0.001910, 2.368650><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{helm20rightright}<-6.158430, -0.001910, 2.368650><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{helmthrottle}<-6.158430, -0.001910, 2.368650><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{hoistmainhelm}<-4.263490, 0.441930, 2.304200><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{hoistspinhelm}<1.158890, 0.739220, 3.257080><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{lowermainhelm}<-4.131170, -0.319730, 2.292970><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{pulllefthelm}<-4.525700, 0.923390, 2.035400><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{pullrighthelm}<-4.525700, -0.897290, 2.034910><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{trimlefthelm}<-4.377590, 0.974220, 2.034910><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{trimrighthelm}<-4.377590, -0.921650, 2.034910><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆
+[11:49] (DAS) Palain: ◆SITTER 1|
+[11:49] (DAS) Palain: ◆POSE Home Crew|homecrew
+[11:49] (DAS) Palain: ◆TOMENU SYSTEM
+[11:49] (DAS) Palain: ◆TOMENU SINGLE
+[11:49] (DAS) Palain: ◆TOMENU COUPLE
+[11:49] (DAS) Palain: ◆MENU SINGLE
+[11:49] (DAS) Palain: ◆TOMENU COCKPIT
+[11:49] (DAS) Palain: ◆TOMENU ONDECK
+[11:49] (DAS) Palain: ◆TOMENU ACTIVE
+[11:49] (DAS) Palain: ◆TOMENU INTERIOR
+[11:49] (DAS) Palain: ◆TOMENU BEDROOM
+[11:49] (DAS) Palain: ◆MENU COCKPIT
+[11:49] (DAS) Palain: ◆POSE Lounge 1|Armchair 1
+[11:49] (DAS) Palain: ◆POSE Lounge 2|Armchair 2
+[11:49] (DAS) Palain: ◆POSE Lounge 3|Armchair 4
+[11:49] (DAS) Palain: ◆POSE Lounge 4|Armchair 5
+[11:49] (DAS) Palain: ◆POSE Seat 1F|Cap 1 F
+[11:49] (DAS) Palain: ◆POSE Seat 1M|Cap 1 M
+[11:49] (DAS) Palain: ◆POSE Seat 2F|Cap 3 F
+[11:49] (DAS) Palain: ◆POSE Seat 2M|Cap 2 M
+[11:49] (DAS) Palain: ◆POSE Stand 1|Stand f
+[11:49] (DAS) Palain: ◆POSE Stand 2|Stand m
+[11:49] (DAS) Palain: ◆MENU ONDECK
+[11:49] (DAS) Palain: ◆POSE Lay 1|Lay Flat 1 M
+[11:49] (DAS) Palain: ◆POSE Lay 2|Lay Flat 2 M
+[11:49] (DAS) Palain: ◆POSE Lay 3|Lay Sit F
+[11:49] (DAS) Palain: ◆POSE Lay 4|Lay Sit M
+[11:49] (DAS) Palain: ◆POSE Tan 1|tan 1
+[11:49] (DAS) Palain: ◆POSE Tan 2|tan 2
+[11:49] (DAS) Palain: ◆POSE Tan 3|tan 3
+[11:49] (DAS) Palain: ◆POSE Tan 4|tan 4
+[11:49] (DAS) Palain: ◆POSE Side 1|onside_f02
+[11:49] (DAS) Palain: ◆POSE Side 2|onside_m02
+[11:49] (DAS) Palain: ◆POSE Stand 3|Stand lean
+[11:48] (DAS) Palain: ◆POSE Back 1|Side 1
+[11:48] (DAS) Palain: ◆POSE Back 2|Side 3
+[11:49] (DAS) Palain: ◆MENU ACTIVE
+[11:49] (DAS) Palain: ◆POSE Yoga 1|myYoga 3
+[11:49] (DAS) Palain: ◆POSE Yoga 2|myYoga 4
+[11:49] (DAS) Palain: ◆POSE Dance 1|dance 1
+[11:49] (DAS) Palain: ◆POSE Dance 2|dance 2
+[11:49] (DAS) Palain: ◆POSE Dance 3|dance slow
+[11:49] (DAS) Palain: ◆POSE Wobble|miscdrink
+[11:49] (DAS) Palain: ◆POSE Swim 1|swim
+[11:49] (DAS) Palain: ◆POSE Swim 2|swim
+[11:49] (DAS) Palain: ◆POSE Float|float
+[11:49] (DAS) Palain: ◆MENU INTERIOR
+[11:49] (DAS) Palain: ◆POSE Dinner 1|Dinner Cards
+[11:49] (DAS) Palain: ◆POSE Dinner 2|Dinner F
+[11:49] (DAS) Palain: ◆POSE Dinner 3|Dinner M
+[11:49] (DAS) Palain: ◆POSE Dinner 4|Dinner Ponder
+[11:49] (DAS) Palain: ◆POSE Kitchen 1|kitchen bake
+[11:49] (DAS) Palain: ◆POSE Kitchen 2|kitchen dishes
+[11:49] (DAS) Palain: ◆POSE Desk 1|office dictate
+[11:49] (DAS) Palain: ◆POSE Desk 2|office laptop
+[11:49] (DAS) Palain: ◆MENU BEDROOM
+[11:49] (DAS) Palain: ◆POSE Bed F|sidebed f
+[11:49] (DAS) Palain: ◆POSE Bed M|sidebed m
+[11:49] (DAS) Palain: ◆POSE Sleep 1|Sleep 1
+[11:49] (DAS) Palain: ◆POSE Sleep 2|Sleep 2
+[11:49] (DAS) Palain: ◆POSE Sleep 3|Sleep 3
+[11:48] (DAS) Palain: ◆POSE Sleep 4|Sleep 4
+[11:49] (DAS) Palain: ◆POSE Shower 1|shower
+[11:49] (DAS) Palain: ◆POSE Shower 2|shower bath
+[11:49] (DAS) Palain: ◆POSE Shower 3|showerwash
+[11:49] (DAS) Palain: ◆POSE Toilet 1|toilet F
+[11:49] (DAS) Palain: ◆POSE Toilet 2|toilet M
+[11:49] (DAS) Palain: ◆MENU COUPLE
+[11:49] (DAS) Palain: ◆TOMENU CUDDLE
+[11:49] (DAS) Palain: ◆TOMENU ADULT
+[11:49] (DAS) Palain: ◆MENU CUDDLE
+[11:49] (DAS) Palain: ◆SYNC Cuddle 1|Y Cuddle Flat 1
+[11:49] (DAS) Palain: ◆SYNC Cuddle 2|Y Cuddle Flat 4
+[11:49] (DAS) Palain: ◆SYNC Cuddle 3|Y Cuddle Flat 5
+[11:49] (DAS) Palain: ◆SYNC Cuddle 4|Y Cuddle Finger
+[11:49] (DAS) Palain: ◆SYNC Cuddle 5|Y Cuddle Dance
+[11:49] (DAS) Palain: ◆SYNC Cuddle 6|Y Cuddle Lotion
+[11:49] (DAS) Palain: ◆MENU ADULT
+[11:49] (DAS) Palain: ◆SYNC Blow 1|DBbj F8
+[11:49] (DAS) Palain: ◆SYNC Blow 2|DBbj F3
+[11:49] (DAS) Palain: ◆SYNC Blow 3|DBbj F5
+[11:49] (DAS) Palain: ◆SYNC Blow 4|DBbj F6
+[11:49] (DAS) Palain: ◆SYNC Lick 1|DBlk F8
+[11:49] (DAS) Palain: ◆SYNC Lick 2|DBlk F4
+[11:49] (DAS) Palain: ◆SYNC Lick 3|DBlk F5
+[11:49] (DAS) Palain: ◆SYNC Lick 4|DBlk F7
+[11:49] (DAS) Palain: ◆SYNC Face 1|DBF F1
+[11:49] (DAS) Palain: ◆SYNC Face 2|DBF F2
+[11:49] (DAS) Palain: ◆SYNC Face 3|DBF F5
+[11:49] (DAS) Palain: ◆SYNC Face 4|DBF F7
+[11:49] (DAS) Palain: ◆SYNC Face 5|BeachTa F8
+[11:49] (DAS) Palain: ◆SYNC Ride 1|DBR F1
+[11:49] (DAS) Palain: ◆SYNC Ride 2|DBR F3
+[11:49] (DAS) Palain: ◆SYNC Ride 3|DBR F4
+[11:49] (DAS) Palain: ◆SYNC Ride 4|DBR F7
+[11:49] (DAS) Palain: ◆SYNC Ride 5|DBR F8
+[11:49] (DAS) Palain: ◆SYNC Dog 1|DBBk F1
+[11:49] (DAS) Palain: ◆SYNC Dog 2|DBBk F4
+[11:49] (DAS) Palain: ◆SYNC Dog 3|DBBk F6
+[11:49] (DAS) Palain: ◆SYNC Dog 4|DBBk F7
+[11:49] (DAS) Palain: ◆SYNC Dog 5|DBBk F8
+[11:49] (DAS) Palain: ◆SYNC Dog 6|BeachTa F4
+[11:49] (DAS) Palain: ◆MENU SYSTEM
+[11:49] (DAS) Palain: ◆POSE hoistmaincrew|hoistmain
+[11:49] (DAS) Palain: ◆POSE hoistspincrew|hoistspin
+[11:49] (DAS) Palain: ◆POSE lowermaincrew|lowermain
+[11:49] (DAS) Palain: ◆POSE pullleftcrew|pullleft
+[11:49] (DAS) Palain: ◆POSE pullrightcrew|pullright
+[11:49] (DAS) Palain: ◆POSE trimleftcrew|trimleft
+[11:49] (DAS) Palain: ◆POSE trimrightcrew|trimright
+[11:49] (DAS) Palain: ◆{Home Crew}<-4.465100, 1.160060, 1.658200><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{Lounge 1}<-6.518300, -1.017420, 1.663090><0.000000, 0.000000, 32.500130>
+[11:49] (DAS) Palain: ◆{Lounge 2}<-6.628450, 0.910120, 1.743900><0.000000, 0.000000, -51.502800>
+[11:49] (DAS) Palain: ◆{Lounge 3}<-4.479430, 1.130100, 1.917240><8.964070, -0.806760, -88.101440>
+[11:49] (DAS) Palain: ◆{Lounge 4}<-4.372730, -1.263010, 1.916990><0.859400, 1.274280, 100.000700>
+[11:49] (DAS) Palain: ◆{Seat 1F}<-4.372700, -1.020890, 2.170900><11.859400, 1.274280, 100.000700>
+[11:49] (DAS) Palain: ◆{Seat 1M}<-4.372700, -1.440230, 1.804200><11.858780, 1.274360, 100.001000>
+[11:49] (DAS) Palain: ◆{Seat 2F}<-4.372700, 1.377490, 1.803960><-13.186210, 3.920870, -106.054500>
+[11:49] (DAS) Palain: ◆{Seat 2M}<-4.364380, 1.377490, 1.803960><-15.581550, -1.708830, -85.811170>
+[11:49] (DAS) Palain: ◆{Stand 1}<-3.905780, -0.413050, 2.206060><0.000000, 0.000000, 118.125000>
+[11:49] (DAS) Palain: ◆{Stand 2}<-3.905810, 0.514540, 2.220460><0.000000, 0.000000, -143.125000>
+[11:49] (DAS) Palain: ◆{Lay 1}<4.073840, -0.041730, 2.228030><0.000000, 3.000000, -16.000000>
+[11:49] (DAS) Palain: ◆{Lay 2}<4.345870, -0.532370, 2.567870><-0.000010, 0.000000, 180.000000>
+[11:49] (DAS) Palain: ◆{Lay 3}<0.566500, -0.881210, 2.666990><12.000000, 0.000000, 180.000000>
+[11:49] (DAS) Palain: ◆{Lay 4}<0.566500, 0.732070, 2.754640><-0.000020, 0.000000, 180.000000>
+[11:49] (DAS) Palain: ◆{Tan 1}<-0.637950, 1.049160, 3.333740><-7.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{Tan 2}<-0.638000, -0.104190, 2.388430><-0.002310, -0.000010, -90.002620>
+[11:49] (DAS) Palain: ◆{Tan 3}<-0.906920, -0.945200, 2.871340><1.999680, -0.002290, -8.002630>
+[11:49] (DAS) Palain: ◆{Tan 4}<4.293140, -0.129020, 2.533450><2.004560, 3.995270, -8.142430>
+[11:49] (DAS) Palain: ◆{Side 1}<5.971310, 0.985330, 2.088380><-8.021490, 3.958090, 68.055800>
+[11:49] (DAS) Palain: ◆{Side 2}<5.971300, -1.165930, 2.220700><8.826420, 5.598140, -75.939730>
+[11:49] (DAS) Palain: ◆{Stand 3}<1.637480, -0.279480, 3.317870><0.000000, 0.000000, -143.125100>
+[11:48] (DAS) Palain: ◆{Back 1}<-7.446640, -0.512080, 1.085940><0.000000, 0.000000, -151.875000>
+[11:48] (DAS) Palain: ◆{Back 2}<-7.313150, 0.429030, 1.120850><0.000000, 0.000000, 150.127200>
+[11:49] (DAS) Palain: ◆{Yoga 1}<0.177150, 0.989560, 3.278080><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{Yoga 2}<-0.352430, -0.869400, 3.414310><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{Dance 1}<-0.452040, 0.792070, 3.329830><0.001820, -0.000130, 90.000000>
+[11:49] (DAS) Palain: ◆{Dance 2}<-0.452000, -0.783030, 3.375000><0.000000, 0.000000, -90.000010>
+[11:49] (DAS) Palain: ◆{Dance 3}<4.790960, 0.135260, 3.293210><0.000000, 0.000000, -90.000000>
+[11:49] (DAS) Palain: ◆{Wobble}<3.686310, -0.066740, 3.241940><-0.000010, 0.000000, -0.000010>
+[11:49] (DAS) Palain: ◆{Swim 1}<-9.444350, 1.236660, 0.266360><0.000000, 0.000000, -52.000010>
+[11:49] (DAS) Palain: ◆{Swim 2}<-8.296780, -0.110050, 0.266110><0.000000, 0.000000, 84.375000>
+[11:49] (DAS) Palain: ◆{Float}<-8.732420, -1.465890, -0.105220><0.000000, 0.000000, 90.000000>
+[11:49] (DAS) Palain: ◆{Dinner 1}<0.025710, 0.225600, 1.268560><0.000000, 0.000000, -90.000000>
+[11:49] (DAS) Palain: ◆{Dinner 2}<0.870740, -0.903510, 0.712160><0.000000, 0.000000, 162.000100>
+[11:49] (DAS) Palain: ◆{Dinner 3}<0.262070, -1.361570, 0.753910><0.000000, 0.000000, 90.000000>
+[11:49] (DAS) Palain: ◆{Dinner 4}<-0.397610, -1.465890, 0.722170><0.000000, 0.000000, 90.000000>
+[11:49] (DAS) Palain: ◆{Kitchen 1}<-0.529630, 0.842830, 1.160400><0.000000, 0.000000, 90.000000>
+[11:49] (DAS) Palain: ◆{Kitchen 2}<0.371800, 0.842830, 1.159910><0.000000, 0.000000, 67.000010>
+[11:49] (DAS) Palain: ◆{Desk 1}<-1.502400, -1.081680, 0.965820><3.504060, -10.026370, 64.297420>
+[11:49] (DAS) Palain: ◆{Desk 2}<-0.894840, -1.363130, 0.966060><0.000000, 0.000000, 180.000000>
+[11:49] (DAS) Palain: ◆{Bed F}<4.831770, 0.911700, 1.040770><0.000000, 0.000000, 180.000000>
+[11:49] (DAS) Palain: ◆{Bed M}<4.831800, -0.812810, 1.041020><0.000000, 0.000000, 180.000000>
+[11:49] (DAS) Palain: ◆{Sleep 1}<-4.708310, 1.264900, 1.145750><11.000000, 0.000000, -90.000010>
+[11:49] (DAS) Palain: ◆{Sleep 2}<4.537610, -0.413050, 1.221920><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{Sleep 3}<4.350100, 0.446130, 1.222410><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{Sleep 4}<-4.859620, -1.016660, 1.338620><0.000000, 0.000000, 90.000000>
+[11:49] (DAS) Palain: ◆{Shower 1}<1.649600, -0.836950, 1.199220><0.000000, 0.000000, -17.071870>
+[11:49] (DAS) Palain: ◆{Shower 2}<-2.894880, -1.827380, 1.503420><0.000000, 0.000000, 55.999990>
+[11:49] (DAS) Palain: ◆{Shower 3}<-2.494290, 1.358860, 1.120850><0.000000, 0.000000, -62.071880>
+[11:49] (DAS) Palain: ◆{Toilet 1}<-2.844990, -1.655220, 0.989500><0.000000, 0.000000, 58.000720>
+[11:49] (DAS) Palain: ◆{Toilet 2}<-2.530230, 1.372780, 1.154790><0.000000, 0.000000, 44.999990>
+[11:49] (DAS) Palain: ◆{Cuddle 1}<-0.253270, -0.196050, 2.795770><0.000000, 0.000000, -32.852330>
+[11:49] (DAS) Palain: ◆{Cuddle 2}<-0.671200, 0.207550, 2.794240><0.000000, 0.000000, -26.609320>
+[11:49] (DAS) Palain: ◆{Cuddle 3}<-0.713070, -0.013000, 2.770570><-2.000300, 0.999390, 60.028920>
+[11:49] (DAS) Palain: ◆{Cuddle 4}<-0.454510, -0.261510, 2.754400><-2.995890, 0.004110, -66.012030>
+[11:49] (DAS) Palain: ◆{Cuddle 5}<-0.345270, -0.616500, 3.331740><-0.880960, 0.429400, -127.055400>
+[11:49] (DAS) Palain: ◆{Cuddle 6}<-0.173060, 0.020160, 2.765930><0.000000, 0.000000, -143.872700>
+[11:49] (DAS) Palain: ◆{Blow 1}<-0.206730, 0.138730, 2.508690><0.000000, 0.000000, -177.974800>
+[11:49] (DAS) Palain: ◆{Blow 2}<-0.309370, -0.243740, 2.564090><0.000000, 0.000000, 111.701400>
+[11:49] (DAS) Palain: ◆{Blow 3}<-0.681180, -0.122150, 2.521250><0.000000, 0.000000, 90.000010>
+[11:49] (DAS) Palain: ◆{Blow 4}<-0.425020, -0.398540, 2.577000><0.000000, 0.000000, 134.952400>
+[11:49] (DAS) Palain: ◆{Lick 1}<-0.166790, -0.008350, 2.557200><0.000000, 0.000000, 134.946300>
+[11:49] (DAS) Palain: ◆{Lick 2}<-0.464170, -0.399950, 2.549400><0.000000, 0.000000, 117.950100>
+[11:49] (DAS) Palain: ◆{Lick 3}<-0.320640, -0.350850, 2.507870><0.000000, 0.000000, 134.951300>
+[11:49] (DAS) Palain: ◆{Lick 4}<-0.446710, -0.278850, 2.563870><0.000000, 0.000000, 134.953900>
+[11:49] (DAS) Palain: ◆{Face 1}<-0.256530, -0.574050, 2.533300><0.000000, 0.000000, 131.999200>
+[11:49] (DAS) Palain: ◆{Face 2}<0.010670, -0.772450, 2.540950><0.000000, 0.000000, 134.951300>
+[11:49] (DAS) Palain: ◆{Face 3}<-0.269310, -0.549850, 2.467140><6.017360, 3.972940, 134.529500>
+[11:49] (DAS) Palain: ◆{Face 4}<-0.459460, -0.436050, 2.619830><0.000000, 0.000000, 134.954900>
+[11:49] (DAS) Palain: ◆{Face 5}<-0.545180, -0.182560, 2.571660><0.005660, 5.999680, -45.053530>
+[11:49] (DAS) Palain: ◆{Ride 1}<-0.204590, -0.458050, 2.600310><0.000000, 0.000000, 134.952400>
+[11:49] (DAS) Palain: ◆{Ride 2}<-0.182370, -0.268620, 2.593600><0.000000, 0.000000, 146.999000>
+[11:49] (DAS) Palain: ◆{Ride 3}<-0.305720, -0.611250, 2.520330><0.000000, 0.000000, 134.948700>
+[11:49] (DAS) Palain: ◆{Ride 4}<-0.059260, -0.647750, 2.499890><0.000000, 0.000000, 134.952400>
+[11:49] (DAS) Palain: ◆{Ride 5}<-0.202830, -0.437260, 2.553940><0.000000, 0.000000, 134.954900>
+[11:49] (DAS) Palain: ◆{Dog 1}<-0.215720, -0.557880, 2.588780><0.000000, 0.000000, 140.000100>
+[11:49] (DAS) Palain: ◆{Dog 2}<-0.190380, -0.741620, 2.607800><0.000000, 0.000000, 143.000500>
+[11:49] (DAS) Palain: ◆{Dog 3}<-0.293000, -0.549960, 2.613560><0.000000, 0.000000, 134.957500>
+[11:49] (DAS) Palain: ◆{Dog 4}<-0.462180, -0.643360, 2.579030><0.000000, 0.000000, 134.953900>
+[11:49] (DAS) Palain: ◆{Dog 5}<-0.486980, -0.275250, 2.595670><0.000000, 0.000000, 134.953900>
+[11:49] (DAS) Palain: ◆{Dog 6}<-0.809680, 0.019940, 2.643070><0.000000, 0.000000, 134.951300>
+[11:49] (DAS) Palain: ◆{hoistmaincrew}<-4.263490, 0.441930, 2.304200><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{hoistspincrew}<1.158890, 0.739220, 3.257080><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{lowermaincrew}<-4.131170, -0.319730, 2.292970><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{pullleftcrew}<-4.525700, 0.923390, 2.035400><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{pullrightcrew}<-4.525700, -0.897290, 2.034910><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{trimleftcrew}<-4.377590, 0.974220, 2.034910><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{trimrightcrew}<-4.377590, -0.921650, 2.034910><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆
+[11:49] (DAS) Palain: ◆SITTER 2|
+[11:49] (DAS) Palain: ◆TOMENU COCKPIT
+[11:49] (DAS) Palain: ◆TOMENU ONDECK
+[11:49] (DAS) Palain: ◆TOMENU ACTIVE
+[11:49] (DAS) Palain: ◆TOMENU INTERIOR
+[11:49] (DAS) Palain: ◆TOMENU BEDROOM
+[11:49] (DAS) Palain: ◆MENU COCKPIT
+[11:49] (DAS) Palain: ◆POSE Lounge 1|Armchair 1
+[11:49] (DAS) Palain: ◆POSE Lounge 2|Armchair 2
+[11:49] (DAS) Palain: ◆POSE Lounge 3|Armchair 4
+[11:49] (DAS) Palain: ◆POSE Lounge 4|Armchair 5
+[11:49] (DAS) Palain: ◆POSE Seat 1F|Cap 1 F
+[11:49] (DAS) Palain: ◆POSE Seat 1M|Cap 1 M
+[11:49] (DAS) Palain: ◆POSE Seat 2F|Cap 3 F
+[11:49] (DAS) Palain: ◆POSE Seat 2M|Cap 2 M
+[11:49] (DAS) Palain: ◆POSE Stand 1|Stand f
+[11:49] (DAS) Palain: ◆POSE Stand 2|Stand m
+[11:49] (DAS) Palain: ◆MENU ONDECK
+[11:49] (DAS) Palain: ◆POSE Lay 1|Lay Flat 1 M
+[11:49] (DAS) Palain: ◆POSE Lay 2|Lay Flat 2 M
+[11:49] (DAS) Palain: ◆POSE Lay 3|Lay Sit F
+[11:49] (DAS) Palain: ◆POSE Lay 4|Lay Sit M
+[11:49] (DAS) Palain: ◆POSE Tan 1|tan 1
+[11:49] (DAS) Palain: ◆POSE Tan 2|tan 2
+[11:49] (DAS) Palain: ◆POSE Tan 3|tan 3
+[11:49] (DAS) Palain: ◆POSE Tan 4|tan 4
+[11:49] (DAS) Palain: ◆POSE Side 1|onside_f02
+[11:49] (DAS) Palain: ◆POSE Side 2|onside_m02
+[11:49] (DAS) Palain: ◆POSE Stand 3|Stand lean
+[11:48] (DAS) Palain: ◆POSE Back 1|Side 1
+[11:48] (DAS) Palain: ◆POSE Back 2|Side 3
+[11:49] (DAS) Palain: ◆MENU ACTIVE
+[11:49] (DAS) Palain: ◆POSE Yoga 1|myYoga 3
+[11:49] (DAS) Palain: ◆POSE Yoga 2|myYoga 4
+[11:49] (DAS) Palain: ◆POSE Dance 1|dance 1
+[11:49] (DAS) Palain: ◆POSE Dance 2|dance 2
+[11:49] (DAS) Palain: ◆POSE Dance 3|dance slow
+[11:49] (DAS) Palain: ◆POSE Wobble|miscdrink
+[11:49] (DAS) Palain: ◆POSE Swim 1|swim
+[11:49] (DAS) Palain: ◆POSE Swim 2|swim
+[11:49] (DAS) Palain: ◆POSE Float|float
+[11:49] (DAS) Palain: ◆MENU INTERIOR
+[11:49] (DAS) Palain: ◆POSE Dinner 1|Dinner Cards
+[11:49] (DAS) Palain: ◆POSE Dinner 2|Dinner F
+[11:49] (DAS) Palain: ◆POSE Dinner 3|Dinner M
+[11:49] (DAS) Palain: ◆POSE Dinner 4|Dinner Ponder
+[11:49] (DAS) Palain: ◆POSE Kitchen 1|kitchen bake
+[11:49] (DAS) Palain: ◆POSE Kitchen 2|kitchen dishes
+[11:49] (DAS) Palain: ◆POSE Desk 1|office dictate
+[11:49] (DAS) Palain: ◆POSE Desk 2|office laptop
+[11:49] (DAS) Palain: ◆MENU BEDROOM
+[11:49] (DAS) Palain: ◆POSE Bed F|sidebed f
+[11:49] (DAS) Palain: ◆POSE Bed M|sidebed m
+[11:49] (DAS) Palain: ◆POSE Sleep 1|Sleep 1
+[11:49] (DAS) Palain: ◆POSE Sleep 2|Sleep 2
+[11:49] (DAS) Palain: ◆POSE Sleep 3|Sleep 3
+[11:48] (DAS) Palain: ◆POSE Sleep 4|Sleep 4
+[11:49] (DAS) Palain: ◆POSE Shower 1|shower
+[11:49] (DAS) Palain: ◆POSE Shower 2|shower bath
+[11:49] (DAS) Palain: ◆POSE Shower 3|showerwash
+[11:49] (DAS) Palain: ◆POSE Toilet 1|toilet F
+[11:49] (DAS) Palain: ◆POSE Toilet 2|toilet M
+[11:49] (DAS) Palain: ◆{Lounge 1}<-6.518300, -1.017420, 1.663090><0.000000, 0.000000, 32.500130>
+[11:49] (DAS) Palain: ◆{Lounge 2}<-6.628450, 0.910120, 1.743900><0.000000, 0.000000, -51.502800>
+[11:49] (DAS) Palain: ◆{Lounge 3}<-4.479430, 1.130100, 1.917240><8.964070, -0.806760, -88.101440>
+[11:49] (DAS) Palain: ◆{Lounge 4}<-4.372730, -1.263010, 1.916990><0.859400, 1.274280, 100.000700>
+[11:49] (DAS) Palain: ◆{Seat 1F}<-4.372700, -1.020890, 2.170900><11.859400, 1.274280, 100.000700>
+[11:49] (DAS) Palain: ◆{Seat 1M}<-4.372700, -1.440230, 1.804200><11.858780, 1.274360, 100.001000>
+[11:49] (DAS) Palain: ◆{Seat 2F}<-4.372700, 1.377490, 1.803960><-13.186210, 3.920870, -106.054500>
+[11:49] (DAS) Palain: ◆{Seat 2M}<-4.364380, 1.377490, 1.803960><-15.581550, -1.708830, -85.811170>
+[11:49] (DAS) Palain: ◆{Stand 1}<-3.905780, -0.413050, 2.206060><0.000000, 0.000000, 118.125000>
+[11:49] (DAS) Palain: ◆{Stand 2}<-3.905810, 0.514540, 2.220460><0.000000, 0.000000, -143.125000>
+[11:49] (DAS) Palain: ◆{Lay 1}<4.073840, -0.041730, 2.228030><0.000000, 3.000000, -16.000000>
+[11:49] (DAS) Palain: ◆{Lay 2}<4.345870, -0.532370, 2.567870><-0.000010, 0.000000, 180.000000>
+[11:49] (DAS) Palain: ◆{Lay 3}<0.566500, -0.881210, 2.666990><12.000000, 0.000000, 180.000000>
+[11:49] (DAS) Palain: ◆{Lay 4}<0.566500, 0.732070, 2.754640><-0.000020, 0.000000, 180.000000>
+[11:49] (DAS) Palain: ◆{Tan 1}<-0.637950, 1.049160, 3.333740><-7.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{Tan 2}<-0.638000, -0.104190, 2.388430><-0.002310, -0.000010, -90.002620>
+[11:49] (DAS) Palain: ◆{Tan 3}<-0.906920, -0.945200, 2.871340><1.999680, -0.002290, -8.002630>
+[11:49] (DAS) Palain: ◆{Tan 4}<4.293140, -0.129020, 2.533450><2.004560, 3.995270, -8.142430>
+[11:49] (DAS) Palain: ◆{Side 1}<5.971310, 0.985330, 2.088380><-8.021490, 3.958090, 68.055800>
+[11:49] (DAS) Palain: ◆{Side 2}<5.971300, -1.165930, 2.220700><8.826420, 5.598140, -75.939730>
+[11:49] (DAS) Palain: ◆{Stand 3}<1.637480, -0.279480, 3.317870><0.000000, 0.000000, -143.125100>
+[11:48] (DAS) Palain: ◆{Back 1}<-7.446640, -0.512080, 1.085940><0.000000, 0.000000, -151.875000>
+[11:48] (DAS) Palain: ◆{Back 2}<-7.313150, 0.429030, 1.120850><0.000000, 0.000000, 150.127200>
+[11:49] (DAS) Palain: ◆{Yoga 1}<0.177150, 0.989560, 3.278080><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{Yoga 2}<-0.352430, -0.869400, 3.414310><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{Dance 1}<-0.452040, 0.792070, 3.329830><0.001820, -0.000130, 90.000000>
+[11:49] (DAS) Palain: ◆{Dance 2}<-0.452000, -0.783030, 3.375000><0.000000, 0.000000, -90.000010>
+[11:49] (DAS) Palain: ◆{Dance 3}<4.790960, 0.135260, 3.293210><0.000000, 0.000000, -90.000000>
+[11:49] (DAS) Palain: ◆{Wobble}<3.686310, -0.066740, 3.241940><-0.000010, 0.000000, -0.000010>
+[11:49] (DAS) Palain: ◆{Swim 1}<-9.444350, 1.236660, 0.266360><0.000000, 0.000000, -52.000010>
+[11:49] (DAS) Palain: ◆{Swim 2}<-8.296780, -0.110050, 0.266110><0.000000, 0.000000, 84.375000>
+[11:49] (DAS) Palain: ◆{Float}<-8.732420, -1.465890, -0.105220><0.000000, 0.000000, 90.000000>
+[11:49] (DAS) Palain: ◆{Dinner 1}<0.025710, 0.225600, 1.268560><0.000000, 0.000000, -90.000000>
+[11:49] (DAS) Palain: ◆{Dinner 2}<0.870740, -0.903510, 0.712160><0.000000, 0.000000, 162.000100>
+[11:49] (DAS) Palain: ◆{Dinner 3}<0.262070, -1.361570, 0.753910><0.000000, 0.000000, 90.000000>
+[11:49] (DAS) Palain: ◆{Dinner 4}<-0.397610, -1.465890, 0.722170><0.000000, 0.000000, 90.000000>
+[11:49] (DAS) Palain: ◆{Kitchen 1}<-0.529630, 0.842830, 1.160400><0.000000, 0.000000, 90.000000>
+[11:49] (DAS) Palain: ◆{Kitchen 2}<0.371800, 0.842830, 1.159910><0.000000, 0.000000, 67.000010>
+[11:49] (DAS) Palain: ◆{Desk 1}<-1.502400, -1.081680, 0.965820><3.504060, -10.026370, 64.297420>
+[11:49] (DAS) Palain: ◆{Desk 2}<-0.894840, -1.363130, 0.966060><0.000000, 0.000000, 180.000000>
+[11:49] (DAS) Palain: ◆{Bed F}<4.831770, 0.911700, 1.040770><0.000000, 0.000000, 180.000000>
+[11:49] (DAS) Palain: ◆{Bed M}<4.831800, -0.812810, 1.041020><0.000000, 0.000000, 180.000000>
+[11:49] (DAS) Palain: ◆{Sleep 1}<-4.708310, 1.264900, 1.145750><11.000000, 0.000000, -90.000010>
+[11:49] (DAS) Palain: ◆{Sleep 2}<4.537610, -0.413050, 1.221920><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{Sleep 3}<4.350100, 0.446130, 1.222410><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{Sleep 4}<-4.859620, -1.016660, 1.338620><0.000000, 0.000000, 90.000000>
+[11:49] (DAS) Palain: ◆{Shower 1}<1.649600, -0.836950, 1.199220><0.000000, 0.000000, -17.071870>
+[11:49] (DAS) Palain: ◆{Shower 2}<-2.894880, -1.827380, 1.503420><0.000000, 0.000000, 55.999990>
+[11:49] (DAS) Palain: ◆{Shower 3}<-2.494290, 1.358860, 1.120850><0.000000, 0.000000, -62.071880>
+[11:49] (DAS) Palain: ◆{Toilet 1}<-2.844990, -1.655220, 0.989500><0.000000, 0.000000, 58.000720>
+[11:49] (DAS) Palain: ◆{Toilet 2}<-2.530230, 1.372780, 1.154790><0.000000, 0.000000, 44.999990>
+[11:49] (DAS) Palain: ◆
+[11:49] (DAS) Palain: ◆SITTER 3|
+[11:49] (DAS) Palain: ◆TOMENU COCKPIT
+[11:49] (DAS) Palain: ◆TOMENU ONDECK
+[11:49] (DAS) Palain: ◆TOMENU ACTIVE
+[11:49] (DAS) Palain: ◆TOMENU INTERIOR
+[11:49] (DAS) Palain: ◆TOMENU BEDROOM
+[11:49] (DAS) Palain: ◆MENU COCKPIT
+[11:49] (DAS) Palain: ◆POSE Lounge 1|Armchair 2
+[11:49] (DAS) Palain: ◆POSE Lounge 2|Armchair 1
+[11:49] (DAS) Palain: ◆POSE Lounge 3|Armchair 4
+[11:49] (DAS) Palain: ◆POSE Lounge 4|Armchair 5
+[11:49] (DAS) Palain: ◆POSE Seat 1F|Cap 1 F
+[11:49] (DAS) Palain: ◆POSE Seat 1M|Cap 1 M
+[11:49] (DAS) Palain: ◆POSE Seat 2F|Cap 3 F
+[11:49] (DAS) Palain: ◆POSE Seat 2M|Cap 2 M
+[11:49] (DAS) Palain: ◆POSE Stand 1|Stand f
+[11:49] (DAS) Palain: ◆POSE Stand 2|Stand m
+[11:49] (DAS) Palain: ◆MENU ONDECK
+[11:49] (DAS) Palain: ◆POSE Lay 1|Lay Flat 1 M
+[11:49] (DAS) Palain: ◆POSE Lay 2|Lay Flat 2 M
+[11:49] (DAS) Palain: ◆POSE Lay 3|Lay Sit F
+[11:49] (DAS) Palain: ◆POSE Lay 4|Lay Sit M
+[11:49] (DAS) Palain: ◆POSE Tan 1|tan 1
+[11:49] (DAS) Palain: ◆POSE Tan 2|tan 2
+[11:49] (DAS) Palain: ◆POSE Tan 3|tan 3
+[11:49] (DAS) Palain: ◆POSE Tan 4|tan 4
+[11:49] (DAS) Palain: ◆POSE Side 1|onside_f02
+[11:49] (DAS) Palain: ◆POSE Side 2|onside_m02
+[11:49] (DAS) Palain: ◆POSE Stand 3|Stand lean
+[11:48] (DAS) Palain: ◆POSE Back 1|Side 1
+[11:48] (DAS) Palain: ◆POSE Back 2|Side 3
+[11:49] (DAS) Palain: ◆MENU ACTIVE
+[11:49] (DAS) Palain: ◆POSE Yoga 1|myYoga 3
+[11:49] (DAS) Palain: ◆POSE Yoga 2|myYoga 4
+[11:49] (DAS) Palain: ◆POSE Dance 1|dance 1
+[11:49] (DAS) Palain: ◆POSE Dance 2|dance 2
+[11:49] (DAS) Palain: ◆POSE Dance 3|dance slow
+[11:49] (DAS) Palain: ◆POSE Wobble|miscdrink
+[11:49] (DAS) Palain: ◆POSE Swim 1|swim
+[11:49] (DAS) Palain: ◆POSE Swim 2|swim
+[11:49] (DAS) Palain: ◆POSE Float|float
+[11:49] (DAS) Palain: ◆MENU INTERIOR
+[11:49] (DAS) Palain: ◆POSE Dinner 1|Dinner Cards
+[11:49] (DAS) Palain: ◆POSE Dinner 2|Dinner F
+[11:49] (DAS) Palain: ◆POSE Dinner 3|Dinner M
+[11:49] (DAS) Palain: ◆POSE Dinner 4|Dinner Ponder
+[11:49] (DAS) Palain: ◆POSE Kitchen 1|kitchen bake
+[11:49] (DAS) Palain: ◆POSE Kitchen 2|kitchen dishes
+[11:49] (DAS) Palain: ◆POSE Desk 1|office dictate
+[11:49] (DAS) Palain: ◆POSE Desk 2|office laptop
+[11:49] (DAS) Palain: ◆MENU BEDROOM
+[11:49] (DAS) Palain: ◆POSE Bed F|sidebed f
+[11:49] (DAS) Palain: ◆POSE Bed M|sidebed m
+[11:49] (DAS) Palain: ◆POSE Sleep 1|Sleep 1
+[11:49] (DAS) Palain: ◆POSE Sleep 2|Sleep 2
+[11:49] (DAS) Palain: ◆POSE Sleep 3|Sleep 3
+[11:48] (DAS) Palain: ◆POSE Sleep 4|Sleep 4
+[11:49] (DAS) Palain: ◆POSE Shower 1|shower
+[11:49] (DAS) Palain: ◆POSE Shower 2|shower bath
+[11:49] (DAS) Palain: ◆POSE Shower 3|showerwash
+[11:49] (DAS) Palain: ◆POSE Toilet 1|toilet F
+[11:49] (DAS) Palain: ◆POSE Toilet 2|toilet M
+[11:49] (DAS) Palain: ◆{Lounge 2}<-6.518300, -1.017420, 1.663090><0.000000, 0.000000, 32.500130>
+[11:49] (DAS) Palain: ◆{Lounge 1}<-6.628450, 0.910120, 1.743900><0.000000, 0.000000, -51.502800>
+[11:49] (DAS) Palain: ◆{Lounge 3}<-4.479430, 1.130100, 1.917240><8.964070, -0.806760, -88.101440>
+[11:49] (DAS) Palain: ◆{Lounge 4}<-4.372730, -1.263010, 1.916990><0.859400, 1.274280, 100.000700>
+[11:49] (DAS) Palain: ◆{Seat 1F}<-4.372700, -1.020890, 2.170900><11.859400, 1.274280, 100.000700>
+[11:49] (DAS) Palain: ◆{Seat 1M}<-4.372700, -1.440230, 1.804200><11.858780, 1.274360, 100.001000>
+[11:49] (DAS) Palain: ◆{Seat 2F}<-4.372700, 1.377490, 1.803960><-13.186210, 3.920870, -106.054500>
+[11:49] (DAS) Palain: ◆{Seat 2M}<-4.364380, 1.377490, 1.803960><-15.581550, -1.708830, -85.811170>
+[11:49] (DAS) Palain: ◆{Stand 1}<-3.905780, -0.413050, 2.206060><0.000000, 0.000000, 118.125000>
+[11:49] (DAS) Palain: ◆{Stand 2}<-3.905810, 0.514540, 2.220460><0.000000, 0.000000, -143.125000>
+[11:49] (DAS) Palain: ◆{Lay 1}<4.073840, -0.041730, 2.228030><0.000000, 3.000000, -16.000000>
+[11:49] (DAS) Palain: ◆{Lay 2}<4.345870, -0.532370, 2.567870><-0.000010, 0.000000, 180.000000>
+[11:49] (DAS) Palain: ◆{Lay 3}<0.566500, -0.881210, 2.666990><12.000000, 0.000000, 180.000000>
+[11:49] (DAS) Palain: ◆{Lay 4}<0.566500, 0.732070, 2.754640><-0.000020, 0.000000, 180.000000>
+[11:49] (DAS) Palain: ◆{Tan 1}<-0.637950, 1.049160, 3.333740><-7.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{Tan 2}<-0.638000, -0.104190, 2.388430><-0.002310, -0.000010, -90.002620>
+[11:49] (DAS) Palain: ◆{Tan 3}<-0.906920, -0.945200, 2.871340><1.999680, -0.002290, -8.002630>
+[11:49] (DAS) Palain: ◆{Tan 4}<4.293140, -0.129020, 2.533450><2.004560, 3.995270, -8.142430>
+[11:49] (DAS) Palain: ◆{Side 1}<5.971310, 0.985330, 2.088380><-8.021490, 3.958090, 68.055800>
+[11:49] (DAS) Palain: ◆{Side 2}<5.971300, -1.165930, 2.220700><8.826420, 5.598140, -75.939730>
+[11:49] (DAS) Palain: ◆{Stand 3}<1.637480, -0.279480, 3.317870><0.000000, 0.000000, -143.125100>
+[11:48] (DAS) Palain: ◆{Back 1}<-7.446640, -0.512080, 1.085940><0.000000, 0.000000, -151.875000>
+[11:48] (DAS) Palain: ◆{Back 2}<-7.313150, 0.429030, 1.120850><0.000000, 0.000000, 150.127200>
+[11:49] (DAS) Palain: ◆{Yoga 1}<0.177150, 0.989560, 3.278080><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{Yoga 2}<-0.352430, -0.869400, 3.414310><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{Dance 1}<-0.452040, 0.792070, 3.329830><0.001820, -0.000130, 90.000000>
+[11:49] (DAS) Palain: ◆{Dance 2}<-0.452000, -0.783030, 3.375000><0.000000, 0.000000, -90.000010>
+[11:49] (DAS) Palain: ◆{Dance 3}<4.790960, 0.135260, 3.293210><0.000000, 0.000000, -90.000000>
+[11:49] (DAS) Palain: ◆{Wobble}<3.686310, -0.066740, 3.241940><-0.000010, 0.000000, -0.000010>
+[11:49] (DAS) Palain: ◆{Swim 1}<-9.444350, 1.236660, 0.266360><0.000000, 0.000000, -52.000010>
+[11:49] (DAS) Palain: ◆{Swim 2}<-8.296780, -0.110050, 0.266110><0.000000, 0.000000, 84.375000>
+[11:49] (DAS) Palain: ◆{Float}<-8.732420, -1.465890, -0.105220><0.000000, 0.000000, 90.000000>
+[11:49] (DAS) Palain: ◆{Dinner 1}<0.025710, 0.225600, 1.268560><0.000000, 0.000000, -90.000000>
+[11:49] (DAS) Palain: ◆{Dinner 2}<0.870740, -0.903510, 0.712160><0.000000, 0.000000, 162.000100>
+[11:49] (DAS) Palain: ◆{Dinner 3}<0.262070, -1.361570, 0.753910><0.000000, 0.000000, 90.000000>
+[11:49] (DAS) Palain: ◆{Dinner 4}<-0.397610, -1.465890, 0.722170><0.000000, 0.000000, 90.000000>
+[11:49] (DAS) Palain: ◆{Kitchen 1}<-0.529630, 0.842830, 1.160400><0.000000, 0.000000, 90.000000>
+[11:49] (DAS) Palain: ◆{Kitchen 2}<0.371800, 0.842830, 1.159910><0.000000, 0.000000, 67.000010>
+[11:49] (DAS) Palain: ◆{Desk 1}<-1.502400, -1.081680, 0.965820><3.504060, -10.026370, 64.297420>
+[11:49] (DAS) Palain: ◆{Desk 2}<-0.894840, -1.363130, 0.966060><0.000000, 0.000000, 180.000000>
+[11:49] (DAS) Palain: ◆{Bed F}<4.831770, 0.911700, 1.040770><0.000000, 0.000000, 180.000000>
+[11:49] (DAS) Palain: ◆{Bed M}<4.831800, -0.812810, 1.041020><0.000000, 0.000000, 180.000000>
+[11:49] (DAS) Palain: ◆{Sleep 1}<-4.708310, 1.264900, 1.145750><11.000000, 0.000000, -90.000010>
+[11:49] (DAS) Palain: ◆{Sleep 2}<4.537610, -0.413050, 1.221920><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{Sleep 3}<4.350100, 0.446130, 1.222410><0.000000, 0.000000, 0.000000>
+[11:49] (DAS) Palain: ◆{Sleep 4}<-4.859620, -1.016660, 1.338620><0.000000, 0.000000, 90.000000>
+[11:49] (DAS) Palain: ◆{Shower 1}<1.649600, -0.836950, 1.199220><0.000000, 0.000000, -17.071870>
+[11:49] (DAS) Palain: ◆{Shower 2}<-2.894880, -1.827380, 1.503420><0.000000, 0.000000, 55.999990>
+[11:49] (DAS) Palain: ◆{Shower 3}<-2.494290, 1.358860, 1.120850><0.000000, 0.000000, -62.071880>
+[11:49] (DAS) Palain: ◆{Toilet 1}<-2.844990, -1.655220, 0.989500><0.000000, 0.000000, 58.000720>
+[11:49] (DAS) Palain: ◆{Toilet 2}<-2.530230, 1.372780, 1.154790><0.000000, 0.000000, 44.999990>

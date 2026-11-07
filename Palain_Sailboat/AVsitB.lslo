@@ -1,0 +1,623 @@
+//////////// TMS Aurora AVsitter Scripts \\\\\\\\\\\
+//                                                //
+//   AVsitter2 and Autoplay scrpts for TMS Aurora //
+////////////////////////////////////////////////////
+//
+////////////////////////////////////////////////////
+// Copyright (c) 2026 Truth & Beauty Lab          //
+// License: MIT                                   //
+// All rights reserved.                           //
+//                                                //
+// Author: Missy Restless missyrestless@gmail.com //
+////////////////////////////////////////////////////
+//
+//nfo_preprocessor_version 0
+//program_version LSL PyOptimizer v0.3.0beta
+//mono
+
+string IsRestoring;
+integer edefaultstate_entry;
+string Pop = "[AV]sitA";
+integer gB;
+integer edefaultchanged;
+integer gA;
+integer LslUserScript;
+integer Library;
+integer LslLibrary;
+integer UThreadStackFrame;
+integer edefaultchat;
+string g_;
+string System;
+string IsSaveDue;
+list ResumeVoid;
+list UThread;
+list edefaultlink_message = [g_];
+integer C;
+integer D;
+integer E;
+integer F = -1;
+integer G;
+integer H;
+integer I = -1;
+integer J;
+integer K;
+key L;
+key M;
+string N;
+string O;
+integer P;
+
+_(integer llResetOtherScript)
+{
+    llMessageLinked(((integer)-4), 90055, (string)UThreadStackFrame, llList2String(ResumeVoid, E) + ("|" + (llList2String(UThread, E) + ("|" + (llList2String(edefaultlink_message, E * 2) + ("|" + (llList2String(edefaultlink_message, -~(E * 2)) + ("|" + ((string)llResetOtherScript + ("|" + (string)P))))))))));
+}
+
+A()
+{
+    llOwnerSay(llGetScriptName() + "[2.2p04] " + (string)(ResumeVoid != []) + " Items Ready, Mem=" + (string)(65536 + -llGetUsedMemory()));
+}
+
+integer B(integer llResetOtherScript)
+{
+    if (~llResetOtherScript & -(1 < (ResumeVoid != [])) | C | llGetInventoryType("[AV]select") ^ 10)
+    {
+        string loc_menu = "AVsitter™2.2p04";
+        if (!(IsRestoring == ""))
+            loc_menu = IsRestoring;
+        if (!(M == L) | D)
+        {
+            loc_menu = loc_menu + ("\n\nMenu for " + llKey2Name(L));
+        }
+        loc_menu = loc_menu + "\n\n";
+        if (!(g_ == ""))
+        {
+            loc_menu = loc_menu + (g_ + "\n");
+        }
+        if (IsSaveDue == "")
+        {
+            if (1 < edefaultchat)
+            {
+                loc_menu = loc_menu + ("[Sitter " + (string)UThreadStackFrame + "]");
+            }
+        }
+        else
+        {
+            loc_menu = loc_menu + ("[" + llList2String(llParseStringKeepNulls(IsSaveDue, (list)"�", []), 0));
+            loc_menu = loc_menu + "]";
+        }
+        string loc_animation_file = llList2String(llParseStringKeepNulls(llList2String(UThread, E), (list)"�", []), 0);
+        string loc_CURRENT_POSE_NAME;
+        if (~F)
+        {
+            loc_CURRENT_POSE_NAME = llList2String(ResumeVoid, E);
+            loc_menu = loc_menu + (" [" + llList2String(llParseString2List(loc_CURRENT_POSE_NAME, (list)"P:", []), 0));
+            if (llGetInventoryType(loc_animation_file + "+") == 20)
+            {
+                if (P < 0)
+                {
+                    loc_menu = loc_menu + ", Soft";
+                }
+                else if (0 < P)
+                {
+                    loc_menu = loc_menu + ", Hard";
+                }
+            }
+            loc_menu = loc_menu + "]";
+        }
+        integer loc_total_items;
+        integer loc_i = -~I;
+        while (-(loc_i < (ResumeVoid != [])) & llSubStringIndex(llList2String(ResumeVoid, loc_i), "M:"))
+        {
+            ++loc_total_items;
+            ++loc_i;
+        }
+        list loc_menu_items0;
+        list loc_menu_items2;
+        if (~I | llGetInventoryType("[AV]select") == 10)
+        {
+            loc_menu_items0 = loc_menu_items0 + "[BACK]";
+        }
+        string loc_submenu_info;
+        if (~I)
+        {
+            loc_submenu_info = llList2String(UThread, I);
+        }
+        if (C)
+        {
+            loc_menu_items2 = loc_menu_items2 + "[NEW]";
+            if (!(loc_CURRENT_POSE_NAME == ""))
+            {
+                loc_menu_items2 = loc_menu_items2 + "[DUMP]" + "[SAVE]";
+            }
+        }
+        else if (~llSubStringIndex(loc_submenu_info, "V"))
+        {
+            loc_menu_items0 = loc_menu_items0 + "<< Softer" + "Harder >>";
+        }
+        if (!(-!(Library == 2) & (~-Library | ~I) & -!~llSubStringIndex(loc_submenu_info, "A")))
+        {
+            if (!edefaultstate_entry | !C)
+            {
+                loc_menu_items2 = loc_menu_items2 + "[ADJUST]";
+            }
+        }
+        if (llSubStringIndex(O, "ASK") & -!((~I | ~-LslUserScript) & -!(LslUserScript == 2) & -!~llSubStringIndex(loc_submenu_info, "S")) & -!(edefaultchat < 2 | llGetInventoryType("[AV]select") == 10))
+        {
+            loc_menu_items2 = loc_menu_items2 + "[SWAP]";
+        }
+        if (!~I)
+        {
+            if (D & -!(!(llGetSubString(N, UThreadStackFrame, UThreadStackFrame) == "D") & M == L))
+            {
+                loc_menu_items2 = loc_menu_items2 + "[STOP]";
+                if (!C)
+                {
+                    loc_menu_items2 = loc_menu_items2 + "Control...";
+                }
+            }
+        }
+        integer loc_items_per_page = 12 + -(loc_menu_items2 != []) + -(loc_menu_items0 != []);
+        if (loc_items_per_page < loc_total_items)
+        {
+            loc_menu_items2 = loc_menu_items2 + "[<<]" + "[>>]";
+            loc_items_per_page = ~-~-loc_items_per_page;
+        }
+        list loc_menu_items1;
+        integer loc_page_start = loc_i = -~I + K * loc_items_per_page;
+        do
+        {
+            if (loc_i < (ResumeVoid != []))
+            {
+                string loc_m = llList2String(ResumeVoid, loc_i);
+                if (!llSubStringIndex(loc_m, "M:"))
+                {
+                    jump J_autoGen00001;
+                }
+                if (~llListFindList((list)"T:" + "P:" + "B:", (list)llGetSubString(loc_m, 0, 1)))
+                {
+                    loc_menu_items1 = loc_menu_items1 + llGetSubString(loc_m, 2, 99999);
+                }
+                else
+                {
+                    loc_menu_items1 = loc_menu_items1 + loc_m;
+                }
+            }
+        }
+        while (++loc_i < loc_page_start + loc_items_per_page);
+        @J_autoGen00001;
+        if (!~-llResetOtherScript)
+        {
+            return ~-(~-(loc_total_items + loc_items_per_page)) / loc_items_per_page;
+        }
+        if (loc_submenu_info == "V")
+        {
+            while ((loc_menu_items1 != []) < loc_items_per_page)
+            {
+                loc_menu_items1 = loc_menu_items1 + " ";
+            }
+        }
+        llListenRemove(G);
+        G = llListen(H, "", M, "");
+        loc_menu_items0 = loc_menu_items0 + loc_menu_items1 + loc_menu_items2;
+        loc_menu_items1 = llList2List(loc_menu_items0, ((integer)-3), ((integer)-1));
+        loc_menu_items1 = loc_menu_items1 + llList2List(loc_menu_items0, ((integer)-6), ((integer)-4));
+        loc_menu_items1 = loc_menu_items1 + llList2List(loc_menu_items0, ((integer)-9), ((integer)-7));
+        loc_menu_items1 = loc_menu_items1 + llList2List(loc_menu_items0, ((integer)-12), ((integer)-10));
+        llDialog(M, loc_menu, loc_menu_items1, H);
+    }
+    else
+    {
+        llMessageLinked(((integer)-1), 90009, M, L);
+    }
+    return 0;
+}
+
+default
+{
+    state_entry()
+    {
+        A();
+        UThreadStackFrame = (integer)llGetSubString(llGetScriptName(), llSubStringIndex(llGetScriptName(), " "), 99999);
+        if (UThreadStackFrame)
+            Pop = Pop + (" " + (string)UThreadStackFrame);
+        if (llGetInventoryType(Pop) == 10)
+        {
+            llResetOtherScript(Pop);
+        }
+    }
+
+    listen(integer llResetOtherScript, string llParseStringKeepNulls, key llDialog, string llFrand)
+    {
+        string loc_channel;
+        integer loc_index = llListFindList(ResumeVoid, (list)llFrand);
+        if (!~loc_index)
+        {
+            loc_channel = (string)UThreadStackFrame;
+            loc_index = llListFindList(ResumeVoid, (list)("P:" + llFrand));
+        }
+        if (~loc_index)
+        {
+            llMessageLinked(((integer)-4), 90050, loc_channel + "|" + llFrand + "|" + (string)gB, L);
+            llMessageLinked(((integer)-4), 90000, llFrand, loc_channel);
+            if (!(gA == 2 | gA == 4))
+            {
+                llMessageLinked(((integer)-4), 90005, "", (string)llDialog + ("|" + (string)L));
+            }
+            return;
+        }
+        loc_index = llListFindList(ResumeVoid, (list)("M:" + llFrand));
+        if (~loc_index)
+        {
+            if (~llListFindList(ResumeVoid, (list)("T:" + llFrand)))
+            {
+                llMessageLinked(((integer)-1), 90051, loc_channel + "|" + llGetSubString(llFrand, 0, ((integer)-2)) + "|" + (string)gB, L);
+                K = 0;
+                J = I;
+                I = loc_index;
+                B(0);
+            }
+            return;
+        }
+        loc_index = llListFindList(llList2List(ResumeVoid, -~I, 99999), (list)("B:" + llFrand));
+        if (~loc_index)
+        {
+            loc_index = loc_index + -~I;
+            list loc_button_data = llParseStringKeepNulls(llList2String(UThread, loc_index), (list)"�", []);
+            if (!(llList2String(loc_button_data, 1) == ""))
+            {
+                llFrand = llList2String(loc_button_data, 1);
+            }
+            integer loc_n = llList2Integer(loc_button_data, 0);
+            if (2 < (loc_button_data != []))
+            {
+                llDialog = llList2String(loc_button_data, 2);
+                if (llDialog == "<C>")
+                    llDialog = M;
+                if (llDialog == "<S>")
+                    llDialog = L;
+            }
+            else if (!(M == L))
+            {
+                llDialog = (string)M + ("|" + (string)L);
+            }
+            llMessageLinked(((integer)-1), loc_n, llFrand, llDialog);
+            return;
+        }
+        if (llFrand == "[>>]" | llFrand == "[<<]")
+        {
+            if (llFrand == "[<<]")
+            {
+                if (!~--K)
+                {
+                    K = B(1);
+                }
+            }
+            else
+            {
+                if (++K > B(1))
+                {
+                    K = 0;
+                }
+            }
+            B(0);
+        }
+        else if (llFrand == "[BACK]")
+        {
+            K = 0;
+            if (~I)
+            {
+                if (~J)
+                {
+                    I = J;
+                    J = ((integer)-1);
+                }
+                else
+                {
+                    I = llListFindList(ResumeVoid, (list)("T:" + llGetSubString(llList2String(ResumeVoid, I), 2, 99999)));
+                    if (~I)
+                    {
+                        I = ~-I;
+                        while (!(!~I | !llSubStringIndex(llList2String(ResumeVoid, I), "M:")))
+                        {
+                            --I;
+                        }
+                    }
+                }
+            }
+            else
+            {
+                if (llGetInventoryType("[AV]select") == 10)
+                {
+                    llMessageLinked(((integer)-1), 90009, "", llDialog);
+                }
+                return;
+            }
+            B(0);
+        }
+        else if (llFrand == "Control..." | llFrand == "[STOP]")
+        {
+            llMessageLinked(((integer)-1), 90100, (string)UThreadStackFrame + ("|" + (llFrand + ("|" + (string)L))), llDialog);
+        }
+        else if (!~loc_index)
+        {
+            llMessageLinked(((integer)-1), 90101, (string)UThreadStackFrame + ("|" + (llFrand + ("|" + (string)M))), L);
+        }
+    }
+
+    changed(integer llResetOtherScript)
+    {
+        if (llResetOtherScript & 32)
+        {
+            if (llGetAgentSize(llGetLinkKey(llGetNumberOfPrims())) == <((float)0), ((float)0), ((float)0)>)
+            {
+                P = 0;
+                if (!edefaultstate_entry)
+                {
+                    C = 0;
+                }
+                L = "";
+                E = F;
+            }
+            else
+            {
+                if (edefaultstate_entry)
+                {
+                    C = 0;
+                }
+            }
+        }
+    }
+
+    link_message(integer llResetOtherScript, integer llParseStringKeepNulls, string llDialog, key llFrand)
+    {
+        integer loc_one = (integer)llDialog;
+        integer loc_two = (integer)((string)llFrand);
+        integer loc_index;
+        list loc_data;
+        if (llParseStringKeepNulls == 90000 | llParseStringKeepNulls == 90010 | llParseStringKeepNulls == 90003 | llParseStringKeepNulls == 90008)
+        {
+            loc_index = llListFindList(ResumeVoid, (list)llDialog);
+            if (!~loc_index)
+            {
+                loc_index = llListFindList(ResumeVoid, (list)("P:" + llDialog));
+                if (~loc_index & -(llParseStringKeepNulls == 90008))
+                    llParseStringKeepNulls = 90000;
+            }
+            if (llFrand)
+                ;
+            else if (!(llFrand == ""))
+            {
+                llFrand = "*";
+            }
+            if (-(llFrand == "" | llFrand == L | llFrand == "*" & loc_two == UThreadStackFrame | llParseStringKeepNulls == 90008) & (~loc_index | llDialog == ""))
+            {
+                E = loc_index;
+                _(1);
+                return;
+            }
+            if (edefaultchanged == 2)
+            {
+                if (!(llParseStringKeepNulls == 90010 | llGetSubString(llList2String(ResumeVoid, E), 0, 1) == "P:"))
+                {
+                    if (!(L == ""))
+                    {
+                        llUnSit(L);
+                    }
+                }
+            }
+            return;
+        }
+        if (!(llParseStringKeepNulls ^ 90045 | llResetOtherScript ^ llGetLinkNumber() | ~-edefaultchanged & -!(edefaultchanged == 2)))
+        {
+            string loc_OLD_SYNC = llList2String(llParseStringKeepNulls(llDialog, (list)"|", loc_data), 5);
+            if (!(loc_OLD_SYNC == "" | !(llList2String(ResumeVoid, E) == loc_OLD_SYNC)))
+            {
+                E = F;
+                _(1);
+            }
+            return;
+        }
+        if (llParseStringKeepNulls == 90033)
+        {
+            llListenRemove(G);
+            return;
+        }
+        if (llParseStringKeepNulls == 90004 | llParseStringKeepNulls == 90005)
+        {
+            loc_data = llParseStringKeepNulls(llFrand, (list)"|", loc_data);
+            if (llList2Key(loc_data, ((integer)-1)) == L)
+            {
+                M = llList2Key(loc_data, 0);
+                loc_index = llListFindList(ResumeVoid, (list)("M:" + llDialog + "*"));
+                if (llParseStringKeepNulls ^ 90004)
+                {
+                    if (~loc_index)
+                    {
+                        J = ((integer)-1);
+                        K = 0;
+                        I = loc_index;
+                        llDialog = "";
+                    }
+                }
+                else
+                {
+                    I = ((integer)-1);
+                    K = 0;
+                }
+                B((integer)llDialog);
+            }
+            return;
+        }
+        if (llParseStringKeepNulls == 90030 & (loc_one == UThreadStackFrame | loc_two == UThreadStackFrame))
+        {
+            M = L = "";
+            return;
+        }
+        if (llParseStringKeepNulls == 90100 | llParseStringKeepNulls == 90101)
+        {
+            llDialog = llList2String(loc_data = llParseStringKeepNulls(llDialog, (list)"|", loc_data), 1);
+            if (llDialog == "[HELPER]")
+            {
+                K = 0;
+                C = !C;
+                if (!(!(llList2Key(loc_data, 2) == L) | edefaultstate_entry))
+                {
+                    B(0);
+                }
+            }
+            if (llDialog == "[ADJUST]")
+            {
+                C = 0;
+                K = 0;
+            }
+            if (llDialog == "Harder >>")
+            {
+                ++P;
+                if (1 < P)
+                    P = 1;
+                _(0);
+            }
+            if (llDialog == "<< Softer")
+            {
+                --P;
+                if (P < ((integer)-1))
+                    P = ((integer)-1);
+                _(0);
+            }
+            return;
+        }
+        if (llParseStringKeepNulls == 90201)
+        {
+            D = 0;
+            return;
+        }
+        if (llParseStringKeepNulls == 90202)
+        {
+            D = (integer)llDialog;
+            return;
+        }
+        if (loc_one == UThreadStackFrame)
+        {
+            loc_data = llParseStringKeepNulls(llFrand, (list)"|", loc_data);
+            loc_index = llListFindList(ResumeVoid, (list)llList2String(loc_data, 0));
+            if (!~loc_index)
+            {
+                loc_index = llListFindList(ResumeVoid, (list)("P:" + llList2String(loc_data, 0)));
+            }
+            if (llParseStringKeepNulls == 90299)
+            {
+                ResumeVoid = UThread = edefaultlink_message = [];
+                return;
+            }
+            if (llParseStringKeepNulls == 90070)
+            {
+                M = L = llFrand;
+                K = 0;
+                I = ((integer)-1);
+                H = ~(integer)llFrand(2147483520);
+                llListenRemove(G);
+                return;
+            }
+            if (!(llParseStringKeepNulls ^ 90065 | llResetOtherScript ^ llGetLinkNumber()))
+            {
+                M = L = "";
+                llListenRemove(G);
+                return;
+            }
+            if (llParseStringKeepNulls == 90300)
+            {
+                integer loc_place_to_add = ResumeVoid != [];
+                if (2 < (loc_data != []))
+                {
+                    loc_place_to_add = I;
+                    while (-(loc_place_to_add < (ResumeVoid != [])) & llSubStringIndex(llList2String(ResumeVoid, -~loc_place_to_add), "M:"))
+                    {
+                        ++loc_place_to_add;
+                    }
+                    if (!llSubStringIndex(llList2String(ResumeVoid, -~loc_place_to_add), "M:"))
+                    {
+                        ++loc_place_to_add;
+                    }
+                }
+                ResumeVoid = llListInsertList(ResumeVoid, (list)llList2String(loc_data, 0), loc_place_to_add);
+                UThread = llListInsertList(UThread, (list)llList2String(loc_data, 1), loc_place_to_add);
+                edefaultlink_message = llListInsertList(edefaultlink_message, (list)0 + 0, loc_place_to_add + loc_place_to_add);
+                if (loc_data != [] == 4)
+                {
+                    if (!~F)
+                    {
+                        F = loc_place_to_add;
+                    }
+                    if (~loc_index)
+                    {
+                        loc_place_to_add = loc_index;
+                    }
+                    edefaultlink_message = llListReplaceList(edefaultlink_message, (list)((vector)llList2String(loc_data, 2)) + (vector)llList2String(loc_data, 3), loc_place_to_add + loc_place_to_add, -~(loc_place_to_add + loc_place_to_add));
+                    E = loc_place_to_add;
+                    _(1);
+                    A();
+                }
+                return;
+            }
+            if (llParseStringKeepNulls == 90301)
+            {
+                if (~loc_index)
+                {
+                    loc_one = loc_data != [];
+                    loc_data = (list)((vector)llList2String(loc_data, 1)) + (vector)llList2String(loc_data, 2);
+                    if (~(loc_two = llListFindList(edefaultlink_message, llList2List(loc_data, 0, 0))))
+                        loc_data = llList2List(edefaultlink_message, loc_two, loc_two) + llList2List(loc_data, 1, 1);
+                    if (~(loc_two = llListFindList(edefaultlink_message, llList2List(loc_data, 1, 1))))
+                        loc_data = llList2List(loc_data, 0, 0) + llList2List(edefaultlink_message, loc_two, loc_two);
+                    edefaultlink_message = llListReplaceList(edefaultlink_message, loc_data, loc_index + loc_index, -~(loc_index + loc_index));
+                    if (loc_one ^ 3)
+                    {
+                        _(0);
+                    }
+                }
+                return;
+            }
+            if (llParseStringKeepNulls == 90302)
+            {
+                edefaultchat = llList2Integer(loc_data, 0);
+                IsSaveDue = llList2String(loc_data, 1);
+                gB = llList2Integer(loc_data, 2);
+                gA = llList2Integer(loc_data, 3);
+                edefaultchanged = llList2Integer(loc_data, 4);
+                LslUserScript = llList2Integer(loc_data, 5);
+                F = E = llListFindList(ResumeVoid, (list)llList2String(loc_data, 6));
+                IsRestoring = llList2String(loc_data, 7);
+                g_ = llList2String(loc_data, 8);
+                System = llList2String(loc_data, 9);
+                LslLibrary = llList2Integer(loc_data, 10);
+                Library = llList2Integer(loc_data, 11);
+                edefaultstate_entry = llList2Integer(loc_data, 12);
+                N = llList2String(loc_data, 13);
+                O = llList2String(loc_data, 14);
+                A();
+                return;
+            }
+            if (llParseStringKeepNulls == 90020 & llList2String(loc_data, 0) == "")
+            {
+                llMessageLinked(((integer)-4), 90022, "V:" + llDumpList2String((list)"2.2p04" + gA + edefaultchanged + gB + LslUserScript + IsSaveDue + g_ + System + LslLibrary + Library + edefaultstate_entry, "|"), (string)UThreadStackFrame);
+                integer loc_i = ((integer)-1);
+                while (++loc_i < (ResumeVoid != []))
+                {
+                    llSleep(0.5);
+                    llMessageLinked(((integer)-4), 90022, "S:" + llList2String(ResumeVoid, loc_i) + "|" + llList2String(UThread, loc_i), (string)UThreadStackFrame);
+                }
+                loc_i = ((integer)-1);
+                while (++loc_i < (ResumeVoid != []))
+                {
+                    if (!(llList2Vector(edefaultlink_message, loc_i + loc_i) == <((float)0), ((float)0), ((float)0)>))
+                    {
+                        llSleep(0.2);
+                        llMessageLinked(((integer)-4), 90022, "{" + llList2String(ResumeVoid, loc_i) + "}" + llList2String(edefaultlink_message, loc_i + loc_i) + llList2String(edefaultlink_message, -~(loc_i + loc_i)), (string)UThreadStackFrame);
+                    }
+                }
+                llMessageLinked(((integer)-4), 90021, (string)UThreadStackFrame, "");
+                return;
+            }
+        }
+    }
+}
