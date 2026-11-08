@@ -1,0 +1,99 @@
+AVsitter2 Upgrade and Sequences for the Mesh Shop Aurora Boat
+──────────────────────────────────────────────────────────────
+
+This folder contains the 'AVpos' and '[AV]sequence_settings' notecards for use with the 'AVsitter2' plugin '[AV]sequence' to provide animation sequences for the Mesh Shop Aurora Boat dialog menus. In addition, since the Aurora is delivered with 'AVsitter1' scripts and '[AV]sequence' requires 'AVsitter2', the necessary 'AVsitter2' scripts are provided as replacements and additions.
+
+This 'AVsitter2' customization allows greater freedom of personal interaction on the boat, eliminating the need to navigate dialog menus during moments of intimacy or relaxation. In addition, upgrading your boat from AVsitter1 to AVsitter2 greatly improves the quality, stability, and convenience of your boat's seats. Many bug fixes and enhancemants are included in AVsitter2 including greater resiliency when crossing region boundaries.
+
+NOTE: AVsitter2 was first released in March of 2014. These older AVsitter1 scripts continue to work and an upgrade to AVsitter2 is not necessary unless you wish to take advantage of the new features, bug fixes, and stability improvements. The Mesh Shop Aurora and many other popular boats in Second Life are delivered by default with AVsitter1 scripts that were last updated prior to 2014. The Truth &amp; Beauty Lab provides enhanced and optimized AVsitter2 scripts that can easily replace the archaic AVsitter1 scripts in your boats.
+
+Menus
+──────
+
+Sequences are configured for the following menus:
+
+- Solo Menus (all 4 sitters)
+- Cuddle Menus (first 2 sitters)
+- Foreplay Menus (first 2 sitters)
+- Hardcore Menus (first 2 sitters)
+- Low n Slow Menus (first 2 sitters)
+- System Menus (1st sitter only)
+
+AVsitter2 scripts
+──────────────────
+
+The following AVsitter2 scripts are provided, the adjuster script and sit scripts for 4 sitters:
+
+- [AV]adjuster
+- [AV]sitA
+- [AV]sitA 1
+- [AV]sitA 2
+- [AV]sitA 3
+- [AV]sitB
+- [AV]sitB 1
+- [AV]sitB 2
+- [AV]sitB 3
+
+AVsitter2 sequence script and customized notecards
+───────────────────────────────────────────────────
+
+The '[AV]sequence' plugin script and customized 'AVpos' and '[AV]sequence_settings' notecards are provided:
+
+- [AV]sequence script
+- [AV]sequence_settings notecard
+- AVpos notecard
+
+Setup
+──────
+
+To configure a Mesh Shop Aurora Boat with AVsitter2 sequences:
+
+- Make sure you have a backup of your boat, the original or a copy
+- Right click the boat and select 'Edit'
+- Select the Contents tab in the Edit window
+- Replace the AVsitter1 scripts with the AVsitter2 scripts
+  - Backup the original AVsitter1 scripts and AVpos notecard
+    - Drag and drop the following from the Contents tab into your inventory:
+      BACKUP THESE
+      - AVpos
+      - AVsit
+      - AVsit 1
+      - AVsit 2
+      - AVsit 3
+  - Delete the AVsitter1 scrips and notecard from the Contents tab:
+      DELETE THESE FROM THE CONTENTS TAB
+      - AVpos
+      - AVsit
+      - AVsit 1
+      - AVsit 2
+      - AVsit 3
+  - Drag and drop the AVsitter2 scripts and notecards from your inventory into the Contents tab
+    DRAG & DROP THESE INTO THE CONTENTS TAB
+    - [AV]adjuster
+    - [AV]sitA
+    - [AV]sitA 1
+    - [AV]sitA 2
+    - [AV]sitA 3
+    - [AV]sitB
+    - [AV]sitB 1
+    - [AV]sitB 2
+    - [AV]sitB 3
+    - [AV]sequence
+    - [AV]sequence_settings
+    - AVpos
+- Close the 'Edit' window
+- Right click the boat and select 'More' -> 'More' -> 'Scripts' -> 'Reset Scripts'
+- Wait for the scripts to reset (this takes a few minutes)
+
+Sit on the boat and click one of the sequence buttons, for example: '►SOLO' or '►CUDDLE'.
+
+Sequence menu buttons are of the form '►...'. Click this menu entry and your avatar will cycle through all the animations in that submenu.
+
+Cycle times are currently set to 90 seconds with menu arrows to step to the next animation, previous animation, or pause animation sequencing.
+
+Auto Play Sequence
+──────────────────
+
+If you wish to automatically play a sequence when an avatar sits on the boat then drag and drop the 'autoplay' script into the Contents of the boat.
+
+The 'autoplay' script detects the gender of the sitter and plays the appropriate sequence. In addition, it detects the number of sitters currently on the object and plays the cuddles animation sequence if 2 sitters are seated.

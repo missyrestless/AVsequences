@@ -12,6 +12,13 @@ In addition, upgrading your boat from AVsitter1 to AVsitter2 greatly improves th
 stability, and convenience of your boat's seats. Many bug fixes and enhancemants are
 included in AVsitter2 including greater resiliency when crossing region boundaries.
 
+**[Note:]** AVsitter2 was first released in March of 2014. These older AVsitter1 scripts
+continue to work and an upgrade to AVsitter2 is not necessary unless you wish to take
+advantage of the new features, bug fixes, and stability improvements. The Mesh Shop Aurora
+and many other popular boats in Second Life are delivered by default with AVsitter1 scripts
+that were last updated prior to 2014. The Truth &amp; Beauty Lab provides enhanced and
+optimized AVsitter2 scripts that can easily replace the archaic AVsitter1 scripts in your boats.
+
 ## Menus
 
 Sequences are configured for the following menus:
