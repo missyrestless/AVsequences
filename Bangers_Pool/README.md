@@ -200,9 +200,10 @@ The following custom sequenced animations are available on the Second Life Marke
 
 - [Maya's Hawaiian Hanging Swing](https://github.com/missyrestless/AVsequences/tree/main/Hanging_Swing)
 
-### Customized autoplay script and notecards providing sequenced animations for The Mesh Shop Boats
+### Customized AVsitter2, autoplay scripts, and notecards providing sequenced animations for The Mesh Shop Boats
 
 - [The Mesh Shop Aurora](https://github.com/missyrestless/AVsequences/tree/main/Aurora_Boat)
+- [The Mesh Shop Palain Sailboat](https://github.com/missyrestless/AVsequences/tree/main/Palain_Sailboat)
 
 ### Customized autoplay script and notecards providing sequenced animations for Original Furniture
 

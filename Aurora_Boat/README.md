@@ -6,8 +6,11 @@ the Mesh Shop Aurora Boat dialog menus. In addition, since the Aurora is deliver
 with `AVsitter1` scripts and `[AV]sequence` requires `AVsitter2`, the necessary
 `AVsitter2` scripts are provided as replacements and additions.
 
-This `AVsitter2` customization allows greater freedom of personal interaction on the
-boat, eliminating the need to navigate dialog menus during moments of intimacy.
+This `AVsitter2` customization allows greater freedom of personal interaction on the boat,
+eliminating the need to navigate dialog menus during moments of intimacy or relaxation.
+In addition, upgrading your boat from AVsitter1 to AVsitter2 greatly improves the quality,
+stability, and convenience of your boat's seats. Many bug fixes and enhancemants are
+included in AVsitter2 including greater resiliency when crossing region boundaries.
 
 ## Menus
 
@@ -189,9 +192,10 @@ The following custom sequenced animations are available on the Second Life Marke
 
 - [Maya's Hawaiian Hanging Swing](https://github.com/missyrestless/AVsequences/tree/main/Hanging_Swing)
 
-### Customized autoplay script and notecards providing sequenced animations for The Mesh Shop Boats
+### Customized AVsitter2, autoplay scripts, and notecards providing sequenced animations for The Mesh Shop Boats
 
 - [The Mesh Shop Aurora](https://github.com/missyrestless/AVsequences/tree/main/Aurora_Boat)
+- [The Mesh Shop Palain Sailboat](https://github.com/missyrestless/AVsequences/tree/main/Palain_Sailboat)
 
 ### Customized autoplay script and notecards providing sequenced animations for Original Furniture
 

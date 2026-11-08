@@ -30,6 +30,9 @@ UNOPTIMIZED=
 all: $(OPTIMIZED)
 	$(PYTHON) build-aux.py rm $@
 
+clean:
+	$(PYTHON) build-aux.py rm $(OPTIMIZED)
+
 optimized: $(OPTIMIZED)
 
 %.lslo %.lslt: %.lsl
