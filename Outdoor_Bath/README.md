@@ -106,7 +106,10 @@ The following custom sequenced animations are available on the Second Life Marke
 - [Lalou Pool Float (Adult 3some)](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Lalou-Pool-Float-Adult-3some/27954361)
 - [Nerenzo Beach Chairs Sequenced Customization Marketplace Listing](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Beach-Chairs/27960500)
 - [Nerenzo Hot Bangers Pool Sequenced Customization Marketplace Listing](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Hot-Bangers-Pool/27942775)
+- [Nerenzo Hot Sex Shower Sequenced Customization Marketplace Listing](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Hot-Sex-Shower/28804008)
 - [Nerenzo Orgy Towel Sequenced Customization Marketplace Listing](https://marketplace.secondlife.com/p/AVsitter-Sequences-for-Nerenzo-Orgy-Towel/27945140)
+- [TMS Aurora AVsitter2 Upgrade &amp; Sequenced Customization](https://marketplace.secondlife.com/p/AVsitter2-Upgrade-for-TMS-Aurora/28897506)
+- [TMS Palain AVsitter2 Upgrade &amp; Sequenced Customization](https://marketplace.secondlife.com/p/AVsitter2-Upgrade-for-TMS-Palain/28897507)
 
 ## Currently Supported Products
 
