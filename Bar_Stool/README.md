@@ -116,6 +116,10 @@ The following custom sequenced animations are available on the Second Life Marke
 - [Debauchery Round Swingers Bar Stool](https://github.com/missyrestless/AVsequences/tree/main/Bar_Stool)
 - [Debauchery Swingers Hot Tub](https://github.com/missyrestless/AVsequences/tree/main/Swingers_Hot_Tub)
 
+### Customized notecards providing sequenced animations for DRD furniture
+
+- [DRD Joint Coffee Shop Trashed Seating Set](https://github.com/missyrestless/AVsequences/tree/main/Trashed_Seating)
+
 ### Customized autoplay script and notecards providing sequenced animations for Ever Green furniture
 
 - [Ever Green Fields of Lavender Hanging Chair](https://github.com/missyrestless/AVsequences/tree/main/Ever_Green_Hanging_Chair)
