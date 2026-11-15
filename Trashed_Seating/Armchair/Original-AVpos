@@ -1,0 +1,264 @@
+--✄--COPY BELOW INTO "AVpos" NOTECARD--✄--
+
+"DRD- CS - THE JOINT COFFEE SHOP - ARMCHAIR - POETRY - ADULT " AVsitter 2.1
+
+ETYPE 2
+
+SITTER 0|Female|F
+
+TOMENU GALS
+TOMENU LOUNGE
+TOMENU ADULT
+
+MENU GALS
+POSE She Smokes|Smoking Female
+POSE She Tokes|Sit_Smoke_F
+POSE She Drinks|[RNP] Sit 'n Drink #8 - Female - 39 seconds
+POSE She Sips|[RNP] Sit 'n Drink #9 - Female - 37 seconds
+POSE She Jams|[RNP] Listening music_Mirror #1
+POSE She Figures|F ChairSitSingleRight6
+POSE She Thinks|F LoversCouchSingles4
+POSE She Diverts|F LoversCouchSingles6
+POSE Smoke Break|sc.six
+POSE Goof Off|sc.two
+
+MENU LOUNGE
+SYNC Nodd Off|[RNP] Funny Sleep #6_Male_Toilet_Short Loop
+SYNC Play|F DCC7
+SYNC Kneel|F DCC8
+SYNC Talk Talk|F ChairCudd2
+SYNC Whisper|F ChairCudd3
+SYNC Swoon|F ChairCudd4
+SYNC Hang On|F LoversCouchCuddles1
+SYNC Grip Her|F LoversCouchCuddles2
+SYNC Connect|F LoversCouchCuddles3
+SYNC Tucked|F LoversCouchCuddles4
+SYNC Adore Her|F LoversCouchCuddles5
+SYNC Hold Her|F LoversCouchCuddles8
+
+MENU ADULT
+TOMENU TEASE|V
+TOMENU FUCK|V
+
+MENU TEASE|V
+SYNC Finger Her|F LoversCouchAdult1
+SYNC Taste Her|F 1ChairAdt1
+SYNC Tongue Her|F 1ChairAdt2
+SYNC Work Her|F LoversCouchAdult3
+SYNC ↔ Eat Her|F DCCA3
+SYNC Stroke Him|Chaired-3K-F
+SYNC Suck Him|Chaired-3L-F
+SYNC Swallow Him|Chaired-3M-F
+SYNC Work Him|F 1ChairAdt3
+SYNC ↔ Rub Out|F DCCA10
+
+MENU FUCK|V
+SYNC ↔ Pin Her|F DCCA6
+SYNC ↔ Fuck Him|F DCCA7
+SYNC Ramp Him|F 1ChairAdt4
+SYNC His Lap|F 1ChairAdt5
+SYNC Ride Him|F 2ChairAdt1
+SYNC Behind Her|F 2ChairAdt2
+SYNC Bend Over|F 2ChairAdt3
+SYNC Scissor|F 2ChairAdt4
+SYNC Dog Her|F 2ChairAdt5
+SYNC Bang Her|F LoversCouchAdult4
+SYNC Mount Her|F LoversCouchAdult6
+SYNC Facial|F LoversCouchAdult10
+{She Smokes}<-0.002,-0.323,0.375><12,0,-90>
+{She Tokes}<0.141,-0.45,0.78><0.8,-0.3,-108>
+{She Drinks}<-0.002,-0.386,0.839><3,0,-90>
+{She Sips}<-0.002,-0.386,0.839><3,0,-90>
+{She Jams}<0.443,0.164,0.465><0.6,0.5,-49>
+{She Figures}<0.114,-0.22,0.438><0,0,-90>
+{She Thinks}<0.002,-0.003,0.458><0,0,-96>
+{She Diverts}<0.064,0.026,0.44><0,0,-90>
+{Smoke Break}<-0.098,-0.087,0.871><0,-5,180>
+{Goof Off}<-0.155,-0.087,0.951><0,-18,180>
+{Nodd Off}<-0.29,-0.081,0.672><5.7,-14.2,22.9>
+{Play}<0.356,0.205,0.485><0,0,-90>
+{Kneel}<0.335,0.008,0.481><0,0,-90>
+{Talk Talk}<0.048,-0.44,0.47><0,0,-90>
+{Whisper}<0.073,-0.309,0.491><0,0,-90>
+{Swoon}<0.073,-0.42,0.533><0,0,-90>
+{Hang On}<0.317,-0.002,0.492><0,0,-90>
+{Grip Her}<0.307,0.134,0.563><0,0,-90>
+{Connect}<0.255,0.174,0.528><0,0,-90>
+{Tucked}<0.257,0.107,0.472><0,0,-90>
+{Adore Her}<0.264,0.148,0.441><0,0,-77>
+{Hold Her}<0.192,0.111,0.441><0,0,-79>
+{Finger Her}<0.239,0.245,0.519><0,0,-90>
+{Taste Her}<0.05,-0.458,0.649><0,0,85>
+{Tongue Her}<0.03,-0.32,0.72><0,0,90>
+{Work Her}<-0.074,0.051,0.601><0,0,-85>
+{↔ Eat Her}<0.401,-0.053,0.555><0,0,-112>
+{Stroke Him}<0.112,-0.352,0.847><0,0,-90>
+{Suck Him}<0.128,-0.324,0.862><0,0,-90>
+{Swallow Him}<0.108,-0.233,0.863><0,0,-90>
+{Work Him}<0.028,-0.487,0.745><0,0,90>
+{↔ Rub Out}<0.33,0.067,0.446><0,0,-112>
+{↔ Pin Her}<0.061,0.103,0.575><0,10,-90>
+{↔ Fuck Him}<0.386,-0.037,0.522><0,0,-90>
+{Ramp Him}<0.044,-0.32,0.734><0,0,90>
+{His Lap}<0.044,-0.391,0.705><0,0,90>
+{Ride Him}<0.031,-0.332,0.768><0,0,90>
+{Behind Her}<0.003,-0.483,0.679><0,0,90>
+{Bend Over}<0.045,-0.506,0.693><0,0,90>
+{Scissor}<0.068,-0.32,0.75><0,0,90>
+{Dog Her}<-0.007,-0.464,0.731><0,0,90>
+{Bang Her}<0.248,0.157,0.664><0,0,-87>
+{Mount Her}<-0.284,-0.584,0.602><0,0,-18>
+{Facial}<0.128,0.196,0.583><0,0,-90>
+PROP1 She Smokes|DRD Joint (left hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>
+PROP1 She Tokes|DRD Joint (right hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, -0.000001>
+PROP1 She Jams|DRD Joint (mouth)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000005>
+PROP1 Nodd Off|DRD Joint (left hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>
+PROP1 Play|DRD Joint (left hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>
+PROP1 Kneel|DRD Joint (left hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>
+PROP1 Talk Talk|DRD Joint (left hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>
+PROP1 Swoon|DRD Joint (right hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, -0.000001>
+PROP1 Hang On|DRD Joint (right hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, -0.000001>
+PROP1 Grip Her|DRD Joint (mouth)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000005>
+PROP1 Connect|DRD Joint (left hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>
+PROP1 Tucked|DRD Joint (right hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, -0.000001>
+PROP1 Adore Her|DRD Joint (left hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>
+PROP1 Hold Her|DRD Joint (left hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>
+PROP1 She Figures|DRD Joint (right hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>
+PROP1 She Thinks|DRD Joint (left hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>
+PROP1 She Diverts|DRD Joint (left hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>
+PROP1 Smoke Break|DRD Joint (left hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000001>
+PROP1 She Drinks|DRD Soda Can Red (right hand)|G1|<0.000000, 0.000000, 1.000000>|<-0.000001, 0.000000, 0.000001>
+PROP1 She Sips|DRD Soda Can Red (right hand)|G1|<0.000000, 0.000000, 1.000000>|<-0.000001, 0.000000, 0.000001>
+
+SITTER 1|Male|M
+
+TOMENU GUYS
+TOMENU LOUNGE
+TOMENU ADULT
+
+MENU GUYS
+POSE He Abides|M LoversCouchSingles1
+POSE He Smokes|Smoking Male
+POSE He Tokes|Smoke Break
+POSE He Jams|[RNP] Listening music #1
+POSE He Waits|M ChairSitSingleLeft1
+POSE He Watches|M ChairSitSingleLeft2
+POSE He Slumps|M ChairSitSingleLeft8
+POSE He Decides|M LoversCouchSingles4
+POSE He Ponders|M LoversCouchSingles5
+POSE He Chills|mn2-5
+
+MENU LOUNGE
+SYNC Nodd Off|[RNP] Funny Sleep #3_Male_Bench_Short Loop
+SYNC Play|M DCC7
+SYNC Kneel|M DCC8
+SYNC Talk Talk|M ChairCudd2
+SYNC Whisper|M ChairCudd3
+SYNC Swoon|M ChairCudd4
+SYNC Hang On|M LoversCouchCuddles1
+SYNC Grip Her|M LoversCouchCuddles2
+SYNC Connect|M LoversCouchCuddles3
+SYNC Tucked|M LoversCouchCuddles4
+SYNC Adore Her|M LoversCouchCuddles5
+SYNC Hold Her|M LoversCouchCuddles8
+
+MENU ADULT
+TOMENU TEASE|V
+TOMENU FUCK|V
+
+MENU TEASE|V
+SYNC Finger Her|M LoversCouchAdult1
+SYNC Taste Her|M 1ChairAdt1
+SYNC Tongue Her|M 1ChairAdt2
+SYNC Work Her|M LoversCouchAdult3
+SYNC ↔ Eat Her|M DCCA3
+SYNC Stroke Him|Chaired-3K-M
+SYNC Suck Him|Chaired-3L-M
+SYNC Swallow Him|Chaired-3M-M
+SYNC Work Him|M 1ChairAdt3
+SYNC ↔ Rub Out|M DCCA10
+
+MENU FUCK|V
+SYNC ↔ Pin Her|M DCCA6
+SYNC ↔ Fuck Him|M DCCA7
+SYNC Ramp Him|M 1ChairAdt4
+SYNC His Lap|M 1ChairAdt5
+SYNC Ride Him|M 2ChairAdt1
+SYNC Behind Her|M 2ChairAdt2
+SYNC Bend Over|M 2ChairAdt3
+SYNC Scissor|M 2ChairAdt4
+SYNC Dog Her|M 2ChairAdt5
+SYNC Bang Her|M LoversCouchAdult4
+SYNC Mount Her|M LoversCouchAdult6
+SYNC Facial|M LoversCouchAdult10
+{He Abides}<0.063,0.052,0.419><0,0,-90>
+{He Smokes}<-0.421,-0.588,-0.15><0,0,-56>
+{He Tokes}<0.028,-0.107,0.878><0,0,-90>
+{He Jams}<-0.431,0.173,0.489><0,0,-119>
+{He Waits}<0.002,-0.087,0.388><0,0,-90>
+{He Watches}<0.003,-0.127,0.354><0,0,-90>
+{He Slumps}<0.017,0.015,0.351><0,0,-90>
+{He Decides}<0.183,0.289,0.42><0,0,-90>
+{He Ponders}<0.165,0.298,0.438><0,0,-90>
+{He Chills}<-0.158,-0.043,1.094><0,0,-40>
+{Nodd Off}<-0.02,0.778,1.74><0,0,-73>
+{Play}<-0.114,0.184,0.447><0,0,-90>
+{Kneel}<-0.135,0.008,0.425><0,0,-90>
+{Talk Talk}<0.018,-0.204,0.344><0,0,-90>
+{Whisper}<0.043,-0.097,0.354><0,0,-90>
+{Swoon}<0.05,-0.174,0.386><0,0,-90>
+{Hang On}<-0.154,-0.002,0.417><0,0,-90>
+{Grip Her}<-0.163,0.134,0.474><0,0,-90>
+{Connect}<-0.202,0.174,0.457><0,0,-90>
+{Tucked}<-0.213,0.107,0.447><0,0,-90>
+{Adore Her}<-0.194,0.042,0.441><0,0,-77>
+{Hold Her}<-0.267,-0.002,0.441><0,0,-79>
+{Finger Her}<-0.157,0.211,0.427><0,0,-90>
+{Taste Her}<0.02,-0.803,0.649><0,0,85>
+{Tongue Her}<0.03,-0.667,0.673><0,0,90>
+{Work Her}<-0.439,0.019,0.558><0,0,-85>
+{↔ Eat Her}<-0.035,0.123,0.555><0,0,-112>
+{Stroke Him}<-0.017,-0.808,0.953><0,0,90>
+{Suck Him}<-0.011,-0.78,0.967><0,0,90>
+{Swallow Him}<-0.02,-0.689,0.968><0,0,90>
+{Work Him}<0.028,-0.834,0.643><0,0,90>
+{↔ Rub Out}<-0.106,0.243,0.446><0,0,-112>
+{↔ Pin Her}<-0.325,0.103,0.645><0,10,-90>
+{↔ Fuck Him}<-0.085,-0.037,0.522><0,0,-90>
+{Ramp Him}<0.044,-0.667,0.663><0,0,90>
+{His Lap}<0.044,-0.738,0.637><0,0,90>
+{Ride Him}<0.031,-0.679,0.768><0,0,90>
+{Behind Her}<0.003,-0.83,0.679><0,0,90>
+{Bend Over}<0.045,-0.853,0.627><0,0,90>
+{Scissor}<0.068,-0.667,0.643><0,0,90>
+{Dog Her}<-0.007,-0.811,0.679><0,0,90>
+{Bang Her}<-0.221,0.133,0.572><0,0,-87>
+{Mount Her}<-0.428,-1.031,0.551><0,0,-18>
+{Facial}<-0.342,0.196,0.51><0,0,-90>
+PROP1 He Abides|DRD Joint (mouth)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000005>
+PROP1 He Smokes|DRD Joint (left hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>
+PROP1 He Tokes|DRD Joint (right hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, -0.000001>
+PROP1 He Jams|DRD Joint (mouth)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000005>
+PROP1 Nodd Off|DRD Joint (left hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>
+PROP1 Play|DRD Joint (right hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, -0.000001>
+PROP1 Kneel|DRD Joint (right hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, -0.000001>
+PROP1 Talk Talk|DRD Joint (right hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, -0.000001>
+PROP1 Whisper|DRD Joint (right hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, -0.000001>
+PROP1 Hang On|DRD Joint (left hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>
+PROP1 Grip Her|DRD Joint (mouth)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000005>
+PROP1 Connect|DRD Joint (right hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, -0.000001>
+PROP1 Tucked|DRD Joint (right hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, -0.000001>
+PROP1 Adore Her|DRD Joint (left hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>
+PROP1 He Waits|DRD Joint (mouth)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000005>
+PROP1 He Watches|DRD Joint (mouth)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000005>
+PROP1 He Slumps|DRD Joint (mouth)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000005>
+PROP1 He Remains|DRD Joint (mouth)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000005>
+PROP1 He Decides|DRD Joint (mouth)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000005>
+PROP1 He Ponders|DRD Joint (left hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000000>
+PROP1 He Chills|DRD Joint (left hand)|G1|<0.000000, 0.000000, 1.000000>|<0.000000, 0.000000, 0.000001>
+
+--✄--COPY ABOVE INTO "AVpos" NOTECARD--✄--
+
+
+
+end

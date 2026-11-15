@@ -1,25 +1,88 @@
 # AVsitter Sequence for the Mesh Shop Aurora Boat
 
-This folder contains the `AVpos` and `[AV]sequence_settings` notecards for use
-with the `AVsitter2` plugin `[AV]sequence` to provide animation sequences for
-the Mesh Shop Aurora Boat dialog menus. In addition, since the Aurora is delivered
-with `AVsitter1` scripts and `[AV]sequence` requires `AVsitter2`, the necessary
-`AVsitter2` scripts are provided as replacements and additions.
+The Mesh Shop Aurora is one of the finest boats in Second Life, a 33 foot open powerboat
+with a top speed of 50 knots. However, the TMS Aurora is delivered with `AVsitter1` scripts.
+In March of 2014 `AVsitter2` was released. This newer version of the pose system
+provides many enhancements, bug fixes, and features as well as stability and optimization
+improvements. Of particular importance to sailors, `AVsitter2` improves stability
+of seated passengers across region crossings.
 
-This `AVsitter2` customization allows greater freedom of personal interaction on the boat,
-eliminating the need to navigate dialog menus during moments of intimacy or relaxation.
-In addition, upgrading your boat from AVsitter1 to AVsitter2 greatly improves the quality,
-stability, and convenience of your boat's seats. Many bug fixes and enhancemants are
-included in AVsitter2 including greater resiliency when crossing region boundaries.
+This repository contains the `AVpos` notecard and the necessary `AVsitter2` scripts to
+upgrade the TMS Aurora from `AVsitter1` to `AVsitter2`. In addition, and optionally, the
+repository also contains an `[AV]sequence_settings` notecard for use with the `AVsitter2`
+plugin `[AV]sequence` to provide animation sequences for the TMS Aurora dialog menus.
 
-**[Note:]** AVsitter2 was first released in March of 2014. These older AVsitter1 scripts
-continue to work and an upgrade to AVsitter2 is not necessary unless you wish to take
+**[Note:]** `AVsitter2` was first released in March of 2014. These older `AVsitter1` scripts
+continue to work and an upgrade to `AVsitter2` is not necessary unless you wish to take
 advantage of the new features, bug fixes, and stability improvements. The Mesh Shop Aurora
-and many other popular boats in Second Life are delivered by default with AVsitter1 scripts
+and many other popular boats in Second Life are delivered by default with `AVsitter1` scripts
 that were last updated prior to 2014. The Truth &amp; Beauty Lab provides enhanced and
-optimized AVsitter2 scripts that can easily replace the archaic AVsitter1 scripts in your boats.
+optimized `AVsitter2` scripts that can easily replace the archaic `AVsitter1` scripts in your boats.
 
-## Menus
+## Table of Contents
+
+- [Download the AVsitter2 scripts](#download-the-avsitter2-scripts)
+- [AVsitter2 Upgrade Steps](#avsitter2-upgrade-steps)
+- [Adding Sequences](#adding-sequences)
+  - [Sequence Menus](#sequence-menus)
+  - [Download the script and customized notecards](#download-the-script-and-customized-notecards)
+  - [Sequences Setup](#sequences-setup)
+  - [Auto Play Sequence](#auto-play-sequence)
+
+## Download the AVsitter2 scripts
+
+To upgrade your Aurora to `AVsitter2`, download the optimized `[AV]sitA` and `[AV]sitB` scripts:
+
+```bash
+wget -q -O '[AV]sitA' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Aurora_Boat/AVsitA.lslo
+wget -q -O '[AV]sitB' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Aurora_Boat/AVsitB.lslo
+```
+
+If you are going to be setting up and configuring new poses, positions, and props for your boat,
+then download the `[AV]adjuster` script:
+
+```bash
+wget -q -O '[AV]adjuster' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Aurora_Boat/AVadjuster.lslo
+```
+
+## AVsitter2 Upgrade Steps
+
+To upgrade a Mesh Shop Aurora to `AVsitter2`:
+
+- Right click the boat and select `Edit`
+- Select the Contents tab in the Edit window
+- Delete the AVsitter1 scripts
+  - The AVsitter1 scripts are `AVsit`, `AVsit 1`, `AVsit 2`, and `AVsit 3`
+  - Delete the AVsitter1 scripts from the Contents tab of the Edit window
+- Add the AVsitter2 scripts to the Contents tab of the Edit window
+  - Make copies of both the `[AV]sitA` and `[AV]sitB` scripts and name them:
+    - `[AV]sitA`
+    - `[AV]sitA 1`
+    - `[AV]sitA 2`
+    - `[AV]sitA 3`
+    - `[AV]sitB`
+    - `[AV]sitB 1`
+    - `[AV]sitB 2`
+    - `[AV]sitB 3`
+  - Drag and drop these 8 `[AV]sit*` scripts from your inventory into the Contents tab
+- Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
+- Close the `Edit` window
+- Right click the boat and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
+- Wait for the scripts to reset (this takes a few minutes)
+
+**[Note:]** If you are going to add new poses, positions, or props then also drag and drop
+the `[AV]adjuster` script from your inventory into the Contents tab of the Edit window.
+
+## Adding Sequences
+
+Once your boat has been upgraded to `AVsitter2` you can add animation and pose sequences
+to automate transition through a series of poses and animations. This is optional and not
+needed for an `AVsitter2` upgrade. Note that adding sequences increases the script load
+on the boat and has a slight impact on region crossings. If all you want is increased
+stability and resilience when crossing region boundaries then you can skip the addition
+of animation and pose sequences.
+
+### Sequence Menus
 
 Sequences are configured for the following menus:
 
@@ -30,15 +93,7 @@ Sequences are configured for the following menus:
 - Low n Slow Menus (first 2 sitters)
 - System Menus (1st sitter only)
 
-## Download the AVsitter2 scripts
-
-```bash
-wget -q -O '[AV]adjuster' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Aurora_Boat/AVadjuster.lslo
-wget -q -O '[AV]sitA' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Aurora_Boat/AVsitA.lslo
-wget -q -O '[AV]sitB' https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Aurora_Boat/AVsitB.lslo
-```
-
-## Download the script and customized notecards
+### Download the script and customized notecards
 
 Download the `[AV]sequence` plugin script:
 
@@ -55,28 +110,18 @@ wget -q -O '[AV]sequence_settings' https://raw.githubusercontent.com/missyrestle
 Download the customized `AVpos` notecard:
 
 ```bash
-wget -q https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Aurora_Boat/AVpos
+wget -q -O AVpos https://raw.githubusercontent.com/missyrestless/AVsequences/refs/heads/main/Aurora_Boat/AVpos-sequences
 ```
 
-## Setup
+### Sequences Setup
 
 To configure a Mesh Shop Aurora Boat with AVsitter sequences:
 
 - Right click the boat and select `Edit`
 - Select the Contents tab in the Edit window
-- Replace the AVsitter1 scripts with the AVsitter2 scripts previously downloaded
-  - Make copies of both the `[AV]sitA` and `[AV]sitB` scripts and name them:
-    - `[AV]sitA`
-    - `[AV]sitA 1`
-    - `[AV]sitA 2`
-    - `[AV]sitA 3`
-    - `[AV]sitB`
-    - `[AV]sitB 1`
-    - `[AV]sitB 2`
-    - `[AV]sitB 3`
 - Copy the `[AV]sequence_settings` notecard into the Contents tab
 - Copy the `[AV]sequence` plugin script into the Contents tab
-- Replace the `AVpos` notecard in the Contents tab with the `AVpos` notecard found in this folder
+- Replace the `AVpos` notecard in the Contents tab with the `AVpos-sequences` notecard found in this folder
 - Close the `Edit` window
 - Right click the boat and select `More` -> `More` -> `Scripts` -> `Reset Scripts`
 - Wait for the scripts to reset (this takes a few minutes)

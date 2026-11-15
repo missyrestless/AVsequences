@@ -5,13 +5,8 @@ POSE home skip|standing
 TOMENU SINGLE
 TOMENU COUPLE
 TOMENU SYSTEM
-SEQUENCE ►SOLO
-SEQUENCE ►CUDDLE
-SEQUENCE ►SYSTEM
 
 MENU SINGLE
-SEQUENCE ►SOLO
-SEQUENCE ►SYSTEM
 POSE Couch 1|Armchair 1
 POSE Couch 2|Armchair 2
 POSE Couch 3|Armchair 3
@@ -51,11 +46,8 @@ TOMENU Cuddle
 TOMENU Foreplay
 TOMENU Low n Slow
 TOMENU Hardcore
-SEQUENCE ►SOLO
-SEQUENCE ►CUDDLE
 
 MENU Cuddle
-SEQUENCE ►CUDDLE
 SYNC Cuddle 1|X Cuddle Flat 1
 SYNC Cuddle 2|X Cuddle Flat 4
 SYNC Cuddle 3|X Cuddle Flat 5
@@ -66,7 +58,6 @@ SYNC Cuddle 7|X Cuddle Flat 2
 SYNC Cuddle 8|X Cuddle Flat 3
 
 MENU Foreplay
-SEQUENCE ►FOREPLAY
 SYNC Blow 1|DBbj M2
 SYNC Blow 2|DBbj M3
 SYNC Blow 3|DBbj M5
@@ -79,7 +70,6 @@ SYNC Lick 4|DBlk M7
 SYNC Lick 5|DBlk M8
 
 MENU Low n Slow
-SEQUENCE ►LOWnSLOW
 SYNC Face 1|DBF M1
 SYNC Face 2|DBF M2
 SYNC Face 3|DBF M5
@@ -92,7 +82,6 @@ SYNC Ride 4|DBR M7
 SYNC Ride 5|DBR M8
 
 MENU Hardcore
-SEQUENCE ►HARDCORE
 SYNC Dog 1|DBBk M1
 SYNC Dog 2|DBBk M4
 SYNC Dog 3|DBBk M6
@@ -105,7 +94,6 @@ SYNC Rough 4|DBRo M7
 SYNC Rough 5|DBRo M8
 
 MENU SYSTEM
-SEQUENCE ►SYSTEM
 POSE stand helm|standing
 POSE stand helm right|standingR
 POSE stand helm left|standingL
@@ -200,11 +188,8 @@ POSE home crew|homecrew
 POSE home crew 2|homecrew2
 TOMENU SINGLE
 TOMENU COUPLE
-SEQUENCE ►SOLO
-SEQUENCE ►CUDDLE
 
 MENU SINGLE
-SEQUENCE ►SOLO
 POSE Couch 1|Armchair 1
 POSE Couch 2|Armchair 2
 POSE Couch 3|Armchair 3
@@ -246,7 +231,6 @@ TOMENU Low n Slow
 TOMENU Hardcore
 
 MENU Cuddle
-SEQUENCE ►CUDDLE
 SYNC Cuddle 1|Y Cuddle Flat 1
 SYNC Cuddle 2|Y Cuddle Flat 4
 SYNC Cuddle 3|Y Cuddle Flat 5
@@ -257,7 +241,6 @@ SYNC Cuddle 7|Y Cuddle Flat 2
 SYNC Cuddle 8|Y Cuddle Flat 3
 
 MENU Foreplay
-SEQUENCE ►FOREPLAY
 SYNC Blow 1|DBbj F2
 SYNC Blow 2|DBbj F3
 SYNC Blow 3|DBbj F5
@@ -270,7 +253,6 @@ SYNC Lick 4|DBlk F7
 SYNC Lick 5|DBlk F8
 
 MENU Low n Slow
-SEQUENCE ►LOWnSLOW
 SYNC Face 1|DBF F1
 SYNC Face 2|DBF F2
 SYNC Face 3|DBF F5
@@ -283,7 +265,6 @@ SYNC Ride 4|DBR F7
 SYNC Ride 5|DBR F8
 
 MENU Hardcore
-SEQUENCE ►HARDCORE
 SYNC Dog 1|DBBk F1
 SYNC Dog 2|DBBk F4
 SYNC Dog 3|DBBk F6
@@ -369,7 +350,6 @@ SYNC Rough 5|DBRo F8
 {Rough 5}<-0.535060, 0.034180, 1.355600><0.001570, -7.000000, -179.971900>
 
 SITTER 2|
-SEQUENCE ►SOLO
 POSE Couch 1|Armchair 1
 POSE Couch 2|Armchair 2
 POSE Couch 3|Armchair 3
@@ -438,7 +418,6 @@ POSE Jump 2|Jump 2
 {Jump 2}<-3.203860, -0.070250, 1.296080><0.000000, 0.000000, 0.000000>
 
 SITTER 3|
-SEQUENCE ►SOLO
 POSE Couch 1|Armchair 2
 POSE Couch 2|Armchair 1
 POSE Couch 3|Armchair 3
