@@ -157,6 +157,10 @@ The following custom sequenced animations are available on the Second Life Marke
 
 - [Everfaery Glimmerveil Dreambed](https://github.com/missyrestless/AVsequences/tree/main/Everfaery_Glimmer_Bed)
 
+### Customized autoplay script and notecards providing sequenced animations for GeckoGames furniture
+
+- [GeckoGames Game Table](https://github.com/missyrestless/AVsequences/tree/main/Game_Table)
+
 ### Customized autoplay script and notecards providing sequenced animations for Good Moaning furniture
 
 - [Good Moaning Hurricane Chair](https://github.com/missyrestless/AVsequences/tree/main/Hurricane_Chair)
