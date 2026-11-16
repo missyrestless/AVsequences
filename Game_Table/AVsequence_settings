@@ -1,0 +1,84 @@
+SEQUENCE 🩷 ►F Cycle
+PLAY 🩷 Female 1
+WAIT 90
+PLAY 🩷 Female 2
+WAIT 90
+PLAY 🩷 Female 3
+WAIT 90
+PLAY 🩷 Female 4
+WAIT 90
+PLAY 🩷 Female 5
+WAIT 90
+PLAY 🩷 Female 6
+WAIT 90
+PLAY 🩷 Female 7
+WAIT 90
+PLAY 🩷 Female 8
+WAIT 90
+PLAY 🩷 Female 9
+WAIT 90
+PLAY 🩷 Female 10
+WAIT 90
+PLAY 🩷 Female 11
+WAIT 90
+PLAY 🩷 Female 12
+WAIT 90
+PLAY 🩷 Female 13
+WAIT 90
+PLAY 🩷 Female 14
+WAIT 90
+LOOP
+
+SEQUENCE 🩵 ►M Cycle
+PLAY 🩵 Male 1
+WAIT 90
+PLAY 🩵 Male 2
+WAIT 90
+PLAY 🩵 Male 3
+WAIT 90
+PLAY 🩵 Male 4
+WAIT 90
+PLAY 🩵 Male 5
+WAIT 90
+PLAY 🩵 Male 6
+WAIT 90
+PLAY 🩵 Male 7
+WAIT 90
+PLAY 🩵 Male 8
+WAIT 90
+PLAY 🩵 Male 9
+WAIT 90
+PLAY 🩵 Male 10
+WAIT 90
+PLAY 🩵 Male 11
+WAIT 90
+PLAY 🩵 Male 12
+WAIT 90
+PLAY 🩵 Male 13
+WAIT 90
+PLAY 🩵 Male 14
+WAIT 90
+LOOP
+
+SEQUENCE 💛 ►B Cycle
+PLAY 💛 Pose 1
+WAIT 90
+PLAY 💛 Pose 2
+WAIT 90
+PLAY 💛 Pose 3
+WAIT 90
+PLAY 💛 Pose 4
+WAIT 90
+PLAY 💛 Pose 5
+WAIT 90
+PLAY 💛 Pose 6
+WAIT 90
+PLAY 💛 Pose 7
+WAIT 90
+PLAY 💛 Pose 8
+WAIT 90
+PLAY 💛 Pose 9
+WAIT 90
+PLAY 💛 Pose 10
+WAIT 90
+LOOP
